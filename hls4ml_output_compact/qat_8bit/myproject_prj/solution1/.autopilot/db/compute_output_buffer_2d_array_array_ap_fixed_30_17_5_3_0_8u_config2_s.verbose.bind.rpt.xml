@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s'" level="0">
-<item name = "Date">Sat Mar 21 19:23:20 2026
+<item name = "Date">Sun Mar 22 09:52:08 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.235 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.213 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -32,7 +32,7 @@
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
 <column name="call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122">shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s, 0, 0, 0 ns, 0 ns, 1, 1, yes</column>
-<column name="grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174">dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, yes</column>
+<column name="grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174">dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, yes</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

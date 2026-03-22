@@ -110,10 +110,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767593</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -177,12 +177,12 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>br_ln52</name>
+						<name>br_ln25</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -194,16 +194,16 @@
 									<item class_id="13" tracking_level="0" version="0">
 										<first class_id="14" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -243,9 +243,9 @@
 						<name>indvar_flatten_load</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -257,16 +257,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -282,7 +282,7 @@
 						<coreId>539767593</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -304,12 +304,12 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>icmp_ln52</name>
+						<name>icmp_ln25</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -321,16 +321,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -359,7 +359,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -368,12 +368,12 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>add_ln52</name>
+						<name>add_ln25</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -385,16 +385,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -410,7 +410,7 @@
 						<coreId>1746938918</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -423,7 +423,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -432,12 +432,12 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>br_ln52</name>
+						<name>br_ln25</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -449,16 +449,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -500,9 +500,9 @@
 						<name>layer24_out_read</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>58</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>32</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -514,16 +514,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>58</second>
+										<second>32</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -553,7 +553,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.75</m_delay>
-				<m_topoIndex>8</m_topoIndex>
+				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_11">
@@ -561,12 +561,12 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>trunc_ln58</name>
+						<name>trunc_ln32</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>58</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>32</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -578,16 +578,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>58</second>
+										<second>32</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -600,7 +600,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1746938918</coreId>
+						<coreId>1702390118</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -616,7 +616,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>9</m_topoIndex>
+				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_12">
@@ -624,12 +624,12 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>trunc_ln58_s</name>
+						<name>trunc_ln32_s</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>58</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>32</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -641,16 +641,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>58</second>
+										<second>32</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -663,7 +663,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043341356</coreId>
+						<coreId>1885413420</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>10</m_topoIndex>
+				<m_topoIndex>11</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_13">
@@ -690,12 +690,12 @@
 					<Obj>
 						<type>0</type>
 						<id>46</id>
-						<name>_ln58</name>
+						<name>_ln32</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>58</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>32</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -707,16 +707,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>58</second>
+										<second>32</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -774,7 +774,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>11</m_topoIndex>
+				<m_topoIndex>12</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_14">
@@ -782,12 +782,12 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>indvar_flatten_write_ln52</name>
+						<name>indvar_flatten_write_ln25</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>25</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -799,16 +799,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>52</second>
+										<second>25</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -840,7 +840,7 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.42</m_delay>
-				<m_topoIndex>12</m_topoIndex>
+				<m_topoIndex>8</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 			<item class_id_reference="9" object_id="_15">
@@ -848,12 +848,12 @@
 					<Obj>
 						<type>0</type>
 						<id>48</id>
-						<name>br_ln54</name>
+						<name>br_ln27</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32</fileDirectory>
-						<lineNumber>54</lineNumber>
-						<contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+						<lineNumber>27</lineNumber>
+						<contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -865,16 +865,16 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-											<second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+											<second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>54</second>
+										<second>27</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
 											<second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
 										</first>
-										<second>78</second>
+										<second>76</second>
 									</item>
 								</second>
 							</item>
@@ -887,7 +887,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544106345</coreId>
+						<coreId>539767593</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -943,7 +943,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>807414835</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1019,10 +1019,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793632</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -1050,7 +1050,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740979827</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -1143,13 +1143,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>712274798</coreId>
+						<coreId>740979827</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>6248</content>
+				<content>1452</content>
 			</item>
 			<item class_id_reference="16" object_id="_23">
 				<Value>
@@ -1174,10 +1174,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>744320609</coreId>
+						<coreId>712274798</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -1208,7 +1208,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>807414835</coreId>
+					<coreId>941632574</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -1293,7 +1293,7 @@
 				<Obj>
 					<type>3</type>
 					<id>51</id>
-					<name>_ZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEENS1_IS2_ILi38ELi18ELS3_5ELS4_3ELi0EELj8EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.43.exit</name>
+					<name>_ZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEENS1_IS2_ILi38ELi18ELS3_5ELS4_3ELi0EELj8EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.36.exit</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -1748,8 +1748,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>18747</mMinLatency>
-			<mMaxLatency>18747</mMaxLatency>
+			<mMinLatency>4359</mMinLatency>
+			<mMaxLatency>4359</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -1793,10 +1793,10 @@
 			</basic_blocks>
 			<mII>3</mII>
 			<mDepth>5</mDepth>
-			<mMinTripCount>6248</mMinTripCount>
-			<mMaxTripCount>6248</mMaxTripCount>
-			<mMinLatency>18745</mMinLatency>
-			<mMaxLatency>18745</mMaxLatency>
+			<mMinTripCount>1452</mMinTripCount>
+			<mMaxTripCount>1452</mMaxTripCount>
+			<mMinLatency>4357</mMinLatency>
+			<mMaxLatency>4357</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -1909,7 +1909,7 @@
 		<item>
 			<first>47</first>
 			<second>
-				<first>1</first>
+				<first>0</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -1948,7 +1948,7 @@
 		<item>
 			<first>49</first>
 			<second>
-				<first>2</first>
+				<first>1</first>
 				<second>5</second>
 			</second>
 		</item>

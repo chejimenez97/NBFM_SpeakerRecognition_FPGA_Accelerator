@@ -17,6 +17,7 @@ dependencies:
   - widgetsnbextension==3.6.0
   - pip==23.0.1
   - matplotlib
+  - librosa
   - pip:
       - hls4ml[profiling,sr,qkeras]==1.2.0
       - conifer==1.5

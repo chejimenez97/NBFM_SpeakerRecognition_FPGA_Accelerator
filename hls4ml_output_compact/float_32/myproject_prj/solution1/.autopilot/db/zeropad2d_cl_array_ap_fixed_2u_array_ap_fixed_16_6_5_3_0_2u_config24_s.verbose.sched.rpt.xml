@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'" level="0">
-<item name = "Date">Sat Mar 21 19:14:39 2026
+<item name = "Date">Sun Mar 22 09:45:08 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 2.750 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 1.750 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">17501, 17501, 87.505 us, 87.505 us, 17501, 17501, no</column>
+<column name="">1465, 1465, 7.325 us, 7.325 us, 1465, 1465, no</column>
 </table>
 </item>
 <item name = "Detail">

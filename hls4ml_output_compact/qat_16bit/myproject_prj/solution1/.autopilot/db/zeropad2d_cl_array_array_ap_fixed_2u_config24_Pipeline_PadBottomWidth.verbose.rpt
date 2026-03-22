@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth'
 ================================================================
-* Date:           Sat Mar 21 19:19:27 2026
+* Date:           Sun Mar 22 09:49:03 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      286|      286|  1.430 us|  1.430 us|  286|  286|       no|
+    |       68|       68|  0.340 us|  0.340 us|   68|   68|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |                  |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |     Loop Name    |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- PadBottomWidth  |      284|      284|         2|          1|          1|   284|       yes|
+        |- PadBottomWidth  |       66|       66|         2|          1|          1|    66|       yes|
         +------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -54,14 +54,14 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|      36|    -|
+|Expression       |        -|     -|       0|      32|    -|
 |FIFO             |        -|     -|       -|       -|    -|
 |Instance         |        -|     -|       -|       -|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       -|      45|    -|
-|Register         |        -|     -|      12|       -|    -|
+|Register         |        -|     -|      10|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|      12|      81|    0|
+|Total            |        0|     0|      10|      77|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |      288|  1248|  234240|  117120|   64|
 +-----------------+---------+------+--------+--------+-----+
@@ -85,12 +85,12 @@
     +---------------------------+----------+----+---+----+------------+------------+
     |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------+----------+----+---+----+------------+------------+
-    |j_12_fu_58_p2              |         +|   0|  0|  16|           9|           1|
+    |j_9_fu_58_p2               |         +|   0|  0|  14|           7|           1|
     |ap_block_pp0_stage0_01001  |       and|   0|  0|   2|           1|           1|
-    |icmp_ln77_fu_52_p2         |      icmp|   0|  0|  16|           9|           9|
+    |icmp_ln77_fu_52_p2         |      icmp|   0|  0|  14|           7|           7|
     |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
     +---------------------------+----------+----+---+----+------------+------------+
-    |Total                      |          |   0|  0|  36|          20|          13|
+    |Total                      |          |   0|  0|  32|          16|          11|
     +---------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -99,11 +99,11 @@
     +-------------------------+----+-----------+-----+-----------+
     |ap_done_int              |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
-    |ap_sig_allocacmp_j       |   9|          2|    9|         18|
-    |j_4_fu_32                |   9|          2|    9|         18|
+    |ap_sig_allocacmp_j       |   9|          2|    7|         14|
+    |j_2_fu_32                |   9|          2|    7|         14|
     |layer24_out_blk_n        |   9|          2|    1|          2|
     +-------------------------+----+-----------+-----+-----------+
-    |Total                    |  45|         10|   21|         42|
+    |Total                    |  45|         10|   17|         34|
     +-------------------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -113,9 +113,9 @@
     |ap_CS_fsm                |  1|   0|    1|          0|
     |ap_done_reg              |  1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
-    |j_4_fu_32                |  9|   0|    9|          0|
+    |j_2_fu_32                |  7|   0|    7|          0|
     +-------------------------+---+----+-----+-----------+
-    |Total                    | 12|   0|   12|          0|
+    |Total                    | 10|   0|   10|          0|
     +-------------------------+---+----+-----+-----------+
 
 
@@ -134,8 +134,8 @@
 |ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth|  return value|
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth|  return value|
 |layer24_out_din             |  out|   32|     ap_fifo|                                                              layer24_out|       pointer|
-|layer24_out_num_data_valid  |   in|   14|     ap_fifo|                                                              layer24_out|       pointer|
-|layer24_out_fifo_cap        |   in|   14|     ap_fifo|                                                              layer24_out|       pointer|
+|layer24_out_num_data_valid  |   in|   12|     ap_fifo|                                                              layer24_out|       pointer|
+|layer24_out_fifo_cap        |   in|   12|     ap_fifo|                                                              layer24_out|       pointer|
 |layer24_out_full_n          |   in|    1|     ap_fifo|                                                              layer24_out|       pointer|
 |layer24_out_write           |  out|    1|     ap_fifo|                                                              layer24_out|       pointer|
 +----------------------------+-----+-----+------------+-------------------------------------------------------------------------+--------------+
@@ -180,23 +180,23 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.63>
-ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j_4 = alloca i32 1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 5 'alloca' 'j_4' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_14, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 7 [1/1] (0.42ns)   --->   "%store_ln77 = store i9 0, i9 %j_4" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 7 'store' 'store_ln77' <Predicate = true> <Delay = 0.42>
+State 1 <SV = 0> <Delay = 1.62>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j_2 = alloca i32 1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 5 'alloca' 'j_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.42ns)   --->   "%store_ln77 = store i7 0, i7 %j_2" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 7 'store' 'store_ln77' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc50"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j = load i9 %j_4" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 9 'load' 'j' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.77ns)   --->   "%icmp_ln77 = icmp_eq  i9 %j, i9 284" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 10 'icmp' 'icmp_ln77' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 11 [1/1] (0.77ns)   --->   "%j_12 = add i9 %j, i9 1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 11 'add' 'j_12' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j = load i7 %j_2" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 9 'load' 'j' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.77ns)   --->   "%icmp_ln77 = icmp_eq  i7 %j, i7 66" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 10 'icmp' 'icmp_ln77' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (0.77ns)   --->   "%j_9 = add i7 %j, i7 1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 11 'add' 'j_9' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln77 = br i1 %icmp_ln77, void %for.inc50.split, void %for.end55.exitStub" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 12 'br' 'br_ln77' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 13 [1/1] (0.42ns)   --->   "%store_ln77 = store i9 %j_12, i9 %j_4" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 13 'store' 'store_ln77' <Predicate = (!icmp_ln77)> <Delay = 0.42>
+ST_1 : Operation 13 [1/1] (0.42ns)   --->   "%store_ln77 = store i7 %j_9, i7 %j_2" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 13 'store' 'store_ln77' <Predicate = (!icmp_ln77)> <Delay = 0.42>
 ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 19 'ret' 'ret_ln0' <Predicate = (icmp_ln77)> <Delay = 0.00>
 
 State 2 <SV = 1> <Delay = 1.75>
-ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln77 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_7" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 14 'specpipeline' 'specpipeline_ln77' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln77 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 284, i64 284, i64 284" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln77' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln77 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 16 'specloopname' 'specloopname_ln77' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 17 [1/1] (1.75ns)   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %layer24_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.75> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.75> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 6248> <FIFO>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln77 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 14 'specpipeline' 'specpipeline_ln77' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln77 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 66, i64 66, i64 66" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln77' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln77 = specloopname void @_ssdm_op_SpecLoopName, void @empty_17" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 16 'specloopname' 'specloopname_ln77' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (1.75ns)   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %layer24_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:78]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.75> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.75> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 1452> <FIFO>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln77 = br void %for.inc50" [firmware/nnet_utils/nnet_padding_stream.h:77]   --->   Operation 18 'br' 'br_ln77' <Predicate = true> <Delay = 0.00>
 
 
@@ -218,13 +218,13 @@ Port [ layer24_out]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0
 
 <LifeTime>
 <method=bitvector/>
-j_4                    (alloca           ) [ 010]
+j_2                    (alloca           ) [ 010]
 specinterface_ln0      (specinterface    ) [ 000]
 store_ln77             (store            ) [ 000]
 br_ln0                 (br               ) [ 000]
 j                      (load             ) [ 000]
 icmp_ln77              (icmp             ) [ 010]
-j_12                   (add              ) [ 000]
+j_9                    (add              ) [ 000]
 br_ln77                (br               ) [ 000]
 store_ln77             (store            ) [ 000]
 specpipeline_ln77      (specpipeline     ) [ 000]
@@ -270,7 +270,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="7" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_14"/></StgValue>
+<StgValue><ssdm name="empty_11"/></StgValue>
 </bind>
 </comp>
 
@@ -288,7 +288,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_7"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -369,7 +369,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="29" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_4"/></StgValue>
+<StgValue><ssdm name="empty_17"/></StgValue>
 </bind>
 </comp>
 
@@ -382,14 +382,14 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="32" class="1004" name="j_4_fu_32">
+<comp id="32" class="1004" name="j_2_fu_32">
 <pin_list>
 <pin id="33" dir="0" index="0" bw="1" slack="0"/>
-<pin id="34" dir="1" index="1" bw="9" slack="0"/>
+<pin id="34" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
-<opset="j_4/1 "/>
+<opset="j_2/1 "/>
 </bind>
 </comp>
 
@@ -409,7 +409,7 @@ ret_ln0                (ret              ) [ 000]
 <comp id="44" class="1004" name="store_ln77_store_fu_44">
 <pin_list>
 <pin id="45" dir="0" index="0" bw="1" slack="0"/>
-<pin id="46" dir="0" index="1" bw="9" slack="0"/>
+<pin id="46" dir="0" index="1" bw="7" slack="0"/>
 <pin id="47" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -420,8 +420,8 @@ ret_ln0                (ret              ) [ 000]
 
 <comp id="49" class="1004" name="j_load_fu_49">
 <pin_list>
-<pin id="50" dir="0" index="0" bw="9" slack="0"/>
-<pin id="51" dir="1" index="1" bw="9" slack="0"/>
+<pin id="50" dir="0" index="0" bw="7" slack="0"/>
+<pin id="51" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -431,8 +431,8 @@ ret_ln0                (ret              ) [ 000]
 
 <comp id="52" class="1004" name="icmp_ln77_fu_52">
 <pin_list>
-<pin id="53" dir="0" index="0" bw="9" slack="0"/>
-<pin id="54" dir="0" index="1" bw="9" slack="0"/>
+<pin id="53" dir="0" index="0" bw="7" slack="0"/>
+<pin id="54" dir="0" index="1" bw="7" slack="0"/>
 <pin id="55" dir="1" index="2" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -441,22 +441,22 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="58" class="1004" name="j_12_fu_58">
+<comp id="58" class="1004" name="j_9_fu_58">
 <pin_list>
-<pin id="59" dir="0" index="0" bw="9" slack="0"/>
+<pin id="59" dir="0" index="0" bw="7" slack="0"/>
 <pin id="60" dir="0" index="1" bw="1" slack="0"/>
-<pin id="61" dir="1" index="2" bw="9" slack="0"/>
+<pin id="61" dir="1" index="2" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="j_12/1 "/>
+<opset="j_9/1 "/>
 </bind>
 </comp>
 
 <comp id="64" class="1004" name="store_ln77_store_fu_64">
 <pin_list>
-<pin id="65" dir="0" index="0" bw="9" slack="0"/>
-<pin id="66" dir="0" index="1" bw="9" slack="0"/>
+<pin id="65" dir="0" index="0" bw="7" slack="0"/>
+<pin id="66" dir="0" index="1" bw="7" slack="0"/>
 <pin id="67" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -465,13 +465,13 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="69" class="1005" name="j_4_reg_69">
+<comp id="69" class="1005" name="j_2_reg_69">
 <pin_list>
-<pin id="70" dir="0" index="0" bw="9" slack="0"/>
-<pin id="71" dir="1" index="1" bw="9" slack="0"/>
+<pin id="70" dir="0" index="0" bw="7" slack="0"/>
+<pin id="71" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
-<opset="j_4 "/>
+<opset="j_2 "/>
 </bind>
 </comp>
 
@@ -521,7 +521,7 @@ ret_ln0                (ret              ) [ 000]
 		store_ln77 : 1
 		j : 1
 		icmp_ln77 : 2
-		j_12 : 2
+		j_9 : 2
 		br_ln77 : 3
 		store_ln77 : 3
 	State 2
@@ -535,13 +535,13 @@ ret_ln0                (ret              ) [ 000]
 |----------|------------------------|---------|---------|
 | Operation|     Functional Unit    |    FF   |   LUT   |
 |----------|------------------------|---------|---------|
-|   icmp   |     icmp_ln77_fu_52    |    0    |    16   |
+|   icmp   |     icmp_ln77_fu_52    |    0    |    14   |
 |----------|------------------------|---------|---------|
-|    add   |       j_12_fu_58       |    0    |    16   |
+|    add   |        j_9_fu_58       |    0    |    14   |
 |----------|------------------------|---------|---------|
 |   write  | write_ln15_write_fu_36 |    0    |    0    |
 |----------|------------------------|---------|---------|
-|   Total  |                        |    0    |    32   |
+|   Total  |                        |    0    |    28   |
 |----------|------------------------|---------|---------|
 
 Memories:
@@ -551,9 +551,9 @@ N/A
 +----------+--------+
 |          |   FF   |
 +----------+--------+
-|j_4_reg_69|    9   |
+|j_2_reg_69|    7   |
 +----------+--------+
-|   Total  |    9   |
+|   Total  |    7   |
 +----------+--------+
 
 * Multiplexer (MUX) list: 
@@ -569,10 +569,10 @@ N/A
 +-----------+--------+--------+
 |           |   FF   |   LUT  |
 +-----------+--------+--------+
-|  Function |    0   |   32   |
+|  Function |    0   |   28   |
 |   Memory  |    -   |    -   |
 |Multiplexer|    -   |    -   |
-|  Register |    9   |    -   |
+|  Register |    7   |    -   |
 +-----------+--------+--------+
-|   Total   |    9   |   32   |
+|   Total   |    7   |   28   |
 +-----------+--------+--------+

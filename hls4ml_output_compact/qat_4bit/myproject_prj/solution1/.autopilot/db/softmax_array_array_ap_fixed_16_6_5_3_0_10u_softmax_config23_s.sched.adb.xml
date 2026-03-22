@@ -29,9 +29,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="6" bw="0" op_0_bw="0" op_1_bw="140" op_2_bw="160" op_3_bw="18">
+<Node id="6" bw="0" op_0_bw="0" op_1_bw="130" op_2_bw="160" op_3_bw="18">
 <![CDATA[
-entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i140 %layer21_out, i160 %layer23_out, i18 %invert_table
+entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i130 %layer21_out, i160 %layer23_out, i18 %invert_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ln359"/></StgValue>
@@ -47,9 +47,9 @@ entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="6" bw="0" op_0_bw="0" op_1_bw="140" op_2_bw="160" op_3_bw="18">
+<Node id="6" bw="0" op_0_bw="0" op_1_bw="130" op_2_bw="160" op_3_bw="18">
 <![CDATA[
-entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i140 %layer21_out, i160 %layer23_out, i18 %invert_table
+entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i130 %layer21_out, i160 %layer23_out, i18 %invert_table
 
 ]]></Node>
 <StgValue><ssdm name="call_ln359"/></StgValue>
@@ -65,9 +65,9 @@ entry:2 %call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="4" bw="0" op_0_bw="0" op_1_bw="140" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<Node id="4" bw="0" op_0_bw="0" op_1_bw="130" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i140 %layer21_out, void @empty_20, i32 0, i32 0, void @empty_3, i32 0, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3, i32 4294967295, i32 0
+entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i130 %layer21_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -82,7 +82,7 @@ entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i140 %l
 
 <Node id="5" bw="0" op_0_bw="0" op_1_bw="160" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer23_out, void @empty_18, i32 1, i32 1, void @empty_19, i32 0, i32 0, void @empty_3, void @empty_3, void @empty_3, i32 0, i32 0, i32 0, i32 0, void @empty_3, void @empty_3, i32 4294967295, i32 0
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer23_out, void @empty_21, i32 1, i32 1, void @empty_20, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>

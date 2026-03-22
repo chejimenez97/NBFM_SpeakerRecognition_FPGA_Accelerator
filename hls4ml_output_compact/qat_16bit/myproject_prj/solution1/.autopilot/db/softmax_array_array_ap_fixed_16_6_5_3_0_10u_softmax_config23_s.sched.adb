@@ -34,10 +34,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>380</bitwidth>
+					<bitwidth>370</bitwidth>
 				</Value>
 				<direction>0</direction>
 				<if_type>3</if_type>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>741353829</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>160</bitwidth>
@@ -96,8 +96,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>359</lineNumber>
-						<contextFuncName>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-						<contextNormFuncName>softmax_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+						<contextFuncName>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+						<contextNormFuncName>softmax_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -109,7 +109,7 @@
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+											<second>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
 										</first>
 										<second>359</second>
 									</item>
@@ -124,7 +124,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1751342958</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -155,8 +155,8 @@
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>368</lineNumber>
-						<contextFuncName>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-						<contextNormFuncName>softmax_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+						<contextFuncName>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+						<contextNormFuncName>softmax_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -168,7 +168,7 @@
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+											<second>softmax&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
 										</first>
 										<second>368</second>
 									</item>
@@ -228,7 +228,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -262,7 +262,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>

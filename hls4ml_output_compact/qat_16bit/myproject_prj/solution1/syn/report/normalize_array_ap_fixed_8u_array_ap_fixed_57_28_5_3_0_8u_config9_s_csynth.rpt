@@ -1,0 +1,196 @@
+
+
+================================================================
+== Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s'
+================================================================
+* Date:           Sun Mar 22 09:49:11 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  3.340 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |      324|      324|  1.620 us|  1.620 us|  324|  324|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                 |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |    Loop Name    |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- BatchNormLoop  |      322|      322|         4|          1|          1|   320|       yes|
+        +-----------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|     498|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|    16|       0|     224|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      63|    -|
+|Register         |        -|     -|     741|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|    16|     741|     785|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     1|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------------+---------------------+---------+----+---+----+-----+
+    |         Instance         |        Module       | BRAM_18K| DSP| FF| LUT| URAM|
+    +--------------------------+---------------------+---------+----+---+----+-----+
+    |mul_40s_11ns_50_1_1_U541  |mul_40s_11ns_50_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_11ns_50_1_1_U542  |mul_40s_11ns_50_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_11ns_50_1_1_U543  |mul_40s_11ns_50_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_11ns_50_1_1_U545  |mul_40s_11ns_50_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_12ns_51_1_1_U544  |mul_40s_12ns_51_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_12ns_51_1_1_U546  |mul_40s_12ns_51_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_12ns_51_1_1_U547  |mul_40s_12ns_51_1_1  |        0|   2|  0|  28|    0|
+    |mul_40s_12ns_51_1_1_U548  |mul_40s_12ns_51_1_1  |        0|   2|  0|  28|    0|
+    +--------------------------+---------------------+---------+----+---+----+-----+
+    |Total                     |                     |        0|  16|  0| 224|    0|
+    +--------------------------+---------------------+---------+----+---+----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |add_ln42_1_fu_84809_p2     |         +|   0|  0|  57|          50|          29|
+    |add_ln42_2_fu_84819_p2     |         +|   0|  0|  58|          51|          30|
+    |add_ln42_3_fu_84829_p2     |         +|   0|  0|  57|          50|          29|
+    |add_ln42_4_fu_84839_p2     |         +|   0|  0|  58|          51|          31|
+    |add_ln42_5_fu_84849_p2     |         +|   0|  0|  58|          51|          29|
+    |add_ln42_6_fu_84859_p2     |         +|   0|  0|  57|          50|          31|
+    |add_ln42_7_fu_84869_p2     |         +|   0|  0|  57|          50|          29|
+    |add_ln42_fu_84799_p2       |         +|   0|  0|  58|          51|          29|
+    |i_13_fu_84682_p2           |         +|   0|  0|  16|           9|           1|
+    |ap_condition_150           |       and|   0|  0|   2|           1|           1|
+    |icmp_ln25_fu_84676_p2      |      icmp|   0|  0|  16|           9|           9|
+    |ap_block_pp0_stage0_01001  |        or|   0|  0|   2|           1|           1|
+    |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |Total                      |          |   0|  0| 498|         425|         251|
+    +---------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i       |   9|          2|    9|         18|
+    |i_02_fu_106              |   9|          2|    9|         18|
+    |layer7_out_blk_n         |   9|          2|    1|          2|
+    |layer9_out_blk_n         |   9|          2|    1|          2|
+    |real_start               |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  63|         14|   23|         46|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------+----+----+-----+-----------+
+    |               Name               | FF | LUT| Bits| Const Bits|
+    +----------------------------------+----+----+-----+-----------+
+    |a_1_reg_84916                     |  40|   0|   40|          0|
+    |a_2_reg_84921                     |  40|   0|   40|          0|
+    |a_3_reg_84926                     |  40|   0|   40|          0|
+    |a_4_reg_84931                     |  40|   0|   40|          0|
+    |a_5_reg_84936                     |  40|   0|   40|          0|
+    |a_6_reg_84941                     |  40|   0|   40|          0|
+    |a_7_reg_84946                     |  40|   0|   40|          0|
+    |a_reg_84911                       |  40|   0|   40|          0|
+    |ap_CS_fsm                         |   1|   0|    1|          0|
+    |ap_done_reg                       |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2           |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3           |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter1_reg  |   1|   0|    1|          0|
+    |ap_loop_exit_ready_pp0_iter2_reg  |   1|   0|    1|          0|
+    |i_02_fu_106                       |   9|   0|    9|          0|
+    |mul_ln42_1_reg_84647              |  50|   0|   50|          0|
+    |mul_ln42_2_reg_84659              |  50|   0|   50|          0|
+    |mul_ln42_3_reg_84663              |  50|   0|   50|          0|
+    |mul_ln42_reg_84639                |  50|   0|   50|          0|
+    |mul_ln73_1_reg_84643              |  51|   0|   51|          0|
+    |mul_ln73_2_reg_84651              |  51|   0|   51|          0|
+    |mul_ln73_3_reg_84655              |  51|   0|   51|          0|
+    |mul_ln73_reg_84635                |  51|   0|   51|          0|
+    |start_once_reg                    |   1|   0|    1|          0|
+    +----------------------------------+----+----+-----+-----------+
+    |Total                             | 741|   0|  741|          0|
+    +----------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|         RTL Ports         | Dir | Bits|  Protocol  |                             Source Object                             |    C Type    |
++---------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+|ap_clk                     |   in|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_rst                     |   in|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_start                   |   in|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|start_full_n               |   in|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_done                    |  out|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_continue                |   in|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_idle                    |  out|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|ap_ready                   |  out|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|start_out                  |  out|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|start_write                |  out|    1|  ap_ctrl_hs|  normalize<array<ap_fixed,8u>,array<ap_fixed<57,28,5,3,0>,8u>,config9>|  return value|
+|layer7_out_dout            |   in|  320|     ap_fifo|                                                             layer7_out|       pointer|
+|layer7_out_num_data_valid  |   in|   10|     ap_fifo|                                                             layer7_out|       pointer|
+|layer7_out_fifo_cap        |   in|   10|     ap_fifo|                                                             layer7_out|       pointer|
+|layer7_out_empty_n         |   in|    1|     ap_fifo|                                                             layer7_out|       pointer|
+|layer7_out_read            |  out|    1|     ap_fifo|                                                             layer7_out|       pointer|
+|layer9_out_din             |  out|  456|     ap_fifo|                                                             layer9_out|       pointer|
+|layer9_out_num_data_valid  |   in|   10|     ap_fifo|                                                             layer9_out|       pointer|
+|layer9_out_fifo_cap        |   in|   10|     ap_fifo|                                                             layer9_out|       pointer|
+|layer9_out_full_n          |   in|    1|     ap_fifo|                                                             layer9_out|       pointer|
+|layer9_out_write           |  out|    1|     ap_fifo|                                                             layer9_out|       pointer|
++---------------------------+-----+-----+------------+-----------------------------------------------------------------------+--------------+
+

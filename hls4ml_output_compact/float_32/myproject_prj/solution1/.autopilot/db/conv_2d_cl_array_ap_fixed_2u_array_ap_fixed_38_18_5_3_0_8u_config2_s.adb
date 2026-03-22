@@ -110,10 +110,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539767593</coreId>
+              <coreId>1601200416</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -177,12 +177,12 @@
             <Obj>
               <type>0</type>
               <id>33</id>
-              <name>br_ln52</name>
+              <name>br_ln25</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -194,16 +194,16 @@
                     <item class_id="13" tracking_level="0" version="0">
                       <first class_id="14" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -243,9 +243,9 @@
               <name>indvar_flatten_load</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -257,16 +257,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -282,7 +282,7 @@
               <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -304,12 +304,12 @@
             <Obj>
               <type>0</type>
               <id>36</id>
-              <name>icmp_ln52</name>
+              <name>icmp_ln25</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -321,22 +321,22 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln52_fu_172_p2</rtlName>
+              <rtlName>icmp_ln25_fu_172_p2</rtlName>
               <control>auto</control>
               <opType>icmp</opType>
               <implIndex>auto</implIndex>
@@ -359,7 +359,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.82</m_delay>
+          <m_delay>0.79</m_delay>
           <m_topoIndex>5</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -368,12 +368,12 @@
             <Obj>
               <type>0</type>
               <id>37</id>
-              <name>add_ln52</name>
+              <name>add_ln25</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -385,22 +385,22 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>add_ln52_fu_178_p2</rtlName>
+              <rtlName>add_ln25_fu_178_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -410,7 +410,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -423,7 +423,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.82</m_delay>
+          <m_delay>0.79</m_delay>
           <m_topoIndex>6</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -432,12 +432,12 @@
             <Obj>
               <type>0</type>
               <id>38</id>
-              <name>br_ln52</name>
+              <name>br_ln25</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -449,16 +449,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -500,9 +500,9 @@
               <name>layer24_out_read</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>58</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>32</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -514,16 +514,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>58</second>
+                      <second>32</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -553,7 +553,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>1.75</m_delay>
-          <m_topoIndex>8</m_topoIndex>
+          <m_topoIndex>9</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_11">
@@ -561,12 +561,12 @@
             <Obj>
               <type>0</type>
               <id>44</id>
-              <name>trunc_ln58</name>
+              <name>trunc_ln32</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>58</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>32</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -578,16 +578,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>58</second>
+                      <second>32</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -600,7 +600,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1746938918</coreId>
+              <coreId>1702390118</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -616,7 +616,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>0.00</m_delay>
-          <m_topoIndex>9</m_topoIndex>
+          <m_topoIndex>10</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_12">
@@ -624,12 +624,12 @@
             <Obj>
               <type>0</type>
               <id>45</id>
-              <name>trunc_ln58_s</name>
+              <name>trunc_ln32_s</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>58</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>32</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -641,16 +641,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>58</second>
+                      <second>32</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -663,7 +663,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1043341356</coreId>
+              <coreId>1885413420</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -682,7 +682,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>0.00</m_delay>
-          <m_topoIndex>10</m_topoIndex>
+          <m_topoIndex>11</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_13">
@@ -690,12 +690,12 @@
             <Obj>
               <type>0</type>
               <id>46</id>
-              <name>_ln58</name>
+              <name>_ln32</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>58</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>32</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -707,16 +707,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>58</second>
+                      <second>32</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -774,7 +774,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>0.00</m_delay>
-          <m_topoIndex>11</m_topoIndex>
+          <m_topoIndex>12</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_14">
@@ -782,12 +782,12 @@
             <Obj>
               <type>0</type>
               <id>47</id>
-              <name>indvar_flatten_write_ln52</name>
+              <name>indvar_flatten_write_ln25</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>52</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>25</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -799,16 +799,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>52</second>
+                      <second>25</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -840,7 +840,7 @@
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
           <m_delay>0.42</m_delay>
-          <m_topoIndex>12</m_topoIndex>
+          <m_topoIndex>8</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
         <item class_id_reference="9" object_id="_15">
@@ -848,12 +848,12 @@
             <Obj>
               <type>0</type>
               <id>48</id>
-              <name>br_ln54</name>
+              <name>br_ln27</name>
               <fileName>firmware/nnet_utils/nnet_conv2d_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>54</lineNumber>
-              <contextFuncName>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
-              <contextNormFuncName>conv_2d_buffer_resource_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
+              <lineNumber>27</lineNumber>
+              <contextFuncName>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</contextFuncName>
+              <contextNormFuncName>conv_2d_buffer_latency_cl_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_nnet_array_ap_fixed_38_18_AP_TRN_AP_WRAP_0_8_config2_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -865,16 +865,16 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
-                        <second>conv_2d_buffer_resource_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
+                        <second>conv_2d_buffer_latency_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>54</second>
+                      <second>27</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_conv2d_stream.h</first>
                         <second>conv_2d_cl&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;38, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config2&amp;gt;</second>
                       </first>
-                      <second>78</second>
+                      <second>76</second>
                     </item>
                   </second>
                 </item>
@@ -887,7 +887,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>544106345</coreId>
+              <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -943,7 +943,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>807414835</coreId>
+              <coreId>1601200416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1019,10 +1019,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1852793632</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>0</content>
@@ -1050,7 +1050,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>740979827</coreId>
+              <coreId>1852793632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -1143,13 +1143,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>712274798</coreId>
+              <coreId>740979827</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>6248</content>
+          <content>1452</content>
         </item>
         <item class_id_reference="16" object_id="_23">
           <Value>
@@ -1174,10 +1174,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>744320609</coreId>
+              <coreId>712274798</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>13</bitwidth>
+            <bitwidth>11</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>1</content>
@@ -1208,7 +1208,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>807414835</coreId>
+            <coreId>941632574</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -1293,7 +1293,7 @@
           <Obj>
             <type>3</type>
             <id>51</id>
-            <name>_ZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEENS1_IS2_ILi38ELi18ELS3_5ELS4_3ELi0EELj8EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.43.exit</name>
+            <name>_ZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEENS1_IS2_ILi38ELi18ELS3_5ELS4_3ELi0EELj8EEE7config2EEvRN3hls6streamIT_Li0EEERNSB_IT0_Li0EEEPNT1_8weight_tEPNSI_6bias_tE.36.exit</name>
             <fileName/>
             <fileDirectory/>
             <lineNumber>0</lineNumber>
@@ -1748,8 +1748,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>18747</mMinLatency>
-        <mMaxLatency>18747</mMaxLatency>
+        <mMinLatency>4359</mMinLatency>
+        <mMaxLatency>4359</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -1793,10 +1793,10 @@
         </basic_blocks>
         <mII>3</mII>
         <mDepth>5</mDepth>
-        <mMinTripCount>6248</mMinTripCount>
-        <mMaxTripCount>6248</mMaxTripCount>
-        <mMinLatency>18745</mMinLatency>
-        <mMaxLatency>18745</mMaxLatency>
+        <mMinTripCount>1452</mMinTripCount>
+        <mMaxTripCount>1452</mMaxTripCount>
+        <mMinLatency>4357</mMinLatency>
+        <mMaxLatency>4357</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -1831,7 +1831,7 @@
         <item class_id="26" tracking_level="1" version="0" object_id="_90">
           <id>1</id>
           <operations class_id="27" tracking_level="0" version="0">
-            <count>9</count>
+            <count>10</count>
             <item_version>0</item_version>
             <item class_id="28" tracking_level="1" version="0" object_id="_91">
               <id>29</id>
@@ -1878,37 +1878,37 @@
               <stage>1</stage>
               <latency>1</latency>
             </item>
+            <item class_id_reference="28" object_id="_100">
+              <id>47</id>
+              <stage>1</stage>
+              <latency>1</latency>
+            </item>
           </operations>
         </item>
-        <item class_id_reference="26" object_id="_100">
+        <item class_id_reference="26" object_id="_101">
           <id>2</id>
           <operations>
-            <count>6</count>
+            <count>5</count>
             <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_101">
+            <item class_id_reference="28" object_id="_102">
               <id>43</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_102">
+            <item class_id_reference="28" object_id="_103">
               <id>44</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_103">
+            <item class_id_reference="28" object_id="_104">
               <id>45</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_104">
+            <item class_id_reference="28" object_id="_105">
               <id>46</id>
               <stage>4</stage>
               <latency>4</latency>
-            </item>
-            <item class_id_reference="28" object_id="_105">
-              <id>47</id>
-              <stage>1</stage>
-              <latency>1</latency>
             </item>
             <item class_id_reference="28" object_id="_106">
               <id>50</id>
@@ -2057,30 +2057,30 @@
             <item_version>0</item_version>
             <item class_id="38" tracking_level="0" version="0">
               <first>DSP</first>
-              <second>131</second>
+              <second>119</second>
             </item>
             <item>
               <first>FF</first>
-              <second>2626</second>
+              <second>2562</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>4627</second>
+              <second>4974</second>
             </item>
           </second>
         </item>
       </dp_component_resource>
       <dp_expression_resource>
-        <count>10</count>
+        <count>9</count>
         <item_version>0</item_version>
         <item>
-          <first>add_ln52_fu_178_p2 ( + ) </first>
+          <first>add_ln25_fu_178_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>13</second>
+              <second>11</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -2092,7 +2092,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>20</second>
+              <second>18</second>
             </item>
           </second>
         </item>
@@ -2166,7 +2166,7 @@
           </second>
         </item>
         <item>
-          <first>ap_block_pp0_stage1_11001_ignoreCallOp20 ( and ) </first>
+          <first>ap_block_pp0_stage1_11001_ignoreCallOp21 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -2212,30 +2212,7 @@
           </second>
         </item>
         <item>
-          <first>ap_condition_379 ( and ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>2</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>ap_condition_383 ( and ) </first>
+          <first>ap_condition_162 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -2281,17 +2258,17 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln52_fu_172_p2 ( icmp ) </first>
+          <first>icmp_ln25_fu_172_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>13</second>
+              <second>11</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>12</second>
+              <second>11</second>
             </item>
             <item>
               <first>FF</first>
@@ -2299,7 +2276,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>20</second>
+              <second>18</second>
             </item>
           </second>
         </item>
@@ -2441,11 +2418,11 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>13</second>
+              <second>11</second>
             </item>
             <item>
               <first>(2Count)</first>
-              <second>26</second>
+              <second>22</second>
             </item>
             <item>
               <first>LUT</first>
@@ -2464,11 +2441,11 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>13</second>
+              <second>11</second>
             </item>
             <item>
               <first>(2Count)</first>
-              <second>26</second>
+              <second>22</second>
             </item>
             <item>
               <first>LUT</first>
@@ -2570,27 +2547,8 @@
         </item>
       </dp_multiplexer_resource>
       <dp_register_resource>
-        <count>9</count>
+        <count>8</count>
         <item_version>0</item_version>
-        <item>
-          <first>add_ln52_reg_215</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>13</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>13</second>
-            </item>
-          </second>
-        </item>
         <item>
           <first>ap_CS_fsm</first>
           <second>
@@ -2687,7 +2645,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln52_reg_211</first>
+          <first>icmp_ln25_reg_212</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -2712,7 +2670,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>13</second>
+              <second>11</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -2720,7 +2678,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>13</second>
+              <second>11</second>
             </item>
           </second>
         </item>
@@ -2778,7 +2736,7 @@
         <count>2</count>
         <item_version>0</item_version>
         <item>
-          <first>add_ln52_fu_178_p2 ( + ) </first>
+          <first>add_ln25_fu_178_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -2786,7 +2744,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln52_fu_172_p2 ( icmp ) </first>
+          <first>icmp_ln25_fu_172_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -2886,7 +2844,7 @@
       <item>
         <first>47</first>
         <second>
-          <first>1</first>
+          <first>0</first>
           <second>0</second>
         </second>
       </item>
@@ -2925,7 +2883,7 @@
       <item>
         <first>49</first>
         <second>
-          <first>2</first>
+          <first>1</first>
           <second>5</second>
         </second>
       </item>
@@ -3029,7 +2987,7 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>44</item>
+          <item>47</item>
         </second>
       </item>
       <item>
@@ -3037,15 +2995,15 @@
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>45</item>
+          <item>44</item>
         </second>
       </item>
       <item>
-        <first>200</first>
+        <first>194</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>47</item>
+          <item>45</item>
         </second>
       </item>
     </dp_fu_nodes>
@@ -3053,7 +3011,7 @@
       <count>5</count>
       <item_version>0</item_version>
       <item class_id="54" tracking_level="0" version="0">
-        <first>add_ln52_fu_178</first>
+        <first>add_ln25_fu_178</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3061,7 +3019,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln52_fu_172</first>
+        <first>icmp_ln25_fu_172</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3077,7 +3035,7 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln58_fu_184</first>
+        <first>trunc_ln32_fu_189</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3085,7 +3043,7 @@
         </second>
       </item>
       <item>
-        <first>trunc_ln58_s_fu_189</first>
+        <first>trunc_ln32_s_fu_194</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3136,7 +3094,7 @@
         </second>
       </item>
       <item>
-        <first>store_ln52_store_fu_200</first>
+        <first>store_ln25_store_fu_184</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3153,7 +3111,7 @@
       <item_version>0</item_version>
       <item class_id="56" tracking_level="0" version="0">
         <first class_id="57" tracking_level="0" version="0">
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_16</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_32</first>
           <second>100</second>
         </first>
         <second>
@@ -3164,7 +3122,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_17</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_33</first>
           <second>100</second>
         </first>
         <second>
@@ -3175,7 +3133,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_18</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_34</first>
           <second>100</second>
         </first>
         <second>
@@ -3186,7 +3144,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_19</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_35</first>
           <second>100</second>
         </first>
         <second>
@@ -3197,10 +3155,10 @@
       </item>
     </dp_mem_port_nodes>
     <dp_reg_nodes>
-      <count>3</count>
+      <count>2</count>
       <item_version>0</item_version>
       <item>
-        <first>204</first>
+        <first>205</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3208,35 +3166,19 @@
         </second>
       </item>
       <item>
-        <first>211</first>
+        <first>212</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>36</item>
-        </second>
-      </item>
-      <item>
-        <first>215</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>37</item>
         </second>
       </item>
     </dp_reg_nodes>
     <dp_regname_nodes>
-      <count>3</count>
+      <count>2</count>
       <item_version>0</item_version>
       <item>
-        <first>add_ln52_reg_215</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>37</item>
-        </second>
-      </item>
-      <item>
-        <first>icmp_ln52_reg_211</first>
+        <first>icmp_ln25_reg_212</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -3244,7 +3186,7 @@
         </second>
       </item>
       <item>
-        <first>indvar_flatten_reg_204</first>
+        <first>indvar_flatten_reg_205</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

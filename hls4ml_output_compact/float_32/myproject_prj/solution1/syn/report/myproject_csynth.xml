@@ -18,19 +18,19 @@
 <PipelineType>dataflow</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>3.987</EstimatedClockPeriod>
+<EstimatedClockPeriod>3.985</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>18759</Best-caseLatency>
-<Average-caseLatency>18759</Average-caseLatency>
-<Worst-caseLatency>18759</Worst-caseLatency>
-<Best-caseRealTimeLatency>93.795 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>93.795 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>93.795 us</Worst-caseRealTimeLatency>
-<DataflowPipelineThroughput>18748</DataflowPipelineThroughput>
-<Interval-min>18748</Interval-min>
-<Interval-max>18748</Interval-max>
+<Best-caseLatency>4371</Best-caseLatency>
+<Average-caseLatency>4371</Average-caseLatency>
+<Worst-caseLatency>4371</Worst-caseLatency>
+<Best-caseRealTimeLatency>21.855 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>21.855 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>21.855 us</Worst-caseRealTimeLatency>
+<DataflowPipelineThroughput>4360</DataflowPipelineThroughput>
+<Interval-min>4360</Interval-min>
+<Interval-max>4360</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
@@ -41,10 +41,10 @@
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>681</BRAM_18K>
-<DSP>932</DSP>
-<FF>59355</FF>
-<LUT>74586</LUT>
+<BRAM_18K>139</BRAM_18K>
+<DSP>796</DSP>
+<FF>41586</FF>
+<LUT>85862</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -58,8 +58,8 @@
 
 <InterfaceSummary>
 <RtlPorts>
-<name>input_1_TDATA</name>
-<Object>input_1</Object>
+<name>input_4_TDATA</name>
+<Object>input_4</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -70,8 +70,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>input_1_TVALID</name>
-<Object>input_1</Object>
+<name>input_4_TVALID</name>
+<Object>input_4</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -82,8 +82,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>input_1_TREADY</name>
-<Object>input_1</Object>
+<name>input_4_TREADY</name>
+<Object>input_4</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>

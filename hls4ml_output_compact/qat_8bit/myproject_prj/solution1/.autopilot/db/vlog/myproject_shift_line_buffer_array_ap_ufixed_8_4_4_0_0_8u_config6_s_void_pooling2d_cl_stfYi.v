@@ -14,8 +14,8 @@ module myproject_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_void_p
     dout);
 
 parameter DATA_WIDTH = 8;
-parameter ADDR_WIDTH = 9;
-parameter DEPTH = 282;
+parameter ADDR_WIDTH = 6;
+parameter DEPTH = 64;
 
 input clk;
 input ce;
@@ -57,8 +57,8 @@ module myproject_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_void_p
     q0);
 
 parameter DataWidth = 8;
-parameter AddressRange = 282;
-parameter AddressWidth = 9;
+parameter AddressRange = 64;
+parameter AddressWidth = 6;
 
 input clk;
 input reset;

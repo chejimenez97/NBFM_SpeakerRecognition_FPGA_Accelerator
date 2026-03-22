@@ -1,92 +1,92 @@
 # This script segment is generated automatically by AutoPilot
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w32_d6248_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer24_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w32_d1452_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer24_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w240_d5640_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer2_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w240_d1280_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer2_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w376_d5640_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer4_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w376_d1280_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer4_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w64_d5640_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer5_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d1280_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer5_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w64_d700_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer6_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d320_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer6_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w64_d864_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer25_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d408_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer25_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w384_d700_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer7_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w192_d320_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer7_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w656_d700_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer9_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w328_d320_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer9_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w128_d700_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer10_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d320_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer10_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w128_d70_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer11_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d40_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer11_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w128_d112_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer26_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d70_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer26_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w400_d70_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer12_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w192_d40_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer12_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w672_d70_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer14_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w328_d40_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer14_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w128_d70_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer15_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d40_A BINDTYPE {storage} TYPE {fifo} IMPL {memory} ALLOW_PRAGMA 1 INSTNAME {layer15_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w128_d7_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer16_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w64_d2_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer16_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w768_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer18_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w336_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer18_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w256_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer20_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w128_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer20_out_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_fifo_w220_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer21_out_U}
+	::AP::rtl_comp_handler myproject_fifo_w210_d1_S BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {layer21_out_U}
 }
 
 
@@ -106,7 +106,7 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx_U}
+	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo_U}
 }
 
 
@@ -116,62 +116,62 @@ if {${::AESL::PGuard_rtl_comp_handler}} {
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx_U}
+	::AP::rtl_comp_handler myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy_U}
+	::AP::rtl_comp_handler myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy_U}
+	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy_U}
+	::AP::rtl_comp_handler myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy_U}
+	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy_U}
+	::AP::rtl_comp_handler myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo_U}
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0_U}
+	::AP::rtl_comp_handler myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0 BINDTYPE {storage} TYPE {fifo} IMPL {srl} ALLOW_PRAGMA 1 INSTNAME {start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0_U}
 }
 
 
@@ -192,17 +192,17 @@ set axilite_register_dict [dict create]
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
 eval "::AESL_LIB_XILADAPTER::native_axis_add { \
-    id 2210 \
-    name input_3 \
+    id 844 \
+    name input_6 \
     reset_level 0 \
     sync_rst true \
     corename {} \
     metadata {  } \
     op interface \
-    ports { input_3_TDATA { I 32 vector } input_3_TVALID { I 1 bit } input_3_TREADY { O 1 bit } } \
+    ports { input_6_TDATA { I 32 vector } input_6_TVALID { I 1 bit } input_6_TREADY { O 1 bit } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'input_3'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'input_6'"
 }
 }
 
@@ -211,7 +211,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
 eval "::AESL_LIB_XILADAPTER::native_axis_add { \
-    id 2211 \
+    id 845 \
     name layer23_out \
     reset_level 0 \
     sync_rst true \

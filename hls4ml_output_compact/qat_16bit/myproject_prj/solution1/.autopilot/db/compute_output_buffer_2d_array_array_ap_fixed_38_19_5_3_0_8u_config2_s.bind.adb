@@ -34,7 +34,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>741353829</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -146,7 +146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1751342958</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -633,7 +633,7 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>icmp_ln284_4</name>
+						<name>icmp_ln284_7</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -690,7 +690,7 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>tmp_450</name>
+						<name>tmp_248</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -722,7 +722,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1868525665</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>31</bitwidth>
@@ -749,7 +749,7 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>icmp_ln284_6</name>
+						<name>icmp_ln284_8</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -806,7 +806,7 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>tmp_451</name>
+						<name>tmp_249</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -838,7 +838,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>741749024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>31</bitwidth>
@@ -865,7 +865,7 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>icmp_ln284_7</name>
+						<name>icmp_ln284_9</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -979,7 +979,7 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>and_ln284_2</name>
+						<name>and_ln284_3</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>284</lineNumber>
@@ -1068,7 +1068,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1834971487</coreId>
+						<coreId>807414835</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1097,7 +1097,7 @@
 						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1120,7 +1120,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1133,7 +1133,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>807414835</coreId>
+						<coreId>808019300</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>304</bitwidth>
@@ -1181,7 +1181,7 @@
 						<name>res_out</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1204,7 +1204,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1217,7 +1217,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601200424</coreId>
+						<coreId>539768105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1244,7 +1244,7 @@
 						<name>res_out_1</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1267,7 +1267,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1280,7 +1280,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>694510703</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1307,7 +1307,7 @@
 						<name>res_out_2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1330,7 +1330,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1370,7 +1370,7 @@
 						<name>res_out_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1393,7 +1393,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1433,7 +1433,7 @@
 						<name>res_out_4</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1456,7 +1456,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1496,7 +1496,7 @@
 						<name>res_out_5</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1519,7 +1519,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1532,7 +1532,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1685024095</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1559,7 +1559,7 @@
 						<name>res_out_6</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1582,7 +1582,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1595,7 +1595,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1622,7 +1622,7 @@
 						<name>res_out_7</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>65</lineNumber>
+						<lineNumber>54</lineNumber>
 						<contextFuncName>dense</contextFuncName>
 						<contextNormFuncName>dense</contextNormFuncName>
 						<inlineStackInfo>
@@ -1645,7 +1645,7 @@
 											<first>firmware/nnet_utils/nnet_dense.h</first>
 											<second>dense</second>
 										</first>
-										<second>65</second>
+										<second>54</second>
 									</item>
 								</second>
 							</item>
@@ -1658,7 +1658,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1714,7 +1714,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>304</bitwidth>
@@ -1836,7 +1836,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043490665</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2006,7 +2006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2064,7 +2064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>976909413</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2237,7 +2237,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768045114</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2281,7 +2281,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936942413</coreId>
+						<coreId>1869438833</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2337,7 +2337,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793632</coreId>
+						<coreId>778989417</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2395,7 +2395,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936942413</coreId>
+						<coreId>1885419852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2567,7 +2567,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1769104758</coreId>
+						<coreId>742273056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2625,7 +2625,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1952804462</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2841,7 +2841,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>997484326</coreId>
+						<coreId>795177569</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2897,7 +2897,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>645215793</coreId>
+						<coreId>1869901417</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2955,7 +2955,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869881463</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3011,7 +3011,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2036429426</coreId>
+						<coreId>825321321</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3070,7 +3070,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063440276</coreId>
+						<coreId>858350948</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3128,7 +3128,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>8</coreId>
+						<coreId>1718184051</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3184,7 +3184,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063444074</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3322,7 +3322,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3353,7 +3353,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>8</coreId>
+						<coreId>539770485</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>31</bitwidth>
@@ -3366,7 +3366,7 @@
 					<Obj>
 						<type>2</type>
 						<id>138</id>
-						<name>dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s</name>
+						<name>dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -3384,13 +3384,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2188819448</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>304</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:dense_resource_rf_leq_nin&lt;ap_fixed,ap_fixed&lt;38,19,5,3,0&gt;,config2_mult&gt;&gt;</content>
+				<content>&lt;constant:dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;38, 19, 5, 3, 0&gt;, config2_mult&gt;&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_63">
 				<Value>
@@ -3415,13 +3415,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>8</coreId>
+						<coreId>1902080097</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>284</content>
+				<content>66</content>
 			</item>
 			<item class_id_reference="16" object_id="_64">
 				<Value>
@@ -3446,7 +3446,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>7</coreId>
+						<coreId>1047869472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3477,7 +3477,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062843792</coreId>
+						<coreId>2089651648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3511,7 +3511,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3550,7 +3550,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539770416</coreId>
+					<coreId>539766825</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3630,7 +3630,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>840969278</coreId>
+					<coreId>539770416</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3663,7 +3663,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>840969278</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3698,7 +3698,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3733,7 +3733,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1630019628</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3768,7 +3768,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1630019628</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3800,7 +3800,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>645229669</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -3833,7 +3833,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1062839024</coreId>
+					<coreId>1701735968</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -6314,7 +6314,7 @@
 			</second>
 		</item>
 		<item>
-			<first>and_ln284_2_fu_280</first>
+			<first>and_ln284_3_fu_280</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6330,7 +6330,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln284_4_fu_236</first>
+			<first>icmp_ln284_7_fu_236</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6338,7 +6338,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln284_6_fu_252</first>
+			<first>icmp_ln284_8_fu_252</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6346,7 +6346,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln284_7_fu_268</first>
+			<first>icmp_ln284_9_fu_268</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6482,7 +6482,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_450_fu_242</first>
+			<first>tmp_248_fu_242</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6490,7 +6490,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_451_fu_258</first>
+			<first>tmp_249_fu_258</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6510,7 +6510,7 @@
 			</second>
 		</item>
 		<item>
-			<first>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174</first>
+			<first>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -6644,7 +6644,7 @@
 		<item_version>0</item_version>
 		<item class_id="55" tracking_level="0" version="0">
 			<first class_id="56" tracking_level="0" version="0">
-				<first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E</first>
+				<first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL</first>
 				<second>100</second>
 			</first>
 			<second>
@@ -6655,7 +6655,7 @@
 		</item>
 		<item>
 			<first>
-				<first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1</first>
+				<first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1</first>
 				<second>100</second>
 			</first>
 			<second>
@@ -6666,7 +6666,7 @@
 		</item>
 		<item>
 			<first>
-				<first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2</first>
+				<first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2</first>
 				<second>100</second>
 			</first>
 			<second>
@@ -6677,7 +6677,7 @@
 		</item>
 		<item>
 			<first>
-				<first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3</first>
+				<first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3</first>
 				<second>100</second>
 			</first>
 			<second>
@@ -6799,7 +6799,7 @@
 		<count>13</count>
 		<item_version>0</item_version>
 		<item>
-			<first>and_ln284_2_reg_435</first>
+			<first>and_ln284_3_reg_435</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

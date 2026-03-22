@@ -18,18 +18,18 @@
 <PipelineType>no</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>2.750</EstimatedClockPeriod>
+<EstimatedClockPeriod>1.750</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>17501</Best-caseLatency>
-<Average-caseLatency>17501</Average-caseLatency>
-<Worst-caseLatency>17501</Worst-caseLatency>
-<Best-caseRealTimeLatency>87.505 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>87.505 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>87.505 us</Worst-caseRealTimeLatency>
-<Interval-min>17501</Interval-min>
-<Interval-max>17501</Interval-max>
+<Best-caseLatency>1465</Best-caseLatency>
+<Average-caseLatency>1465</Average-caseLatency>
+<Worst-caseLatency>1465</Worst-caseLatency>
+<Best-caseRealTimeLatency>7.325 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>7.325 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>7.325 us</Worst-caseRealTimeLatency>
+<Interval-min>1465</Interval-min>
+<Interval-max>1465</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfViolations>
 <IssueType>-</IssueType>
@@ -40,8 +40,8 @@
 
 <AreaEstimates>
 <Resources>
-<FF>68</FF>
-<LUT>515</LUT>
+<FF>145</FF>
+<LUT>821</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
 <URAM>0</URAM>
@@ -167,8 +167,8 @@
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>input_2_TDATA</name>
-<Object>input_2</Object>
+<name>input_5_TDATA</name>
+<Object>input_5</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -178,8 +178,8 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>input_2_TVALID</name>
-<Object>input_2</Object>
+<name>input_5_TVALID</name>
+<Object>input_5</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -189,8 +189,8 @@
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>input_2_TREADY</name>
-<Object>input_2</Object>
+<name>input_5_TREADY</name>
+<Object>input_5</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -218,7 +218,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -229,7 +229,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>

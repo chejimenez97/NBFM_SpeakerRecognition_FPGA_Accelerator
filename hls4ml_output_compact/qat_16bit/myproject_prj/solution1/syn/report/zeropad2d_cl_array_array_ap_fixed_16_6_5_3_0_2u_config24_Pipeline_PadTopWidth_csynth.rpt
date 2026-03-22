@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth'
 ================================================================
-* Date:           Sat Mar 21 19:19:26 2026
+* Date:           Sun Mar 22 09:49:03 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      286|      286|  1.430 us|  1.430 us|  286|  286|       no|
+    |       68|       68|  0.340 us|  0.340 us|   68|   68|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |               |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |   Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- PadTopWidth  |      284|      284|         2|          1|          1|   284|       yes|
+        |- PadTopWidth  |       66|       66|         2|          1|          1|    66|       yes|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -54,14 +54,14 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|      36|    -|
+|Expression       |        -|     -|       0|      32|    -|
 |FIFO             |        -|     -|       -|       -|    -|
 |Instance         |        -|     -|       -|       -|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       -|      45|    -|
-|Register         |        -|     -|      12|       -|    -|
+|Register         |        -|     -|      10|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|      12|      81|    0|
+|Total            |        0|     0|      10|      77|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |      288|  1248|  234240|  117120|   64|
 +-----------------+---------+------+--------+--------+-----+
@@ -85,12 +85,12 @@
     +---------------------------+----------+----+---+----+------------+------------+
     |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------+----------+----+---+----+------------+------------+
-    |j_10_fu_58_p2              |         +|   0|  0|  16|           9|           1|
+    |j_8_fu_58_p2               |         +|   0|  0|  14|           7|           1|
     |ap_block_pp0_stage0_01001  |       and|   0|  0|   2|           1|           1|
-    |icmp_ln53_fu_52_p2         |      icmp|   0|  0|  16|           9|           9|
+    |icmp_ln53_fu_52_p2         |      icmp|   0|  0|  14|           7|           7|
     |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
     +---------------------------+----------+----+---+----+------------+------------+
-    |Total                      |          |   0|  0|  36|          20|          13|
+    |Total                      |          |   0|  0|  32|          16|          11|
     +---------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -99,11 +99,11 @@
     +-------------------------+----+-----------+-----+-----------+
     |ap_done_int              |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
-    |ap_sig_allocacmp_j_9     |   9|          2|    9|         18|
-    |j_fu_32                  |   9|          2|    9|         18|
+    |ap_sig_allocacmp_j_7     |   9|          2|    7|         14|
+    |j_fu_32                  |   9|          2|    7|         14|
     |layer24_out_blk_n        |   9|          2|    1|          2|
     +-------------------------+----+-----------+-----+-----------+
-    |Total                    |  45|         10|   21|         42|
+    |Total                    |  45|         10|   17|         34|
     +-------------------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -113,9 +113,9 @@
     |ap_CS_fsm                |  1|   0|    1|          0|
     |ap_done_reg              |  1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
-    |j_fu_32                  |  9|   0|    9|          0|
+    |j_fu_32                  |  7|   0|    7|          0|
     +-------------------------+---+----+-----+-----------+
-    |Total                    | 12|   0|   12|          0|
+    |Total                    | 10|   0|   10|          0|
     +-------------------------+---+----+-----+-----------+
 
 
@@ -134,8 +134,8 @@
 |ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadTopWidth|  return value|
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadTopWidth|  return value|
 |layer24_out_din             |  out|   32|     ap_fifo|                                                                       layer24_out|       pointer|
-|layer24_out_num_data_valid  |   in|   14|     ap_fifo|                                                                       layer24_out|       pointer|
-|layer24_out_fifo_cap        |   in|   14|     ap_fifo|                                                                       layer24_out|       pointer|
+|layer24_out_num_data_valid  |   in|   12|     ap_fifo|                                                                       layer24_out|       pointer|
+|layer24_out_fifo_cap        |   in|   12|     ap_fifo|                                                                       layer24_out|       pointer|
 |layer24_out_full_n          |   in|    1|     ap_fifo|                                                                       layer24_out|       pointer|
 |layer24_out_write           |  out|    1|     ap_fifo|                                                                       layer24_out|       pointer|
 +----------------------------+-----+-----+------------+----------------------------------------------------------------------------------+--------------+

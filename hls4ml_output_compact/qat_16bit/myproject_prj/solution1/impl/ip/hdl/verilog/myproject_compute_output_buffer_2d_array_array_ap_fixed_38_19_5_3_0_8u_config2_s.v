@@ -38,8 +38,8 @@ input   ap_ce;
 input  [15:0] in_elem_0_0_0_0_0_val;
 input  [15:0] in_elem_0_1_0_0_0_val;
 output  [303:0] layer2_out_din;
-input  [13:0] layer2_out_num_data_valid;
-input  [13:0] layer2_out_fifo_cap;
+input  [11:0] layer2_out_num_data_valid;
+input  [11:0] layer2_out_fifo_cap;
 input   layer2_out_full_n;
 output   layer2_out_write;
 output   layer2_out_blk_n;
@@ -81,11 +81,11 @@ reg   [31:0] pY_5;
 reg   [31:0] pX_5;
 wire    ap_block_pp0_stage0;
 reg   [0:0] icmp_ln284_reg_431;
-reg   [0:0] and_ln284_2_reg_435;
+reg   [0:0] and_ln284_3_reg_435;
 wire   [0:0] icmp_ln284_fu_218_p2;
 wire    ap_CS_fsm_pp0_stage1;
 wire    ap_block_pp0_stage1_11001;
-wire   [0:0] and_ln284_2_fu_280_p2;
+wire   [0:0] and_ln284_3_fu_280_p2;
 wire   [0:0] icmp_ln303_fu_292_p2;
 reg   [0:0] icmp_ln303_reg_439;
 wire   [31:0] select_ln313_fu_366_p3;
@@ -145,15 +145,15 @@ wire    call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_1
 reg    call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122_ap_ce;
 reg    ap_block_state4_pp0_stage0_iter1_ignore_call3;
 reg    ap_block_pp0_stage0_11001_ignoreCallOp7;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6;
-wire   [37:0] grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7;
-reg    grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6;
+wire   [37:0] grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7;
+reg    grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce;
 reg    ap_predicate_op23_call_state2;
 wire    ap_block_pp0_stage1_11001_ignoreCallOp23;
 wire    ap_block_pp0_stage2_11001_ignoreCallOp44;
@@ -165,12 +165,12 @@ wire   [31:0] add_ln307_fu_336_p2;
 wire   [31:0] add_ln303_fu_286_p2;
 reg    ap_block_pp0_stage0_11001;
 reg    ap_block_pp0_stage0_01001;
-wire   [30:0] tmp_450_fu_242_p4;
-wire   [30:0] tmp_451_fu_258_p4;
-wire   [0:0] icmp_ln284_6_fu_252_p2;
-wire   [0:0] icmp_ln284_7_fu_268_p2;
+wire   [30:0] tmp_248_fu_242_p4;
+wire   [30:0] tmp_249_fu_258_p4;
+wire   [0:0] icmp_ln284_8_fu_252_p2;
+wire   [0:0] icmp_ln284_9_fu_268_p2;
 wire   [0:0] and_ln284_fu_274_p2;
-wire   [0:0] icmp_ln284_4_fu_236_p2;
+wire   [0:0] icmp_ln284_7_fu_236_p2;
 wire   [31:0] add_ln318_fu_304_p2;
 wire   [0:0] icmp_ln313_fu_354_p2;
 wire   [31:0] add_ln313_fu_360_p2;
@@ -274,7 +274,7 @@ myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s call_ln281_sh
     .ap_ce(call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122_ap_ce)
 );
 
-myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174(
+myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174(
     .ap_clk(ap_clk),
     .ap_rst(ap_rst),
     .void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29(void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29),
@@ -295,15 +295,15 @@ myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s
     .p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2(p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2),
     .p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1(p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1),
     .p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9(p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9),
-    .ap_return_0(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0),
-    .ap_return_1(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1),
-    .ap_return_2(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2),
-    .ap_return_3(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3),
-    .ap_return_4(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4),
-    .ap_return_5(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5),
-    .ap_return_6(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6),
-    .ap_return_7(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7),
-    .ap_ce(grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce)
+    .ap_return_0(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0),
+    .ap_return_1(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1),
+    .ap_return_2(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2),
+    .ap_return_3(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3),
+    .ap_return_4(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4),
+    .ap_return_5(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5),
+    .ap_return_6(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6),
+    .ap_return_7(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7),
+    .ap_ce(grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce)
 );
 
 always @ (posedge ap_clk) begin
@@ -378,7 +378,7 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage1_11001) & (1'b1 == ap_CS_fsm_pp0_stage1) & (1'b1 == ap_ce))) begin
-        and_ln284_2_reg_435 <= and_ln284_2_fu_280_p2;
+        and_ln284_3_reg_435 <= and_ln284_3_fu_280_p2;
         icmp_ln284_reg_431 <= icmp_ln284_fu_218_p2;
         icmp_ln303_reg_439 <= icmp_ln303_fu_292_p2;
     end
@@ -434,14 +434,14 @@ end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage2_11001) & (1'b1 == ap_ce) & (1'b1 == ap_CS_fsm_pp0_stage2))) begin
-        res_out_1_reg_456 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1;
-        res_out_2_reg_461 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2;
-        res_out_3_reg_466 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3;
-        res_out_4_reg_471 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4;
-        res_out_5_reg_476 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5;
-        res_out_6_reg_481 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6;
-        res_out_7_reg_486 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7;
-        res_out_reg_451 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0;
+        res_out_1_reg_456 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_1;
+        res_out_2_reg_461 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_2;
+        res_out_3_reg_466 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_3;
+        res_out_4_reg_471 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_4;
+        res_out_5_reg_476 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_5;
+        res_out_6_reg_481 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_6;
+        res_out_7_reg_486 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_7;
+        res_out_reg_451 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_return_0;
     end
 end
 
@@ -593,14 +593,14 @@ end
 
 always @ (*) begin
     if (((1'b1 == ap_ce) & (((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp44) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp23) & (1'b1 == ap_CS_fsm_pp0_stage1))))) begin
-        grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce = 1'b1;
+        grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce = 1'b1;
     end else begin
-        grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce = 1'b0;
+        grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174_ap_ce = 1'b0;
     end
 end
 
 always @ (*) begin
-    if (((1'd1 == and_ln284_2_reg_435) & (icmp_ln284_reg_431 == 1'd1) & (1'b0 == ap_block_pp0_stage0) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
+    if (((1'd1 == and_ln284_3_reg_435) & (icmp_ln284_reg_431 == 1'd1) & (1'b0 == ap_block_pp0_stage0) & (ap_enable_reg_pp0_iter1 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         layer2_out_blk_n = layer2_out_full_n;
     end else begin
         layer2_out_blk_n = 1'b1;
@@ -654,9 +654,9 @@ assign add_ln313_fu_360_p2 = (sY_5 + 32'd1);
 
 assign add_ln318_fu_304_p2 = (sX_5 + 32'd1);
 
-assign and_ln284_2_fu_280_p2 = (icmp_ln284_4_fu_236_p2 & and_ln284_fu_274_p2);
+assign and_ln284_3_fu_280_p2 = (icmp_ln284_7_fu_236_p2 & and_ln284_fu_274_p2);
 
-assign and_ln284_fu_274_p2 = (icmp_ln284_7_fu_268_p2 & icmp_ln284_6_fu_252_p2);
+assign and_ln284_fu_274_p2 = (icmp_ln284_9_fu_268_p2 & icmp_ln284_8_fu_252_p2);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -721,22 +721,22 @@ end
 assign ap_enable_pp0 = (ap_idle_pp0 ^ 1'b1);
 
 always @ (*) begin
-    ap_predicate_op23_call_state2 = ((icmp_ln284_fu_218_p2 == 1'd1) & (1'd1 == and_ln284_2_fu_280_p2));
+    ap_predicate_op23_call_state2 = ((icmp_ln284_fu_218_p2 == 1'd1) & (1'd1 == and_ln284_3_fu_280_p2));
 end
 
 always @ (*) begin
-    ap_predicate_op57_write_state4 = ((1'd1 == and_ln284_2_reg_435) & (icmp_ln284_reg_431 == 1'd1));
+    ap_predicate_op57_write_state4 = ((1'd1 == and_ln284_3_reg_435) & (icmp_ln284_reg_431 == 1'd1));
 end
 
-assign icmp_ln284_4_fu_236_p2 = ((sY_5 == 32'd2) ? 1'b1 : 1'b0);
+assign icmp_ln284_7_fu_236_p2 = ((sY_5 == 32'd2) ? 1'b1 : 1'b0);
 
-assign icmp_ln284_6_fu_252_p2 = (($signed(tmp_450_fu_242_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
+assign icmp_ln284_8_fu_252_p2 = (($signed(tmp_248_fu_242_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
 
-assign icmp_ln284_7_fu_268_p2 = (($signed(tmp_451_fu_258_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
+assign icmp_ln284_9_fu_268_p2 = (($signed(tmp_249_fu_258_p4) > $signed(31'd0)) ? 1'b1 : 1'b0);
 
 assign icmp_ln284_fu_218_p2 = ((sX_5 == 32'd2) ? 1'b1 : 1'b0);
 
-assign icmp_ln303_fu_292_p2 = ((add_ln303_fu_286_p2 == 32'd284) ? 1'b1 : 1'b0);
+assign icmp_ln303_fu_292_p2 = ((add_ln303_fu_286_p2 == 32'd66) ? 1'b1 : 1'b0);
 
 assign icmp_ln307_fu_342_p2 = ((add_ln307_fu_336_p2 == 32'd22) ? 1'b1 : 1'b0);
 
@@ -748,8 +748,8 @@ assign select_ln313_fu_366_p3 = ((icmp_ln313_fu_354_p2[0:0] == 1'b1) ? 32'd2 : a
 
 assign select_ln318_fu_310_p3 = ((icmp_ln284_fu_218_p2[0:0] == 1'b1) ? 32'd2 : add_ln318_fu_304_p2);
 
-assign tmp_450_fu_242_p4 = {{pY_5[31:1]}};
+assign tmp_248_fu_242_p4 = {{pY_5[31:1]}};
 
-assign tmp_451_fu_258_p4 = {{pX_5[31:1]}};
+assign tmp_249_fu_258_p4 = {{pX_5[31:1]}};
 
 endmodule //myproject_compute_output_buffer_2d_array_array_ap_fixed_38_19_5_3_0_8u_config2_s

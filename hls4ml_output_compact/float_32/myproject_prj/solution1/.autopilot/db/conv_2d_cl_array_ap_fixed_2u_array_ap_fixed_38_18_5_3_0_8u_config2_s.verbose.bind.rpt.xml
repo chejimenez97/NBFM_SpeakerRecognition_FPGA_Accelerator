@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_18_5_3_0_8u_config2_s'" level="0">
-<item name = "Date">Sat Mar 21 19:14:41 2026
+<item name = "Date">Sun Mar 22 09:45:09 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.233 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 3.321 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">18747, 18747, 93.735 us, 93.735 us, 18747, 18747, no</column>
+<column name="">4359, 4359, 21.795 us, 21.795 us, 4359, 4359, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -36,7 +36,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- ReadInputHeight_ReadInputWidth">18745, 18745, 5, 3, 1, 6248, yes</column>
+<column name="- ReadInputHeight_ReadInputWidth">4357, 4357, 5, 3, 1, 1452, yes</column>
 </table>
 </item>
 </section>

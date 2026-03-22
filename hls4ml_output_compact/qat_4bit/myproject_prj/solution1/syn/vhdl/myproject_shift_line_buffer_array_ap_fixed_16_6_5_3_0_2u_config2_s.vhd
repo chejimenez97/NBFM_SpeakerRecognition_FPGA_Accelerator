@@ -18,42 +18,51 @@ port (
     ap_ready : OUT STD_LOGIC;
     in_elem_0_0_0_0_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
     in_elem_0_1_0_0_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i : IN STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld : OUT STD_LOGIC;
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_ap_vld : OUT STD_LOGIC;
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i : IN STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld : OUT STD_LOGIC;
     void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23 : OUT STD_LOGIC_VECTOR (15 downto 0);
     void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_ap_vld : OUT STD_LOGIC;
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18 : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17 : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_ap_vld : OUT STD_LOGIC;
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_i : IN STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_o : OUT STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_o_ap_vld : OUT STD_LOGIC;
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 : OUT STD_LOGIC_VECTOR (15 downto 0);
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_ap_vld : OUT STD_LOGIC;
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_ap_vld : OUT STD_LOGIC;
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 : OUT STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_ap_vld : OUT STD_LOGIC;
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i : IN STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld : OUT STD_LOGIC;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_ap_vld : OUT STD_LOGIC;
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i : IN STD_LOGIC_VECTOR (15 downto 0);
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o : OUT STD_LOGIC_VECTOR (15 downto 0);
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_ap_vld : OUT STD_LOGIC;
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i : IN STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o : OUT STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_ap_vld : OUT STD_LOGIC;
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_i : IN STD_LOGIC_VECTOR (15 downto 0);
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o : OUT STD_LOGIC_VECTOR (15 downto 0);
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_ap_vld : OUT STD_LOGIC;
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_i : IN STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_o : OUT STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_o_ap_vld : OUT STD_LOGIC;
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_i : IN STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o : OUT STD_LOGIC_VECTOR (15 downto 0);
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld : OUT STD_LOGIC;
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 : OUT STD_LOGIC_VECTOR (15 downto 0);
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_ap_vld : OUT STD_LOGIC;
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 : OUT STD_LOGIC_VECTOR (15 downto 0);
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld : OUT STD_LOGIC;
     ap_ce : IN STD_LOGIC );
 end;
 
@@ -64,7 +73,7 @@ architecture behav of myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_c
     constant ap_ST_fsm_state1 : STD_LOGIC_VECTOR (0 downto 0) := "1";
     constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     constant ap_const_lv1_1 : STD_LOGIC_VECTOR (0 downto 0) := "1";
-    constant ap_const_lv9_11B : STD_LOGIC_VECTOR (8 downto 0) := "100011011";
+    constant ap_const_lv7_41 : STD_LOGIC_VECTOR (6 downto 0) := "1000001";
     constant ap_const_boolean_1 : BOOLEAN := true;
 
 attribute shreg_extract : string;
@@ -73,24 +82,24 @@ attribute shreg_extract : string;
     attribute fsm_encoding of ap_CS_fsm : signal is "none";
     signal ap_CS_fsm_state1 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state1 : signal is "none";
-    signal void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20 : STD_LOGIC_VECTOR (15 downto 0) := "0000000000000000";
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_ce0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_we0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_q0 : STD_LOGIC_VECTOR (15 downto 0);
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_ce0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_we0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_q0 : STD_LOGIC_VECTOR (15 downto 0);
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_ce0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_we0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_q0 : STD_LOGIC_VECTOR (15 downto 0);
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_ce0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_we0 : STD_LOGIC;
-    signal p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_q0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21 : STD_LOGIC_VECTOR (15 downto 0) := "0000000000000000";
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_ce0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_we0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_q0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_ce0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_we0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_q0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_ce0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_we0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_q0 : STD_LOGIC_VECTOR (15 downto 0);
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_ce0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_we0 : STD_LOGIC;
+    signal p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_q0 : STD_LOGIC_VECTOR (15 downto 0);
     signal ap_NS_fsm : STD_LOGIC_VECTOR (0 downto 0);
     signal ap_ST_fsm_state1_blk : STD_LOGIC;
     signal ap_ce_reg : STD_LOGIC;
 
-    component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb IS
+    component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb IS
     generic (
         DataWidth : INTEGER;
         AddressRange : INTEGER;
@@ -98,7 +107,7 @@ attribute shreg_extract : string;
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
-        address0 : IN STD_LOGIC_VECTOR (8 downto 0);
+        address0 : IN STD_LOGIC_VECTOR (6 downto 0);
         ce0 : IN STD_LOGIC;
         we0 : IN STD_LOGIC;
         d0 : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -108,61 +117,61 @@ attribute shreg_extract : string;
 
 
 begin
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb
     generic map (
         DataWidth => 16,
-        AddressRange => 284,
-        AddressWidth => 9)
+        AddressRange => 66,
+        AddressWidth => 7)
     port map (
         clk => ap_clk,
         reset => ap_rst,
-        address0 => ap_const_lv9_11B,
-        ce0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_ce0,
-        we0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_we0,
+        address0 => ap_const_lv7_41,
+        ce0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_ce0,
+        we0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_we0,
         d0 => in_elem_0_0_0_0_0_val,
-        q0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_q0);
+        q0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_q0);
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb
     generic map (
         DataWidth => 16,
-        AddressRange => 284,
-        AddressWidth => 9)
+        AddressRange => 66,
+        AddressWidth => 7)
     port map (
         clk => ap_clk,
         reset => ap_rst,
-        address0 => ap_const_lv9_11B,
-        ce0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_ce0,
-        we0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_we0,
-        d0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_q0,
-        q0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_q0);
+        address0 => ap_const_lv7_41,
+        ce0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_ce0,
+        we0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_we0,
+        d0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_q0,
+        q0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_q0);
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb
     generic map (
         DataWidth => 16,
-        AddressRange => 284,
-        AddressWidth => 9)
+        AddressRange => 66,
+        AddressWidth => 7)
     port map (
         clk => ap_clk,
         reset => ap_rst,
-        address0 => ap_const_lv9_11B,
-        ce0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_ce0,
-        we0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_we0,
+        address0 => ap_const_lv7_41,
+        ce0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_ce0,
+        we0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_we0,
         d0 => in_elem_0_1_0_0_0_val,
-        q0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_q0);
+        q0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_q0);
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_U : component myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb
     generic map (
         DataWidth => 16,
-        AddressRange => 284,
-        AddressWidth => 9)
+        AddressRange => 66,
+        AddressWidth => 7)
     port map (
         clk => ap_clk,
         reset => ap_rst,
-        address0 => ap_const_lv9_11B,
-        ce0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_ce0,
-        we0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_we0,
-        d0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_q0,
-        q0 => p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_q0);
+        address0 => ap_const_lv7_41,
+        ce0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_ce0,
+        we0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_we0,
+        d0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_q0,
+        q0 => p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_q0);
 
 
 
@@ -182,8 +191,8 @@ begin
     process (ap_clk)
     begin
         if (ap_clk'event and ap_clk = '1') then
-            if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then
-                void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20 <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_i;
+            if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then
+                void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_i;
             end if;
         end if;
     end process;
@@ -211,7 +220,7 @@ begin
 
     ap_done_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if ((((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1)) or ((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1)))) then 
+        if ((((ap_start = ap_const_logic_0) and (ap_const_logic_1 = ap_CS_fsm_state1)) or ((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce)))) then 
             ap_done <= ap_const_logic_1;
         else 
             ap_done <= ap_const_logic_0;
@@ -231,7 +240,7 @@ begin
 
     ap_ready_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             ap_ready <= ap_const_logic_1;
         else 
             ap_ready <= ap_const_logic_0;
@@ -251,21 +260,30 @@ begin
 
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_o_ap_vld <= ap_const_logic_1;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_o_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_i;
 
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_assign_proc : process(ap_CS_fsm_state1, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_i, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_i)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_ap_vld <= ap_const_logic_1;
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_i;
         else 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_ap_vld <= ap_const_logic_0;
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_i;
+        end if; 
+    end process;
+
+
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_ap_vld <= ap_const_logic_1;
+        else 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
@@ -282,49 +300,40 @@ begin
 
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_o_ap_vld <= ap_const_logic_1;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_o_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_i;
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_i;
 
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_ap_vld <= ap_const_logic_1;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_i;
 
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_assign_proc : process(ap_CS_fsm_state1, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_i, p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_q0)
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o <= p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_q0;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_ap_vld <= ap_const_logic_1;
         else 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_i;
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
-    begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_ap_vld <= ap_const_logic_1;
-        else 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_assign_proc : process(ap_CS_fsm_state1, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i, p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_q0)
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_assign_proc : process(ap_CS_fsm_state1, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i, p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_q0)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
-            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o <= p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_q0;
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o <= p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_q0;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i;
         end if; 
@@ -333,10 +342,30 @@ begin
 
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_ap_vld <= ap_const_logic_1;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_o_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_assign_proc : process(ap_CS_fsm_state1, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i, p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_q0)
+    begin
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o <= p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_q0;
+        else 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i;
+        end if; 
+    end process;
+
+
+    p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_ap_vld <= ap_const_logic_1;
+        else 
+            p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
@@ -353,7 +382,7 @@ begin
 
     p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld <= ap_const_logic_1;
         else 
             p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld <= ap_const_logic_0;
@@ -361,186 +390,226 @@ begin
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_ce0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_ce0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_ce0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_ce0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_we0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_we0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_we0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_we0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_ce0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_ce0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_ce0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_ce0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_we0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_we0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_we0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_we0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_ce0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_ce0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_ce0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_ce0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_we0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_we0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_we0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_we0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_ce0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_ce0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_ce0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_ce0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_ce0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_we0_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_we0 <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_we0 <= ap_const_logic_1;
         else 
-            p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_we0 <= ap_const_logic_0;
+            p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_we0 <= ap_const_logic_0;
         end if; 
     end process;
 
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i)
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_i, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i;
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_i;
         else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i;
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_i;
         end if; 
     end process;
 
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld <= ap_const_logic_1;
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_ap_vld <= ap_const_logic_1;
         else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld <= ap_const_logic_0;
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20;
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i, p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld <= ap_const_logic_1;
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o <= p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i;
         else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld <= ap_const_logic_0;
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i;
         end if; 
     end process;
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_i;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_i, p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_q0)
+    begin
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o <= p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_q0;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_i;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i, p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_q0)
+    begin
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o <= p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_q0;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_i, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i)
+    begin
+        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_i;
+        end if; 
+    end process;
+
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
+    begin
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_ap_vld <= ap_const_logic_1;
+        else 
+            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_ap_vld <= ap_const_logic_0;
+        end if; 
+    end process;
+
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21;
 
     void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_ap_vld <= ap_const_logic_1;
         else 
             void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 <= p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_q0;
+    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_i;
 
     void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
     begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
+        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state1) and (ap_const_logic_1 = ap_ce))) then 
             void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld <= ap_const_logic_1;
         else 
             void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i, p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_q0)
-    begin
-        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o <= p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_q0;
-        else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i;
-        end if; 
-    end process;
-
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
-    begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld <= ap_const_logic_1;
-        else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_assign_proc : process(ap_CS_fsm_state1, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i, void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i)
-    begin
-        if ((ap_const_logic_1 = ap_CS_fsm_state1)) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i;
-        else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i;
-        end if; 
-    end process;
-
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
-    begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld <= ap_const_logic_1;
-        else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld <= ap_const_logic_0;
-        end if; 
-    end process;
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 <= void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i;
-
-    void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_ap_vld_assign_proc : process(ap_start, ap_CS_fsm_state1, ap_ce)
-    begin
-        if (((ap_start = ap_const_logic_1) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_state1))) then 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_ap_vld <= ap_const_logic_1;
-        else 
-            void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_ap_vld <= ap_const_logic_0;
         end if; 
     end process;
 

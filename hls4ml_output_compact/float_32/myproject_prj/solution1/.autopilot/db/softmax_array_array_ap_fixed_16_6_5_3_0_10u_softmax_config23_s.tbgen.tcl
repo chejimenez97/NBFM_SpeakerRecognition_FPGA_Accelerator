@@ -15,13 +15,13 @@ set DLRegItemOffset 0
 set C_modelName {softmax<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>}
 set C_modelType { void 0 }
 set C_modelArgList {
-	{ layer21_out int 380 regular {fifo 0 volatile }  }
+	{ layer21_out int 370 regular {fifo 0 volatile }  }
 	{ layer23_out int 160 regular {axi_s 1 volatile  { layer23_out Data } }  }
 }
 set hasAXIMCache 0
 set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
-	{ "Name" : "layer21_out", "interface" : "fifo", "bitwidth" : 380, "direction" : "READONLY"} , 
+	{ "Name" : "layer21_out", "interface" : "fifo", "bitwidth" : 370, "direction" : "READONLY"} , 
  	{ "Name" : "layer23_out", "interface" : "axis", "bitwidth" : 160, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 15
@@ -33,7 +33,7 @@ set portList {
 	{ ap_continue sc_in sc_logic 1 continue -1 } 
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
-	{ layer21_out_dout sc_in sc_lv 380 signal 0 } 
+	{ layer21_out_dout sc_in sc_lv 370 signal 0 } 
 	{ layer21_out_num_data_valid sc_in sc_lv 2 signal 0 } 
 	{ layer21_out_fifo_cap sc_in sc_lv 2 signal 0 } 
 	{ layer21_out_empty_n sc_in sc_logic 1 signal 0 } 
@@ -50,7 +50,7 @@ set NewPortList {[
  	{ "name": "ap_continue", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "continue", "bundle":{"name": "ap_continue", "role": "default" }} , 
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
- 	{ "name": "layer21_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":380, "type": "signal", "bundle":{"name": "layer21_out", "role": "dout" }} , 
+ 	{ "name": "layer21_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":370, "type": "signal", "bundle":{"name": "layer21_out", "role": "dout" }} , 
  	{ "name": "layer21_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "layer21_out", "role": "num_data_valid" }} , 
  	{ "name": "layer21_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "layer21_out", "role": "fifo_cap" }} , 
  	{ "name": "layer21_out_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer21_out", "role": "empty_n" }} , 
@@ -108,8 +108,8 @@ set RtlHierarchyInfo {[
 			{"Name" : "invert_table", "Type" : "Memory", "Direction" : "I"}]},
 	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.invert_table_U", "Parent" : "1"},
 	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.exp_table_U", "Parent" : "1"},
-	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s_fu_620", "Parent" : "1", "Child" : ["5", "6", "7"],
-		"CDFG" : "init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s",
+	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s_fu_620", "Parent" : "1", "Child" : ["5", "6", "7"],
+		"CDFG" : "init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
@@ -127,19 +127,19 @@ set RtlHierarchyInfo {[
 		"Loop" : [
 			{"Name" : "VITIS_LOOP_151_1", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter19", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter19", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "5", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s_fu_620.fpext_32ns_64_2_no_dsp_1_U2236", "Parent" : "4"},
-	{"ID" : "6", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s_fu_620.fexp_32ns_32ns_32_13_full_dsp_1_U2237", "Parent" : "4"},
-	{"ID" : "7", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s_fu_620.flow_control_loop_pipe_sequential_init_U", "Parent" : "4"},
-	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2241", "Parent" : "1"},
-	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2242", "Parent" : "1"},
-	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2243", "Parent" : "1"},
-	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2244", "Parent" : "1"},
-	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2245", "Parent" : "1"},
-	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2246", "Parent" : "1"},
-	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2247", "Parent" : "1"},
-	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2248", "Parent" : "1"},
-	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2249", "Parent" : "1"},
-	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U2250", "Parent" : "1"},
+	{"ID" : "5", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s_fu_620.fpext_32ns_64_2_no_dsp_1_U1539", "Parent" : "4"},
+	{"ID" : "6", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s_fu_620.fexp_32ns_32ns_32_13_full_dsp_1_U1540", "Parent" : "4"},
+	{"ID" : "7", "Level" : "3", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.grp_init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s_fu_620.flow_control_loop_pipe_sequential_init_U", "Parent" : "4"},
+	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1544", "Parent" : "1"},
+	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1545", "Parent" : "1"},
+	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1546", "Parent" : "1"},
+	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1547", "Parent" : "1"},
+	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1548", "Parent" : "1"},
+	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1549", "Parent" : "1"},
+	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1550", "Parent" : "1"},
+	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1551", "Parent" : "1"},
+	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1552", "Parent" : "1"},
+	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.mul_18s_16s_26_1_1_U1553", "Parent" : "1"},
 	{"ID" : "18", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_layer23_out_U", "Parent" : "0"}]}
 
 
@@ -152,7 +152,7 @@ set ArgLastReadFirstWriteLatency {
 		layer21_out {Type I LastRead 0 FirstWrite -1}
 		layer23_out {Type O LastRead -1 FirstWrite 11}
 		invert_table {Type I LastRead -1 FirstWrite -1}}
-	init_exp_table_ap_ufixed_37_17_5_3_0_softmax_config23_s {
+	init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s {
 		table_out {Type O LastRead -1 FirstWrite 19}}}
 
 set hasDtUnsupportedChannel 0
@@ -166,6 +166,6 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer21_out { ap_fifo {  { layer21_out_dout fifo_data_in 0 380 }  { layer21_out_num_data_valid fifo_status_num_data_valid 0 2 }  { layer21_out_fifo_cap fifo_update 0 2 }  { layer21_out_empty_n fifo_status 0 1 }  { layer21_out_read fifo_port_we 1 1 } } }
+	layer21_out { ap_fifo {  { layer21_out_dout fifo_data_in 0 370 }  { layer21_out_num_data_valid fifo_status_num_data_valid 0 2 }  { layer21_out_fifo_cap fifo_update 0 2 }  { layer21_out_empty_n fifo_status 0 1 }  { layer21_out_read fifo_port_we 1 1 } } }
 	layer23_out { axis {  { layer23_out_TDATA out_data 1 160 }  { layer23_out_TVALID out_vld 1 1 }  { layer23_out_TREADY out_acc 0 1 } } }
 }

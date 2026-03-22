@@ -241,8 +241,8 @@ class AESL_RUNTIME_BC {
     fstream file_token;
     string mName;
 };
-unsigned int ap_apatb_input_1_cap_bc;
-static AESL_RUNTIME_BC __xlx_input_1_V_size_Reader("../tv/stream_size/stream_size_in_input_1.dat");
+unsigned int ap_apatb_input_4_cap_bc;
+static AESL_RUNTIME_BC __xlx_input_4_V_size_Reader("../tv/stream_size/stream_size_in_input_4.dat");
 unsigned int ap_apatb_layer23_out_cap_bc;
 static AESL_RUNTIME_BC __xlx_layer23_out_V_size_Reader("../tv/stream_size/stream_size_out_layer23_out.dat");
 using hls::sim::Byte;
@@ -250,15 +250,15 @@ struct __cosim_s4__ { char data[4]; };
 struct __cosim_s20__ { char data[20]; };
 struct __cosim_s32__ { char data[32]; };
 extern "C" void myproject(__cosim_s4__*, __cosim_s20__*);
-extern "C" void apatb_myproject_hw(volatile void * __xlx_apatb_param_input_1, volatile void * __xlx_apatb_param_layer23_out) {
+extern "C" void apatb_myproject_hw(volatile void * __xlx_apatb_param_input_4, volatile void * __xlx_apatb_param_layer23_out) {
 using hls::sim::createStream;
-auto* sinput_1 = createStream((hls::stream<__cosim_s4__>*)__xlx_apatb_param_input_1);
+auto* sinput_4 = createStream((hls::stream<__cosim_s4__>*)__xlx_apatb_param_input_4);
   //Create input buffer for layer23_out
   ap_apatb_layer23_out_cap_bc = __xlx_layer23_out_V_size_Reader.read_size();
   __cosim_s20__* __xlx_layer23_out_input_buffer= new __cosim_s20__[ap_apatb_layer23_out_cap_bc];
 auto* slayer23_out = createStream((hls::stream<__cosim_s20__>*)__xlx_apatb_param_layer23_out);
   // DUT call
-  myproject(sinput_1->data<__cosim_s4__>(), slayer23_out->data<__cosim_s20__>());
-sinput_1->transfer((hls::stream<__cosim_s4__>*)__xlx_apatb_param_input_1);
+  myproject(sinput_4->data<__cosim_s4__>(), slayer23_out->data<__cosim_s20__>());
+sinput_4->transfer((hls::stream<__cosim_s4__>*)__xlx_apatb_param_input_4);
 slayer23_out->transfer((hls::stream<__cosim_s20__>*)__xlx_apatb_param_layer23_out);
 }

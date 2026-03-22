@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Sat Mar 21 19:23:41 2026
+<item name = "Date">Sun Mar 22 09:52:21 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -24,32 +24,32 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">18762, 18762, 93.810 us, 93.810 us, 18748, 18748, dataflow</column>
+<column name="">4374, 4374, 21.870 us, 21.870 us, 4360, 4360, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s_fu_1776">zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s, 17501, 17501, 87.505 us, 87.505 us, 17501, 17501, no</column>
-<column name="grp_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_1783">conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s, 18747, 18747, 93.735 us, 93.735 us, 18747, 18747, no</column>
-<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s_fu_1841">normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s, 5644, 5644, 28.220 us, 28.220 us, 5644, 5644, no</column>
-<column name="grp_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s_fu_1847">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s, 5643, 5643, 28.215 us, 28.215 us, 5643, 5643, no</column>
-<column name="grp_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_1853">pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s, 11283, 11283, 56.415 us, 56.415 us, 11283, 11283, no</column>
-<column name="grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s_fu_2011">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s, 2257, 2257, 11.285 us, 11.285 us, 2257, 2257, no</column>
-<column name="grp_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_s_fu_2017">conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_s, 3457, 11233, 17.285 us, 56.165 us, 3457, 11233, no</column>
-<column name="grp_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_s_fu_2209">normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_s, 704, 704, 3.520 us, 3.520 us, 704, 704, no</column>
-<column name="grp_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_s_fu_2215">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_s, 703, 703, 3.515 us, 3.515 us, 703, 703, no</column>
-<column name="grp_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_s_fu_2221">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_s, 1403, 1403, 7.015 us, 7.015 us, 1403, 1403, no</column>
-<column name="grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_s_fu_2587">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_s, 125, 125, 0.625 us, 0.625 us, 125, 125, no</column>
-<column name="grp_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_s_fu_2593">conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_s, 449, 1905, 2.245 us, 9.525 us, 449, 1905, no</column>
-<column name="grp_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_s_fu_2961">normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_s, 74, 74, 0.370 us, 0.370 us, 74, 74, no</column>
-<column name="grp_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_s_fu_2967">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_s, 73, 73, 0.365 us, 0.365 us, 73, 73, no</column>
-<column name="grp_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_s_fu_2973">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_s, 144, 144, 0.720 us, 0.720 us, 144, 144, no</column>
-<column name="grp_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_s_fu_3435">dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_s, 42, 43, 0.210 us, 0.215 us, 42, 43, no</column>
-<column name="grp_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_s_fu_3443">relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
-<column name="grp_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_s_fu_3449">dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_s, 7, 8, 35.000 ns, 40.000 ns, 7, 8, no</column>
-<column name="grp_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_3457">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 1058, 1058, 5.290 us, 5.290 us, 1058, 1058, no</column>
+<column name="grp_zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s_fu_1248">zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s, 1465, 1465, 7.325 us, 7.325 us, 1465, 1465, no</column>
+<column name="grp_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_1255">conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s, 4359, 4359, 21.795 us, 21.795 us, 4359, 4359, no</column>
+<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s_fu_1313">normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s, 1284, 1284, 6.420 us, 6.420 us, 1284, 1284, no</column>
+<column name="grp_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s_fu_1319">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s, 1283, 1283, 6.415 us, 6.415 us, 1283, 1283, no</column>
+<column name="grp_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_1325">pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s, 2563, 2563, 12.815 us, 12.815 us, 2563, 2563, no</column>
+<column name="grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s_fu_1419">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s, 421, 421, 2.105 us, 2.105 us, 421, 421, no</column>
+<column name="grp_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_s_fu_1425">conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_s, 1635, 1635, 8.175 us, 8.175 us, 1635, 1635, no</column>
+<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_s_fu_1615">normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_s, 324, 324, 1.620 us, 1.620 us, 324, 324, no</column>
+<column name="grp_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_s_fu_1621">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_s, 323, 323, 1.615 us, 1.615 us, 323, 323, no</column>
+<column name="grp_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_s_fu_1627">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_s, 643, 643, 3.215 us, 3.215 us, 643, 643, no</column>
+<column name="grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_s_fu_1785">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_s, 83, 83, 0.415 us, 0.415 us, 83, 83, no</column>
+<column name="grp_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_s_fu_1791">conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_s, 283, 283, 1.415 us, 1.415 us, 283, 283, no</column>
+<column name="grp_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_s_fu_1981">normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_s, 44, 44, 0.220 us, 0.220 us, 44, 44, no</column>
+<column name="grp_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_s_fu_1987">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_s, 43, 43, 0.215 us, 0.215 us, 43, 43, no</column>
+<column name="grp_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_s_fu_1993">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_s, 85, 85, 0.425 us, 0.425 us, 85, 85, no</column>
+<column name="grp_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_s_fu_2391">dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_s, 8, 8, 40.000 ns, 40.000 ns, 8, 8, no</column>
+<column name="grp_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_s_fu_2397">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
+<column name="grp_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_s_fu_2403">dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_s, 3, 3, 15.000 ns, 15.000 ns, 3, 3, no</column>
+<column name="grp_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_2409">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 1058, 1058, 5.290 us, 5.290 us, 1058, 1058, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

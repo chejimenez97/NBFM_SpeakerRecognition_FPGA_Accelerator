@@ -146,7 +146,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539767593</coreId>
+              <coreId>1601200416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -294,7 +294,7 @@
             <Obj>
               <type>0</type>
               <id>34</id>
-              <name>sX_4_load</name>
+              <name>sX_5_load</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -407,7 +407,7 @@
             <Obj>
               <type>0</type>
               <id>36</id>
-              <name>sY_4_load</name>
+              <name>sY_5_load</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -463,7 +463,7 @@
             <Obj>
               <type>0</type>
               <id>37</id>
-              <name>pY_4_load</name>
+              <name>pY_5_load</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -519,7 +519,7 @@
             <Obj>
               <type>0</type>
               <id>38</id>
-              <name>pX_4_load</name>
+              <name>pX_5_load</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -607,7 +607,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1746938918</coreId>
+              <coreId>1885413420</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -633,7 +633,7 @@
             <Obj>
               <type>0</type>
               <id>41</id>
-              <name>icmp_ln284_4</name>
+              <name>icmp_ln284_7</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -658,7 +658,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln284_4_fu_236_p2</rtlName>
+              <rtlName>icmp_ln284_7_fu_236_p2</rtlName>
               <control>auto</control>
               <opType>icmp</opType>
               <implIndex>auto</implIndex>
@@ -749,7 +749,7 @@
             <Obj>
               <type>0</type>
               <id>43</id>
-              <name>icmp_ln284_6</name>
+              <name>icmp_ln284_8</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -774,7 +774,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln284_6_fu_252_p2</rtlName>
+              <rtlName>icmp_ln284_8_fu_252_p2</rtlName>
               <control>auto</control>
               <opType>icmp</opType>
               <implIndex>auto</implIndex>
@@ -838,7 +838,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>544106345</coreId>
+              <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -865,7 +865,7 @@
             <Obj>
               <type>0</type>
               <id>45</id>
-              <name>icmp_ln284_7</name>
+              <name>icmp_ln284_9</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -890,7 +890,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln284_7_fu_268_p2</rtlName>
+              <rtlName>icmp_ln284_9_fu_268_p2</rtlName>
               <control>auto</control>
               <opType>icmp</opType>
               <implIndex>auto</implIndex>
@@ -979,7 +979,7 @@
             <Obj>
               <type>0</type>
               <id>47</id>
-              <name>and_ln284_2</name>
+              <name>and_ln284_3</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>284</lineNumber>
@@ -1004,7 +1004,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln284_2_fu_280_p2</rtlName>
+              <rtlName>and_ln284_3_fu_280_p2</rtlName>
               <control>auto</control>
               <opType>and</opType>
               <implIndex>auto</implIndex>
@@ -1068,7 +1068,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1902080097</coreId>
+              <coreId>1746938918</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -1097,7 +1097,7 @@
               <name>tmp</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1120,20 +1120,20 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</rtlName>
+              <rtlName>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701080941</coreId>
+              <coreId>1043341356</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>304</bitwidth>
@@ -1181,7 +1181,7 @@
               <name>res_out</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1204,7 +1204,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1217,7 +1217,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741550437</coreId>
+              <coreId>1702390118</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1244,7 +1244,7 @@
               <name>res_out_1</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1267,7 +1267,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1280,7 +1280,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>808525868</coreId>
+              <coreId>741356064</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1307,7 +1307,7 @@
               <name>res_out_2</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1330,7 +1330,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1343,7 +1343,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741550437</coreId>
+              <coreId>807414835</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1370,7 +1370,7 @@
               <name>res_out_3</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1393,7 +1393,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1406,7 +1406,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701080941</coreId>
+              <coreId>807414835</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1433,7 +1433,7 @@
               <name>res_out_4</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1456,7 +1456,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1469,7 +1469,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1635216754</coreId>
+              <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1496,7 +1496,7 @@
               <name>res_out_5</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1519,7 +1519,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1532,7 +1532,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1635216754</coreId>
+              <coreId>741550437</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1559,7 +1559,7 @@
               <name>res_out_6</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1582,7 +1582,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1595,7 +1595,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539770416</coreId>
+              <coreId>808525868</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1622,7 +1622,7 @@
               <name>res_out_7</name>
               <fileName>firmware/nnet_utils/nnet_dense.h</fileName>
               <fileDirectory>../.</fileDirectory>
-              <lineNumber>65</lineNumber>
+              <lineNumber>54</lineNumber>
               <contextFuncName>dense</contextFuncName>
               <contextNormFuncName>dense</contextNormFuncName>
               <inlineStackInfo>
@@ -1645,7 +1645,7 @@
                         <first>firmware/nnet_utils/nnet_dense.h</first>
                         <second>dense</second>
                       </first>
-                      <second>65</second>
+                      <second>54</second>
                     </item>
                   </second>
                 </item>
@@ -1658,7 +1658,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1768302624</coreId>
+              <coreId>741550437</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>38</bitwidth>
@@ -1714,7 +1714,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1043490665</coreId>
+              <coreId>908078134</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>304</bitwidth>
@@ -1836,7 +1836,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>673197104</coreId>
+              <coreId>1952804462</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2006,7 +2006,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>673197109</coreId>
+              <coreId>1952804462</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2032,7 +2032,7 @@
             <Obj>
               <type>0</type>
               <id>67</id>
-              <name>pX_4_write_ln316</name>
+              <name>pX_5_write_ln316</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>316</lineNumber>
@@ -2064,7 +2064,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601200424</coreId>
+              <coreId>1701735983</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2205,7 +2205,7 @@
             <Obj>
               <type>0</type>
               <id>70</id>
-              <name>sX_4_write_ln318</name>
+              <name>sX_5_write_ln318</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>318</lineNumber>
@@ -2237,7 +2237,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1043276322</coreId>
+              <coreId>1701735983</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2281,7 +2281,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1684959075</coreId>
+              <coreId>1701735983</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2305,7 +2305,7 @@
             <Obj>
               <type>0</type>
               <id>73</id>
-              <name>pX_4_write_ln305</name>
+              <name>pX_5_write_ln305</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>305</lineNumber>
@@ -2337,7 +2337,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>757935405</coreId>
+              <coreId>1885415456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2363,7 +2363,7 @@
             <Obj>
               <type>0</type>
               <id>74</id>
-              <name>sX_4_write_ln306</name>
+              <name>sX_5_write_ln306</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>306</lineNumber>
@@ -2395,7 +2395,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>151666223</coreId>
+              <coreId>1848057966</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2567,7 +2567,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1667195954</coreId>
+              <coreId>539768105</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2593,7 +2593,7 @@
             <Obj>
               <type>0</type>
               <id>79</id>
-              <name>pY_4_write_ln311</name>
+              <name>pY_5_write_ln311</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>311</lineNumber>
@@ -2625,7 +2625,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>694510703</coreId>
+              <coreId>539769716</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2841,7 +2841,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1935961711</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2865,7 +2865,7 @@
             <Obj>
               <type>0</type>
               <id>85</id>
-              <name>pY_4_write_ln308</name>
+              <name>pY_5_write_ln308</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>308</lineNumber>
@@ -2897,7 +2897,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209509243</coreId>
+              <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -2955,7 +2955,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3</coreId>
+              <coreId>1866086974</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3011,7 +3011,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209084816</coreId>
+              <coreId>1629954158</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3038,7 +3038,7 @@
             <Obj>
               <type>0</type>
               <id>89</id>
-              <name>sY_4_write_ln309</name>
+              <name>sY_5_write_ln309</name>
               <fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>309</lineNumber>
@@ -3070,7 +3070,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209513241</coreId>
+              <coreId>5744</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3128,7 +3128,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>7</coreId>
+              <coreId>1836016416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3184,7 +3184,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209090000</coreId>
+              <coreId>908078134</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -3322,7 +3322,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209092424</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3353,7 +3353,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209092592</coreId>
+              <coreId>1852793632</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>31</bitwidth>
@@ -3366,7 +3366,7 @@
             <Obj>
               <type>2</type>
               <id>138</id>
-              <name>dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s</name>
+              <name>dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -3384,13 +3384,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209093888</coreId>
+              <coreId>740979827</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>304</bitwidth>
           </Value>
           <const_type>6</const_type>
-          <content>&lt;constant:dense_resource_rf_leq_nin&lt;ap_fixed,ap_fixed&lt;38,18,5,3,0&gt;,config2_mult&gt;&gt;</content>
+          <content>&lt;constant:dense_latency&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, ap_fixed&lt;38, 18, 5, 3, 0&gt;, config2_mult&gt;&gt;</content>
         </item>
         <item class_id_reference="16" object_id="_63">
           <Value>
@@ -3415,13 +3415,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209519704</coreId>
+              <coreId>740979827</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>284</content>
+          <content>66</content>
         </item>
         <item class_id_reference="16" object_id="_64">
           <Value>
@@ -3446,7 +3446,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>8</coreId>
+              <coreId>712274798</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3477,7 +3477,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3209094976</coreId>
+              <coreId>3721793760</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -3511,7 +3511,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>807414835</coreId>
+            <coreId>941632574</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -3768,7 +3768,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>807414835</coreId>
+            <coreId>941632574</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -5410,21 +5410,21 @@
           </second>
         </item>
         <item>
-          <first>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174 (dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s)</first>
+          <first>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174 (dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>DSP</first>
-              <second>131</second>
+              <second>119</second>
             </item>
             <item>
               <first>FF</first>
-              <second>1609</second>
+              <second>1545</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>3795</second>
+              <second>4142</second>
             </item>
           </second>
         </item>
@@ -5525,7 +5525,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln284_2_fu_280_p2 ( and ) </first>
+          <first>and_ln284_3_fu_280_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -5778,7 +5778,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_4_fu_236_p2 ( icmp ) </first>
+          <first>icmp_ln284_7_fu_236_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -5801,7 +5801,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_6_fu_252_p2 ( icmp ) </first>
+          <first>icmp_ln284_8_fu_252_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -5824,7 +5824,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_7_fu_268_p2 ( icmp ) </first>
+          <first>icmp_ln284_9_fu_268_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -5880,7 +5880,7 @@
             </item>
             <item>
               <first>(1P1)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>FF</first>
@@ -6120,7 +6120,7 @@
           </second>
         </item>
         <item>
-          <first>pX_4</first>
+          <first>pX_5</first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -6143,7 +6143,7 @@
           </second>
         </item>
         <item>
-          <first>pY_4</first>
+          <first>pY_5</first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -6166,7 +6166,7 @@
           </second>
         </item>
         <item>
-          <first>sX_4</first>
+          <first>sX_5</first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -6193,7 +6193,7 @@
         <count>37</count>
         <item_version>0</item_version>
         <item>
-          <first>and_ln284_2_reg_435</first>
+          <first>and_ln284_3_reg_435</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6326,7 +6326,7 @@
           </second>
         </item>
         <item>
-          <first>pX_4</first>
+          <first>pX_5</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6345,7 +6345,7 @@
           </second>
         </item>
         <item>
-          <first>pY_4</first>
+          <first>pY_5</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6364,7 +6364,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_62</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6383,7 +6383,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_63</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6402,7 +6402,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_64</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6421,7 +6421,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_65</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6440,7 +6440,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_66</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6459,7 +6459,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_67</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6478,7 +6478,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_68</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6497,7 +6497,7 @@
           </second>
         </item>
         <item>
-          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_69</first>
+          <first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6668,7 +6668,7 @@
           </second>
         </item>
         <item>
-          <first>sX_4</first>
+          <first>sX_5</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6687,7 +6687,7 @@
           </second>
         </item>
         <item>
-          <first>sY_4</first>
+          <first>sY_5</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6706,7 +6706,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6725,7 +6725,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6744,7 +6744,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6763,7 +6763,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6782,7 +6782,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6801,7 +6801,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6820,7 +6820,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6839,7 +6839,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6858,7 +6858,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6877,7 +6877,7 @@
           </second>
         </item>
         <item>
-          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19</first>
+          <first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -6907,7 +6907,7 @@
           </second>
         </item>
         <item>
-          <first>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</first>
+          <first>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -6926,7 +6926,7 @@
           </second>
         </item>
         <item>
-          <first>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174 (dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s)</first>
+          <first>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174 (dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -6970,7 +6970,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln284_2_fu_280_p2 ( and ) </first>
+          <first>and_ln284_3_fu_280_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -6986,7 +6986,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_4_fu_236_p2 ( icmp ) </first>
+          <first>icmp_ln284_7_fu_236_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -6994,7 +6994,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_6_fu_252_p2 ( icmp ) </first>
+          <first>icmp_ln284_8_fu_252_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -7002,7 +7002,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln284_7_fu_268_p2 ( icmp ) </first>
+          <first>icmp_ln284_9_fu_268_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -7990,7 +7990,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln284_2_fu_280</first>
+        <first>and_ln284_3_fu_280</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8006,7 +8006,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln284_4_fu_236</first>
+        <first>icmp_ln284_7_fu_236</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8014,7 +8014,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln284_6_fu_252</first>
+        <first>icmp_ln284_8_fu_252</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8022,7 +8022,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln284_7_fu_268</first>
+        <first>icmp_ln284_9_fu_268</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8186,7 +8186,7 @@
         </second>
       </item>
       <item>
-        <first>grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</first>
+        <first>grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_18_5_3_0_config2_mult_s_fu_174</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -8215,7 +8215,7 @@
         </second>
       </item>
       <item>
-        <first>pX_4_load_load_fu_232</first>
+        <first>pX_5_load_load_fu_232</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8223,7 +8223,7 @@
         </second>
       </item>
       <item>
-        <first>pY_4_load_load_fu_228</first>
+        <first>pY_5_load_load_fu_228</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8231,7 +8231,7 @@
         </second>
       </item>
       <item>
-        <first>sX_4_load_load_fu_214</first>
+        <first>sX_5_load_load_fu_214</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8239,7 +8239,7 @@
         </second>
       </item>
       <item>
-        <first>sY_4_load_load_fu_224</first>
+        <first>sY_5_load_load_fu_224</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -8320,7 +8320,7 @@
       <item_version>0</item_version>
       <item class_id="61" tracking_level="0" version="0">
         <first class_id="62" tracking_level="0" version="0">
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_16</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_32</first>
           <second>100</second>
         </first>
         <second>
@@ -8331,7 +8331,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_17</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_33</first>
           <second>100</second>
         </first>
         <second>
@@ -8342,7 +8342,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_18</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_34</first>
           <second>100</second>
         </first>
         <second>
@@ -8353,7 +8353,7 @@
       </item>
       <item>
         <first>
-          <first>p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_19</first>
+          <first>p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_35</first>
           <second>100</second>
         </first>
         <second>
@@ -8475,7 +8475,7 @@
       <count>13</count>
       <item_version>0</item_version>
       <item>
-        <first>and_ln284_2_reg_435</first>
+        <first>and_ln284_3_reg_435</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

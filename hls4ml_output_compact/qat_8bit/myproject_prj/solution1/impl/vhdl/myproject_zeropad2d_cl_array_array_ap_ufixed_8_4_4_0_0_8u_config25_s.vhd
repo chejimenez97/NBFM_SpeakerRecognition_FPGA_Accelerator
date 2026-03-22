@@ -21,13 +21,13 @@ port (
     start_out : OUT STD_LOGIC;
     start_write : OUT STD_LOGIC;
     layer6_out_dout : IN STD_LOGIC_VECTOR (63 downto 0);
-    layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-    layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+    layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+    layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
     layer6_out_empty_n : IN STD_LOGIC;
     layer6_out_read : OUT STD_LOGIC;
     layer25_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
-    layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-    layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+    layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+    layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
     layer25_out_full_n : IN STD_LOGIC;
     layer25_out_write : OUT STD_LOGIC );
 end;
@@ -52,7 +52,7 @@ architecture behav of myproject_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_
     constant ap_const_lv32_4 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000100";
     constant ap_const_lv32_6 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000110";
     constant ap_const_lv32_7 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000111";
-    constant ap_const_lv11_0 : STD_LOGIC_VECTOR (10 downto 0) := "00000000000";
+    constant ap_const_lv10_0 : STD_LOGIC_VECTOR (9 downto 0) := "0000000000";
 
 attribute shreg_extract : string;
     signal real_start : STD_LOGIC;
@@ -70,13 +70,13 @@ attribute shreg_extract : string;
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_ready : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_din : STD_LOGIC_VECTOR (63 downto 0);
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_write : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_idle : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_ready : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_din : STD_LOGIC_VECTOR (63 downto 0);
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_write : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer6_out_read : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_idle : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_ready : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_din : STD_LOGIC_VECTOR (63 downto 0);
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_write : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer6_out_read : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_start : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_done : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_idle : STD_LOGIC;
@@ -87,7 +87,7 @@ attribute shreg_extract : string;
     signal ap_block_state1_ignore_call3 : BOOLEAN;
     signal ap_CS_fsm_state2 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
-    signal grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg : STD_LOGIC := '0';
+    signal grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg : STD_LOGIC := '0';
     signal ap_CS_fsm_state4 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state4 : signal is "none";
     signal ap_CS_fsm_state5 : STD_LOGIC;
@@ -118,14 +118,14 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer25_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
-        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
         layer25_out_full_n : IN STD_LOGIC;
         layer25_out_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain IS
+    component myproject_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -134,13 +134,13 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer25_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
-        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
         layer25_out_full_n : IN STD_LOGIC;
         layer25_out_write : OUT STD_LOGIC;
         layer6_out_dout : IN STD_LOGIC_VECTOR (63 downto 0);
-        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
         layer6_out_empty_n : IN STD_LOGIC;
         layer6_out_read : OUT STD_LOGIC );
     end component;
@@ -155,8 +155,8 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer25_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
-        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (10 downto 0);
-        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (10 downto 0);
+        layer25_out_num_data_valid : IN STD_LOGIC_VECTOR (9 downto 0);
+        layer25_out_fifo_cap : IN STD_LOGIC_VECTOR (9 downto 0);
         layer25_out_full_n : IN STD_LOGIC;
         layer25_out_write : OUT STD_LOGIC );
     end component;
@@ -173,29 +173,29 @@ begin
         ap_idle => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_idle,
         ap_ready => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_ready,
         layer25_out_din => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_din,
-        layer25_out_num_data_valid => ap_const_lv11_0,
-        layer25_out_fifo_cap => ap_const_lv11_0,
+        layer25_out_num_data_valid => ap_const_lv10_0,
+        layer25_out_fifo_cap => ap_const_lv10_0,
         layer25_out_full_n => layer25_out_full_n,
         layer25_out_write => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_write);
 
-    grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28 : component myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain
+    grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28 : component myproject_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start,
-        ap_done => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done,
-        ap_idle => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_idle,
-        ap_ready => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_ready,
-        layer25_out_din => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_din,
-        layer25_out_num_data_valid => ap_const_lv11_0,
-        layer25_out_fifo_cap => ap_const_lv11_0,
+        ap_start => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start,
+        ap_done => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done,
+        ap_idle => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_idle,
+        ap_ready => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_ready,
+        layer25_out_din => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_din,
+        layer25_out_num_data_valid => ap_const_lv10_0,
+        layer25_out_fifo_cap => ap_const_lv10_0,
         layer25_out_full_n => layer25_out_full_n,
-        layer25_out_write => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_write,
+        layer25_out_write => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_write,
         layer6_out_dout => layer6_out_dout,
-        layer6_out_num_data_valid => ap_const_lv11_0,
-        layer6_out_fifo_cap => ap_const_lv11_0,
+        layer6_out_num_data_valid => ap_const_lv10_0,
+        layer6_out_fifo_cap => ap_const_lv10_0,
         layer6_out_empty_n => layer6_out_empty_n,
-        layer6_out_read => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer6_out_read);
+        layer6_out_read => grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer6_out_read);
 
     grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36 : component myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth
     port map (
@@ -206,8 +206,8 @@ begin
         ap_idle => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_idle,
         ap_ready => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_ready,
         layer25_out_din => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_din,
-        layer25_out_num_data_valid => ap_const_lv11_0,
-        layer25_out_fifo_cap => ap_const_lv11_0,
+        layer25_out_num_data_valid => ap_const_lv10_0,
+        layer25_out_fifo_cap => ap_const_lv10_0,
         layer25_out_full_n => layer25_out_full_n,
         layer25_out_write => grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_write);
 
@@ -237,6 +237,22 @@ begin
                     ap_done_reg <= ap_const_logic_0;
                 elsif (((grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state8))) then 
                     ap_done_reg <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg <= ap_const_logic_0;
+            else
+                if ((ap_const_logic_1 = ap_CS_fsm_state4)) then 
+                    grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_ready = ap_const_logic_1)) then 
+                    grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg <= ap_const_logic_0;
                 end if; 
             end if;
         end if;
@@ -275,22 +291,6 @@ begin
     end process;
 
 
-    grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg_assign_proc : process(ap_clk)
-    begin
-        if (ap_clk'event and ap_clk =  '1') then
-            if (ap_rst = '1') then
-                grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg <= ap_const_logic_0;
-            else
-                if ((ap_const_logic_1 = ap_CS_fsm_state4)) then 
-                    grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_ready = ap_const_logic_1)) then 
-                    grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg <= ap_const_logic_0;
-                end if; 
-            end if;
-        end if;
-    end process;
-
-
     start_once_reg_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
@@ -307,7 +307,7 @@ begin
     end process;
 
 
-    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_done, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8, ap_block_state1)
+    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_done, grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8, ap_block_state1)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
@@ -327,7 +327,7 @@ begin
             when ap_ST_fsm_state4 => 
                 ap_NS_fsm <= ap_ST_fsm_state5;
             when ap_ST_fsm_state5 => 
-                if (((grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state5))) then
+                if (((grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state5))) then
                     ap_NS_fsm <= ap_ST_fsm_state6;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state5;
@@ -375,9 +375,9 @@ begin
     ap_ST_fsm_state3_blk <= ap_const_logic_0;
     ap_ST_fsm_state4_blk <= ap_const_logic_0;
 
-    ap_ST_fsm_state5_blk_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done)
+    ap_ST_fsm_state5_blk_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done)
     begin
-        if ((grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_done = ap_const_logic_0)) then 
+        if ((grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_done = ap_const_logic_0)) then 
             ap_ST_fsm_state5_blk <= ap_const_logic_1;
         else 
             ap_ST_fsm_state5_blk <= ap_const_logic_0;
@@ -429,9 +429,9 @@ begin
     end process;
 
     ap_ready <= internal_ap_ready;
+    grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_start <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_start <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_start_reg;
-    grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_ap_start_reg;
 
     internal_ap_ready_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_ap_done, ap_CS_fsm_state8)
     begin
@@ -443,12 +443,12 @@ begin
     end process;
 
 
-    layer25_out_din_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_din, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_din, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_din, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
+    layer25_out_din_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_din, grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_din, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_din, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state8)) then 
             layer25_out_din <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_din;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            layer25_out_din <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_din;
+            layer25_out_din <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_din;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state2)) then 
             layer25_out_din <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_din;
         else 
@@ -457,12 +457,12 @@ begin
     end process;
 
 
-    layer25_out_write_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_write, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_write, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_write, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
+    layer25_out_write_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_write, grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_write, grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_write, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state8)) then 
             layer25_out_write <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36_layer25_out_write;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            layer25_out_write <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer25_out_write;
+            layer25_out_write <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer25_out_write;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state2)) then 
             layer25_out_write <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadTopWidth_fu_22_layer25_out_write;
         else 
@@ -471,10 +471,10 @@ begin
     end process;
 
 
-    layer6_out_read_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer6_out_read, ap_CS_fsm_state5)
+    layer6_out_read_assign_proc : process(grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer6_out_read, ap_CS_fsm_state5)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            layer6_out_read <= grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28_layer6_out_read;
+            layer6_out_read <= grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28_layer6_out_read;
         else 
             layer6_out_read <= ap_const_logic_0;
         end if; 

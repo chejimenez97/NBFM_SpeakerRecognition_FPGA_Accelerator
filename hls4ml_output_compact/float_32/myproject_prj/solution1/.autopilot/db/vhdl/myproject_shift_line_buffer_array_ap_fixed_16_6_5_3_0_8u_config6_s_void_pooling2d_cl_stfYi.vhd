@@ -13,8 +13,8 @@ use IEEE.std_logic_unsigned.all;
 entity myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config6_s_void_pooling2d_cl_stfYi_core is
     generic (
         DATA_WIDTH : integer := 16;
-        ADDR_WIDTH : integer := 9;
-        DEPTH : integer := 282);
+        ADDR_WIDTH : integer := 6;
+        DEPTH : integer := 64);
     port (
         clk : in std_logic;
         ce : in std_logic;
@@ -57,8 +57,8 @@ use IEEE.std_logic_unsigned.all;
 entity myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_8u_config6_s_void_pooling2d_cl_stfYi is
     generic (
         DataWidth : integer := 16;
-        AddressWidth : integer := 9;
-        AddressRange : integer := 282);
+        AddressWidth : integer := 6;
+        AddressRange : integer := 64);
     port (
         clk : in std_logic;
         reset : in std_logic;

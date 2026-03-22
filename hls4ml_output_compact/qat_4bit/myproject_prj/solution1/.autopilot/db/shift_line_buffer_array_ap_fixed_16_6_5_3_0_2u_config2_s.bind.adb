@@ -9,7 +9,7 @@
 		<module_structure>Pipeline</module_structure>
 		<ret_bitwidth>0</ret_bitwidth>
 		<ports class_id="2" tracking_level="0" version="0">
-			<count>16</count>
+			<count>19</count>
 			<item_version>0</item_version>
 			<item class_id="3" tracking_level="1" version="0" object_id="_1">
 				<Value class_id="4" tracking_level="0" version="0">
@@ -88,7 +88,7 @@
 					<Obj>
 						<type>1</type>
 						<id>3</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26</name>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -124,7 +124,7 @@
 					<Obj>
 						<type>1</type>
 						<id>4</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27</name>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -142,7 +142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>2805996208</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -156,42 +156,6 @@
 				</bit_vecs>
 			</item>
 			<item class_id_reference="3" object_id="_5">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>5</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>2</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_6">
 				<Value>
 					<Obj>
 						<type>1</type>
@@ -214,7 +178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>805267392</coreId>
+						<coreId>1314013527</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -227,12 +191,12 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_7">
+			<item class_id_reference="3" object_id="_6">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>8</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22</name>
+						<id>7</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -250,7 +214,43 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>542329928</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>2</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_7">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>8</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>374781087</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -268,7 +268,151 @@
 					<Obj>
 						<type>1</type>
 						<id>9</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2811245680</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>2</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_9">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>10</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2814724024</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>1</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_10">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>11</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2808818576</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>2</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_11">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>12</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2807961872</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>1</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_12">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>13</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -299,11 +443,11 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_9">
+			<item class_id_reference="3" object_id="_13">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>10</id>
+						<id>14</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -335,12 +479,12 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_10">
+			<item class_id_reference="3" object_id="_14">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>11</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25</name>
+						<id>15</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -371,12 +515,12 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_11">
+			<item class_id_reference="3" object_id="_15">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>12</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6</name>
+						<id>16</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -407,12 +551,12 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_12">
+			<item class_id_reference="3" object_id="_16">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>13</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5</name>
+						<id>17</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -443,11 +587,47 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_13">
+			<item class_id_reference="3" object_id="_17">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>14</id>
+						<id>18</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<contextNormFuncName></contextNormFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>740979827</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<direction>2</direction>
+				<if_type>0</if_type>
+				<array_size>0</array_size>
+				<bit_vecs>
+					<count>0</count>
+					<item_version>0</item_version>
+				</bit_vecs>
+			</item>
+			<item class_id_reference="3" object_id="_18">
+				<Value>
+					<Obj>
+						<type>1</type>
+						<id>19</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -479,48 +659,12 @@
 					<item_version>0</item_version>
 				</bit_vecs>
 			</item>
-			<item class_id_reference="3" object_id="_14">
+			<item class_id_reference="3" object_id="_19">
 				<Value>
 					<Obj>
 						<type>1</type>
-						<id>15</id>
+						<id>20</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>740979827</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>2</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_15">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>16</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -543,43 +687,7 @@
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
-				<direction>1</direction>
-				<if_type>0</if_type>
-				<array_size>0</array_size>
-				<bit_vecs>
-					<count>0</count>
-					<item_version>0</item_version>
-				</bit_vecs>
-			</item>
-			<item class_id_reference="3" object_id="_16">
-				<Value>
-					<Obj>
-						<type>1</type>
-						<id>17</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<contextNormFuncName></contextNormFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>744320609</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<direction>1</direction>
+				<direction>2</direction>
 				<if_type>0</if_type>
 				<array_size>0</array_size>
 				<bit_vecs>
@@ -589,13 +697,13 @@
 			</item>
 		</ports>
 		<nodes class_id="8" tracking_level="0" version="0">
-			<count>31</count>
+			<count>37</count>
 			<item_version>0</item_version>
-			<item class_id="9" tracking_level="1" version="0" object_id="_17">
+			<item class_id="9" tracking_level="1" version="0" object_id="_20">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>19</id>
+						<id>22</id>
 						<name>in_elem_0_1_0_0_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -628,7 +736,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -636,8 +744,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>52</item>
-					<item>53</item>
+					<item>61</item>
+					<item>62</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -648,11 +756,11 @@
 				<m_topoIndex>1</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_18">
+			<item class_id_reference="9" object_id="_21">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>20</id>
+						<id>23</id>
 						<name>in_elem_0_0_0_0_0_val_read</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -693,8 +801,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>54</item>
-					<item>55</item>
+					<item>63</item>
+					<item>64</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -705,11 +813,11 @@
 				<m_topoIndex>2</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_19">
+			<item class_id_reference="9" object_id="_22">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>21</id>
+						<id>24</id>
 						<name>p_06_i</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -750,10 +858,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>57</item>
-					<item>61</item>
-					<item>62</item>
-					<item>64</item>
+					<item>66</item>
+					<item>70</item>
+					<item>71</item>
+					<item>73</item>
 				</oprand_edges>
 				<opcode>memshiftread</opcode>
 				<m_Display>0</m_Display>
@@ -764,11 +872,11 @@
 				<m_topoIndex>3</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_20">
+			<item class_id_reference="9" object_id="_23">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>22</id>
+						<id>25</id>
 						<name>p_07_i</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -809,10 +917,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>65</item>
-					<item>69</item>
-					<item>70</item>
-					<item>71</item>
+					<item>74</item>
+					<item>78</item>
+					<item>79</item>
+					<item>80</item>
 				</oprand_edges>
 				<opcode>memshiftread</opcode>
 				<m_Display>0</m_Display>
@@ -823,11 +931,11 @@
 				<m_topoIndex>4</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_21">
+			<item class_id_reference="9" object_id="_24">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>23</id>
+						<id>26</id>
 						<name>p_08_i</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -868,10 +976,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>72</item>
-					<item>76</item>
-					<item>77</item>
-					<item>78</item>
+					<item>81</item>
+					<item>85</item>
+					<item>86</item>
+					<item>87</item>
 				</oprand_edges>
 				<opcode>memshiftread</opcode>
 				<m_Display>0</m_Display>
@@ -882,11 +990,11 @@
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_22">
+			<item class_id_reference="9" object_id="_25">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>24</id>
+						<id>27</id>
 						<name>p_0_i</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -927,10 +1035,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>79</item>
-					<item>83</item>
-					<item>84</item>
-					<item>85</item>
+					<item>88</item>
+					<item>92</item>
+					<item>93</item>
+					<item>94</item>
 				</oprand_edges>
 				<opcode>memshiftread</opcode>
 				<m_Display>0</m_Display>
@@ -941,12 +1049,12 @@
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_23">
+			<item class_id_reference="9" object_id="_26">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>25</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30</name>
+						<id>28</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -993,7 +1101,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>86</item>
+					<item>95</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1004,12 +1112,12 @@
 				<m_topoIndex>7</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_24">
+			<item class_id_reference="9" object_id="_27">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>26</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_write_ln196</name>
+						<id>29</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1048,7 +1156,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>2807951040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1056,8 +1164,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>87</item>
-					<item>88</item>
+					<item>96</item>
+					<item>97</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1068,12 +1176,12 @@
 				<m_topoIndex>8</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_25">
+			<item class_id_reference="9" object_id="_28">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>27</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31</name>
+						<id>30</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1120,7 +1228,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>89</item>
+					<item>98</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1131,11 +1239,11 @@
 				<m_topoIndex>9</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_26">
+			<item class_id_reference="9" object_id="_29">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>28</id>
+						<id>31</id>
 						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -1183,8 +1291,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>90</item>
-					<item>91</item>
+					<item>99</item>
+					<item>100</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1195,12 +1303,12 @@
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_27">
+			<item class_id_reference="9" object_id="_30">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>29</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32</name>
+						<id>32</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1239,7 +1347,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043341356</coreId>
+						<coreId>3421657888</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1247,7 +1355,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>92</item>
+					<item>101</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1258,12 +1366,12 @@
 				<m_topoIndex>11</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_28">
+			<item class_id_reference="9" object_id="_31">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>30</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_write_ln196</name>
+						<id>33</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1302,7 +1410,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043341356</coreId>
+						<coreId>2806232000</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1310,8 +1418,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>93</item>
-					<item>94</item>
+					<item>102</item>
+					<item>103</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1322,12 +1430,12 @@
 				<m_topoIndex>12</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_29">
+			<item class_id_reference="9" object_id="_32">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>31</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7</name>
+						<id>34</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1366,7 +1474,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>379413003</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1374,7 +1482,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>95</item>
+					<item>104</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1385,12 +1493,12 @@
 				<m_topoIndex>13</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_30">
+			<item class_id_reference="9" object_id="_33">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>32</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_write_ln196</name>
+						<id>35</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1429,7 +1537,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544106345</coreId>
+						<coreId>2806353088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1437,8 +1545,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>96</item>
-					<item>97</item>
+					<item>105</item>
+					<item>106</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1449,139 +1557,11 @@
 				<m_topoIndex>14</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_31">
+			<item class_id_reference="9" object_id="_34">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>33</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
-						<lineNumber>196</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>196</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>247</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741355808</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>16</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>98</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>15</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_32">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>34</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_write_ln196</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
-						<lineNumber>196</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>196</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>247</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1920098618</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>99</item>
-					<item>100</item>
-					<item>143</item>
-				</oprand_edges>
-				<opcode>store</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>16</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_33">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>35</id>
+						<id>36</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -1621,7 +1601,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1834971487</coreId>
+						<coreId>2805828816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1629,7 +1609,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>101</item>
+					<item>107</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1637,15 +1617,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>17</m_topoIndex>
+				<m_topoIndex>15</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_34">
+			<item class_id_reference="9" object_id="_35">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>36</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_write_ln196</name>
+						<id>37</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1684,17 +1664,16 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>807414835</coreId>
+						<coreId>2809503872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>3</count>
+					<count>2</count>
 					<item_version>0</item_version>
-					<item>102</item>
-					<item>103</item>
-					<item>142</item>
+					<item>108</item>
+					<item>109</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1702,14 +1681,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>18</m_topoIndex>
+				<m_topoIndex>16</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_35">
+			<item class_id_reference="9" object_id="_36">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>37</id>
+						<id>38</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -1749,7 +1728,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1834971487</coreId>
+						<coreId>375005818</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1757,7 +1736,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>104</item>
+					<item>110</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1765,15 +1744,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>19</m_topoIndex>
+				<m_topoIndex>17</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_36">
+			<item class_id_reference="9" object_id="_37">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>38</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_write_ln196</name>
+						<id>39</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1812,7 +1791,134 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>2806653216</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>111</item>
+					<item>112</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>18</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>40</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2807502384</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>113</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>19</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_39">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>41</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_write_ln196</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2815101824</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1820,9 +1926,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>105</item>
-					<item>106</item>
-					<item>141</item>
+					<item>114</item>
+					<item>115</item>
+					<item>164</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1833,11 +1939,139 @@
 				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_37">
+			<item class_id_reference="9" object_id="_40">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>39</id>
+						<id>42</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>377834720</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>116</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>21</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_41">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>43</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_write_ln196</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2807886192</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>117</item>
+					<item>118</item>
+					<item>163</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>22</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_42">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>44</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -1877,7 +2111,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1902080097</coreId>
+						<coreId>2811254048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -1885,7 +2119,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>107</item>
+					<item>119</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -1893,15 +2127,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>21</m_topoIndex>
+				<m_topoIndex>23</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_38">
+			<item class_id_reference="9" object_id="_43">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>40</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_write_ln196</name>
+						<id>45</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>196</lineNumber>
@@ -1940,7 +2174,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>2811209280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -1948,9 +2182,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>108</item>
-					<item>109</item>
-					<item>140</item>
+					<item>120</item>
+					<item>121</item>
+					<item>162</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -1958,14 +2192,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>22</m_topoIndex>
+				<m_topoIndex>24</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_39">
+			<item class_id_reference="9" object_id="_44">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>41</id>
+						<id>46</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2005,7 +2239,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>143482154</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
@@ -2013,7 +2247,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>110</item>
+					<item>122</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -2021,14 +2255,270 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>23</m_topoIndex>
+				<m_topoIndex>25</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_40">
+			<item class_id_reference="9" object_id="_45">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>42</id>
+						<id>47</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_write_ln196</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2815535904</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>123</item>
+					<item>124</item>
+					<item>161</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>26</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_46">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>48</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_12</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2806984784</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>125</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>27</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_47">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>49</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3_write_ln196</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2806175808</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>126</item>
+					<item>127</item>
+					<item>160</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_48">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>50</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_13</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>196</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>196</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>377753053</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>16</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>128</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>29</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_49">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>51</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_write_ln196</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2068,71 +2558,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>808525868</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>111</item>
-					<item>112</item>
-				</oprand_edges>
-				<opcode>store</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_41">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>43</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_write_ln209</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
-						<lineNumber>209</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>209</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>247</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>2806072496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2140,9 +2566,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>113</item>
-					<item>114</item>
-					<item>139</item>
+					<item>129</item>
+					<item>130</item>
+					<item>159</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -2150,15 +2576,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>25</m_topoIndex>
+				<m_topoIndex>30</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_42">
+			<item class_id_reference="9" object_id="_50">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>44</id>
-						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_write_ln209</name>
+						<id>52</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_write_ln209</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
 						<lineNumber>209</lineNumber>
@@ -2197,16 +2623,17 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>3108447696</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>3</count>
 					<item_version>0</item_version>
-					<item>115</item>
-					<item>116</item>
+					<item>131</item>
+					<item>132</item>
+					<item>158</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -2214,14 +2641,144 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>26</m_topoIndex>
+				<m_topoIndex>31</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_43">
+			<item class_id_reference="9" object_id="_51">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>45</id>
+						<id>53</id>
+						<name>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_write_ln209</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>209</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>209</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2806185424</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>133</item>
+					<item>134</item>
+					<item>157</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>32</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_52">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>54</id>
+						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_write_ln209</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
+						<lineNumber>209</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>209</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
+										</first>
+										<second>247</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>379460847</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>135</item>
+					<item>136</item>
+					<item>156</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>33</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_53">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>55</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6_write_ln209</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2261,7 +2818,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
+						<coreId>2807657968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2269,74 +2826,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>117</item>
-					<item>118</item>
-					<item>138</item>
-				</oprand_edges>
-				<opcode>store</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>27</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_44">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>46</id>
-						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_write_ln209</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
-						<lineNumber>209</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_2_config2_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>209</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>shift_line_buffer&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 2&amp;gt;, config2&amp;gt;</second>
-										</first>
-										<second>247</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>119</item>
-					<item>120</item>
 					<item>137</item>
+					<item>138</item>
+					<item>155</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -2344,14 +2836,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
+				<m_topoIndex>34</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_45">
+			<item class_id_reference="9" object_id="_54">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>47</id>
+						<id>56</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1_write_ln209</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2391,7 +2883,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539770416</coreId>
+						<coreId>2806938096</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2399,9 +2891,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>121</item>
-					<item>122</item>
-					<item>136</item>
+					<item>139</item>
+					<item>140</item>
+					<item>154</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -2409,14 +2901,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>29</m_topoIndex>
+				<m_topoIndex>35</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_46">
+			<item class_id_reference="9" object_id="_55">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>48</id>
+						<id>57</id>
 						<name>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_write_ln209</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2456,7 +2948,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043490665</coreId>
+						<coreId>2809118144</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2464,9 +2956,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>123</item>
-					<item>124</item>
-					<item>135</item>
+					<item>141</item>
+					<item>142</item>
+					<item>153</item>
 				</oprand_edges>
 				<opcode>store</opcode>
 				<m_Display>0</m_Display>
@@ -2474,14 +2966,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>30</m_topoIndex>
+				<m_topoIndex>36</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_47">
+			<item class_id_reference="9" object_id="_56">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>49</id>
+						<id>58</id>
 						<name>_ln242</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit</fileDirectory>
@@ -2514,7 +3006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>379401275</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -2529,18 +3021,18 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>31</m_topoIndex>
+				<m_topoIndex>37</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 		</nodes>
 		<consts class_id="15" tracking_level="0" version="0">
 			<count>5</count>
 			<item_version>0</item_version>
-			<item class_id="16" tracking_level="1" version="0" object_id="_48">
+			<item class_id="16" tracking_level="1" version="0" object_id="_57">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>59</id>
+						<id>68</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2559,19 +3051,19 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>2810671968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>283</content>
+				<content>65</content>
 			</item>
-			<item class_id_reference="16" object_id="_49">
+			<item class_id_reference="16" object_id="_58">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>63</id>
+						<id>72</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2590,7 +3082,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1047868977</coreId>
+						<coreId>2813422640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2598,11 +3090,11 @@
 				<const_type>0</const_type>
 				<content>1</content>
 			</item>
-			<item class_id_reference="16" object_id="_50">
+			<item class_id_reference="16" object_id="_59">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>67</id>
+						<id>76</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2621,19 +3113,19 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539767849</coreId>
+						<coreId>976909413</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>283</content>
+				<content>65</content>
 			</item>
-			<item class_id_reference="16" object_id="_51">
+			<item class_id_reference="16" object_id="_60">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>74</id>
+						<id>83</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2652,19 +3144,19 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539770416</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>283</content>
+				<content>65</content>
 			</item>
-			<item class_id_reference="16" object_id="_52">
+			<item class_id_reference="16" object_id="_61">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>81</id>
+						<id>90</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2683,22 +3175,22 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1684371561</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>16</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>283</content>
+				<content>65</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
 			<count>1</count>
 			<item_version>0</item_version>
-			<item class_id="18" tracking_level="1" version="0" object_id="_53">
+			<item class_id="18" tracking_level="1" version="0" object_id="_62">
 				<Obj>
 					<type>3</type>
-					<id>50</id>
+					<id>59</id>
 					<name>shift_line_buffer&lt;array&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, 2u&gt;, config2&gt;</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
@@ -2717,15 +3209,12 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>807414832</coreId>
+					<coreId>941632574</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
-					<count>31</count>
+					<count>37</count>
 					<item_version>0</item_version>
-					<item>19</item>
-					<item>20</item>
-					<item>21</item>
 					<item>22</item>
 					<item>23</item>
 					<item>24</item>
@@ -2754,472 +3243,565 @@
 					<item>47</item>
 					<item>48</item>
 					<item>49</item>
+					<item>50</item>
+					<item>51</item>
+					<item>52</item>
+					<item>53</item>
+					<item>54</item>
+					<item>55</item>
+					<item>56</item>
+					<item>57</item>
+					<item>58</item>
 				</node_objs>
 			</item>
 		</blocks>
 		<edges class_id="19" tracking_level="0" version="0">
-			<count>66</count>
+			<count>78</count>
 			<item_version>0</item_version>
-			<item class_id="20" tracking_level="1" version="0" object_id="_54">
-				<id>53</id>
-				<edge_type>1</edge_type>
-				<source_obj>2</source_obj>
-				<sink_obj>19</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_55">
-				<id>55</id>
-				<edge_type>1</edge_type>
-				<source_obj>1</source_obj>
-				<sink_obj>20</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_56">
-				<id>60</id>
-				<edge_type>1</edge_type>
-				<source_obj>58</source_obj>
-				<sink_obj>59</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_57">
-				<id>61</id>
-				<edge_type>1</edge_type>
-				<source_obj>59</source_obj>
-				<sink_obj>21</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_58">
+			<item class_id="20" tracking_level="1" version="0" object_id="_63">
 				<id>62</id>
 				<edge_type>1</edge_type>
-				<source_obj>20</source_obj>
-				<sink_obj>21</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_59">
-				<id>64</id>
-				<edge_type>1</edge_type>
-				<source_obj>63</source_obj>
-				<sink_obj>21</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_60">
-				<id>68</id>
-				<edge_type>1</edge_type>
-				<source_obj>66</source_obj>
-				<sink_obj>67</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_61">
-				<id>69</id>
-				<edge_type>1</edge_type>
-				<source_obj>67</source_obj>
-				<sink_obj>22</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_62">
-				<id>70</id>
-				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>22</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_63">
-				<id>71</id>
-				<edge_type>1</edge_type>
-				<source_obj>63</source_obj>
+				<source_obj>2</source_obj>
 				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_64">
-				<id>75</id>
+				<id>64</id>
 				<edge_type>1</edge_type>
-				<source_obj>73</source_obj>
-				<sink_obj>74</sink_obj>
+				<source_obj>1</source_obj>
+				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_65">
-				<id>76</id>
+				<id>69</id>
 				<edge_type>1</edge_type>
-				<source_obj>74</source_obj>
-				<sink_obj>23</sink_obj>
+				<source_obj>67</source_obj>
+				<sink_obj>68</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_66">
-				<id>77</id>
+				<id>70</id>
 				<edge_type>1</edge_type>
-				<source_obj>19</source_obj>
-				<sink_obj>23</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_67">
-				<id>78</id>
-				<edge_type>1</edge_type>
-				<source_obj>63</source_obj>
-				<sink_obj>23</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_68">
-				<id>82</id>
-				<edge_type>1</edge_type>
-				<source_obj>80</source_obj>
-				<sink_obj>81</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_69">
-				<id>83</id>
-				<edge_type>1</edge_type>
-				<source_obj>81</source_obj>
+				<source_obj>68</source_obj>
 				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_70">
-				<id>84</id>
+			<item class_id_reference="20" object_id="_67">
+				<id>71</id>
 				<edge_type>1</edge_type>
 				<source_obj>23</source_obj>
 				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_71">
-				<id>85</id>
+			<item class_id_reference="20" object_id="_68">
+				<id>73</id>
 				<edge_type>1</edge_type>
-				<source_obj>63</source_obj>
+				<source_obj>72</source_obj>
 				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_72">
-				<id>86</id>
+			<item class_id_reference="20" object_id="_69">
+				<id>77</id>
 				<edge_type>1</edge_type>
-				<source_obj>3</source_obj>
+				<source_obj>75</source_obj>
+				<sink_obj>76</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_70">
+				<id>78</id>
+				<edge_type>1</edge_type>
+				<source_obj>76</source_obj>
+				<sink_obj>25</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_71">
+				<id>79</id>
+				<edge_type>1</edge_type>
+				<source_obj>24</source_obj>
+				<sink_obj>25</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_72">
+				<id>80</id>
+				<edge_type>1</edge_type>
+				<source_obj>72</source_obj>
 				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_73">
-				<id>87</id>
+				<id>84</id>
 				<edge_type>1</edge_type>
-				<source_obj>25</source_obj>
-				<sink_obj>26</sink_obj>
+				<source_obj>82</source_obj>
+				<sink_obj>83</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_74">
-				<id>88</id>
+				<id>85</id>
 				<edge_type>1</edge_type>
-				<source_obj>4</source_obj>
+				<source_obj>83</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_75">
-				<id>89</id>
+				<id>86</id>
 				<edge_type>1</edge_type>
-				<source_obj>5</source_obj>
-				<sink_obj>27</sink_obj>
+				<source_obj>22</source_obj>
+				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_76">
-				<id>90</id>
+				<id>87</id>
 				<edge_type>1</edge_type>
-				<source_obj>27</source_obj>
-				<sink_obj>28</sink_obj>
+				<source_obj>72</source_obj>
+				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_77">
 				<id>91</id>
 				<edge_type>1</edge_type>
-				<source_obj>6</source_obj>
-				<sink_obj>28</sink_obj>
+				<source_obj>89</source_obj>
+				<sink_obj>90</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_78">
 				<id>92</id>
 				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>29</sink_obj>
+				<source_obj>90</source_obj>
+				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_79">
 				<id>93</id>
 				<edge_type>1</edge_type>
-				<source_obj>29</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>26</source_obj>
+				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_80">
 				<id>94</id>
 				<edge_type>1</edge_type>
-				<source_obj>8</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>72</source_obj>
+				<sink_obj>27</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_81">
 				<id>95</id>
 				<edge_type>1</edge_type>
-				<source_obj>9</source_obj>
-				<sink_obj>31</sink_obj>
+				<source_obj>3</source_obj>
+				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_82">
 				<id>96</id>
 				<edge_type>1</edge_type>
-				<source_obj>31</source_obj>
-				<sink_obj>32</sink_obj>
+				<source_obj>28</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_83">
 				<id>97</id>
 				<edge_type>1</edge_type>
-				<source_obj>10</source_obj>
-				<sink_obj>32</sink_obj>
+				<source_obj>4</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_84">
 				<id>98</id>
 				<edge_type>1</edge_type>
-				<source_obj>11</source_obj>
-				<sink_obj>33</sink_obj>
+				<source_obj>5</source_obj>
+				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_85">
 				<id>99</id>
 				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>30</source_obj>
+				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_86">
 				<id>100</id>
 				<edge_type>1</edge_type>
-				<source_obj>3</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>6</source_obj>
+				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_87">
 				<id>101</id>
 				<edge_type>1</edge_type>
-				<source_obj>12</source_obj>
-				<sink_obj>35</sink_obj>
+				<source_obj>7</source_obj>
+				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_88">
 				<id>102</id>
 				<edge_type>1</edge_type>
-				<source_obj>35</source_obj>
-				<sink_obj>36</sink_obj>
+				<source_obj>32</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_89">
 				<id>103</id>
 				<edge_type>1</edge_type>
-				<source_obj>5</source_obj>
-				<sink_obj>36</sink_obj>
+				<source_obj>8</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_90">
 				<id>104</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>37</sink_obj>
+				<source_obj>9</source_obj>
+				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_91">
 				<id>105</id>
 				<edge_type>1</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>34</source_obj>
+				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_92">
 				<id>106</id>
 				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>10</source_obj>
+				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_93">
 				<id>107</id>
 				<edge_type>1</edge_type>
-				<source_obj>14</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>11</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_94">
 				<id>108</id>
 				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>36</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_95">
 				<id>109</id>
 				<edge_type>1</edge_type>
-				<source_obj>9</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>12</source_obj>
+				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_96">
 				<id>110</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
-				<sink_obj>41</sink_obj>
+				<source_obj>13</source_obj>
+				<sink_obj>38</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_97">
 				<id>111</id>
 				<edge_type>1</edge_type>
-				<source_obj>41</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>38</source_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_98">
 				<id>112</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
-				<sink_obj>42</sink_obj>
+				<source_obj>14</source_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_99">
 				<id>113</id>
 				<edge_type>1</edge_type>
-				<source_obj>22</source_obj>
-				<sink_obj>43</sink_obj>
+				<source_obj>15</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_100">
 				<id>114</id>
 				<edge_type>1</edge_type>
-				<source_obj>11</source_obj>
-				<sink_obj>43</sink_obj>
+				<source_obj>40</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_101">
 				<id>115</id>
 				<edge_type>1</edge_type>
-				<source_obj>24</source_obj>
-				<sink_obj>44</sink_obj>
+				<source_obj>3</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_102">
 				<id>116</id>
 				<edge_type>1</edge_type>
-				<source_obj>17</source_obj>
-				<sink_obj>44</sink_obj>
+				<source_obj>16</source_obj>
+				<sink_obj>42</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_103">
 				<id>117</id>
 				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>45</sink_obj>
+				<source_obj>42</source_obj>
+				<sink_obj>43</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_104">
 				<id>118</id>
 				<edge_type>1</edge_type>
-				<source_obj>12</source_obj>
-				<sink_obj>45</sink_obj>
+				<source_obj>5</source_obj>
+				<sink_obj>43</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_105">
 				<id>119</id>
 				<edge_type>1</edge_type>
-				<source_obj>23</source_obj>
-				<sink_obj>46</sink_obj>
+				<source_obj>17</source_obj>
+				<sink_obj>44</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_106">
 				<id>120</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>46</sink_obj>
+				<source_obj>44</source_obj>
+				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_107">
 				<id>121</id>
 				<edge_type>1</edge_type>
-				<source_obj>20</source_obj>
-				<sink_obj>47</sink_obj>
+				<source_obj>7</source_obj>
+				<sink_obj>45</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_108">
 				<id>122</id>
 				<edge_type>1</edge_type>
-				<source_obj>14</source_obj>
-				<sink_obj>47</sink_obj>
+				<source_obj>18</source_obj>
+				<sink_obj>46</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_109">
 				<id>123</id>
 				<edge_type>1</edge_type>
-				<source_obj>19</source_obj>
-				<sink_obj>48</sink_obj>
+				<source_obj>46</source_obj>
+				<sink_obj>47</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_110">
 				<id>124</id>
 				<edge_type>1</edge_type>
-				<source_obj>15</source_obj>
-				<sink_obj>48</sink_obj>
+				<source_obj>9</source_obj>
+				<sink_obj>47</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_111">
-				<id>135</id>
-				<edge_type>4</edge_type>
-				<source_obj>41</source_obj>
+				<id>125</id>
+				<edge_type>1</edge_type>
+				<source_obj>19</source_obj>
 				<sink_obj>48</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_112">
-				<id>136</id>
-				<edge_type>4</edge_type>
-				<source_obj>39</source_obj>
-				<sink_obj>47</sink_obj>
+				<id>126</id>
+				<edge_type>1</edge_type>
+				<source_obj>48</source_obj>
+				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_113">
-				<id>137</id>
-				<edge_type>4</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>46</sink_obj>
+				<id>127</id>
+				<edge_type>1</edge_type>
+				<source_obj>11</source_obj>
+				<sink_obj>49</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_114">
-				<id>138</id>
-				<edge_type>4</edge_type>
-				<source_obj>35</source_obj>
-				<sink_obj>45</sink_obj>
+				<id>128</id>
+				<edge_type>1</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>50</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_115">
-				<id>139</id>
-				<edge_type>4</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>43</sink_obj>
+				<id>129</id>
+				<edge_type>1</edge_type>
+				<source_obj>50</source_obj>
+				<sink_obj>51</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_116">
-				<id>140</id>
-				<edge_type>4</edge_type>
-				<source_obj>31</source_obj>
-				<sink_obj>40</sink_obj>
+				<id>130</id>
+				<edge_type>1</edge_type>
+				<source_obj>13</source_obj>
+				<sink_obj>51</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_117">
-				<id>141</id>
-				<edge_type>4</edge_type>
-				<source_obj>29</source_obj>
-				<sink_obj>38</sink_obj>
+				<id>131</id>
+				<edge_type>1</edge_type>
+				<source_obj>25</source_obj>
+				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_118">
-				<id>142</id>
-				<edge_type>4</edge_type>
-				<source_obj>27</source_obj>
-				<sink_obj>36</sink_obj>
+				<id>132</id>
+				<edge_type>1</edge_type>
+				<source_obj>15</source_obj>
+				<sink_obj>52</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_119">
-				<id>143</id>
+				<id>133</id>
+				<edge_type>1</edge_type>
+				<source_obj>27</source_obj>
+				<sink_obj>53</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_120">
+				<id>134</id>
+				<edge_type>1</edge_type>
+				<source_obj>16</source_obj>
+				<sink_obj>53</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_121">
+				<id>135</id>
+				<edge_type>1</edge_type>
+				<source_obj>24</source_obj>
+				<sink_obj>54</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_122">
+				<id>136</id>
+				<edge_type>1</edge_type>
+				<source_obj>17</source_obj>
+				<sink_obj>54</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_123">
+				<id>137</id>
+				<edge_type>1</edge_type>
+				<source_obj>26</source_obj>
+				<sink_obj>55</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_124">
+				<id>138</id>
+				<edge_type>1</edge_type>
+				<source_obj>18</source_obj>
+				<sink_obj>55</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_125">
+				<id>139</id>
+				<edge_type>1</edge_type>
+				<source_obj>23</source_obj>
+				<sink_obj>56</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_126">
+				<id>140</id>
+				<edge_type>1</edge_type>
+				<source_obj>19</source_obj>
+				<sink_obj>56</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_127">
+				<id>141</id>
+				<edge_type>1</edge_type>
+				<source_obj>22</source_obj>
+				<sink_obj>57</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_128">
+				<id>142</id>
+				<edge_type>1</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>57</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_129">
+				<id>153</id>
 				<edge_type>4</edge_type>
-				<source_obj>25</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>50</source_obj>
+				<sink_obj>57</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_130">
+				<id>154</id>
+				<edge_type>4</edge_type>
+				<source_obj>48</source_obj>
+				<sink_obj>56</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_131">
+				<id>155</id>
+				<edge_type>4</edge_type>
+				<source_obj>46</source_obj>
+				<sink_obj>55</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_132">
+				<id>156</id>
+				<edge_type>4</edge_type>
+				<source_obj>44</source_obj>
+				<sink_obj>54</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_133">
+				<id>157</id>
+				<edge_type>4</edge_type>
+				<source_obj>42</source_obj>
+				<sink_obj>53</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_134">
+				<id>158</id>
+				<edge_type>4</edge_type>
+				<source_obj>40</source_obj>
+				<sink_obj>52</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_135">
+				<id>159</id>
+				<edge_type>4</edge_type>
+				<source_obj>38</source_obj>
+				<sink_obj>51</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_136">
+				<id>160</id>
+				<edge_type>4</edge_type>
+				<source_obj>36</source_obj>
+				<sink_obj>49</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_137">
+				<id>161</id>
+				<edge_type>4</edge_type>
+				<source_obj>34</source_obj>
+				<sink_obj>47</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_138">
+				<id>162</id>
+				<edge_type>4</edge_type>
+				<source_obj>32</source_obj>
+				<sink_obj>45</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_139">
+				<id>163</id>
+				<edge_type>4</edge_type>
+				<source_obj>30</source_obj>
+				<sink_obj>43</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_140">
+				<id>164</id>
+				<edge_type>4</edge_type>
+				<source_obj>28</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 		</edges>
@@ -3227,7 +3809,7 @@
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_120">
+		<item class_id="22" tracking_level="1" version="0" object_id="_141">
 			<mId>1</mId>
 			<mTag>shift_line_buffer&lt;array&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, 2u&gt;, config2&gt;</mTag>
 			<mNormTag>shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s</mNormTag>
@@ -3239,7 +3821,7 @@
 			<basic_blocks>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>50</item>
+				<item>59</item>
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>1</mDepth>
@@ -3251,172 +3833,202 @@
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
 	</cdfg_regions>
-	<fsm class_id="24" tracking_level="1" version="0" object_id="_121">
+	<fsm class_id="24" tracking_level="1" version="0" object_id="_142">
 		<states class_id="25" tracking_level="0" version="0">
 			<count>1</count>
 			<item_version>0</item_version>
-			<item class_id="26" tracking_level="1" version="0" object_id="_122">
+			<item class_id="26" tracking_level="1" version="0" object_id="_143">
 				<id>1</id>
 				<operations class_id="27" tracking_level="0" version="0">
-					<count>32</count>
+					<count>38</count>
 					<item_version>0</item_version>
-					<item class_id="28" tracking_level="1" version="0" object_id="_123">
-						<id>18</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_124">
-						<id>19</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_125">
-						<id>20</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_126">
+					<item class_id="28" tracking_level="1" version="0" object_id="_144">
 						<id>21</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_127">
+					<item class_id_reference="28" object_id="_145">
 						<id>22</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_128">
+					<item class_id_reference="28" object_id="_146">
 						<id>23</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_129">
+					<item class_id_reference="28" object_id="_147">
 						<id>24</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_130">
+					<item class_id_reference="28" object_id="_148">
 						<id>25</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_131">
+					<item class_id_reference="28" object_id="_149">
 						<id>26</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_132">
+					<item class_id_reference="28" object_id="_150">
 						<id>27</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_133">
+					<item class_id_reference="28" object_id="_151">
 						<id>28</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_134">
+					<item class_id_reference="28" object_id="_152">
 						<id>29</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_135">
+					<item class_id_reference="28" object_id="_153">
 						<id>30</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_136">
+					<item class_id_reference="28" object_id="_154">
 						<id>31</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_137">
+					<item class_id_reference="28" object_id="_155">
 						<id>32</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_138">
+					<item class_id_reference="28" object_id="_156">
 						<id>33</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_139">
+					<item class_id_reference="28" object_id="_157">
 						<id>34</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_140">
+					<item class_id_reference="28" object_id="_158">
 						<id>35</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_141">
+					<item class_id_reference="28" object_id="_159">
 						<id>36</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_142">
+					<item class_id_reference="28" object_id="_160">
 						<id>37</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_143">
+					<item class_id_reference="28" object_id="_161">
 						<id>38</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_144">
+					<item class_id_reference="28" object_id="_162">
 						<id>39</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_145">
+					<item class_id_reference="28" object_id="_163">
 						<id>40</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_146">
+					<item class_id_reference="28" object_id="_164">
 						<id>41</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_147">
+					<item class_id_reference="28" object_id="_165">
 						<id>42</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_148">
+					<item class_id_reference="28" object_id="_166">
 						<id>43</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_149">
+					<item class_id_reference="28" object_id="_167">
 						<id>44</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_150">
+					<item class_id_reference="28" object_id="_168">
 						<id>45</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_151">
+					<item class_id_reference="28" object_id="_169">
 						<id>46</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_152">
+					<item class_id_reference="28" object_id="_170">
 						<id>47</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_153">
+					<item class_id_reference="28" object_id="_171">
 						<id>48</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_154">
+					<item class_id_reference="28" object_id="_172">
 						<id>49</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_173">
+						<id>50</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_174">
+						<id>51</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_175">
+						<id>52</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_176">
+						<id>53</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_177">
+						<id>54</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_178">
+						<id>55</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_179">
+						<id>56</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_180">
+						<id>57</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_181">
+						<id>58</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
@@ -3430,32 +4042,11 @@
 	</fsm>
 	<res class_id="-1"></res>
 	<node_label_latency class_id="31" tracking_level="0" version="0">
-		<count>31</count>
+		<count>37</count>
 		<item_version>0</item_version>
 		<item class_id="32" tracking_level="0" version="0">
-			<first>19</first>
-			<second class_id="33" tracking_level="0" version="0">
-				<first>0</first>
-				<second>0</second>
-			</second>
-		</item>
-		<item>
-			<first>20</first>
-			<second>
-				<first>0</first>
-				<second>0</second>
-			</second>
-		</item>
-		<item>
-			<first>21</first>
-			<second>
-				<first>0</first>
-				<second>0</second>
-			</second>
-		</item>
-		<item>
 			<first>22</first>
-			<second>
+			<second class_id="33" tracking_level="0" version="0">
 				<first>0</first>
 				<second>0</second>
 			</second>
@@ -3649,12 +4240,75 @@
 				<second>0</second>
 			</second>
 		</item>
+		<item>
+			<first>50</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>51</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>52</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>53</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>54</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>55</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>56</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>57</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
+		<item>
+			<first>58</first>
+			<second>
+				<first>0</first>
+				<second>0</second>
+			</second>
+		</item>
 	</node_label_latency>
 	<bblk_ent_exit class_id="34" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="35" tracking_level="0" version="0">
-			<first>50</first>
+			<first>59</first>
 			<second class_id="36" tracking_level="0" version="0">
 				<first>0</first>
 				<second>0</second>
@@ -3664,12 +4318,12 @@
 	<regions class_id="37" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="38" tracking_level="1" version="0" object_id="_155">
+		<item class_id="38" tracking_level="1" version="0" object_id="_182">
 			<region_name>shift_line_buffer&lt;array&lt;ap_fixed&lt;16, 6, 5, 3, 0&gt;, 2u&gt;, config2&gt;</region_name>
 			<basic_blocks>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>50</item>
+				<item>59</item>
 			</basic_blocks>
 			<nodes>
 				<count>0</count>
@@ -3686,22 +4340,14 @@
 		</item>
 	</regions>
 	<dp_fu_nodes class_id="40" tracking_level="0" version="0">
-		<count>30</count>
+		<count>36</count>
 		<item_version>0</item_version>
 		<item class_id="41" tracking_level="0" version="0">
-			<first>64</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>19</item>
-			</second>
-		</item>
-		<item>
 			<first>70</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>20</item>
+				<item>22</item>
 			</second>
 		</item>
 		<item>
@@ -3709,27 +4355,11 @@
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>21</item>
-			</second>
-		</item>
-		<item>
-			<first>86</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>96</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
 				<item>23</item>
 			</second>
 		</item>
 		<item>
-			<first>106</first>
+			<first>82</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3737,7 +4367,7 @@
 			</second>
 		</item>
 		<item>
-			<first>116</first>
+			<first>92</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3745,7 +4375,7 @@
 			</second>
 		</item>
 		<item>
-			<first>120</first>
+			<first>102</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3753,7 +4383,7 @@
 			</second>
 		</item>
 		<item>
-			<first>126</first>
+			<first>112</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3761,7 +4391,7 @@
 			</second>
 		</item>
 		<item>
-			<first>130</first>
+			<first>122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3769,7 +4399,7 @@
 			</second>
 		</item>
 		<item>
-			<first>136</first>
+			<first>126</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3777,7 +4407,7 @@
 			</second>
 		</item>
 		<item>
-			<first>140</first>
+			<first>132</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3785,7 +4415,7 @@
 			</second>
 		</item>
 		<item>
-			<first>146</first>
+			<first>136</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3793,7 +4423,7 @@
 			</second>
 		</item>
 		<item>
-			<first>150</first>
+			<first>142</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3801,7 +4431,7 @@
 			</second>
 		</item>
 		<item>
-			<first>156</first>
+			<first>146</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3809,7 +4439,7 @@
 			</second>
 		</item>
 		<item>
-			<first>160</first>
+			<first>152</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3817,7 +4447,7 @@
 			</second>
 		</item>
 		<item>
-			<first>166</first>
+			<first>156</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3825,7 +4455,7 @@
 			</second>
 		</item>
 		<item>
-			<first>170</first>
+			<first>162</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3833,7 +4463,7 @@
 			</second>
 		</item>
 		<item>
-			<first>176</first>
+			<first>166</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3841,7 +4471,7 @@
 			</second>
 		</item>
 		<item>
-			<first>180</first>
+			<first>172</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3849,7 +4479,7 @@
 			</second>
 		</item>
 		<item>
-			<first>186</first>
+			<first>176</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3857,7 +4487,7 @@
 			</second>
 		</item>
 		<item>
-			<first>190</first>
+			<first>182</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3865,7 +4495,7 @@
 			</second>
 		</item>
 		<item>
-			<first>196</first>
+			<first>186</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3873,7 +4503,7 @@
 			</second>
 		</item>
 		<item>
-			<first>200</first>
+			<first>192</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3881,7 +4511,7 @@
 			</second>
 		</item>
 		<item>
-			<first>206</first>
+			<first>196</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3889,7 +4519,7 @@
 			</second>
 		</item>
 		<item>
-			<first>212</first>
+			<first>202</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3897,7 +4527,7 @@
 			</second>
 		</item>
 		<item>
-			<first>218</first>
+			<first>206</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3905,7 +4535,7 @@
 			</second>
 		</item>
 		<item>
-			<first>224</first>
+			<first>212</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3913,7 +4543,7 @@
 			</second>
 		</item>
 		<item>
-			<first>230</first>
+			<first>216</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3921,11 +4551,83 @@
 			</second>
 		</item>
 		<item>
-			<first>236</first>
+			<first>222</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>48</item>
+			</second>
+		</item>
+		<item>
+			<first>226</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>49</item>
+			</second>
+		</item>
+		<item>
+			<first>232</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>50</item>
+			</second>
+		</item>
+		<item>
+			<first>236</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>51</item>
+			</second>
+		</item>
+		<item>
+			<first>242</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>52</item>
+			</second>
+		</item>
+		<item>
+			<first>248</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>53</item>
+			</second>
+		</item>
+		<item>
+			<first>254</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>54</item>
+			</second>
+		</item>
+		<item>
+			<first>260</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>55</item>
+			</second>
+		</item>
+		<item>
+			<first>266</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>56</item>
+			</second>
+		</item>
+		<item>
+			<first>272</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>57</item>
 			</second>
 		</item>
 	</dp_fu_nodes>
@@ -3933,35 +4635,35 @@
 		<count>4</count>
 		<item_version>0</item_version>
 		<item class_id="44" tracking_level="0" version="0">
-			<first>p_06_i_fu_76</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>21</item>
-			</second>
-		</item>
-		<item>
-			<first>p_07_i_fu_86</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>p_08_i_fu_96</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>23</item>
-			</second>
-		</item>
-		<item>
-			<first>p_0_i_fu_106</first>
+			<first>p_06_i_fu_82</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>24</item>
+			</second>
+		</item>
+		<item>
+			<first>p_07_i_fu_92</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>25</item>
+			</second>
+		</item>
+		<item>
+			<first>p_08_i_fu_102</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>p_0_i_fu_112</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>27</item>
 			</second>
 		</item>
 	</dp_fu_nodes_expression>
@@ -3970,146 +4672,26 @@
 		<item_version>0</item_version>
 	</dp_fu_nodes_module>
 	<dp_fu_nodes_io>
-		<count>26</count>
+		<count>32</count>
 		<item_version>0</item_version>
 		<item>
-			<first>in_elem_0_0_0_0_0_val_read_read_fu_70</first>
+			<first>in_elem_0_0_0_0_0_val_read_read_fu_76</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>20</item>
+				<item>23</item>
 			</second>
 		</item>
 		<item>
-			<first>in_elem_0_1_0_0_0_val_read_read_fu_64</first>
+			<first>in_elem_0_1_0_0_0_val_read_read_fu_70</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>19</item>
+				<item>22</item>
 			</second>
 		</item>
 		<item>
-			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10_load_fu_186</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>39</item>
-			</second>
-		</item>
-		<item>
-			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11_load_fu_196</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>41</item>
-			</second>
-		</item>
-		<item>
-			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_load_fu_146</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>31</item>
-			</second>
-		</item>
-		<item>
-			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8_load_fu_166</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>35</item>
-			</second>
-		</item>
-		<item>
-			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9_load_fu_176</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>37</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_120</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_130</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>28</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_140</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>30</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_150</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_160</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>34</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_170</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_180</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>38</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_190</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>40</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln196_store_fu_200</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>42</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln209_store_fu_206</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>43</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln209_store_fu_212</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10_load_fu_202</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4117,15 +4699,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln209_store_fu_218</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>45</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln209_store_fu_224</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11_load_fu_212</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4133,15 +4707,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln209_store_fu_230</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>47</item>
-			</second>
-		</item>
-		<item>
-			<first>store_ln209_store_fu_236</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_12_load_fu_222</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4149,23 +4715,31 @@
 			</second>
 		</item>
 		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30_load_fu_116</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_13_load_fu_232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>25</item>
+				<item>50</item>
 			</second>
 		</item>
 		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31_load_fu_126</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8_load_fu_162</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>27</item>
+				<item>36</item>
 			</second>
 		</item>
 		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32_load_fu_136</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9_load_fu_172</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>38</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_126</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4173,11 +4747,187 @@
 			</second>
 		</item>
 		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33_load_fu_156</first>
+			<first>store_ln196_store_fu_136</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>31</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_146</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>33</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_156</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>35</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_166</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>37</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_176</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>39</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_186</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>41</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_196</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>43</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_206</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>45</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_216</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>47</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_226</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>49</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln196_store_fu_236</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>51</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_242</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>52</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_248</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>53</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_254</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>54</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_260</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>55</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_266</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>56</item>
+			</second>
+		</item>
+		<item>
+			<first>store_ln209_store_fu_272</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>57</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_load_fu_122</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>28</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28_load_fu_132</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>30</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29_load_fu_142</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>32</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30_load_fu_152</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>34</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31_load_fu_182</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>40</item>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32_load_fu_192</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>42</item>
 			</second>
 		</item>
 	</dp_fu_nodes_io>
@@ -4206,7 +4956,7 @@
 		<item_version>0</item_version>
 	</dp_regname_phi>
 	<dp_port_io_nodes class_id="46" tracking_level="0" version="0">
-		<count>16</count>
+		<count>19</count>
 		<item_version>0</item_version>
 		<item class_id="47" tracking_level="0" version="0">
 			<first>in_elem_0_0_0_0_0_val</first>
@@ -4218,7 +4968,7 @@
 					<second>
 						<count>1</count>
 						<item_version>0</item_version>
-						<item>20</item>
+						<item>23</item>
 					</second>
 				</item>
 			</second>
@@ -4233,7 +4983,7 @@
 					<second>
 						<count>1</count>
 						<item_version>0</item_version>
-						<item>19</item>
+						<item>22</item>
 					</second>
 				</item>
 			</second>
@@ -4288,7 +5038,49 @@
 			</second>
 		</item>
 		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21</first>
+			<first>p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19</first>
+			<second>
+				<count>0</count>
+				<item_version>0</item_version>
+			</second>
+		</item>
+		<item>
+			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20</first>
 			<second>
 				<count>0</count>
 				<item_version>0</item_version>
@@ -4315,27 +5107,6 @@
 				<item_version>0</item_version>
 			</second>
 		</item>
-		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25</first>
-			<second>
-				<count>0</count>
-				<item_version>0</item_version>
-			</second>
-		</item>
-		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26</first>
-			<second>
-				<count>0</count>
-				<item_version>0</item_version>
-			</second>
-		</item>
-		<item>
-			<first>void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27</first>
-			<second>
-				<count>0</count>
-				<item_version>0</item_version>
-			</second>
-		</item>
 	</dp_port_io_nodes>
 	<port2core>
 		<count>0</count>
@@ -4345,28 +5116,28 @@
 		<count>4</count>
 		<item_version>0</item_version>
 		<item>
-			<first>21</first>
-			<second>
-				<first>666</first>
-				<second>150</second>
-			</second>
-		</item>
-		<item>
-			<first>22</first>
-			<second>
-				<first>666</first>
-				<second>150</second>
-			</second>
-		</item>
-		<item>
-			<first>23</first>
-			<second>
-				<first>666</first>
-				<second>150</second>
-			</second>
-		</item>
-		<item>
 			<first>24</first>
+			<second>
+				<first>666</first>
+				<second>150</second>
+			</second>
+		</item>
+		<item>
+			<first>25</first>
+			<second>
+				<first>666</first>
+				<second>150</second>
+			</second>
+		</item>
+		<item>
+			<first>26</first>
+			<second>
+				<first>666</first>
+				<second>150</second>
+			</second>
+		</item>
+		<item>
+			<first>27</first>
 			<second>
 				<first>666</first>
 				<second>150</second>

@@ -1,24 +1,12 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_mul_26s_12ns_37_1_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
-set name myproject_mul_26s_13ns_38_1_1
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
-}
-
-
 set name myproject_mul_26s_11ns_36_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_26s_16ns_41_1_1
+set name myproject_mul_26s_12ns_37_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -34,7 +22,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 42 \
+    id 60 \
     name layer2_out \
     type fifo \
     dir I \
@@ -42,14 +30,14 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer2_out \
     op interface \
-    ports { layer2_out_dout { I 208 vector } layer2_out_num_data_valid { I 14 vector } layer2_out_fifo_cap { I 14 vector } layer2_out_empty_n { I 1 bit } layer2_out_read { O 1 bit } } \
+    ports { layer2_out_dout { I 208 vector } layer2_out_num_data_valid { I 12 vector } layer2_out_fifo_cap { I 12 vector } layer2_out_empty_n { I 1 bit } layer2_out_read { O 1 bit } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 43 \
+    id 61 \
     name layer4_out \
     type fifo \
     dir O \
@@ -57,7 +45,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer4_out \
     op interface \
-    ports { layer4_out_din { O 344 vector } layer4_out_num_data_valid { I 14 vector } layer4_out_fifo_cap { I 14 vector } layer4_out_full_n { I 1 bit } layer4_out_write { O 1 bit } } \
+    ports { layer4_out_din { O 344 vector } layer4_out_num_data_valid { I 12 vector } layer4_out_fifo_cap { I 12 vector } layer4_out_full_n { I 1 bit } layer4_out_write { O 1 bit } } \
 } "
 }
 

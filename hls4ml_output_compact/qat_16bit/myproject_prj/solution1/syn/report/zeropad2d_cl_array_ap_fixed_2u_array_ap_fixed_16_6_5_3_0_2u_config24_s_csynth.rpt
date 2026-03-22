@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'
 ================================================================
-* Date:           Sat Mar 21 19:19:27 2026
+* Date:           Sun Mar 22 09:49:03 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -20,28 +20,28 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  2.750 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  1.750 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
     * Summary: 
-    +---------+---------+-----------+-----------+-------+-------+---------+
-    |  Latency (cycles) |   Latency (absolute)  |    Interval   | Pipeline|
-    |   min   |   max   |    min    |    max    |  min  |  max  |   Type  |
-    +---------+---------+-----------+-----------+-------+-------+---------+
-    |    17501|    17501|  87.505 us|  87.505 us|  17501|  17501|       no|
-    +---------+---------+-----------+-----------+-------+-------+---------+
+    +---------+---------+----------+----------+------+------+---------+
+    |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
+    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
+    +---------+---------+----------+----------+------+------+---------+
+    |     1465|     1465|  7.325 us|  7.325 us|  1465|  1465|       no|
+    +---------+---------+----------+----------+------+------+---------+
 
     + Detail: 
         * Instance: 
-        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+-----------+-----------+-------+-------+---------+
-        |                                                                                         |                                                                               |  Latency (cycles) |   Latency (absolute)  |    Interval   | Pipeline|
-        |                                         Instance                                        |                                     Module                                    |   min   |   max   |    min    |    max    |  min  |  max  |   Type  |
-        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+-----------+-----------+-------+-------+---------+
-        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |      286|      286|   1.430 us|   1.430 us|    286|    286|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34        |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain        |    16922|    16922|  84.610 us|  84.610 us|  16922|  16922|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |      286|      286|   1.430 us|   1.430 us|    286|    286|       no|
-        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+-----------+-----------+-------+-------+---------+
+        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
+        |                                                                                         |                                                                               |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
+        |                                         Instance                                        |                                     Module                                    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
+        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |     1322|     1322|  6.610 us|  6.610 us|  1322|  1322|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
 
         * Loop: 
         N/A
@@ -58,12 +58,12 @@
 |DSP              |        -|     -|       -|       -|    -|
 |Expression       |        -|     -|       0|       2|    -|
 |FIFO             |        -|     -|       -|       -|    -|
-|Instance         |        -|     -|      55|     403|    -|
+|Instance         |        -|     -|     132|     709|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       -|     110|    -|
 |Register         |        -|     -|      13|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|      68|     515|    0|
+|Total            |        0|     0|     145|     821|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |      288|  1248|  234240|  117120|   64|
 +-----------------+---------+------+--------+--------+-----+
@@ -72,15 +72,15 @@
 
 + Detail: 
     * Instance: 
-    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+----+-----+-----+
-    |                                         Instance                                        |                                     Module                                    | BRAM_18K| DSP| FF | LUT | URAM|
-    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+----+-----+-----+
-    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |        0|   0|  12|   81|    0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |        0|   0|  12|   81|    0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34        |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain        |        0|   0|  31|  241|    0|
-    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+----+-----+-----+
-    |Total                                                                                    |                                                                               |        0|   0|  55|  403|    0|
-    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+----+-----+-----+
+    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
+    |                                         Instance                                        |                                     Module                                    | BRAM_18K| DSP|  FF | LUT | URAM|
+    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |        0|   0|  112|  555|    0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |        0|   0|   10|   77|    0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |        0|   0|   10|   77|    0|
+    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
+    |Total                                                                                    |                                                                               |        0|   0|  132|  709|    0|
+    +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
 
     * DSP: 
     N/A
@@ -106,7 +106,7 @@
     +-----------------------------+----+-----------+-----+-----------+
     |ap_NS_fsm                    |  49|          9|    1|          9|
     |ap_done                      |   9|          2|    1|          2|
-    |input_2_TREADY_int_regslice  |   9|          2|    1|          2|
+    |input_5_TREADY_int_regslice  |   9|          2|    1|          2|
     |layer24_out_din              |  14|          3|   32|         96|
     |layer24_out_write            |  20|          4|    1|          4|
     |real_start                   |   9|          2|    1|          2|
@@ -120,9 +120,9 @@
     +------------------------------------------------------------------------------------------------------+---+----+-----+-----------+
     |ap_CS_fsm                                                                                             |  8|   0|    8|          0|
     |ap_done_reg                                                                                           |  1|   0|    1|          0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg      |  1|   0|    1|          0|
     |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_start_reg  |  1|   0|    1|          0|
     |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start_reg          |  1|   0|    1|          0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg        |  1|   0|    1|          0|
     |start_once_reg                                                                                        |  1|   0|    1|          0|
     +------------------------------------------------------------------------------------------------------+---+----+-----+-----------+
     |Total                                                                                                 | 13|   0|   13|          0|
@@ -147,12 +147,12 @@
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
 |start_out                   |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
 |start_write                 |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
-|input_2_TDATA               |   in|   32|        axis|                                                                   input_2|       pointer|
-|input_2_TVALID              |   in|    1|        axis|                                                                   input_2|       pointer|
-|input_2_TREADY              |  out|    1|        axis|                                                                   input_2|       pointer|
+|input_5_TDATA               |   in|   32|        axis|                                                                   input_5|       pointer|
+|input_5_TVALID              |   in|    1|        axis|                                                                   input_5|       pointer|
+|input_5_TREADY              |  out|    1|        axis|                                                                   input_5|       pointer|
 |layer24_out_din             |  out|   32|     ap_fifo|                                                               layer24_out|       pointer|
-|layer24_out_num_data_valid  |   in|   14|     ap_fifo|                                                               layer24_out|       pointer|
-|layer24_out_fifo_cap        |   in|   14|     ap_fifo|                                                               layer24_out|       pointer|
+|layer24_out_num_data_valid  |   in|   12|     ap_fifo|                                                               layer24_out|       pointer|
+|layer24_out_fifo_cap        |   in|   12|     ap_fifo|                                                               layer24_out|       pointer|
 |layer24_out_full_n          |   in|    1|     ap_fifo|                                                               layer24_out|       pointer|
 |layer24_out_write           |  out|    1|     ap_fifo|                                                               layer24_out|       pointer|
 +----------------------------+-----+-----+------------+--------------------------------------------------------------------------+--------------+

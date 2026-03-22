@@ -6,7 +6,7 @@
   <spirit:version>1.0</spirit:version>
   <spirit:busInterfaces>
     <spirit:busInterface>
-      <spirit:name>input_2</spirit:name>
+      <spirit:name>input_5</spirit:name>
       <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="axis" spirit:version="1.0"/>
       <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="axis_rtl" spirit:version="1.0"/>
       <spirit:slave/>
@@ -16,7 +16,7 @@
             <spirit:name>TVALID</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>input_2_TVALID</spirit:name>
+            <spirit:name>input_5_TVALID</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -24,7 +24,7 @@
             <spirit:name>TREADY</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>input_2_TREADY</spirit:name>
+            <spirit:name>input_5_TREADY</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
         <spirit:portMap>
@@ -32,22 +32,22 @@
             <spirit:name>TDATA</spirit:name>
           </spirit:logicalPort>
           <spirit:physicalPort>
-            <spirit:name>input_2_TDATA</spirit:name>
+            <spirit:name>input_5_TDATA</spirit:name>
           </spirit:physicalPort>
         </spirit:portMap>
       </spirit:portMaps>
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>TDATA_NUM_BYTES</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.INPUT_2.TDATA_NUM_BYTES">4</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.INPUT_5.TDATA_NUM_BYTES">4</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>TUSER_WIDTH</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.INPUT_2.TUSER_WIDTH">0</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.INPUT_5.TUSER_WIDTH">0</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>LAYERED_METADATA</spirit:name>
-          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.INPUT_2.LAYERED_METADATA"/>
+          <spirit:value spirit:resolve="generated" spirit:id="BUSIFPARAM_VALUE.INPUT_5.LAYERED_METADATA"/>
         </spirit:parameter>
       </spirit:parameters>
     </spirit:busInterface>
@@ -115,7 +115,7 @@
       <spirit:parameters>
         <spirit:parameter>
           <spirit:name>ASSOCIATED_BUSIF</spirit:name>
-          <spirit:value spirit:id="BUSIFPARAM_VALUE.AP_CLK.ASSOCIATED_BUSIF">input_2:layer23_out</spirit:value>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.AP_CLK.ASSOCIATED_BUSIF">input_5:layer23_out</spirit:value>
         </spirit:parameter>
         <spirit:parameter>
           <spirit:name>ASSOCIATED_RESET</spirit:name>
@@ -203,7 +203,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>3068a84b</spirit:value>
+            <spirit:value>6459d086</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -222,7 +222,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>7ee58333</spirit:value>
+            <spirit:value>ab66e337</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -241,7 +241,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>3872b1c7</spirit:value>
+            <spirit:value>f9b52086</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -260,7 +260,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>78cbe257</spirit:value>
+            <spirit:value>5e71a88e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -317,7 +317,7 @@
     </spirit:views>
     <spirit:ports>
       <spirit:port>
-        <spirit:name>input_2_TVALID</spirit:name>
+        <spirit:name>input_5_TVALID</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:wireTypeDefs>
@@ -330,7 +330,7 @@
         </spirit:wire>
       </spirit:port>
       <spirit:port>
-        <spirit:name>input_2_TREADY</spirit:name>
+        <spirit:name>input_5_TREADY</spirit:name>
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:wireTypeDefs>
@@ -343,7 +343,7 @@
         </spirit:wire>
       </spirit:port>
       <spirit:port>
-        <spirit:name>input_2_TDATA</spirit:name>
+        <spirit:name>input_5_TDATA</spirit:name>
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
@@ -503,11 +503,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -515,75 +515,43 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -591,79 +559,71 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w32_d6248_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w32_d1452_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d864_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d70_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d7_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d70_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d408_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d112_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w256_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w304_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w304_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w380_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w320_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w440_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w320_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w512_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w370_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w640_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w440_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w656_d70_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w456_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w912_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w456_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w928_d70_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w1280_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w592_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/myproject_flow_control_loop_pipe.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_flow_control_loop_pipe_no_ap_cont.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -695,7 +655,31 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_5ns_20_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_5s_21_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_6ns_21_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_6s_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_7ns_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_7s_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -703,11 +687,55 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8ns_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8s_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8s_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/myproject_mul_16ns_8s_24_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9ns_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9s_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9s_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/myproject_mul_16ns_9s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10ns_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10s_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_11s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_12s_25_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -747,11 +775,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_16s_16ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_mul_18s_16s_26_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_18s_16s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_mul_38s_11ns_48_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -775,19 +803,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_41s_13ns_53_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -795,11 +819,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -811,15 +835,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -827,7 +851,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -843,31 +867,31 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -879,27 +903,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.dat</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_9_2_16_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_17_3_16_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_57_5_16_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -907,19 +919,19 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -927,11 +939,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -939,11 +951,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -951,15 +963,15 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -971,7 +983,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -983,7 +995,7 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -995,11 +1007,19 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1007,19 +1027,11 @@
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1045,12 +1057,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1060,88 +1072,52 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.dat</spirit:name>
-        <spirit:userFileType>mif</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1151,97 +1127,87 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w32_d6248_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w32_d1452_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d2_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d864_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w128_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d70_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d7_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d70_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d408_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d112_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w128_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w256_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w256_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w304_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w304_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w380_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w320_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w440_d5640_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w320_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w512_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w370_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w640_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w440_d1280_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w656_d70_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w456_d40_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w912_d700_A.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w456_d320_A.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w928_d70_A.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_fifo_w1280_d1_S.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_fifo_w592_d1_S.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/verilog/myproject_flow_control_loop_pipe.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_flow_control_loop_pipe_no_ap_cont.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1281,7 +1247,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_5ns_20_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_5s_21_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_6ns_21_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_6s_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_7ns_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_7s_22_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1291,12 +1287,67 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8ns_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8s_22_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_8s_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/myproject_mul_16ns_8s_24_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9ns_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9s_23_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_9s_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/verilog/myproject_mul_16ns_9s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10ns_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10s_24_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_10s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_11s_25_1_1.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_mul_16ns_12s_25_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1346,12 +1397,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_16s_16ns_25_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_mul_18s_16s_26_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_18s_16s_26_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_mul_38s_11ns_48_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1381,22 +1432,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_mul_41s_13ns_53_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1406,12 +1452,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1426,17 +1472,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1446,7 +1492,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1466,37 +1512,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1511,31 +1557,16 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.dat</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.dat</spirit:name>
         <spirit:userFileType>mif</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_9_2_16_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_17_3_16_1_1.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_sparsemux_57_5_16_1_1.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1545,22 +1576,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1570,12 +1601,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1585,12 +1616,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1600,17 +1631,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1625,7 +1656,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1640,7 +1671,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1655,12 +1686,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:fileType>verilogSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1670,22 +1711,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.v</spirit:name>
-        <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.v</spirit:name>
+        <spirit:name>hdl/verilog/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -1735,11 +1766,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1747,59 +1778,43 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1807,79 +1822,71 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w32_d6248_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w32_d1452_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d864_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d70_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d7_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d70_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d408_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d112_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w256_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w304_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w304_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w380_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w320_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w440_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w320_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w512_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w370_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w640_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w440_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w656_d70_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w456_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w912_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w456_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w928_d70_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w1280_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w592_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/myproject_flow_control_loop_pipe.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_flow_control_loop_pipe_no_ap_cont.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1891,7 +1898,31 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_5ns_20_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_5s_21_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_6ns_21_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_6s_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_7ns_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_7s_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1899,11 +1930,55 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8ns_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_24_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9ns_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10ns_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10s_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_11s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_12s_25_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1943,11 +2018,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_16s_16ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_mul_18s_16s_26_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_18s_16s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_mul_38s_11ns_48_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1971,19 +2046,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_41s_13ns_53_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -1991,11 +2062,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2007,15 +2078,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2023,7 +2094,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2039,31 +2110,31 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2075,23 +2146,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_9_2_16_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_17_3_16_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_57_5_16_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2099,19 +2158,19 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2119,11 +2178,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2131,11 +2190,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2143,15 +2202,15 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2163,7 +2222,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2175,7 +2234,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2187,11 +2246,19 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2199,25 +2266,17 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/myproject.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_c3d6d1a0</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_756ddd97</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -2238,12 +2297,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2253,72 +2312,52 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2328,97 +2367,87 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w32_d6248_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w32_d1452_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d2_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d864_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w128_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d70_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d7_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d70_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d408_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d112_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w128_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w256_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w256_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w304_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w304_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w380_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w320_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w440_d5640_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w320_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w512_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w370_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w640_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w440_d1280_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w656_d70_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w456_d40_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w912_d700_A.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w456_d320_A.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w928_d70_A.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_fifo_w1280_d1_S.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_fifo_w592_d1_S.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
         <spirit:name>hdl/vhdl/myproject_flow_control_loop_pipe.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_flow_control_loop_pipe_no_ap_cont.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2433,7 +2462,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_5ns_20_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_5s_21_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_6ns_21_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_6s_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_7ns_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_7s_22_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2443,12 +2502,67 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8ns_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_22_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_mul_16ns_8s_24_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9ns_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_23_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_mul_16ns_9s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10ns_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10s_24_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_10s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_11s_25_1_1.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_mul_16ns_12s_25_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2498,12 +2612,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_16s_16ns_25_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_mul_18s_16s_26_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_18s_16s_26_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_mul_38s_11ns_48_1_1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2533,22 +2647,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_mul_41s_13ns_53_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
         <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2558,12 +2667,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2578,17 +2687,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2598,7 +2707,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2618,37 +2727,37 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2663,27 +2772,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_9_2_16_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_17_3_16_1_1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_sparsemux_57_5_16_1_1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2693,22 +2787,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2718,12 +2812,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2733,12 +2827,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2748,17 +2842,17 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2773,7 +2867,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2788,7 +2882,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2803,12 +2897,22 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2818,22 +2922,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -2915,7 +3009,7 @@
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>latency</spirit:name>
-      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">18762</spirit:value>
+      <spirit:value spirit:id="PARAM_VALUE.latency" spirit:order="5">4374</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>II</spirit:name>
@@ -2933,7 +3027,7 @@
       <xilinx:displayName>Myproject</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
       <xilinx:coreRevision>0</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-03-22T01:21:22Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-03-22T15:50:24Z</xilinx:coreCreationDateTime>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>
@@ -2941,10 +3035,10 @@
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>
-      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="0f983016"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="5171817c"/>
-      <xilinx:checksum xilinx:scope="ports" xilinx:value="cd78b6f1"/>
-      <xilinx:checksum xilinx:scope="parameters" xilinx:value="eaa55bc3"/>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="a73db787"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="2a6625b1"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="d8503667"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="62ed6858"/>
     </xilinx:packagingInfo>
   </spirit:vendorExtensions>
 </spirit:component>

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth'
 ================================================================
-* Date:           Sat Mar 21 19:23:19 2026
+* Date:           Sun Mar 22 09:52:06 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |      286|      286|  1.430 us|  1.430 us|  286|  286|       no|
+    |       68|       68|  0.340 us|  0.340 us|   68|   68|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |               |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |   Loop Name   |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- PadTopWidth  |      284|      284|         2|          1|          1|   284|       yes|
+        |- PadTopWidth  |       66|       66|         2|          1|          1|    66|       yes|
         +---------------+---------+---------+----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -84,23 +84,23 @@ IsGatedGlobalClock: 0
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 1.63>
+State 1 <SV = 0> <Delay = 1.62>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 5 'alloca' 'j' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_14, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 7 [1/1] (0.42ns)   --->   "%store_ln53 = store i9 0, i9 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 7 'store' 'store_ln53' <Predicate = true> <Delay = 0.42>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.42ns)   --->   "%store_ln53 = store i7 0, i7 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 7 'store' 'store_ln53' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j_9 = load i9 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 9 'load' 'j_9' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.77ns)   --->   "%icmp_ln53 = icmp_eq  i9 %j_9, i9 284" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 10 'icmp' 'icmp_ln53' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 11 [1/1] (0.77ns)   --->   "%j_10 = add i9 %j_9, i9 1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 11 'add' 'j_10' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln53 = br i1 %icmp_ln53, void %for.inc.split, void %for.body25.preheader.exitStub" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 12 'br' 'br_ln53' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 13 [1/1] (0.42ns)   --->   "%store_ln53 = store i9 %j_10, i9 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 13 'store' 'store_ln53' <Predicate = (!icmp_ln53)> <Delay = 0.42>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j_7 = load i7 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 9 'load' 'j_7' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.77ns)   --->   "%icmp_ln53 = icmp_eq  i7 %j_7, i7 66" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 10 'icmp' 'icmp_ln53' <Predicate = true> <Delay = 0.77> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (0.77ns)   --->   "%j_8 = add i7 %j_7, i7 1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 11 'add' 'j_8' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln53 = br i1 %icmp_ln53, void %for.inc.split, void %PadLeft.preheader.exitStub" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 12 'br' 'br_ln53' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.42ns)   --->   "%store_ln53 = store i7 %j_8, i7 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 13 'store' 'store_ln53' <Predicate = (!icmp_ln53)> <Delay = 0.42>
 ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 19 'ret' 'ret_ln0' <Predicate = (icmp_ln53)> <Delay = 0.00>
 
 State 2 <SV = 1> <Delay = 1.75>
-ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln53 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_7" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 14 'specpipeline' 'specpipeline_ln53' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln53 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 284, i64 284, i64 284" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln53' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln53 = specloopname void @_ssdm_op_SpecLoopName, void @empty_6" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 16 'specloopname' 'specloopname_ln53' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 17 [1/1] (1.75ns)   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %layer24_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:54]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.75> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.75> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 6248> <FIFO>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln53 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 14 'specpipeline' 'specpipeline_ln53' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln53 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 66, i64 66, i64 66" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln53' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln53 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 16 'specloopname' 'specloopname_ln53' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 17 [1/1] (1.75ns)   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %layer24_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:54]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.75> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.75> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 1452> <FIFO>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln53 = br void %for.inc" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 18 'br' 'br_ln53' <Predicate = true> <Delay = 0.00>
 
 
@@ -126,9 +126,9 @@ j                      (alloca           ) [ 010]
 specinterface_ln0      (specinterface    ) [ 000]
 store_ln53             (store            ) [ 000]
 br_ln0                 (br               ) [ 000]
-j_9                    (load             ) [ 000]
+j_7                    (load             ) [ 000]
 icmp_ln53              (icmp             ) [ 010]
-j_10                   (add              ) [ 000]
+j_8                    (add              ) [ 000]
 br_ln53                (br               ) [ 000]
 store_ln53             (store            ) [ 000]
 specpipeline_ln53      (specpipeline     ) [ 000]
@@ -174,7 +174,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="7" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_14"/></StgValue>
+<StgValue><ssdm name="empty_11"/></StgValue>
 </bind>
 </comp>
 
@@ -192,7 +192,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_7"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -273,7 +273,7 @@ ret_ln0                (ret              ) [ 000]
 <pin id="29" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_19"/></StgValue>
 </bind>
 </comp>
 
@@ -289,7 +289,7 @@ ret_ln0                (ret              ) [ 000]
 <comp id="32" class="1004" name="j_fu_32">
 <pin_list>
 <pin id="33" dir="0" index="0" bw="1" slack="0"/>
-<pin id="34" dir="1" index="1" bw="9" slack="0"/>
+<pin id="34" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="alloca(26) " fcode="alloca"/>
@@ -313,7 +313,7 @@ ret_ln0                (ret              ) [ 000]
 <comp id="44" class="1004" name="store_ln53_store_fu_44">
 <pin_list>
 <pin id="45" dir="0" index="0" bw="1" slack="0"/>
-<pin id="46" dir="0" index="1" bw="9" slack="0"/>
+<pin id="46" dir="0" index="1" bw="7" slack="0"/>
 <pin id="47" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -322,21 +322,21 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="49" class="1004" name="j_9_load_fu_49">
+<comp id="49" class="1004" name="j_7_load_fu_49">
 <pin_list>
-<pin id="50" dir="0" index="0" bw="9" slack="0"/>
-<pin id="51" dir="1" index="1" bw="9" slack="0"/>
+<pin id="50" dir="0" index="0" bw="7" slack="0"/>
+<pin id="51" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="j_9/1 "/>
+<opset="j_7/1 "/>
 </bind>
 </comp>
 
 <comp id="52" class="1004" name="icmp_ln53_fu_52">
 <pin_list>
-<pin id="53" dir="0" index="0" bw="9" slack="0"/>
-<pin id="54" dir="0" index="1" bw="9" slack="0"/>
+<pin id="53" dir="0" index="0" bw="7" slack="0"/>
+<pin id="54" dir="0" index="1" bw="7" slack="0"/>
 <pin id="55" dir="1" index="2" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -345,22 +345,22 @@ ret_ln0                (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="58" class="1004" name="j_10_fu_58">
+<comp id="58" class="1004" name="j_8_fu_58">
 <pin_list>
-<pin id="59" dir="0" index="0" bw="9" slack="0"/>
+<pin id="59" dir="0" index="0" bw="7" slack="0"/>
 <pin id="60" dir="0" index="1" bw="1" slack="0"/>
-<pin id="61" dir="1" index="2" bw="9" slack="0"/>
+<pin id="61" dir="1" index="2" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="j_10/1 "/>
+<opset="j_8/1 "/>
 </bind>
 </comp>
 
 <comp id="64" class="1004" name="store_ln53_store_fu_64">
 <pin_list>
-<pin id="65" dir="0" index="0" bw="9" slack="0"/>
-<pin id="66" dir="0" index="1" bw="9" slack="0"/>
+<pin id="65" dir="0" index="0" bw="7" slack="0"/>
+<pin id="66" dir="0" index="1" bw="7" slack="0"/>
 <pin id="67" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -371,8 +371,8 @@ ret_ln0                (ret              ) [ 000]
 
 <comp id="69" class="1005" name="j_reg_69">
 <pin_list>
-<pin id="70" dir="0" index="0" bw="9" slack="0"/>
-<pin id="71" dir="1" index="1" bw="9" slack="0"/>
+<pin id="70" dir="0" index="0" bw="7" slack="0"/>
+<pin id="71" dir="1" index="1" bw="7" slack="0"/>
 </pin_list>
 <bind>
 <opset="j "/>
@@ -422,9 +422,9 @@ ret_ln0                (ret              ) [ 000]
   - Chain level:
 	State 1
 		store_ln53 : 1
-		j_9 : 1
+		j_7 : 1
 		icmp_ln53 : 2
-		j_10 : 2
+		j_8 : 2
 		br_ln53 : 3
 		store_ln53 : 3
 	State 2
@@ -438,13 +438,13 @@ ret_ln0                (ret              ) [ 000]
 |----------|------------------------|---------|---------|
 | Operation|     Functional Unit    |    FF   |   LUT   |
 |----------|------------------------|---------|---------|
-|   icmp   |     icmp_ln53_fu_52    |    0    |    16   |
+|   icmp   |     icmp_ln53_fu_52    |    0    |    14   |
 |----------|------------------------|---------|---------|
-|    add   |       j_10_fu_58       |    0    |    16   |
+|    add   |        j_8_fu_58       |    0    |    14   |
 |----------|------------------------|---------|---------|
 |   write  | write_ln15_write_fu_36 |    0    |    0    |
 |----------|------------------------|---------|---------|
-|   Total  |                        |    0    |    32   |
+|   Total  |                        |    0    |    28   |
 |----------|------------------------|---------|---------|
 
 Memories:
@@ -454,9 +454,9 @@ N/A
 +--------+--------+
 |        |   FF   |
 +--------+--------+
-|j_reg_69|    9   |
+|j_reg_69|    7   |
 +--------+--------+
-|  Total |    9   |
+|  Total |    7   |
 +--------+--------+
 
 * Multiplexer (MUX) list: 
@@ -472,10 +472,10 @@ N/A
 +-----------+--------+--------+
 |           |   FF   |   LUT  |
 +-----------+--------+--------+
-|  Function |    0   |   32   |
+|  Function |    0   |   28   |
 |   Memory  |    -   |    -   |
 |Multiplexer|    -   |    -   |
-|  Register |    9   |    -   |
+|  Register |    7   |    -   |
 +-----------+--------+--------+
-|   Total   |    9   |   32   |
+|   Total   |    7   |   28   |
 +-----------+--------+--------+

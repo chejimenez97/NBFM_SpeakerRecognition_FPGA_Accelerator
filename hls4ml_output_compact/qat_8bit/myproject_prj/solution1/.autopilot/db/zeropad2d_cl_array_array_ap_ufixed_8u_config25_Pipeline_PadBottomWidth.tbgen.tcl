@@ -31,8 +31,8 @@ set portList {
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ layer25_out_din sc_out sc_lv 64 signal 0 } 
-	{ layer25_out_num_data_valid sc_in sc_lv 11 signal 0 } 
-	{ layer25_out_fifo_cap sc_in sc_lv 11 signal 0 } 
+	{ layer25_out_num_data_valid sc_in sc_lv 10 signal 0 } 
+	{ layer25_out_fifo_cap sc_in sc_lv 10 signal 0 } 
 	{ layer25_out_full_n sc_in sc_logic 1 signal 0 } 
 	{ layer25_out_write sc_out sc_logic 1 signal 0 } 
 }
@@ -44,8 +44,8 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "layer25_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer25_out", "role": "din" }} , 
- 	{ "name": "layer25_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":11, "type": "signal", "bundle":{"name": "layer25_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer25_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":11, "type": "signal", "bundle":{"name": "layer25_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer25_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "layer25_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer25_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "layer25_out", "role": "fifo_cap" }} , 
  	{ "name": "layer25_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer25_out", "role": "full_n" }} , 
  	{ "name": "layer25_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer25_out", "role": "write" }}  ]}
 
@@ -56,7 +56,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "74", "EstimateLatencyMax" : "74",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "36", "EstimateLatencyMax" : "36",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -81,8 +81,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "74", "Max" : "74"}
-	, {"Name" : "Interval", "Min" : "74", "Max" : "74"}
+	{"Name" : "Latency", "Min" : "36", "Max" : "36"}
+	, {"Name" : "Interval", "Min" : "36", "Max" : "36"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -90,5 +90,5 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer25_out { ap_fifo {  { layer25_out_din fifo_data_in 1 64 }  { layer25_out_num_data_valid fifo_status_num_data_valid 0 11 }  { layer25_out_fifo_cap fifo_update 0 11 }  { layer25_out_full_n fifo_status 0 1 }  { layer25_out_write fifo_port_we 1 1 } } }
+	layer25_out { ap_fifo {  { layer25_out_din fifo_data_in 1 64 }  { layer25_out_num_data_valid fifo_status_num_data_valid 0 10 }  { layer25_out_fifo_cap fifo_update 0 10 }  { layer25_out_full_n fifo_status 0 1 }  { layer25_out_write fifo_port_we 1 1 } } }
 }

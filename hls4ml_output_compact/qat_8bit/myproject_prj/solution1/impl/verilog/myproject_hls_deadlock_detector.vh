@@ -557,12 +557,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_6;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0
+reg [15:0] trans_in_cnt_6;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_6 <= 16'h0;
     end
-    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.start_write == 1'b1) begin
+    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.start_write == 1'b1) begin
         trans_in_cnt_6 <= trans_in_cnt_6 + 16'h1;
     end
     else begin
@@ -570,12 +570,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_6;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0
+reg [15:0] trans_out_cnt_6;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_6 <= 16'h0;
     end
-    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.ap_done == 1'b1 && conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.ap_continue == 1'b1) begin
+    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.ap_done == 1'b1 && conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.ap_continue == 1'b1) begin
         trans_out_cnt_6 <= trans_out_cnt_6 + 16'h1;
     end
     else begin
@@ -583,12 +583,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_7;// for process normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0
+reg [15:0] trans_in_cnt_7;// for process normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_7 <= 16'h0;
     end
-    else if (normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.start_write == 1'b1) begin
+    else if (normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.start_write == 1'b1) begin
         trans_in_cnt_7 <= trans_in_cnt_7 + 16'h1;
     end
     else begin
@@ -596,12 +596,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_7;// for process normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0
+reg [15:0] trans_out_cnt_7;// for process normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_7 <= 16'h0;
     end
-    else if (normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.ap_done == 1'b1 && normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.ap_continue == 1'b1) begin
+    else if (normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.ap_done == 1'b1 && normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.ap_continue == 1'b1) begin
         trans_out_cnt_7 <= trans_out_cnt_7 + 16'h1;
     end
     else begin
@@ -609,12 +609,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_8;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0
+reg [15:0] trans_in_cnt_8;// for process relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_8 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.start_write == 1'b1) begin
+    else if (relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.start_write == 1'b1) begin
         trans_in_cnt_8 <= trans_in_cnt_8 + 16'h1;
     end
     else begin
@@ -622,12 +622,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_8;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0
+reg [15:0] trans_out_cnt_8;// for process relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_8 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.ap_done == 1'b1 && relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.ap_continue == 1'b1) begin
+    else if (relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.ap_done == 1'b1 && relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.ap_continue == 1'b1) begin
         trans_out_cnt_8 <= trans_out_cnt_8 + 16'h1;
     end
     else begin
@@ -635,12 +635,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_9;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0
+reg [15:0] trans_in_cnt_9;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_9 <= 16'h0;
     end
-    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.start_write == 1'b1) begin
+    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.start_write == 1'b1) begin
         trans_in_cnt_9 <= trans_in_cnt_9 + 16'h1;
     end
     else begin
@@ -648,12 +648,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_9;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0
+reg [15:0] trans_out_cnt_9;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_9 <= 16'h0;
     end
-    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.ap_done == 1'b1 && pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.ap_continue == 1'b1) begin
+    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.ap_done == 1'b1 && pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.ap_continue == 1'b1) begin
         trans_out_cnt_9 <= trans_out_cnt_9 + 16'h1;
     end
     else begin
@@ -661,12 +661,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_10;// for process zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0
+reg [15:0] trans_in_cnt_10;// for process zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_10 <= 16'h0;
     end
-    else if (zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.start_write == 1'b1) begin
+    else if (zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.start_write == 1'b1) begin
         trans_in_cnt_10 <= trans_in_cnt_10 + 16'h1;
     end
     else begin
@@ -674,12 +674,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_10;// for process zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0
+reg [15:0] trans_out_cnt_10;// for process zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_10 <= 16'h0;
     end
-    else if (zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.ap_done == 1'b1 && zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.ap_continue == 1'b1) begin
+    else if (zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.ap_done == 1'b1 && zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.ap_continue == 1'b1) begin
         trans_out_cnt_10 <= trans_out_cnt_10 + 16'h1;
     end
     else begin
@@ -687,12 +687,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_11;// for process conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0
+reg [15:0] trans_in_cnt_11;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_11 <= 16'h0;
     end
-    else if (conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.start_write == 1'b1) begin
+    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.start_write == 1'b1) begin
         trans_in_cnt_11 <= trans_in_cnt_11 + 16'h1;
     end
     else begin
@@ -700,12 +700,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_11;// for process conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0
+reg [15:0] trans_out_cnt_11;// for process conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_11 <= 16'h0;
     end
-    else if (conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.ap_done == 1'b1 && conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.ap_continue == 1'b1) begin
+    else if (conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.ap_done == 1'b1 && conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.ap_continue == 1'b1) begin
         trans_out_cnt_11 <= trans_out_cnt_11 + 16'h1;
     end
     else begin
@@ -713,12 +713,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_12;// for process normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0
+reg [15:0] trans_in_cnt_12;// for process normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_12 <= 16'h0;
     end
-    else if (normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.start_write == 1'b1) begin
+    else if (normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.start_write == 1'b1) begin
         trans_in_cnt_12 <= trans_in_cnt_12 + 16'h1;
     end
     else begin
@@ -726,12 +726,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_12;// for process normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0
+reg [15:0] trans_out_cnt_12;// for process normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_12 <= 16'h0;
     end
-    else if (normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.ap_done == 1'b1 && normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.ap_continue == 1'b1) begin
+    else if (normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.ap_done == 1'b1 && normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.ap_continue == 1'b1) begin
         trans_out_cnt_12 <= trans_out_cnt_12 + 16'h1;
     end
     else begin
@@ -739,12 +739,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_13;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0
+reg [15:0] trans_in_cnt_13;// for process relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_13 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.start_write == 1'b1) begin
+    else if (relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.start_write == 1'b1) begin
         trans_in_cnt_13 <= trans_in_cnt_13 + 16'h1;
     end
     else begin
@@ -752,12 +752,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_13;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0
+reg [15:0] trans_out_cnt_13;// for process relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_13 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.ap_done == 1'b1 && relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.ap_continue == 1'b1) begin
+    else if (relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.ap_done == 1'b1 && relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.ap_continue == 1'b1) begin
         trans_out_cnt_13 <= trans_out_cnt_13 + 16'h1;
     end
     else begin
@@ -765,12 +765,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_14;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0
+reg [15:0] trans_in_cnt_14;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_14 <= 16'h0;
     end
-    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.start_write == 1'b1) begin
+    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.start_write == 1'b1) begin
         trans_in_cnt_14 <= trans_in_cnt_14 + 16'h1;
     end
     else begin
@@ -778,12 +778,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_14;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0
+reg [15:0] trans_out_cnt_14;// for process pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_14 <= 16'h0;
     end
-    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.ap_done == 1'b1 && pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.ap_continue == 1'b1) begin
+    else if (pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.ap_done == 1'b1 && pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.ap_continue == 1'b1) begin
         trans_out_cnt_14 <= trans_out_cnt_14 + 16'h1;
     end
     else begin
@@ -791,12 +791,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_15;// for process dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0
+reg [15:0] trans_in_cnt_15;// for process dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_15 <= 16'h0;
     end
-    else if (dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.start_write == 1'b1) begin
+    else if (dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.start_write == 1'b1) begin
         trans_in_cnt_15 <= trans_in_cnt_15 + 16'h1;
     end
     else begin
@@ -804,12 +804,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_15;// for process dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0
+reg [15:0] trans_out_cnt_15;// for process dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_15 <= 16'h0;
     end
-    else if (dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.ap_done == 1'b1 && dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.ap_continue == 1'b1) begin
+    else if (dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.ap_done == 1'b1 && dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.ap_continue == 1'b1) begin
         trans_out_cnt_15 <= trans_out_cnt_15 + 16'h1;
     end
     else begin
@@ -817,12 +817,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_16;// for process relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0
+reg [15:0] trans_in_cnt_16;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_16 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.start_write == 1'b1) begin
+    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.start_write == 1'b1) begin
         trans_in_cnt_16 <= trans_in_cnt_16 + 16'h1;
     end
     else begin
@@ -830,12 +830,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_16;// for process relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0
+reg [15:0] trans_out_cnt_16;// for process relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_16 <= 16'h0;
     end
-    else if (relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.ap_done == 1'b1 && relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.ap_continue == 1'b1) begin
+    else if (relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.ap_done == 1'b1 && relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.ap_continue == 1'b1) begin
         trans_out_cnt_16 <= trans_out_cnt_16 + 16'h1;
     end
     else begin
@@ -843,12 +843,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_in_cnt_17;// for process dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0
+reg [15:0] trans_in_cnt_17;// for process dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_in_cnt_17 <= 16'h0;
     end
-    else if (dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.start_write == 1'b1) begin
+    else if (dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.start_write == 1'b1) begin
         trans_in_cnt_17 <= trans_in_cnt_17 + 16'h1;
     end
     else begin
@@ -856,12 +856,12 @@ always @(negedge dl_reset or posedge dl_clock) begin
     end
 end
 
-reg [15:0] trans_out_cnt_17;// for process dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0
+reg [15:0] trans_out_cnt_17;// for process dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0
 always @(negedge dl_reset or posedge dl_clock) begin
     if (~dl_reset) begin
          trans_out_cnt_17 <= 16'h0;
     end
-    else if (dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.ap_done == 1'b1 && dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.ap_continue == 1'b1) begin
+    else if (dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.ap_done == 1'b1 && dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.ap_continue == 1'b1) begin
         trans_out_cnt_17 <= trans_out_cnt_17 + 16'h1;
     end
     else begin
@@ -1034,7 +1034,7 @@ end
     assign proc_dep_vld_vec_3[0] = dl_detect_out ? proc_dep_vld_vec_3_reg[0] : (proc_3_data_FIFO_blk[0] | proc_3_data_PIPO_blk[0] | proc_3_start_FIFO_blk[0] | proc_3_TLF_FIFO_blk[0] | proc_3_input_sync_blk[0] | proc_3_output_sync_blk[0]);
     assign proc_3_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0.layer5_out_blk_n);
     assign proc_3_data_PIPO_blk[1] = 1'b0;
-    assign proc_3_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0.real_start & (trans_in_cnt_3 == trans_out_cnt_3) & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx_U.if_read);
+    assign proc_3_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0.real_start & (trans_in_cnt_3 == trans_out_cnt_3) & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo_U.if_read);
     assign proc_3_TLF_FIFO_blk[1] = 1'b0;
     assign proc_3_input_sync_blk[1] = 1'b0;
     assign proc_3_output_sync_blk[1] = 1'b0;
@@ -1078,7 +1078,7 @@ end
 
     assign proc_4_data_FIFO_blk[0] = 1'b0 | (~pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_U0.layer5_out_blk_n);
     assign proc_4_data_PIPO_blk[0] = 1'b0;
-    assign proc_4_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx_U.if_empty_n & pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_U0.ap_idle & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configcxx_U.if_write);
+    assign proc_4_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo_U.if_empty_n & pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_U0.ap_idle & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_configbzo_U.if_write);
     assign proc_4_TLF_FIFO_blk[0] = 1'b0;
     assign proc_4_input_sync_blk[0] = 1'b0;
     assign proc_4_output_sync_blk[0] = 1'b0;
@@ -1127,16 +1127,16 @@ end
         .token_out_vec(token_out_vec_5),
         .dl_detect_out(dl_in_vec[5]));
 
-    assign proc_5_data_FIFO_blk[0] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28.layer6_out_blk_n);
+    assign proc_5_data_FIFO_blk[0] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_Pipeline_PadMain_fu_28.layer6_out_blk_n);
     assign proc_5_data_PIPO_blk[0] = 1'b0;
     assign proc_5_start_FIFO_blk[0] = 1'b0 | (~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0_U.if_empty_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.ap_idle & ~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0_U.if_write);
     assign proc_5_TLF_FIFO_blk[0] = 1'b0;
     assign proc_5_input_sync_blk[0] = 1'b0;
     assign proc_5_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_5[0] = dl_detect_out ? proc_dep_vld_vec_5_reg[0] : (proc_5_data_FIFO_blk[0] | proc_5_data_PIPO_blk[0] | proc_5_start_FIFO_blk[0] | proc_5_TLF_FIFO_blk[0] | proc_5_input_sync_blk[0] | proc_5_output_sync_blk[0]);
-    assign proc_5_data_FIFO_blk[1] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28.layer25_out_blk_n);
+    assign proc_5_data_FIFO_blk[1] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth_fu_36.layer25_out_blk_n);
     assign proc_5_data_PIPO_blk[1] = 1'b0;
-    assign proc_5_start_FIFO_blk[1] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.real_start & (trans_in_cnt_5 == trans_out_cnt_5) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx_U.if_read);
+    assign proc_5_start_FIFO_blk[1] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0.real_start & (trans_in_cnt_5 == trans_out_cnt_5) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo_U.if_read);
     assign proc_5_TLF_FIFO_blk[1] = 1'b0;
     assign proc_5_input_sync_blk[1] = 1'b0;
     assign proc_5_output_sync_blk[1] = 1'b0;
@@ -1162,7 +1162,7 @@ end
     assign dep_chan_data_5_6 = out_chan_dep_data_5;
     assign token_5_6 = token_out_vec_5[1];
 
-    // Process: conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0
+    // Process: conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0
     myproject_hls_deadlock_detect_unit #(19, 6, 2, 2) myproject_hls_deadlock_detect_unit_6 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1178,16 +1178,16 @@ end
         .token_out_vec(token_out_vec_6),
         .dl_detect_out(dl_in_vec[6]));
 
-    assign proc_6_data_FIFO_blk[0] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.layer25_out_blk_n);
+    assign proc_6_data_FIFO_blk[0] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.layer25_out_blk_n);
     assign proc_6_data_PIPO_blk[0] = 1'b0;
-    assign proc_6_start_FIFO_blk[0] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_configcyx_U.if_write);
+    assign proc_6_start_FIFO_blk[0] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7bAo_U.if_write);
     assign proc_6_TLF_FIFO_blk[0] = 1'b0;
     assign proc_6_input_sync_blk[0] = 1'b0;
     assign proc_6_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_6[0] = dl_detect_out ? proc_dep_vld_vec_6_reg[0] : (proc_6_data_FIFO_blk[0] | proc_6_data_PIPO_blk[0] | proc_6_start_FIFO_blk[0] | proc_6_TLF_FIFO_blk[0] | proc_6_input_sync_blk[0] | proc_6_output_sync_blk[0]);
-    assign proc_6_data_FIFO_blk[1] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.grp_compute_output_buffer_2d_array_array_ap_fixed_24_17_5_3_0_16u_config7_s_fu_260.layer7_out_blk_n);
+    assign proc_6_data_FIFO_blk[1] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.layer7_out_blk_n);
     assign proc_6_data_PIPO_blk[1] = 1'b0;
-    assign proc_6_start_FIFO_blk[1] = 1'b0 | (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy_U.if_full_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.ap_start & ~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0.real_start & (trans_in_cnt_6 == trans_out_cnt_6) & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy_U.if_read);
+    assign proc_6_start_FIFO_blk[1] = 1'b0 | (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0_U.if_full_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.ap_start & ~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config7_U0.real_start & (trans_in_cnt_6 == trans_out_cnt_6) & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0_U.if_read);
     assign proc_6_TLF_FIFO_blk[1] = 1'b0;
     assign proc_6_input_sync_blk[1] = 1'b0;
     assign proc_6_output_sync_blk[1] = 1'b0;
@@ -1213,7 +1213,7 @@ end
     assign dep_chan_data_6_7 = out_chan_dep_data_6;
     assign token_6_7 = token_out_vec_6[1];
 
-    // Process: normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0
+    // Process: normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0
     myproject_hls_deadlock_detect_unit #(19, 7, 2, 2) myproject_hls_deadlock_detect_unit_7 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1229,16 +1229,16 @@ end
         .token_out_vec(token_out_vec_7),
         .dl_detect_out(dl_in_vec[7]));
 
-    assign proc_7_data_FIFO_blk[0] = 1'b0 | (~normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.layer7_out_blk_n);
+    assign proc_7_data_FIFO_blk[0] = 1'b0 | (~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.layer7_out_blk_n);
     assign proc_7_data_PIPO_blk[0] = 1'b0;
-    assign proc_7_start_FIFO_blk[0] = 1'b0 | (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy_U.if_empty_n & normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.ap_idle & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9czy_U.if_write);
+    assign proc_7_start_FIFO_blk[0] = 1'b0 | (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0_U.if_empty_n & normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.ap_idle & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0_U.if_write);
     assign proc_7_TLF_FIFO_blk[0] = 1'b0;
     assign proc_7_input_sync_blk[0] = 1'b0;
     assign proc_7_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_7[0] = dl_detect_out ? proc_dep_vld_vec_7_reg[0] : (proc_7_data_FIFO_blk[0] | proc_7_data_PIPO_blk[0] | proc_7_start_FIFO_blk[0] | proc_7_TLF_FIFO_blk[0] | proc_7_input_sync_blk[0] | proc_7_output_sync_blk[0]);
-    assign proc_7_data_FIFO_blk[1] = 1'b0 | (~normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.layer9_out_blk_n);
+    assign proc_7_data_FIFO_blk[1] = 1'b0 | (~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.layer9_out_blk_n);
     assign proc_7_data_PIPO_blk[1] = 1'b0;
-    assign proc_7_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy_U.if_full_n & normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.ap_start & ~normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0.real_start & (trans_in_cnt_7 == trans_out_cnt_7) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy_U.if_read);
+    assign proc_7_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0_U.if_full_n & normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.ap_start & ~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_U0.real_start & (trans_in_cnt_7 == trans_out_cnt_7) & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0_U.if_read);
     assign proc_7_TLF_FIFO_blk[1] = 1'b0;
     assign proc_7_input_sync_blk[1] = 1'b0;
     assign proc_7_output_sync_blk[1] = 1'b0;
@@ -1264,7 +1264,7 @@ end
     assign dep_chan_data_7_8 = out_chan_dep_data_7;
     assign token_7_8 = token_out_vec_7[1];
 
-    // Process: relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0
+    // Process: relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0
     myproject_hls_deadlock_detect_unit #(19, 8, 2, 2) myproject_hls_deadlock_detect_unit_8 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1280,16 +1280,16 @@ end
         .token_out_vec(token_out_vec_8),
         .dl_detect_out(dl_in_vec[8]));
 
-    assign proc_8_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.layer9_out_blk_n);
+    assign proc_8_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.layer9_out_blk_n);
     assign proc_8_data_PIPO_blk[0] = 1'b0;
-    assign proc_8_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10cAy_U.if_write);
+    assign proc_8_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0_U.if_empty_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.ap_idle & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0_U.if_write);
     assign proc_8_TLF_FIFO_blk[0] = 1'b0;
     assign proc_8_input_sync_blk[0] = 1'b0;
     assign proc_8_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_8[0] = dl_detect_out ? proc_dep_vld_vec_8_reg[0] : (proc_8_data_FIFO_blk[0] | proc_8_data_PIPO_blk[0] | proc_8_start_FIFO_blk[0] | proc_8_TLF_FIFO_blk[0] | proc_8_input_sync_blk[0] | proc_8_output_sync_blk[0]);
-    assign proc_8_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.layer10_out_blk_n);
+    assign proc_8_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.layer10_out_blk_n);
     assign proc_8_data_PIPO_blk[1] = 1'b0;
-    assign proc_8_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0.real_start & (trans_in_cnt_8 == trans_out_cnt_8) & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0_U.if_read);
+    assign proc_8_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config10_U0.real_start & (trans_in_cnt_8 == trans_out_cnt_8) & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0_U.if_read);
     assign proc_8_TLF_FIFO_blk[1] = 1'b0;
     assign proc_8_input_sync_blk[1] = 1'b0;
     assign proc_8_output_sync_blk[1] = 1'b0;
@@ -1315,7 +1315,7 @@ end
     assign dep_chan_data_8_9 = out_chan_dep_data_8;
     assign token_8_9 = token_out_vec_8[1];
 
-    // Process: pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0
+    // Process: pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0
     myproject_hls_deadlock_detect_unit #(19, 9, 2, 2) myproject_hls_deadlock_detect_unit_9 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1331,16 +1331,16 @@ end
         .token_out_vec(token_out_vec_9),
         .dl_detect_out(dl_in_vec[9]));
 
-    assign proc_9_data_FIFO_blk[0] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.layer10_out_blk_n);
+    assign proc_9_data_FIFO_blk[0] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.layer10_out_blk_n);
     assign proc_9_data_PIPO_blk[0] = 1'b0;
-    assign proc_9_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0_U.if_write);
+    assign proc_9_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0_U.if_write);
     assign proc_9_TLF_FIFO_blk[0] = 1'b0;
     assign proc_9_input_sync_blk[0] = 1'b0;
     assign proc_9_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_9[0] = dl_detect_out ? proc_dep_vld_vec_9_reg[0] : (proc_9_data_FIFO_blk[0] | proc_9_data_PIPO_blk[0] | proc_9_start_FIFO_blk[0] | proc_9_TLF_FIFO_blk[0] | proc_9_input_sync_blk[0] | proc_9_output_sync_blk[0]);
-    assign proc_9_data_FIFO_blk[1] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.layer11_out_blk_n);
+    assign proc_9_data_FIFO_blk[1] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.layer11_out_blk_n);
     assign proc_9_data_PIPO_blk[1] = 1'b0;
-    assign proc_9_start_FIFO_blk[1] = 1'b0 | (~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0.real_start & (trans_in_cnt_9 == trans_out_cnt_9) & ~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0_U.if_read);
+    assign proc_9_start_FIFO_blk[1] = 1'b0 | (~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config11_U0.real_start & (trans_in_cnt_9 == trans_out_cnt_9) & ~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0_U.if_read);
     assign proc_9_TLF_FIFO_blk[1] = 1'b0;
     assign proc_9_input_sync_blk[1] = 1'b0;
     assign proc_9_output_sync_blk[1] = 1'b0;
@@ -1366,7 +1366,7 @@ end
     assign dep_chan_data_9_10 = out_chan_dep_data_9;
     assign token_9_10 = token_out_vec_9[1];
 
-    // Process: zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0
+    // Process: zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0
     myproject_hls_deadlock_detect_unit #(19, 10, 2, 2) myproject_hls_deadlock_detect_unit_10 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1382,16 +1382,16 @@ end
         .token_out_vec(token_out_vec_10),
         .dl_detect_out(dl_in_vec[10]));
 
-    assign proc_10_data_FIFO_blk[0] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_Pipeline_PadMain_fu_28.layer11_out_blk_n);
+    assign proc_10_data_FIFO_blk[0] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_Pipeline_PadMain_fu_28.layer11_out_blk_n);
     assign proc_10_data_PIPO_blk[0] = 1'b0;
-    assign proc_10_start_FIFO_blk[0] = 1'b0 | (~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0_U.if_empty_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.ap_idle & ~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0_U.if_write);
+    assign proc_10_start_FIFO_blk[0] = 1'b0 | (~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0_U.if_empty_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.ap_idle & ~start_for_zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0_U.if_write);
     assign proc_10_TLF_FIFO_blk[0] = 1'b0;
     assign proc_10_input_sync_blk[0] = 1'b0;
     assign proc_10_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_10[0] = dl_detect_out ? proc_dep_vld_vec_10_reg[0] : (proc_10_data_FIFO_blk[0] | proc_10_data_PIPO_blk[0] | proc_10_start_FIFO_blk[0] | proc_10_TLF_FIFO_blk[0] | proc_10_input_sync_blk[0] | proc_10_output_sync_blk[0]);
-    assign proc_10_data_FIFO_blk[1] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth_fu_22.layer26_out_blk_n);
+    assign proc_10_data_FIFO_blk[1] = 1'b0 | (~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth_fu_36.layer26_out_blk_n);
     assign proc_10_data_PIPO_blk[1] = 1'b0;
-    assign proc_10_start_FIFO_blk[1] = 1'b0 | (~start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0.real_start & (trans_in_cnt_10 == trans_out_cnt_10) & ~start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0_U.if_read);
+    assign proc_10_start_FIFO_blk[1] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config26_U0.real_start & (trans_in_cnt_10 == trans_out_cnt_10) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo_U.if_read);
     assign proc_10_TLF_FIFO_blk[1] = 1'b0;
     assign proc_10_input_sync_blk[1] = 1'b0;
     assign proc_10_output_sync_blk[1] = 1'b0;
@@ -1417,7 +1417,7 @@ end
     assign dep_chan_data_10_11 = out_chan_dep_data_10;
     assign token_10_11 = token_out_vec_10[1];
 
-    // Process: conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0
+    // Process: conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0
     myproject_hls_deadlock_detect_unit #(19, 11, 2, 2) myproject_hls_deadlock_detect_unit_11 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1433,16 +1433,16 @@ end
         .token_out_vec(token_out_vec_11),
         .dl_detect_out(dl_in_vec[11]));
 
-    assign proc_11_data_FIFO_blk[0] = 1'b0 | (~conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.layer26_out_blk_n);
+    assign proc_11_data_FIFO_blk[0] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.layer26_out_blk_n);
     assign proc_11_data_PIPO_blk[0] = 1'b0;
-    assign proc_11_start_FIFO_blk[0] = 1'b0 | (~start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0_U.if_empty_n & conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.ap_idle & ~start_for_conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0_U.if_write);
+    assign proc_11_start_FIFO_blk[0] = 1'b0 | (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config1bBo_U.if_write);
     assign proc_11_TLF_FIFO_blk[0] = 1'b0;
     assign proc_11_input_sync_blk[0] = 1'b0;
     assign proc_11_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_11[0] = dl_detect_out ? proc_dep_vld_vec_11_reg[0] : (proc_11_data_FIFO_blk[0] | proc_11_data_PIPO_blk[0] | proc_11_start_FIFO_blk[0] | proc_11_TLF_FIFO_blk[0] | proc_11_input_sync_blk[0] | proc_11_output_sync_blk[0]);
-    assign proc_11_data_FIFO_blk[1] = 1'b0 | (~conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.grp_compute_output_buffer_2d_array_array_ap_fixed_25_18_5_3_0_16u_config12_s_fu_468.layer12_out_blk_n);
+    assign proc_11_data_FIFO_blk[1] = 1'b0 | (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.layer12_out_blk_n);
     assign proc_11_data_PIPO_blk[1] = 1'b0;
-    assign proc_11_start_FIFO_blk[1] = 1'b0 | (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy_U.if_full_n & conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.ap_start & ~conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0.real_start & (trans_in_cnt_11 == trans_out_cnt_11) & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy_U.if_read);
+    assign proc_11_start_FIFO_blk[1] = 1'b0 | (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0_U.if_full_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.ap_start & ~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_8u_config12_U0.real_start & (trans_in_cnt_11 == trans_out_cnt_11) & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0_U.if_read);
     assign proc_11_TLF_FIFO_blk[1] = 1'b0;
     assign proc_11_input_sync_blk[1] = 1'b0;
     assign proc_11_output_sync_blk[1] = 1'b0;
@@ -1468,7 +1468,7 @@ end
     assign dep_chan_data_11_12 = out_chan_dep_data_11;
     assign token_11_12 = token_out_vec_11[1];
 
-    // Process: normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0
+    // Process: normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0
     myproject_hls_deadlock_detect_unit #(19, 12, 2, 2) myproject_hls_deadlock_detect_unit_12 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1484,16 +1484,16 @@ end
         .token_out_vec(token_out_vec_12),
         .dl_detect_out(dl_in_vec[12]));
 
-    assign proc_12_data_FIFO_blk[0] = 1'b0 | (~normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.layer12_out_blk_n);
+    assign proc_12_data_FIFO_blk[0] = 1'b0 | (~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.layer12_out_blk_n);
     assign proc_12_data_PIPO_blk[0] = 1'b0;
-    assign proc_12_start_FIFO_blk[0] = 1'b0 | (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy_U.if_empty_n & normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.ap_idle & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config1cBy_U.if_write);
+    assign proc_12_start_FIFO_blk[0] = 1'b0 | (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0_U.if_empty_n & normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.ap_idle & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0_U.if_write);
     assign proc_12_TLF_FIFO_blk[0] = 1'b0;
     assign proc_12_input_sync_blk[0] = 1'b0;
     assign proc_12_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_12[0] = dl_detect_out ? proc_dep_vld_vec_12_reg[0] : (proc_12_data_FIFO_blk[0] | proc_12_data_PIPO_blk[0] | proc_12_start_FIFO_blk[0] | proc_12_TLF_FIFO_blk[0] | proc_12_input_sync_blk[0] | proc_12_output_sync_blk[0]);
-    assign proc_12_data_FIFO_blk[1] = 1'b0 | (~normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.layer14_out_blk_n);
+    assign proc_12_data_FIFO_blk[1] = 1'b0 | (~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.layer14_out_blk_n);
     assign proc_12_data_PIPO_blk[1] = 1'b0;
-    assign proc_12_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy_U.if_full_n & normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.ap_start & ~normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0.real_start & (trans_in_cnt_12 == trans_out_cnt_12) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy_U.if_read);
+    assign proc_12_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0_U.if_full_n & normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.ap_start & ~normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config14_U0.real_start & (trans_in_cnt_12 == trans_out_cnt_12) & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0_U.if_read);
     assign proc_12_TLF_FIFO_blk[1] = 1'b0;
     assign proc_12_input_sync_blk[1] = 1'b0;
     assign proc_12_output_sync_blk[1] = 1'b0;
@@ -1519,7 +1519,7 @@ end
     assign dep_chan_data_12_13 = out_chan_dep_data_12;
     assign token_12_13 = token_out_vec_12[1];
 
-    // Process: relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0
+    // Process: relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0
     myproject_hls_deadlock_detect_unit #(19, 13, 2, 2) myproject_hls_deadlock_detect_unit_13 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1535,16 +1535,16 @@ end
         .token_out_vec(token_out_vec_13),
         .dl_detect_out(dl_in_vec[13]));
 
-    assign proc_13_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.layer14_out_blk_n);
+    assign proc_13_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.layer14_out_blk_n);
     assign proc_13_data_PIPO_blk[0] = 1'b0;
-    assign proc_13_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15cCy_U.if_write);
+    assign proc_13_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0_U.if_empty_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.ap_idle & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0_U.if_write);
     assign proc_13_TLF_FIFO_blk[0] = 1'b0;
     assign proc_13_input_sync_blk[0] = 1'b0;
     assign proc_13_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_13[0] = dl_detect_out ? proc_dep_vld_vec_13_reg[0] : (proc_13_data_FIFO_blk[0] | proc_13_data_PIPO_blk[0] | proc_13_start_FIFO_blk[0] | proc_13_TLF_FIFO_blk[0] | proc_13_input_sync_blk[0] | proc_13_output_sync_blk[0]);
-    assign proc_13_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.layer15_out_blk_n);
+    assign proc_13_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.layer15_out_blk_n);
     assign proc_13_data_PIPO_blk[1] = 1'b0;
-    assign proc_13_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0.real_start & (trans_in_cnt_13 == trans_out_cnt_13) & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0_U.if_read);
+    assign proc_13_start_FIFO_blk[1] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config15_U0.real_start & (trans_in_cnt_13 == trans_out_cnt_13) & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0_U.if_read);
     assign proc_13_TLF_FIFO_blk[1] = 1'b0;
     assign proc_13_input_sync_blk[1] = 1'b0;
     assign proc_13_output_sync_blk[1] = 1'b0;
@@ -1570,7 +1570,7 @@ end
     assign dep_chan_data_13_14 = out_chan_dep_data_13;
     assign token_13_14 = token_out_vec_13[1];
 
-    // Process: pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0
+    // Process: pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0
     myproject_hls_deadlock_detect_unit #(19, 14, 2, 2) myproject_hls_deadlock_detect_unit_14 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1586,16 +1586,16 @@ end
         .token_out_vec(token_out_vec_14),
         .dl_detect_out(dl_in_vec[14]));
 
-    assign proc_14_data_FIFO_blk[0] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.layer15_out_blk_n);
+    assign proc_14_data_FIFO_blk[0] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.layer15_out_blk_n);
     assign proc_14_data_PIPO_blk[0] = 1'b0;
-    assign proc_14_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0_U.if_write);
+    assign proc_14_start_FIFO_blk[0] = 1'b0 | (~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0_U.if_write);
     assign proc_14_TLF_FIFO_blk[0] = 1'b0;
     assign proc_14_input_sync_blk[0] = 1'b0;
     assign proc_14_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_14[0] = dl_detect_out ? proc_dep_vld_vec_14_reg[0] : (proc_14_data_FIFO_blk[0] | proc_14_data_PIPO_blk[0] | proc_14_start_FIFO_blk[0] | proc_14_TLF_FIFO_blk[0] | proc_14_input_sync_blk[0] | proc_14_output_sync_blk[0]);
-    assign proc_14_data_FIFO_blk[1] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.layer16_out_blk_n);
+    assign proc_14_data_FIFO_blk[1] = 1'b0 | (~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.layer16_out_blk_n);
     assign proc_14_data_PIPO_blk[1] = 1'b0;
-    assign proc_14_start_FIFO_blk[1] = 1'b0 | (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0.real_start & (trans_in_cnt_14 == trans_out_cnt_14) & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0_U.if_read);
+    assign proc_14_start_FIFO_blk[1] = 1'b0 | (~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_U0.real_start & (trans_in_cnt_14 == trans_out_cnt_14) & ~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0_U.if_read);
     assign proc_14_TLF_FIFO_blk[1] = 1'b0;
     assign proc_14_input_sync_blk[1] = 1'b0;
     assign proc_14_output_sync_blk[1] = 1'b0;
@@ -1621,7 +1621,7 @@ end
     assign dep_chan_data_14_15 = out_chan_dep_data_14;
     assign token_14_15 = token_out_vec_14[1];
 
-    // Process: dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0
+    // Process: dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0
     myproject_hls_deadlock_detect_unit #(19, 15, 2, 2) myproject_hls_deadlock_detect_unit_15 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1637,16 +1637,16 @@ end
         .token_out_vec(token_out_vec_15),
         .dl_detect_out(dl_in_vec[15]));
 
-    assign proc_15_data_FIFO_blk[0] = 1'b0 | (~dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.grp_dense_array_array_ap_fixed_24_17_5_3_0_32u_config18_Pipeline_DataPrepare_fu_483.layer16_out_blk_n);
+    assign proc_15_data_FIFO_blk[0] = 1'b0 | (~dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.grp_dense_array_array_ap_fixed_21_14_5_3_0_16u_config18_Pipeline_DataPrepare_fu_97.layer16_out_blk_n);
     assign proc_15_data_PIPO_blk[0] = 1'b0;
-    assign proc_15_start_FIFO_blk[0] = 1'b0 | (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0_U.if_empty_n & dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.ap_idle & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0_U.if_write);
+    assign proc_15_start_FIFO_blk[0] = 1'b0 | (~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0_U.if_empty_n & dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.ap_idle & ~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0_U.if_write);
     assign proc_15_TLF_FIFO_blk[0] = 1'b0;
     assign proc_15_input_sync_blk[0] = 1'b0;
     assign proc_15_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_15[0] = dl_detect_out ? proc_dep_vld_vec_15_reg[0] : (proc_15_data_FIFO_blk[0] | proc_15_data_PIPO_blk[0] | proc_15_start_FIFO_blk[0] | proc_15_TLF_FIFO_blk[0] | proc_15_input_sync_blk[0] | proc_15_output_sync_blk[0]);
-    assign proc_15_data_FIFO_blk[1] = 1'b0 | (~dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.layer18_out_blk_n);
+    assign proc_15_data_FIFO_blk[1] = 1'b0 | (~dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.layer18_out_blk_n);
     assign proc_15_data_PIPO_blk[1] = 1'b0;
-    assign proc_15_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy_U.if_full_n & dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.ap_start & ~dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0.real_start & (trans_in_cnt_15 == trans_out_cnt_15) & ~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy_U.if_read);
+    assign proc_15_start_FIFO_blk[1] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo_U.if_full_n & dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.ap_start & ~dense_array_ap_ufixed_8u_array_ap_fixed_21_14_5_3_0_16u_config18_U0.real_start & (trans_in_cnt_15 == trans_out_cnt_15) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo_U.if_read);
     assign proc_15_TLF_FIFO_blk[1] = 1'b0;
     assign proc_15_input_sync_blk[1] = 1'b0;
     assign proc_15_output_sync_blk[1] = 1'b0;
@@ -1672,7 +1672,7 @@ end
     assign dep_chan_data_15_16 = out_chan_dep_data_15;
     assign token_15_16 = token_out_vec_15[1];
 
-    // Process: relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0
+    // Process: relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0
     myproject_hls_deadlock_detect_unit #(19, 16, 2, 2) myproject_hls_deadlock_detect_unit_16 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1688,16 +1688,16 @@ end
         .token_out_vec(token_out_vec_16),
         .dl_detect_out(dl_in_vec[16]));
 
-    assign proc_16_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.layer18_out_blk_n);
+    assign proc_16_data_FIFO_blk[0] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.layer18_out_blk_n);
     assign proc_16_data_PIPO_blk[0] = 1'b0;
-    assign proc_16_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy_U.if_empty_n & relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.ap_idle & ~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20cDy_U.if_write);
+    assign proc_16_start_FIFO_blk[0] = 1'b0 | (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20bCo_U.if_write);
     assign proc_16_TLF_FIFO_blk[0] = 1'b0;
     assign proc_16_input_sync_blk[0] = 1'b0;
     assign proc_16_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_16[0] = dl_detect_out ? proc_dep_vld_vec_16_reg[0] : (proc_16_data_FIFO_blk[0] | proc_16_data_PIPO_blk[0] | proc_16_start_FIFO_blk[0] | proc_16_TLF_FIFO_blk[0] | proc_16_input_sync_blk[0] | proc_16_output_sync_blk[0]);
-    assign proc_16_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.layer20_out_blk_n);
+    assign proc_16_data_FIFO_blk[1] = 1'b0 | (~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.layer20_out_blk_n);
     assign proc_16_data_PIPO_blk[1] = 1'b0;
-    assign proc_16_start_FIFO_blk[1] = 1'b0 | (~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0_U.if_full_n & relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.ap_start & ~relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0.real_start & (trans_in_cnt_16 == trans_out_cnt_16) & ~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0_U.if_read);
+    assign proc_16_start_FIFO_blk[1] = 1'b0 | (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config20_U0.real_start & (trans_in_cnt_16 == trans_out_cnt_16) & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0_U.if_read);
     assign proc_16_TLF_FIFO_blk[1] = 1'b0;
     assign proc_16_input_sync_blk[1] = 1'b0;
     assign proc_16_output_sync_blk[1] = 1'b0;
@@ -1723,7 +1723,7 @@ end
     assign dep_chan_data_16_17 = out_chan_dep_data_16;
     assign token_16_17 = token_out_vec_16[1];
 
-    // Process: dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0
+    // Process: dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0
     myproject_hls_deadlock_detect_unit #(19, 17, 2, 2) myproject_hls_deadlock_detect_unit_17 (
         .reset(dl_reset),
         .clock(dl_clock),
@@ -1739,16 +1739,16 @@ end
         .token_out_vec(token_out_vec_17),
         .dl_detect_out(dl_in_vec[17]));
 
-    assign proc_17_data_FIFO_blk[0] = 1'b0 | (~dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.layer20_out_blk_n);
+    assign proc_17_data_FIFO_blk[0] = 1'b0 | (~dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.layer20_out_blk_n);
     assign proc_17_data_PIPO_blk[0] = 1'b0;
-    assign proc_17_start_FIFO_blk[0] = 1'b0 | (~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0_U.if_empty_n & dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.ap_idle & ~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0_U.if_write);
+    assign proc_17_start_FIFO_blk[0] = 1'b0 | (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0_U.if_empty_n & dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.ap_idle & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0_U.if_write);
     assign proc_17_TLF_FIFO_blk[0] = 1'b0;
     assign proc_17_input_sync_blk[0] = 1'b0;
     assign proc_17_output_sync_blk[0] = 1'b0;
     assign proc_dep_vld_vec_17[0] = dl_detect_out ? proc_dep_vld_vec_17_reg[0] : (proc_17_data_FIFO_blk[0] | proc_17_data_PIPO_blk[0] | proc_17_start_FIFO_blk[0] | proc_17_TLF_FIFO_blk[0] | proc_17_input_sync_blk[0] | proc_17_output_sync_blk[0]);
-    assign proc_17_data_FIFO_blk[1] = 1'b0 | (~dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.layer21_out_blk_n);
+    assign proc_17_data_FIFO_blk[1] = 1'b0 | (~dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.layer21_out_blk_n);
     assign proc_17_data_PIPO_blk[1] = 1'b0;
-    assign proc_17_start_FIFO_blk[1] = 1'b0 | (~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_full_n & dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.ap_start & ~dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0.real_start & (trans_in_cnt_17 == trans_out_cnt_17) & ~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_read);
+    assign proc_17_start_FIFO_blk[1] = 1'b0 | (~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_full_n & dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.ap_start & ~dense_array_ap_ufixed_16u_array_ap_fixed_21_14_5_3_0_10u_config21_U0.real_start & (trans_in_cnt_17 == trans_out_cnt_17) & ~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_read);
     assign proc_17_TLF_FIFO_blk[1] = 1'b0;
     assign proc_17_input_sync_blk[1] = 1'b0;
     assign proc_17_output_sync_blk[1] = 1'b0;

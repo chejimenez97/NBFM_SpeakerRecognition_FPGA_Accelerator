@@ -56,7 +56,7 @@
 					<Obj>
 						<type>0</type>
 						<id>2</id>
-						<name>j_2</name>
+						<name>j_5</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>77</lineNumber>
@@ -88,10 +88,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -112,7 +112,7 @@
 					<Obj>
 						<type>0</type>
 						<id>4</id>
-						<name>j_2_write_ln77</name>
+						<name>j_5_write_ln77</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>77</lineNumber>
@@ -246,7 +246,7 @@
 						<coreId>539767593</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -316,7 +316,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.77</m_delay>
+				<m_delay>0.78</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -325,7 +325,7 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>j_5</name>
+						<name>j_6</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>77</lineNumber>
@@ -360,7 +360,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -373,7 +373,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.77</m_delay>
+				<m_delay>0.78</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -496,7 +496,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.71</m_delay>
+				<m_delay>1.82</m_delay>
 				<m_topoIndex>10</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -505,7 +505,7 @@
 					<Obj>
 						<type>0</type>
 						<id>16</id>
-						<name>j_2_write_ln77</name>
+						<name>j_5_write_ln77</name>
 						<fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>77</lineNumber>
@@ -638,7 +638,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043341356</coreId>
+						<coreId>539766825</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -717,7 +717,7 @@
 						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -745,13 +745,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>72</content>
+				<content>34</content>
 			</item>
 			<item class_id_reference="16" object_id="_16">
 				<Value>
@@ -776,10 +776,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>7</bitwidth>
+					<bitwidth>6</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -841,7 +841,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>807414832</coreId>
+					<coreId>941632574</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -1147,8 +1147,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>74</mMinLatency>
-			<mMaxLatency>74</mMaxLatency>
+			<mMinLatency>36</mMinLatency>
+			<mMaxLatency>36</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -1192,10 +1192,10 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>2</mDepth>
-			<mMinTripCount>72</mMinTripCount>
-			<mMaxTripCount>72</mMaxTripCount>
-			<mMinLatency>72</mMinLatency>
-			<mMaxLatency>72</mMaxLatency>
+			<mMinTripCount>34</mMinTripCount>
+			<mMaxTripCount>34</mMaxTripCount>
+			<mMinLatency>34</mMinLatency>
+			<mMaxLatency>34</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -1548,7 +1548,7 @@
 			</second>
 		</item>
 		<item>
-			<first>j_2_fu_34</first>
+			<first>j_5_fu_34</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1556,7 +1556,7 @@
 			</second>
 		</item>
 		<item>
-			<first>j_5_fu_60</first>
+			<first>j_6_fu_60</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -1628,7 +1628,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item>
-			<first>j_2_reg_71</first>
+			<first>j_5_reg_71</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

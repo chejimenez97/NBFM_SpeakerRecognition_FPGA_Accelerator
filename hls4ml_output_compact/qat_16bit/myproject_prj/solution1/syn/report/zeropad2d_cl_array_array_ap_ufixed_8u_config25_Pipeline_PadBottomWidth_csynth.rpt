@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth'
 ================================================================
-* Date:           Sat Mar 21 19:19:30 2026
+* Date:           Sun Mar 22 09:49:06 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+---------+----------+------------+
     |  Clock |  Target | Estimated| Uncertainty|
     +--------+---------+----------+------------+
-    |ap_clk  |  5.00 ns|  1.713 ns|     1.35 ns|
+    |ap_clk  |  5.00 ns|  1.825 ns|     1.35 ns|
     +--------+---------+----------+------------+
 
 + Latency: 
@@ -29,7 +29,7 @@
     |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
     |   min   |   max   |    min   |    max   | min | max |   Type  |
     +---------+---------+----------+----------+-----+-----+---------+
-    |       74|       74|  0.370 us|  0.370 us|   74|   74|       no|
+    |       36|       36|  0.180 us|  0.180 us|   36|   36|       no|
     +---------+---------+----------+----------+-----+-----+---------+
 
     + Detail: 
@@ -41,7 +41,7 @@
         |                  |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |     Loop Name    |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- PadBottomWidth  |       72|       72|         2|          1|          1|    72|       yes|
+        |- PadBottomWidth  |       34|       34|         2|          1|          1|    34|       yes|
         +------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
@@ -54,14 +54,14 @@
 |       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
 +-----------------+---------+------+--------+--------+-----+
 |DSP              |        -|     -|       -|       -|    -|
-|Expression       |        -|     -|       0|      32|    -|
+|Expression       |        -|     -|       0|      30|    -|
 |FIFO             |        -|     -|       -|       -|    -|
 |Instance         |        -|     -|       -|       -|    -|
 |Memory           |        -|     -|       -|       -|    -|
 |Multiplexer      |        -|     -|       -|      45|    -|
-|Register         |        -|     -|      10|       -|    -|
+|Register         |        -|     -|       9|       -|    -|
 +-----------------+---------+------+--------+--------+-----+
-|Total            |        0|     0|      10|      77|    0|
+|Total            |        0|     0|       9|      75|    0|
 +-----------------+---------+------+--------+--------+-----+
 |Available        |      288|  1248|  234240|  117120|   64|
 +-----------------+---------+------+--------+--------+-----+
@@ -85,12 +85,12 @@
     +---------------------------+----------+----+---+----+------------+------------+
     |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
     +---------------------------+----------+----+---+----+------------+------------+
-    |j_5_fu_60_p2               |         +|   0|  0|  14|           7|           1|
+    |j_6_fu_60_p2               |         +|   0|  0|  13|           6|           1|
     |ap_block_pp0_stage0_01001  |       and|   0|  0|   2|           1|           1|
-    |icmp_ln77_fu_54_p2         |      icmp|   0|  0|  14|           7|           7|
+    |icmp_ln77_fu_54_p2         |      icmp|   0|  0|  13|           6|           6|
     |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
     +---------------------------+----------+----+---+----+------------+------------+
-    |Total                      |          |   0|  0|  32|          16|          11|
+    |Total                      |          |   0|  0|  30|          14|          10|
     +---------------------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
@@ -99,11 +99,11 @@
     +-------------------------+----+-----------+-----+-----------+
     |ap_done_int              |   9|          2|    1|          2|
     |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
-    |ap_sig_allocacmp_j       |   9|          2|    7|         14|
-    |j_2_fu_34                |   9|          2|    7|         14|
+    |ap_sig_allocacmp_j       |   9|          2|    6|         12|
+    |j_5_fu_34                |   9|          2|    6|         12|
     |layer25_out_blk_n        |   9|          2|    1|          2|
     +-------------------------+----+-----------+-----+-----------+
-    |Total                    |  45|         10|   17|         34|
+    |Total                    |  45|         10|   15|         30|
     +-------------------------+----+-----------+-----+-----------+
 
     * Register: 
@@ -113,9 +113,9 @@
     |ap_CS_fsm                |  1|   0|    1|          0|
     |ap_done_reg              |  1|   0|    1|          0|
     |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
-    |j_2_fu_34                |  7|   0|    7|          0|
+    |j_5_fu_34                |  6|   0|    6|          0|
     +-------------------------+---+----+-----+-----------+
-    |Total                    | 10|   0|   10|          0|
+    |Total                    |  9|   0|    9|          0|
     +-------------------------+---+----+-----+-----------+
 
 
@@ -134,8 +134,8 @@
 |ap_idle                     |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_ufixed,8u>,config25>_Pipeline_PadBottomWidth|  return value|
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array,array<ap_ufixed,8u>,config25>_Pipeline_PadBottomWidth|  return value|
 |layer25_out_din             |  out|  128|     ap_fifo|                                                               layer25_out|       pointer|
-|layer25_out_num_data_valid  |   in|   11|     ap_fifo|                                                               layer25_out|       pointer|
-|layer25_out_fifo_cap        |   in|   11|     ap_fifo|                                                               layer25_out|       pointer|
+|layer25_out_num_data_valid  |   in|   10|     ap_fifo|                                                               layer25_out|       pointer|
+|layer25_out_fifo_cap        |   in|   10|     ap_fifo|                                                               layer25_out|       pointer|
 |layer25_out_full_n          |   in|    1|     ap_fifo|                                                               layer25_out|       pointer|
 |layer25_out_write           |  out|    1|     ap_fifo|                                                               layer25_out|       pointer|
 +----------------------------+-----+-----+------------+--------------------------------------------------------------------------+--------------+

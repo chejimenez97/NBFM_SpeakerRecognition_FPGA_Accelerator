@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Sat Mar 21 19:23:40 2026
+<item name = "Date">Sun Mar 22 09:52:21 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">18762, 18762, 93.810 us, 93.810 us, 18748, 18748, dataflow</column>
+<column name="">4374, 4374, 21.870 us, 21.870 us, 4360, 4360, dataflow</column>
 </table>
 </item>
 <item name = "Detail">

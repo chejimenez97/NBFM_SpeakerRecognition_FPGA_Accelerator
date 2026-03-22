@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config6_s'" level="0">
-<item name = "Date">Sat Mar 21 19:14:42 2026
+<item name = "Date">Sun Mar 22 09:45:10 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 3.630 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 2.746 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">11283, 11283, 56.415 us, 56.415 us, 11283, 11283, no</column>
+<column name="">2563, 2563, 12.815 us, 12.815 us, 2563, 2563, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- ReadInputHeight_ReadInputWidth">11281, 11281, 4, 2, 1, 5640, yes</column>
+<column name="- ReadInputHeight_ReadInputWidth">2561, 2561, 4, 2, 1, 1280, yes</column>
 </table>
 </item>
 </section>

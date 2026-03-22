@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>1043341356</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -110,7 +110,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539766825</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -178,7 +178,7 @@
 					<Obj>
 						<type>0</type>
 						<id>7</id>
-						<name>empty_86</name>
+						<name>empty_71</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -222,7 +222,7 @@
 					<Obj>
 						<type>0</type>
 						<id>8</id>
-						<name>empty_87</name>
+						<name>empty_72</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -312,7 +312,7 @@
 					<Obj>
 						<type>0</type>
 						<id>10</id>
-						<name>empty_88</name>
+						<name>empty_73</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -356,7 +356,7 @@
 					<Obj>
 						<type>0</type>
 						<id>11</id>
-						<name>empty_89</name>
+						<name>empty_74</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -417,7 +417,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1043341356</coreId>
+						<coreId>1746938918</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -522,7 +522,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -535,7 +535,7 @@
 					<Obj>
 						<type>2</type>
 						<id>22</id>
-						<name>zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain</name>
+						<name>zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_Pipeline_PadMain</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -553,13 +553,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>742273056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
 				<const_type>6</const_type>
-				<content>&lt;constant:zeropad2d_cl&lt;array,array&lt;ap_ufixed,8u&gt;,config25&gt;_Pipeline_PadMain_CopyMain&gt;</content>
+				<content>&lt;constant:zeropad2d_cl&lt;array,array&lt;ap_ufixed&lt;4,3,4,0,0&gt;,8u&gt;,config25&gt;_Pipeline_PadMain&gt;</content>
 			</item>
 			<item class_id_reference="16" object_id="_14">
 				<Value>
@@ -618,7 +618,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>807414832</coreId>
+					<coreId>941632574</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -802,8 +802,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>2257</mMinLatency>
-			<mMaxLatency>2257</mMaxLatency>
+			<mMinLatency>421</mMinLatency>
+			<mMaxLatency>421</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

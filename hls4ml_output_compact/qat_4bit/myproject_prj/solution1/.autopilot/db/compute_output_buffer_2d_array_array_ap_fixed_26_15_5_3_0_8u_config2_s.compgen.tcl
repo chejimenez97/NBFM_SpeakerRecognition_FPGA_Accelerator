@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 25 \
+    id 45 \
     name in_elem_0_0_0_0_0_val \
     type other \
     dir I \
@@ -25,7 +25,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 26 \
+    id 46 \
     name in_elem_0_1_0_0_0_val \
     type other \
     dir I \
@@ -40,7 +40,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 27 \
+    id 47 \
     name layer2_out \
     type fifo \
     dir O \
@@ -48,7 +48,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer2_out \
     op interface \
-    ports { layer2_out_din { O 208 vector } layer2_out_num_data_valid { I 14 vector } layer2_out_fifo_cap { I 14 vector } layer2_out_full_n { I 1 bit } layer2_out_write { O 1 bit } } \
+    ports { layer2_out_din { O 208 vector } layer2_out_num_data_valid { I 12 vector } layer2_out_fifo_cap { I 12 vector } layer2_out_full_n { I 1 bit } layer2_out_write { O 1 bit } } \
 } "
 }
 

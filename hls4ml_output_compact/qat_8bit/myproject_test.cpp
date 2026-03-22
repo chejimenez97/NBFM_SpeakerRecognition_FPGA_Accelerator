@@ -59,12 +59,12 @@ int main(int argc, char **argv) {
             }
 
             // hls-fpga-machine-learning insert data
-      hls::stream<input_t> input_3("input_3");
-      nnet::copy_data<float, input_t, 0, 20*282*2>(in, input_3);
+      hls::stream<input_t> input_6("input_6");
+      nnet::copy_data<float, input_t, 0, 20*64*2>(in, input_6);
       hls::stream<result_t> layer23_out("layer23_out");
 
             // hls-fpga-machine-learning insert top-level-function
-            myproject(input_3,layer23_out);
+            myproject(input_6,layer23_out);
 
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
@@ -89,12 +89,12 @@ int main(int argc, char **argv) {
         const unsigned NUM_TEST_SAMPLES = 5;
         for (unsigned i = 0; i < NUM_TEST_SAMPLES; i++) {
             // hls-fpga-machine-learning insert zero
-            hls::stream<input_t> input_3("input_3");
-            nnet::fill_zero<input_t, 20*282*2>(input_3);
+            hls::stream<input_t> input_6("input_6");
+            nnet::fill_zero<input_t, 20*64*2>(input_6);
             hls::stream<result_t> layer23_out("layer23_out");
 
             // hls-fpga-machine-learning insert top-level-function
-            myproject(input_3,layer23_out);
+            myproject(input_6,layer23_out);
 
             // hls-fpga-machine-learning insert output
             nnet::print_result<result_t, 10>(layer23_out, std::cout, true);

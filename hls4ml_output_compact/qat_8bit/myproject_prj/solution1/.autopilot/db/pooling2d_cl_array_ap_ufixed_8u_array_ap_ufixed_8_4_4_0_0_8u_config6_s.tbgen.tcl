@@ -35,13 +35,13 @@ set portList {
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ layer5_out_dout sc_in sc_lv 64 signal 0 } 
-	{ layer5_out_num_data_valid sc_in sc_lv 14 signal 0 } 
-	{ layer5_out_fifo_cap sc_in sc_lv 14 signal 0 } 
+	{ layer5_out_num_data_valid sc_in sc_lv 12 signal 0 } 
+	{ layer5_out_fifo_cap sc_in sc_lv 12 signal 0 } 
 	{ layer5_out_empty_n sc_in sc_logic 1 signal 0 } 
 	{ layer5_out_read sc_out sc_logic 1 signal 0 } 
 	{ layer6_out_din sc_out sc_lv 64 signal 1 } 
-	{ layer6_out_num_data_valid sc_in sc_lv 11 signal 1 } 
-	{ layer6_out_fifo_cap sc_in sc_lv 11 signal 1 } 
+	{ layer6_out_num_data_valid sc_in sc_lv 10 signal 1 } 
+	{ layer6_out_fifo_cap sc_in sc_lv 10 signal 1 } 
 	{ layer6_out_full_n sc_in sc_logic 1 signal 1 } 
 	{ layer6_out_write sc_out sc_logic 1 signal 1 } 
 	{ start_out sc_out sc_logic 1 signal -1 } 
@@ -57,13 +57,13 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "layer5_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer5_out", "role": "dout" }} , 
- 	{ "name": "layer5_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer5_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer5_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer5_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer5_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer5_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer5_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer5_out", "role": "fifo_cap" }} , 
  	{ "name": "layer5_out_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer5_out", "role": "empty_n" }} , 
  	{ "name": "layer5_out_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer5_out", "role": "read" }} , 
  	{ "name": "layer6_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "layer6_out", "role": "din" }} , 
- 	{ "name": "layer6_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":11, "type": "signal", "bundle":{"name": "layer6_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer6_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":11, "type": "signal", "bundle":{"name": "layer6_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer6_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "layer6_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer6_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":10, "type": "signal", "bundle":{"name": "layer6_out", "role": "fifo_cap" }} , 
  	{ "name": "layer6_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer6_out", "role": "full_n" }} , 
  	{ "name": "layer6_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer6_out", "role": "write" }} , 
  	{ "name": "start_out", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_out", "role": "default" }} , 
@@ -76,7 +76,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "11283", "EstimateLatencyMax" : "11283",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "2563", "EstimateLatencyMax" : "2563",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -85,236 +85,140 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "layer5_out", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "5640", "DependentChanType" : "0",
+			{"Name" : "layer5_out", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "1280", "DependentChanType" : "0",
 				"BlockSignal" : [
 					{"Name" : "layer5_out_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "layer6_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "700", "DependentChanType" : "0",
+			{"Name" : "layer6_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "320", "DependentChanType" : "0",
 				"BlockSignal" : [
 					{"Name" : "layer6_out_blk_n", "Type" : "RtlSignal"}]},
 			{"Name" : "sY", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "pY", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_1", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_1", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_47", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_1", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_231", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_47", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_39", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_231", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_239", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_39", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_31", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_31", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_23", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_23", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_15", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_15", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_7", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_7", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_239", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_46", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_232", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_46", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_38", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_232", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_240", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_38", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_30", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_30", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_22", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_22", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_14", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_14", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_6", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_6", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_240", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_53", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_225", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_53", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_45", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_225", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_233", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_45", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_37", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_233", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_241", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_37", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_29", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_29", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_21", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_21", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_13", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_13", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_5", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_5", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_241", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_52", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_226", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_52", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_44", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_226", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_234", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_44", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_36", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_234", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_242", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_36", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_28", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_28", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_20", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_20", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_12", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_12", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_4", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_4", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_242", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_51", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_227", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_51", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_43", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_227", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_235", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_43", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_35", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_235", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_243", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_35", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_27", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_27", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_19", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_19", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_11", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_11", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_3", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_3", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_243", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_50", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_228", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_50", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_42", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_228", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_236", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_42", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_34", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_236", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_244", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_34", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_26", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_26", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_18", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_18", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_10", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_10", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_2", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_2", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_244", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_49", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_229", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_49", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_41", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_229", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_237", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_41", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_33", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_237", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_245", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_33", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_25", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_25", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_17", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_17", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_9", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_9", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_1", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_1", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_245", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_48", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_230", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_48", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_40", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_230", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_238", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_40", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_32", "Type" : "OVld", "Direction" : "IO",
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_238", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_246", "Type" : "OVld", "Direction" : "IO",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_32", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_24", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_24", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_16", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_16", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_8", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_8", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap", "Type" : "OVld", "Direction" : "IO",
-				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_246", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "pX", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "sX", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_4", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_4", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_4", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_3", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_3", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_3", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1", "Inst_start_state" : "2", "Inst_end_state" : "2"}]},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer", "Type" : "Memory", "Direction" : "X",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer", "Inst_start_state" : "2", "Inst_end_state" : "2"}]}],
+					{"ID" : "1", "SubInstance" : "call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Port" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer", "Inst_start_state" : "2", "Inst_end_state" : "2"}]}],
 		"Loop" : [
 			{"Name" : "ReadInputHeight_ReadInputWidth", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "2", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage1", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage1_subdone", "QuitState" : "ap_ST_fsm_pp0_stage1", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage1_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "1"}}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272", "Parent" : "0", "Child" : ["2", "3", "4", "5", "6", "7", "8", "9"],
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202", "Parent" : "0", "Child" : ["2", "3", "4", "5", "6", "7", "8", "9"],
 		"CDFG" : "shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -341,66 +245,34 @@ set RtlHierarchyInfo {[
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_53", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_225", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_52", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_226", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_51", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_227", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_50", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_228", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_49", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_229", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_48", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_230", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_23", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_31", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_22", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_30", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_21", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_29", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_20", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_28", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_19", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_27", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_18", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_26", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_17", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_25", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_16", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_24", "Type" : "Vld", "Direction" : "O"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_47", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_46", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_45", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_44", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_43", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_42", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_41", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_40", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_15", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_14", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_13", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_12", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_11", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_10", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_9", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_8", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_39", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_38", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_37", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_36", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_35", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_34", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_33", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_32", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_7", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_6", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_5", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_4", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_3", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_2", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_1", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_239", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_231", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_240", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_232", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_241", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_233", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_242", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_234", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_243", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_235", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_244", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_236", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_245", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_237", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_246", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_238", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7", "Type" : "Memory", "Direction" : "X"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6", "Type" : "Memory", "Direction" : "X"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5", "Type" : "Memory", "Direction" : "X"},
@@ -409,14 +281,14 @@ set RtlHierarchyInfo {[
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2", "Type" : "Memory", "Direction" : "X"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1", "Type" : "Memory", "Direction" : "X"},
 			{"Name" : "void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer", "Type" : "Memory", "Direction" : "X"}]},
-	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7_U", "Parent" : "1"},
-	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6_U", "Parent" : "1"},
-	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5_U", "Parent" : "1"},
-	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_4_U", "Parent" : "1"},
-	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_3_U", "Parent" : "1"},
-	{"ID" : "7", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2_U", "Parent" : "1"},
-	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1_U", "Parent" : "1"},
-	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_272.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_U", "Parent" : "1"},
+	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7_U", "Parent" : "1"},
+	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6_U", "Parent" : "1"},
+	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5_U", "Parent" : "1"},
+	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_4_U", "Parent" : "1"},
+	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_3_U", "Parent" : "1"},
+	{"ID" : "7", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_2_U", "Parent" : "1"},
+	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_1_U", "Parent" : "1"},
+	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.call_ln52_shift_line_buffer_array_ap_ufixed_8_4_4_0_0_8u_config6_s_fu_202.void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_U", "Parent" : "1"},
 	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_U", "Parent" : "0"}]}
 
 
@@ -428,68 +300,36 @@ set ArgLastReadFirstWriteLatency {
 		pY {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_1 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_47 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_39 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_31 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_23 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_15 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_7 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_231 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_239 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_46 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_38 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_30 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_22 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_14 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_6 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_232 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_240 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_53 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_45 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_37 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_29 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_21 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_13 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_5 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_225 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_233 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_241 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_52 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_44 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_36 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_28 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_20 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_12 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_4 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_226 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_234 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_242 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_51 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_43 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_35 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_27 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_19 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_11 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_3 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_227 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_235 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_243 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_50 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_42 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_34 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_26 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_18 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_10 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_2 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_228 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_236 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_244 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_49 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_41 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_33 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_25 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_17 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_9 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_1 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_229 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_237 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_245 {Type IO LastRead -1 FirstWrite -1}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_48 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_40 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_32 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_24 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_16 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_8 {Type IO LastRead -1 FirstWrite -1}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_230 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_238 {Type IO LastRead -1 FirstWrite -1}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_246 {Type IO LastRead -1 FirstWrite -1}
 		pX {Type IO LastRead -1 FirstWrite -1}
 		sX {Type IO LastRead -1 FirstWrite -1}
 		void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7 {Type X LastRead -1 FirstWrite -1}
@@ -513,66 +353,34 @@ set ArgLastReadFirstWriteLatency {
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_9 {Type O LastRead -1 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_8 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_53 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_225 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_7 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_52 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_226 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_6 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_51 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_227 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_5 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_50 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_228 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_4 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_49 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_229 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_3 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_48 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_230 {Type IO LastRead 0 FirstWrite 0}
 		void_compute_pool_buffer_2d_array_const_ap_shift_reg_n_filt_stream_kernel_2 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_23 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_31 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_22 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_30 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_21 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_29 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_20 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_28 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_19 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_27 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_18 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_26 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_17 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_25 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_16 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_24 {Type O LastRead -1 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_47 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_46 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_45 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_44 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_43 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_42 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_41 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_40 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_15 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_14 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_13 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_12 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_11 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_10 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_9 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_8 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_39 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_38 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_37 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_36 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_35 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_34 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_33 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_32 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_7 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_6 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_5 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_4 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_3 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_2 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_1 {Type IO LastRead 0 FirstWrite 0}
-		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_239 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_231 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_240 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_232 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_241 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_233 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_242 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_234 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_243 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_235 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_244 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_236 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_245 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_237 {Type O LastRead -1 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_246 {Type IO LastRead 0 FirstWrite 0}
+		p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi4EL9ap_q_mode4EL9ap_238 {Type O LastRead -1 FirstWrite 0}
 		void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_7 {Type X LastRead -1 FirstWrite -1}
 		void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_6 {Type X LastRead -1 FirstWrite -1}
 		void_pooling2d_cl_stream_stream_array_ap_ufixed_8u_0_line_buffer_5 {Type X LastRead -1 FirstWrite -1}
@@ -585,8 +393,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "11283", "Max" : "11283"}
-	, {"Name" : "Interval", "Min" : "11283", "Max" : "11283"}
+	{"Name" : "Latency", "Min" : "2563", "Max" : "2563"}
+	, {"Name" : "Interval", "Min" : "2563", "Max" : "2563"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -594,6 +402,6 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer5_out { ap_fifo {  { layer5_out_dout fifo_data_in 0 64 }  { layer5_out_num_data_valid fifo_status_num_data_valid 0 14 }  { layer5_out_fifo_cap fifo_update 0 14 }  { layer5_out_empty_n fifo_status 0 1 }  { layer5_out_read fifo_port_we 1 1 } } }
-	layer6_out { ap_fifo {  { layer6_out_din fifo_data_in 1 64 }  { layer6_out_num_data_valid fifo_status_num_data_valid 0 11 }  { layer6_out_fifo_cap fifo_update 0 11 }  { layer6_out_full_n fifo_status 0 1 }  { layer6_out_write fifo_port_we 1 1 } } }
+	layer5_out { ap_fifo {  { layer5_out_dout fifo_data_in 0 64 }  { layer5_out_num_data_valid fifo_status_num_data_valid 0 12 }  { layer5_out_fifo_cap fifo_update 0 12 }  { layer5_out_empty_n fifo_status 0 1 }  { layer5_out_read fifo_port_we 1 1 } } }
+	layer6_out { ap_fifo {  { layer6_out_din fifo_data_in 1 64 }  { layer6_out_num_data_valid fifo_status_num_data_valid 0 10 }  { layer6_out_fifo_cap fifo_update 0 10 }  { layer6_out_full_n fifo_status 0 1 }  { layer6_out_write fifo_port_we 1 1 } } }
 }

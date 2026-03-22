@@ -1,0 +1,174 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s'" level="0">
+<item name = "Date">Sun Mar 22 09:49:11 2026
+</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.340 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">324, 324, 1.620 us, 1.620 us, 324, 324, no</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- BatchNormLoop">322, 322, 4, 1, 1, 320, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 498, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, 16, 0, 224, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 63, -</column>
+<column name="Register">-, -, 741, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">0, 1, ~0, ~0, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="mul_40s_11ns_50_1_1_U541">mul_40s_11ns_50_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_11ns_50_1_1_U542">mul_40s_11ns_50_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_11ns_50_1_1_U543">mul_40s_11ns_50_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_11ns_50_1_1_U545">mul_40s_11ns_50_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_12ns_51_1_1_U544">mul_40s_12ns_51_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_12ns_51_1_1_U546">mul_40s_12ns_51_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_12ns_51_1_1_U547">mul_40s_12ns_51_1_1, 0, 2, 0, 28, 0</column>
+<column name="mul_40s_12ns_51_1_1_U548">mul_40s_12ns_51_1_1, 0, 2, 0, 28, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="add_ln42_1_fu_84809_p2">+, 0, 0, 57, 50, 29</column>
+<column name="add_ln42_2_fu_84819_p2">+, 0, 0, 58, 51, 30</column>
+<column name="add_ln42_3_fu_84829_p2">+, 0, 0, 57, 50, 29</column>
+<column name="add_ln42_4_fu_84839_p2">+, 0, 0, 58, 51, 31</column>
+<column name="add_ln42_5_fu_84849_p2">+, 0, 0, 58, 51, 29</column>
+<column name="add_ln42_6_fu_84859_p2">+, 0, 0, 57, 50, 31</column>
+<column name="add_ln42_7_fu_84869_p2">+, 0, 0, 57, 50, 29</column>
+<column name="add_ln42_fu_84799_p2">+, 0, 0, 58, 51, 29</column>
+<column name="i_13_fu_84682_p2">+, 0, 0, 16, 9, 1</column>
+<column name="ap_condition_150">and, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln25_fu_84676_p2">icmp, 0, 0, 16, 9, 9</column>
+<column name="ap_block_pp0_stage0_01001">or, 0, 0, 2, 1, 1</column>
+<column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_done_int">9, 2, 1, 2</column>
+<column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
+<column name="ap_sig_allocacmp_i">9, 2, 9, 18</column>
+<column name="i_02_fu_106">9, 2, 9, 18</column>
+<column name="layer7_out_blk_n">9, 2, 1, 2</column>
+<column name="layer9_out_blk_n">9, 2, 1, 2</column>
+<column name="real_start">9, 2, 1, 2</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="a_1_reg_84916">40, 0, 40, 0</column>
+<column name="a_2_reg_84921">40, 0, 40, 0</column>
+<column name="a_3_reg_84926">40, 0, 40, 0</column>
+<column name="a_4_reg_84931">40, 0, 40, 0</column>
+<column name="a_5_reg_84936">40, 0, 40, 0</column>
+<column name="a_6_reg_84941">40, 0, 40, 0</column>
+<column name="a_7_reg_84946">40, 0, 40, 0</column>
+<column name="a_reg_84911">40, 0, 40, 0</column>
+<column name="ap_CS_fsm">1, 0, 1, 0</column>
+<column name="ap_done_reg">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter1">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter2">1, 0, 1, 0</column>
+<column name="ap_enable_reg_pp0_iter3">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter1_reg">1, 0, 1, 0</column>
+<column name="ap_loop_exit_ready_pp0_iter2_reg">1, 0, 1, 0</column>
+<column name="i_02_fu_106">9, 0, 9, 0</column>
+<column name="mul_ln42_1_reg_84647">50, 0, 50, 0</column>
+<column name="mul_ln42_2_reg_84659">50, 0, 50, 0</column>
+<column name="mul_ln42_3_reg_84663">50, 0, 50, 0</column>
+<column name="mul_ln42_reg_84639">50, 0, 50, 0</column>
+<column name="mul_ln73_1_reg_84643">51, 0, 51, 0</column>
+<column name="mul_ln73_2_reg_84651">51, 0, 51, 0</column>
+<column name="mul_ln73_3_reg_84655">51, 0, 51, 0</column>
+<column name="mul_ln73_reg_84635">51, 0, 51, 0</column>
+<column name="start_once_reg">1, 0, 1, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="start_full_n">in, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="start_out">out, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="start_write">out, 1, ap_ctrl_hs, normalize&lt;array&lt;ap_fixed,8u&gt;,array&lt;ap_fixed&lt;57,28,5,3,0&gt;,8u&gt;,config9&gt;, return value</column>
+<column name="layer7_out_dout">in, 320, ap_fifo, layer7_out, pointer</column>
+<column name="layer7_out_num_data_valid">in, 10, ap_fifo, layer7_out, pointer</column>
+<column name="layer7_out_fifo_cap">in, 10, ap_fifo, layer7_out, pointer</column>
+<column name="layer7_out_empty_n">in, 1, ap_fifo, layer7_out, pointer</column>
+<column name="layer7_out_read">out, 1, ap_fifo, layer7_out, pointer</column>
+<column name="layer9_out_din">out, 456, ap_fifo, layer9_out, pointer</column>
+<column name="layer9_out_num_data_valid">in, 10, ap_fifo, layer9_out, pointer</column>
+<column name="layer9_out_fifo_cap">in, 10, ap_fifo, layer9_out, pointer</column>
+<column name="layer9_out_full_n">in, 1, ap_fifo, layer9_out, pointer</column>
+<column name="layer9_out_write">out, 1, ap_fifo, layer9_out, pointer</column>
+</table>
+</item>
+</section>
+</profile>

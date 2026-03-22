@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_s'" level="0">
-<item name = "Date">Sat Mar 21 19:27:46 2026
+<item name = "Date">Sun Mar 22 09:55:02 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">5643, 5643, 28.215 us, 28.215 us, 5643, 5643, no</column>
+<column name="">1283, 1283, 6.415 us, 6.415 us, 1283, 1283, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- ReLUActLoop">5641, 5641, 3, 1, 1, 5640, yes</column>
+<column name="- ReLUActLoop">1281, 1281, 3, 1, 1, 1280, yes</column>
 </table>
 </item>
 </section>

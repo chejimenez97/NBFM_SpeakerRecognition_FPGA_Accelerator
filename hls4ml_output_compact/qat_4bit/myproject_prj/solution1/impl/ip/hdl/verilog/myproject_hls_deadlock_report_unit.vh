@@ -209,40 +209,40 @@
                     proc_path = "myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0";
                 end
                 6 : begin
-                    proc_path = "myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0";
+                    proc_path = "myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0";
                 end
                 7 : begin
-                    proc_path = "myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0";
+                    proc_path = "myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0";
                 end
                 8 : begin
-                    proc_path = "myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0";
+                    proc_path = "myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0";
                 end
                 9 : begin
-                    proc_path = "myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0";
+                    proc_path = "myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0";
                 end
                 10 : begin
-                    proc_path = "myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0";
+                    proc_path = "myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0";
                 end
                 11 : begin
-                    proc_path = "myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0";
+                    proc_path = "myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0";
                 end
                 12 : begin
-                    proc_path = "myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0";
+                    proc_path = "myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0";
                 end
                 13 : begin
-                    proc_path = "myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0";
+                    proc_path = "myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0";
                 end
                 14 : begin
-                    proc_path = "myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0";
+                    proc_path = "myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0";
                 end
                 15 : begin
-                    proc_path = "myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0";
+                    proc_path = "myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0";
                 end
                 16 : begin
-                    proc_path = "myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0";
+                    proc_path = "myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0";
                 end
                 17 : begin
-                    proc_path = "myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0";
+                    proc_path = "myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0";
                 end
                 18 : begin
                     proc_path = "myproject_myproject.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0";
@@ -310,7 +310,7 @@
                 0 : begin
                     case(index2)
                     1: begin
-                        if (~zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0.grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34.layer24_out_blk_n) begin
+                        if (~zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34.layer24_out_blk_n) begin
                             if (~layer24_out_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'myproject_myproject.layer24_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_26_15_5_3_0_8u_config2_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer24_out_U");
@@ -433,8 +433,8 @@
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0.real_start & (trans_in_cnt_3 == trans_out_cnt_3) & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U' read by process 'myproject_myproject.pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_config6_U0',");
+                        if (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0.real_start & (trans_in_cnt_3 == trans_out_cnt_3) & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U' read by process 'myproject_myproject.pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_config6_U0',");
                         end
                     end
                     endcase
@@ -454,8 +454,8 @@
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U.if_empty_n & pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_config6_U0.ap_idle & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configcxx_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0',");
+                        if (~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U.if_empty_n & pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_config6_U0.ap_idle & ~start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_configbzo_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_U0',");
                         end
                     end
                     5: begin
@@ -480,7 +480,7 @@
                 5 : begin
                     case(index2)
                     4: begin
-                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28.layer6_out_blk_n) begin
+                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_Pipeline_PadMain_fu_28.layer6_out_blk_n) begin
                             if (~layer6_out_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'myproject_myproject.layer6_out_U' written by process 'myproject_myproject.pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_4_3_4_0_0_8u_config6_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer6_out_U");
@@ -497,20 +497,20 @@
                         end
                     end
                     6: begin
-                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28.layer25_out_blk_n) begin
+                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.grp_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_Pipeline_PadMain_fu_28.layer25_out_blk_n) begin
                             if (~layer25_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer25_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer25_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer25_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer25_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer25_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer25_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer25_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.real_start & (trans_in_cnt_5 == trans_out_cnt_5) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0',");
+                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0.real_start & (trans_in_cnt_5 == trans_out_cnt_5) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0',");
                         end
                     end
                     endcase
@@ -518,7 +518,7 @@
                 6 : begin
                     case(index2)
                     5: begin
-                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0.layer25_out_blk_n) begin
+                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0.layer25_out_blk_n) begin
                             if (~layer25_out_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'myproject_myproject.layer25_out_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer25_out_U");
@@ -530,25 +530,22 @@
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_configcyx_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0',");
+                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7bAo_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config25_U0',");
                         end
                     end
                     7: begin
-                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0.grp_compute_output_buffer_2d_array_array_ap_fixed_16_14_5_3_0_16u_config7_s_fu_260.layer7_out_blk_n) begin
+                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0.layer7_out_blk_n) begin
                             if (~layer7_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer7_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer7_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer7_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer7_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer7_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer7_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer7_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
-                        end
-                        if (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U.if_full_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0.ap_start & ~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0.real_start & (trans_in_cnt_6 == trans_out_cnt_6) & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0',");
                         end
                     end
                     endcase
@@ -556,37 +553,37 @@
                 7 : begin
                     case(index2)
                     6: begin
-                        if (~normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0.layer7_out_blk_n) begin
+                        if (~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0.layer7_out_blk_n) begin
                             if (~layer7_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer7_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer7_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer7_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer7_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer7_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer7_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer7_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U.if_empty_n & normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0.ap_idle & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9czy_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_16u_config7_U0',");
+                        if (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0_U.if_empty_n & normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0.ap_idle & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config7_U0',");
                         end
                     end
                     8: begin
-                        if (~normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0.layer9_out_blk_n) begin
+                        if (~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0.layer9_out_blk_n) begin
                             if (~layer9_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer9_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer9_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer9_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer9_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer9_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer9_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer9_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U.if_full_n & normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0.ap_start & ~normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0.real_start & (trans_in_cnt_7 == trans_out_cnt_7) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0',");
+                        if (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U.if_full_n & normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0.ap_start & ~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0.real_start & (trans_in_cnt_7 == trans_out_cnt_7) & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0',");
                         end
                     end
                     endcase
@@ -594,37 +591,37 @@
                 8 : begin
                     case(index2)
                     7: begin
-                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0.layer9_out_blk_n) begin
+                        if (~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0.layer9_out_blk_n) begin
                             if (~layer9_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer9_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer9_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer9_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer9_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer9_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer9_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer9_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10cAy_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_33_21_5_3_0_16u_config9_U0',");
+                        if (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U.if_empty_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0.ap_idle & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_U0',");
                         end
                     end
                     9: begin
-                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0.layer10_out_blk_n) begin
+                        if (~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0.layer10_out_blk_n) begin
                             if (~layer10_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer10_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer10_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer10_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer10_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer10_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer10_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer10_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0.real_start & (trans_in_cnt_8 == trans_out_cnt_8) & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0',");
+                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0.real_start & (trans_in_cnt_8 == trans_out_cnt_8) & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0',");
                         end
                     end
                     endcase
@@ -632,37 +629,37 @@
                 9 : begin
                     case(index2)
                     8: begin
-                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0.layer10_out_blk_n) begin
+                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0.layer10_out_blk_n) begin
                             if (~layer10_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer10_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer10_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer10_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer10_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer10_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer10_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer10_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config10_U0',");
+                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_U0',");
                         end
                     end
                     10: begin
-                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0.layer11_out_blk_n) begin
+                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0.layer11_out_blk_n) begin
                             if (~layer11_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer11_out_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer11_out_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer11_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer11_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer11_out_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer11_out_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer11_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0.real_start & (trans_in_cnt_9 == trans_out_cnt_9) & ~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0',");
+                        if (~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0.real_start & (trans_in_cnt_9 == trans_out_cnt_9) & ~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0',");
                         end
                     end
                     endcase
@@ -670,37 +667,37 @@
                 10 : begin
                     case(index2)
                     9: begin
-                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_Pipeline_PadMain_fu_28.layer11_out_blk_n) begin
+                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_Pipeline_PadMain_fu_28.layer11_out_blk_n) begin
                             if (~layer11_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer11_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer11_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer11_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer11_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer11_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer11_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer11_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U.if_empty_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0.ap_idle & ~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config11_U0',");
+                        if (~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U.if_empty_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0.ap_idle & ~start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config11_U0',");
                         end
                     end
                     11: begin
-                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth_fu_36.layer26_out_blk_n) begin
+                        if (~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0.grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth_fu_36.layer26_out_blk_n) begin
                             if (~layer26_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer26_out_U' written by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer26_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer26_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer26_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer26_out_U' read by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer26_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer26_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0.real_start & (trans_in_cnt_10 == trans_out_cnt_10) & ~start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U' read by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0',");
+                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U.if_full_n & zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0.ap_start & ~zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0.real_start & (trans_in_cnt_10 == trans_out_cnt_10) & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0',");
                         end
                     end
                     endcase
@@ -708,37 +705,34 @@
                 11 : begin
                     case(index2)
                     10: begin
-                        if (~conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0.layer26_out_blk_n) begin
+                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0.layer26_out_blk_n) begin
                             if (~layer26_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer26_out_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer26_out_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer26_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer26_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer26_out_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer26_out_U' read by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer26_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U.if_empty_n & conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0.ap_idle & ~start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config26_U0',");
+                        if (~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U.if_empty_n & conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0.ap_idle & ~start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config1bBo_U' written by process 'myproject_myproject.zeropad2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config26_U0',");
                         end
                     end
                     12: begin
-                        if (~conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0.grp_compute_output_buffer_2d_array_array_ap_fixed_17_15_5_3_0_16u_config12_s_fu_468.layer12_out_blk_n) begin
+                        if (~conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0.layer12_out_blk_n) begin
                             if (~layer12_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer12_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer12_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer12_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer12_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer12_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer12_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer12_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
-                        end
-                        if (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U.if_full_n & conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0.ap_start & ~conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0.real_start & (trans_in_cnt_11 == trans_out_cnt_11) & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0',");
                         end
                     end
                     endcase
@@ -746,37 +740,37 @@
                 12 : begin
                     case(index2)
                     11: begin
-                        if (~normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0.layer12_out_blk_n) begin
+                        if (~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0.layer12_out_blk_n) begin
                             if (~layer12_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer12_out_U' written by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer12_out_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer12_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer12_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer12_out_U' read by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer12_out_U' read by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer12_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U.if_empty_n & normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0.ap_idle & ~start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config1cBy_U' written by process 'myproject_myproject.conv_2d_cl_array_array_ap_fixed_17_15_5_3_0_16u_config12_U0',");
+                        if (~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0_U.if_empty_n & normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0.ap_idle & ~start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0_U' written by process 'myproject_myproject.conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_16_14_5_3_0_8u_config12_U0',");
                         end
                     end
                     13: begin
-                        if (~normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0.layer14_out_blk_n) begin
+                        if (~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0.layer14_out_blk_n) begin
                             if (~layer14_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer14_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer14_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer14_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer14_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer14_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer14_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer14_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U.if_full_n & normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0.ap_start & ~normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0.real_start & (trans_in_cnt_12 == trans_out_cnt_12) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0',");
+                        if (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U.if_full_n & normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0.ap_start & ~normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0.real_start & (trans_in_cnt_12 == trans_out_cnt_12) & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0',");
                         end
                     end
                     endcase
@@ -784,37 +778,37 @@
                 13 : begin
                     case(index2)
                     12: begin
-                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0.layer14_out_blk_n) begin
+                        if (~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0.layer14_out_blk_n) begin
                             if (~layer14_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer14_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer14_out_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer14_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer14_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer14_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer14_out_U' read by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer14_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15cCy_U' written by process 'myproject_myproject.normalize_array_ap_fixed_16u_array_ap_fixed_34_22_5_3_0_16u_config14_U0',");
+                        if (~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U.if_empty_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0.ap_idle & ~start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0_U' written by process 'myproject_myproject.normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config14_U0',");
                         end
                     end
                     14: begin
-                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0.layer15_out_blk_n) begin
+                        if (~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0.layer15_out_blk_n) begin
                             if (~layer15_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer15_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer15_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer15_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer15_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer15_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer15_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer15_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0.real_start & (trans_in_cnt_13 == trans_out_cnt_13) & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0',");
+                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U.if_full_n & relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0.ap_start & ~relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0.real_start & (trans_in_cnt_13 == trans_out_cnt_13) & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0',");
                         end
                     end
                     endcase
@@ -822,37 +816,37 @@
                 14 : begin
                     case(index2)
                     13: begin
-                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0.layer15_out_blk_n) begin
+                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0.layer15_out_blk_n) begin
                             if (~layer15_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer15_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer15_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer15_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer15_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer15_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer15_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer15_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config15_U0',");
+                        if (~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U.if_empty_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0.ap_idle & ~start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config15_U0',");
                         end
                     end
                     15: begin
-                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0.layer16_out_blk_n) begin
+                        if (~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0.layer16_out_blk_n) begin
                             if (~layer16_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer16_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer16_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer16_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer16_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer16_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer16_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer16_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0.real_start & (trans_in_cnt_14 == trans_out_cnt_14) & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0',");
+                        if (~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U.if_full_n & pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0.ap_start & ~pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0.real_start & (trans_in_cnt_14 == trans_out_cnt_14) & ~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U' read by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0',");
                         end
                     end
                     endcase
@@ -860,37 +854,37 @@
                 15 : begin
                     case(index2)
                     14: begin
-                        if (~dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0.grp_dense_array_array_ap_fixed_16_14_5_3_0_32u_config18_Pipeline_DataPrepare_fu_483.layer16_out_blk_n) begin
+                        if (~dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0.grp_dense_array_array_ap_fixed_13_11_5_3_0_16u_config18_Pipeline_DataPrepare_fu_97.layer16_out_blk_n) begin
                             if (~layer16_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer16_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer16_out_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer16_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer16_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer16_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer16_out_U' read by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer16_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U.if_empty_n & dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0.ap_idle & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_16u_config16_U0',");
+                        if (~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U.if_empty_n & dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0.ap_idle & ~start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0_U' written by process 'myproject_myproject.pooling2d_cl_array_array_ap_ufixed_4_3_4_0_0_8u_config16_U0',");
                         end
                     end
                     16: begin
-                        if (~dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0.layer18_out_blk_n) begin
+                        if (~dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0.layer18_out_blk_n) begin
                             if (~layer18_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer18_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer18_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer18_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer18_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer18_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer18_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer18_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U.if_full_n & dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0.ap_start & ~dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0.real_start & (trans_in_cnt_15 == trans_out_cnt_15) & ~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U' read by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0',");
+                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U.if_full_n & dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0.ap_start & ~dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0.real_start & (trans_in_cnt_15 == trans_out_cnt_15) & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0',");
                         end
                     end
                     endcase
@@ -898,37 +892,37 @@
                 16 : begin
                     case(index2)
                     15: begin
-                        if (~relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0.layer18_out_blk_n) begin
+                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0.layer18_out_blk_n) begin
                             if (~layer18_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer18_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer18_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer18_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer18_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer18_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer18_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer18_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U.if_empty_n & relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0.ap_idle & ~start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20cDy_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_16_14_5_3_0_32u_config18_U0',");
+                        if (~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U.if_empty_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0.ap_idle & ~start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20bCo_U' written by process 'myproject_myproject.dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_U0',");
                         end
                     end
                     17: begin
-                        if (~relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0.layer20_out_blk_n) begin
+                        if (~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0.layer20_out_blk_n) begin
                             if (~layer20_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer20_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer20_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer20_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer20_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer20_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer20_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer20_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U.if_full_n & relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0.ap_start & ~relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0.real_start & (trans_in_cnt_16 == trans_out_cnt_16) & ~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U.if_read) begin
-                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U' read by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0',");
+                        if (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U.if_full_n & relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0.ap_start & ~relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0.real_start & (trans_in_cnt_16 == trans_out_cnt_16) & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U.if_read) begin
+                            $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0',");
                         end
                     end
                     endcase
@@ -936,24 +930,24 @@
                 17 : begin
                     case(index2)
                     16: begin
-                        if (~dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0.layer20_out_blk_n) begin
+                        if (~dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0.layer20_out_blk_n) begin
                             if (~layer20_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer20_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer20_out_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer20_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer20_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer20_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer20_out_U' read by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer20_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U.if_empty_n & dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0.ap_idle & ~start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_32u_array_ap_ufixed_4_3_4_0_0_32u_relu_config20_U0',");
+                        if (~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U.if_empty_n & dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0.ap_idle & ~start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U.if_write) begin
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0_U' written by process 'myproject_myproject.relu_array_ap_fixed_16u_array_ap_ufixed_4_3_4_0_0_16u_relu_config20_U0',");
                         end
                     end
                     18: begin
-                        if (~dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0.layer21_out_blk_n) begin
+                        if (~dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0.layer21_out_blk_n) begin
                             if (~layer21_out_U.if_empty_n) begin
                                 $display("//      Blocked by empty input FIFO 'myproject_myproject.layer21_out_U' written by process 'myproject_myproject.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer21_out_U");
@@ -965,7 +959,7 @@
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
-                        if (~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_full_n & dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0.ap_start & ~dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0.real_start & (trans_in_cnt_17 == trans_out_cnt_17) & ~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_read) begin
+                        if (~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_full_n & dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0.ap_start & ~dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0.real_start & (trans_in_cnt_17 == trans_out_cnt_17) & ~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_read) begin
                             $display("//      Blocked by full output start propagation FIFO 'myproject_myproject.start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U' read by process 'myproject_myproject.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0',");
                         end
                     end
@@ -976,18 +970,18 @@
                     17: begin
                         if (~softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24.layer21_out_blk_n) begin
                             if (~layer21_out_U.if_empty_n) begin
-                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer21_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0'");
+                                $display("//      Blocked by empty input FIFO 'myproject_myproject.layer21_out_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer21_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status EMPTY");
                             end
                             else if (~layer21_out_U.if_full_n) begin
-                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer21_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0'");
+                                $display("//      Blocked by full output FIFO 'myproject_myproject.layer21_out_U' read by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0'");
                                 $fdisplay(fp, "Dependence_Channel_path myproject_myproject.layer21_out_U");
                                 $fdisplay(fp, "Dependence_Channel_status FULL");
                             end
                         end
                         if (~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_empty_n & softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.ap_idle & ~start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U.if_write) begin
-                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U' written by process 'myproject_myproject.dense_array_ap_ufixed_32u_array_ap_fixed_14_12_5_3_0_10u_config21_U0',");
+                            $display("//      Blocked by missing 'ap_start' from start propagation FIFO 'myproject_myproject.start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0_U' written by process 'myproject_myproject.dense_array_ap_ufixed_16u_array_ap_fixed_13_11_5_3_0_10u_config21_U0',");
                         end
                     end
                     endcase

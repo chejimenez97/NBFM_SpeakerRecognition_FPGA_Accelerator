@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth'" level="0">
-<item name = "Date">Sat Mar 21 19:19:07 2026
+<item name = "Date">Sun Mar 22 09:48:40 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00 ns, 1.713 ns, 1.35 ns</column>
+<column name="ap_clk">5.00 ns, 1.825 ns, 1.35 ns</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">74, 74, 0.370 us, 0.370 us, 74, 74, no</column>
+<column name="">36, 36, 0.180 us, 0.180 us, 36, 36, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- PadTopWidth">72, 72, 2, 1, 1, 72, yes</column>
+<column name="- PadTopWidth">34, 34, 2, 1, 1, 34, yes</column>
 </table>
 </item>
 </section>

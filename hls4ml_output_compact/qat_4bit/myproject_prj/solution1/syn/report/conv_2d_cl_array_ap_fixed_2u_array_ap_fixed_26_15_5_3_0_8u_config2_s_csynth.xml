@@ -22,21 +22,21 @@
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>12499</Best-caseLatency>
-<Average-caseLatency>12499</Average-caseLatency>
-<Worst-caseLatency>12499</Worst-caseLatency>
-<Best-caseRealTimeLatency>62.495 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>62.495 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>62.495 us</Worst-caseRealTimeLatency>
-<Interval-min>12499</Interval-min>
-<Interval-max>12499</Interval-max>
+<Best-caseLatency>2907</Best-caseLatency>
+<Average-caseLatency>2907</Average-caseLatency>
+<Worst-caseLatency>2907</Worst-caseLatency>
+<Best-caseRealTimeLatency>14.535 us</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>14.535 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>14.535 us</Worst-caseRealTimeLatency>
+<Interval-min>2907</Interval-min>
+<Interval-max>2907</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
 <ReadInputHeight_ReadInputWidth>
 <Slack>3.65</Slack>
-<TripCount>6248</TripCount>
-<Latency>12497</Latency>
-<AbsoluteTimeLatency>62485</AbsoluteTimeLatency>
+<TripCount>1452</TripCount>
+<Latency>2905</Latency>
+<AbsoluteTimeLatency>14525</AbsoluteTimeLatency>
 <PipelineII>2</PipelineII>
 <PipelineDepth>4</PipelineDepth>
 <InstanceList>
@@ -46,13 +46,13 @@
 <SummaryOfViolations>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_conv2d_stream.h:52~firmware/nnet_utils/nnet_conv2d_stream.h:78</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_conv2d_stream.h:25~firmware/nnet_utils/nnet_conv2d_stream.h:76</SourceLocation>
 <SummaryOfLoopViolations>
 <ReadInputHeight_ReadInputWidth>
 <Name>ReadInputHeight_ReadInputWidth</Name>
 <IssueType>-</IssueType>
 <ViolationType>-</ViolationType>
-<SourceLocation>firmware/nnet_utils/nnet_conv2d_stream.h:52~firmware/nnet_utils/nnet_conv2d_stream.h:78</SourceLocation>
+<SourceLocation>firmware/nnet_utils/nnet_conv2d_stream.h:25~firmware/nnet_utils/nnet_conv2d_stream.h:76</SourceLocation>
 </ReadInputHeight_ReadInputWidth>
 </SummaryOfLoopViolations>
 </SummaryOfViolations>
@@ -60,8 +60,8 @@
 
 <AreaEstimates>
 <Resources>
-<FF>810</FF>
-<LUT>1363</LUT>
+<FF>939</FF>
+<LUT>1957</LUT>
 <BRAM_18K>0</BRAM_18K>
 <DSP>0</DSP>
 <URAM>0</URAM>
@@ -205,7 +205,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -216,7 +216,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -260,7 +260,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>control</Attribute>
 </RtlPorts>
 <RtlPorts>
@@ -271,7 +271,7 @@
 <IOProtocol>ap_fifo</IOProtocol>
 <IOConfig></IOConfig>
 <Dir>in</Dir>
-<Bits>14</Bits>
+<Bits>12</Bits>
 <Attribute>unknown</Attribute>
 </RtlPorts>
 <RtlPorts>

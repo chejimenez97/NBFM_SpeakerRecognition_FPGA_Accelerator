@@ -29,8 +29,8 @@ output   ap_done;
 output   ap_idle;
 output   ap_ready;
 output  [31:0] layer24_out_din;
-input  [13:0] layer24_out_num_data_valid;
-input  [13:0] layer24_out_fifo_cap;
+input  [11:0] layer24_out_num_data_valid;
+input  [11:0] layer24_out_fifo_cap;
 input   layer24_out_full_n;
 output   layer24_out_write;
 
@@ -50,11 +50,11 @@ wire    ap_loop_exit_ready;
 reg    ap_ready_int;
 reg    layer24_out_blk_n;
 wire    ap_block_pp0_stage0;
-reg   [8:0] j_4_fu_32;
-wire   [8:0] j_12_fu_58_p2;
+reg   [6:0] j_2_fu_32;
+wire   [6:0] j_9_fu_58_p2;
 wire    ap_loop_init;
 reg    ap_block_pp0_stage0_11001;
-reg   [8:0] ap_sig_allocacmp_j;
+reg   [6:0] ap_sig_allocacmp_j;
 reg    ap_block_pp0_stage0_01001;
 reg    ap_done_reg;
 wire    ap_continue_int;
@@ -68,7 +68,7 @@ wire    ap_ce_reg;
 initial begin
 #0 ap_CS_fsm = 1'd1;
 #0 ap_enable_reg_pp0_iter1 = 1'b0;
-#0 j_4_fu_32 = 9'd0;
+#0 j_2_fu_32 = 7'd0;
 #0 ap_done_reg = 1'b0;
 end
 
@@ -122,9 +122,9 @@ end
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
         if (((icmp_ln77_fu_52_p2 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1))) begin
-            j_4_fu_32 <= j_12_fu_58_p2;
+            j_2_fu_32 <= j_9_fu_58_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            j_4_fu_32 <= 9'd0;
+            j_2_fu_32 <= 7'd0;
         end
     end
 end
@@ -171,9 +171,9 @@ end
 
 always @ (*) begin
     if (((ap_loop_init == 1'b1) & (1'b0 == ap_block_pp0_stage0) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_j = 9'd0;
+        ap_sig_allocacmp_j = 7'd0;
     end else begin
-        ap_sig_allocacmp_j = j_4_fu_32;
+        ap_sig_allocacmp_j = j_2_fu_32;
     end
 end
 
@@ -230,9 +230,9 @@ assign ap_enable_reg_pp0_iter0 = ap_start_int;
 
 assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
-assign icmp_ln77_fu_52_p2 = ((ap_sig_allocacmp_j == 9'd284) ? 1'b1 : 1'b0);
+assign icmp_ln77_fu_52_p2 = ((ap_sig_allocacmp_j == 7'd66) ? 1'b1 : 1'b0);
 
-assign j_12_fu_58_p2 = (ap_sig_allocacmp_j + 9'd1);
+assign j_9_fu_58_p2 = (ap_sig_allocacmp_j + 7'd1);
 
 assign layer24_out_din = 32'd0;
 

@@ -12,16 +12,16 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
 eval "::AESL_LIB_XILADAPTER::native_axis_add { \
     id 5 \
-    name input_1 \
+    name input_4 \
     reset_level 1 \
     sync_rst true \
     corename {} \
     metadata {  } \
     op interface \
-    ports { input_1_TDATA { I 32 vector } input_1_TVALID { I 1 bit } input_1_TREADY { O 1 bit } } \
+    ports { input_4_TDATA { I 32 vector } input_4_TVALID { I 1 bit } input_4_TREADY { O 1 bit } } \
 } "
 } else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'input_1'"
+puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'input_4'"
 }
 }
 
@@ -37,7 +37,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer24_out \
     op interface \
-    ports { layer24_out_din { O 32 vector } layer24_out_num_data_valid { I 14 vector } layer24_out_fifo_cap { I 14 vector } layer24_out_full_n { I 1 bit } layer24_out_write { O 1 bit } } \
+    ports { layer24_out_din { O 32 vector } layer24_out_num_data_valid { I 12 vector } layer24_out_fifo_cap { I 12 vector } layer24_out_full_n { I 1 bit } layer24_out_write { O 1 bit } } \
 } "
 }
 

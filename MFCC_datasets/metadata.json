@@ -1,12 +1,14 @@
 {
   "MFCC_input_shape": [
     20,
-    282,
+    64,
     2
   ],
   "num_classes": 10,
   "N_MFCC": 20,
-  "MFCC_FRAMES": 282,
+  "MFCC_FRAMES": 64,
+  "HOP_LENGTH": 2250,
+  "N_FFT": 2048,
   "SAMPLING_FREQ": 48000,
   "batch_size": 32,
   "subfolders": [

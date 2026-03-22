@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s'" level="0">
-<item name = "Date">Sat Mar 21 19:24:07 2026
+<item name = "Date">Sun Mar 22 09:52:40 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -50,19 +50,19 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 4, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">2, 17, 1833, 4668, 0</column>
+<column name="Instance">2, 17, 1815, 4635, 0</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 38, -</column>
 <column name="Register">-, -, 5, -, -</column>
 <specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
-<specialColumn name="Utilization (%)">~0, 1, ~0, 4, 0</specialColumn>
+<specialColumn name="Utilization (%)">~0, 1, ~0, 3, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24">softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 2, 17, 1833, 4668, 0</column>
+<column name="grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24">softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 2, 17, 1815, 4635, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -111,7 +111,7 @@
 <column name="ap_continue">in, 1, ap_ctrl_hs, softmax&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,10u&gt;,softmax_config23&gt;, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, softmax&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,10u&gt;,softmax_config23&gt;, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, softmax&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,10u&gt;,softmax_config23&gt;, return value</column>
-<column name="layer21_out_dout">in, 220, ap_fifo, layer21_out, pointer</column>
+<column name="layer21_out_dout">in, 210, ap_fifo, layer21_out, pointer</column>
 <column name="layer21_out_num_data_valid">in, 2, ap_fifo, layer21_out, pointer</column>
 <column name="layer21_out_fifo_cap">in, 2, ap_fifo, layer21_out, pointer</column>
 <column name="layer21_out_empty_n">in, 1, ap_fifo, layer21_out, pointer</column>

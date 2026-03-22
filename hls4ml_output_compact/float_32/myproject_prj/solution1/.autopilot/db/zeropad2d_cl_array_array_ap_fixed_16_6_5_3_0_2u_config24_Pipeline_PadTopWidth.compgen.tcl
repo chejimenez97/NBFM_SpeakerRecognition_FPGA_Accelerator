@@ -18,7 +18,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer24_out \
     op interface \
-    ports { layer24_out_din { O 32 vector } layer24_out_num_data_valid { I 14 vector } layer24_out_fifo_cap { I 14 vector } layer24_out_full_n { I 1 bit } layer24_out_write { O 1 bit } } \
+    ports { layer24_out_din { O 32 vector } layer24_out_num_data_valid { I 12 vector } layer24_out_fifo_cap { I 12 vector } layer24_out_full_n { I 1 bit } layer24_out_write { O 1 bit } } \
 } "
 }
 

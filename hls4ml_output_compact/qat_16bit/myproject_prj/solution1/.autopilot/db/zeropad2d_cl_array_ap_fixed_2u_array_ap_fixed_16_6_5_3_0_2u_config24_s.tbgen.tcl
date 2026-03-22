@@ -15,13 +15,13 @@ set DLRegItemOffset 0
 set C_modelName {zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>}
 set C_modelType { void 0 }
 set C_modelArgList {
-	{ input_2 int 32 regular {axi_s 0 volatile  { input_2 Data } }  }
+	{ input_5 int 32 regular {axi_s 0 volatile  { input_5 Data } }  }
 	{ layer24_out int 32 regular {fifo 1 volatile }  }
 }
 set hasAXIMCache 0
 set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
-	{ "Name" : "input_2", "interface" : "axis", "bitwidth" : 32, "direction" : "READONLY"} , 
+	{ "Name" : "input_5", "interface" : "axis", "bitwidth" : 32, "direction" : "READONLY"} , 
  	{ "Name" : "layer24_out", "interface" : "fifo", "bitwidth" : 32, "direction" : "WRITEONLY"} ]}
 # RTL Port declarations: 
 set portNum 18
@@ -36,12 +36,12 @@ set portList {
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ start_out sc_out sc_logic 1 signal -1 } 
 	{ start_write sc_out sc_logic 1 signal -1 } 
-	{ input_2_TDATA sc_in sc_lv 32 signal 0 } 
-	{ input_2_TVALID sc_in sc_logic 1 invld 0 } 
-	{ input_2_TREADY sc_out sc_logic 1 inacc 0 } 
+	{ input_5_TDATA sc_in sc_lv 32 signal 0 } 
+	{ input_5_TVALID sc_in sc_logic 1 invld 0 } 
+	{ input_5_TREADY sc_out sc_logic 1 inacc 0 } 
 	{ layer24_out_din sc_out sc_lv 32 signal 1 } 
-	{ layer24_out_num_data_valid sc_in sc_lv 14 signal 1 } 
-	{ layer24_out_fifo_cap sc_in sc_lv 14 signal 1 } 
+	{ layer24_out_num_data_valid sc_in sc_lv 12 signal 1 } 
+	{ layer24_out_fifo_cap sc_in sc_lv 12 signal 1 } 
 	{ layer24_out_full_n sc_in sc_logic 1 signal 1 } 
 	{ layer24_out_write sc_out sc_logic 1 signal 1 } 
 }
@@ -56,12 +56,12 @@ set NewPortList {[
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "start_out", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_out", "role": "default" }} , 
  	{ "name": "start_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_write", "role": "default" }} , 
- 	{ "name": "input_2_TDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "input_2", "role": "TDATA" }} , 
- 	{ "name": "input_2_TVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "input_2", "role": "TVALID" }} , 
- 	{ "name": "input_2_TREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "inacc", "bundle":{"name": "input_2", "role": "TREADY" }} , 
+ 	{ "name": "input_5_TDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "input_5", "role": "TDATA" }} , 
+ 	{ "name": "input_5_TVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "input_5", "role": "TVALID" }} , 
+ 	{ "name": "input_5_TREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "inacc", "bundle":{"name": "input_5", "role": "TREADY" }} , 
  	{ "name": "layer24_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "layer24_out", "role": "din" }} , 
- 	{ "name": "layer24_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer24_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer24_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer24_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer24_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer24_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer24_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer24_out", "role": "fifo_cap" }} , 
  	{ "name": "layer24_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer24_out", "role": "full_n" }} , 
  	{ "name": "layer24_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer24_out", "role": "write" }}  ]}
 
@@ -72,7 +72,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "17501", "EstimateLatencyMax" : "17501",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1465", "EstimateLatencyMax" : "1465",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -81,13 +81,13 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "input_2", "Type" : "Axis", "Direction" : "I",
+			{"Name" : "input_5", "Type" : "Axis", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34", "Port" : "input_2", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
-			{"Name" : "layer24_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "6248", "DependentChanType" : "0",
+					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34", "Port" : "input_5", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
+			{"Name" : "layer24_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "1452", "DependentChanType" : "0",
 				"SubConnect" : [
-					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34", "Port" : "layer24_out", "Inst_start_state" : "4", "Inst_end_state" : "5"},
 					{"ID" : "1", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28", "Port" : "layer24_out", "Inst_start_state" : "1", "Inst_end_state" : "2"},
+					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34", "Port" : "layer24_out", "Inst_start_state" : "4", "Inst_end_state" : "5"},
 					{"ID" : "5", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42", "Port" : "layer24_out", "Inst_start_state" : "7", "Inst_end_state" : "8"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28", "Parent" : "0", "Child" : ["2"],
 		"CDFG" : "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth",
@@ -95,7 +95,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "286", "EstimateLatencyMax" : "286",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "68", "EstimateLatencyMax" : "68",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -111,13 +111,13 @@ set RtlHierarchyInfo {[
 			{"Name" : "PadTopWidth", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28.flow_control_loop_pipe_sequential_init_U", "Parent" : "1"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34", "Parent" : "0", "Child" : ["4"],
-		"CDFG" : "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain",
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34", "Parent" : "0", "Child" : ["4"],
+		"CDFG" : "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "16922", "EstimateLatencyMax" : "16922",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1322", "EstimateLatencyMax" : "1322",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -129,20 +129,20 @@ set RtlHierarchyInfo {[
 			{"Name" : "layer24_out", "Type" : "Fifo", "Direction" : "O",
 				"BlockSignal" : [
 					{"Name" : "layer24_out_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "input_2", "Type" : "Axis", "Direction" : "I",
+			{"Name" : "input_5", "Type" : "Axis", "Direction" : "I",
 				"BlockSignal" : [
-					{"Name" : "input_2_TDATA_blk_n", "Type" : "RtlSignal"}]}],
+					{"Name" : "input_5_TDATA_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
-			{"Name" : "PadMain_CopyMain", "PipelineType" : "UPC",
-				"LoopDec" : {"FSMBitwidth" : "3", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
-	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34.flow_control_loop_pipe_sequential_init_U", "Parent" : "3"},
+			{"Name" : "PadMain", "PipelineType" : "UPC",
+				"LoopDec" : {"FSMBitwidth" : "66", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
+	{"ID" : "4", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34.flow_control_loop_pipe_sequential_init_U", "Parent" : "3"},
 	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42", "Parent" : "0", "Child" : ["6"],
 		"CDFG" : "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "286", "EstimateLatencyMax" : "286",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "68", "EstimateLatencyMax" : "68",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -158,32 +158,32 @@ set RtlHierarchyInfo {[
 			{"Name" : "PadBottomWidth", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
 	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42.flow_control_loop_pipe_sequential_init_U", "Parent" : "5"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_input_2_U", "Parent" : "0"}]}
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.regslice_both_input_5_U", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s {
-		input_2 {Type I LastRead 2 FirstWrite -1}
+		input_5 {Type I LastRead 64 FirstWrite -1}
 		layer24_out {Type O LastRead -1 FirstWrite 1}}
 	zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth {
 		layer24_out {Type O LastRead -1 FirstWrite 1}}
-	zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain {
+	zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain {
 		layer24_out {Type O LastRead -1 FirstWrite 1}
-		input_2 {Type I LastRead 2 FirstWrite -1}}
+		input_5 {Type I LastRead 64 FirstWrite -1}}
 	zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth {
 		layer24_out {Type O LastRead -1 FirstWrite 1}}}
 
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "17501", "Max" : "17501"}
-	, {"Name" : "Interval", "Min" : "17501", "Max" : "17501"}
+	{"Name" : "Latency", "Min" : "1465", "Max" : "1465"}
+	, {"Name" : "Interval", "Min" : "1465", "Max" : "1465"}
 ]}
 
 set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	input_2 { axis {  { input_2_TDATA in_data 0 32 }  { input_2_TVALID in_vld 0 1 }  { input_2_TREADY in_acc 1 1 } } }
-	layer24_out { ap_fifo {  { layer24_out_din fifo_data_in 1 32 }  { layer24_out_num_data_valid fifo_status_num_data_valid 0 14 }  { layer24_out_fifo_cap fifo_update 0 14 }  { layer24_out_full_n fifo_status 0 1 }  { layer24_out_write fifo_port_we 1 1 } } }
+	input_5 { axis {  { input_5_TDATA in_data 0 32 }  { input_5_TVALID in_vld 0 1 }  { input_5_TREADY in_acc 1 1 } } }
+	layer24_out { ap_fifo {  { layer24_out_din fifo_data_in 1 32 }  { layer24_out_num_data_valid fifo_status_num_data_valid 0 12 }  { layer24_out_fifo_cap fifo_update 0 12 }  { layer24_out_full_n fifo_status 0 1 }  { layer24_out_write fifo_port_we 1 1 } } }
 }

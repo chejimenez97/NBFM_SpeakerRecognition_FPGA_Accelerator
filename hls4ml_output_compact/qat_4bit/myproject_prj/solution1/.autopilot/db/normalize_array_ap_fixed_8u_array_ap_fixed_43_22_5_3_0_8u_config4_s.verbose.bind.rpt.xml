@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_43_22_5_3_0_8u_config4_s'" level="0">
-<item name = "Date">Sat Mar 21 19:27:46 2026
+<item name = "Date">Sun Mar 22 09:55:01 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">5644, 5644, 28.220 us, 28.220 us, 5644, 5644, no</column>
+<column name="">1284, 1284, 6.420 us, 6.420 us, 1284, 1284, no</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- BatchNormLoop">5642, 5642, 4, 1, 1, 5640, yes</column>
+<column name="- BatchNormLoop">1282, 1282, 4, 1, 1, 1280, yes</column>
 </table>
 </item>
 </section>

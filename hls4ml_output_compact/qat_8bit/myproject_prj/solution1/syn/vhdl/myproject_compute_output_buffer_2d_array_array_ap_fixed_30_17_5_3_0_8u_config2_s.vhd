@@ -20,8 +20,8 @@ port (
     in_elem_0_0_0_0_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
     in_elem_0_1_0_0_0_val : IN STD_LOGIC_VECTOR (15 downto 0);
     layer2_out_din : OUT STD_LOGIC_VECTOR (239 downto 0);
-    layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (13 downto 0);
-    layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (13 downto 0);
+    layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
+    layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
     layer2_out_full_n : IN STD_LOGIC;
     layer2_out_write : OUT STD_LOGIC;
     layer2_out_blk_n : OUT STD_LOGIC );
@@ -43,7 +43,7 @@ architecture behav of myproject_compute_output_buffer_2d_array_array_ap_fixed_30
     constant ap_const_lv1_0 : STD_LOGIC_VECTOR (0 downto 0) := "0";
     constant ap_const_lv32_1F : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000011111";
     constant ap_const_lv31_0 : STD_LOGIC_VECTOR (30 downto 0) := "0000000000000000000000000000000";
-    constant ap_const_lv32_11C : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000100011100";
+    constant ap_const_lv32_42 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000001000010";
     constant ap_const_lv32_16 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000010110";
 
 attribute shreg_extract : string;
@@ -147,15 +147,15 @@ attribute shreg_extract : string;
     signal call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122_ap_ce : STD_LOGIC;
     signal ap_block_state4_pp0_stage0_iter1_ignore_call3 : BOOLEAN;
     signal ap_block_pp0_stage0_11001_ignoreCallOp7 : BOOLEAN;
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7 : STD_LOGIC_VECTOR (29 downto 0);
-    signal grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce : STD_LOGIC;
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7 : STD_LOGIC_VECTOR (29 downto 0);
+    signal grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce : STD_LOGIC;
     signal ap_predicate_op23_call_state2 : BOOLEAN;
     signal ap_predicate_op44_call_state3 : BOOLEAN;
     signal ap_block_pp0_stage1_11001_ignoreCallOp23 : BOOLEAN;
@@ -169,8 +169,8 @@ attribute shreg_extract : string;
     signal add_ln303_fu_286_p2 : STD_LOGIC_VECTOR (31 downto 0);
     signal ap_block_pp0_stage0_11001 : BOOLEAN;
     signal ap_block_pp0_stage0_01001 : BOOLEAN;
-    signal tmp_409_fu_242_p4 : STD_LOGIC_VECTOR (30 downto 0);
-    signal tmp_410_fu_258_p4 : STD_LOGIC_VECTOR (30 downto 0);
+    signal tmp_254_fu_242_p4 : STD_LOGIC_VECTOR (30 downto 0);
+    signal tmp_255_fu_258_p4 : STD_LOGIC_VECTOR (30 downto 0);
     signal icmp_ln284_2_fu_252_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal icmp_ln284_3_fu_268_p2 : STD_LOGIC_VECTOR (0 downto 0);
     signal and_ln284_fu_274_p2 : STD_LOGIC_VECTOR (0 downto 0);
@@ -250,12 +250,13 @@ attribute shreg_extract : string;
     end component;
 
 
-    component myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s IS
+    component myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29 : IN STD_LOGIC_VECTOR (15 downto 0);
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28 : IN STD_LOGIC_VECTOR (15 downto 0);
+        void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 : IN STD_LOGIC_VECTOR (15 downto 0);
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 : IN STD_LOGIC_VECTOR (15 downto 0);
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 : IN STD_LOGIC_VECTOR (15 downto 0);
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 : IN STD_LOGIC_VECTOR (15 downto 0);
@@ -267,11 +268,10 @@ attribute shreg_extract : string;
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 : IN STD_LOGIC_VECTOR (15 downto 0);
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 : IN STD_LOGIC_VECTOR (15 downto 0);
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 : IN STD_LOGIC_VECTOR (15 downto 0);
-        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 : IN STD_LOGIC_VECTOR (15 downto 0);
-        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 : IN STD_LOGIC_VECTOR (15 downto 0);
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3 : IN STD_LOGIC_VECTOR (15 downto 0);
+        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 : IN STD_LOGIC_VECTOR (15 downto 0);
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 : IN STD_LOGIC_VECTOR (15 downto 0);
-        void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 : IN STD_LOGIC_VECTOR (15 downto 0);
+        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 : IN STD_LOGIC_VECTOR (15 downto 0);
         ap_return_0 : OUT STD_LOGIC_VECTOR (29 downto 0);
         ap_return_1 : OUT STD_LOGIC_VECTOR (29 downto 0);
         ap_return_2 : OUT STD_LOGIC_VECTOR (29 downto 0);
@@ -346,12 +346,13 @@ begin
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld => call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld,
         ap_ce => call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122_ap_ce);
 
-    grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174 : component myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s
+    grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174 : component myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29,
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28,
+        void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27,
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26,
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25,
         void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24,
@@ -363,20 +364,19 @@ begin
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6,
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5,
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4,
-        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2,
-        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9,
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3,
+        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2,
         p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1,
-        void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 => void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27,
-        ap_return_0 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0,
-        ap_return_1 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1,
-        ap_return_2 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2,
-        ap_return_3 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3,
-        ap_return_4 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4,
-        ap_return_5 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5,
-        ap_return_6 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6,
-        ap_return_7 => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7,
-        ap_ce => grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce);
+        p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 => p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9,
+        ap_return_0 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0,
+        ap_return_1 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1,
+        ap_return_2 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2,
+        ap_return_3 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3,
+        ap_return_4 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4,
+        ap_return_5 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5,
+        ap_return_6 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6,
+        ap_return_7 => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7,
+        ap_ce => grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce);
 
 
 
@@ -553,14 +553,14 @@ begin
     begin
         if (ap_clk'event and ap_clk = '1') then
             if (((ap_const_boolean_0 = ap_block_pp0_stage2_11001) and (ap_const_logic_1 = ap_ce) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage2))) then
-                res_out_1_reg_456 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1;
-                res_out_2_reg_461 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2;
-                res_out_3_reg_466 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3;
-                res_out_4_reg_471 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4;
-                res_out_5_reg_476 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5;
-                res_out_6_reg_481 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6;
-                res_out_7_reg_486 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7;
-                res_out_reg_451 <= grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0;
+                res_out_1_reg_456 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_1;
+                res_out_2_reg_461 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_2;
+                res_out_3_reg_466 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_3;
+                res_out_4_reg_471 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_4;
+                res_out_5_reg_476 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_5;
+                res_out_6_reg_481 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_6;
+                res_out_7_reg_486 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_7;
+                res_out_reg_451 <= grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_return_0;
             end if;
         end if;
     end process;
@@ -876,20 +876,20 @@ begin
     end process;
 
 
-    grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage2, ap_ce, ap_CS_fsm_pp0_stage1, ap_block_pp0_stage1_11001_ignoreCallOp23, ap_block_pp0_stage2_11001_ignoreCallOp44)
+    grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce_assign_proc : process(ap_CS_fsm_pp0_stage2, ap_ce, ap_CS_fsm_pp0_stage1, ap_block_pp0_stage1_11001_ignoreCallOp23, ap_block_pp0_stage2_11001_ignoreCallOp44)
     begin
         if (((ap_const_logic_1 = ap_ce) and (((ap_const_boolean_0 = ap_block_pp0_stage2_11001_ignoreCallOp44) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage2)) or ((ap_const_boolean_0 = ap_block_pp0_stage1_11001_ignoreCallOp23) and (ap_const_logic_1 = ap_CS_fsm_pp0_stage1))))) then 
-            grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce <= ap_const_logic_1;
+            grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce <= ap_const_logic_1;
         else 
-            grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce <= ap_const_logic_0;
+            grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s_fu_174_ap_ce <= ap_const_logic_0;
         end if; 
     end process;
 
     icmp_ln284_1_fu_236_p2 <= "1" when (sY_5 = ap_const_lv32_2) else "0";
-    icmp_ln284_2_fu_252_p2 <= "1" when (signed(tmp_409_fu_242_p4) > signed(ap_const_lv31_0)) else "0";
-    icmp_ln284_3_fu_268_p2 <= "1" when (signed(tmp_410_fu_258_p4) > signed(ap_const_lv31_0)) else "0";
+    icmp_ln284_2_fu_252_p2 <= "1" when (signed(tmp_254_fu_242_p4) > signed(ap_const_lv31_0)) else "0";
+    icmp_ln284_3_fu_268_p2 <= "1" when (signed(tmp_255_fu_258_p4) > signed(ap_const_lv31_0)) else "0";
     icmp_ln284_fu_218_p2 <= "1" when (sX_5 = ap_const_lv32_2) else "0";
-    icmp_ln303_fu_292_p2 <= "1" when (add_ln303_fu_286_p2 = ap_const_lv32_11C) else "0";
+    icmp_ln303_fu_292_p2 <= "1" when (add_ln303_fu_286_p2 = ap_const_lv32_42) else "0";
     icmp_ln307_fu_342_p2 <= "1" when (add_ln307_fu_336_p2 = ap_const_lv32_16) else "0";
     icmp_ln313_fu_354_p2 <= "1" when (sY_5 = ap_const_lv32_2) else "0";
 
@@ -919,6 +919,6 @@ begin
     select_ln318_fu_310_p3 <= 
         ap_const_lv32_2 when (icmp_ln284_fu_218_p2(0) = '1') else 
         add_ln318_fu_304_p2;
-    tmp_409_fu_242_p4 <= pY_5(31 downto 1);
-    tmp_410_fu_258_p4 <= pX_5(31 downto 1);
+    tmp_254_fu_242_p4 <= pY_5(31 downto 1);
+    tmp_255_fu_258_p4 <= pX_5(31 downto 1);
 end behav;

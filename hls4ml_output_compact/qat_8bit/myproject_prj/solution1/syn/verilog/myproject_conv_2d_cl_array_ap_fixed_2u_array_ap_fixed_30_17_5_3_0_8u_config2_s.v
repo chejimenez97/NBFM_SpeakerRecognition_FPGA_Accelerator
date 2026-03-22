@@ -42,15 +42,15 @@ input   ap_continue;
 output   ap_idle;
 output   ap_ready;
 input  [31:0] layer24_out_dout;
-input  [13:0] layer24_out_num_data_valid;
-input  [13:0] layer24_out_fifo_cap;
+input  [11:0] layer24_out_num_data_valid;
+input  [11:0] layer24_out_fifo_cap;
 input   layer24_out_empty_n;
 output   layer24_out_read;
 output   start_out;
 output   start_write;
 output  [239:0] layer2_out_din;
-input  [13:0] layer2_out_num_data_valid;
-input  [13:0] layer2_out_fifo_cap;
+input  [11:0] layer2_out_num_data_valid;
+input  [11:0] layer2_out_fifo_cap;
 input   layer2_out_full_n;
 output   layer2_out_write;
 
@@ -68,7 +68,7 @@ reg    ap_enable_reg_pp0_iter1;
 reg    ap_idle_pp0;
 wire    internal_ap_ready;
 wire    ap_CS_fsm_pp0_stage1;
-reg   [0:0] icmp_ln52_reg_211;
+reg   [0:0] icmp_ln25_reg_212;
 reg    ap_block_state2_pp0_stage1_iter0;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_blk_n;
 reg    ap_block_state5_pp0_stage1_iter1;
@@ -82,11 +82,9 @@ reg    ap_block_pp0_stage2_subdone;
 reg    layer24_out_blk_n;
 wire    ap_block_pp0_stage1;
 reg    layer2_out_blk_n;
-wire   [0:0] icmp_ln52_fu_172_p2;
+wire   [0:0] icmp_ln25_fu_172_p2;
 reg    ap_block_state1_pp0_stage0_iter0;
 reg    ap_block_pp0_stage0_11001;
-wire   [12:0] add_ln52_fu_178_p2;
-reg   [12:0] add_ln52_reg_215;
 reg    ap_enable_reg_pp0_iter0_reg;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_done;
@@ -98,18 +96,19 @@ wire   [15:0] grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_c
 wire   [239:0] grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_din;
 wire    grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_write;
 reg    ap_block_state2_pp0_stage1_iter0_ignore_call6;
-reg    ap_block_pp0_stage1_11001_ignoreCallOp20;
+reg    ap_block_pp0_stage1_11001_ignoreCallOp21;
 reg    ap_block_pp0_stage2_11001_ignoreCallOp22;
 reg    ap_block_state1_pp0_stage0_iter0_ignore_call6;
 reg    ap_block_pp0_stage0_11001_ignoreCallOp23;
 reg    grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start_reg;
 reg    ap_block_pp0_stage1_11001;
-wire    ap_block_pp0_stage2;
 wire    ap_block_pp0_stage0;
+wire    ap_block_pp0_stage2;
 reg    ap_block_pp0_stage2_11001;
-reg   [12:0] indvar_flatten_fu_94;
+reg   [10:0] indvar_flatten_fu_94;
+wire   [10:0] add_ln25_fu_178_p2;
 wire    ap_loop_init;
-reg   [12:0] ap_sig_allocacmp_indvar_flatten_load;
+reg   [10:0] ap_sig_allocacmp_indvar_flatten_load;
 wire    ap_continue_int;
 reg    ap_done_int;
 reg   [2:0] ap_NS_fsm;
@@ -117,8 +116,7 @@ reg    ap_block_pp0_stage0_subdone;
 reg    ap_idle_pp0_1to1;
 wire    ap_enable_pp0;
 wire    ap_start_int;
-reg    ap_condition_382;
-reg    ap_condition_386;
+reg    ap_condition_162;
 wire    ap_ce_reg;
 
 // power-on initialization
@@ -129,7 +127,7 @@ initial begin
 #0 ap_done_reg = 1'b0;
 #0 ap_enable_reg_pp0_iter0_reg = 1'b0;
 #0 grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start_reg = 1'b0;
-#0 indvar_flatten_fu_94 = 13'd0;
+#0 indvar_flatten_fu_94 = 11'd0;
 end
 
 myproject_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104(
@@ -143,8 +141,8 @@ myproject_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s
     .in_elem_0_0_0_0_0_val(grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_in_elem_0_0_0_0_0_val),
     .in_elem_0_1_0_0_0_val(grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_in_elem_0_1_0_0_0_val),
     .layer2_out_din(grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_din),
-    .layer2_out_num_data_valid(14'd0),
-    .layer2_out_fifo_cap(14'd0),
+    .layer2_out_num_data_valid(12'd0),
+    .layer2_out_fifo_cap(12'd0),
     .layer2_out_full_n(layer2_out_full_n),
     .layer2_out_write(grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_write),
     .layer2_out_blk_n(grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_blk_n)
@@ -214,7 +212,7 @@ always @ (posedge ap_clk) begin
     if (ap_rst == 1'b1) begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start_reg <= 1'b0;
     end else begin
-        if (((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln52_fu_172_p2 == 1'd0))) begin
+        if (((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (icmp_ln25_fu_172_p2 == 1'd0))) begin
             grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start_reg <= 1'b1;
         end else if ((grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_ready == 1'b1)) begin
             grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_start_reg <= 1'b0;
@@ -235,24 +233,23 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if ((ap_enable_reg_pp0_iter0 == 1'b1)) begin
-        if ((1'b1 == ap_condition_386)) begin
-            indvar_flatten_fu_94 <= 13'd0;
-        end else if ((1'b1 == ap_condition_382)) begin
-            indvar_flatten_fu_94 <= add_ln52_reg_215;
+    if ((1'b1 == ap_condition_162)) begin
+        if ((icmp_ln25_fu_172_p2 == 1'd0)) begin
+            indvar_flatten_fu_94 <= add_ln25_fu_178_p2;
+        end else if ((ap_loop_init == 1'b1)) begin
+            indvar_flatten_fu_94 <= 11'd0;
         end
     end
 end
 
 always @ (posedge ap_clk) begin
     if (((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        add_ln52_reg_215 <= add_ln52_fu_178_p2;
-        icmp_ln52_reg_211 <= icmp_ln52_fu_172_p2;
+        icmp_ln25_reg_212 <= icmp_ln25_fu_172_p2;
     end
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_pp0_stage1_subdone) & (icmp_ln52_reg_211 == 1'd1) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
+    if (((1'b0 == ap_block_pp0_stage1_subdone) & (icmp_ln25_reg_212 == 1'd1) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         ap_condition_exit_pp0_iter0_stage1 = 1'b1;
     end else begin
         ap_condition_exit_pp0_iter0_stage1 = 1'b0;
@@ -309,14 +306,14 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (ap_loop_init == 1'b1) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0))) begin
-        ap_sig_allocacmp_indvar_flatten_load = 13'd0;
+        ap_sig_allocacmp_indvar_flatten_load = 11'd0;
     end else begin
         ap_sig_allocacmp_indvar_flatten_load = indvar_flatten_fu_94;
     end
 end
 
 always @ (*) begin
-    if ((((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp23) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp22) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp20) & (1'b1 == ap_CS_fsm_pp0_stage1)))) begin
+    if ((((1'b0 == ap_block_pp0_stage0_11001_ignoreCallOp23) & (1'b1 == ap_CS_fsm_pp0_stage0)) | ((1'b0 == ap_block_pp0_stage2_11001_ignoreCallOp22) & (1'b1 == ap_CS_fsm_pp0_stage2)) | ((1'b0 == ap_block_pp0_stage1_11001_ignoreCallOp21) & (1'b1 == ap_CS_fsm_pp0_stage1)))) begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_ce = 1'b1;
     end else begin
         grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_ap_ce = 1'b0;
@@ -324,7 +321,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_pp0_stage1) & (icmp_ln52_reg_211 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
+    if (((1'b0 == ap_block_pp0_stage1) & (icmp_ln25_reg_212 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         layer24_out_blk_n = layer24_out_empty_n;
     end else begin
         layer24_out_blk_n = 1'b1;
@@ -332,7 +329,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    if (((1'b0 == ap_block_pp0_stage1_11001) & (icmp_ln52_reg_211 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
+    if (((1'b0 == ap_block_pp0_stage1_11001) & (icmp_ln25_reg_212 == 1'd0) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage1))) begin
         layer24_out_read = 1'b1;
     end else begin
         layer24_out_read = 1'b0;
@@ -402,7 +399,7 @@ always @ (*) begin
     endcase
 end
 
-assign add_ln52_fu_178_p2 = (ap_sig_allocacmp_indvar_flatten_load + 13'd1);
+assign add_ln25_fu_178_p2 = (ap_sig_allocacmp_indvar_flatten_load + 11'd1);
 
 assign ap_CS_fsm_pp0_stage0 = ap_CS_fsm[32'd0];
 
@@ -431,7 +428,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_block_pp0_stage1_11001_ignoreCallOp20 = ((ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_block_state2_pp0_stage1_iter0_ignore_call6));
+    ap_block_pp0_stage1_11001_ignoreCallOp21 = ((ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_block_state2_pp0_stage1_iter0_ignore_call6));
 end
 
 always @ (*) begin
@@ -461,11 +458,11 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_block_state2_pp0_stage1_iter0 = ((icmp_ln52_reg_211 == 1'd0) & (layer24_out_empty_n == 1'b0));
+    ap_block_state2_pp0_stage1_iter0 = ((icmp_ln25_reg_212 == 1'd0) & (layer24_out_empty_n == 1'b0));
 end
 
 always @ (*) begin
-    ap_block_state2_pp0_stage1_iter0_ignore_call6 = ((icmp_ln52_reg_211 == 1'd0) & (layer24_out_empty_n == 1'b0));
+    ap_block_state2_pp0_stage1_iter0_ignore_call6 = ((icmp_ln25_reg_212 == 1'd0) & (layer24_out_empty_n == 1'b0));
 end
 
 always @ (*) begin
@@ -473,11 +470,7 @@ always @ (*) begin
 end
 
 always @ (*) begin
-    ap_condition_382 = ((1'b0 == ap_block_pp0_stage1_11001) & (icmp_ln52_reg_211 == 1'd0) & (1'b1 == ap_CS_fsm_pp0_stage1));
-end
-
-always @ (*) begin
-    ap_condition_386 = ((1'b0 == ap_block_pp0_stage0_11001) & (ap_loop_init == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0));
+    ap_condition_162 = ((1'b0 == ap_block_pp0_stage0_11001) & (ap_enable_reg_pp0_iter0 == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0));
 end
 
 assign ap_enable_pp0 = (ap_idle_pp0 ^ 1'b1);
@@ -492,7 +485,7 @@ assign grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_
 
 assign grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_in_elem_0_1_0_0_0_val = {{layer24_out_dout[31:16]}};
 
-assign icmp_ln52_fu_172_p2 = ((ap_sig_allocacmp_indvar_flatten_load == 13'd6248) ? 1'b1 : 1'b0);
+assign icmp_ln25_fu_172_p2 = ((ap_sig_allocacmp_indvar_flatten_load == 11'd1452) ? 1'b1 : 1'b0);
 
 assign layer2_out_din = grp_compute_output_buffer_2d_array_array_ap_fixed_30_17_5_3_0_8u_config2_s_fu_104_layer2_out_din;
 

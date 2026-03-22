@@ -40,13 +40,13 @@ input   ap_continue;
 output   ap_idle;
 output   ap_ready;
 input  [303:0] layer2_out_dout;
-input  [13:0] layer2_out_num_data_valid;
-input  [13:0] layer2_out_fifo_cap;
+input  [11:0] layer2_out_num_data_valid;
+input  [11:0] layer2_out_fifo_cap;
 input   layer2_out_empty_n;
 output   layer2_out_read;
 output  [127:0] layer5_out_din;
-input  [13:0] layer5_out_num_data_valid;
-input  [13:0] layer5_out_fifo_cap;
+input  [11:0] layer5_out_num_data_valid;
+input  [11:0] layer5_out_fifo_cap;
 input   layer5_out_full_n;
 output   layer5_out_write;
 output   start_out;
@@ -95,10 +95,10 @@ wire   [15:0] select_ln51_6_fu_382_p3;
 reg   [15:0] select_ln51_6_reg_468;
 wire   [15:0] select_ln51_7_fu_406_p3;
 reg   [15:0] select_ln51_7_reg_473;
-reg   [12:0] i_fu_106;
-wire   [12:0] i_4_fu_137_p2;
+reg   [10:0] i_fu_106;
+wire   [10:0] i_8_fu_137_p2;
 wire    ap_loop_init;
-reg   [12:0] ap_sig_allocacmp_i_3;
+reg   [10:0] ap_sig_allocacmp_i_7;
 reg    ap_block_pp0_stage0_01001;
 wire   [37:0] trunc_ln44_fu_148_p1;
 wire   [0:0] icmp_ln51_fu_222_p2;
@@ -117,13 +117,13 @@ wire   [0:0] icmp_ln51_4_fu_318_p2;
 wire   [15:0] trunc_ln2_fu_324_p4;
 wire   [37:0] trunc_ln44_4_fu_192_p4;
 wire   [0:0] icmp_ln51_5_fu_342_p2;
-wire   [15:0] trunc_ln52_s_fu_348_p4;
+wire   [15:0] trunc_ln52_7_fu_348_p4;
 wire   [37:0] trunc_ln44_5_fu_202_p4;
 wire   [0:0] icmp_ln51_6_fu_366_p2;
-wire   [15:0] trunc_ln52_1_fu_372_p4;
+wire   [15:0] trunc_ln52_8_fu_372_p4;
 wire   [37:0] trunc_ln44_6_fu_212_p4;
 wire   [0:0] icmp_ln51_7_fu_390_p2;
-wire   [15:0] trunc_ln52_2_fu_396_p4;
+wire   [15:0] trunc_ln52_9_fu_396_p4;
 wire    ap_continue_int;
 reg    ap_done_int;
 reg    ap_loop_exit_ready_pp0_iter1_reg;
@@ -140,7 +140,7 @@ initial begin
 #0 ap_enable_reg_pp0_iter1 = 1'b0;
 #0 ap_enable_reg_pp0_iter2 = 1'b0;
 #0 ap_done_reg = 1'b0;
-#0 i_fu_106 = 13'd0;
+#0 i_fu_106 = 11'd0;
 end
 
 myproject_flow_control_loop_pipe flow_control_loop_pipe_U(
@@ -216,9 +216,9 @@ end
 always @ (posedge ap_clk) begin
     if ((1'b1 == ap_condition_129)) begin
         if ((icmp_ln41_fu_131_p2 == 1'd0)) begin
-            i_fu_106 <= i_4_fu_137_p2;
+            i_fu_106 <= i_8_fu_137_p2;
         end else if ((ap_loop_init == 1'b1)) begin
-            i_fu_106 <= 13'd0;
+            i_fu_106 <= 11'd0;
         end
     end
 end
@@ -279,9 +279,9 @@ end
 
 always @ (*) begin
     if (((1'b0 == ap_block_pp0_stage0) & (ap_start_int == 1'b1) & (1'b1 == ap_CS_fsm_pp0_stage0) & (ap_loop_init == 1'b1))) begin
-        ap_sig_allocacmp_i_3 = 13'd0;
+        ap_sig_allocacmp_i_7 = 11'd0;
     end else begin
-        ap_sig_allocacmp_i_3 = i_fu_106;
+        ap_sig_allocacmp_i_7 = i_fu_106;
     end
 end
 
@@ -384,9 +384,9 @@ assign ap_loop_exit_ready = ap_condition_exit_pp0_iter0_stage0;
 
 assign ap_ready = internal_ap_ready;
 
-assign i_4_fu_137_p2 = (ap_sig_allocacmp_i_3 + 13'd1);
+assign i_8_fu_137_p2 = (ap_sig_allocacmp_i_7 + 11'd1);
 
-assign icmp_ln41_fu_131_p2 = ((ap_sig_allocacmp_i_3 == 13'd5640) ? 1'b1 : 1'b0);
+assign icmp_ln41_fu_131_p2 = ((ap_sig_allocacmp_i_7 == 11'd1280) ? 1'b1 : 1'b0);
 
 assign icmp_ln51_1_fu_246_p2 = (($signed(trunc_ln44_s_fu_152_p4) > $signed(38'd0)) ? 1'b1 : 1'b0);
 
@@ -422,11 +422,11 @@ assign out_data_7_fu_310_p3 = ((icmp_ln51_3_fu_294_p2[0:0] == 1'b1) ? out_data_6
 
 assign out_data_fu_228_p4 = {{layer2_out_dout[25:10]}};
 
-assign select_ln51_5_fu_358_p3 = ((icmp_ln51_5_fu_342_p2[0:0] == 1'b1) ? trunc_ln52_s_fu_348_p4 : 16'd0);
+assign select_ln51_5_fu_358_p3 = ((icmp_ln51_5_fu_342_p2[0:0] == 1'b1) ? trunc_ln52_7_fu_348_p4 : 16'd0);
 
-assign select_ln51_6_fu_382_p3 = ((icmp_ln51_6_fu_366_p2[0:0] == 1'b1) ? trunc_ln52_1_fu_372_p4 : 16'd0);
+assign select_ln51_6_fu_382_p3 = ((icmp_ln51_6_fu_366_p2[0:0] == 1'b1) ? trunc_ln52_8_fu_372_p4 : 16'd0);
 
-assign select_ln51_7_fu_406_p3 = ((icmp_ln51_7_fu_390_p2[0:0] == 1'b1) ? trunc_ln52_2_fu_396_p4 : 16'd0);
+assign select_ln51_7_fu_406_p3 = ((icmp_ln51_7_fu_390_p2[0:0] == 1'b1) ? trunc_ln52_9_fu_396_p4 : 16'd0);
 
 assign select_ln51_fu_334_p3 = ((icmp_ln51_4_fu_318_p2[0:0] == 1'b1) ? trunc_ln2_fu_324_p4 : 16'd0);
 
@@ -450,10 +450,10 @@ assign trunc_ln44_fu_148_p1 = layer2_out_dout[37:0];
 
 assign trunc_ln44_s_fu_152_p4 = {{layer2_out_dout[75:38]}};
 
-assign trunc_ln52_1_fu_372_p4 = {{layer2_out_dout[253:238]}};
+assign trunc_ln52_7_fu_348_p4 = {{layer2_out_dout[215:200]}};
 
-assign trunc_ln52_2_fu_396_p4 = {{layer2_out_dout[291:276]}};
+assign trunc_ln52_8_fu_372_p4 = {{layer2_out_dout[253:238]}};
 
-assign trunc_ln52_s_fu_348_p4 = {{layer2_out_dout[215:200]}};
+assign trunc_ln52_9_fu_396_p4 = {{layer2_out_dout[291:276]}};
 
 endmodule //myproject_relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config5_s

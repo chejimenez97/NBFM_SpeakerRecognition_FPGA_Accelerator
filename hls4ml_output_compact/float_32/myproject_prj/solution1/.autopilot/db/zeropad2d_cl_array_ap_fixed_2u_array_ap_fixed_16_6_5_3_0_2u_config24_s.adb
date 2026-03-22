@@ -16,7 +16,7 @@
             <Obj class_id="5" tracking_level="0" version="0">
               <type>1</type>
               <id>1</id>
-              <name>input_1</name>
+              <name>input_4</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885415456</coreId>
+              <coreId>1966612524</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -110,7 +110,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539767593</coreId>
+              <coreId>1601200416</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -178,7 +178,7 @@
             <Obj>
               <type>0</type>
               <id>7</id>
-              <name>empty_92</name>
+              <name>empty_88</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -222,7 +222,7 @@
             <Obj>
               <type>0</type>
               <id>8</id>
-              <name>empty_93</name>
+              <name>empty_89</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -276,7 +276,7 @@
                 <item_version>0</item_version>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34</rtlName>
+              <rtlName>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -303,7 +303,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>2.75</m_delay>
+          <m_delay>1.00</m_delay>
           <m_topoIndex>5</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -312,7 +312,7 @@
             <Obj>
               <type>0</type>
               <id>10</id>
-              <name>empty_94</name>
+              <name>empty_90</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -356,7 +356,7 @@
             <Obj>
               <type>0</type>
               <id>11</id>
-              <name>empty_95</name>
+              <name>empty_91</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -417,7 +417,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3202696656</coreId>
+              <coreId>1885413420</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -477,7 +477,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3200415856</coreId>
+              <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -522,7 +522,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3202648384</coreId>
+              <coreId>1885415456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -535,7 +535,7 @@
             <Obj>
               <type>2</type>
               <id>22</id>
-              <name>zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain</name>
+              <name>zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -553,13 +553,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3201209120</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
           </Value>
           <const_type>6</const_type>
-          <content>&lt;constant:zeropad2d_cl&lt;array,array&lt;ap_fixed,2u&gt;,config24&gt;_Pipeline_PadMain_CopyMain&gt;</content>
+          <content>&lt;constant:zeropad2d_cl&lt;array,array&lt;ap_fixed&lt;16,6,5,3,0&gt;,2u&gt;,config24&gt;_Pipeline_PadMain&gt;</content>
         </item>
         <item class_id_reference="16" object_id="_14">
           <Value>
@@ -584,7 +584,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3201816672</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -618,7 +618,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>807414835</coreId>
+            <coreId>941632574</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -802,8 +802,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>17501</mMinLatency>
-        <mMaxLatency>17501</mMaxLatency>
+        <mMinLatency>1465</mMinLatency>
+        <mMaxLatency>1465</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -1054,17 +1054,32 @@
         <count>4</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28 (zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth)</first>
+          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34 (zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain)</first>
           <second class_id="37" tracking_level="0" version="0">
             <count>2</count>
             <item_version>0</item_version>
             <item class_id="38" tracking_level="0" version="0">
               <first>FF</first>
-              <second>12</second>
+              <second>112</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>81</second>
+              <second>555</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28 (zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth)</first>
+          <second>
+            <count>2</count>
+            <item_version>0</item_version>
+            <item>
+              <first>FF</first>
+              <second>10</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>77</second>
             </item>
           </second>
         </item>
@@ -1075,31 +1090,16 @@
             <item_version>0</item_version>
             <item>
               <first>FF</first>
-              <second>12</second>
+              <second>10</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>81</second>
+              <second>77</second>
             </item>
           </second>
         </item>
         <item>
-          <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34 (zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain)</first>
-          <second>
-            <count>2</count>
-            <item_version>0</item_version>
-            <item>
-              <first>FF</first>
-              <second>31</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>241</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>regslice_both_input_1_U (myproject_regslice_both)</first>
+          <first>regslice_both_input_4_U (myproject_regslice_both)</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -1191,7 +1191,7 @@
           </second>
         </item>
         <item>
-          <first>input_1_TREADY_int_regslice</first>
+          <first>input_4_TREADY_int_regslice</first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -1325,6 +1325,25 @@
           </second>
         </item>
         <item>
+          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>1</second>
+            </item>
+          </second>
+        </item>
+        <item>
           <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_start_reg</first>
           <second>
             <count>3</count>
@@ -1345,25 +1364,6 @@
         </item>
         <item>
           <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start_reg</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>1</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -1405,6 +1405,13 @@
         <count>4</count>
         <item_version>0</item_version>
         <item>
+          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34</first>
+          <second>
+            <count>0</count>
+            <item_version>0</item_version>
+          </second>
+        </item>
+        <item>
           <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28</first>
           <second>
             <count>0</count>
@@ -1419,14 +1426,7 @@
           </second>
         </item>
         <item>
-          <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34</first>
-          <second>
-            <count>0</count>
-            <item_version>0</item_version>
-          </second>
-        </item>
-        <item>
-          <first>regslice_both_input_1_U</first>
+          <first>regslice_both_input_4_U</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -1437,6 +1437,14 @@
         <count>3</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
+          <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34 (zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain)</first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>9</item>
+          </second>
+        </item>
+        <item>
           <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28 (zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth)</first>
           <second>
             <count>1</count>
@@ -1450,14 +1458,6 @@
             <count>1</count>
             <item_version>0</item_version>
             <item>12</item>
-          </second>
-        </item>
-        <item>
-          <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34 (zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain)</first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>9</item>
           </second>
         </item>
       </dp_component_map>
@@ -1595,6 +1595,15 @@
       <count>3</count>
       <item_version>0</item_version>
       <item class_id="52" tracking_level="0" version="0">
+        <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34</first>
+        <second>
+          <count>2</count>
+          <item_version>0</item_version>
+          <item>9</item>
+          <item>9</item>
+        </second>
+      </item>
+      <item>
         <first>grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28</first>
         <second>
           <count>2</count>
@@ -1610,15 +1619,6 @@
           <item_version>0</item_version>
           <item>12</item>
           <item>12</item>
-        </second>
-      </item>
-      <item>
-        <first>grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34</first>
-        <second>
-          <count>2</count>
-          <item_version>0</item_version>
-          <item>9</item>
-          <item>9</item>
         </second>
       </item>
     </dp_fu_nodes_module>
@@ -1654,7 +1654,7 @@
       <count>2</count>
       <item_version>0</item_version>
       <item class_id="55" tracking_level="0" version="0">
-        <first>input_1</first>
+        <first>input_4</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

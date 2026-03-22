@@ -35,13 +35,13 @@ set portList {
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ layer2_out_dout sc_in sc_lv 208 signal 0 } 
-	{ layer2_out_num_data_valid sc_in sc_lv 14 signal 0 } 
-	{ layer2_out_fifo_cap sc_in sc_lv 14 signal 0 } 
+	{ layer2_out_num_data_valid sc_in sc_lv 12 signal 0 } 
+	{ layer2_out_fifo_cap sc_in sc_lv 12 signal 0 } 
 	{ layer2_out_empty_n sc_in sc_logic 1 signal 0 } 
 	{ layer2_out_read sc_out sc_logic 1 signal 0 } 
 	{ layer4_out_din sc_out sc_lv 344 signal 1 } 
-	{ layer4_out_num_data_valid sc_in sc_lv 14 signal 1 } 
-	{ layer4_out_fifo_cap sc_in sc_lv 14 signal 1 } 
+	{ layer4_out_num_data_valid sc_in sc_lv 12 signal 1 } 
+	{ layer4_out_fifo_cap sc_in sc_lv 12 signal 1 } 
 	{ layer4_out_full_n sc_in sc_logic 1 signal 1 } 
 	{ layer4_out_write sc_out sc_logic 1 signal 1 } 
 	{ start_out sc_out sc_logic 1 signal -1 } 
@@ -57,13 +57,13 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "layer2_out_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":208, "type": "signal", "bundle":{"name": "layer2_out", "role": "dout" }} , 
- 	{ "name": "layer2_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer2_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer2_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer2_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer2_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer2_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer2_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer2_out", "role": "fifo_cap" }} , 
  	{ "name": "layer2_out_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer2_out", "role": "empty_n" }} , 
  	{ "name": "layer2_out_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer2_out", "role": "read" }} , 
  	{ "name": "layer4_out_din", "direction": "out", "datatype": "sc_lv", "bitwidth":344, "type": "signal", "bundle":{"name": "layer4_out", "role": "din" }} , 
- 	{ "name": "layer4_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer4_out", "role": "num_data_valid" }} , 
- 	{ "name": "layer4_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":14, "type": "signal", "bundle":{"name": "layer4_out", "role": "fifo_cap" }} , 
+ 	{ "name": "layer4_out_num_data_valid", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer4_out", "role": "num_data_valid" }} , 
+ 	{ "name": "layer4_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer4_out", "role": "fifo_cap" }} , 
  	{ "name": "layer4_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer4_out", "role": "full_n" }} , 
  	{ "name": "layer4_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer4_out", "role": "write" }} , 
  	{ "name": "start_out", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "start_out", "role": "default" }} , 
@@ -76,7 +76,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "1", "ap_idle" : "1", "real_start" : "1",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "5644", "EstimateLatencyMax" : "5644",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1284", "EstimateLatencyMax" : "1284",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -85,23 +85,23 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"IsBlackBox" : "0",
 		"Port" : [
-			{"Name" : "layer2_out", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "5640", "DependentChanType" : "0",
+			{"Name" : "layer2_out", "Type" : "Fifo", "Direction" : "I", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "1280", "DependentChanType" : "0",
 				"BlockSignal" : [
 					{"Name" : "layer2_out_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "layer4_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "5640", "DependentChanType" : "0",
+			{"Name" : "layer4_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "1280", "DependentChanType" : "0",
 				"BlockSignal" : [
 					{"Name" : "layer4_out_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
 			{"Name" : "BatchNormLoop", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "1", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter3", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter3", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "1"}}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U30", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U31", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_13ns_38_1_1_U32", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U33", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U34", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_16ns_41_1_1_U35", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U36", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U37", "Parent" : "0"},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U50", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U51", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U52", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U53", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U54", "Parent" : "0"},
+	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U55", "Parent" : "0"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_11ns_36_1_1_U56", "Parent" : "0"},
+	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_26s_12ns_37_1_1_U57", "Parent" : "0"},
 	{"ID" : "9", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.flow_control_loop_pipe_U", "Parent" : "0"}]}
 
 
@@ -113,8 +113,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "5644", "Max" : "5644"}
-	, {"Name" : "Interval", "Min" : "5644", "Max" : "5644"}
+	{"Name" : "Latency", "Min" : "1284", "Max" : "1284"}
+	, {"Name" : "Interval", "Min" : "1284", "Max" : "1284"}
 ]}
 
 set PipelineEnableSignalInfo {[
@@ -122,6 +122,6 @@ set PipelineEnableSignalInfo {[
 ]}
 
 set Spec2ImplPortList { 
-	layer2_out { ap_fifo {  { layer2_out_dout fifo_data_in 0 208 }  { layer2_out_num_data_valid fifo_status_num_data_valid 0 14 }  { layer2_out_fifo_cap fifo_update 0 14 }  { layer2_out_empty_n fifo_status 0 1 }  { layer2_out_read fifo_port_we 1 1 } } }
-	layer4_out { ap_fifo {  { layer4_out_din fifo_data_in 1 344 }  { layer4_out_num_data_valid fifo_status_num_data_valid 0 14 }  { layer4_out_fifo_cap fifo_update 0 14 }  { layer4_out_full_n fifo_status 0 1 }  { layer4_out_write fifo_port_we 1 1 } } }
+	layer2_out { ap_fifo {  { layer2_out_dout fifo_data_in 0 208 }  { layer2_out_num_data_valid fifo_status_num_data_valid 0 12 }  { layer2_out_fifo_cap fifo_update 0 12 }  { layer2_out_empty_n fifo_status 0 1 }  { layer2_out_read fifo_port_we 1 1 } } }
+	layer4_out { ap_fifo {  { layer4_out_din fifo_data_in 1 344 }  { layer4_out_num_data_valid fifo_status_num_data_valid 0 12 }  { layer4_out_fifo_cap fifo_update 0 12 }  { layer4_out_full_n fifo_status 0 1 }  { layer4_out_write fifo_port_we 1 1 } } }
 }

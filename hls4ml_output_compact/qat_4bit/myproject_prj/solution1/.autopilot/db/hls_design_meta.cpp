@@ -1,11 +1,11 @@
 #include "hls_design_meta.h"
 const Port_Property HLS_Design_Meta::port_props[]={
-	Port_Property("input_1_TDATA", 32, hls_in, 0, "axis", "in_data", 1),
+	Port_Property("input_8_TDATA", 32, hls_in, 0, "axis", "in_data", 1),
 	Port_Property("layer23_out_TDATA", 160, hls_out, 1, "axis", "out_data", 1),
 	Port_Property("ap_clk", 1, hls_in, -1, "", "", 1),
 	Port_Property("ap_rst_n", 1, hls_in, -1, "", "", 1),
-	Port_Property("input_1_TVALID", 1, hls_in, 0, "axis", "in_vld", 1),
-	Port_Property("input_1_TREADY", 1, hls_out, 0, "axis", "in_acc", 1),
+	Port_Property("input_8_TVALID", 1, hls_in, 0, "axis", "in_vld", 1),
+	Port_Property("input_8_TREADY", 1, hls_out, 0, "axis", "in_acc", 1),
 	Port_Property("ap_start", 1, hls_in, -1, "", "", 1),
 	Port_Property("layer23_out_TVALID", 1, hls_out, 1, "axis", "out_vld", 1),
 	Port_Property("layer23_out_TREADY", 1, hls_in, 1, "axis", "out_acc", 1),

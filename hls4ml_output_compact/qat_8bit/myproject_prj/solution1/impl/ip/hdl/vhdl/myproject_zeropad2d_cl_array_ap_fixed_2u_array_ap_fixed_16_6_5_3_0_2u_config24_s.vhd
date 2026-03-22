@@ -20,12 +20,12 @@ port (
     ap_ready : OUT STD_LOGIC;
     start_out : OUT STD_LOGIC;
     start_write : OUT STD_LOGIC;
-    input_3_TDATA : IN STD_LOGIC_VECTOR (31 downto 0);
-    input_3_TVALID : IN STD_LOGIC;
-    input_3_TREADY : OUT STD_LOGIC;
+    input_6_TDATA : IN STD_LOGIC_VECTOR (31 downto 0);
+    input_6_TVALID : IN STD_LOGIC;
+    input_6_TREADY : OUT STD_LOGIC;
     layer24_out_din : OUT STD_LOGIC_VECTOR (31 downto 0);
-    layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (13 downto 0);
-    layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (13 downto 0);
+    layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
+    layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
     layer24_out_full_n : IN STD_LOGIC;
     layer24_out_write : OUT STD_LOGIC );
 end;
@@ -50,7 +50,7 @@ architecture behav of myproject_zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16
     constant ap_const_lv32_4 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000100";
     constant ap_const_lv32_6 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000110";
     constant ap_const_lv32_7 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000111";
-    constant ap_const_lv14_0 : STD_LOGIC_VECTOR (13 downto 0) := "00000000000000";
+    constant ap_const_lv12_0 : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
 
 attribute shreg_extract : string;
     signal real_start : STD_LOGIC;
@@ -68,13 +68,13 @@ attribute shreg_extract : string;
     signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_ready : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_din : STD_LOGIC_VECTOR (31 downto 0);
     signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_write : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_idle : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_ready : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_din : STD_LOGIC_VECTOR (31 downto 0);
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_write : STD_LOGIC;
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_input_3_TREADY : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_idle : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_ready : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_din : STD_LOGIC_VECTOR (31 downto 0);
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_write : STD_LOGIC;
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_input_6_TREADY : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_done : STD_LOGIC;
     signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_idle : STD_LOGIC;
@@ -85,7 +85,7 @@ attribute shreg_extract : string;
     signal ap_block_state1_ignore_call3 : BOOLEAN;
     signal ap_CS_fsm_state2 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state2 : signal is "none";
-    signal grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg : STD_LOGIC := '0';
+    signal grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg : STD_LOGIC := '0';
     signal ap_CS_fsm_state4 : STD_LOGIC;
     attribute fsm_encoding of ap_CS_fsm_state4 : signal is "none";
     signal ap_CS_fsm_state5 : STD_LOGIC;
@@ -105,11 +105,11 @@ attribute shreg_extract : string;
     signal ap_ST_fsm_state6_blk : STD_LOGIC;
     signal ap_ST_fsm_state7_blk : STD_LOGIC;
     signal ap_ST_fsm_state8_blk : STD_LOGIC;
-    signal regslice_both_input_3_U_apdone_blk : STD_LOGIC;
-    signal input_3_TDATA_int_regslice : STD_LOGIC_VECTOR (31 downto 0);
-    signal input_3_TVALID_int_regslice : STD_LOGIC;
-    signal input_3_TREADY_int_regslice : STD_LOGIC;
-    signal regslice_both_input_3_U_ack_in : STD_LOGIC;
+    signal regslice_both_input_6_U_apdone_blk : STD_LOGIC;
+    signal input_6_TDATA_int_regslice : STD_LOGIC_VECTOR (31 downto 0);
+    signal input_6_TVALID_int_regslice : STD_LOGIC;
+    signal input_6_TREADY_int_regslice : STD_LOGIC;
+    signal regslice_both_input_6_U_ack_in : STD_LOGIC;
     signal ap_ce_reg : STD_LOGIC;
 
     component myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth IS
@@ -121,14 +121,14 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer24_out_din : OUT STD_LOGIC_VECTOR (31 downto 0);
-        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (13 downto 0);
-        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (13 downto 0);
+        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
         layer24_out_full_n : IN STD_LOGIC;
         layer24_out_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain IS
+    component myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -137,13 +137,13 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer24_out_din : OUT STD_LOGIC_VECTOR (31 downto 0);
-        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (13 downto 0);
-        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (13 downto 0);
+        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
         layer24_out_full_n : IN STD_LOGIC;
         layer24_out_write : OUT STD_LOGIC;
-        input_3_TVALID : IN STD_LOGIC;
-        input_3_TDATA : IN STD_LOGIC_VECTOR (31 downto 0);
-        input_3_TREADY : OUT STD_LOGIC );
+        input_6_TDATA : IN STD_LOGIC_VECTOR (31 downto 0);
+        input_6_TVALID : IN STD_LOGIC;
+        input_6_TREADY : OUT STD_LOGIC );
     end component;
 
 
@@ -156,8 +156,8 @@ attribute shreg_extract : string;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer24_out_din : OUT STD_LOGIC_VECTOR (31 downto 0);
-        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (13 downto 0);
-        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (13 downto 0);
+        layer24_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer24_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
         layer24_out_full_n : IN STD_LOGIC;
         layer24_out_write : OUT STD_LOGIC );
     end component;
@@ -190,27 +190,27 @@ begin
         ap_idle => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_idle,
         ap_ready => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_ready,
         layer24_out_din => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_din,
-        layer24_out_num_data_valid => ap_const_lv14_0,
-        layer24_out_fifo_cap => ap_const_lv14_0,
+        layer24_out_num_data_valid => ap_const_lv12_0,
+        layer24_out_fifo_cap => ap_const_lv12_0,
         layer24_out_full_n => layer24_out_full_n,
         layer24_out_write => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_write);
 
-    grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34 : component myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain
+    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34 : component myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        ap_start => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start,
-        ap_done => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done,
-        ap_idle => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_idle,
-        ap_ready => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_ready,
-        layer24_out_din => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_din,
-        layer24_out_num_data_valid => ap_const_lv14_0,
-        layer24_out_fifo_cap => ap_const_lv14_0,
+        ap_start => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start,
+        ap_done => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done,
+        ap_idle => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_idle,
+        ap_ready => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_ready,
+        layer24_out_din => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_din,
+        layer24_out_num_data_valid => ap_const_lv12_0,
+        layer24_out_fifo_cap => ap_const_lv12_0,
         layer24_out_full_n => layer24_out_full_n,
-        layer24_out_write => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_write,
-        input_3_TVALID => input_3_TVALID_int_regslice,
-        input_3_TDATA => input_3_TDATA_int_regslice,
-        input_3_TREADY => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_input_3_TREADY);
+        layer24_out_write => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_write,
+        input_6_TDATA => input_6_TDATA_int_regslice,
+        input_6_TVALID => input_6_TVALID_int_regslice,
+        input_6_TREADY => grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_input_6_TREADY);
 
     grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42 : component myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth
     port map (
@@ -221,24 +221,24 @@ begin
         ap_idle => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_idle,
         ap_ready => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_ready,
         layer24_out_din => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_din,
-        layer24_out_num_data_valid => ap_const_lv14_0,
-        layer24_out_fifo_cap => ap_const_lv14_0,
+        layer24_out_num_data_valid => ap_const_lv12_0,
+        layer24_out_fifo_cap => ap_const_lv12_0,
         layer24_out_full_n => layer24_out_full_n,
         layer24_out_write => grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_write);
 
-    regslice_both_input_3_U : component myproject_regslice_both
+    regslice_both_input_6_U : component myproject_regslice_both
     generic map (
         DataWidth => 32)
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst,
-        data_in => input_3_TDATA,
-        vld_in => input_3_TVALID,
-        ack_in => regslice_both_input_3_U_ack_in,
-        data_out => input_3_TDATA_int_regslice,
-        vld_out => input_3_TVALID_int_regslice,
-        ack_out => input_3_TREADY_int_regslice,
-        apdone_blk => regslice_both_input_3_U_apdone_blk);
+        data_in => input_6_TDATA,
+        vld_in => input_6_TVALID,
+        ack_in => regslice_both_input_6_U_ack_in,
+        data_out => input_6_TDATA_int_regslice,
+        vld_out => input_6_TVALID_int_regslice,
+        ack_out => input_6_TREADY_int_regslice,
+        apdone_blk => regslice_both_input_6_U_apdone_blk);
 
 
 
@@ -266,6 +266,22 @@ begin
                     ap_done_reg <= ap_const_logic_0;
                 elsif (((grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state8))) then 
                     ap_done_reg <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg <= ap_const_logic_0;
+            else
+                if ((ap_const_logic_1 = ap_CS_fsm_state4)) then 
+                    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg <= ap_const_logic_1;
+                elsif ((grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_ready = ap_const_logic_1)) then 
+                    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg <= ap_const_logic_0;
                 end if; 
             end if;
         end if;
@@ -304,22 +320,6 @@ begin
     end process;
 
 
-    grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg_assign_proc : process(ap_clk)
-    begin
-        if (ap_clk'event and ap_clk =  '1') then
-            if (ap_rst = '1') then
-                grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg <= ap_const_logic_0;
-            else
-                if ((ap_const_logic_1 = ap_CS_fsm_state4)) then 
-                    grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg <= ap_const_logic_1;
-                elsif ((grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_ready = ap_const_logic_1)) then 
-                    grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg <= ap_const_logic_0;
-                end if; 
-            end if;
-        end if;
-    end process;
-
-
     start_once_reg_assign_proc : process(ap_clk)
     begin
         if (ap_clk'event and ap_clk =  '1') then
@@ -336,7 +336,7 @@ begin
     end process;
 
 
-    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_done, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8, ap_block_state1)
+    ap_NS_fsm_assign_proc : process (ap_CS_fsm, ap_CS_fsm_state1, grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_done, grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_done, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8, ap_block_state1)
     begin
         case ap_CS_fsm is
             when ap_ST_fsm_state1 => 
@@ -356,7 +356,7 @@ begin
             when ap_ST_fsm_state4 => 
                 ap_NS_fsm <= ap_ST_fsm_state5;
             when ap_ST_fsm_state5 => 
-                if (((grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state5))) then
+                if (((grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done = ap_const_logic_1) and (ap_const_logic_1 = ap_CS_fsm_state5))) then
                     ap_NS_fsm <= ap_ST_fsm_state6;
                 else
                     ap_NS_fsm <= ap_ST_fsm_state5;
@@ -404,9 +404,9 @@ begin
     ap_ST_fsm_state3_blk <= ap_const_logic_0;
     ap_ST_fsm_state4_blk <= ap_const_logic_0;
 
-    ap_ST_fsm_state5_blk_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done)
+    ap_ST_fsm_state5_blk_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done)
     begin
-        if ((grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_done = ap_const_logic_0)) then 
+        if ((grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_done = ap_const_logic_0)) then 
             ap_ST_fsm_state5_blk <= ap_const_logic_1;
         else 
             ap_ST_fsm_state5_blk <= ap_const_logic_0;
@@ -458,17 +458,17 @@ begin
     end process;
 
     ap_ready <= internal_ap_ready;
+    grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_start_reg;
     grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start_reg;
-    grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_ap_start_reg;
-    input_3_TREADY <= regslice_both_input_3_U_ack_in;
+    input_6_TREADY <= regslice_both_input_6_U_ack_in;
 
-    input_3_TREADY_int_regslice_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_input_3_TREADY, ap_CS_fsm_state5)
+    input_6_TREADY_int_regslice_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_input_6_TREADY, ap_CS_fsm_state5)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            input_3_TREADY_int_regslice <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_input_3_TREADY;
+            input_6_TREADY_int_regslice <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_input_6_TREADY;
         else 
-            input_3_TREADY_int_regslice <= ap_const_logic_0;
+            input_6_TREADY_int_regslice <= ap_const_logic_0;
         end if; 
     end process;
 
@@ -483,12 +483,12 @@ begin
     end process;
 
 
-    layer24_out_din_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_din, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_din, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_din, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
+    layer24_out_din_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_din, grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_din, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_din, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state8)) then 
             layer24_out_din <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_din;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            layer24_out_din <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_din;
+            layer24_out_din <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_din;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state2)) then 
             layer24_out_din <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_din;
         else 
@@ -497,12 +497,12 @@ begin
     end process;
 
 
-    layer24_out_write_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_write, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_write, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_write, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
+    layer24_out_write_assign_proc : process(grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_write, grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_write, grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_write, ap_CS_fsm_state2, ap_CS_fsm_state5, ap_CS_fsm_state8)
     begin
         if ((ap_const_logic_1 = ap_CS_fsm_state8)) then 
             layer24_out_write <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_layer24_out_write;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state5)) then 
-            layer24_out_write <= grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34_layer24_out_write;
+            layer24_out_write <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_layer24_out_write;
         elsif ((ap_const_logic_1 = ap_CS_fsm_state2)) then 
             layer24_out_write <= grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_layer24_out_write;
         else 

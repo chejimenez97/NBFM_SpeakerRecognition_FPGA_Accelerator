@@ -11,7 +11,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
 eval "::AESL_LIB_XILADAPTER::native_axis_add { \
-    id 2147 \
+    id 749 \
     name layer23_out \
     reset_level 1 \
     sync_rst true \
@@ -29,7 +29,7 @@ puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored ge
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 2146 \
+    id 748 \
     name layer21_out \
     type fifo \
     dir I \
@@ -37,7 +37,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer21_out \
     op interface \
-    ports { layer21_out_dout { I 140 vector } layer21_out_num_data_valid { I 2 vector } layer21_out_fifo_cap { I 2 vector } layer21_out_empty_n { I 1 bit } layer21_out_read { O 1 bit } } \
+    ports { layer21_out_dout { I 130 vector } layer21_out_num_data_valid { I 2 vector } layer21_out_fifo_cap { I 2 vector } layer21_out_empty_n { I 1 bit } layer21_out_read { O 1 bit } } \
 } "
 }
 
@@ -106,7 +106,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 
 
 # RegSlice definition:
-set ID 2148
+set ID 750
 set RegSliceName myproject_regslice_both
 set RegSliceInstName myproject_regslice_both_U
 set CoreName ap_simcore_myproject_regslice_both

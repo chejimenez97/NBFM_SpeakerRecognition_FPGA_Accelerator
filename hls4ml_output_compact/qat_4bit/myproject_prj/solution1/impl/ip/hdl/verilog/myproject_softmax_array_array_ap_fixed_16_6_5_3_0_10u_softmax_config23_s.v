@@ -35,7 +35,7 @@ output   ap_done;
 input   ap_continue;
 output   ap_idle;
 output   ap_ready;
-input  [139:0] layer21_out_dout;
+input  [129:0] layer21_out_dout;
 input  [1:0] layer21_out_num_data_valid;
 input  [1:0] layer21_out_fifo_cap;
 input   layer21_out_empty_n;

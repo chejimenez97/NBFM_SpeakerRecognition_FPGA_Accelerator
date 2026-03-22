@@ -10,7 +10,7 @@
 
 // Prototype of top level function for C-synthesis
 void myproject(
-    hls::stream<input_t> &input_3,
+    hls::stream<input_t> &input_6,
     hls::stream<result_t> &layer23_out
 );
 

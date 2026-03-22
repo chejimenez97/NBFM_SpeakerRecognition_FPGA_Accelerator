@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s'
 ================================================================
-* Date:           Sat Mar 21 19:23:40 2026
+* Date:           Sun Mar 22 09:52:21 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -77,14 +77,14 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 0.00>
-ST_1 : Operation 4 [2/2] (0.00ns)   --->   "%call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i220 %layer21_out, i160 %layer23_out, i18 %invert_table" [firmware/nnet_utils/nnet_activation_stream.h:359]   --->   Operation 4 'call' 'call_ln359' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 4 [2/2] (0.00ns)   --->   "%call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i210 %layer21_out, i160 %layer23_out, i18 %invert_table" [firmware/nnet_utils/nnet_activation_stream.h:359]   --->   Operation 4 'call' 'call_ln359' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 3.45>
-ST_2 : Operation 5 [1/2] (3.45ns)   --->   "%call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i220 %layer21_out, i160 %layer23_out, i18 %invert_table" [firmware/nnet_utils/nnet_activation_stream.h:359]   --->   Operation 5 'call' 'call_ln359' <Predicate = true> <Delay = 3.45> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 5 [1/2] (3.45ns)   --->   "%call_ln359 = call void @softmax_stable<array,array<ap_fixed<16,6,5,3,0>,10u>,softmax_config23>, i210 %layer21_out, i160 %layer23_out, i18 %invert_table" [firmware/nnet_utils/nnet_activation_stream.h:359]   --->   Operation 5 'call' 'call_ln359' <Predicate = true> <Delay = 3.45> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i220 %layer21_out, void @empty_14, i32 0, i32 0, void @empty_7, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer23_out, void @empty_16, i32 1, i32 1, void @empty_15, i32 0, i32 0, void @empty_7, void @empty_7, void @empty_7, i32 0, i32 0, i32 0, i32 0, void @empty_7, void @empty_7, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i210 %layer21_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i160 %layer23_out, void @empty_12, i32 1, i32 1, void @empty_21, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 8 [1/1] (0.00ns)   --->   "%ret_ln368 = ret" [firmware/nnet_utils/nnet_activation_stream.h:368]   --->   Operation 8 'ret' 'ret_ln368' <Predicate = true> <Delay = 0.00>
 
 

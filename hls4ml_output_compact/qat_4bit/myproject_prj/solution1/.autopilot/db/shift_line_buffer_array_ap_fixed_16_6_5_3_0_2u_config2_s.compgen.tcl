@@ -1,7 +1,7 @@
 # This script segment is generated automatically by AutoPilot
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb BINDTYPE {storage} TYPE {shiftreg} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb BINDTYPE {storage} TYPE {shiftreg} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
@@ -46,14 +46,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 11 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 \
     type other \
     dir IO \
     reset_level 1 \
     sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 \
     op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld { O 1 bit } } \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_o_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -61,14 +61,14 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 12 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 \
     op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_ap_vld { O 1 bit } } \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -76,21 +76,6 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 13 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21 \
-    type other \
-    dir IO \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21 \
-    op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 14 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23 \
     type other \
     dir O \
@@ -105,15 +90,30 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
+    id 14 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16 \
+    type other \
+    dir IO \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16 \
+    op interface \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16_o_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
     id 15 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18 \
     type other \
     dir O \
     reset_level 1 \
     sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18 \
     op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld { O 1 bit } } \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18_ap_vld { O 1 bit } } \
 } "
 }
 
@@ -121,6 +121,36 @@ eval "cg_default_interface_gen_dc { \
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
     id 16 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15 \
+    type other \
+    dir IO \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15 \
+    op interface \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15_o_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 17 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17 \
+    op interface \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 18 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3 \
     type other \
     dir IO \
@@ -135,7 +165,37 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 17 \
+    id 19 \
+    name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 \
+    type other \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 \
+    op interface \
+    ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 20 \
+    name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 \
+    type other \
+    dir IO \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 \
+    op interface \
+    ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_i { I 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_o_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 21 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 \
     type other \
     dir O \
@@ -150,22 +210,52 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 18 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 \
+    id 22 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20 \
     type other \
     dir IO \
     reset_level 1 \
     sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20 \
     op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld { O 1 bit } } \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld { O 1 bit } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 19 \
+    id 23 \
+    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19 \
+    type other \
+    dir IO \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19 \
+    op interface \
+    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_i { I 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19_o_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 24 \
+    name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7 \
+    type other \
+    dir IO \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7 \
+    op interface \
+    ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_i { I 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7_o_ap_vld { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 25 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 \
     type other \
     dir IO \
@@ -180,22 +270,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 20 \
-    name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 \
-    type other \
-    dir IO \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 \
-    op interface \
-    ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_i { I 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5_o_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 21 \
+    id 26 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 \
     type other \
     dir IO \
@@ -210,7 +285,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 22 \
+    id 27 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 \
     type other \
     dir IO \
@@ -219,36 +294,6 @@ eval "cg_default_interface_gen_dc { \
     corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 \
     op interface \
     ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_i { I 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_o_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 23 \
-    name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 \
-    op interface \
-    ports { p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 { O 16 vector } p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2_ap_vld { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 24 \
-    name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 \
-    type other \
-    dir O \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 \
-    op interface \
-    ports { void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 { O 16 vector } void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_ap_vld { O 1 bit } } \
 } "
 }
 

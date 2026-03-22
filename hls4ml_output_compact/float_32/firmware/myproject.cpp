@@ -5,12 +5,12 @@
 
 
 void myproject(
-    hls::stream<input_t> &input_1,
+    hls::stream<input_t> &input_4,
     hls::stream<result_t> &layer23_out
 ) {
 
     // hls-fpga-machine-learning insert IO
-    #pragma HLS INTERFACE axis port=input_1,layer23_out 
+    #pragma HLS INTERFACE axis port=input_4,layer23_out 
     #pragma HLS DATAFLOW
 
     // hls-fpga-machine-learning insert load weights
@@ -19,13 +19,13 @@ void myproject(
     if (!loaded_weights) {
         nnet::load_weights_from_txt<conv1_weight_t, 144>(w2, "w2.txt");
         nnet::load_weights_from_txt<conv1_bias_t, 8>(b2, "b2.txt");
-        nnet::load_weights_from_txt<conv2_weight_t, 1152>(w7, "w7.txt");
-        nnet::load_weights_from_txt<conv2_bias_t, 16>(b7, "b7.txt");
-        nnet::load_weights_from_txt<conv3_weight_t, 2304>(w12, "w12.txt");
-        nnet::load_weights_from_txt<conv3_bias_t, 16>(b12, "b12.txt");
-        nnet::load_weights_from_txt<dense1_weight_t, 3584>(w18, "w18.txt");
-        nnet::load_weights_from_txt<dense1_bias_t, 32>(b18, "b18.txt");
-        nnet::load_weights_from_txt<output_weight_t, 320>(w21, "w21.txt");
+        nnet::load_weights_from_txt<conv2_weight_t, 576>(w7, "w7.txt");
+        nnet::load_weights_from_txt<conv2_bias_t, 8>(b7, "b7.txt");
+        nnet::load_weights_from_txt<conv3_weight_t, 576>(w12, "w12.txt");
+        nnet::load_weights_from_txt<conv3_bias_t, 8>(b12, "b12.txt");
+        nnet::load_weights_from_txt<dense1_weight_t, 256>(w18, "w18.txt");
+        nnet::load_weights_from_txt<dense1_bias_t, 16>(b18, "b18.txt");
+        nnet::load_weights_from_txt<output_weight_t, 160>(w21, "w21.txt");
         nnet::load_weights_from_txt<output_bias_t, 10>(b21, "b21.txt");
         loaded_weights = true;    }
 #endif
@@ -36,40 +36,40 @@ void myproject(
     // hls-fpga-machine-learning insert layers
 
     hls::stream<layer24_t> layer24_out("layer24_out");
-    #pragma HLS STREAM variable=layer24_out depth=6248
+    #pragma HLS STREAM variable=layer24_out depth=1452
 
     hls::stream<conv1_result_t> layer2_out("layer2_out");
-    #pragma HLS STREAM variable=layer2_out depth=5640
+    #pragma HLS STREAM variable=layer2_out depth=1280
 
     hls::stream<layer5_t> layer5_out("layer5_out");
-    #pragma HLS STREAM variable=layer5_out depth=5640
+    #pragma HLS STREAM variable=layer5_out depth=1280
 
     hls::stream<layer6_t> layer6_out("layer6_out");
-    #pragma HLS STREAM variable=layer6_out depth=700
+    #pragma HLS STREAM variable=layer6_out depth=320
 
     hls::stream<layer25_t> layer25_out("layer25_out");
-    #pragma HLS STREAM variable=layer25_out depth=864
+    #pragma HLS STREAM variable=layer25_out depth=408
 
     hls::stream<conv2_result_t> layer7_out("layer7_out");
-    #pragma HLS STREAM variable=layer7_out depth=700
+    #pragma HLS STREAM variable=layer7_out depth=320
 
     hls::stream<layer10_t> layer10_out("layer10_out");
-    #pragma HLS STREAM variable=layer10_out depth=700
+    #pragma HLS STREAM variable=layer10_out depth=320
 
     hls::stream<layer11_t> layer11_out("layer11_out");
-    #pragma HLS STREAM variable=layer11_out depth=70
+    #pragma HLS STREAM variable=layer11_out depth=40
 
     hls::stream<layer26_t> layer26_out("layer26_out");
-    #pragma HLS STREAM variable=layer26_out depth=112
+    #pragma HLS STREAM variable=layer26_out depth=70
 
     hls::stream<conv3_result_t> layer12_out("layer12_out");
-    #pragma HLS STREAM variable=layer12_out depth=70
+    #pragma HLS STREAM variable=layer12_out depth=40
 
     hls::stream<layer15_t> layer15_out("layer15_out");
-    #pragma HLS STREAM variable=layer15_out depth=70
+    #pragma HLS STREAM variable=layer15_out depth=40
 
     hls::stream<layer16_t> layer16_out("layer16_out");
-    #pragma HLS STREAM variable=layer16_out depth=7
+    #pragma HLS STREAM variable=layer16_out depth=2
 
     auto& layer17_out = layer16_out;
     hls::stream<dense1_result_t> layer18_out("layer18_out");
@@ -81,7 +81,7 @@ void myproject(
     hls::stream<output_result_t> layer21_out("layer21_out");
     #pragma HLS STREAM variable=layer21_out depth=1
 
-    nnet::zeropad2d_cl<input_t, layer24_t, config24>(input_1, layer24_out); // zp2d_conv1
+    nnet::zeropad2d_cl<input_t, layer24_t, config24>(input_4, layer24_out); // zp2d_conv1
 
     nnet::conv_2d_cl<layer24_t, conv1_result_t, config2>(layer24_out, layer2_out, w2, b2); // conv1
 

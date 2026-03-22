@@ -34,10 +34,10 @@
               <coreName>FIFO_SRL</coreName>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741353829</coreId>
+              <coreId>1630019628</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>380</bitwidth>
+            <bitwidth>370</bitwidth>
           </Value>
           <direction>0</direction>
           <if_type>3</if_type>
@@ -70,7 +70,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1701080941</coreId>
+              <coreId>741353829</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>160</bitwidth>
@@ -96,8 +96,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>173</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -109,7 +109,7 @@
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>173</second>
                     </item>
@@ -125,7 +125,7 @@
               <isStorage>1</isStorage>
               <storageDepth>1024</storageDepth>
               <coreId>83</coreId>
-              <rtlModuleName>myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx</rtlModuleName>
+              <rtlModuleName>myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn</rtlModuleName>
             </Obj>
             <bitwidth>16</bitwidth>
           </Value>
@@ -152,8 +152,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>183</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -165,7 +165,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>183</second>
                     </item>
@@ -173,7 +173,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620</rtlName>
+              <rtlName>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -209,8 +209,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -222,7 +222,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -240,7 +240,7 @@
               <coreId>81</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>380</bitwidth>
+            <bitwidth>370</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -266,8 +266,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -279,7 +279,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -297,7 +297,7 @@
               <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -322,8 +322,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -335,7 +335,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -353,7 +353,7 @@
               <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -381,8 +381,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -394,7 +394,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -412,7 +412,7 @@
               <coreId>1746938918</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -440,8 +440,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -453,7 +453,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -471,7 +471,7 @@
               <coreId>1746938918</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -499,8 +499,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -512,7 +512,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -527,10 +527,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1601134448</coreId>
+              <coreId>1685024095</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -558,8 +558,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -571,7 +571,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -586,10 +586,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1868525665</coreId>
+              <coreId>1685024095</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -617,8 +617,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -630,7 +630,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -645,10 +645,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907193296</coreId>
+              <coreId>1869438833</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -676,8 +676,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -689,7 +689,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -704,10 +704,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>903995072</coreId>
+              <coreId>1952804462</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -735,8 +735,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -748,7 +748,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -763,10 +763,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905742592</coreId>
+              <coreId>1852795252</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -794,8 +794,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>198</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -807,7 +807,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>198</second>
                     </item>
@@ -822,10 +822,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907243088</coreId>
+              <coreId>2002417072</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -866,7 +866,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -880,28 +880,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -958,7 +958,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -972,28 +972,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1050,7 +1050,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1064,28 +1064,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1103,7 +1103,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -1117,7 +1117,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>16</m_topoIndex>
           <m_clusterGroupNumber>1</m_clusterGroupNumber>
         </item>
@@ -1143,7 +1143,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1157,28 +1157,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1235,7 +1235,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1249,28 +1249,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1327,7 +1327,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1341,28 +1341,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1380,7 +1380,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -1394,7 +1394,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>19</m_topoIndex>
           <m_clusterGroupNumber>2</m_clusterGroupNumber>
         </item>
@@ -1420,7 +1420,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1434,21 +1434,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1505,7 +1505,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1519,21 +1519,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1590,7 +1590,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1604,21 +1604,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1636,7 +1636,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -1650,7 +1650,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>38</m_topoIndex>
           <m_clusterGroupNumber>3</m_clusterGroupNumber>
         </item>
@@ -1676,7 +1676,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1690,28 +1690,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1768,7 +1768,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1782,28 +1782,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1860,7 +1860,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1874,28 +1874,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -1913,7 +1913,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -1927,7 +1927,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>22</m_topoIndex>
           <m_clusterGroupNumber>4</m_clusterGroupNumber>
         </item>
@@ -1953,7 +1953,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -1967,28 +1967,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2045,7 +2045,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2059,28 +2059,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2137,7 +2137,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2151,28 +2151,28 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2190,7 +2190,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -2204,7 +2204,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>25</m_topoIndex>
           <m_clusterGroupNumber>5</m_clusterGroupNumber>
         </item>
@@ -2230,7 +2230,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2244,21 +2244,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2315,7 +2315,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2329,21 +2329,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2400,7 +2400,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2414,21 +2414,21 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 4, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2446,7 +2446,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -2460,7 +2460,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>41</m_topoIndex>
           <m_clusterGroupNumber>6</m_clusterGroupNumber>
         </item>
@@ -2486,7 +2486,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2500,14 +2500,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2564,7 +2564,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2578,14 +2578,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2642,7 +2642,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2656,14 +2656,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 8, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -2681,7 +2681,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -2695,7 +2695,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>45</m_topoIndex>
           <m_clusterGroupNumber>7</m_clusterGroupNumber>
         </item>
@@ -2721,7 +2721,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2735,14 +2735,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
@@ -2799,7 +2799,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2813,14 +2813,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
@@ -2877,7 +2877,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2891,14 +2891,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 2, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>44</second>
                     </item>
@@ -2916,7 +2916,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>38</bitwidth>
+            <bitwidth>37</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -2930,7 +2930,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.34</m_delay>
+          <m_delay>0.36</m_delay>
           <m_topoIndex>47</m_topoIndex>
           <m_clusterGroupNumber>8</m_clusterGroupNumber>
         </item>
@@ -2956,7 +2956,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -2970,7 +2970,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -3027,7 +3027,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -3041,7 +3041,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -3098,7 +3098,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -3112,7 +3112,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -3127,10 +3127,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1668236351</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -3168,7 +3168,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -3182,7 +3182,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -3197,10 +3197,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1953394531</coreId>
+              <coreId>722532983</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -3238,7 +3238,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>208</second>
                     </item>
@@ -3252,7 +3252,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_common.h</first>
-                        <second>reduce&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
+                        <second>reduce&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10, nnet::Op_max&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt; &amp;gt; &amp;gt;</second>
                       </first>
                       <second>46</second>
                     </item>
@@ -3270,7 +3270,7 @@
               <coreId>73</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>3</count>
@@ -3284,7 +3284,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.36</m_delay>
+          <m_delay>0.37</m_delay>
           <m_topoIndex>52</m_topoIndex>
           <m_clusterGroupNumber>9</m_clusterGroupNumber>
         </item>
@@ -3297,8 +3297,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3310,7 +3310,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3325,10 +3325,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3530368663</coreId>
+              <coreId>2007448816</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -3353,8 +3353,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3366,7 +3366,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3384,7 +3384,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3410,8 +3410,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3423,7 +3423,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3438,10 +3438,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>908053632</coreId>
+              <coreId>2020912704</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -3469,8 +3469,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3482,7 +3482,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3500,7 +3500,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3526,8 +3526,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3539,7 +3539,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3554,10 +3554,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1918989856</coreId>
+              <coreId>2007448816</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -3585,8 +3585,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3598,7 +3598,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3616,7 +3616,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3642,8 +3642,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3655,7 +3655,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3670,10 +3670,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906637360</coreId>
+              <coreId>1953394531</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -3701,8 +3701,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3714,7 +3714,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3732,7 +3732,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3758,8 +3758,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3771,7 +3771,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3786,10 +3786,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>898413904</coreId>
+              <coreId>2012454712</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -3817,8 +3817,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3830,7 +3830,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3848,7 +3848,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3874,8 +3874,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3887,7 +3887,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3902,10 +3902,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906637360</coreId>
+              <coreId>2007448816</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -3933,8 +3933,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -3946,7 +3946,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -3964,7 +3964,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -3990,8 +3990,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4003,7 +4003,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4018,10 +4018,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>848736288</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -4049,8 +4049,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4062,7 +4062,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4080,7 +4080,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -4106,8 +4106,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4119,7 +4119,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4134,10 +4134,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906346440</coreId>
+              <coreId>2010886480</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -4165,8 +4165,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4178,7 +4178,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4196,7 +4196,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -4222,8 +4222,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4235,7 +4235,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4250,10 +4250,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>76</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -4281,8 +4281,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4294,7 +4294,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4312,7 +4312,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -4338,8 +4338,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4351,7 +4351,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4366,10 +4366,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905491152</coreId>
+              <coreId>2011882496</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -4397,8 +4397,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>213</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4410,7 +4410,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>213</second>
                     </item>
@@ -4428,7 +4428,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>37</bitwidth>
+            <bitwidth>36</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -4454,8 +4454,8 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4467,14 +4467,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -4489,7 +4489,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1330007625</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4520,8 +4520,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4533,7 +4533,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4548,7 +4548,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906637360</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4576,8 +4576,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4589,7 +4589,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4604,7 +4604,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3525655798</coreId>
+              <coreId>1397508187</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4634,8 +4634,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4647,7 +4647,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4691,8 +4691,8 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4704,14 +4704,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -4726,7 +4726,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>480</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4757,8 +4757,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4770,7 +4770,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4785,7 +4785,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>2037669733</coreId>
+              <coreId>2003227728</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -4813,8 +4813,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4826,7 +4826,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4841,7 +4841,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907498208</coreId>
+              <coreId>2002545664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4871,8 +4871,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4884,7 +4884,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -4924,12 +4924,12 @@
             <Obj>
               <type>0</type>
               <id>76</id>
-              <name>tmp_1</name>
+              <name>tmp_4</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -4941,14 +4941,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -4956,14 +4956,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_1_reg_1533</rtlName>
+              <rtlName>tmp_4_reg_1533</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907016920</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -4994,8 +4994,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5007,7 +5007,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5022,7 +5022,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907007040</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5050,8 +5050,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5063,7 +5063,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5078,7 +5078,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3517757021</coreId>
+              <coreId>2011787984</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5108,8 +5108,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5121,7 +5121,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5161,12 +5161,12 @@
             <Obj>
               <type>0</type>
               <id>80</id>
-              <name>tmp_2</name>
+              <name>tmp_5</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5178,14 +5178,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -5193,14 +5193,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_2_reg_1538</rtlName>
+              <rtlName>tmp_5_reg_1538</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3530737357</coreId>
+              <coreId>2002510256</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5231,8 +5231,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5244,7 +5244,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5259,7 +5259,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847907376</coreId>
+              <coreId>2021244816</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5287,8 +5287,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5300,7 +5300,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5315,7 +5315,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1748192850</coreId>
+              <coreId>1196443231</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5345,8 +5345,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5358,7 +5358,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5398,12 +5398,12 @@
             <Obj>
               <type>0</type>
               <id>84</id>
-              <name>tmp_3</name>
+              <name>tmp_6</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5415,14 +5415,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -5430,14 +5430,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_3_reg_1543</rtlName>
+              <rtlName>tmp_6_reg_1543</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3530240502</coreId>
+              <coreId>1819243311</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5468,8 +5468,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5481,7 +5481,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5496,7 +5496,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906652240</coreId>
+              <coreId>2011110128</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5524,8 +5524,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5537,7 +5537,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5552,7 +5552,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2004766368</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5582,8 +5582,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5595,7 +5595,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5635,12 +5635,12 @@
             <Obj>
               <type>0</type>
               <id>88</id>
-              <name>tmp_4</name>
+              <name>tmp_7</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5652,14 +5652,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -5667,14 +5667,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_4_reg_1548</rtlName>
+              <rtlName>tmp_7_reg_1548</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3517436331</coreId>
+              <coreId>617324162</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5705,8 +5705,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5718,7 +5718,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5733,7 +5733,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>320</coreId>
+              <coreId>2021449792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5761,8 +5761,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5774,7 +5774,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5789,7 +5789,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>156</coreId>
+              <coreId>2011114488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5819,8 +5819,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5832,7 +5832,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5872,12 +5872,12 @@
             <Obj>
               <type>0</type>
               <id>92</id>
-              <name>tmp_5</name>
+              <name>tmp_8</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5889,14 +5889,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -5904,14 +5904,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_5_reg_1553</rtlName>
+              <rtlName>tmp_8_reg_1553</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>4294770684</coreId>
+              <coreId>2020322768</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -5942,8 +5942,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -5955,7 +5955,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -5970,7 +5970,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907013648</coreId>
+              <coreId>2020323520</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -5998,8 +5998,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6011,7 +6011,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6026,7 +6026,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1718968176</coreId>
+              <coreId>728688745</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6056,8 +6056,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6069,7 +6069,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6109,12 +6109,12 @@
             <Obj>
               <type>0</type>
               <id>96</id>
-              <name>tmp_6</name>
+              <name>tmp_9</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6126,14 +6126,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -6141,14 +6141,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_6_reg_1558</rtlName>
+              <rtlName>tmp_9_reg_1558</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>901437096</coreId>
+              <coreId>617240909</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6179,8 +6179,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6192,7 +6192,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6207,7 +6207,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847288544</coreId>
+              <coreId>617122624</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -6235,8 +6235,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6248,7 +6248,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6263,7 +6263,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>320</coreId>
+              <coreId>2006194832</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6293,8 +6293,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6306,7 +6306,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6346,12 +6346,12 @@
             <Obj>
               <type>0</type>
               <id>100</id>
-              <name>tmp_7</name>
+              <name>tmp_2</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6363,14 +6363,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -6378,14 +6378,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_7_reg_1563</rtlName>
+              <rtlName>tmp_2_reg_1563</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1162163761</coreId>
+              <coreId>2007822504</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6416,8 +6416,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6429,7 +6429,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6444,7 +6444,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>908097152</coreId>
+              <coreId>2008251960</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -6472,8 +6472,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6485,7 +6485,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6500,7 +6500,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905979776</coreId>
+              <coreId>2010750048</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6530,8 +6530,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6543,7 +6543,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6583,12 +6583,12 @@
             <Obj>
               <type>0</type>
               <id>104</id>
-              <name>tmp_8</name>
+              <name>tmp_3</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_37_18_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_idx_from_real_val_ap_ufixed_36_17_AP_TRN_AP_WRAP_0_1024_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6600,14 +6600,14 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_ufixed&amp;lt;36, 17, AP_TRN, AP_WRAP, 0&amp;gt;, 1024&amp;gt;</second>
                       </first>
                       <second>145</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>222</second>
                     </item>
@@ -6615,14 +6615,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_8_reg_1568</rtlName>
+              <rtlName>tmp_3_reg_1568</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>812207199</coreId>
+              <coreId>248</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6653,8 +6653,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6666,7 +6666,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6681,7 +6681,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>480</coreId>
+              <coreId>606842770</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -6709,8 +6709,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6722,7 +6722,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6737,7 +6737,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>1701470720</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -6767,8 +6767,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>223</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -6780,7 +6780,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>223</second>
                     </item>
@@ -6837,7 +6837,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -6908,7 +6908,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -6979,7 +6979,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7050,7 +7050,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7121,7 +7121,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7192,7 +7192,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7263,7 +7263,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7334,7 +7334,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7405,7 +7405,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>229</second>
                     </item>
@@ -7459,7 +7459,7 @@
             <Obj>
               <type>0</type>
               <id>117</id>
-              <name>tmp_9</name>
+              <name>tmp_1</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>145</lineNumber>
@@ -7483,7 +7483,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>232</second>
                     </item>
@@ -7491,14 +7491,14 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_9_fu_1220_p4</rtlName>
+              <rtlName>tmp_1_fu_1220_p4</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3517384886</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>8</bitwidth>
@@ -7529,8 +7529,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>232</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7542,7 +7542,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>232</second>
                     </item>
@@ -7557,7 +7557,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>254</coreId>
+              <coreId>2012464000</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -7585,8 +7585,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>232</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7598,7 +7598,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>232</second>
                     </item>
@@ -7613,7 +7613,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3524843010</coreId>
+              <coreId>722207143</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -7641,8 +7641,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>232</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7654,7 +7654,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>232</second>
                     </item>
@@ -7669,7 +7669,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>723027008</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>10</bitwidth>
@@ -7699,8 +7699,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>232</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7712,7 +7712,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>232</second>
                     </item>
@@ -7755,8 +7755,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7768,7 +7768,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -7783,7 +7783,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1819113532</coreId>
+              <coreId>0</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -7811,8 +7811,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7824,7 +7824,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -7839,7 +7839,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906029248</coreId>
+              <coreId>723735730</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -7867,8 +7867,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7880,7 +7880,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -7888,7 +7888,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2257</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1540</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -7924,8 +7924,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7937,7 +7937,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -7952,7 +7952,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1161125683</coreId>
+              <coreId>2424</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -7983,8 +7983,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -7996,7 +7996,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8011,7 +8011,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3577008223</coreId>
+              <coreId>6775156</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8039,8 +8039,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8052,7 +8052,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8060,7 +8060,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2264</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1547</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8096,8 +8096,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8109,7 +8109,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8124,7 +8124,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905979776</coreId>
+              <coreId>2005657792</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8155,8 +8155,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8168,7 +8168,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8183,7 +8183,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2002465280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8211,8 +8211,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8224,7 +8224,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8232,7 +8232,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2258</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1541</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8268,8 +8268,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8281,7 +8281,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8296,7 +8296,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905626344</coreId>
+              <coreId>2002465152</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8327,8 +8327,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8340,7 +8340,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8355,7 +8355,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>848422928</coreId>
+              <coreId>539768864</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8383,8 +8383,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8396,7 +8396,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8404,7 +8404,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2261</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1544</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8440,8 +8440,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8453,7 +8453,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8468,7 +8468,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905794832</coreId>
+              <coreId>2023549920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8499,8 +8499,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8512,7 +8512,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8527,7 +8527,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>848853760</coreId>
+              <coreId>618394039</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8555,8 +8555,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8568,7 +8568,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8576,7 +8576,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2259</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1542</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8612,8 +8612,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8625,7 +8625,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8640,7 +8640,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2008816864</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8671,8 +8671,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8684,7 +8684,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8699,7 +8699,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2023549920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8727,8 +8727,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8740,7 +8740,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8748,7 +8748,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2263</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1546</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8784,8 +8784,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8797,7 +8797,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8812,7 +8812,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>904025032</coreId>
+              <coreId>2023549920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -8843,8 +8843,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8856,7 +8856,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8871,7 +8871,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>846835144</coreId>
+              <coreId>736010509</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -8899,8 +8899,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8912,7 +8912,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8920,7 +8920,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2260</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1543</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -8956,8 +8956,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -8969,7 +8969,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -8984,7 +8984,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>336</coreId>
+              <coreId>2023549920</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9015,8 +9015,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9028,7 +9028,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9043,7 +9043,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>904023856</coreId>
+              <coreId>2021573488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -9071,8 +9071,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9084,7 +9084,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9092,7 +9092,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2262</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1545</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -9128,8 +9128,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9141,7 +9141,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9156,7 +9156,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2011891968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9187,8 +9187,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9200,7 +9200,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9215,7 +9215,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>728353227</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -9243,8 +9243,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9256,7 +9256,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9264,7 +9264,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2265</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1548</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -9300,8 +9300,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9313,7 +9313,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9328,7 +9328,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>898844520</coreId>
+              <coreId>2021573488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9359,8 +9359,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9372,7 +9372,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9387,7 +9387,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1663070068</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>26</bitwidth>
@@ -9415,8 +9415,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9428,7 +9428,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9436,7 +9436,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>mul_18s_16s_26_1_1_U2266</rtlName>
+              <rtlName>mul_18s_16s_26_1_1_U1549</rtlName>
               <control>auto</control>
               <opType>mul</opType>
               <implIndex>auto</implIndex>
@@ -9472,8 +9472,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>241</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9485,7 +9485,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>241</second>
                     </item>
@@ -9500,7 +9500,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905449576</coreId>
+              <coreId>2020270144</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>16</bitwidth>
@@ -9531,8 +9531,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>243</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9544,7 +9544,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>243</second>
                     </item>
@@ -9559,7 +9559,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>900693448</coreId>
+              <coreId>2021573488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>160</bitwidth>
@@ -9597,8 +9597,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>243</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9610,7 +9610,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>243</second>
                     </item>
@@ -9655,8 +9655,8 @@
               <fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
-              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
+              <contextFuncName>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</contextFuncName>
+              <contextNormFuncName>softmax_stable_nnet_array_ap_fixed_37_18_AP_TRN_AP_WRAP_0_10_nnet_array_ap_fixed_16_6_AP_TRN_AP_WRAP_0_10_softmax_config23_s</contextNormFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
@@ -9668,7 +9668,7 @@
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation_stream.h</first>
-                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
+                        <second>softmax_stable&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;37, 18, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;16, 6, AP_TRN, AP_WRAP, 0&amp;gt;, 10&amp;gt;, softmax_config23&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -9683,7 +9683,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3525051493</coreId>
+              <coreId>2021573488</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -9725,7 +9725,7 @@
               <isStorage>1</isStorage>
               <storageDepth>1024</storageDepth>
               <coreId>101</coreId>
-              <rtlModuleName>myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx</rtlModuleName>
+              <rtlModuleName>myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn</rtlModuleName>
             </Obj>
             <bitwidth>0</bitwidth>
           </Value>
@@ -9782,7 +9782,7 @@
             <Obj>
               <type>2</type>
               <id>189</id>
-              <name>init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s</name>
+              <name>init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -9806,7 +9806,7 @@
             <bitwidth>0</bitwidth>
           </Value>
           <const_type>6</const_type>
-          <content>&lt;constant:init_exp_table&lt;ap_ufixed&lt;37, 18, 5, 3, 0&gt;, softmax_config23&gt;&gt;</content>
+          <content>&lt;constant:init_exp_table&lt;ap_ufixed&lt;36, 17, 5, 3, 0&gt;, softmax_config23&gt;&gt;</content>
         </item>
         <item class_id_reference="16" object_id="_156">
           <Value>
@@ -9831,13 +9831,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741353829</coreId>
+              <coreId>1885415456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>38</content>
+          <content>37</content>
         </item>
         <item class_id_reference="16" object_id="_157">
           <Value>
@@ -9868,7 +9868,7 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>75</content>
+          <content>73</content>
         </item>
         <item class_id_reference="16" object_id="_158">
           <Value>
@@ -9893,13 +9893,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885415456</coreId>
+              <coreId>1330007625</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>76</content>
+          <content>74</content>
         </item>
         <item class_id_reference="16" object_id="_159">
           <Value>
@@ -9924,13 +9924,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3517778854</coreId>
+              <coreId>723096350</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>113</content>
+          <content>110</content>
         </item>
         <item class_id_reference="16" object_id="_160">
           <Value>
@@ -9955,13 +9955,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>304</coreId>
+              <coreId>2007952272</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>114</content>
+          <content>111</content>
         </item>
         <item class_id_reference="16" object_id="_161">
           <Value>
@@ -9986,13 +9986,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847707792</coreId>
+              <coreId>2007952912</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>151</content>
+          <content>147</content>
         </item>
         <item class_id_reference="16" object_id="_162">
           <Value>
@@ -10017,13 +10017,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906914016</coreId>
+              <coreId>2007953200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>152</content>
+          <content>148</content>
         </item>
         <item class_id_reference="16" object_id="_163">
           <Value>
@@ -10048,13 +10048,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1599294536</coreId>
+              <coreId>2019668400</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>189</content>
+          <content>184</content>
         </item>
         <item class_id_reference="16" object_id="_164">
           <Value>
@@ -10079,13 +10079,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>904258472</coreId>
+              <coreId>2019669168</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>190</content>
+          <content>185</content>
         </item>
         <item class_id_reference="16" object_id="_165">
           <Value>
@@ -10110,13 +10110,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3516968028</coreId>
+              <coreId>2019668112</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>227</content>
+          <content>221</content>
         </item>
         <item class_id_reference="16" object_id="_166">
           <Value>
@@ -10141,13 +10141,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906219008</coreId>
+              <coreId>2011879664</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>228</content>
+          <content>222</content>
         </item>
         <item class_id_reference="16" object_id="_167">
           <Value>
@@ -10172,13 +10172,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3526569117</coreId>
+              <coreId>2007826240</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>265</content>
+          <content>258</content>
         </item>
         <item class_id_reference="16" object_id="_168">
           <Value>
@@ -10203,13 +10203,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905784992</coreId>
+              <coreId>2021635456</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>266</content>
+          <content>259</content>
         </item>
         <item class_id_reference="16" object_id="_169">
           <Value>
@@ -10234,13 +10234,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>908110480</coreId>
+              <coreId>2021636608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>303</content>
+          <content>295</content>
         </item>
         <item class_id_reference="16" object_id="_170">
           <Value>
@@ -10265,13 +10265,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3526381930</coreId>
+              <coreId>721854877</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>304</content>
+          <content>296</content>
         </item>
         <item class_id_reference="16" object_id="_171">
           <Value>
@@ -10296,13 +10296,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906218112</coreId>
+              <coreId>725933258</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>341</content>
+          <content>332</content>
         </item>
         <item class_id_reference="16" object_id="_172">
           <Value>
@@ -10327,13 +10327,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>905785408</coreId>
+              <coreId>2012456336</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>342</content>
+          <content>333</content>
         </item>
         <item class_id_reference="16" object_id="_173">
           <Value>
@@ -10358,13 +10358,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>901766880</coreId>
+              <coreId>2012385824</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>379</content>
+          <content>369</content>
         </item>
         <item class_id_reference="16" object_id="_174">
           <Value>
@@ -10389,7 +10389,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>898840416</coreId>
+              <coreId>2011653696</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -10420,13 +10420,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>904166832</coreId>
+              <coreId>2002499040</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>74</content>
+          <content>72</content>
         </item>
         <item class_id_reference="16" object_id="_176">
           <Value>
@@ -10451,13 +10451,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906848256</coreId>
+              <coreId>2011349600</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>112</content>
+          <content>109</content>
         </item>
         <item class_id_reference="16" object_id="_177">
           <Value>
@@ -10482,13 +10482,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>0</coreId>
+              <coreId>2007953200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>150</content>
+          <content>146</content>
         </item>
         <item class_id_reference="16" object_id="_178">
           <Value>
@@ -10513,13 +10513,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>3517843766</coreId>
+              <coreId>2011653800</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>188</content>
+          <content>183</content>
         </item>
         <item class_id_reference="16" object_id="_179">
           <Value>
@@ -10544,13 +10544,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847166272</coreId>
+              <coreId>2009196528</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>226</content>
+          <content>220</content>
         </item>
         <item class_id_reference="16" object_id="_180">
           <Value>
@@ -10575,13 +10575,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>907202512</coreId>
+              <coreId>2007953200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>264</content>
+          <content>257</content>
         </item>
         <item class_id_reference="16" object_id="_181">
           <Value>
@@ -10606,13 +10606,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>901767880</coreId>
+              <coreId>2009196744</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>302</content>
+          <content>294</content>
         </item>
         <item class_id_reference="16" object_id="_182">
           <Value>
@@ -10637,13 +10637,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>901768592</coreId>
+              <coreId>736845985</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>340</content>
+          <content>331</content>
         </item>
         <item class_id_reference="16" object_id="_183">
           <Value>
@@ -10668,13 +10668,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>901432656</coreId>
+              <coreId>2007953200</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>378</content>
+          <content>368</content>
         </item>
         <item class_id_reference="16" object_id="_184">
           <Value>
@@ -10699,13 +10699,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>256</coreId>
+              <coreId>608</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>27</content>
+          <content>26</content>
         </item>
         <item class_id_reference="16" object_id="_185">
           <Value>
@@ -10730,13 +10730,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>423</coreId>
+              <coreId>2009214480</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>36</content>
+          <content>35</content>
         </item>
         <item class_id_reference="16" object_id="_186">
           <Value>
@@ -10761,7 +10761,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741355808</coreId>
+              <coreId>2012003280</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>64</bitwidth>
@@ -10792,7 +10792,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847166272</coreId>
+              <coreId>2021636800</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -10823,7 +10823,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847166272</coreId>
+              <coreId>2021636800</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -10854,7 +10854,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>847166272</coreId>
+              <coreId>2008214896</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -10885,7 +10885,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>906837176</coreId>
+              <coreId>2002499040</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>32</bitwidth>
@@ -10919,7 +10919,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>539766825</coreId>
+            <coreId>742273056</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -14711,7 +14711,7 @@
         <count>11</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620 (init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s)</first>
+          <first>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620 (init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s)</first>
           <second class_id="37" tracking_level="0" version="0">
             <count>3</count>
             <item_version>0</item_version>
@@ -14721,16 +14721,16 @@
             </item>
             <item>
               <first>FF</first>
-              <second>1101</second>
+              <second>1099</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>3485</second>
+              <second>3469</second>
             </item>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2257 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1540 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14749,7 +14749,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2258 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1541 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14768,7 +14768,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2259 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1542 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14787,7 +14787,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2260 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1543 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14806,7 +14806,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2261 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1544 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14825,7 +14825,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2262 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1545 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14844,7 +14844,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2263 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1546 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14863,7 +14863,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2264 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1547 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14882,7 +14882,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2265 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1548 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -14901,7 +14901,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2266 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1549 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -15160,11 +15160,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15172,7 +15172,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15183,11 +15183,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15195,7 +15195,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15206,11 +15206,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15218,7 +15218,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15229,11 +15229,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15241,7 +15241,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15252,11 +15252,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15264,7 +15264,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15275,11 +15275,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15287,7 +15287,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15298,11 +15298,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15310,7 +15310,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15321,11 +15321,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15333,7 +15333,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
@@ -15344,11 +15344,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15356,201 +15356,12 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>45</second>
+              <second>44</second>
             </item>
           </second>
         </item>
         <item>
           <first>select_ln66_1_fu_752_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_2_fu_904_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_3_fu_772_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_4_fu_792_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_5_fu_920_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_6_fu_941_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_7_fu_952_p3 ( select ) </first>
-          <second>
-            <count>5</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>(2P2)</first>
-              <second>38</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>35</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>select_ln66_8_fu_978_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -15577,6 +15388,195 @@
           </second>
         </item>
         <item>
+          <first>select_ln66_2_fu_904_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_3_fu_772_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_4_fu_792_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_5_fu_920_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_6_fu_941_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_7_fu_952_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>37</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>select_ln66_8_fu_978_p3 ( select ) </first>
+          <second>
+            <count>5</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>36</second>
+            </item>
+            <item>
+              <first>(2P2)</first>
+              <second>36</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>34</second>
+            </item>
+          </second>
+        </item>
+        <item>
           <first>select_ln66_fu_732_p3 ( select ) </first>
           <second>
             <count>5</count>
@@ -15587,11 +15587,11 @@
             </item>
             <item>
               <first>(1P1)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(2P2)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>FF</first>
@@ -15599,7 +15599,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>35</second>
+              <second>34</second>
             </item>
           </second>
         </item>
@@ -15610,11 +15610,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15622,7 +15622,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15633,11 +15633,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15645,7 +15645,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15656,11 +15656,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15668,7 +15668,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15679,11 +15679,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15691,7 +15691,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15702,11 +15702,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15714,7 +15714,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15725,11 +15725,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15737,7 +15737,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15748,11 +15748,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15760,7 +15760,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15771,11 +15771,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15783,7 +15783,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15794,11 +15794,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15806,7 +15806,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -15817,11 +15817,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>FF</first>
@@ -15829,7 +15829,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>44</second>
+              <second>43</second>
             </item>
           </second>
         </item>
@@ -16317,7 +16317,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16325,7 +16325,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16336,7 +16336,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16344,7 +16344,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16539,7 +16539,7 @@
           </second>
         </item>
         <item>
-          <first>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620_ap_start_reg</first>
+          <first>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620_ap_start_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16621,7 +16621,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16629,7 +16629,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16640,7 +16640,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16648,7 +16648,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16659,7 +16659,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16667,7 +16667,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16678,7 +16678,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16686,7 +16686,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16697,7 +16697,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16705,7 +16705,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
@@ -16716,7 +16716,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>38</second>
+              <second>37</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16724,12 +16724,12 @@
             </item>
             <item>
               <first>FF</first>
-              <second>38</second>
+              <second>37</second>
             </item>
           </second>
         </item>
         <item>
-          <first>tmp_1_reg_1533</first>
+          <first>tmp_2_reg_1563</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16748,7 +16748,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_2_reg_1538</first>
+          <first>tmp_3_reg_1568</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16767,7 +16767,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_3_reg_1543</first>
+          <first>tmp_4_reg_1533</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16786,7 +16786,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_4_reg_1548</first>
+          <first>tmp_5_reg_1538</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16805,7 +16805,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_5_reg_1553</first>
+          <first>tmp_6_reg_1543</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16824,7 +16824,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_6_reg_1558</first>
+          <first>tmp_7_reg_1548</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16843,7 +16843,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_7_reg_1563</first>
+          <first>tmp_8_reg_1553</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16862,7 +16862,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_8_reg_1568</first>
+          <first>tmp_9_reg_1558</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -16925,7 +16925,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16933,7 +16933,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -16944,7 +16944,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16952,7 +16952,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -16963,7 +16963,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16971,7 +16971,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -16982,7 +16982,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -16990,7 +16990,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17001,7 +17001,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17009,7 +17009,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17020,7 +17020,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17028,7 +17028,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17039,7 +17039,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17047,7 +17047,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17058,7 +17058,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17066,7 +17066,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17077,7 +17077,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17085,7 +17085,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17096,7 +17096,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>37</second>
+              <second>36</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -17104,7 +17104,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>37</second>
+              <second>36</second>
             </item>
           </second>
         </item>
@@ -17113,77 +17113,77 @@
         <count>11</count>
         <item_version>0</item_version>
         <item>
-          <first>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620</first>
+          <first>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2257</first>
+          <first>mul_18s_16s_26_1_1_U1540</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2258</first>
+          <first>mul_18s_16s_26_1_1_U1541</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2259</first>
+          <first>mul_18s_16s_26_1_1_U1542</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2260</first>
+          <first>mul_18s_16s_26_1_1_U1543</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2261</first>
+          <first>mul_18s_16s_26_1_1_U1544</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2262</first>
+          <first>mul_18s_16s_26_1_1_U1545</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2263</first>
+          <first>mul_18s_16s_26_1_1_U1546</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2264</first>
+          <first>mul_18s_16s_26_1_1_U1547</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2265</first>
+          <first>mul_18s_16s_26_1_1_U1548</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2266</first>
+          <first>mul_18s_16s_26_1_1_U1549</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -17194,7 +17194,7 @@
         <count>11</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
-          <first>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620 (init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s)</first>
+          <first>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620 (init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17202,7 +17202,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2257 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1540 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17210,7 +17210,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2258 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1541 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17218,7 +17218,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2259 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1542 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17226,7 +17226,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2260 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1543 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17234,7 +17234,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2261 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1544 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17242,7 +17242,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2262 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1545 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17250,7 +17250,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2263 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1546 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17258,7 +17258,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2264 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1547 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17266,7 +17266,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2265 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1548 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -17274,7 +17274,7 @@
           </second>
         </item>
         <item>
-          <first>mul_18s_16s_26_1_1_U2266 (mul_18s_16s_26_1_1)</first>
+          <first>mul_18s_16s_26_1_1_U1549 (mul_18s_16s_26_1_1)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -20480,55 +20480,15 @@
         </second>
       </item>
       <item>
-        <first>tmp_1_fu_1056</first>
+        <first>tmp_1_fu_1220</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>76</item>
+          <item>117</item>
         </second>
       </item>
       <item>
-        <first>tmp_2_fu_1066</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>80</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_3_fu_1076</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>84</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_4_fu_1086</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>88</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_5_fu_1096</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>92</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_6_fu_1106</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>96</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_7_fu_1116</first>
+        <first>tmp_2_fu_1116</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -20536,7 +20496,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_8_fu_1126</first>
+        <first>tmp_3_fu_1126</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -20544,11 +20504,51 @@
         </second>
       </item>
       <item>
-        <first>tmp_9_fu_1220</first>
+        <first>tmp_4_fu_1056</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>117</item>
+          <item>76</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_5_fu_1066</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>80</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_6_fu_1076</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>84</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_7_fu_1086</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>88</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_8_fu_1096</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>92</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_9_fu_1106</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>96</item>
         </second>
       </item>
       <item>
@@ -20988,7 +20988,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item>
-        <first>grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620</first>
+        <first>grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -21768,55 +21768,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_1_reg_1533</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>76</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_2_reg_1538</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>80</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_3_reg_1543</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>84</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_4_reg_1548</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>88</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_5_reg_1553</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>92</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_6_reg_1558</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>96</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_7_reg_1563</first>
+        <first>tmp_2_reg_1563</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -21824,11 +21776,59 @@
         </second>
       </item>
       <item>
-        <first>tmp_8_reg_1568</first>
+        <first>tmp_3_reg_1568</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>104</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_4_reg_1533</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>76</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_5_reg_1538</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>80</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_6_reg_1543</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>84</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_7_reg_1548</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>88</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_8_reg_1553</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>92</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_9_reg_1558</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>96</item>
         </second>
       </item>
       <item>

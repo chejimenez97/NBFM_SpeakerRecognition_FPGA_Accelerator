@@ -17,7 +17,7 @@ port (
     ap_continue : IN STD_LOGIC;
     ap_idle : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
-    layer21_out_dout : IN STD_LOGIC_VECTOR (219 downto 0);
+    layer21_out_dout : IN STD_LOGIC_VECTOR (209 downto 0);
     layer21_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
     layer21_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
     layer21_out_empty_n : IN STD_LOGIC;
@@ -80,7 +80,7 @@ attribute shreg_extract : string;
         ap_done : OUT STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        layer21_out_dout : IN STD_LOGIC_VECTOR (219 downto 0);
+        layer21_out_dout : IN STD_LOGIC_VECTOR (209 downto 0);
         layer21_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
         layer21_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
         layer21_out_empty_n : IN STD_LOGIC;

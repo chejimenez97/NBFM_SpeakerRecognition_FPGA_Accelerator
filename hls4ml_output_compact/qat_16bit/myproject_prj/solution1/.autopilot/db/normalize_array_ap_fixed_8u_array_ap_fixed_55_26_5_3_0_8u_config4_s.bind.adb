@@ -70,7 +70,7 @@
 						<coreName>FIFO</coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>440</bitwidth>
@@ -124,10 +124,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1751342958</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -296,7 +296,7 @@
 						<coreId>539767593</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -366,7 +366,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -375,7 +375,7 @@
 					<Obj>
 						<type>0</type>
 						<id>12</id>
-						<name>i_9</name>
+						<name>i_15</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>25</lineNumber>
@@ -410,7 +410,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -423,7 +423,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -579,7 +579,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063062376</coreId>
+						<coreId>1746938918</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -603,7 +603,7 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>a_7</name>
+						<name>a_11</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>28</lineNumber>
@@ -635,7 +635,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>448</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -662,242 +662,6 @@
 					<Obj>
 						<type>0</type>
 						<id>21</id>
-						<name>a_1</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3639448311</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>93</item>
-					<item>94</item>
-					<item>96</item>
-					<item>98</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>12</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_14">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>22</id>
-						<name>a_2</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3635201870</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>99</item>
-					<item>100</item>
-					<item>102</item>
-					<item>104</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>13</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_15">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>23</id>
-						<name>a_3</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>105</item>
-					<item>106</item>
-					<item>108</item>
-					<item>110</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>14</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_16">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>24</id>
-						<name>a_4</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>111</item>
-					<item>112</item>
-					<item>114</item>
-					<item>116</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>15</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_17">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>25</id>
 						<name>a_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -930,7 +694,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>810830175</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -938,10 +702,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>117</item>
-					<item>118</item>
-					<item>120</item>
-					<item>122</item>
+					<item>93</item>
+					<item>94</item>
+					<item>96</item>
+					<item>98</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
@@ -949,14 +713,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>16</m_topoIndex>
+				<m_topoIndex>12</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_18">
+			<item class_id_reference="9" object_id="_14">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>26</id>
+						<id>22</id>
 						<name>a_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -989,7 +753,243 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059735232</coreId>
+						<coreId>708718624</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>99</item>
+					<item>100</item>
+					<item>102</item>
+					<item>104</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>13</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_15">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>23</id>
+						<name>a_7</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>744320609</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>105</item>
+					<item>106</item>
+					<item>108</item>
+					<item>110</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>14</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_16">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>24</id>
+						<name>a_8</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>808525868</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>111</item>
+					<item>112</item>
+					<item>114</item>
+					<item>116</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>15</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_17">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>25</id>
+						<name>a_9</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741749024</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>117</item>
+					<item>118</item>
+					<item>120</item>
+					<item>122</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>16</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_18">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>26</id>
+						<name>a_1</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>808591404</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1048,10 +1048,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062656528</coreId>
+						<coreId>741356064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1107,7 +1107,7 @@
 						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1164,7 +1164,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1177,7 +1177,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
+				<m_delay>1.09</m_delay>
 				<m_topoIndex>35</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1225,7 +1225,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059780992</coreId>
+						<coreId>539768105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -1249,7 +1249,7 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>sext_ln42_1</name>
+						<name>sext_ln42_4</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1281,7 +1281,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1057036144</coreId>
+						<coreId>694510703</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -1305,7 +1305,7 @@
 					<Obj>
 						<type>0</type>
 						<id>32</id>
-						<name>mul_ln42_1</name>
+						<name>mul_ln42_4</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1362,7 +1362,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>add_ln42_1</name>
+						<name>add_ln42_15</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1419,7 +1419,7 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>sext_ln70_1</name>
+						<name>sext_ln70_13</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -1458,7 +1458,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062423792</coreId>
+						<coreId>741550437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -1482,7 +1482,7 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>sext_ln42_2</name>
+						<name>sext_ln42_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1514,10 +1514,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063062064</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1538,7 +1538,7 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>mul_ln42_2</name>
+						<name>mul_ln42_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1573,7 +1573,7 @@
 						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1595,7 +1595,7 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>add_ln42_2</name>
+						<name>add_ln42_16</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1630,7 +1630,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1643,7 +1643,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
+				<m_delay>1.10</m_delay>
 				<m_topoIndex>39</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1652,7 +1652,7 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>sext_ln70_2</name>
+						<name>sext_ln70_14</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -1691,7 +1691,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063272928</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -1715,7 +1715,7 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>sext_ln42_3</name>
+						<name>sext_ln42_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1747,7 +1747,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>144</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -1771,7 +1771,7 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>mul_ln42_3</name>
+						<name>mul_ln42_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1828,7 +1828,7 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>add_ln42_3</name>
+						<name>add_ln42_17</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1885,7 +1885,7 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>sext_ln70_3</name>
+						<name>sext_ln70_15</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -1924,7 +1924,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061727872</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -1948,7 +1948,7 @@
 					<Obj>
 						<type>0</type>
 						<id>43</id>
-						<name>sext_ln42_4</name>
+						<name>sext_ln42_7</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -1980,7 +1980,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -2004,7 +2004,7 @@
 					<Obj>
 						<type>0</type>
 						<id>44</id>
-						<name>mul_ln42_4</name>
+						<name>mul_ln42_7</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2061,7 +2061,7 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>add_ln42_4</name>
+						<name>add_ln42_18</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2118,7 +2118,7 @@
 					<Obj>
 						<type>0</type>
 						<id>46</id>
-						<name>sext_ln70_4</name>
+						<name>sext_ln70_16</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2157,7 +2157,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>144</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2181,7 +2181,7 @@
 					<Obj>
 						<type>0</type>
 						<id>47</id>
-						<name>sext_ln42_5</name>
+						<name>sext_ln42_8</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2213,7 +2213,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639338081</coreId>
+						<coreId>1869438833</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -2237,7 +2237,7 @@
 					<Obj>
 						<type>0</type>
 						<id>48</id>
-						<name>mul_ln42_5</name>
+						<name>mul_ln42_8</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2294,7 +2294,7 @@
 					<Obj>
 						<type>0</type>
 						<id>49</id>
-						<name>add_ln42_5</name>
+						<name>add_ln42_19</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2351,7 +2351,7 @@
 					<Obj>
 						<type>0</type>
 						<id>50</id>
-						<name>sext_ln70_5</name>
+						<name>sext_ln70_17</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2390,7 +2390,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1933195892</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2414,7 +2414,7 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>sext_ln42_6</name>
+						<name>sext_ln42_9</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2446,10 +2446,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1885420665</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2470,7 +2470,7 @@
 					<Obj>
 						<type>0</type>
 						<id>52</id>
-						<name>mul_ln42_6</name>
+						<name>mul_ln42_9</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2505,7 +2505,7 @@
 						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2527,7 +2527,7 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>add_ln42_6</name>
+						<name>add_ln42_20</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2562,7 +2562,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2575,7 +2575,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
+				<m_delay>1.09</m_delay>
 				<m_topoIndex>47</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2584,7 +2584,7 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>sext_ln70_6</name>
+						<name>sext_ln70_18</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2623,7 +2623,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1013212536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2647,7 +2647,7 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>sext_ln42_7</name>
+						<name>sext_ln42_10</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2679,10 +2679,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1047869472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -2703,7 +2703,7 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>mul_ln42_7</name>
+						<name>mul_ln42_10</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2738,7 +2738,7 @@
 						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2760,7 +2760,7 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>add_ln42_7</name>
+						<name>add_ln42_21</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2795,7 +2795,7 @@
 						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2808,7 +2808,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
+				<m_delay>1.09</m_delay>
 				<m_topoIndex>49</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2849,10 +2849,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>980642920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>435</bitwidth>
+					<bitwidth>434</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>9</count>
@@ -2913,7 +2913,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639849876</coreId>
+						<coreId>741880352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>440</bitwidth>
@@ -3027,7 +3027,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717924464</coreId>
+						<coreId>1768318322</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3086,7 +3086,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1431261768</coreId>
+						<coreId>1830840174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3142,7 +3142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701016181</coreId>
+						<coreId>774774894</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3218,10 +3218,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -3252,10 +3252,10 @@
 						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>5640</content>
+				<content>1280</content>
 			</item>
 			<item class_id_reference="16" object_id="_59">
 				<Value>
@@ -3280,10 +3280,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>108</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -3311,7 +3311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3632642884</coreId>
+						<coreId>1699560457</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3342,7 +3342,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1031369833</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3373,7 +3373,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059859296</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3404,7 +3404,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3633046769</coreId>
+						<coreId>878662485</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3435,7 +3435,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1679844453</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3466,7 +3466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059334256</coreId>
+						<coreId>574451311</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3497,7 +3497,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3633279176</coreId>
+						<coreId>673215598</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3528,7 +3528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1836016430</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3559,7 +3559,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062921520</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3590,7 +3590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3621,7 +3621,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3652,7 +3652,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3683,7 +3683,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061460512</coreId>
+						<coreId>740979827</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3714,7 +3714,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639846533</coreId>
+						<coreId>740979827</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3745,13 +3745,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>712274798</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>2351</content>
+				<content>847</content>
 			</item>
 			<item class_id_reference="16" object_id="_75">
 				<Value>
@@ -3776,13 +3776,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639939198</coreId>
+						<coreId>744320609</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1125899900551168</content>
+				<content>281474949447680</content>
 			</item>
 			<item class_id_reference="16" object_id="_76">
 				<Value>
@@ -3807,13 +3807,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062703696</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1336</content>
+				<content>2028</content>
 			</item>
 			<item class_id_reference="16" object_id="_77">
 				<Value>
@@ -3838,13 +3838,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639940207</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949768871936</content>
+				<content>562949798232064</content>
 			</item>
 			<item class_id_reference="16" object_id="_78">
 				<Value>
@@ -3869,13 +3869,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>891905380</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1969</content>
+				<content>2106</content>
 			</item>
 			<item class_id_reference="16" object_id="_79">
 				<Value>
@@ -3900,13 +3900,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3640636788</coreId>
+						<coreId>673197105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>45613056</content>
+				<content>144703488</content>
 			</item>
 			<item class_id_reference="16" object_id="_80">
 				<Value>
@@ -3931,13 +3931,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062703696</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1796</content>
+				<content>1110</content>
 			</item>
 			<item class_id_reference="16" object_id="_81">
 				<Value>
@@ -3962,13 +3962,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3640602173</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949903089664</content>
+				<content>562949927731200</content>
 			</item>
 			<item class_id_reference="16" object_id="_82">
 				<Value>
@@ -3993,13 +3993,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1634890337</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1330</content>
+				<content>1619</content>
 			</item>
 			<item class_id_reference="16" object_id="_83">
 				<Value>
@@ -4024,13 +4024,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>159907840</content>
+				<content>240648192</content>
 			</item>
 			<item class_id_reference="16" object_id="_84">
 				<Value>
@@ -4055,13 +4055,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061729984</coreId>
+						<coreId>2089299712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1454</content>
+				<content>1125</content>
 			</item>
 			<item class_id_reference="16" object_id="_85">
 				<Value>
@@ -4086,13 +4086,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1852718197</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949864292352</content>
+				<content>208666624</content>
 			</item>
 			<item class_id_reference="16" object_id="_86">
 				<Value>
@@ -4117,13 +4117,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>3083</content>
+				<content>1270</content>
 			</item>
 			<item class_id_reference="16" object_id="_87">
 				<Value>
@@ -4148,13 +4148,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>980706670</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>196083712</content>
+				<content>91750400</content>
 			</item>
 			<item class_id_reference="16" object_id="_88">
 				<Value>
@@ -4179,13 +4179,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1869438831</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>2890</content>
+				<content>1255</content>
 			</item>
 			<item class_id_reference="16" object_id="_89">
 				<Value>
@@ -4210,13 +4210,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061460512</coreId>
+						<coreId>1631206004</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1125899822432256</content>
+				<content>126877696</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -4244,7 +4244,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -4277,7 +4277,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539770416</coreId>
+					<coreId>539766825</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -4386,7 +4386,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>840969278</coreId>
+					<coreId>539770416</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5145,8 +5145,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>5644</mMinLatency>
-			<mMaxLatency>5644</mMaxLatency>
+			<mMinLatency>1284</mMinLatency>
+			<mMaxLatency>1284</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -5190,10 +5190,10 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>4</mDepth>
-			<mMinTripCount>5640</mMinTripCount>
-			<mMaxTripCount>5640</mMaxTripCount>
-			<mMinLatency>5642</mMinLatency>
-			<mMaxLatency>5642</mMaxLatency>
+			<mMinTripCount>1280</mMinTripCount>
+			<mMaxTripCount>1280</mMaxTripCount>
+			<mMinLatency>1282</mMinLatency>
+			<mMaxLatency>1282</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -6060,55 +6060,7 @@
 			</second>
 		</item>
 		<item>
-			<first>7167</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>48</item>
-			</second>
-		</item>
-		<item>
-			<first>10580</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>56</item>
-			</second>
-		</item>
-		<item>
-			<first>12469</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>16983</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>44</item>
-			</second>
-		</item>
-		<item>
-			<first>20699</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>52</item>
-			</second>
-		</item>
-		<item>
-			<first>29249</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>41517</first>
+			<first>1089</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6116,7 +6068,55 @@
 			</second>
 		</item>
 		<item>
-			<first>44367</first>
+			<first>4601</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>44</item>
+			</second>
+		</item>
+		<item>
+			<first>5019</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>32</item>
+			</second>
+		</item>
+		<item>
+			<first>7350</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>52</item>
+			</second>
+		</item>
+		<item>
+			<first>8524</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>48</item>
+			</second>
+		</item>
+		<item>
+			<first>8618</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>56</item>
+			</second>
+		</item>
+		<item>
+			<first>10180</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>36</item>
+			</second>
+		</item>
+		<item>
+			<first>10321</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6124,7 +6124,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489148</first>
+			<first>338108</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6132,7 +6132,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489153</first>
+			<first>338113</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6140,7 +6140,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489156</first>
+			<first>338116</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6148,7 +6148,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489162</first>
+			<first>338122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6156,7 +6156,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489168</first>
+			<first>338128</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6164,7 +6164,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489173</first>
+			<first>338133</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6172,7 +6172,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489177</first>
+			<first>338137</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6180,7 +6180,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489187</first>
+			<first>338147</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6188,7 +6188,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489197</first>
+			<first>338157</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6196,7 +6196,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489207</first>
+			<first>338167</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6204,7 +6204,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489217</first>
+			<first>338177</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6212,7 +6212,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489227</first>
+			<first>338187</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6220,7 +6220,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489237</first>
+			<first>338197</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6228,7 +6228,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489247</first>
+			<first>338207</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6236,7 +6236,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489251</first>
+			<first>338211</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6244,7 +6244,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489255</first>
+			<first>338215</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6252,7 +6252,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489259</first>
+			<first>338219</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6260,7 +6260,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489263</first>
+			<first>338223</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6268,7 +6268,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489267</first>
+			<first>338227</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6276,7 +6276,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489271</first>
+			<first>338231</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6284,7 +6284,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489275</first>
+			<first>338235</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6292,7 +6292,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489279</first>
+			<first>338239</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6300,7 +6300,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489285</first>
+			<first>338245</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6308,7 +6308,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489289</first>
+			<first>338249</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6316,7 +6316,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489295</first>
+			<first>338255</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6324,7 +6324,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489299</first>
+			<first>338259</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6332,7 +6332,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489305</first>
+			<first>338265</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6340,7 +6340,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489309</first>
+			<first>338269</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6348,7 +6348,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489315</first>
+			<first>338275</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6356,7 +6356,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489319</first>
+			<first>338279</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6364,7 +6364,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489325</first>
+			<first>338285</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6372,7 +6372,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489329</first>
+			<first>338289</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6380,7 +6380,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489335</first>
+			<first>338295</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6388,7 +6388,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489339</first>
+			<first>338299</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6396,7 +6396,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489345</first>
+			<first>338305</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6404,7 +6404,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489349</first>
+			<first>338309</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6412,7 +6412,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489355</first>
+			<first>338315</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6420,7 +6420,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489375</first>
+			<first>338335</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6432,55 +6432,7 @@
 		<count>44</count>
 		<item_version>0</item_version>
 		<item class_id="48" tracking_level="0" version="0">
-			<first>a_1_fu_1489187</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>21</item>
-			</second>
-		</item>
-		<item>
-			<first>a_2_fu_1489197</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>a_3_fu_1489207</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>23</item>
-			</second>
-		</item>
-		<item>
-			<first>a_4_fu_1489217</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>24</item>
-			</second>
-		</item>
-		<item>
-			<first>a_5_fu_1489227</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>25</item>
-			</second>
-		</item>
-		<item>
-			<first>a_6_fu_1489237</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>a_7_fu_1489177</first>
+			<first>a_11_fu_338137</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6488,7 +6440,55 @@
 			</second>
 		</item>
 		<item>
-			<first>a_fu_1489173</first>
+			<first>a_1_fu_338197</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>a_5_fu_338147</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>21</item>
+			</second>
+		</item>
+		<item>
+			<first>a_6_fu_338157</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
+			<first>a_7_fu_338167</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>23</item>
+			</second>
+		</item>
+		<item>
+			<first>a_8_fu_338177</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>24</item>
+			</second>
+		</item>
+		<item>
+			<first>a_9_fu_338187</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>25</item>
+			</second>
+		</item>
+		<item>
+			<first>a_fu_338133</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6496,7 +6496,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_1_fu_1489289</first>
+			<first>add_ln42_15_fu_338249</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6504,7 +6504,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_2_fu_1489299</first>
+			<first>add_ln42_16_fu_338259</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6512,7 +6512,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_3_fu_1489309</first>
+			<first>add_ln42_17_fu_338269</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6520,7 +6520,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_4_fu_1489319</first>
+			<first>add_ln42_18_fu_338279</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6528,7 +6528,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_5_fu_1489329</first>
+			<first>add_ln42_19_fu_338289</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6536,7 +6536,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_6_fu_1489339</first>
+			<first>add_ln42_20_fu_338299</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6544,7 +6544,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_7_fu_1489349</first>
+			<first>add_ln42_21_fu_338309</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6552,7 +6552,7 @@
 			</second>
 		</item>
 		<item>
-			<first>add_ln42_fu_1489279</first>
+			<first>add_ln42_fu_338239</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6568,7 +6568,7 @@
 			</second>
 		</item>
 		<item>
-			<first>i_9_fu_1489162</first>
+			<first>i_15_fu_338122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6576,7 +6576,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln25_fu_1489156</first>
+			<first>icmp_ln25_fu_338116</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6584,55 +6584,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mul_ln42_1_fu_29249</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_2_fu_12469</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_3_fu_44367</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>40</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_4_fu_16983</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>44</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_5_fu_7167</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>48</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_6_fu_20699</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>52</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_7_fu_10580</first>
+			<first>mul_ln42_10_fu_8618</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6640,7 +6592,55 @@
 			</second>
 		</item>
 		<item>
-			<first>mul_ln42_fu_41517</first>
+			<first>mul_ln42_4_fu_5019</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>32</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_5_fu_10180</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>36</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_6_fu_10321</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>40</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_7_fu_4601</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>44</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_8_fu_8524</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>48</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_9_fu_7350</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>52</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_fu_1089</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6648,7 +6648,7 @@
 			</second>
 		</item>
 		<item>
-			<first>or_ln46_s_fu_1489355</first>
+			<first>or_ln46_s_fu_338315</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6656,55 +6656,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln42_1_fu_1489251</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>31</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_2_fu_1489255</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>35</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_3_fu_1489259</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>39</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_4_fu_1489263</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>43</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_5_fu_1489267</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>47</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_6_fu_1489271</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>51</item>
-			</second>
-		</item>
-		<item>
-			<first>sext_ln42_7_fu_1489275</first>
+			<first>sext_ln42_10_fu_338235</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6712,7 +6664,55 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln42_fu_1489247</first>
+			<first>sext_ln42_4_fu_338211</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>31</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_5_fu_338215</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>35</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_6_fu_338219</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>39</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_7_fu_338223</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>43</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_8_fu_338227</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>47</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_9_fu_338231</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>51</item>
+			</second>
+		</item>
+		<item>
+			<first>sext_ln42_fu_338207</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6720,7 +6720,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln46_fu_1489375</first>
+			<first>sext_ln46_fu_338335</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6728,7 +6728,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_1_fu_1489295</first>
+			<first>sext_ln70_13_fu_338255</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6736,7 +6736,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_2_fu_1489305</first>
+			<first>sext_ln70_14_fu_338265</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6744,7 +6744,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_3_fu_1489315</first>
+			<first>sext_ln70_15_fu_338275</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6752,7 +6752,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_4_fu_1489325</first>
+			<first>sext_ln70_16_fu_338285</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6760,7 +6760,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_5_fu_1489335</first>
+			<first>sext_ln70_17_fu_338295</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6768,7 +6768,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_6_fu_1489345</first>
+			<first>sext_ln70_18_fu_338305</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6776,7 +6776,7 @@
 			</second>
 		</item>
 		<item>
-			<first>sext_ln70_fu_1489285</first>
+			<first>sext_ln70_fu_338245</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6792,7 +6792,7 @@
 		<count>5</count>
 		<item_version>0</item_version>
 		<item>
-			<first>i_load_fu_1489153</first>
+			<first>i_load_fu_338113</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6808,7 +6808,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln25_store_fu_1489148</first>
+			<first>store_ln25_store_fu_338108</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6816,7 +6816,7 @@
 			</second>
 		</item>
 		<item>
-			<first>store_ln25_store_fu_1489168</first>
+			<first>store_ln25_store_fu_338128</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6844,7 +6844,7 @@
 		<count>18</count>
 		<item_version>0</item_version>
 		<item>
-			<first>1489115</first>
+			<first>338075</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6852,7 +6852,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489119</first>
+			<first>338079</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6860,7 +6860,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489123</first>
+			<first>338083</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6868,7 +6868,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489127</first>
+			<first>338087</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6876,7 +6876,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489131</first>
+			<first>338091</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6884,7 +6884,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489135</first>
+			<first>338095</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6892,7 +6892,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489139</first>
+			<first>338099</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6900,7 +6900,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489143</first>
+			<first>338103</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6908,7 +6908,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489380</first>
+			<first>338340</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6916,7 +6916,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489387</first>
+			<first>338347</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6924,7 +6924,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489391</first>
+			<first>338351</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6932,7 +6932,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489396</first>
+			<first>338356</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6940,7 +6940,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489401</first>
+			<first>338361</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6948,7 +6948,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489406</first>
+			<first>338366</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6956,7 +6956,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489411</first>
+			<first>338371</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6964,7 +6964,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489416</first>
+			<first>338376</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6972,7 +6972,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489421</first>
+			<first>338381</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6980,7 +6980,7 @@
 			</second>
 		</item>
 		<item>
-			<first>1489426</first>
+			<first>338386</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -6992,55 +6992,7 @@
 		<count>18</count>
 		<item_version>0</item_version>
 		<item>
-			<first>a_1_reg_1489401</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>21</item>
-			</second>
-		</item>
-		<item>
-			<first>a_2_reg_1489406</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>a_3_reg_1489411</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>23</item>
-			</second>
-		</item>
-		<item>
-			<first>a_4_reg_1489416</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>24</item>
-			</second>
-		</item>
-		<item>
-			<first>a_5_reg_1489421</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>25</item>
-			</second>
-		</item>
-		<item>
-			<first>a_6_reg_1489426</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>a_7_reg_1489396</first>
+			<first>a_11_reg_338356</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7048,7 +7000,55 @@
 			</second>
 		</item>
 		<item>
-			<first>a_reg_1489391</first>
+			<first>a_1_reg_338386</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>a_5_reg_338361</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>21</item>
+			</second>
+		</item>
+		<item>
+			<first>a_6_reg_338366</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
+			<first>a_7_reg_338371</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>23</item>
+			</second>
+		</item>
+		<item>
+			<first>a_8_reg_338376</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>24</item>
+			</second>
+		</item>
+		<item>
+			<first>a_9_reg_338381</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>25</item>
+			</second>
+		</item>
+		<item>
+			<first>a_reg_338351</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7056,7 +7056,7 @@
 			</second>
 		</item>
 		<item>
-			<first>i_02_reg_1489380</first>
+			<first>i_02_reg_338340</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7064,7 +7064,7 @@
 			</second>
 		</item>
 		<item>
-			<first>icmp_ln25_reg_1489387</first>
+			<first>icmp_ln25_reg_338347</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7072,55 +7072,7 @@
 			</second>
 		</item>
 		<item>
-			<first>mul_ln42_1_reg_1489119</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_2_reg_1489123</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>36</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_3_reg_1489127</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>40</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_4_reg_1489131</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>44</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_5_reg_1489135</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>48</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_6_reg_1489139</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>52</item>
-			</second>
-		</item>
-		<item>
-			<first>mul_ln42_7_reg_1489143</first>
+			<first>mul_ln42_10_reg_338103</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -7128,7 +7080,55 @@
 			</second>
 		</item>
 		<item>
-			<first>mul_ln42_reg_1489115</first>
+			<first>mul_ln42_4_reg_338079</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>32</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_5_reg_338083</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>36</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_6_reg_338087</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>40</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_7_reg_338091</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>44</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_8_reg_338095</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>48</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_9_reg_338099</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>52</item>
+			</second>
+		</item>
+		<item>
+			<first>mul_ln42_reg_338075</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

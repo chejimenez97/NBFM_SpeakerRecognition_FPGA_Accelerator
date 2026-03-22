@@ -1232,56 +1232,56 @@ firmware/nnet_utils/nnet_pooling_stream.h:334:9: warning: HLS pragma dump _XLX_S
 /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/build_prj.tcl:169:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=name=myproject_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLSDIRECTIVE TOP name=myproject
         ^
-firmware/myproject.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=axis port=input_3,layer23_out_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS INTERFACE axis port=input_3,layer23_out
+firmware/myproject.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=axis port=input_6,layer23_out_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE axis port=input_6,layer23_out
         ^
 firmware/myproject.cpp:14:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=dataflow_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS DATAFLOW
         ^
-firmware/myproject.cpp:45:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer24_out depth=6248_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer24_out depth=6248
+firmware/myproject.cpp:45:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer24_out depth=1452_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer24_out depth=1452
         ^
-firmware/myproject.cpp:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer2_out depth=5640_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer2_out depth=5640
+firmware/myproject.cpp:48:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer2_out depth=1280_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer2_out depth=1280
         ^
-firmware/myproject.cpp:51:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer4_out depth=5640_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer4_out depth=5640
+firmware/myproject.cpp:51:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer4_out depth=1280_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer4_out depth=1280
         ^
-firmware/myproject.cpp:54:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer5_out depth=5640_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer5_out depth=5640
+firmware/myproject.cpp:54:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer5_out depth=1280_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer5_out depth=1280
         ^
-firmware/myproject.cpp:57:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer6_out depth=700_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer6_out depth=700
+firmware/myproject.cpp:57:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer6_out depth=320_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer6_out depth=320
         ^
-firmware/myproject.cpp:60:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer25_out depth=864_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer25_out depth=864
+firmware/myproject.cpp:60:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer25_out depth=408_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer25_out depth=408
         ^
-firmware/myproject.cpp:63:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer7_out depth=700_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer7_out depth=700
+firmware/myproject.cpp:63:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer7_out depth=320_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer7_out depth=320
         ^
-firmware/myproject.cpp:66:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer9_out depth=700_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer9_out depth=700
+firmware/myproject.cpp:66:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer9_out depth=320_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer9_out depth=320
         ^
-firmware/myproject.cpp:69:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer10_out depth=700_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer10_out depth=700
+firmware/myproject.cpp:69:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer10_out depth=320_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer10_out depth=320
         ^
-firmware/myproject.cpp:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer11_out depth=70_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer11_out depth=70
+firmware/myproject.cpp:72:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer11_out depth=40_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer11_out depth=40
         ^
-firmware/myproject.cpp:75:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer26_out depth=112_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer26_out depth=112
+firmware/myproject.cpp:75:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer26_out depth=70_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer26_out depth=70
         ^
-firmware/myproject.cpp:78:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer12_out depth=70_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer12_out depth=70
+firmware/myproject.cpp:78:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer12_out depth=40_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer12_out depth=40
         ^
-firmware/myproject.cpp:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer14_out depth=70_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer14_out depth=70
+firmware/myproject.cpp:81:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer14_out depth=40_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer14_out depth=40
         ^
-firmware/myproject.cpp:84:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer15_out depth=70_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer15_out depth=70
+firmware/myproject.cpp:84:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer15_out depth=40_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer15_out depth=40
         ^
-firmware/myproject.cpp:87:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer16_out depth=7_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLS STREAM variable=layer16_out depth=7
+firmware/myproject.cpp:87:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer16_out depth=2_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=layer16_out depth=2
         ^
 firmware/myproject.cpp:91:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer18_out depth=1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS STREAM variable=layer18_out depth=1

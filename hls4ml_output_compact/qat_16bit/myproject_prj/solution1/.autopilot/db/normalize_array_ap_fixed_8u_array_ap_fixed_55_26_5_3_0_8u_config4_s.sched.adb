@@ -70,7 +70,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1630019628</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>440</bitwidth>
@@ -124,10 +124,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1751342958</coreId>
+						<coreId>1601200416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -296,7 +296,7 @@
 						<coreId>539767593</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -366,7 +366,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -375,7 +375,7 @@
 					<Obj>
 						<type>0</type>
 						<id>12</id>
-						<name>i_9</name>
+						<name>i_15</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>25</lineNumber>
@@ -410,7 +410,7 @@
 						<coreId>1746938918</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -423,7 +423,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.82</m_delay>
+				<m_delay>0.79</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -522,7 +522,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059413744</coreId>
+						<coreId>1043341356</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>304</bitwidth>
@@ -579,7 +579,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063062376</coreId>
+						<coreId>1746938918</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -603,7 +603,7 @@
 					<Obj>
 						<type>0</type>
 						<id>20</id>
-						<name>a_7</name>
+						<name>a_11</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>28</lineNumber>
@@ -635,7 +635,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>448</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -662,242 +662,6 @@
 					<Obj>
 						<type>0</type>
 						<id>21</id>
-						<name>a_1</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3639448311</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>93</item>
-					<item>94</item>
-					<item>96</item>
-					<item>98</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>12</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_14">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>22</id>
-						<name>a_2</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3635201870</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>99</item>
-					<item>100</item>
-					<item>102</item>
-					<item>104</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>13</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_15">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>23</id>
-						<name>a_3</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>105</item>
-					<item>106</item>
-					<item>108</item>
-					<item>110</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>14</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_16">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>24</id>
-						<name>a_4</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>28</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>28</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>a</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1635216754</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>38</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>111</item>
-					<item>112</item>
-					<item>114</item>
-					<item>116</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>15</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_17">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>25</id>
 						<name>a_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -930,7 +694,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>810830175</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -938,10 +702,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>117</item>
-					<item>118</item>
-					<item>120</item>
-					<item>122</item>
+					<item>93</item>
+					<item>94</item>
+					<item>96</item>
+					<item>98</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
@@ -949,14 +713,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>16</m_topoIndex>
+				<m_topoIndex>12</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_18">
+			<item class_id_reference="9" object_id="_14">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>26</id>
+						<id>22</id>
 						<name>a_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -989,7 +753,243 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059735232</coreId>
+						<coreId>708718624</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>99</item>
+					<item>100</item>
+					<item>102</item>
+					<item>104</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>13</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_15">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>23</id>
+						<name>a_7</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>744320609</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>105</item>
+					<item>106</item>
+					<item>108</item>
+					<item>110</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>14</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_16">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>24</id>
+						<name>a_8</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>808525868</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>111</item>
+					<item>112</item>
+					<item>114</item>
+					<item>116</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>15</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_17">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>25</id>
+						<name>a_9</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>741749024</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>38</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>117</item>
+					<item>118</item>
+					<item>120</item>
+					<item>122</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>16</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_18">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>26</id>
+						<name>a_1</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>28</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>28</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>a</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>808591404</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>38</bitwidth>
@@ -1048,10 +1048,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062656528</coreId>
+						<coreId>741356064</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1104,10 +1104,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059848464</coreId>
+						<coreId>807414835</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1161,10 +1161,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059780992</coreId>
+						<coreId>808019300</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -1177,7 +1177,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
+				<m_delay>1.09</m_delay>
 				<m_topoIndex>35</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1225,7 +1225,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059780992</coreId>
+						<coreId>539768105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -1249,705 +1249,6 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>sext_ln42_1</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1057036144</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>137</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>20</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_24">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>32</id>
-						<name>mul_ln42_1</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>138</item>
-					<item>140</item>
-				</oprand_edges>
-				<opcode>mul</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.57</m_delay>
-				<m_topoIndex>21</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_25">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>33</id>
-						<name>add_ln42_1</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3639654852</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>141</item>
-					<item>143</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>37</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_26">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>34</id>
-						<name>sext_ln70_1</name>
-						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>70</lineNumber>
-						<contextFuncName>product</contextFuncName>
-						<contextNormFuncName>product</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>41</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_mult.h</first>
-											<second>product</second>
-										</first>
-										<second>70</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1062423792</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>55</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>144</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>38</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_27">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>35</id>
-						<name>sext_ln42_2</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1063062064</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>145</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>22</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_28">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>36</id>
-						<name>mul_ln42_2</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1062101072</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>146</item>
-					<item>148</item>
-				</oprand_edges>
-				<opcode>mul</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.57</m_delay>
-				<m_topoIndex>23</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_29">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>37</id>
-						<name>add_ln42_2</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1059400832</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>149</item>
-					<item>151</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>39</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_30">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>38</id>
-						<name>sext_ln70_2</name>
-						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>70</lineNumber>
-						<contextFuncName>product</contextFuncName>
-						<contextNormFuncName>product</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>41</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_mult.h</first>
-											<second>product</second>
-										</first>
-										<second>70</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1063272928</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>55</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>152</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>40</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_31">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>39</id>
-						<name>sext_ln42_3</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>144</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>153</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_32">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>40</id>
-						<name>mul_ln42_3</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3639924355</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>154</item>
-					<item>156</item>
-				</oprand_edges>
-				<opcode>mul</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>3.57</m_delay>
-				<m_topoIndex>25</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_33">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>41</id>
-						<name>add_ln42_3</name>
-						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>42</lineNumber>
-						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
-						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>42</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>3640545055</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>49</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>157</item>
-					<item>159</item>
-				</oprand_edges>
-				<opcode>add</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>41</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_34">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>42</id>
-						<name>sext_ln70_3</name>
-						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
-						<lineNumber>70</lineNumber>
-						<contextFuncName>product</contextFuncName>
-						<contextNormFuncName>product</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
-								<second>
-									<count>2</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
-											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
-										</first>
-										<second>41</second>
-									</item>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_mult.h</first>
-											<second>product</second>
-										</first>
-										<second>70</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1061727872</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>55</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>160</item>
-				</oprand_edges>
-				<opcode>sext</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>42</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_35">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>43</id>
 						<name>sext_ln42_4</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -1980,7 +1281,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>694510703</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -1988,7 +1289,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>161</item>
+					<item>137</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -1996,14 +1297,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>26</m_topoIndex>
+				<m_topoIndex>20</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_36">
+			<item class_id_reference="9" object_id="_24">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>44</id>
+						<id>32</id>
 						<name>mul_ln42_4</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2036,7 +1337,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>741550437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -2044,8 +1345,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>162</item>
-					<item>164</item>
+					<item>138</item>
+					<item>140</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
@@ -2053,15 +1354,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.57</m_delay>
-				<m_topoIndex>27</m_topoIndex>
+				<m_topoIndex>21</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_37">
+			<item class_id_reference="9" object_id="_25">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>45</id>
-						<name>add_ln42_4</name>
+						<id>33</id>
+						<name>add_ln42_15</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2093,7 +1394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061471008</coreId>
+						<coreId>808525868</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
@@ -2101,8 +1402,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>165</item>
-					<item>167</item>
+					<item>141</item>
+					<item>143</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
@@ -2110,15 +1411,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>1.09</m_delay>
-				<m_topoIndex>43</m_topoIndex>
+				<m_topoIndex>37</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_38">
+			<item class_id_reference="9" object_id="_26">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>46</id>
-						<name>sext_ln70_4</name>
+						<id>34</id>
+						<name>sext_ln70_13</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2157,7 +1458,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>144</coreId>
+						<coreId>741550437</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2165,7 +1466,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>168</item>
+					<item>144</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2173,14 +1474,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>44</m_topoIndex>
+				<m_topoIndex>38</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_39">
+			<item class_id_reference="9" object_id="_27">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>47</id>
+						<id>35</id>
 						<name>sext_ln42_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2213,15 +1514,15 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639338081</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>169</item>
+					<item>145</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2229,14 +1530,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
+				<m_topoIndex>22</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_40">
+			<item class_id_reference="9" object_id="_28">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>48</id>
+						<id>36</id>
 						<name>mul_ln42_5</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2269,16 +1570,16 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063248704</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>170</item>
-					<item>172</item>
+					<item>146</item>
+					<item>148</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
@@ -2286,15 +1587,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.57</m_delay>
-				<m_topoIndex>29</m_topoIndex>
+				<m_topoIndex>23</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_41">
+			<item class_id_reference="9" object_id="_29">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>49</id>
-						<name>add_ln42_5</name>
+						<id>37</id>
+						<name>add_ln42_16</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2326,32 +1627,32 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>173</item>
-					<item>175</item>
+					<item>149</item>
+					<item>151</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.09</m_delay>
-				<m_topoIndex>45</m_topoIndex>
+				<m_delay>1.10</m_delay>
+				<m_topoIndex>39</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_42">
+			<item class_id_reference="9" object_id="_30">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>50</id>
-						<name>sext_ln70_5</name>
+						<id>38</id>
+						<name>sext_ln70_14</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2390,7 +1691,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2398,7 +1699,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>176</item>
+					<item>152</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2406,14 +1707,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>46</m_topoIndex>
+				<m_topoIndex>40</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_43">
+			<item class_id_reference="9" object_id="_31">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>51</id>
+						<id>39</id>
 						<name>sext_ln42_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2446,15 +1747,15 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>177</item>
+					<item>153</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2462,14 +1763,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>30</m_topoIndex>
+				<m_topoIndex>24</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_44">
+			<item class_id_reference="9" object_id="_32">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>52</id>
+						<id>40</id>
 						<name>mul_ln42_6</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2502,16 +1803,16 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>178</item>
-					<item>180</item>
+					<item>154</item>
+					<item>156</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
@@ -2519,15 +1820,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.57</m_delay>
-				<m_topoIndex>31</m_topoIndex>
+				<m_topoIndex>25</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_45">
+			<item class_id_reference="9" object_id="_33">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>53</id>
-						<name>add_ln42_6</name>
+						<id>41</id>
+						<name>add_ln42_17</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2559,32 +1860,32 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>181</item>
-					<item>183</item>
+					<item>157</item>
+					<item>159</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
-				<m_topoIndex>47</m_topoIndex>
+				<m_delay>1.09</m_delay>
+				<m_topoIndex>41</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_46">
+			<item class_id_reference="9" object_id="_34">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>54</id>
-						<name>sext_ln70_6</name>
+						<id>42</id>
+						<name>sext_ln70_15</name>
 						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>70</lineNumber>
@@ -2623,7 +1924,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>55</bitwidth>
@@ -2631,7 +1932,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>184</item>
+					<item>160</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2639,14 +1940,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>48</m_topoIndex>
+				<m_topoIndex>42</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_47">
+			<item class_id_reference="9" object_id="_35">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>55</id>
+						<id>43</id>
 						<name>sext_ln42_7</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2679,15 +1980,15 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>185</item>
+					<item>161</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -2695,14 +1996,14 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>32</m_topoIndex>
+				<m_topoIndex>26</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_48">
+			<item class_id_reference="9" object_id="_36">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>56</id>
+						<id>44</id>
 						<name>mul_ln42_7</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
@@ -2735,16 +2036,16 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>741749024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>186</item>
-					<item>188</item>
+					<item>162</item>
+					<item>164</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
@@ -2752,15 +2053,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>3.57</m_delay>
-				<m_topoIndex>33</m_topoIndex>
+				<m_topoIndex>27</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_49">
+			<item class_id_reference="9" object_id="_37">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>57</id>
-						<name>add_ln42_7</name>
+						<id>45</id>
+						<name>add_ln42_18</name>
 						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
 						<lineNumber>42</lineNumber>
@@ -2792,10 +2093,709 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1063305808</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>165</item>
+					<item>167</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.09</m_delay>
+				<m_topoIndex>43</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>46</id>
+						<name>sext_ln70_16</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>70</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>70</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1630019628</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>168</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>44</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_39">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>47</id>
+						<name>sext_ln42_8</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1869438833</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>169</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_40">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>48</id>
+						<name>mul_ln42_8</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1663068276</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>170</item>
+					<item>172</item>
+				</oprand_edges>
+				<opcode>mul</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.57</m_delay>
+				<m_topoIndex>29</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_41">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>49</id>
+						<name>add_ln42_19</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1885419852</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>173</item>
+					<item>175</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.09</m_delay>
+				<m_topoIndex>45</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_42">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>50</id>
+						<name>sext_ln70_17</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>70</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>70</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1933195892</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>176</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>46</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_43">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>51</id>
+						<name>sext_ln42_9</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1885420665</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>177</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>30</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_44">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>52</id>
+						<name>mul_ln42_9</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1043490665</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>178</item>
+					<item>180</item>
+				</oprand_edges>
+				<opcode>mul</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.57</m_delay>
+				<m_topoIndex>31</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_45">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>53</id>
+						<name>add_ln42_20</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1768714095</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>181</item>
+					<item>183</item>
+				</oprand_edges>
+				<opcode>add</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>1.09</m_delay>
+				<m_topoIndex>47</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_46">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>54</id>
+						<name>sext_ln70_18</name>
+						<fileName>firmware/nnet_utils/nnet_mult.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>70</lineNumber>
+						<contextFuncName>product</contextFuncName>
+						<contextNormFuncName>product</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>2</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>41</second>
+									</item>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_mult.h</first>
+											<second>product</second>
+										</first>
+										<second>70</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1013212536</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>55</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>184</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>48</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_47">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>55</id>
+						<name>sext_ln42_10</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1047869472</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>185</item>
+				</oprand_edges>
+				<opcode>sext</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>32</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_48">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>56</id>
+						<name>mul_ln42_10</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1683975276</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>186</item>
+					<item>188</item>
+				</oprand_edges>
+				<opcode>mul</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>3.57</m_delay>
+				<m_topoIndex>33</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_49">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>57</id>
+						<name>add_ln42_21</name>
+						<fileName>firmware/nnet_utils/nnet_batchnorm_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</fileDirectory>
+						<lineNumber>42</lineNumber>
+						<contextFuncName>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</contextFuncName>
+						<contextNormFuncName>normalize_nnet_array_ap_fixed_38_19_AP_TRN_AP_WRAP_0_8_nnet_array_ap_fixed_55_26_AP_TRN_AP_WRAP_0_8_config4_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_16bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_batchnorm_stream.h</first>
+											<second>normalize&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;38, 19, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;55, 26, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, config4&amp;gt;</second>
+										</first>
+										<second>42</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1920098618</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -2808,7 +2808,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.10</m_delay>
+				<m_delay>1.09</m_delay>
 				<m_topoIndex>49</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2849,10 +2849,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>980642920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>435</bitwidth>
+					<bitwidth>434</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>9</count>
@@ -2913,7 +2913,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639849876</coreId>
+						<coreId>741880352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>440</bitwidth>
@@ -2969,7 +2969,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061965264</coreId>
+						<coreId>742273056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3027,7 +3027,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1717924464</coreId>
+						<coreId>1768318322</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3086,7 +3086,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1431261768</coreId>
+						<coreId>1830840174</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3142,7 +3142,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701016181</coreId>
+						<coreId>774774894</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -3218,10 +3218,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -3252,10 +3252,10 @@
 						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>5640</content>
+				<content>1280</content>
 			</item>
 			<item class_id_reference="16" object_id="_59">
 				<Value>
@@ -3280,10 +3280,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885415456</coreId>
+						<coreId>108</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>13</bitwidth>
+					<bitwidth>11</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -3311,7 +3311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3632642884</coreId>
+						<coreId>1699560457</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3342,7 +3342,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1031369833</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3373,7 +3373,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059859296</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3404,7 +3404,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3633046769</coreId>
+						<coreId>878662485</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3435,7 +3435,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1679844453</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3466,7 +3466,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1059334256</coreId>
+						<coreId>574451311</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3497,7 +3497,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3633279176</coreId>
+						<coreId>673215598</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3528,7 +3528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320</coreId>
+						<coreId>1836016430</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3559,7 +3559,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062921520</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3590,7 +3590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3621,7 +3621,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1701735968</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3652,7 +3652,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3683,7 +3683,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061460512</coreId>
+						<coreId>740979827</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3714,7 +3714,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639846533</coreId>
+						<coreId>740979827</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -3745,13 +3745,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>712274798</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>2351</content>
+				<content>847</content>
 			</item>
 			<item class_id_reference="16" object_id="_75">
 				<Value>
@@ -3776,13 +3776,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639939198</coreId>
+						<coreId>744320609</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>48</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1125899900551168</content>
+				<content>281474949447680</content>
 			</item>
 			<item class_id_reference="16" object_id="_76">
 				<Value>
@@ -3807,13 +3807,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062703696</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1336</content>
+				<content>2028</content>
 			</item>
 			<item class_id_reference="16" object_id="_77">
 				<Value>
@@ -3838,13 +3838,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3639940207</coreId>
+						<coreId>1952804462</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949768871936</content>
+				<content>562949798232064</content>
 			</item>
 			<item class_id_reference="16" object_id="_78">
 				<Value>
@@ -3869,13 +3869,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>891905380</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1969</content>
+				<content>2106</content>
 			</item>
 			<item class_id_reference="16" object_id="_79">
 				<Value>
@@ -3900,13 +3900,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3640636788</coreId>
+						<coreId>673197105</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>49</bitwidth>
+					<bitwidth>50</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>45613056</content>
+				<content>144703488</content>
 			</item>
 			<item class_id_reference="16" object_id="_80">
 				<Value>
@@ -3931,13 +3931,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1062703696</coreId>
+						<coreId>1852793632</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1796</content>
+				<content>1110</content>
 			</item>
 			<item class_id_reference="16" object_id="_81">
 				<Value>
@@ -3962,13 +3962,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3640602173</coreId>
+						<coreId>1684371561</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949903089664</content>
+				<content>562949927731200</content>
 			</item>
 			<item class_id_reference="16" object_id="_82">
 				<Value>
@@ -3993,13 +3993,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1634890337</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1330</content>
+				<content>1619</content>
 			</item>
 			<item class_id_reference="16" object_id="_83">
 				<Value>
@@ -4024,13 +4024,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1685024095</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>159907840</content>
+				<content>240648192</content>
 			</item>
 			<item class_id_reference="16" object_id="_84">
 				<Value>
@@ -4055,13 +4055,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061729984</coreId>
+						<coreId>2089299712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1454</content>
+				<content>1125</content>
 			</item>
 			<item class_id_reference="16" object_id="_85">
 				<Value>
@@ -4086,13 +4086,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1852718197</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>562949864292352</content>
+				<content>208666624</content>
 			</item>
 			<item class_id_reference="16" object_id="_86">
 				<Value>
@@ -4117,13 +4117,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1885415456</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>3083</content>
+				<content>1270</content>
 			</item>
 			<item class_id_reference="16" object_id="_87">
 				<Value>
@@ -4148,13 +4148,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>980706670</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>196083712</content>
+				<content>91750400</content>
 			</item>
 			<item class_id_reference="16" object_id="_88">
 				<Value>
@@ -4179,13 +4179,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061708880</coreId>
+						<coreId>1869438831</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>2890</content>
+				<content>1255</content>
 			</item>
 			<item class_id_reference="16" object_id="_89">
 				<Value>
@@ -4210,13 +4210,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1061460512</coreId>
+						<coreId>1631206004</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>50</bitwidth>
+					<bitwidth>49</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>1125899822432256</content>
+				<content>126877696</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -4244,7 +4244,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539766825</coreId>
+					<coreId>742273056</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -4277,7 +4277,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>539770416</coreId>
+					<coreId>539766825</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -4386,7 +4386,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>840969278</coreId>
+					<coreId>539770416</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -5145,8 +5145,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>5644</mMinLatency>
-			<mMaxLatency>5644</mMaxLatency>
+			<mMinLatency>1284</mMinLatency>
+			<mMaxLatency>1284</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -5190,10 +5190,10 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>4</mDepth>
-			<mMinTripCount>5640</mMinTripCount>
-			<mMaxTripCount>5640</mMaxTripCount>
-			<mMinLatency>5642</mMinLatency>
-			<mMaxLatency>5642</mMaxLatency>
+			<mMinTripCount>1280</mMinTripCount>
+			<mMaxTripCount>1280</mMaxTripCount>
+			<mMinLatency>1282</mMinLatency>
+			<mMaxLatency>1282</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

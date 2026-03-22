@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s'
 ================================================================
-* Date:           Sat Mar 21 19:19:27 2026
+* Date:           Sun Mar 22 09:49:03 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -74,12 +74,12 @@
     +---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
     |                                         Memory                                        |                                      Module                                      | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
     +---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
-    |p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb  |        0|  64|  32|    0|   284|   16|     1|         4544|
-    |p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb  |        0|  64|  32|    0|   284|   16|     1|         4544|
-    |p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb  |        0|  64|  32|    0|   284|   16|     1|         4544|
-    |p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_U    |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb  |        0|  64|  32|    0|   284|   16|     1|         4544|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_U    |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
     +---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
-    |Total                                                                                  |                                                                                  |        0| 256| 128|    0|  1136|   64|     4|        18176|
+    |Total                                                                                  |                                                                                  |        0| 256| 128|    0|   264|   64|     4|         4224|
     +---------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
 
     * FIFO: 
@@ -225,29 +225,29 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 1.43>
-ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln242 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_7" [firmware/nnet_utils/nnet_conv_stream.h:242]   --->   Operation 2 'specpipeline' 'specpipeline_ln242' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln242 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_conv_stream.h:242]   --->   Operation 2 'specpipeline' 'specpipeline_ln242' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%in_elem_0_1_0_0_0_val_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %in_elem_0_1_0_0_0_val" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 3 'read' 'in_elem_0_1_0_0_0_val_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%in_elem_0_0_0_0_0_val_read = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %in_elem_0_0_0_0_0_val" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 4 'read' 'in_elem_0_0_0_0_0_val_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 5 [1/1] (0.71ns)   --->   "%p_06_i = memshiftread i16 @_ssdm_op_MemShiftRead.[284 x i16]P0A, i16 283, i16 %in_elem_0_0_0_0_0_val_read, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 5 'memshiftread' 'p_06_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 284> <ShiftMem>
-ST_1 : Operation 6 [1/1] (0.71ns)   --->   "%p_07_i = memshiftread i16 @_ssdm_op_MemShiftRead.[284 x i16]P0A, i16 283, i16 %p_06_i, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 6 'memshiftread' 'p_07_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 284> <ShiftMem>
-ST_1 : Operation 7 [1/1] (0.71ns)   --->   "%p_08_i = memshiftread i16 @_ssdm_op_MemShiftRead.[284 x i16]P0A, i16 283, i16 %in_elem_0_1_0_0_0_val_read, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 7 'memshiftread' 'p_08_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 284> <ShiftMem>
-ST_1 : Operation 8 [1/1] (0.71ns)   --->   "%p_0_i = memshiftread i16 @_ssdm_op_MemShiftRead.[284 x i16]P0A, i16 283, i16 %p_08_i, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 8 'memshiftread' 'p_0_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 284> <ShiftMem>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 9 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 10 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 11 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 12 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 13 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 14 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 15 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 16 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.71ns)   --->   "%p_06_i = memshiftread i16 @_ssdm_op_MemShiftRead.[66 x i16]P0A, i16 65, i16 %in_elem_0_0_0_0_0_val_read, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 5 'memshiftread' 'p_06_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 66> <ShiftMem>
+ST_1 : Operation 6 [1/1] (0.71ns)   --->   "%p_07_i = memshiftread i16 @_ssdm_op_MemShiftRead.[66 x i16]P0A, i16 65, i16 %p_06_i, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 6 'memshiftread' 'p_07_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 66> <ShiftMem>
+ST_1 : Operation 7 [1/1] (0.71ns)   --->   "%p_08_i = memshiftread i16 @_ssdm_op_MemShiftRead.[66 x i16]P0A, i16 65, i16 %in_elem_0_1_0_0_0_val_read, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 7 'memshiftread' 'p_08_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 66> <ShiftMem>
+ST_1 : Operation 8 [1/1] (0.71ns)   --->   "%p_0_i = memshiftread i16 @_ssdm_op_MemShiftRead.[66 x i16]P0A, i16 65, i16 %p_08_i, i1 1" [firmware/nnet_utils/nnet_conv_stream.h:241]   --->   Operation 8 'memshiftread' 'p_0_i' <Predicate = true> <Delay = 0.71> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.71> <Storage> <Opcode : 'load' 'memshiftread'> <Ports = 1> <Width = 16> <Depth = 66> <ShiftMem>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 9 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 10 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 11 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 12 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 13 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 14 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 15 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 16 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8 = load i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 17 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 18 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9 = load i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 19 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 20 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 21 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 22 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 23 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 24 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 21 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 22 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39 = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 23 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 24 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10 = load i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 25 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%store_ln196 = store i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 26 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11 = load i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6" [firmware/nnet_utils/nnet_conv_stream.h:196->firmware/nnet_utils/nnet_conv_stream.h:247]   --->   Operation 27 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_11' <Predicate = true> <Delay = 0.00>
@@ -296,10 +296,10 @@ Port [ p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_
 Port [ p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6]:  wired=1; compound=0; hidden=0; nouse=0; global=1; static=1; extern=0; dir=2; type=0; pingpong=0; private_global=0; IO mode=ap_ovld:ce=0
 Port [ p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1]:  wired=1; compound=0; hidden=0; nouse=0; global=1; static=1; extern=0; dir=2; type=0; pingpong=0; private_global=0; IO mode=ap_ovld:ce=0
 Port [ p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9]:  wired=1; compound=0; hidden=0; nouse=0; global=1; static=1; extern=0; dir=2; type=0; pingpong=0; private_global=0; IO mode=ap_ovld:ce=0
-Port [ p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
-Port [ p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
-Port [ p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
-Port [ p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
+Port [ p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
+Port [ p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
+Port [ p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
+Port [ p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL]:  wired=0; compound=1; hidden=1; nouse=0; global=1; static=1; extern=0; dir=3; type=1; pingpong=0; private_global=1; MemPort=[2]; IO mode=ap_memory:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -313,21 +313,21 @@ p_06_i                                                                          
 p_07_i                                                                               (memshiftread) [ 00]
 p_08_i                                                                               (memshiftread) [ 00]
 p_0_i                                                                                (memshiftread) [ 00]
-void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32         (load        ) [ 00]
-store_ln196                                                                          (store       ) [ 00]
-void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33         (load        ) [ 00]
-store_ln196                                                                          (store       ) [ 00]
 void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34         (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
 void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35         (load        ) [ 00]
+store_ln196                                                                          (store       ) [ 00]
+void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36         (load        ) [ 00]
+store_ln196                                                                          (store       ) [ 00]
+void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37         (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
 p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_8  (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
 p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_9  (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
-void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36         (load        ) [ 00]
+void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38         (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
-void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37         (load        ) [ 00]
+void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39         (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
 p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_10 (load        ) [ 00]
 store_ln196                                                                          (store       ) [ 00]
@@ -529,42 +529,42 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="40" class="1000" name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3">
+<comp id="40" class="1000" name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3">
 <pin_list>
 <pin id="41" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3"/><MemPortTyVec>2 </MemPortTyVec>
+<StgValue><ssdm name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3"/><MemPortTyVec>2 </MemPortTyVec>
 </StgValue>
 </bind>
 </comp>
 
-<comp id="42" class="1000" name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1">
+<comp id="42" class="1000" name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1">
 <pin_list>
 <pin id="43" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1"/><MemPortTyVec>2 </MemPortTyVec>
+<StgValue><ssdm name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1"/><MemPortTyVec>2 </MemPortTyVec>
 </StgValue>
 </bind>
 </comp>
 
-<comp id="44" class="1000" name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2">
+<comp id="44" class="1000" name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2">
 <pin_list>
 <pin id="45" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2"/><MemPortTyVec>2 </MemPortTyVec>
+<StgValue><ssdm name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2"/><MemPortTyVec>2 </MemPortTyVec>
 </StgValue>
 </bind>
 </comp>
 
-<comp id="46" class="1000" name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E">
+<comp id="46" class="1000" name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL">
 <pin_list>
 <pin id="47" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E"/><MemPortTyVec>2 </MemPortTyVec>
+<StgValue><ssdm name="p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL"/><MemPortTyVec>2 </MemPortTyVec>
 </StgValue>
 </bind>
 </comp>
@@ -601,7 +601,7 @@ ret_ln242                                                                       
 <pin id="55" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_7"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -619,7 +619,7 @@ ret_ln242                                                                       
 <pin id="59" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="_ssdm_op_MemShiftRead.[284 x i16]P0A"/></StgValue>
+<StgValue><ssdm name="_ssdm_op_MemShiftRead.[66 x i16]P0A"/></StgValue>
 </bind>
 </comp>
 
@@ -748,14 +748,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="122" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32_load_fu_122">
+<comp id="122" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34_load_fu_122">
 <pin_list>
 <pin id="123" dir="0" index="0" bw="16" slack="0"/>
 <pin id="124" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34/1 "/>
 </bind>
 </comp>
 
@@ -771,14 +771,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="132" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33_load_fu_132">
+<comp id="132" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35_load_fu_132">
 <pin_list>
 <pin id="133" dir="0" index="0" bw="16" slack="0"/>
 <pin id="134" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35/1 "/>
 </bind>
 </comp>
 
@@ -794,14 +794,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="142" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34_load_fu_142">
+<comp id="142" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36_load_fu_142">
 <pin_list>
 <pin id="143" dir="0" index="0" bw="16" slack="0"/>
 <pin id="144" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36/1 "/>
 </bind>
 </comp>
 
@@ -817,14 +817,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="152" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35_load_fu_152">
+<comp id="152" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37_load_fu_152">
 <pin_list>
 <pin id="153" dir="0" index="0" bw="16" slack="0"/>
 <pin id="154" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37/1 "/>
 </bind>
 </comp>
 
@@ -886,14 +886,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="182" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36_load_fu_182">
+<comp id="182" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38_load_fu_182">
 <pin_list>
 <pin id="183" dir="0" index="0" bw="16" slack="0"/>
 <pin id="184" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_38/1 "/>
 </bind>
 </comp>
 
@@ -909,14 +909,14 @@ ret_ln242                                                                       
 </bind>
 </comp>
 
-<comp id="192" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37_load_fu_192">
+<comp id="192" class="1004" name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39_load_fu_192">
 <pin_list>
 <pin id="193" dir="0" index="0" bw="16" slack="0"/>
 <pin id="194" dir="1" index="1" bw="16" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_37/1 "/>
+<opset="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_39/1 "/>
 </bind>
 </comp>
 
@@ -1260,10 +1260,10 @@ ret_ln242                                                                       
 	Port: p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 | {1 }
 	Port: p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 | {1 }
 	Port: p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 | {1 }
-	Port: p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3 | {1 }
-	Port: p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1 | {1 }
-	Port: p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2 | {1 }
-	Port: p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E | {1 }
+	Port: p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3 | {1 }
+	Port: p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1 | {1 }
+	Port: p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2 | {1 }
+	Port: p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL | {1 }
  - Input state : 
 	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : in_elem_0_0_0_0_0_val | {1 }
 	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : in_elem_0_1_0_0_0_val | {1 }
@@ -1285,10 +1285,10 @@ ret_ln242                                                                       
 	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 | {1 }
 	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 | {1 }
 	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 | {1 }
-	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_3 | {1 }
-	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_1 | {1 }
-	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E_2 | {1 }
-	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5E | {1 }
+	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_3 | {1 }
+	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_1 | {1 }
+	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_2 | {1 }
+	Port: shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2> : p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL | {1 }
   - Chain level:
 	State 1
 		p_07_i : 1

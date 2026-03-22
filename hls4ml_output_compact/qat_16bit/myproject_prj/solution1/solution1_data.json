@@ -15,14 +15,14 @@
     "Triple": "fpga64-xilinx-none"
   },
   "Args": {
-    "input_2": {
+    "input_5": {
       "index": "0",
       "direction": "in",
       "srcType": "stream<nnet::array<ap_fixed<16, 6, AP_TRN, AP_WRAP, 0>, 2>, 0>&",
       "srcSize": "32",
       "hwRefs": [{
           "type": "interface",
-          "interface": "input_2",
+          "interface": "input_5",
           "name": "",
           "usage": "data",
           "direction": "in"
@@ -60,8 +60,8 @@
     "ClockPeriod": "5",
     "Uncertainty": "1.35",
     "IsCombinational": "0",
-    "II": "18748",
-    "Latency": "18762"
+    "II": "4360",
+    "Latency": "4374"
   },
   "Xdc": {"OocClocks": ["create_clock -name ap_clk -period 5.000 [get_ports ap_clk]"]},
   "Ipx": {
@@ -80,49 +80,60 @@
     "CSource": ["..\/..\/firmware\/myproject.cpp"],
     "Vhdl": [
       "impl\/vhdl\/myproject_compute_output_buffer_2d_array_array_ap_fixed_38_19_5_3_0_8u_config2_s.vhd",
-      "impl\/vhdl\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd",
-      "impl\/vhdl\/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd",
+      "impl\/vhdl\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd",
+      "impl\/vhdl\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd",
       "impl\/vhdl\/myproject_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_19_5_3_0_8u_config2_s.vhd",
-      "impl\/vhdl\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.vhd",
-      "impl\/vhdl\/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.vhd",
-      "impl\/vhdl\/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.vhd",
-      "impl\/vhdl\/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.vhd",
-      "impl\/vhdl\/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.vhd",
-      "impl\/vhdl\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.vhd",
+      "impl\/vhdl\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.vhd",
+      "impl\/vhdl\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.vhd",
+      "impl\/vhdl\/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.vhd",
+      "impl\/vhdl\/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.vhd",
+      "impl\/vhdl\/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.vhd",
+      "impl\/vhdl\/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.vhd",
+      "impl\/vhdl\/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.vhd",
+      "impl\/vhdl\/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.vhd",
+      "impl\/vhdl\/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.vhd",
+      "impl\/vhdl\/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.vhd",
       "impl\/vhdl\/myproject_fexp_32ns_32ns_32_13_full_dsp_1.vhd",
-      "impl\/vhdl\/myproject_fifo_w32_d6248_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w128_d700_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w128_d864_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w128_d5640_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w256_d7_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w256_d70_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w256_d112_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w256_d700_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w304_d5640_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w380_d1_S.vhd",
-      "impl\/vhdl\/myproject_fifo_w440_d5640_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w512_d1_S.vhd",
-      "impl\/vhdl\/myproject_fifo_w640_d700_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w656_d70_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w912_d700_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w928_d70_A.vhd",
-      "impl\/vhdl\/myproject_fifo_w1280_d1_S.vhd",
+      "impl\/vhdl\/myproject_fifo_w32_d1452_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d2_S.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d40_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d70_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d320_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d408_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w128_d1280_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w256_d1_S.vhd",
+      "impl\/vhdl\/myproject_fifo_w304_d1280_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w320_d40_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w320_d320_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w370_d1_S.vhd",
+      "impl\/vhdl\/myproject_fifo_w440_d1280_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w456_d40_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w456_d320_A.vhd",
+      "impl\/vhdl\/myproject_fifo_w592_d1_S.vhd",
       "impl\/vhdl\/myproject_flow_control_loop_pipe.vhd",
-      "impl\/vhdl\/myproject_flow_control_loop_pipe_no_ap_cont.vhd",
       "impl\/vhdl\/myproject_flow_control_loop_pipe_sequential_init.vhd",
       "impl\/vhdl\/myproject_fpext_32ns_64_2_no_dsp_1.vhd",
-      "impl\/vhdl\/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.vhd",
+      "impl\/vhdl\/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_5ns_20_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_5s_21_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_6ns_21_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_6s_22_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_7ns_22_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_7s_22_1_1.vhd",
       "impl\/vhdl\/myproject_mul_16ns_7s_23_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_8ns_23_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_8s_22_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_8s_23_1_1.vhd",
       "impl\/vhdl\/myproject_mul_16ns_8s_24_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_9ns_24_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_9s_23_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_9s_24_1_1.vhd",
       "impl\/vhdl\/myproject_mul_16ns_9s_25_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_10ns_25_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_10s_24_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_10s_25_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_11s_25_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_16ns_12s_25_1_1.vhd",
       "impl\/vhdl\/myproject_mul_16s_5ns_21_1_0.vhd",
       "impl\/vhdl\/myproject_mul_16s_6ns_22_1_0.vhd",
       "impl\/vhdl\/myproject_mul_16s_6s_22_1_0.vhd",
@@ -132,119 +143,105 @@
       "impl\/vhdl\/myproject_mul_16s_8s_24_1_0.vhd",
       "impl\/vhdl\/myproject_mul_16s_9ns_25_1_0.vhd",
       "impl\/vhdl\/myproject_mul_16s_9s_25_1_0.vhd",
-      "impl\/vhdl\/myproject_mul_16s_16ns_25_1_1.vhd",
       "impl\/vhdl\/myproject_mul_18s_16s_26_1_1.vhd",
+      "impl\/vhdl\/myproject_mul_38s_11ns_48_1_1.vhd",
       "impl\/vhdl\/myproject_mul_38s_12ns_49_1_1.vhd",
       "impl\/vhdl\/myproject_mul_38s_13ns_50_1_1.vhd",
       "impl\/vhdl\/myproject_mul_40s_11ns_50_1_1.vhd",
       "impl\/vhdl\/myproject_mul_40s_12ns_51_1_1.vhd",
       "impl\/vhdl\/myproject_mul_40s_13ns_52_1_1.vhd",
-      "impl\/vhdl\/myproject_mul_41s_13ns_53_1_1.vhd",
       "impl\/vhdl\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.vhd",
-      "impl\/vhdl\/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.vhd",
-      "impl\/vhdl\/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.vhd",
+      "impl\/vhdl\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.vhd",
+      "impl\/vhdl\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.vhd",
       "impl\/vhdl\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_s.vhd",
-      "impl\/vhdl\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd",
-      "impl\/vhdl\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd",
+      "impl\/vhdl\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd",
+      "impl\/vhdl\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd",
       "impl\/vhdl\/myproject_regslice_both.vhd",
       "impl\/vhdl\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_s.vhd",
-      "impl\/vhdl\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.vhd",
-      "impl\/vhdl\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.vhd",
-      "impl\/vhdl\/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.vhd",
+      "impl\/vhdl\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.vhd",
+      "impl\/vhdl\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.vhd",
+      "impl\/vhdl\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.vhd",
       "impl\/vhdl\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.vhd",
       "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s.vhd",
       "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s_void_pooling2d_cl_sfYi.vhd",
       "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.vhd",
-      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.vhd",
+      "impl\/vhdl\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.vhd",
       "impl\/vhdl\/myproject_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s.vhd",
       "impl\/vhdl\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s.vhd",
-      "impl\/vhdl\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.vhd",
-      "impl\/vhdl\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.vhd",
-      "impl\/vhdl\/myproject_sparsemux_9_2_16_1_1.vhd",
-      "impl\/vhdl\/myproject_sparsemux_17_3_16_1_1.vhd",
-      "impl\/vhdl\/myproject_sparsemux_57_5_16_1_1.vhd",
+      "impl\/vhdl\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.vhd",
+      "impl\/vhdl\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.vhd",
       "impl\/vhdl\/myproject_start_for_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_19_5_3_0_8u_config2_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.vhd",
-      "impl\/vhdl\/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.vhd",
+      "impl\/vhdl\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.vhd",
+      "impl\/vhdl\/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.vhd",
       "impl\/vhdl\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.vhd",
-      "impl\/vhdl\/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.vhd",
+      "impl\/vhdl\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.vhd",
       "impl\/vhdl\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.vhd",
       "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.vhd",
-      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.vhd",
-      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.vhd",
+      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.vhd",
       "impl\/vhdl\/myproject_start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.vhd",
       "impl\/vhdl\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_U0.vhd",
-      "impl\/vhdl\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.vhd",
+      "impl\/vhdl\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.vhd",
       "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_s.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.vhd",
-      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.vhd",
+      "impl\/vhdl\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.vhd",
       "impl\/vhdl\/myproject.vhd"
     ],
     "Verilog": [
       "impl\/verilog\/myproject_compute_output_buffer_2d_array_array_ap_fixed_38_19_5_3_0_8u_config2_s.v",
-      "impl\/verilog\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s.v",
-      "impl\/verilog\/myproject_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v",
+      "impl\/verilog\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s.v",
+      "impl\/verilog\/myproject_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s.v",
       "impl\/verilog\/myproject_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_19_5_3_0_8u_config2_s.v",
-      "impl\/verilog\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s.v",
-      "impl\/verilog\/myproject_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s.v",
-      "impl\/verilog\/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s.v",
-      "impl\/verilog\/myproject_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s.v",
-      "impl\/verilog\/myproject_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.dat",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_w21_ROM_Ncux.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.dat",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_w7_RODeQ.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.dat",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_w18_ROM_Nctx.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s.v",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.dat",
-      "impl\/verilog\/myproject_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_w12_bqm.v",
+      "impl\/verilog\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s.v",
+      "impl\/verilog\/myproject_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s.v",
+      "impl\/verilog\/myproject_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s.v",
+      "impl\/verilog\/myproject_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s.v",
+      "impl\/verilog\/myproject_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare.v",
+      "impl\/verilog\/myproject_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s.v",
+      "impl\/verilog\/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s.v",
+      "impl\/verilog\/myproject_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s.v",
+      "impl\/verilog\/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s.v",
+      "impl\/verilog\/myproject_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s.v",
       "impl\/verilog\/myproject_fexp_32ns_32ns_32_13_full_dsp_1.v",
-      "impl\/verilog\/myproject_fifo_w32_d6248_A.v",
-      "impl\/verilog\/myproject_fifo_w128_d700_A.v",
-      "impl\/verilog\/myproject_fifo_w128_d864_A.v",
-      "impl\/verilog\/myproject_fifo_w128_d5640_A.v",
-      "impl\/verilog\/myproject_fifo_w256_d7_A.v",
-      "impl\/verilog\/myproject_fifo_w256_d70_A.v",
-      "impl\/verilog\/myproject_fifo_w256_d112_A.v",
-      "impl\/verilog\/myproject_fifo_w256_d700_A.v",
-      "impl\/verilog\/myproject_fifo_w304_d5640_A.v",
-      "impl\/verilog\/myproject_fifo_w380_d1_S.v",
-      "impl\/verilog\/myproject_fifo_w440_d5640_A.v",
-      "impl\/verilog\/myproject_fifo_w512_d1_S.v",
-      "impl\/verilog\/myproject_fifo_w640_d700_A.v",
-      "impl\/verilog\/myproject_fifo_w656_d70_A.v",
-      "impl\/verilog\/myproject_fifo_w912_d700_A.v",
-      "impl\/verilog\/myproject_fifo_w928_d70_A.v",
-      "impl\/verilog\/myproject_fifo_w1280_d1_S.v",
+      "impl\/verilog\/myproject_fifo_w32_d1452_A.v",
+      "impl\/verilog\/myproject_fifo_w128_d2_S.v",
+      "impl\/verilog\/myproject_fifo_w128_d40_A.v",
+      "impl\/verilog\/myproject_fifo_w128_d70_A.v",
+      "impl\/verilog\/myproject_fifo_w128_d320_A.v",
+      "impl\/verilog\/myproject_fifo_w128_d408_A.v",
+      "impl\/verilog\/myproject_fifo_w128_d1280_A.v",
+      "impl\/verilog\/myproject_fifo_w256_d1_S.v",
+      "impl\/verilog\/myproject_fifo_w304_d1280_A.v",
+      "impl\/verilog\/myproject_fifo_w320_d40_A.v",
+      "impl\/verilog\/myproject_fifo_w320_d320_A.v",
+      "impl\/verilog\/myproject_fifo_w370_d1_S.v",
+      "impl\/verilog\/myproject_fifo_w440_d1280_A.v",
+      "impl\/verilog\/myproject_fifo_w456_d40_A.v",
+      "impl\/verilog\/myproject_fifo_w456_d320_A.v",
+      "impl\/verilog\/myproject_fifo_w592_d1_S.v",
       "impl\/verilog\/myproject_flow_control_loop_pipe.v",
-      "impl\/verilog\/myproject_flow_control_loop_pipe_no_ap_cont.v",
       "impl\/verilog\/myproject_flow_control_loop_pipe_sequential_init.v",
       "impl\/verilog\/myproject_fpext_32ns_64_2_no_dsp_1.v",
       "impl\/verilog\/myproject_hls_deadlock_detection_unit.v",
@@ -252,10 +249,27 @@
       "impl\/verilog\/myproject_hls_deadlock_idx0_monitor.v",
       "impl\/verilog\/myproject_hls_deadlock_kernel_monitor_top.vh",
       "impl\/verilog\/myproject_hls_deadlock_report_unit.vh",
-      "impl\/verilog\/myproject_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s.v",
+      "impl\/verilog\/myproject_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.v",
+      "impl\/verilog\/myproject_mul_16ns_5ns_20_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_5s_21_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_6ns_21_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_6s_22_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_7ns_22_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_7s_22_1_1.v",
       "impl\/verilog\/myproject_mul_16ns_7s_23_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_8ns_23_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_8s_22_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_8s_23_1_1.v",
       "impl\/verilog\/myproject_mul_16ns_8s_24_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_9ns_24_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_9s_23_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_9s_24_1_1.v",
       "impl\/verilog\/myproject_mul_16ns_9s_25_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_10ns_25_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_10s_24_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_10s_25_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_11s_25_1_1.v",
+      "impl\/verilog\/myproject_mul_16ns_12s_25_1_1.v",
       "impl\/verilog\/myproject_mul_16s_5ns_21_1_0.v",
       "impl\/verilog\/myproject_mul_16s_6ns_22_1_0.v",
       "impl\/verilog\/myproject_mul_16s_6s_22_1_0.v",
@@ -265,75 +279,71 @@
       "impl\/verilog\/myproject_mul_16s_8s_24_1_0.v",
       "impl\/verilog\/myproject_mul_16s_9ns_25_1_0.v",
       "impl\/verilog\/myproject_mul_16s_9s_25_1_0.v",
-      "impl\/verilog\/myproject_mul_16s_16ns_25_1_1.v",
       "impl\/verilog\/myproject_mul_18s_16s_26_1_1.v",
+      "impl\/verilog\/myproject_mul_38s_11ns_48_1_1.v",
       "impl\/verilog\/myproject_mul_38s_12ns_49_1_1.v",
       "impl\/verilog\/myproject_mul_38s_13ns_50_1_1.v",
       "impl\/verilog\/myproject_mul_40s_11ns_50_1_1.v",
       "impl\/verilog\/myproject_mul_40s_12ns_51_1_1.v",
       "impl\/verilog\/myproject_mul_40s_13ns_52_1_1.v",
-      "impl\/verilog\/myproject_mul_41s_13ns_53_1_1.v",
       "impl\/verilog\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s.v",
-      "impl\/verilog\/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s.v",
-      "impl\/verilog\/myproject_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s.v",
+      "impl\/verilog\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.v",
+      "impl\/verilog\/myproject_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s.v",
       "impl\/verilog\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_s.v",
-      "impl\/verilog\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v",
-      "impl\/verilog\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v",
+      "impl\/verilog\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v",
+      "impl\/verilog\/myproject_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v",
       "impl\/verilog\/myproject_regslice_both.v",
       "impl\/verilog\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_s.v",
-      "impl\/verilog\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s.v",
-      "impl\/verilog\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s.v",
-      "impl\/verilog\/myproject_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s.v",
+      "impl\/verilog\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s.v",
+      "impl\/verilog\/myproject_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s.v",
+      "impl\/verilog\/myproject_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s.v",
       "impl\/verilog\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet26conv_2d_bkb.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb.v",
       "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s.v",
       "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s_void_pooling2d_cl_sfYi.v",
       "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet26conv_2dncg.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_void_pooling2d_clEe0.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_p_ZZN4nnet26conv_UhA.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s.v",
-      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_p_ZZN4nnet12poolibrm.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_p_ZZN4nnet25conv_2dncg.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_void_pooling2d_cl_DeQ.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_p_ZZN4nnet25conv_2Lf8.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s.v",
+      "impl\/verilog\/myproject_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_p_ZZN4nnet12poolin1iI.v",
       "impl\/verilog\/myproject_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s.v",
       "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s.v",
-      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabcwx.v",
-      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.dat",
-      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_cvx.v",
-      "impl\/verilog\/myproject_sparsemux_9_2_16_1_1.v",
-      "impl\/verilog\/myproject_sparsemux_17_3_16_1_1.v",
-      "impl\/verilog\/myproject_sparsemux_57_5_16_1_1.v",
+      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn.v",
+      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.dat",
+      "impl\/verilog\/myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn.v",
       "impl\/verilog\/myproject_start_for_conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_19_5_3_0_8u_config2_U0.v",
-      "impl\/verilog\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_configcxx.v",
-      "impl\/verilog\/myproject_start_for_conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0.v",
-      "impl\/verilog\/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0.v",
-      "impl\/verilog\/myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0.v",
+      "impl\/verilog\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config1bAo.v",
+      "impl\/verilog\/myproject_start_for_conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7bzo.v",
+      "impl\/verilog\/myproject_start_for_dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0.v",
+      "impl\/verilog\/myproject_start_for_dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0.v",
       "impl\/verilog\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_U0.v",
-      "impl\/verilog\/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9cyx.v",
-      "impl\/verilog\/myproject_start_for_normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config1cAy.v",
+      "impl\/verilog\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0.v",
+      "impl\/verilog\/myproject_start_for_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0.v",
       "impl\/verilog\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_U0.v",
-      "impl\/verilog\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0.v",
-      "impl\/verilog\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0.v",
+      "impl\/verilog\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0.v",
+      "impl\/verilog\/myproject_start_for_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0.v",
       "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_U0.v",
-      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1cBy.v",
-      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config1czy.v",
-      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config2cCy.v",
+      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0.v",
+      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0.v",
+      "impl\/verilog\/myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config2bBo.v",
       "impl\/verilog\/myproject_start_for_softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.v",
       "impl\/verilog\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_U0.v",
-      "impl\/verilog\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0.v",
+      "impl\/verilog\/myproject_start_for_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain.v",
       "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_s.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth.v",
-      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain.v",
+      "impl\/verilog\/myproject_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s.v",
       "impl\/verilog\/myproject.v"
     ],
     "IpMisc": ["impl\/misc\/logo.png"],
@@ -365,23 +375,23 @@
     ]
   },
   "Interfaces": {
-    "input_2": {
+    "input_5": {
       "type": "axi4stream",
       "busTypeName": "axis",
       "mode": "slave",
       "dataWidth": "32",
-      "portPrefix": "input_2_",
+      "portPrefix": "input_5_",
       "ports": [
-        "input_2_TDATA",
-        "input_2_TREADY",
-        "input_2_TVALID"
+        "input_5_TDATA",
+        "input_5_TREADY",
+        "input_5_TVALID"
       ],
       "constraints": [{
           "constraint_type": "pragma interface",
           "mode": "axis",
           "register_option": "0",
           "register_mode": "both",
-          "argName": "input_2"
+          "argName": "input_5"
         }]
     },
     "layer23_out": {
@@ -408,7 +418,7 @@
       "busTypeName": "clock",
       "mode": "slave",
       "busParams": {
-        "ASSOCIATED_BUSIF": "input_2:layer23_out",
+        "ASSOCIATED_BUSIF": "input_5:layer23_out",
         "ASSOCIATED_RESET": "ap_rst_n"
       },
       "portMap": {"ap_clk": "CLK"},
@@ -441,15 +451,15 @@
     }
   },
   "RtlPorts": {
-    "input_2_TDATA": {
+    "input_5_TDATA": {
       "dir": "in",
       "width": "32"
     },
-    "input_2_TVALID": {
+    "input_5_TVALID": {
       "dir": "in",
       "width": "1"
     },
-    "input_2_TREADY": {
+    "input_5_TREADY": {
       "dir": "out",
       "width": "1"
     },
@@ -503,8 +513,8 @@
               "InstanceName": "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28"
             },
             {
-              "ModuleName": "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain",
-              "InstanceName": "grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain_fu_34"
+              "ModuleName": "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain",
+              "InstanceName": "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34"
             },
             {
               "ModuleName": "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth",
@@ -524,8 +534,8 @@
                   "InstanceName": "call_ln281_shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_fu_122"
                 },
                 {
-                  "ModuleName": "dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s",
-                  "InstanceName": "grp_dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174"
+                  "ModuleName": "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s",
+                  "InstanceName": "grp_dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s_fu_174"
                 }
               ]
             }]
@@ -543,7 +553,7 @@
           "InstanceName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_U0",
           "Instances": [{
               "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s",
-              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s_fu_268"
+              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config6_s_fu_196"
             }]
         },
         {
@@ -555,8 +565,8 @@
               "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth_fu_22"
             },
             {
-              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain",
-              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain_fu_28"
+              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain",
+              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain_fu_28"
             },
             {
               "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth",
@@ -565,115 +575,115 @@
           ]
         },
         {
-          "ModuleName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s",
-          "InstanceName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_U0",
+          "ModuleName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s",
+          "InstanceName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_U0",
           "Instances": [{
-              "ModuleName": "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s",
-              "InstanceName": "grp_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s_fu_260",
+              "ModuleName": "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s",
+              "InstanceName": "grp_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s_fu_262",
               "Instances": [
                 {
                   "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s",
-                  "InstanceName": "call_ln281_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_fu_303"
+                  "InstanceName": "call_ln281_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config7_s_fu_302"
                 },
                 {
-                  "ModuleName": "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s",
-                  "InstanceName": "grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_fu_499"
+                  "ModuleName": "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s",
+                  "InstanceName": "grp_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s_fu_498"
                 }
               ]
             }]
         },
         {
-          "ModuleName": "normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s",
-          "InstanceName": "normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_U0"
+          "ModuleName": "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s",
+          "InstanceName": "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0"
         },
         {
-          "ModuleName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s",
-          "InstanceName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_U0"
+          "ModuleName": "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s",
+          "InstanceName": "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0"
         },
         {
-          "ModuleName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s",
-          "InstanceName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_U0",
+          "ModuleName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s",
+          "InstanceName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0",
           "Instances": [{
-              "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s",
-              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s_fu_512"
+              "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s",
+              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_fu_266"
             }]
         },
         {
-          "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s",
-          "InstanceName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_U0",
+          "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s",
+          "InstanceName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0",
           "Instances": [
             {
-              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth",
-              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth_fu_22"
+              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth",
+              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth_fu_22"
             },
             {
-              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain",
-              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain_fu_28"
+              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain",
+              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28"
             },
             {
-              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth",
-              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth_fu_36"
+              "ModuleName": "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth",
+              "InstanceName": "grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth_fu_36"
             }
           ]
         },
         {
-          "ModuleName": "conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s",
-          "InstanceName": "conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_U0",
+          "ModuleName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s",
+          "InstanceName": "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_U0",
           "Instances": [{
-              "ModuleName": "compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s",
-              "InstanceName": "grp_compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s_fu_468",
+              "ModuleName": "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s",
+              "InstanceName": "grp_compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s_fu_262",
               "Instances": [
                 {
-                  "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s",
-                  "InstanceName": "call_ln281_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s_fu_543"
+                  "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s",
+                  "InstanceName": "call_ln281_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s_fu_302"
                 },
                 {
-                  "ModuleName": "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s",
-                  "InstanceName": "grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s_fu_931"
+                  "ModuleName": "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s",
+                  "InstanceName": "grp_dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s_fu_498"
                 }
               ]
             }]
         },
         {
-          "ModuleName": "normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s",
-          "InstanceName": "normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_U0"
+          "ModuleName": "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s",
+          "InstanceName": "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_U0"
         },
         {
-          "ModuleName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s",
-          "InstanceName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_U0"
+          "ModuleName": "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s",
+          "InstanceName": "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0"
         },
         {
-          "ModuleName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s",
-          "InstanceName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_U0",
+          "ModuleName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s",
+          "InstanceName": "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_U0",
           "Instances": [{
-              "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s",
-              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s_fu_608"
+              "ModuleName": "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s",
+              "InstanceName": "call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s_fu_516"
             }]
         },
         {
-          "ModuleName": "dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s",
-          "InstanceName": "dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_U0",
+          "ModuleName": "dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s",
+          "InstanceName": "dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0",
           "Instances": [
             {
-              "ModuleName": "dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare",
-              "InstanceName": "grp_dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare_fu_483"
+              "ModuleName": "dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare",
+              "InstanceName": "grp_dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare_fu_97"
             },
             {
-              "ModuleName": "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s",
-              "InstanceName": "grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s_fu_601"
+              "ModuleName": "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s",
+              "InstanceName": "grp_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s_fu_119"
             }
           ]
         },
         {
-          "ModuleName": "relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s",
-          "InstanceName": "relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_U0"
+          "ModuleName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s",
+          "InstanceName": "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_U0"
         },
         {
-          "ModuleName": "dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s",
-          "InstanceName": "dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_U0",
+          "ModuleName": "dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s",
+          "InstanceName": "dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0",
           "Instances": [{
-              "ModuleName": "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s",
-              "InstanceName": "grp_dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s_fu_163"
+              "ModuleName": "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s",
+              "InstanceName": "grp_dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s_fu_97"
             }]
         },
         {
@@ -683,8 +693,8 @@
               "ModuleName": "softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s",
               "InstanceName": "grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24",
               "Instances": [{
-                  "ModuleName": "init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s",
-                  "InstanceName": "grp_init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s_fu_620"
+                  "ModuleName": "init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s",
+                  "InstanceName": "grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620"
                 }]
             }]
         }
@@ -698,7 +708,7 @@
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain": {
+      "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -726,7 +736,7 @@
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s": {
+      "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -782,7 +792,7 @@
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain": {
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -810,182 +820,182 @@
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s": {
+      "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s": {
+      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s": {
+      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "1"
-      },
-      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s": {
+      "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth": {
+      "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s": {
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s": {
+      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s": {
+      "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s": {
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "1"
       },
-      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "1",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s": {
+      "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s": {
-        "FunctionProtocol": "ap_ctrl_hs",
-        "isTaskLevelControl": "0",
-        "isPipelined": "0",
-        "isCombinational": "0",
-        "isOneStateSeq": "0"
-      },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s": {
+      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s": {
+      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "1"
+      },
+      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
         "isCombinational": "0",
         "isOneStateSeq": "0"
       },
-      "init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s": {
+      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "1",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "1",
@@ -1017,10 +1027,10 @@
     "Metrics": {
       "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth": {
         "Latency": {
-          "LatencyBest": "286",
-          "LatencyAvg": "286",
-          "LatencyWorst": "286",
-          "PipelineII": "286",
+          "LatencyBest": "68",
+          "LatencyAvg": "68",
+          "LatencyWorst": "68",
+          "PipelineII": "68",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1031,16 +1041,16 @@
         },
         "Loops": [{
             "Name": "PadTopWidth",
-            "TripCount": "284",
-            "Latency": "284",
+            "TripCount": "66",
+            "Latency": "66",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "12",
+          "FF": "10",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "81",
+          "LUT": "77",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1054,32 +1064,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadMain_CopyMain": {
+      "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain": {
         "Latency": {
-          "LatencyBest": "16922",
-          "LatencyAvg": "16922",
-          "LatencyWorst": "16922",
-          "PipelineII": "16922",
+          "LatencyBest": "1322",
+          "LatencyAvg": "1322",
+          "LatencyWorst": "1322",
+          "PipelineII": "1322",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "2.750"
+          "Estimate": "1.750"
         },
         "Loops": [{
-            "Name": "PadMain_CopyMain",
-            "TripCount": "5640",
-            "Latency": "16920",
-            "PipelineII": "3",
-            "PipelineDepth": "4"
+            "Name": "PadMain",
+            "TripCount": "20",
+            "Latency": "1320",
+            "PipelineII": "66",
+            "PipelineDepth": "67"
           }],
         "Area": {
-          "FF": "31",
+          "FF": "112",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "241",
+          "LUT": "555",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1095,10 +1105,10 @@
       },
       "zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth": {
         "Latency": {
-          "LatencyBest": "286",
-          "LatencyAvg": "286",
-          "LatencyWorst": "286",
-          "PipelineII": "286",
+          "LatencyBest": "68",
+          "LatencyAvg": "68",
+          "LatencyWorst": "68",
+          "PipelineII": "68",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1109,16 +1119,16 @@
         },
         "Loops": [{
             "Name": "PadBottomWidth",
-            "TripCount": "284",
-            "Latency": "284",
+            "TripCount": "66",
+            "Latency": "66",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "12",
+          "FF": "10",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "81",
+          "LUT": "77",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1134,23 +1144,23 @@
       },
       "zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s": {
         "Latency": {
-          "LatencyBest": "17501",
-          "LatencyAvg": "17501",
-          "LatencyWorst": "17501",
-          "PipelineII": "17501",
+          "LatencyBest": "1465",
+          "LatencyAvg": "1465",
+          "LatencyWorst": "1465",
+          "PipelineII": "1465",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "2.750"
+          "Estimate": "1.750"
         },
         "Area": {
-          "FF": "68",
+          "FF": "145",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "515",
+          "LUT": "821",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1196,7 +1206,7 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_resource_rf_leq_nin_ap_fixed_ap_fixed_38_19_5_3_0_config2_mult_s": {
+      "dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s": {
         "Latency": {
           "LatencyBest": "1",
           "LatencyAvg": "1",
@@ -1208,16 +1218,16 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.395"
+          "Estimate": "3.236"
         },
         "Area": {
-          "DSP": "94",
+          "DSP": "92",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "7",
-          "FF": "1526",
+          "FF": "1450",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "4580",
+          "LUT": "4679",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "3",
           "BRAM_18K": "0",
@@ -1240,16 +1250,16 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.395"
+          "Estimate": "3.236"
         },
         "Area": {
-          "DSP": "94",
+          "DSP": "92",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "7",
-          "FF": "2543",
+          "FF": "2467",
           "AVAIL_FF": "234240",
           "UTIL_FF": "1",
-          "LUT": "5412",
+          "LUT": "5511",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "4",
           "BRAM_18K": "0",
@@ -1262,33 +1272,33 @@
       },
       "conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_19_5_3_0_8u_config2_s": {
         "Latency": {
-          "LatencyBest": "18747",
-          "LatencyAvg": "18747",
-          "LatencyWorst": "18747",
-          "PipelineII": "18747",
+          "LatencyBest": "4359",
+          "LatencyAvg": "4359",
+          "LatencyWorst": "4359",
+          "PipelineII": "4359",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.395"
+          "Estimate": "3.236"
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "6248",
-            "Latency": "18745",
+            "TripCount": "1452",
+            "Latency": "4357",
             "PipelineII": "3",
             "PipelineDepth": "5"
           }],
         "Area": {
-          "DSP": "94",
+          "DSP": "92",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "7",
-          "FF": "2578",
+          "FF": "2487",
           "AVAIL_FF": "234240",
           "UTIL_FF": "1",
-          "LUT": "5578",
+          "LUT": "5671",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "4",
           "BRAM_18K": "0",
@@ -1301,10 +1311,10 @@
       },
       "normalize_array_ap_fixed_8u_array_ap_fixed_55_26_5_3_0_8u_config4_s": {
         "Latency": {
-          "LatencyBest": "5644",
-          "LatencyAvg": "5644",
-          "LatencyWorst": "5644",
-          "PipelineII": "5644",
+          "LatencyBest": "1284",
+          "LatencyAvg": "1284",
+          "LatencyWorst": "1284",
+          "PipelineII": "1284",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1315,8 +1325,8 @@
         },
         "Loops": [{
             "Name": "BatchNormLoop",
-            "TripCount": "5640",
-            "Latency": "5642",
+            "TripCount": "1280",
+            "Latency": "1282",
             "PipelineII": "1",
             "PipelineDepth": "4"
           }],
@@ -1324,10 +1334,10 @@
           "DSP": "16",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "1",
-          "FF": "720",
+          "FF": "715",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "768",
+          "LUT": "761",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1340,10 +1350,10 @@
       },
       "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_s": {
         "Latency": {
-          "LatencyBest": "5643",
-          "LatencyAvg": "5643",
-          "LatencyWorst": "5643",
-          "PipelineII": "5643",
+          "LatencyBest": "1283",
+          "LatencyAvg": "1283",
+          "LatencyWorst": "1283",
+          "PipelineII": "1283",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1354,16 +1364,16 @@
         },
         "Loops": [{
             "Name": "ReLUActLoop",
-            "TripCount": "5640",
-            "Latency": "5641",
+            "TripCount": "1280",
+            "Latency": "1281",
             "PipelineII": "1",
             "PipelineDepth": "3"
           }],
         "Area": {
-          "FF": "195",
+          "FF": "193",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "2245",
+          "LUT": "2241",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "1",
           "BRAM_18K": "0",
@@ -1395,7 +1405,7 @@
           "FF": "513",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "688",
+          "LUT": "400",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1411,32 +1421,32 @@
       },
       "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config6_s": {
         "Latency": {
-          "LatencyBest": "11283",
-          "LatencyAvg": "11283",
-          "LatencyWorst": "11283",
-          "PipelineII": "11283",
+          "LatencyBest": "2563",
+          "LatencyAvg": "2563",
+          "LatencyWorst": "2563",
+          "PipelineII": "2563",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.630"
+          "Estimate": "2.746"
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "5640",
-            "Latency": "11281",
+            "TripCount": "1280",
+            "Latency": "2561",
             "PipelineII": "2",
             "PipelineDepth": "4"
           }],
         "Area": {
-          "FF": "1851",
+          "FF": "1329",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "3724",
+          "LUT": "2119",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "3",
+          "UTIL_LUT": "1",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -1450,30 +1460,30 @@
       },
       "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadTopWidth": {
         "Latency": {
-          "LatencyBest": "74",
-          "LatencyAvg": "74",
-          "LatencyWorst": "74",
-          "PipelineII": "74",
+          "LatencyBest": "36",
+          "LatencyAvg": "36",
+          "LatencyWorst": "36",
+          "PipelineII": "36",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.713"
+          "Estimate": "1.825"
         },
         "Loops": [{
             "Name": "PadTopWidth",
-            "TripCount": "72",
-            "Latency": "72",
+            "TripCount": "34",
+            "Latency": "34",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "10",
+          "FF": "9",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "77",
+          "LUT": "75",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1487,32 +1497,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadMain_CopyMain": {
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_Pipeline_PadMain": {
         "Latency": {
-          "LatencyBest": "2102",
-          "LatencyAvg": "2102",
-          "LatencyWorst": "2102",
-          "PipelineII": "2102",
+          "LatencyBest": "342",
+          "LatencyAvg": "342",
+          "LatencyWorst": "342",
+          "PipelineII": "342",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.538"
+          "Estimate": "1.825"
         },
         "Loops": [{
-            "Name": "PadMain_CopyMain",
-            "TripCount": "700",
-            "Latency": "2100",
-            "PipelineII": "3",
-            "PipelineDepth": "4"
+            "Name": "PadMain",
+            "TripCount": "10",
+            "Latency": "340",
+            "PipelineII": "34",
+            "PipelineDepth": "35"
           }],
         "Area": {
-          "FF": "26",
+          "FF": "174",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "227",
+          "LUT": "343",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1528,30 +1538,30 @@
       },
       "zeropad2d_cl_array_array_ap_ufixed_8u_config25_Pipeline_PadBottomWidth": {
         "Latency": {
-          "LatencyBest": "74",
-          "LatencyAvg": "74",
-          "LatencyWorst": "74",
-          "PipelineII": "74",
+          "LatencyBest": "36",
+          "LatencyAvg": "36",
+          "LatencyWorst": "36",
+          "PipelineII": "36",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.713"
+          "Estimate": "1.825"
         },
         "Loops": [{
             "Name": "PadBottomWidth",
-            "TripCount": "72",
-            "Latency": "72",
+            "TripCount": "34",
+            "Latency": "34",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "10",
+          "FF": "9",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "77",
+          "LUT": "75",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1567,23 +1577,23 @@
       },
       "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_s": {
         "Latency": {
-          "LatencyBest": "2257",
-          "LatencyAvg": "2257",
-          "LatencyWorst": "2257",
-          "PipelineII": "2257",
+          "LatencyBest": "421",
+          "LatencyAvg": "421",
+          "LatencyWorst": "421",
+          "PipelineII": "421",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.538"
+          "Estimate": "1.825"
         },
         "Area": {
-          "FF": "59",
+          "FF": "205",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "493",
+          "LUT": "605",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1629,130 +1639,115 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s": {
+      "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config7_mult_s": {
+        "Latency": {
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "4",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
+        },
+        "Timing": {
+          "Target": "5.00",
+          "Uncertainty": "1.35",
+          "Estimate": "3.449"
+        },
+        "Area": {
+          "DSP": "144",
+          "AVAIL_DSP": "1248",
+          "UTIL_DSP": "11",
+          "FF": "6228",
+          "AVAIL_FF": "234240",
+          "UTIL_FF": "2",
+          "LUT": "22158",
+          "AVAIL_LUT": "117120",
+          "UTIL_LUT": "18",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
+          "URAM": "0",
+          "AVAIL_URAM": "64",
+          "UTIL_URAM": "0"
+        }
+      },
+      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config7_s": {
         "Latency": {
           "LatencyBest": "5",
           "LatencyAvg": "5",
-          "LatencyWorst": "6",
-          "PipelineII": "4",
-          "PipelineDepth": "",
-          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+          "LatencyWorst": "5",
+          "PipelineII": "5",
+          "PipelineDepth": "6",
+          "PipelineType": "yes"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.449"
         },
-        "Loops": [{
-            "Name": "ReuseLoop",
-            "TripCount": "4",
-            "Latency": "5",
-            "PipelineII": "1",
-            "PipelineDepth": "3"
-          }],
         "Area": {
-          "BRAM_18K": "128",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
+          "DSP": "144",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "7678",
+          "UTIL_DSP": "11",
+          "FF": "8896",
           "AVAIL_FF": "234240",
           "UTIL_FF": "3",
-          "LUT": "9311",
+          "LUT": "23709",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "7",
-          "URAM": "0",
-          "AVAIL_URAM": "64",
-          "UTIL_URAM": "0"
-        }
-      },
-      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_16u_config7_s": {
-        "Latency": {
-          "LatencyBest": "2",
-          "LatencyAvg": "4",
-          "LatencyWorst": "9",
-          "PipelineIIMin": "2",
-          "PipelineIIMax": "9",
-          "PipelineII": "2 ~ 9",
-          "PipelineDepth": "",
-          "PipelineType": "no"
-        },
-        "Timing": {
-          "Target": "5.00",
-          "Uncertainty": "1.35",
-          "Estimate": "3.617"
-        },
-        "Area": {
-          "BRAM_18K": "128",
+          "UTIL_LUT": "20",
+          "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
-          "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "10630",
-          "AVAIL_FF": "234240",
-          "UTIL_FF": "4",
-          "LUT": "10832",
-          "AVAIL_LUT": "117120",
-          "UTIL_LUT": "9",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_16u_config7_s": {
+      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config7_s": {
         "Latency": {
-          "LatencyBest": "3457",
-          "LatencyAvg": "5185",
-          "LatencyWorst": "9505",
-          "PipelineIIMin": "3457",
-          "PipelineIIMax": "9505",
-          "PipelineII": "3457 ~ 9505",
+          "LatencyBest": "2043",
+          "LatencyAvg": "2043",
+          "LatencyWorst": "2043",
+          "PipelineII": "2043",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.449"
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "864",
-            "LatencyMin": "3456",
-            "LatencyMax": "9504",
-            "Latency": "3456 ~ 9504",
-            "PipelineII": "",
-            "PipelineDepthMin": "4",
-            "PipelineDepthMax": "11",
-            "PipelineDepth": "4 ~ 11"
+            "TripCount": "408",
+            "Latency": "2041",
+            "PipelineII": "5",
+            "PipelineDepth": "7"
           }],
         "Area": {
-          "BRAM_18K": "128",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
+          "DSP": "144",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "10774",
+          "UTIL_DSP": "11",
+          "FF": "8916",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "4",
-          "LUT": "10935",
+          "UTIL_FF": "3",
+          "LUT": "23876",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "9",
+          "UTIL_LUT": "20",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "normalize_array_ap_fixed_16u_array_ap_fixed_57_28_5_3_0_16u_config9_s": {
+      "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s": {
         "Latency": {
-          "LatencyBest": "704",
-          "LatencyAvg": "704",
-          "LatencyWorst": "704",
-          "PipelineII": "704",
+          "LatencyBest": "324",
+          "LatencyAvg": "324",
+          "LatencyWorst": "324",
+          "PipelineII": "324",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1763,21 +1758,21 @@
         },
         "Loops": [{
             "Name": "BatchNormLoop",
-            "TripCount": "700",
-            "Latency": "702",
+            "TripCount": "320",
+            "Latency": "322",
             "PipelineII": "1",
             "PipelineDepth": "4"
           }],
         "Area": {
-          "DSP": "32",
+          "DSP": "16",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "2",
-          "FF": "1475",
+          "UTIL_DSP": "1",
+          "FF": "741",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "1480",
+          "LUT": "785",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "1",
+          "UTIL_LUT": "~0",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -1786,34 +1781,34 @@
           "UTIL_URAM": "0"
         }
       },
-      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config10_s": {
+      "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s": {
         "Latency": {
-          "LatencyBest": "703",
-          "LatencyAvg": "703",
-          "LatencyWorst": "703",
-          "PipelineII": "703",
+          "LatencyBest": "323",
+          "LatencyAvg": "323",
+          "LatencyWorst": "323",
+          "PipelineII": "323",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.551"
+          "Estimate": "3.423"
         },
         "Loops": [{
             "Name": "ReLUActLoop",
-            "TripCount": "700",
-            "Latency": "701",
+            "TripCount": "320",
+            "Latency": "321",
             "PipelineII": "1",
             "PipelineDepth": "3"
           }],
         "Area": {
-          "FF": "368",
+          "FF": "191",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "4471",
+          "LUT": "2285",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "3",
+          "UTIL_LUT": "1",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -1825,7 +1820,7 @@
           "UTIL_URAM": "0"
         }
       },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config11_s": {
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s": {
         "Latency": {
           "LatencyBest": "0",
           "LatencyAvg": "0",
@@ -1840,12 +1835,12 @@
           "Estimate": "0.717"
         },
         "Area": {
-          "FF": "1025",
+          "FF": "513",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "1664",
+          "LUT": "688",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "1",
+          "UTIL_LUT": "~0",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -1857,12 +1852,12 @@
           "UTIL_URAM": "0"
         }
       },
-      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config11_s": {
+      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s": {
         "Latency": {
-          "LatencyBest": "1403",
-          "LatencyAvg": "1403",
-          "LatencyWorst": "1403",
-          "PipelineII": "1403",
+          "LatencyBest": "643",
+          "LatencyAvg": "643",
+          "LatencyWorst": "643",
+          "PipelineII": "643",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -1873,18 +1868,18 @@
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "700",
-            "Latency": "1401",
+            "TripCount": "320",
+            "Latency": "641",
             "PipelineII": "2",
             "PipelineDepth": "4"
           }],
         "Area": {
-          "FF": "4280",
+          "FF": "1847",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "1",
-          "LUT": "8421",
+          "UTIL_FF": "~0",
+          "LUT": "3716",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "7",
+          "UTIL_LUT": "3",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -1896,32 +1891,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadTopWidth": {
+      "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth": {
         "Latency": {
-          "LatencyBest": "18",
-          "LatencyAvg": "18",
-          "LatencyWorst": "18",
-          "PipelineII": "18",
+          "LatencyBest": "12",
+          "LatencyAvg": "12",
+          "LatencyWorst": "12",
+          "PipelineII": "12",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.679"
+          "Estimate": "1.651"
         },
         "Loops": [{
             "Name": "PadTopWidth",
-            "TripCount": "16",
-            "Latency": "16",
+            "TripCount": "10",
+            "Latency": "10",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "8",
+          "FF": "7",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "74",
+          "LUT": "73",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1935,32 +1930,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_Pipeline_PadMain": {
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain": {
         "Latency": {
-          "LatencyBest": "82",
-          "LatencyAvg": "82",
-          "LatencyWorst": "82",
-          "PipelineII": "82",
+          "LatencyBest": "52",
+          "LatencyAvg": "52",
+          "LatencyWorst": "52",
+          "PipelineII": "52",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.679"
+          "Estimate": "1.813"
         },
         "Loops": [{
             "Name": "PadMain",
             "TripCount": "5",
-            "Latency": "80",
-            "PipelineII": "16",
-            "PipelineDepth": "17"
+            "Latency": "50",
+            "PipelineII": "10",
+            "PipelineDepth": "11"
           }],
         "Area": {
-          "FF": "279",
+          "FF": "145",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "225",
+          "LUT": "191",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -1974,32 +1969,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16u_config26_Pipeline_PadBottomWidth": {
+      "zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth": {
         "Latency": {
-          "LatencyBest": "18",
-          "LatencyAvg": "18",
-          "LatencyWorst": "18",
-          "PipelineII": "18",
+          "LatencyBest": "12",
+          "LatencyAvg": "12",
+          "LatencyWorst": "12",
+          "PipelineII": "12",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.679"
+          "Estimate": "1.651"
         },
         "Loops": [{
             "Name": "PadBottomWidth",
-            "TripCount": "16",
-            "Latency": "16",
+            "TripCount": "10",
+            "Latency": "10",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "8",
+          "FF": "7",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "74",
+          "LUT": "73",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -2013,25 +2008,25 @@
           "UTIL_URAM": "0"
         }
       },
-      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config26_s": {
+      "zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s": {
         "Latency": {
-          "LatencyBest": "125",
-          "LatencyAvg": "125",
-          "LatencyWorst": "125",
-          "PipelineII": "125",
+          "LatencyBest": "83",
+          "LatencyAvg": "83",
+          "LatencyWorst": "83",
+          "PipelineII": "83",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.679"
+          "Estimate": "1.813"
         },
         "Area": {
-          "FF": "308",
+          "FF": "172",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "485",
+          "LUT": "449",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -2045,7 +2040,7 @@
           "UTIL_URAM": "0"
         }
       },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config12_s": {
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config12_s": {
         "Latency": {
           "LatencyBest": "0",
           "LatencyAvg": "0",
@@ -2060,12 +2055,12 @@
           "Estimate": "1.434"
         },
         "Area": {
-          "FF": "2049",
+          "FF": "1025",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "1888",
+          "LUT": "944",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "1",
+          "UTIL_LUT": "~0",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2077,155 +2072,140 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_41_22_5_3_0_config12_mult_s": {
+      "dense_latency_ap_ufixed_ap_fixed_40_21_5_3_0_config12_mult_s": {
         "Latency": {
-          "LatencyBest": "9",
-          "LatencyAvg": "9",
-          "LatencyWorst": "10",
-          "PipelineII": "8",
-          "PipelineDepth": "",
-          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "4",
+          "PipelineDepth": "4",
+          "PipelineType": "yes"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.491"
         },
-        "Loops": [{
-            "Name": "ReuseLoop",
-            "TripCount": "8",
-            "Latency": "9",
-            "PipelineII": "1",
-            "PipelineDepth": "3"
-          }],
         "Area": {
-          "BRAM_18K": "128",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
+          "DSP": "144",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "9999",
+          "UTIL_DSP": "11",
+          "FF": "6418",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "4",
-          "LUT": "11671",
+          "UTIL_FF": "2",
+          "LUT": "21974",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "9",
+          "UTIL_LUT": "18",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "compute_output_buffer_2d_array_array_ap_fixed_41_22_5_3_0_16u_config12_s": {
+      "compute_output_buffer_2d_array_array_ap_fixed_40_21_5_3_0_8u_config12_s": {
         "Latency": {
-          "LatencyBest": "2",
+          "LatencyBest": "5",
           "LatencyAvg": "5",
-          "LatencyWorst": "13",
-          "PipelineIIMin": "2",
-          "PipelineIIMax": "13",
-          "PipelineII": "2 ~ 13",
-          "PipelineDepth": "",
-          "PipelineType": "no"
+          "LatencyWorst": "5",
+          "PipelineII": "5",
+          "PipelineDepth": "6",
+          "PipelineType": "yes"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.491"
         },
         "Area": {
-          "BRAM_18K": "128",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
+          "DSP": "144",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "15143",
+          "UTIL_DSP": "11",
+          "FF": "9086",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "6",
-          "LUT": "14136",
+          "UTIL_FF": "3",
+          "LUT": "23525",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "12",
+          "UTIL_LUT": "20",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "conv_2d_cl_array_array_ap_fixed_41_22_5_3_0_16u_config12_s": {
+      "conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_40_21_5_3_0_8u_config12_s": {
         "Latency": {
-          "LatencyBest": "449",
-          "LatencyAvg": "785",
-          "LatencyWorst": "1681",
-          "PipelineIIMin": "449",
-          "PipelineIIMax": "1681",
-          "PipelineII": "449 ~ 1681",
+          "LatencyBest": "353",
+          "LatencyAvg": "353",
+          "LatencyWorst": "353",
+          "PipelineII": "353",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.491"
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "112",
-            "LatencyMin": "448",
-            "LatencyMax": "1680",
-            "Latency": "448 ~ 1680",
-            "PipelineII": "",
-            "PipelineDepthMin": "4",
-            "PipelineDepthMax": "15",
-            "PipelineDepth": "4 ~ 15"
+            "TripCount": "70",
+            "Latency": "351",
+            "PipelineII": "5",
+            "PipelineDepth": "7"
           }],
         "Area": {
-          "BRAM_18K": "128",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "44",
-          "DSP": "288",
+          "DSP": "144",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "23",
-          "FF": "15412",
+          "UTIL_DSP": "11",
+          "FF": "9104",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "6",
-          "LUT": "14233",
+          "UTIL_FF": "3",
+          "LUT": "23688",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "12",
+          "UTIL_LUT": "20",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "normalize_array_ap_fixed_16u_array_ap_fixed_58_29_5_3_0_16u_config14_s": {
+      "normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config14_s": {
         "Latency": {
-          "LatencyBest": "74",
-          "LatencyAvg": "74",
-          "LatencyWorst": "74",
-          "PipelineII": "74",
+          "LatencyBest": "44",
+          "LatencyAvg": "44",
+          "LatencyWorst": "44",
+          "PipelineII": "44",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.452"
+          "Estimate": "3.340"
         },
         "Loops": [{
             "Name": "BatchNormLoop",
-            "TripCount": "70",
-            "Latency": "72",
+            "TripCount": "40",
+            "Latency": "42",
             "PipelineII": "1",
             "PipelineDepth": "4"
           }],
         "Area": {
-          "DSP": "32",
+          "DSP": "16",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "2",
-          "FF": "1519",
+          "UTIL_DSP": "1",
+          "FF": "749",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "1457",
+          "LUT": "790",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "1",
+          "UTIL_LUT": "~0",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2234,34 +2214,34 @@
           "UTIL_URAM": "0"
         }
       },
-      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config15_s": {
+      "relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s": {
         "Latency": {
-          "LatencyBest": "73",
-          "LatencyAvg": "73",
-          "LatencyWorst": "73",
-          "PipelineII": "73",
+          "LatencyBest": "43",
+          "LatencyAvg": "43",
+          "LatencyWorst": "43",
+          "PipelineII": "43",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.599"
+          "Estimate": "3.539"
         },
         "Loops": [{
             "Name": "ReLUActLoop",
-            "TripCount": "70",
-            "Latency": "71",
+            "TripCount": "40",
+            "Latency": "41",
             "PipelineII": "1",
             "PipelineDepth": "3"
           }],
         "Area": {
-          "FF": "333",
+          "FF": "188",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "4513",
+          "LUT": "2279",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "3",
+          "UTIL_LUT": "1",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2273,7 +2253,7 @@
           "UTIL_URAM": "0"
         }
       },
-      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_16u_config16_s": {
+      "shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config16_s": {
         "Latency": {
           "LatencyBest": "0",
           "LatencyAvg": "0",
@@ -2288,12 +2268,12 @@
           "Estimate": "2.868"
         },
         "Area": {
-          "FF": "4097",
+          "FF": "2049",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "1",
-          "LUT": "2768",
+          "UTIL_FF": "~0",
+          "LUT": "2104",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "2",
+          "UTIL_LUT": "1",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2305,12 +2285,12 @@
           "UTIL_URAM": "0"
         }
       },
-      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_16u_config16_s": {
+      "pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config16_s": {
         "Latency": {
-          "LatencyBest": "144",
-          "LatencyAvg": "144",
-          "LatencyWorst": "144",
-          "PipelineII": "144",
+          "LatencyBest": "85",
+          "LatencyAvg": "85",
+          "LatencyWorst": "85",
+          "PipelineII": "85",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
@@ -2321,18 +2301,18 @@
         },
         "Loops": [{
             "Name": "ReadInputHeight_ReadInputWidth",
-            "TripCount": "70",
-            "Latency": "142",
+            "TripCount": "40",
+            "Latency": "83",
             "PipelineII": "2",
-            "PipelineDepth": "5"
+            "PipelineDepth": "6"
           }],
         "Area": {
-          "FF": "7607",
+          "FF": "5548",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "3",
-          "LUT": "9537",
+          "UTIL_FF": "2",
+          "LUT": "9126",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "8",
+          "UTIL_LUT": "7",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2344,32 +2324,32 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_array_array_ap_fixed_40_21_5_3_0_32u_config18_Pipeline_DataPrepare": {
+      "dense_array_array_ap_fixed_37_18_5_3_0_16u_config18_Pipeline_DataPrepare": {
         "Latency": {
-          "LatencyBest": "9",
-          "LatencyAvg": "9",
-          "LatencyWorst": "9",
-          "PipelineII": "9",
+          "LatencyBest": "4",
+          "LatencyAvg": "4",
+          "LatencyWorst": "4",
+          "PipelineII": "4",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "1.665"
+          "Estimate": "2.182"
         },
         "Loops": [{
             "Name": "DataPrepare",
-            "TripCount": "7",
-            "Latency": "7",
+            "TripCount": "2",
+            "Latency": "2",
             "PipelineII": "1",
             "PipelineDepth": "2"
           }],
         "Area": {
-          "FF": "1801",
+          "FF": "262",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "69",
+          "LUT": "324",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "~0",
           "BRAM_18K": "0",
@@ -2383,80 +2363,71 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_40_21_5_3_0_config18_s": {
+      "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config18_s": {
         "Latency": {
-          "LatencyBest": "29",
-          "LatencyAvg": "29",
-          "LatencyWorst": "30",
-          "PipelineII": "28",
-          "PipelineDepth": "",
-          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.449"
         },
-        "Loops": [{
-            "Name": "ReuseLoop",
-            "TripCount": "28",
-            "Latency": "29",
-            "PipelineII": "1",
-            "PipelineDepth": "3"
-          }],
         "Area": {
-          "BRAM_18K": "57",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "19",
-          "DSP": "128",
+          "DSP": "210",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "10",
-          "FF": "5429",
+          "UTIL_DSP": "16",
+          "FF": "2647",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "2",
-          "LUT": "7779",
+          "UTIL_FF": "1",
+          "LUT": "7240",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "6",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "dense_array_ap_ufixed_16u_array_ap_fixed_40_21_5_3_0_32u_config18_s": {
+      "dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s": {
         "Latency": {
-          "LatencyBest": "41",
-          "LatencyAvg": "41",
-          "LatencyWorst": "42",
-          "PipelineIIMin": "41",
-          "PipelineIIMax": "42",
-          "PipelineII": "41 ~ 42",
+          "LatencyBest": "8",
+          "LatencyAvg": "8",
+          "LatencyWorst": "8",
+          "PipelineII": "8",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.449"
         },
         "Area": {
-          "BRAM_18K": "57",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "19",
-          "DSP": "128",
+          "DSP": "210",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "10",
-          "FF": "7238",
+          "UTIL_DSP": "16",
+          "FF": "3509",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "3",
-          "LUT": "7912",
+          "UTIL_FF": "1",
+          "LUT": "7633",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "6",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "relu_array_ap_fixed_32u_array_ap_ufixed_16_6_4_0_0_32u_relu_config20_s": {
+      "relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s": {
         "Latency": {
           "LatencyBest": "1",
           "LatencyAvg": "1",
@@ -2471,12 +2442,12 @@
           "Estimate": "3.443"
         },
         "Area": {
-          "FF": "708",
+          "FF": "356",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "7476",
+          "LUT": "3620",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "6",
+          "UTIL_LUT": "3",
           "BRAM_18K": "0",
           "AVAIL_BRAM": "288",
           "UTIL_BRAM": "0",
@@ -2488,80 +2459,71 @@
           "UTIL_URAM": "0"
         }
       },
-      "dense_resource_rf_leq_nin_ap_ufixed_ap_fixed_38_19_5_3_0_config21_s": {
+      "dense_latency_wrapper_ap_ufixed_ap_fixed_37_18_5_3_0_config21_s": {
         "Latency": {
-          "LatencyBest": "5",
-          "LatencyAvg": "5",
-          "LatencyWorst": "6",
-          "PipelineII": "4",
-          "PipelineDepth": "",
-          "PipelineType": "loop rewind(delay=0 clock cycles(s))"
+          "LatencyBest": "1",
+          "LatencyAvg": "1",
+          "LatencyWorst": "1",
+          "PipelineII": "1",
+          "PipelineDepth": "2",
+          "PipelineType": "yes"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.274"
         },
-        "Loops": [{
-            "Name": "ReuseLoop",
-            "TripCount": "4",
-            "Latency": "5",
-            "PipelineII": "1",
-            "PipelineDepth": "3"
-          }],
         "Area": {
-          "BRAM_18K": "36",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "12",
-          "DSP": "80",
+          "DSP": "138",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "6",
-          "FF": "2769",
+          "UTIL_DSP": "11",
+          "FF": "1676",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "1",
-          "LUT": "3193",
+          "UTIL_FF": "~0",
+          "LUT": "4387",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "2",
+          "UTIL_LUT": "3",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "dense_array_ap_ufixed_32u_array_ap_fixed_38_19_5_3_0_10u_config21_s": {
+      "dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s": {
         "Latency": {
-          "LatencyBest": "7",
-          "LatencyAvg": "7",
-          "LatencyWorst": "8",
-          "PipelineIIMin": "7",
-          "PipelineIIMax": "8",
-          "PipelineII": "7 ~ 8",
+          "LatencyBest": "3",
+          "LatencyAvg": "3",
+          "LatencyWorst": "3",
+          "PipelineII": "3",
           "PipelineDepth": "",
           "PipelineType": "no"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.617"
+          "Estimate": "3.274"
         },
         "Area": {
-          "BRAM_18K": "36",
-          "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "12",
-          "DSP": "80",
+          "DSP": "138",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "6",
-          "FF": "3667",
+          "UTIL_DSP": "11",
+          "FF": "2308",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "1",
-          "LUT": "3251",
+          "UTIL_FF": "~0",
+          "LUT": "4451",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "2",
+          "UTIL_LUT": "3",
+          "BRAM_18K": "0",
+          "AVAIL_BRAM": "288",
+          "UTIL_BRAM": "0",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
         }
       },
-      "init_exp_table_ap_ufixed_37_18_5_3_0_softmax_config23_s": {
+      "init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s": {
         "Latency": {
           "LatencyBest": "1044",
           "LatencyAvg": "1044",
@@ -2573,7 +2535,7 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.987"
+          "Estimate": "3.985"
         },
         "Loops": [{
             "Name": "VITIS_LOOP_151_1",
@@ -2586,10 +2548,10 @@
           "DSP": "7",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "~0",
-          "FF": "1101",
+          "FF": "1099",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "3485",
+          "LUT": "3469",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "2",
           "BRAM_18K": "0",
@@ -2612,7 +2574,7 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.987"
+          "Estimate": "3.985"
         },
         "Area": {
           "BRAM_18K": "2",
@@ -2621,10 +2583,10 @@
           "DSP": "17",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "1",
-          "FF": "2069",
+          "FF": "2049",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "5039",
+          "LUT": "4996",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "4",
           "URAM": "0",
@@ -2644,7 +2606,7 @@
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.987"
+          "Estimate": "3.985"
         },
         "Area": {
           "BRAM_18K": "2",
@@ -2653,10 +2615,10 @@
           "DSP": "17",
           "AVAIL_DSP": "1248",
           "UTIL_DSP": "1",
-          "FF": "2074",
+          "FF": "2054",
           "AVAIL_FF": "234240",
           "UTIL_FF": "~0",
-          "LUT": "5081",
+          "LUT": "5038",
           "AVAIL_LUT": "117120",
           "UTIL_LUT": "4",
           "URAM": "0",
@@ -2666,31 +2628,31 @@
       },
       "myproject": {
         "Latency": {
-          "LatencyBest": "18762",
-          "LatencyAvg": "18762",
-          "LatencyWorst": "18762",
-          "PipelineII": "18748",
+          "LatencyBest": "4374",
+          "LatencyAvg": "4374",
+          "LatencyWorst": "4374",
+          "PipelineII": "4360",
           "PipelineDepth": "",
           "PipelineType": "dataflow"
         },
         "Timing": {
           "Target": "5.00",
           "Uncertainty": "1.35",
-          "Estimate": "3.987"
+          "Estimate": "3.985"
         },
         "Area": {
-          "BRAM_18K": "932",
+          "BRAM_18K": "240",
           "AVAIL_BRAM": "288",
-          "UTIL_BRAM": "323",
-          "DSP": "975",
+          "UTIL_BRAM": "83",
+          "DSP": "793",
           "AVAIL_DSP": "1248",
-          "UTIL_DSP": "78",
-          "FF": "63941",
+          "UTIL_DSP": "63",
+          "FF": "43397",
           "AVAIL_FF": "234240",
-          "UTIL_FF": "27",
-          "LUT": "93664",
+          "UTIL_FF": "18",
+          "LUT": "101039",
           "AVAIL_LUT": "117120",
-          "UTIL_LUT": "79",
+          "UTIL_LUT": "86",
           "URAM": "0",
           "AVAIL_URAM": "64",
           "UTIL_URAM": "0"
@@ -2701,7 +2663,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-03-21 19:20:35 CST",
+    "Time": "2026-03-22 09:49:52 CST",
     "ToolName": "vitis_hls",
     "ToolVersion": "2023.2"
   }

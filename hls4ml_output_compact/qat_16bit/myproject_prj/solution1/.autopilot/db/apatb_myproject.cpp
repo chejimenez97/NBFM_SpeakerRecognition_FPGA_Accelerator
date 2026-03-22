@@ -18,9 +18,9 @@
 using namespace std;
 
 // wrapc file define:
-#define AUTOTB_TVIN_input_2 "../tv/cdatafile/c.myproject.autotvin_input_2.dat"
-#define WRAPC_STREAM_SIZE_IN_input_2 "../tv/stream_size/stream_size_in_input_2.dat"
-#define WRAPC_STREAM_INGRESS_STATUS_input_2 "../tv/stream_size/stream_ingress_status_input_2.dat"
+#define AUTOTB_TVIN_input_5 "../tv/cdatafile/c.myproject.autotvin_input_5.dat"
+#define WRAPC_STREAM_SIZE_IN_input_5 "../tv/stream_size/stream_size_in_input_5.dat"
+#define WRAPC_STREAM_INGRESS_STATUS_input_5 "../tv/stream_size/stream_ingress_status_input_5.dat"
 #define AUTOTB_TVOUT_layer23_out "../tv/cdatafile/c.myproject.autotvout_layer23_out.dat"
 #define WRAPC_STREAM_SIZE_OUT_layer23_out "../tv/stream_size/stream_size_out_layer23_out.dat"
 #define WRAPC_STREAM_EGRESS_STATUS_layer23_out "../tv/stream_size/stream_egress_status_layer23_out.dat"
@@ -1031,20 +1031,20 @@ extern "C"
 void myproject_hw_stub_wrapper(void*, void*);
 
 extern "C"
-void apatb_myproject_hw(void* __xlx_apatb_param_input_2, void* __xlx_apatb_param_layer23_out)
+void apatb_myproject_hw(void* __xlx_apatb_param_input_5, void* __xlx_apatb_param_layer23_out)
 {
   static hls::sim::Stream<hls::sim::Byte<4>> port0 {
     .width = 32,
-    .name = "input_2",
+    .name = "input_5",
 #ifdef POST_CHECK
-    .reader = new hls::sim::Reader(WRAPC_STREAM_SIZE_IN_input_2),
+    .reader = new hls::sim::Reader(WRAPC_STREAM_SIZE_IN_input_5),
 #else
-    .writer = new hls::sim::Writer(AUTOTB_TVIN_input_2),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_IN_input_2),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_INGRESS_STATUS_input_2),
+    .writer = new hls::sim::Writer(AUTOTB_TVIN_input_5),
+    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_IN_input_5),
+    .gwriter = new hls::sim::Writer(WRAPC_STREAM_INGRESS_STATUS_input_5),
 #endif
   };
-  port0.param = (hls::stream<hls::sim::Byte<4>>*)__xlx_apatb_param_input_2;
+  port0.param = (hls::stream<hls::sim::Byte<4>>*)__xlx_apatb_param_input_5;
   port0.hasWrite = false;
 
   static hls::sim::Stream<hls::sim::Byte<20>> port1 {
@@ -1073,7 +1073,7 @@ void apatb_myproject_hw(void* __xlx_apatb_param_input_2, void* __xlx_apatb_param
     port0.buffer();
     port1.markSize();
     CodeState = CALL_C_DUT;
-    myproject_hw_stub_wrapper(__xlx_apatb_param_input_2, __xlx_apatb_param_layer23_out);
+    myproject_hw_stub_wrapper(__xlx_apatb_param_input_5, __xlx_apatb_param_layer23_out);
     port1.buffer();
     dump(port0, tcl.AESL_transaction);
     port0.doTCL(tcl);

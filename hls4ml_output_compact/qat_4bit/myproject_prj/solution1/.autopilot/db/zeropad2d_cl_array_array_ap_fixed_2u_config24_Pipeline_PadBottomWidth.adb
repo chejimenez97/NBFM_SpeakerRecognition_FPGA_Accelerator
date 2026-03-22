@@ -56,7 +56,7 @@
             <Obj>
               <type>0</type>
               <id>2</id>
-              <name>j_4</name>
+              <name>j_2</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>77</lineNumber>
@@ -88,10 +88,10 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>539766825</coreId>
+              <coreId>1768316784</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -112,7 +112,7 @@
             <Obj>
               <type>0</type>
               <id>4</id>
-              <name>j_4_write_ln77</name>
+              <name>j_2_write_ln77</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>77</lineNumber>
@@ -246,7 +246,7 @@
               <coreId>539767593</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -325,7 +325,7 @@
             <Obj>
               <type>0</type>
               <id>9</id>
-              <name>j_12</name>
+              <name>j_9</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>77</lineNumber>
@@ -350,7 +350,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>j</originalName>
-              <rtlName>j_12_fu_58_p2</rtlName>
+              <rtlName>j_9_fu_58_p2</rtlName>
               <control>auto</control>
               <opType>add</opType>
               <implIndex>fabric</implIndex>
@@ -360,7 +360,7 @@
               <coreId>1</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -505,7 +505,7 @@
             <Obj>
               <type>0</type>
               <id>16</id>
-              <name>j_4_write_ln77</name>
+              <name>j_2_write_ln77</name>
               <fileName>firmware/nnet_utils/nnet_padding_stream.h</fileName>
               <fileDirectory>../.</fileDirectory>
               <lineNumber>77</lineNumber>
@@ -537,7 +537,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1746938918</coreId>
+              <coreId>1717530721</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -596,7 +596,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1043341356</coreId>
+              <coreId>539766825</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -638,7 +638,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1043341356</coreId>
+              <coreId>539766825</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -717,7 +717,7 @@
               <coreId>1885415456</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>0</content>
@@ -745,13 +745,13 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>741550437</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>284</content>
+          <content>66</content>
         </item>
         <item class_id_reference="16" object_id="_16">
           <Value>
@@ -779,7 +779,7 @@
               <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
-            <bitwidth>9</bitwidth>
+            <bitwidth>7</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>1</content>
@@ -841,7 +841,7 @@
             <coreName/>
             <isStorage>0</isStorage>
             <storageDepth>0</storageDepth>
-            <coreId>807414832</coreId>
+            <coreId>941632574</coreId>
             <rtlModuleName/>
           </Obj>
           <node_objs>
@@ -1147,8 +1147,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>286</mMinLatency>
-        <mMaxLatency>286</mMaxLatency>
+        <mMinLatency>68</mMinLatency>
+        <mMaxLatency>68</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -1192,10 +1192,10 @@
         </basic_blocks>
         <mII>1</mII>
         <mDepth>2</mDepth>
-        <mMinTripCount>284</mMinTripCount>
-        <mMaxTripCount>284</mMaxTripCount>
-        <mMinLatency>284</mMinLatency>
-        <mMaxLatency>284</mMaxLatency>
+        <mMinTripCount>66</mMinTripCount>
+        <mMaxTripCount>66</mMaxTripCount>
+        <mMinLatency>66</mMinLatency>
+        <mMaxLatency>66</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -1405,11 +1405,11 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>(1P1)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>FF</first>
@@ -1417,18 +1417,18 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>16</second>
+              <second>14</second>
             </item>
           </second>
         </item>
         <item>
-          <first>j_12_fu_58_p2 ( + ) </first>
+          <first>j_9_fu_58_p2 ( + ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -1440,7 +1440,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>16</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -1513,11 +1513,11 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>(2Count)</first>
-              <second>18</second>
+              <second>14</second>
             </item>
             <item>
               <first>LUT</first>
@@ -1526,7 +1526,7 @@
           </second>
         </item>
         <item>
-          <first>j_4_fu_32</first>
+          <first>j_2_fu_32</first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -1536,11 +1536,11 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>(2Count)</first>
-              <second>18</second>
+              <second>14</second>
             </item>
             <item>
               <first>LUT</first>
@@ -1633,13 +1633,13 @@
           </second>
         </item>
         <item>
-          <first>j_4_fu_32</first>
+          <first>j_2_fu_32</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>9</second>
+              <second>7</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -1647,7 +1647,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>9</second>
+              <second>7</second>
             </item>
           </second>
         </item>
@@ -1679,7 +1679,7 @@
           </second>
         </item>
         <item>
-          <first>j_12_fu_58_p2 ( + ) </first>
+          <first>j_9_fu_58_p2 ( + ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -1906,19 +1906,19 @@
         </second>
       </item>
       <item>
-        <first>j_12_fu_58</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>9</item>
-        </second>
-      </item>
-      <item>
-        <first>j_4_fu_32</first>
+        <first>j_2_fu_32</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>2</item>
+        </second>
+      </item>
+      <item>
+        <first>j_9_fu_58</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>9</item>
         </second>
       </item>
     </dp_fu_nodes_expression>
@@ -1986,7 +1986,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item>
-        <first>j_4_reg_69</first>
+        <first>j_2_reg_69</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
