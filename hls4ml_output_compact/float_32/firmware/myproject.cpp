@@ -5,14 +5,12 @@
 
 
 void myproject(
-    input_t input_1[20*282*2],
-    result_t layer23_out[10]
+    hls::stream<input_t> &input_1,
+    hls::stream<result_t> &layer23_out
 ) {
 
     // hls-fpga-machine-learning insert IO
-    #pragma HLS ARRAY_RESHAPE variable=input_1 complete dim=0
-    #pragma HLS ARRAY_PARTITION variable=layer23_out complete dim=0
-    #pragma HLS INTERFACE ap_vld port=input_1,layer23_out 
+    #pragma HLS INTERFACE axis port=input_1,layer23_out 
     #pragma HLS DATAFLOW
 
     // hls-fpga-machine-learning insert load weights
@@ -37,56 +35,71 @@ void myproject(
 
     // hls-fpga-machine-learning insert layers
 
-    conv1_result_t layer2_out[20*282*8];
-    #pragma HLS ARRAY_PARTITION variable=layer2_out complete dim=0
+    hls::stream<layer24_t> layer24_out("layer24_out");
+    #pragma HLS STREAM variable=layer24_out depth=6248
 
-    layer5_t layer5_out[20*282*8];
-    #pragma HLS ARRAY_PARTITION variable=layer5_out complete dim=0
+    hls::stream<conv1_result_t> layer2_out("layer2_out");
+    #pragma HLS STREAM variable=layer2_out depth=5640
 
-    layer6_t layer6_out[10*70*8];
-    #pragma HLS ARRAY_PARTITION variable=layer6_out complete dim=0
+    hls::stream<layer5_t> layer5_out("layer5_out");
+    #pragma HLS STREAM variable=layer5_out depth=5640
 
-    conv2_result_t layer7_out[10*70*16];
-    #pragma HLS ARRAY_PARTITION variable=layer7_out complete dim=0
+    hls::stream<layer6_t> layer6_out("layer6_out");
+    #pragma HLS STREAM variable=layer6_out depth=700
 
-    layer10_t layer10_out[10*70*16];
-    #pragma HLS ARRAY_PARTITION variable=layer10_out complete dim=0
+    hls::stream<layer25_t> layer25_out("layer25_out");
+    #pragma HLS STREAM variable=layer25_out depth=864
 
-    layer11_t layer11_out[5*14*16];
-    #pragma HLS ARRAY_PARTITION variable=layer11_out complete dim=0
+    hls::stream<conv2_result_t> layer7_out("layer7_out");
+    #pragma HLS STREAM variable=layer7_out depth=700
 
-    conv3_result_t layer12_out[5*14*16];
-    #pragma HLS ARRAY_PARTITION variable=layer12_out complete dim=0
+    hls::stream<layer10_t> layer10_out("layer10_out");
+    #pragma HLS STREAM variable=layer10_out depth=700
 
-    layer15_t layer15_out[5*14*16];
-    #pragma HLS ARRAY_PARTITION variable=layer15_out complete dim=0
+    hls::stream<layer11_t> layer11_out("layer11_out");
+    #pragma HLS STREAM variable=layer11_out depth=70
 
-    layer16_t layer16_out[1*7*16];
-    #pragma HLS ARRAY_PARTITION variable=layer16_out complete dim=0
+    hls::stream<layer26_t> layer26_out("layer26_out");
+    #pragma HLS STREAM variable=layer26_out depth=112
+
+    hls::stream<conv3_result_t> layer12_out("layer12_out");
+    #pragma HLS STREAM variable=layer12_out depth=70
+
+    hls::stream<layer15_t> layer15_out("layer15_out");
+    #pragma HLS STREAM variable=layer15_out depth=70
+
+    hls::stream<layer16_t> layer16_out("layer16_out");
+    #pragma HLS STREAM variable=layer16_out depth=7
 
     auto& layer17_out = layer16_out;
-    dense1_result_t layer18_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer18_out complete dim=0
+    hls::stream<dense1_result_t> layer18_out("layer18_out");
+    #pragma HLS STREAM variable=layer18_out depth=1
 
-    layer20_t layer20_out[32];
-    #pragma HLS ARRAY_PARTITION variable=layer20_out complete dim=0
+    hls::stream<layer20_t> layer20_out("layer20_out");
+    #pragma HLS STREAM variable=layer20_out depth=1
 
-    output_result_t layer21_out[10];
-    #pragma HLS ARRAY_PARTITION variable=layer21_out complete dim=0
+    hls::stream<output_result_t> layer21_out("layer21_out");
+    #pragma HLS STREAM variable=layer21_out depth=1
 
-    nnet::conv_2d_cl<input_t, conv1_result_t, config2>(input_1, layer2_out, w2, b2); // conv1
+    nnet::zeropad2d_cl<input_t, layer24_t, config24>(input_1, layer24_out); // zp2d_conv1
+
+    nnet::conv_2d_cl<layer24_t, conv1_result_t, config2>(layer24_out, layer2_out, w2, b2); // conv1
 
     nnet::relu<conv1_result_t, layer5_t, relu_config5>(layer2_out, layer5_out); // act1
 
     nnet::pooling2d_cl<layer5_t, layer6_t, config6>(layer5_out, layer6_out); // pool1
 
-    nnet::conv_2d_cl<layer6_t, conv2_result_t, config7>(layer6_out, layer7_out, w7, b7); // conv2
+    nnet::zeropad2d_cl<layer6_t, layer25_t, config25>(layer6_out, layer25_out); // zp2d_conv2
+
+    nnet::conv_2d_cl<layer25_t, conv2_result_t, config7>(layer25_out, layer7_out, w7, b7); // conv2
 
     nnet::relu<conv2_result_t, layer10_t, relu_config10>(layer7_out, layer10_out); // act2
 
     nnet::pooling2d_cl<layer10_t, layer11_t, config11>(layer10_out, layer11_out); // pool2
 
-    nnet::conv_2d_cl<layer11_t, conv3_result_t, config12>(layer11_out, layer12_out, w12, b12); // conv3
+    nnet::zeropad2d_cl<layer11_t, layer26_t, config26>(layer11_out, layer26_out); // zp2d_conv3
+
+    nnet::conv_2d_cl<layer26_t, conv3_result_t, config12>(layer26_out, layer12_out, w12, b12); // conv3
 
     nnet::relu<conv3_result_t, layer15_t, relu_config15>(layer12_out, layer15_out); // act3
 

@@ -42,6 +42,8 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
+      ReuseFactor: 1
+      Strategy: Resource
       Trace: false
     conv1_linear:
       Precision:
@@ -52,6 +54,8 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
+      ReuseFactor: 4
+      Strategy: Resource
       Trace: false
     conv2_linear:
       Precision:
@@ -62,6 +66,8 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
+      ReuseFactor: 8
+      Strategy: Resource
       Trace: false
     conv3_linear:
       Precision:
@@ -72,6 +78,8 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
+      ReuseFactor: 32
+      Strategy: Resource
       Trace: false
     dense1_linear:
       Precision:
@@ -90,6 +98,8 @@ HLSConfig:
         bias: auto
         result: auto
         weight: auto
+      ReuseFactor: 4
+      Strategy: Resource
       Trace: false
     output_linear:
       Precision:
@@ -117,9 +127,9 @@ HLSConfig:
     Precision:
       default: fixed<16,6>
     ReuseFactor: 1
-    Strategy: Latency
+    Strategy: Resource
     TraceOutput: false
-IOType: io_parallel
+IOType: io_stream
 InputData: null
 InputShapes:
   input_1:
@@ -134,7 +144,7 @@ OutputShapes:
   - 10
 Part: xck26-sfvc784-2LV-c
 ProjectName: myproject
-Stamp: 63e2742a
+Stamp: 05879c01
 Version: 1.0.0
 WriterConfig:
   Namespace: null

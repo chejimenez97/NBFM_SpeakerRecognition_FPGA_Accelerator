@@ -14,6 +14,8 @@
 #include "nnet_utils/nnet_dense.h"
 #include "nnet_utils/nnet_dense_compressed.h"
 #include "nnet_utils/nnet_dense_stream.h"
+#include "nnet_utils/nnet_padding.h"
+#include "nnet_utils/nnet_padding_stream.h"
 #include "nnet_utils/nnet_pooling.h"
 #include "nnet_utils/nnet_pooling_stream.h"
 
@@ -31,30 +33,43 @@
 
 
 // hls-fpga-machine-learning insert layer-config
+// zp2d_conv1
+struct config24 : nnet::padding2d_config {
+    static const unsigned in_height = 20;
+    static const unsigned in_width = 282;
+    static const unsigned n_chan = 2;
+    static const unsigned out_height = 22;
+    static const unsigned out_width = 284;
+    static const unsigned pad_top = 1;
+    static const unsigned pad_bottom = 1;
+    static const unsigned pad_left = 1;
+    static const unsigned pad_right = 1;
+};
+
 // conv1
 struct config2_mult : nnet::dense_config {
     static const unsigned n_in = 18;
     static const unsigned n_out = 8;
     static const unsigned reuse_factor = 1;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned strategy = nnet::resource;
     static const unsigned n_zeros = 0;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     typedef model_default_t accum_t;
     typedef conv1_bias_t bias_t;
     typedef conv1_weight_t weight_t;
     template<class data_T, class res_T, class CONFIG_T>
-    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
+    using kernel = nnet::DenseResource_rf_leq_nin<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
 
 struct config2 : nnet::conv2d_config {
-    static const unsigned pad_top = 1;
-    static const unsigned pad_bottom = 1;
-    static const unsigned pad_left = 1;
-    static const unsigned pad_right = 1;
-    static const unsigned in_height = 20;
-    static const unsigned in_width = 282;
+    static const unsigned pad_top = 0;
+    static const unsigned pad_bottom = 0;
+    static const unsigned pad_left = 0;
+    static const unsigned pad_right = 0;
+    static const unsigned in_height = 22;
+    static const unsigned in_width = 284;
     static const unsigned n_chan = 2;
     static const unsigned filt_height = 3;
     static const unsigned filt_width = 3;
@@ -69,15 +84,15 @@ struct config2 : nnet::conv2d_config {
     static const unsigned multiplier_limit =
         DIV_ROUNDUP(kernel_size * n_chan * n_filt, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned strategy = nnet::resource;
     static const nnet::conv_implementation implementation = nnet::conv_implementation::linebuffer;
-    static const unsigned min_height = 20;
-    static const unsigned min_width = 282;
+    static const unsigned min_height = 22;
+    static const unsigned min_width = 284;
     static const ap_uint<filt_height * filt_width> pixels[min_height * min_width];
     static const unsigned n_partitions = 5640;
     static const unsigned n_pixels = out_height * out_width / n_partitions;
     template<class data_T, class CONFIG_T>
-    using fill_buffer = nnet::fill_buffer_2<data_T, CONFIG_T>;
+    using fill_buffer = nnet::FillConv2DBuffer<data_T, CONFIG_T>;
     typedef model_default_t accum_t;
     typedef conv1_bias_t bias_t;
     typedef conv1_weight_t weight_t;
@@ -93,7 +108,7 @@ const ap_uint<config2::filt_height * config2::filt_width> config2::pixels[] = {0
 struct relu_config5 : nnet::activ_config {
     static const unsigned n_in = 45120;
     static const unsigned table_size = 1024;
-    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned io_type = nnet::io_stream;
     static const unsigned reuse_factor = 1;
     typedef act1_table_t table_t;
 };
@@ -125,30 +140,43 @@ struct config6 : nnet::pooling2d_config {
     typedef model_default_t accum_t;
 };
 
+// zp2d_conv2
+struct config25 : nnet::padding2d_config {
+    static const unsigned in_height = 10;
+    static const unsigned in_width = 70;
+    static const unsigned n_chan = 8;
+    static const unsigned out_height = 12;
+    static const unsigned out_width = 72;
+    static const unsigned pad_top = 1;
+    static const unsigned pad_bottom = 1;
+    static const unsigned pad_left = 1;
+    static const unsigned pad_right = 1;
+};
+
 // conv2
 struct config7_mult : nnet::dense_config {
     static const unsigned n_in = 72;
     static const unsigned n_out = 16;
-    static const unsigned reuse_factor = 1;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned reuse_factor = 4;
+    static const unsigned strategy = nnet::resource;
     static const unsigned n_zeros = 0;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     typedef model_default_t accum_t;
     typedef conv2_bias_t bias_t;
     typedef conv2_weight_t weight_t;
     template<class data_T, class res_T, class CONFIG_T>
-    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
+    using kernel = nnet::DenseResource_rf_leq_nin<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
 
 struct config7 : nnet::conv2d_config {
-    static const unsigned pad_top = 1;
-    static const unsigned pad_bottom = 1;
-    static const unsigned pad_left = 1;
-    static const unsigned pad_right = 1;
-    static const unsigned in_height = 10;
-    static const unsigned in_width = 70;
+    static const unsigned pad_top = 0;
+    static const unsigned pad_bottom = 0;
+    static const unsigned pad_left = 0;
+    static const unsigned pad_right = 0;
+    static const unsigned in_height = 12;
+    static const unsigned in_width = 72;
     static const unsigned n_chan = 8;
     static const unsigned filt_height = 3;
     static const unsigned filt_width = 3;
@@ -158,20 +186,20 @@ struct config7 : nnet::conv2d_config {
     static const unsigned stride_width = 1;
     static const unsigned out_height = 10;
     static const unsigned out_width = 70;
-    static const unsigned reuse_factor = 1;
+    static const unsigned reuse_factor = 4;
     static const unsigned n_zeros = 0;
     static const unsigned multiplier_limit =
         DIV_ROUNDUP(kernel_size * n_chan * n_filt, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned strategy = nnet::resource;
     static const nnet::conv_implementation implementation = nnet::conv_implementation::linebuffer;
-    static const unsigned min_height = 10;
-    static const unsigned min_width = 70;
+    static const unsigned min_height = 12;
+    static const unsigned min_width = 72;
     static const ap_uint<filt_height * filt_width> pixels[min_height * min_width];
     static const unsigned n_partitions = 700;
     static const unsigned n_pixels = out_height * out_width / n_partitions;
     template<class data_T, class CONFIG_T>
-    using fill_buffer = nnet::fill_buffer_7<data_T, CONFIG_T>;
+    using fill_buffer = nnet::FillConv2DBuffer<data_T, CONFIG_T>;
     typedef model_default_t accum_t;
     typedef conv2_bias_t bias_t;
     typedef conv2_weight_t weight_t;
@@ -187,7 +215,7 @@ const ap_uint<config7::filt_height * config7::filt_width> config7::pixels[] = {0
 struct relu_config10 : nnet::activ_config {
     static const unsigned n_in = 11200;
     static const unsigned table_size = 1024;
-    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned io_type = nnet::io_stream;
     static const unsigned reuse_factor = 1;
     typedef act2_table_t table_t;
 };
@@ -219,30 +247,43 @@ struct config11 : nnet::pooling2d_config {
     typedef model_default_t accum_t;
 };
 
+// zp2d_conv3
+struct config26 : nnet::padding2d_config {
+    static const unsigned in_height = 5;
+    static const unsigned in_width = 14;
+    static const unsigned n_chan = 16;
+    static const unsigned out_height = 7;
+    static const unsigned out_width = 16;
+    static const unsigned pad_top = 1;
+    static const unsigned pad_bottom = 1;
+    static const unsigned pad_left = 1;
+    static const unsigned pad_right = 1;
+};
+
 // conv3
 struct config12_mult : nnet::dense_config {
     static const unsigned n_in = 144;
     static const unsigned n_out = 16;
-    static const unsigned reuse_factor = 1;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned reuse_factor = 8;
+    static const unsigned strategy = nnet::resource;
     static const unsigned n_zeros = 0;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
     typedef model_default_t accum_t;
     typedef conv3_bias_t bias_t;
     typedef conv3_weight_t weight_t;
     template<class data_T, class res_T, class CONFIG_T>
-    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
+    using kernel = nnet::DenseResource_rf_leq_nin<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
 
 struct config12 : nnet::conv2d_config {
-    static const unsigned pad_top = 1;
-    static const unsigned pad_bottom = 1;
-    static const unsigned pad_left = 1;
-    static const unsigned pad_right = 1;
-    static const unsigned in_height = 5;
-    static const unsigned in_width = 14;
+    static const unsigned pad_top = 0;
+    static const unsigned pad_bottom = 0;
+    static const unsigned pad_left = 0;
+    static const unsigned pad_right = 0;
+    static const unsigned in_height = 7;
+    static const unsigned in_width = 16;
     static const unsigned n_chan = 16;
     static const unsigned filt_height = 3;
     static const unsigned filt_width = 3;
@@ -252,20 +293,20 @@ struct config12 : nnet::conv2d_config {
     static const unsigned stride_width = 1;
     static const unsigned out_height = 5;
     static const unsigned out_width = 14;
-    static const unsigned reuse_factor = 1;
+    static const unsigned reuse_factor = 8;
     static const unsigned n_zeros = 0;
     static const unsigned multiplier_limit =
         DIV_ROUNDUP(kernel_size * n_chan * n_filt, reuse_factor) - n_zeros / reuse_factor;
     static const bool store_weights_in_bram = false;
-    static const unsigned strategy = nnet::latency;
+    static const unsigned strategy = nnet::resource;
     static const nnet::conv_implementation implementation = nnet::conv_implementation::linebuffer;
-    static const unsigned min_height = 5;
-    static const unsigned min_width = 14;
+    static const unsigned min_height = 7;
+    static const unsigned min_width = 16;
     static const ap_uint<filt_height * filt_width> pixels[min_height * min_width];
     static const unsigned n_partitions = 70;
     static const unsigned n_pixels = out_height * out_width / n_partitions;
     template<class data_T, class CONFIG_T>
-    using fill_buffer = nnet::fill_buffer_12<data_T, CONFIG_T>;
+    using fill_buffer = nnet::FillConv2DBuffer<data_T, CONFIG_T>;
     typedef model_default_t accum_t;
     typedef conv3_bias_t bias_t;
     typedef conv3_weight_t weight_t;
@@ -281,7 +322,7 @@ const ap_uint<config12::filt_height * config12::filt_width> config12::pixels[] =
 struct relu_config15 : nnet::activ_config {
     static const unsigned n_in = 1120;
     static const unsigned table_size = 1024;
-    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned io_type = nnet::io_stream;
     static const unsigned reuse_factor = 1;
     typedef act3_table_t table_t;
 };
@@ -317,9 +358,9 @@ struct config16 : nnet::pooling2d_config {
 struct config18 : nnet::dense_config {
     static const unsigned n_in = 112;
     static const unsigned n_out = 32;
-    static const unsigned io_type = nnet::io_parallel;
-    static const unsigned strategy = nnet::latency;
-    static const unsigned reuse_factor = 1;
+    static const unsigned io_type = nnet::io_stream;
+    static const unsigned strategy = nnet::resource;
+    static const unsigned reuse_factor = 28;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 3584;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
@@ -329,7 +370,7 @@ struct config18 : nnet::dense_config {
     typedef dense1_weight_t weight_t;
     typedef layer18_index index_t;
     template<class data_T, class res_T, class CONFIG_T>
-    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
+    using kernel = nnet::DenseResource_rf_leq_nin<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
@@ -338,7 +379,7 @@ struct config18 : nnet::dense_config {
 struct relu_config20 : nnet::activ_config {
     static const unsigned n_in = 32;
     static const unsigned table_size = 1024;
-    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned io_type = nnet::io_stream;
     static const unsigned reuse_factor = 1;
     typedef act4_table_t table_t;
 };
@@ -347,9 +388,9 @@ struct relu_config20 : nnet::activ_config {
 struct config21 : nnet::dense_config {
     static const unsigned n_in = 32;
     static const unsigned n_out = 10;
-    static const unsigned io_type = nnet::io_parallel;
-    static const unsigned strategy = nnet::latency;
-    static const unsigned reuse_factor = 1;
+    static const unsigned io_type = nnet::io_stream;
+    static const unsigned strategy = nnet::resource;
+    static const unsigned reuse_factor = 4;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 320;
     static const unsigned multiplier_limit = DIV_ROUNDUP(n_in * n_out, reuse_factor) - n_zeros / reuse_factor;
@@ -359,7 +400,7 @@ struct config21 : nnet::dense_config {
     typedef output_weight_t weight_t;
     typedef layer21_index index_t;
     template<class data_T, class res_T, class CONFIG_T>
-    using kernel = nnet::DenseLatency<data_T, res_T, CONFIG_T>;
+    using kernel = nnet::DenseResource_rf_leq_nin<data_T, res_T, CONFIG_T>;
     template<class x_T, class y_T>
     using product = nnet::product::mult<x_T, y_T>;
 };
@@ -373,7 +414,7 @@ struct softmax_config23 : nnet::activ_config {
     static const unsigned parallelization_factor = -1;
     static const unsigned exp_table_size = 1024;
     static const unsigned inv_table_size = 1024;
-    static const unsigned io_type = nnet::io_parallel;
+    static const unsigned io_type = nnet::io_stream;
     static const unsigned reuse_factor = 1;
     static const unsigned axis = -1;
     static const nnet::softmax_implementation implementation = nnet::softmax_implementation::stable;

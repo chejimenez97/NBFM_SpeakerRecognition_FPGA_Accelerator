@@ -1,0 +1,169 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'myproject'" level="0">
+<item name = "Date">Sat Mar 21 19:24:08 2026
+</item>
+<item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xck26-sfvc784-2LV-c</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00 ns, 3.847 ns, 1.35 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">18762, 18762, 93.810 us, 93.810 us, 18748, 18748, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+<column name="zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0">zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s, 17501, 17501, 87.505 us, 87.505 us, 17501, 17501, no</column>
+<column name="conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_U0">conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s, 18747, 18747, 93.735 us, 93.735 us, 18747, 18747, no</column>
+<column name="normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_U0">normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s, 5644, 5644, 28.220 us, 28.220 us, 5644, 5644, no</column>
+<column name="relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s, 5643, 5643, 28.215 us, 28.215 us, 5643, 5643, no</column>
+<column name="pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_U0">pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s, 11283, 11283, 56.415 us, 56.415 us, 11283, 11283, no</column>
+<column name="zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s, 2257, 2257, 11.285 us, 11.285 us, 2257, 2257, no</column>
+<column name="conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0">conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_s, 3457, 11233, 17.285 us, 56.165 us, 3457, 11233, no</column>
+<column name="normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0">normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_s, 704, 704, 3.520 us, 3.520 us, 704, 704, no</column>
+<column name="relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_s, 703, 703, 3.515 us, 3.515 us, 703, 703, no</column>
+<column name="pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_s, 1403, 1403, 7.015 us, 7.015 us, 1403, 1403, no</column>
+<column name="zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_s, 125, 125, 0.625 us, 0.625 us, 125, 125, no</column>
+<column name="conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0">conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_s, 449, 1905, 2.245 us, 9.525 us, 449, 1905, no</column>
+<column name="normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0">normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_s, 74, 74, 0.370 us, 0.370 us, 74, 74, no</column>
+<column name="relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_s, 73, 73, 0.365 us, 0.365 us, 73, 73, no</column>
+<column name="pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_s, 144, 144, 0.720 us, 0.720 us, 144, 144, no</column>
+<column name="dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0">dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_s, 42, 43, 0.210 us, 0.215 us, 42, 43, no</column>
+<column name="relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0">relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
+<column name="dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0">dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_s, 7, 8, 35.000 ns, 40.000 ns, 7, 8, no</column>
+<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 1058, 1058, 5.290 us, 5.290 us, 1058, 1058, no</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 2, -</column>
+<column name="FIFO">412, -, 2658, 1110, -</column>
+<column name="Instance">177, 489, 48470, 86531, 0</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, -, -</column>
+<column name="Register">-, -, -, -, -</column>
+<specialColumn name="Available">288, 1248, 234240, 117120, 64</specialColumn>
+<specialColumn name="Utilization (%)">204, 39, 21, 74, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
+<column name="conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_U0">conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_30_17_5_3_0_8u_config2_s, 0, 0, 1360, 3859, 0</column>
+<column name="conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_U0">conv_2d_cl_array_ap_ufixed_8u_array_ap_fixed_24_17_5_3_0_16u_config7_s, 64, 160, 9862, 12007, 0</column>
+<column name="conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_U0">conv_2d_cl_array_array_ap_fixed_25_18_5_3_0_16u_config12_s, 64, 160, 12709, 15305, 0</column>
+<column name="dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_U0">dense_array_ap_ufixed_16u_array_ap_fixed_24_17_5_3_0_32u_config18_s, 29, 64, 5843, 8634, 0</column>
+<column name="dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_U0">dense_array_ap_ufixed_32u_array_ap_fixed_22_15_5_3_0_10u_config21_s, 18, 40, 2491, 3827, 0</column>
+<column name="normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_U0">normalize_array_ap_fixed_16u_array_ap_fixed_41_24_5_3_0_16u_config9_s, 0, 16, 962, 1415, 0</column>
+<column name="normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_U0">normalize_array_ap_fixed_16u_array_ap_fixed_42_25_5_3_0_16u_config14_s, 0, 16, 1003, 1597, 0</column>
+<column name="normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_U0">normalize_array_ap_fixed_8u_array_ap_fixed_47_24_5_3_0_8u_config4_s, 0, 16, 593, 697, 0</column>
+<column name="pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_U0">pooling2d_cl_array_ap_ufixed_8u_array_ap_ufixed_8_4_4_0_0_8u_config6_s, 0, 0, 1275, 3332, 0</column>
+<column name="pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_U0">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config11_s, 0, 0, 3032, 7509, 0</column>
+<column name="pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_U0">pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config16_s, 0, 0, 6231, 8625, 0</column>
+<column name="relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_U0">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config10_s, 0, 0, 240, 3287, 0</column>
+<column name="relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_U0">relu_array_ap_fixed_16u_array_ap_ufixed_8_4_4_0_0_16u_relu_config15_s, 0, 0, 205, 3329, 0</column>
+<column name="relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_U0">relu_array_ap_fixed_32u_array_ap_ufixed_8_4_4_0_0_32u_relu_config20_s, 0, 0, 388, 5108, 0</column>
+<column name="relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_U0">relu_array_ap_fixed_8u_array_ap_ufixed_8_4_4_0_0_8u_relu_config5_s, 0, 0, 131, 1797, 0</column>
+<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 2, 17, 1838, 4710, 0</column>
+<column name="zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0">zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s, 0, 0, 68, 515, 0</column>
+<column name="zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_U0">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_16u_config26_s, 0, 0, 180, 485, 0</column>
+<column name="zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_U0">zeropad2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config25_s, 0, 0, 59, 493, 0</column>
+</table>
+</item>
+<item name = "DSP"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="10">Memory, Module, BRAM_18K, FF, LUT, URAM, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="8">Name, BRAM_18K, FF, LUT, URAM, Depth, Bits, Size:D*B</keys>
+<column name="layer10_out_U">8, 165, 0, -, 700, 128, 89600</column>
+<column name="layer11_out_U">8, 156, 0, -, 70, 128, 8960</column>
+<column name="layer12_out_U">23, 156, 0, -, 70, 400, 28000</column>
+<column name="layer14_out_U">38, 156, 0, -, 70, 672, 47040</column>
+<column name="layer15_out_U">8, 156, 0, -, 70, 128, 8960</column>
+<column name="layer16_out_U">0, 99, 0, -, 7, 128, 896</column>
+<column name="layer18_out_U">0, 99, 0, -, 1, 768, 768</column>
+<column name="layer20_out_U">0, 99, 0, -, 1, 256, 256</column>
+<column name="layer21_out_U">0, 99, 0, -, 1, 220, 220</column>
+<column name="layer24_out_U">16, 163, 0, -, 6248, 32, 199936</column>
+<column name="layer25_out_U">4, 165, 0, -, 864, 64, 55296</column>
+<column name="layer26_out_U">8, 161, 0, -, 112, 128, 14336</column>
+<column name="layer2_out_U">82, 163, 0, -, 5640, 240, 1353600</column>
+<column name="layer4_out_U">130, 163, 0, -, 5640, 376, 2120640</column>
+<column name="layer5_out_U">24, 163, 0, -, 5640, 64, 360960</column>
+<column name="layer6_out_U">4, 165, 0, -, 700, 64, 44800</column>
+<column name="layer7_out_U">22, 165, 0, -, 700, 384, 268800</column>
+<column name="layer9_out_U">37, 165, 0, -, 700, 656, 459200</column>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="ap_idle">and, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="input_3_TDATA">in, 32, axis, input_3, pointer</column>
+<column name="input_3_TVALID">in, 1, axis, input_3, pointer</column>
+<column name="input_3_TREADY">out, 1, axis, input_3, pointer</column>
+<column name="layer23_out_TDATA">out, 160, axis, layer23_out, pointer</column>
+<column name="layer23_out_TVALID">out, 1, axis, layer23_out, pointer</column>
+<column name="layer23_out_TREADY">in, 1, axis, layer23_out, pointer</column>
+<column name="ap_clk">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_rst_n">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, myproject, return value</column>
+</table>
+</item>
+</section>
+</profile>

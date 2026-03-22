@@ -1,0 +1,154 @@
+Backend: Vitis
+ClockPeriod: 5
+ClockUncertainty: 27%
+HLSConfig:
+  LayerName:
+    act1:
+      Precision:
+        result: ufixed<16,6,RND_CONV,SAT,0>
+      Trace: false
+    act2:
+      Precision:
+        result: ufixed<16,6,RND_CONV,SAT,0>
+      Trace: false
+    act3:
+      Precision:
+        result: ufixed<16,6,RND_CONV,SAT,0>
+      Trace: false
+    act4:
+      Precision:
+        result: ufixed<16,6,RND_CONV,SAT,0>
+      Trace: false
+    bn1:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      Trace: false
+    bn2:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      Trace: false
+    bn3:
+      Precision:
+        bias: auto
+        result: auto
+        scale: auto
+      Trace: false
+    conv1:
+      Precision:
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      ReuseFactor: 1
+      Strategy: Resource
+      Trace: false
+    conv1_linear:
+      Precision:
+        result: auto
+      Trace: false
+    conv2:
+      Precision:
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      ReuseFactor: 4
+      Strategy: Resource
+      Trace: false
+    conv2_linear:
+      Precision:
+        result: auto
+      Trace: false
+    conv3:
+      Precision:
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      ReuseFactor: 8
+      Strategy: Resource
+      Trace: false
+    conv3_linear:
+      Precision:
+        result: auto
+      Trace: false
+    dense1:
+      Precision:
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      ReuseFactor: 32
+      Strategy: Resource
+      Trace: false
+    dense1_linear:
+      Precision:
+        result: auto
+      Trace: false
+    flatten:
+      Precision:
+        result: auto
+      Trace: false
+    input_2:
+      Precision:
+        result: auto
+      Trace: false
+    output:
+      Precision:
+        bias: fixed<16,7,TRN,WRAP,0>
+        result: auto
+        weight: fixed<16,7,TRN,WRAP,0>
+      ReuseFactor: 4
+      Strategy: Resource
+      Trace: false
+    output_linear:
+      Precision:
+        result: auto
+      Trace: false
+    pool1:
+      Precision:
+        result: auto
+      Trace: false
+    pool2:
+      Precision:
+        result: auto
+      Trace: false
+    pool3:
+      Precision:
+        result: auto
+      Trace: false
+    softmax:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Resource
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+InputShapes:
+  input_2:
+  - 20
+  - 282
+  - 2
+KerasModel: !keras_model './hls4ml_output_compact/qat_16bit/keras_model.keras'
+OutputDir: ./hls4ml_output_compact/qat_16bit
+OutputPredictions: null
+OutputShapes:
+  layer23_out:
+  - 10
+Part: xck26-sfvc784-2LV-c
+ProjectName: myproject
+Stamp: 76dbd52e
+Version: 1.0.0
+WriterConfig:
+  Namespace: null
+  TBOutputStream: both
+  WriteEmulationConstants: false
+  WriteTar: false
+  WriteWeightsTxt: true
