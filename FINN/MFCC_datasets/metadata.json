@@ -1,0 +1,38 @@
+{
+  "MFCC_input_shape": [
+    20,
+    64,
+    2
+  ],
+  "num_classes": 10,
+  "N_MFCC": 20,
+  "MFCC_FRAMES": 64,
+  "HOP_LENGTH": 2250,
+  "N_FFT": 2048,
+  "SAMPLING_FREQ": 48000,
+  "batch_size": 32,
+  "subfolders": [
+    "f0001",
+    "f0002",
+    "f0003",
+    "f0004",
+    "f0005",
+    "m0001",
+    "m0002",
+    "m0003",
+    "m0004",
+    "m0005"
+  ],
+  "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ]
+}

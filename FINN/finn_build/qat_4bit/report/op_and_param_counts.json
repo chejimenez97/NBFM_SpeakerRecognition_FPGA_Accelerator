@@ -1,0 +1,41 @@
+{
+  "FMPadding_rtl_0": {},
+  "ConvolutionInputGenerator_rtl_0": {},
+  "MVAU_hls_0": {
+    "op_mac_4bx8b": 184320,
+    "param_weight_4b": 144,
+    "param_threshold_14b": 8
+  },
+  "StreamingMaxPool_hls_0": {},
+  "FMPadding_rtl_1": {},
+  "ConvolutionInputGenerator_rtl_1": {},
+  "MVAU_hls_1": {
+    "op_mac_4bx8b": 184320,
+    "param_weight_4b": 576,
+    "param_threshold_16b": 8
+  },
+  "StreamingMaxPool_hls_1": {},
+  "FMPadding_rtl_2": {},
+  "ConvolutionInputGenerator_rtl_2": {},
+  "MVAU_hls_2": {
+    "op_mac_4bx8b": 23040,
+    "param_weight_4b": 576,
+    "param_threshold_16b": 8
+  },
+  "StreamingMaxPool_hls_2": {},
+  "MVAU_hls_3": {
+    "op_mac_4bx8b": 256,
+    "param_weight_4b": 256,
+    "param_threshold_14b": 16
+  },
+  "MVAU_rtl_0": {
+    "op_mac_4bx8b": 160,
+    "param_weight_4b": 160
+  },
+  "total": {
+    "op_mac_4bx8b": 392096.0,
+    "param_weight_4b": 1712.0,
+    "param_threshold_14b": 24.0,
+    "param_threshold_16b": 16.0
+  }
+}
