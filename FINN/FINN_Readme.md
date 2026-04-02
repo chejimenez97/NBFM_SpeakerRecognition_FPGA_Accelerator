@@ -57,6 +57,45 @@ Input  (20, 64, 2)
 | QAT-8 | INT8 | UINT8 | 1e-4 | 40 | Float weights | Yes |
 | QAT-4 | INT4 | UINT8 | 5e-4 | 100 | Float weights | Yes |
 
+### FINN Synthesis Results
+
+Post-implementation resource utilization (from Vivado `post_synth_resources` after place-and-route):
+
+| Resource | QAT-4 | QAT-8 | KV260 Available |
+|----------|-------|-------|-----------------|
+| LUT | 28,041 | 45,187 | 117,120 |
+| FF | 30,608 | 28,398 | 234,240 |
+| BRAM_36K | 6 | 3 | 144 |
+| DSP | 34 | 32 | 1,248 |
+| URAM | 0 | 1 | 64 |
+
+**Timing:** All constraints met at 200 MHz (5 ns period). WNS = 0.491 ns, WHS = 0.010 ns. Critical path is the MVAU_hls_1 DSP multiply-accumulate chain (4.283 ns data path through 7 logic levels of DSP48E2 primitives).
+
+**Estimated throughput:** 13,021 fps (analytical estimate from FINN's `estimate_network_performance`). This figure has **not** been verified by RTL simulation — see [RTL Simulation Was Silently Skipped](#rtl-simulation-was-silently-skipped).
+
+### I/O Specifications
+
+| Parameter | QAT-4 | QAT-8 |
+|-----------|-------|-------|
+| Input shape | [1, 20, 64, 2] INT8 | [1, 20, 64, 2] INT8 |
+| Input stream width | 16 bits | 16 bits |
+| Output shape | [1, 10] INT16 | [1, 10] INT24 |
+| Folded input shape | [1, 20, 64, 1, 2] | [1, 20, 64, 1, 2] |
+| Folded output shape | [1, 10, 1] | [1, 10, 1] |
+
+### IODMA Register Map
+
+Both `idma0` (input) and `odma0` (output) share the same register layout:
+
+| Offset | idma0 Register | odma0 Register |
+|--------|---------------|----------------|
+| 0x00 | CTRL (AP_START/DONE/IDLE) | CTRL (AP_START/DONE/IDLE) |
+| 0x10 | in0_V_1 (buffer addr low) | out_V_1 (buffer addr low) |
+| 0x14 | in0_V_2 (buffer addr high) | out_V_2 (buffer addr high) |
+| 0x1C | numReps (number of inferences) | numReps (number of inferences) |
+
+CTRL register bits: bit 0 = AP_START, bit 1 = AP_DONE, bit 2 = AP_IDLE, bit 3 = AP_READY.
+
 ---
 
 ## Environment Setup
@@ -100,9 +139,6 @@ docker run hello-world
 
 ```bash
 git clone https://github.com/Xilinx/finn.git
-cd finn
-git checkout v0.10   # or the version you want
-git submodule update --init --recursive
 ```
 
 ### 4. Set Xilinx Environment Variables
@@ -172,66 +208,7 @@ tensorflow-cpu
 
 ## Normal Workflow
 
-### Option A: Run via VS Code (Recommended)
-
-#### 1. Launch the FINN Docker container
-
-Open a terminal and run:
-
-```bash
-cd ~/finn
-bash run-docker.sh bash
-```
-
-Leave this terminal open. The container is named `finn_dev_<username>`.
-
-#### 2. Install dependencies
-
-Open a **second terminal** and run:
-
-```bash
-cd ~/finn/SR_PROJECT
-bash setup_env.sh
-```
-
-This installs FINN, Brevitas, QONNX, project requirements, compiles the libudev stub, and sources Vitis HLS. **Run this after every container start** (the `--rm` flag destroys the container on stop).
-
-#### 3. Attach VS Code
-
-1. Open VS Code
-2. Install the **Dev Containers** extension (if not already installed)
-3. Press `Ctrl+Shift+P` → **Dev Containers: Attach to Running Container**
-4. Select `finn_dev_<username>`
-5. Open the folder `/home/<username>/finn/SR_PROJECT`
-6. Select the **Python 3** kernel (system default — do NOT create a virtual environment)
-
-#### 4. Run the notebook
-
-Open `FINN_Speaker_Recognition_Synthesis.ipynb` and run all cells. The pipeline:
-
-1. Loads MFCC splits from `MFCC_datasets/` (20×64×2, no padding needed)
-2. Trains Float baseline (Adam LR=1e-3, ReduceLR, EarlyStopping)
-3. Fine-tunes QAT-8 and QAT-4 from float weights
-4. Exports QONNX models
-5. Sources Vitis HLS and applies Vivado crash fixes
-6. Runs FINN synthesis for 4-bit then 8-bit (~2-4 hours each)
-7. Displays resource estimates and post-implementation utilization
-
-#### 5. Retrieve outputs
-
-After successful synthesis, outputs are in:
-
-```
-finn_build/
-  qat_4bit/
-    report/        ← Resource estimates (JSON)
-    bitfile/       ← finn-accel.bit + finn-accel.hwh
-    deploy/        ← Deployment package for PYNQ
-  qat_8bit/
-    ...
-```
-
-### Option B: Run via Jupyter Notebook Server
+### Run via Jupyter Notebook Server
 
 #### 1. Launch FINN with Jupyter
 
@@ -279,11 +256,225 @@ Total: approximately **1-3 hours per model**.
 
 ## Deploying on the KV260
 
-1. Copy the `deploy/` folder to the KV260 via `scp` or `rsync`
-2. On the KV260, source the PYNQ environment
-3. Load the accelerator with the generated Python driver
-4. Feed MFCC features (shape `1×2×20×64`) to the accelerator input
-5. Read the classification output (speaker class index)
+### Prerequisites
+
+- **Kria KV260** with Ubuntu 22.04 and PYNQ 3.0.1 installed
+- **CMA memory:** At least 256 MB (1 GB recommended). Verify with:
+  ```bash
+  # On the Kria
+  cat /proc/meminfo | grep CmaTotal
+  # Should show: CmaTotal: 1048576 kB (or similar)
+  ```
+  If CMA is too small, add `cma=1024M` to the kernel boot args in `/etc/default/flash-kernel`.
+
+### 1. Transfer bitstream files to the Kria
+
+```bash
+# From the host machine
+scp finn_build/qat_4bit/bitfile/finn-accel.bit ubuntu@<kria_ip>:~/finn-accel.bit
+scp finn_build/qat_4bit/bitfile/finn-accel.hwh ubuntu@<kria_ip>:~/finn-accel.hwh
+```
+
+### 2. Load the overlay
+
+```python
+from pynq import Overlay, allocate
+import numpy as np
+
+ol = Overlay("finn-accel.bit")
+print(ol.ip_dict.keys())
+# Expected: dict_keys(['idma0', 'odma0'])
+```
+
+### 3. Prepare input data
+
+The accelerator expects input packed as INT8 values on a 16-bit AXI-Stream. FINN uses a specific bit-packing format:
+
+```python
+from finn.util.data_packing import finnpy_to_packed_bytearray
+
+# input_data shape: (1, 20, 64, 2) as INT8 numpy array
+# For QAT-4: output is INT16, for QAT-8: output is INT24
+input_packed = finnpy_to_packed_bytearray(
+    input_data,
+    idt="INT8",        # input data type
+    reverse_inner=True, # FINN's default packing order
+    reverse_endian=True
+)
+```
+
+### 4. Run inference via MMIO
+
+```python
+import time
+
+# Allocate CMA buffers
+input_buf = allocate(shape=(len(input_packed),), dtype=np.uint8)
+output_buf = allocate(shape=(20,), dtype=np.uint8)  # 10 values × 2 bytes for INT16
+
+# Copy input data
+input_buf[:] = input_packed
+
+# Get IODMA register interfaces
+idma = ol.idma0
+odma = ol.odma0
+
+# Flush caches
+input_buf.flush()
+output_buf.flush()
+
+# Configure IODMAs
+idma.write(0x10, input_buf.device_address & 0xFFFFFFFF)   # addr low
+idma.write(0x14, (input_buf.device_address >> 32) & 0xFFFFFFFF)  # addr high
+idma.write(0x1C, 1)  # numReps = 1
+
+odma.write(0x10, output_buf.device_address & 0xFFFFFFFF)
+odma.write(0x14, (output_buf.device_address >> 32) & 0xFFFFFFFF)
+odma.write(0x1C, 1)
+
+# Start both DMAs (AP_START = bit 0)
+odma.write(0x00, 1)
+idma.write(0x00, 1)
+
+# Poll for completion
+timeout = time.time() + 5.0
+while time.time() < timeout:
+    odma_status = odma.read(0x00)
+    if odma_status & 0x02:  # AP_DONE bit
+        break
+    time.sleep(0.001)
+
+# Invalidate cache and read output
+output_buf.invalidate()
+result = np.frombuffer(output_buf, dtype=np.int16)[:10]
+predicted_class = np.argmax(result)
+```
+
+---
+
+## Kria Deployment — Known Issues and Root Cause Analysis
+
+> **Status: Accelerator does NOT produce output on hardware.** The odma never completes. This section documents the exhaustive debugging performed and the identified root cause.
+
+### Symptom
+
+After loading the bitstream on the KV260 and starting both IODMAs:
+
+- **idma completes successfully** in approximately 500 µs (CTRL register transitions from 0x04 → 0x0E → 0x04, indicating AP_IDLE → AP_START+AP_DONE+AP_IDLE → AP_IDLE)
+- **odma never completes** — CTRL stays at 0x01 (AP_START set, AP_DONE never asserted) indefinitely
+- Output buffer remains all zeros
+- Both QAT-4 and QAT-8 bitstreams exhibit identical behavior
+
+Microsecond-resolution polling shows the exact transition:
+
+```
+t=0.0us      idma=0x04 odma=0x04   (both idle)
+t=0.1us      idma=0x01 odma=0x01   (both started)
+t=498.4us    idma=0x0E odma=0x01   (idma finishing)
+t=520.6us    idma=0x04 odma=0x01   (idma done, odma still waiting)
+t=1000000us  idma=0x04 odma=0x01   (odma never completes)
+```
+
+### What this means
+
+The idma successfully reads input data from DDR via AXI-MM (HP0 port), converts it to AXI-Stream, and pushes it into the accelerator's `s_axis_0` input. The accelerator fabric (StreamingDataflowPartition_1 — the actual CNN pipeline) receives the data but **never produces output** on its output AXI-Stream port. Because odma is waiting for data on the output stream that never arrives, it stays in the started state forever.
+
+### Debugging attempts (all unsuccessful)
+
+The following approaches were tried systematically. Every single one produced the same result — idma completes, odma hangs:
+
+1. **Register writes verified correct** — All IODMA registers (CTRL, address low/high, numReps) confirmed via readback
+2. **CMA memory verified** — Buffer at address 0x780C6000, data readback matches what was written, 1 GB CMA confirmed available
+3. **Cache flush/invalidate applied** — Both `input_buf.flush()` and `output_buf.invalidate()` called at correct times
+4. **Clock verified** — 200 MHz confirmed via HWH parsing and `/sys/class/clk/` on the Kria
+5. **Multiple data packing formats tested:**
+   - Standard NCHW layout
+   - Reversed channel order
+   - Byte-swapped (big/little endian)
+   - FINN bit-reversed packing
+   - FINN `rev_inner` packing
+   - Raw flat byte array
+   - FINN's own `finnpy_to_packed_bytearray` with both `no_reverse` and `rev_inner` flags
+6. **Both QAT-4 and QAT-8 bitstreams tested** — identical failure on both
+7. **Bitstreams regenerated** with `make_zynq_proj.py` v3 patch (with open_run retry logic) — same result
+8. **Complete clean rebuild** from scratch (all 16 steps from QONNX export) — same result
+9. **Block design wiring verified** from HWH file — all AXI-Stream, AXI-MM, clock, and reset connections confirmed correct:
+   - `idma0.m_axis_0` → `Partition_1.s_axis_0` → `odma0.s_axis_0`
+   - PS HPM0 → `axi_interconnect` → idma0/odma0 control registers
+   - idma0/odma0 `gmem` → `smartconnect` → PS HP0 (DDR access)
+   - All IPs clocked by `zynq_ps_pl_clk0` (200 MHz)
+   - Reset chain: `zynq_ps.pl_resetn0` → `rst_zynq_ps_199M` → `peripheral_aresetn` → all IPs
+10. **Both `register_map` and raw MMIO** register access methods tried
+11. **numReps=2 with double input data** — idma processes both repetitions, odma still never completes
+12. **Minimal 2-byte transfer** attempted — idma completes at 0x0E, odma stuck at 0x01
+13. **FINN's own packing functions** (`finnpy_to_packed_bytearray`) used with exact parameters from the ONNX model — same failure
+14. **Microsecond-scale polling** confirmed idma completes in ~500 µs; odma never changes state even after minutes
+15. **finn-examples repository cloned** on KV260 for reference driver comparison
+
+### RTL simulation was silently skipped
+
+This is the **critical finding**. The FINN build log proves that `step_measure_rtlsim_performance` (step 15 of 16) produced exactly ONE log line and then immediately proceeded to `step_synthesize_bitfile` (step 16):
+
+```
+[2026-04-02 04:22:37,809] Running step: step_measure_rtlsim_performance [15/16]
+[2026-04-02 04:22:37,811] Running step: step_synthesize_bitfile [16/16]
+```
+
+Key evidence:
+
+- **No `rtlsim_performance.json`** exists in the report directory — the simulation produced no output whatsoever
+- **Zero time elapsed** between steps 15 and 16 (2 ms — the step did literally nothing)
+- **No errors or warnings** were logged — FINN silently skipped the step without any indication of failure
+- **Verilator IS installed** (`/usr/local/bin/verilator` v4.224) and a `pyverilator_vh/` wrapper directory exists in `stitched_ip/`
+- However, the ONNX model's `wrapper_filename` attribute points to a `/tmp/` path from a **previous container session** that no longer exists
+- **"Using pre-existing code/IP"** warnings appear throughout the build log — FINN reused cached HLS artifacts rather than regenerating them fresh
+- The `exec_mode` attribute in the rtlsim ONNX model is correctly set to `rtlsim`, confirming the step was configured to run — it just couldn't find its wrapper files
+
+The 13,021 fps throughput figure reported in `estimate_network_performance.json` is from step 10 (analytical estimate based on folding parameters), **NOT** from actual RTL simulation. The accelerator design has **never been functionally verified** — not even in simulation.
+
+### Root cause analysis
+
+The evidence points to a **FINN compilation pipeline bug** rather than a platform or driver issue:
+
+1. **The accelerator fabric itself is broken.** Since idma completes (meaning it successfully writes all input data into the AXI-Stream) but the CNN pipeline never produces output on its output stream, the dataflow pipeline is stuck internally. If this were a driver/packing issue, the accelerator would still produce *some* output (even if wrong) — it wouldn't hang indefinitely.
+
+2. **Timing is not the cause.** All timing constraints are met with positive slack (WNS = 0.491 ns). The design is structurally sound from Vivado's perspective — timing closure means there are no setup/hold violations at 200 MHz. The only LUTAR-1 warnings are benign (LUT drives async reset on AXI interconnect FIFOs, not on the accelerator logic).
+
+3. **Block design wiring is correct.** HWH parsing confirms all AXI-Stream, AXI-MM, clock, and reset connections are properly made. The idma's successful completion proves the PS↔PL memory interface works.
+
+4. **The rtlsim skip is the smoking gun.** FINN's rtlsim step is the only verification that the entire stitched accelerator actually processes data end-to-end. Without it, the bitstream was generated from HLS/RTL that *compiles and meets timing* but may contain functional bugs — for example, an HLS node that deadlocks waiting for a handshake that never comes, or a FIFO depth that's too shallow causing backpressure deadlock, or an incorrect data width conversion that drops TLAST.
+
+5. **Stale cached IP is suspicious.** The "Using pre-existing code/IP" warnings throughout the build suggest FINN reused HLS artifacts from a previous build that may have been for a different configuration. If any cached IP has mismatched parameters (stream width, FIFO depth, folding factors), the stitched design could deadlock even though each individual IP passed its own HLS C-simulation.
+
+### Possible specific failure modes
+
+- **FIFO depth deadlock:** FINN's `step_set_fifo_depths` uses rtlsim to determine safe FIFO sizes. Since rtlsim was skipped, the FIFO depths are based on analytical estimates which can be wrong. Several FIFOs were rounded up significantly (e.g., 1452→2048, 3781→4096), but if even one FIFO is too shallow, AXI-Stream backpressure can cause a circular dependency where node A waits for node B to consume, but node B is full waiting for node C, which is waiting for node A.
+- **Data width converter mismatch:** The design has 8 `StreamingDataWidthConverter` nodes. If any has a misconfigured input/output width ratio (from stale cached IP), it could consume data without producing correctly-framed output.
+- **TLAST signal issue:** AXI-Stream TLAST marks the end of a frame. If the last node in the pipeline never asserts TLAST (or asserts it at the wrong time), the odma will wait forever for a complete frame that never arrives.
+- **HLS control handshake deadlock:** The `MVAU_hls` nodes use `ap_ctrl_chain` handshaking. If one node's `ap_continue` signal is incorrectly tied, it will process one batch and then stall.
+
+### Recommended fix procedure
+
+1. **Delete ALL cached code/IP and intermediate models**, then rebuild from scratch in a fresh container session:
+   ```bash
+   cd ~/finn/SR_PROJECT
+   rm -rf finn_build/qat_4bit/intermediate_models/*
+   # Also delete the /tmp/ code generation directories
+   find /tmp/finn_dev_$(whoami)/ -name "*.v" -o -name "*.vhd" -o -name "ip_*.zip" | head -20
+   # If found, remove them to force regeneration
+   ```
+
+2. **Ensure rtlsim actually runs** by monitoring the build log during step 15. It should take 5-15 minutes and produce `rtlsim_performance.json` with throughput/latency numbers. If it completes in <1 second, the wrapper path is still stale.
+
+3. **If rtlsim hangs or produces wrong output**, the FINN-generated HLS has a functional bug. Debug individual nodes by running rtlsim on each ONNX intermediate model:
+   ```python
+   from finn.core.onnx_exec import execute_onnx
+   # Load each step's model and check output shape/values
+   ```
+
+4. **If rtlsim passes**, the design works in simulation and the issue is platform-specific. In that case, test a known-working FINN example (e.g., CIFAR-10 CNV) on the KV260 to verify the platform itself works.
+
+5. **If all else fails**, try lowering the clock to 100 MHz in the build config to rule out any marginal timing behavior not caught by static analysis.
 
 ---
 
