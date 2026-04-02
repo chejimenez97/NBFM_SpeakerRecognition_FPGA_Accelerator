@@ -6,210 +6,211 @@
 +---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
 | Phase         | Step                        | Instructions | Description                                                                            |
 +---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
-| Compile/Link  |                             |  21,149      | After all functions are compiled and linked into a single design                       |
+| Compile/Link  |                             |  21,845      | After all functions are compiled and linked into a single design                       |
 |               |                             |              |                                                                                        |
 | Unroll/Inline |                             |              | After user unroll and inline pragmas are applied                                       |
-|               | (1) unroll                  | 126,829 *    | user unroll pragmas are applied                                                        |
-|               | (2) simplification          |  41,799      | simplification of applied user unroll pragmas                                          |
-|               | (3) inline                  |  41,064      | user inline pragmas are applied                                                        |
-|               | (4) simplification          |  38,966      | simplification of applied user inline pragmas                                          |
+|               | (1) unroll                  | 127,007 *    | user unroll pragmas are applied                                                        |
+|               | (2) simplification          |  41,937      | simplification of applied user unroll pragmas                                          |
+|               | (3) inline                  |  41,201      | user inline pragmas are applied                                                        |
+|               | (4) simplification          |  39,103      | simplification of applied user inline pragmas                                          |
 |               |                             |              |                                                                                        |
 | Array/Struct  |                             |              | After user array partition and struct aggregate/disaggregate pragmas are applied       |
-|               | (1) array partition         |  27,500      | user array partition pragmas are applied                                               |
-|               | (2) simplification          |  23,506      | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
-|               | (3) aggregate/disaggregate  |  23,596      | user struct aggregate/disaggregate pragmas are applied                                 |
-|               | (4) array reshape           |  26,226      | apply array reshape pragmas                                                            |
-|               | (5) access patterns         |  26,193      | array access pattern optmizations                                                      |
+|               | (1) array partition         |  27,637      | user array partition pragmas are applied                                               |
+|               | (2) simplification          |  23,643      | simplification of applied user array partition & struct aggregate/disaggregate pragmas |
+|               | (3) aggregate/disaggregate  |  23,736      | user struct aggregate/disaggregate pragmas are applied                                 |
+|               | (4) array reshape           |  26,492      | apply array reshape pragmas                                                            |
+|               | (5) access patterns         |  26,490      | array access pattern optmizations                                                      |
 |               |                             |              |                                                                                        |
 | Performance   |                             |              | After transformations are applied to meet performance pragma targets                   |
-|               | (1) loop simplification     |  26,097      | loop and instruction simplification                                                    |
-|               | (2) parallelization         |  31,031      | loops are unrolled or pipelined to meet performance targets                            |
-|               | (3) array partition         |  30,747      | arrays are partitioned to meet performance targets                                     |
-|               | (4) simplification          |  30,715      | simplification of design after performance transformations                             |
+|               | (1) loop simplification     |  26,396      | loop and instruction simplification                                                    |
+|               | (2) parallelization         |  30,383      | loops are unrolled or pipelined to meet performance targets                            |
+|               | (3) array partition         |  30,072      | arrays are partitioned to meet performance targets                                     |
+|               | (4) simplification          |  30,040      | simplification of design after performance transformations                             |
 |               |                             |              |                                                                                        |
 | HW Transforms |                             |              | After hardware transfomations                                                          |
-|               | (1) lowering                |  28,657      | initial conversion to HW specific instructions                                         |
-|               | (2) optimizations           |  28,977      | high level synthesis optimizations                                                     |
+|               | (1) lowering                |  28,379      | initial conversion to HW specific instructions                                         |
+|               | (2) optimizations           |  28,802      | high level synthesis optimizations                                                     |
 +---------------+-----------------------------+--------------+----------------------------------------------------------------------------------------+
     * - Exceeded design size warning message threshold
 
 * Instructions per Function for each Compilation Phase
-+-------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
-| Function                                  | Location                     | Compile/Link    | Unroll/Inline   | Array/Struct    | Performance     | HW Transforms   |
-+-------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
-| + myproject                               | myproject.cpp:7              | 21,149          | 38,966          | 26,193          | 30,715          | 28,977          |
-|  + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     |   454           |    29           |    59           | 1,124           |   811           |
-|   + fill_zero<nnet::array<ap_fix...       | nnet_padding_stream.h:8      |   332 (4 calls) |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|   + fill_data<nnet::array<ap_fix...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|  + conv_2d_cl<nnet::array<ap_fi...        | nnet_conv2d_stream.h:67      |   965           | 2,685           | 1,718           | 1,690           | 1,706           |
-|   + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
-|    + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
-|     + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|        operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|        kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|     + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
-|      + dense_latency<ap_fixed<16, 6...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
-|         product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
-|         cast<ap_fixed<16, 6, AP_TRN,...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|   + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 2,657           | 1,676           | 1,652           | 1,670           |
-|      shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |    51           |    75           |    51           |    64           |
-|      dense_latency<ap_fixed<16, 6...      | nnet_dense_latency.h:13      |                 | 2,505           | 1,471           | 1,471           | 1,472           |
-|  + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
-|     operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|     product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
-|  + relu<nnet::array<ap_fixed<55...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
-|     operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|  + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     |   584           |   544           |   500           |   460           |   443           |
-|   + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   525           |                 |                 |                 |                 |
-|    + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|       kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|    + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |    92           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |    89           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |    60 (2 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|     shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |    99           |   169           |   129           |   130           |
-|  + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     | 1,462           |    29           |   192           | 3,565           | 2,339           |
-|   + fill_zero<nnet::array<ap_ufi...       | nnet_padding_stream.h:8      | 1,340 (4 calls) |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|   + fill_data<nnet::array<ap_ufi...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|  + conv_2d_cl<nnet::array<ap_uf...        | nnet_conv2d_stream.h:67      |   965           | 10,720          | 6,407           | 6,337           | 6,383           |
-|   + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
-|    + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
-|     + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|        operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|        kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|     + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
-|      + dense_latency<ap_ufixed<16, ...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
-|         product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
-|         cast<ap_ufixed<16, 6, AP_RND...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|   + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 10,674          | 6,299           | 6,219           | 6,273           |
-|      shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |   195           |   297           |   217           |   266           |
-|      dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |                 | 10,402          | 5,872           | 5,872           | 5,873           |
-|  + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
-|     operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|     product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
-|  + relu<nnet::array<ap_fixed<57...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
-|     operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|  + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     |   702           |   992           |   660           |   620           |   603           |
-|   + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   643           |                 |                 |                 |                 |
-|    + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|       kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|    + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |   210           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   207           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |   178 (2 calls) |                 |                 |                 |                 |
-|       + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   120 (4 calls) |                 |                 |                 |                 |
-|          operator()                       | nnet_common.h:66             |    80 (4 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|     shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |   163           |   233           |   193           |   194           |
-|  + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     | 1,462           |    29           |   192           |   949           |   635           |
-|   + fill_zero<nnet::array<ap_ufi...       | nnet_padding_stream.h:8      | 1,340 (4 calls) |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|   + fill_data<nnet::array<ap_ufi...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|  + conv_2d_cl<nnet::array<ap_uf...        | nnet_conv2d_stream.h:67      |   965           | 10,687          | 6,349           | 6,279           | 6,325           |
-|   + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
-|    + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
-|     + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|        operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|        kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|     + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
-|      + dense_latency<ap_ufixed<16, ...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
-|         product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
-|         cast<ap_ufixed<16, 6, AP_RND...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|   + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 10,641          | 6,241           | 6,161           | 6,215           |
-|      shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |   195           |   297           |   217           |   266           |
-|      dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |                 | 10,369          | 5,814           | 5,814           | 5,815           |
-|  + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
-|     operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|     product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
-|  + relu<nnet::array<ap_fixed<57...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
-|     operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|  + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     | 1,056           | 2,387           | 1,308           | 1,148           | 1,275           |
-|   + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   997           |                 |                 |                 |                 |
-|    + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
-|       operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
-|       kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
-|    + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |   564           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   561           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |   443           |                 |                 |                 |                 |
-|       + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   414 (2 calls) |                 |                 |                 |                 |
-|        + reduce<ap_fixed<16, 6, AP_TR...  | nnet_common.h:37             |   356 (4 calls) |                 |                 |                 |                 |
-|         + reduce<ap_fixed<16, 6, AP_TR... | nnet_common.h:37             |   240 (8 calls) |                 |                 |                 |                 |
-|            operator()                     | nnet_common.h:66             |   160 (8 calls) |                 |                 |                 |                 |
-|           operator()                      | nnet_common.h:66             |    80 (4 calls) |                 |                 |                 |                 |
-|          operator()                       | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:66             |    20           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |    89           |                 |                 |                 |                 |
-|       + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |    60 (2 calls) |                 |                 |                 |                 |
-|          operator()                       | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:66             |    20           |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
-|     shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |   403           |   569           |   409           |   554           |
-|  + dense<nnet::array<ap_ufixed<...        | nnet_dense_stream.h:82       |   812           | 4,634           | 2,930           | 2,845           | 2,851           |
-|   + data_prepare<nnet::array<ap_...       | nnet_dense_stream.h:28       |    75           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|   + dense_latency_wrapper<ap_ufi...       | nnet_dense_stream.h:13       |   646           | 4,530           | 2,602           | 2,584           | 2,585           |
-|    + dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |   644           | 4,528           | 2,600           |                 |                 |
-|       product                             | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
-|       cast<ap_ufixed<16, 6, AP_RND...     | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
-|   + res_write<nnet::array<ap_fix...       | nnet_dense_stream.h:53       |    71           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|  + relu<nnet::array<ap_fixed<37...        | nnet_activation_stream.h:39  |   842           |   885           | 1,029           | 1,029           | 1,006           |
-|     operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
-|  + dense<nnet::array<ap_ufixed<...        | nnet_dense_stream.h:82       |   812           | 2,900           | 1,895           | 1,845           | 1,833           |
-|   + data_prepare<nnet::array<ap_...       | nnet_dense_stream.h:28       |    75           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|   + dense_latency_wrapper<ap_ufi...       | nnet_dense_stream.h:13       |   646           | 2,812           | 1,645           | 1,627           | 1,628           |
-|    + dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |   644           | 2,810           | 1,643           |                 |                 |
-|       product                             | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
-|       cast<ap_ufixed<16, 6, AP_RND...     | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
-|   + res_write<nnet::array<ap_fix...       | nnet_dense_stream.h:53       |    71           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|  + softmax<nnet::array<ap_fixed...        | nnet_activation_stream.h:351 | 6,077           |   749           |   739           |   609           |   631           |
-|   + softmax_stable<nnet::array<a...       | nnet_activation_stream.h:169 | 6,074           |   747           |   737           |   607           |   629           |
-|    + init_exp_table<ap_ufixed<36,...      | nnet_activation.h:149        | 1,122           |   225           |   225           |   225           |   229           |
-|       softmax_real_val_from_idx<ap...     | nnet_activation.h:133        |   369           |                 |                 |                 |                 |
-|       exp_fcn_float                       | nnet_activation.h:131        |     4           |                 |                 |                 |                 |
-|    + init_invert_table<ap_fixed<1...      | nnet_activation.h:165        | 1,410           |                 |                 |                 |                 |
-|       softmax_real_val_from_idx<ap...     | nnet_activation.h:133        |   666           |                 |                 |                 |                 |
-|      operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
-|    + reduce<ap_fixed<37, 18, AP_T...      | nnet_common.h:37             |   248           |   165           |    30           |    20           |    20           |
-|     + reduce<ap_fixed<37, 18, AP_T...     | nnet_common.h:37             |   193           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<37, 18, AP_T...    | nnet_common.h:37             |   166 (2 calls) |                 |                 |                 |                 |
-|       + reduce<ap_fixed<37, 18, AP_T...   | nnet_common.h:37             |   112 (4 calls) |                 |                 |                 |                 |
-|          operator()                       | nnet_common.h:66             |    72 (4 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:66             |    36 (2 calls) |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:66             |    18           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<37, 18, AP_T...     | nnet_common.h:37             |    28           |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:66             |    18           |                 |                 |                 |                 |
-|       operator()                          | nnet_common.h:66             |    18           |                 |                 |                 |                 |
-|      softmax_idx_from_real_val<ap...      | nnet_activation.h:141        |    98           |                 |                 |                 |                 |
-|    + reduce<ap_fixed<16, 6, AP_TR...      | nnet_common.h:37             | 2,075           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             | 1,614           |                 |                 |                 |                 |
-|      + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             | 1,384 (2 calls) |                 |                 |                 |                 |
-|       + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   924 (4 calls) |                 |                 |                 |                 |
-|          operator()                       | nnet_common.h:51             |   884 (4 calls) |                 |                 |                 |                 |
-|         operator()                        | nnet_common.h:51             |   442 (2 calls) |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:51             |   221           |                 |                 |                 |                 |
-|     + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   231           |                 |                 |                 |                 |
-|        operator()                         | nnet_common.h:51             |   221           |                 |                 |                 |                 |
-|       operator()                          | nnet_common.h:51             |   221           |                 |                 |                 |                 |
-|      softmax_idx_from_real_val<ap...      | nnet_activation.h:141        |    98           |                 |                 |                 |                 |
-|      reduce<ap_fixed<16, 6, AP_TR...      | nnet_common.h:37             |                 |    60 (2 calls) |    76 (2 calls) |    56 (2 calls) |    56 (2 calls) |
-+-------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
++--------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
+| Function                                   | Location                     | Compile/Link    | Unroll/Inline   | Array/Struct    | Performance     | HW Transforms   |
++--------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
+| + myproject_axi                            | myproject_axi.cpp:12         | 21,845          | 39,103          | 26,490          | 30,040          | 28,802          |
+|  + myproject                               | myproject.cpp:7              | 21,145          | 38,958          | 26,161          | 29,738          | 28,624          |
+|   + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     |   454           |    29           |    43           |   163           |   427           |
+|    + fill_zero<nnet::array<ap_fix...       | nnet_padding_stream.h:8      |   332 (4 calls) |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|    + fill_data<nnet::array<ap_fix...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|   + conv_2d_cl<nnet::array<ap_fi...        | nnet_conv2d_stream.h:67      |   965           | 2,685           | 1,718           | 1,690           | 1,706           |
+|    + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
+|     + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
+|      + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|         operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|         kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|      + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
+|       + dense_latency<ap_fixed<16, 6...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
+|          product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
+|          cast<ap_fixed<16, 6, AP_TRN,...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|    + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 2,657           | 1,676           | 1,652           | 1,670           |
+|       shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |    51           |    75           |    51           |    64           |
+|       dense_latency<ap_fixed<16, 6...      | nnet_dense_latency.h:13      |                 | 2,505           | 1,471           | 1,471           | 1,472           |
+|   + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
+|      operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|      product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
+|   + relu<nnet::array<ap_fixed<55...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
+|      operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|   + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     |   584           |   544           |   500           |   460           |   443           |
+|    + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   525           |                 |                 |                 |                 |
+|     + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|        kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|     + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |    92           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |    89           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |    60 (2 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|      shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |    99           |   169           |   129           |   130           |
+|   + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     | 1,462           |    29           |   192           | 3,565           | 2,339           |
+|    + fill_zero<nnet::array<ap_ufi...       | nnet_padding_stream.h:8      | 1,340 (4 calls) |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|    + fill_data<nnet::array<ap_ufi...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|   + conv_2d_cl<nnet::array<ap_uf...        | nnet_conv2d_stream.h:67      |   965           | 10,720          | 6,407           | 6,337           | 6,383           |
+|    + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
+|     + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
+|      + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|         operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|         kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|      + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
+|       + dense_latency<ap_ufixed<16, ...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
+|          product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
+|          cast<ap_ufixed<16, 6, AP_RND...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|    + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 10,674          | 6,299           | 6,219           | 6,273           |
+|       shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |   195           |   297           |   217           |   266           |
+|       dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |                 | 10,402          | 5,872           | 5,872           | 5,873           |
+|   + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
+|      operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|      product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
+|   + relu<nnet::array<ap_fixed<57...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
+|      operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|   + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     |   702           |   992           |   660           |   620           |   603           |
+|    + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   643           |                 |                 |                 |                 |
+|     + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|        kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|     + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |   210           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   207           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |   178 (2 calls) |                 |                 |                 |                 |
+|        + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   120 (4 calls) |                 |                 |                 |                 |
+|           operator()                       | nnet_common.h:66             |    80 (4 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|      shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |   163           |   233           |   193           |   194           |
+|   + zeropad2d_cl<nnet::array<ap_...        | nnet_padding_stream.h:48     | 1,462           |    29           |   192           |   949           |   635           |
+|    + fill_zero<nnet::array<ap_ufi...       | nnet_padding_stream.h:8      | 1,340 (4 calls) |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|    + fill_data<nnet::array<ap_ufi...       | nnet_padding_stream.h:18     |    44           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|   + conv_2d_cl<nnet::array<ap_uf...        | nnet_conv2d_stream.h:67      |   965           | 10,687          | 6,349           | 6,279           | 6,325           |
+|    + conv_2d_buffer_latency_cl<nn...       | nnet_conv2d_stream.h:14      |   962           |                 |                 |                 |                 |
+|     + compute_output_buffer_2d<nne...      | nnet_conv_stream.h:251       |   905           |                 |                 |                 |                 |
+|      + shift_line_buffer<nnet::arra...     | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|         operator[]                         | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|         kernel_shift_2d<nnet::array<...    | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|      + dense                               | nnet_dense.h:50              |   646           |                 |                 |                 |                 |
+|       + dense_latency<ap_ufixed<16, ...    | nnet_dense_latency.h:13      |   644           |                 |                 |                 |                 |
+|          product                           | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
+|          cast<ap_ufixed<16, 6, AP_RND...   | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|    + compute_output_buffer_2d<nne...       | nnet_conv_stream.h:251       |                 | 10,641          | 6,241           | 6,161           | 6,215           |
+|       shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |                 |   195           |   297           |   217           |   266           |
+|       dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |                 | 10,369          | 5,814           | 5,814           | 5,815           |
+|   + normalize<nnet::array<ap_fix...        | nnet_batchnorm_stream.h:16   |   407           |    59           |   163           |   163           |   168           |
+|      operator[]                            | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|      product                               | nnet_mult.h:70               |   149           |                 |                 |                 |                 |
+|   + relu<nnet::array<ap_fixed<57...        | nnet_activation_stream.h:39  |   842           |   450           |   522           |   522           |   511           |
+|      operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|   + pooling2d_cl<nnet::array<ap_...        | nnet_pooling_stream.h:96     | 1,056           | 2,387           | 1,308           | 1,148           | 1,275           |
+|    + compute_pool_buffer_2d<nnet:...       | nnet_pooling_stream.h:30     |   997           |                 |                 |                 |                 |
+|     + shift_line_buffer<nnet::arra...      | nnet_conv_stream.h:215       |   157           |                 |                 |                 |                 |
+|        operator[]                          | nnet_types.h:19              |     3           |                 |                 |                 |                 |
+|        kernel_shift_2d<nnet::array<...     | nnet_conv_stream.h:181       |    75           |                 |                 |                 |                 |
+|     + reduce_pool<ap_fixed<16, 6, ...      | nnet_pooling_stream.h:17     |   564           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   561           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |   443           |                 |                 |                 |                 |
+|        + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   414 (2 calls) |                 |                 |                 |                 |
+|         + reduce<ap_fixed<16, 6, AP_TR...  | nnet_common.h:37             |   356 (4 calls) |                 |                 |                 |                 |
+|          + reduce<ap_fixed<16, 6, AP_TR... | nnet_common.h:37             |   240 (8 calls) |                 |                 |                 |                 |
+|             operator()                     | nnet_common.h:66             |   160 (8 calls) |                 |                 |                 |                 |
+|            operator()                      | nnet_common.h:66             |    80 (4 calls) |                 |                 |                 |                 |
+|           operator()                       | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:66             |    20           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             |    89           |                 |                 |                 |                 |
+|        + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |    60 (2 calls) |                 |                 |                 |                 |
+|           operator()                       | nnet_common.h:66             |    40 (2 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:66             |    20           |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:66             |    20           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     3           |                 |                 |                 |                 |
+|      shift_line_buffer<nnet::arra...       | nnet_conv_stream.h:215       |                 |   403           |   569           |   409           |   554           |
+|   + dense<nnet::array<ap_ufixed<...        | nnet_dense_stream.h:82       |   812           | 4,634           | 2,930           | 2,845           | 2,851           |
+|    + data_prepare<nnet::array<ap_...       | nnet_dense_stream.h:28       |    75           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|    + dense_latency_wrapper<ap_ufi...       | nnet_dense_stream.h:13       |   646           | 4,530           | 2,602           | 2,584           | 2,585           |
+|     + dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |   644           | 4,528           | 2,600           |                 |                 |
+|        product                             | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
+|        cast<ap_ufixed<16, 6, AP_RND...     | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
+|    + res_write<nnet::array<ap_fix...       | nnet_dense_stream.h:53       |    71           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|   + relu<nnet::array<ap_fixed<37...        | nnet_activation_stream.h:39  |   842           |   885           | 1,029           | 1,029           | 1,006           |
+|      operator[]                            | nnet_types.h:17              |    12 (4 calls) |                 |                 |                 |                 |
+|   + dense<nnet::array<ap_ufixed<...        | nnet_dense_stream.h:82       |   812           | 2,900           | 1,895           | 1,845           | 1,833           |
+|    + data_prepare<nnet::array<ap_...       | nnet_dense_stream.h:28       |    75           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|    + dense_latency_wrapper<ap_ufi...       | nnet_dense_stream.h:13       |   646           | 2,812           | 1,645           | 1,627           | 1,628           |
+|     + dense_latency<ap_ufixed<16, ...      | nnet_dense_latency.h:13      |   644           | 2,810           | 1,643           |                 |                 |
+|        product                             | nnet_mult.h:70               |   137           |                 |                 |                 |                 |
+|        cast<ap_ufixed<16, 6, AP_RND...     | nnet_mult.h:110              |    60           |                 |                 |                 |                 |
+|    + res_write<nnet::array<ap_fix...       | nnet_dense_stream.h:53       |    71           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|   + softmax<nnet::array<ap_fixed...        | nnet_activation_stream.h:351 | 6,077           |   749           |   809           |   679           |   667           |
+|    + softmax_stable<nnet::array<a...       | nnet_activation_stream.h:169 | 6,074           |   747           |   807           |   677           |   665           |
+|     + init_exp_table<ap_ufixed<36,...      | nnet_activation.h:149        | 1,122           |   225           |   225           |   225           |   229           |
+|        softmax_real_val_from_idx<ap...     | nnet_activation.h:133        |   369           |                 |                 |                 |                 |
+|        exp_fcn_float                       | nnet_activation.h:131        |     4           |                 |                 |                 |                 |
+|     + init_invert_table<ap_fixed<1...      | nnet_activation.h:165        | 1,410           |                 |                 |                 |                 |
+|        softmax_real_val_from_idx<ap...     | nnet_activation.h:133        |   666           |                 |                 |                 |                 |
+|       operator[]                           | nnet_types.h:17              |     6 (2 calls) |                 |                 |                 |                 |
+|     + reduce<ap_fixed<37, 18, AP_T...      | nnet_common.h:37             |   248           |   165           |    30           |    20           |    20           |
+|      + reduce<ap_fixed<37, 18, AP_T...     | nnet_common.h:37             |   193           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<37, 18, AP_T...    | nnet_common.h:37             |   166 (2 calls) |                 |                 |                 |                 |
+|        + reduce<ap_fixed<37, 18, AP_T...   | nnet_common.h:37             |   112 (4 calls) |                 |                 |                 |                 |
+|           operator()                       | nnet_common.h:66             |    72 (4 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:66             |    36 (2 calls) |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:66             |    18           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<37, 18, AP_T...     | nnet_common.h:37             |    28           |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:66             |    18           |                 |                 |                 |                 |
+|        operator()                          | nnet_common.h:66             |    18           |                 |                 |                 |                 |
+|       softmax_idx_from_real_val<ap...      | nnet_activation.h:141        |    98           |                 |                 |                 |                 |
+|     + reduce<ap_fixed<16, 6, AP_TR...      | nnet_common.h:37             | 2,075           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             | 1,614           |                 |                 |                 |                 |
+|       + reduce<ap_fixed<16, 6, AP_TR...    | nnet_common.h:37             | 1,384 (2 calls) |                 |                 |                 |                 |
+|        + reduce<ap_fixed<16, 6, AP_TR...   | nnet_common.h:37             |   924 (4 calls) |                 |                 |                 |                 |
+|           operator()                       | nnet_common.h:51             |   884 (4 calls) |                 |                 |                 |                 |
+|          operator()                        | nnet_common.h:51             |   442 (2 calls) |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:51             |   221           |                 |                 |                 |                 |
+|      + reduce<ap_fixed<16, 6, AP_TR...     | nnet_common.h:37             |   231           |                 |                 |                 |                 |
+|         operator()                         | nnet_common.h:51             |   221           |                 |                 |                 |                 |
+|        operator()                          | nnet_common.h:51             |   221           |                 |                 |                 |                 |
+|       softmax_idx_from_real_val<ap...      | nnet_activation.h:141        |    98           |                 |                 |                 |                 |
+|       reduce<ap_fixed<16, 6, AP_TR...      | nnet_common.h:37             |                 |    60 (2 calls) |    76 (2 calls) |    56 (2 calls) |    56 (2 calls) |
++--------------------------------------------+------------------------------+-----------------+-----------------+-----------------+-----------------+-----------------+
 
 * Design Size Message Settings
 +---------------------------------------------+--------+------------------------------------------------------------------+

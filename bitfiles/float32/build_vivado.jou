@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 30 21:55:42 2026
+# Process ID: 19921
+# Current directory: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator
+# Command line: vivado -mode batch -source /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.tcl -notrace -log /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.log -journal /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.jou
+# Log file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.log
+# Journal file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.jou
+# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3900.045 MHz, CPU Physical cores: 4, Host memory: 8273 MB
+#-----------------------------------------------------------
+source /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.tcl -notrace

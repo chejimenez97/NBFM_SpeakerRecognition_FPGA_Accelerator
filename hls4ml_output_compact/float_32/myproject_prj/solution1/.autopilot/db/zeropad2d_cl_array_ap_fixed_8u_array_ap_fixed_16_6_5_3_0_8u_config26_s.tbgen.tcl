@@ -90,9 +90,9 @@ set RtlHierarchyInfo {[
 					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadMain_fu_28", "Port" : "layer11_out", "Inst_start_state" : "4", "Inst_end_state" : "5"}]},
 			{"Name" : "layer26_out", "Type" : "Fifo", "Direction" : "O", "DependentProc" : ["0"], "DependentChan" : "0", "DependentChanDepth" : "70", "DependentChanType" : "0",
 				"SubConnect" : [
+					{"ID" : "5", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_8u_config26_Pipeline_PadBottomWidth_fu_36", "Port" : "layer26_out", "Inst_start_state" : "7", "Inst_end_state" : "8"},
 					{"ID" : "3", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadMain_fu_28", "Port" : "layer26_out", "Inst_start_state" : "4", "Inst_end_state" : "5"},
-					{"ID" : "1", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadTopWidth_fu_22", "Port" : "layer26_out", "Inst_start_state" : "1", "Inst_end_state" : "2"},
-					{"ID" : "5", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_8u_config26_Pipeline_PadBottomWidth_fu_36", "Port" : "layer26_out", "Inst_start_state" : "7", "Inst_end_state" : "8"}]}]},
+					{"ID" : "1", "SubInstance" : "grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadTopWidth_fu_22", "Port" : "layer26_out", "Inst_start_state" : "1", "Inst_end_state" : "2"}]}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadTopWidth_fu_22", "Parent" : "0", "Child" : ["2"],
 		"CDFG" : "zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_8u_config26_Pipeline_PadTopWidth",
 		"Protocol" : "ap_ctrl_hs",

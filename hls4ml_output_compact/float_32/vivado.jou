@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Mar 29 16:38:06 2026
+# Process ID: 37876
+# Current directory: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32
+# Command line: vivado
+# Log file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/vivado.log
+# Journal file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/vivado.jou
+# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3881.357 MHz, CPU Physical cores: 4, Host memory: 8273 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.srcs/sources_1/bd/design_1/design_1.bd}
+delete_bd_objs [get_bd_intf_nets float32_accel/myproject_0_layer23_out] [get_bd_intf_nets float32_accel/axi_dma_0_M_AXIS_MM2S] [get_bd_cells float32_accel/myproject_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:myproject_axi:1.0 myproject_axi_0
+endgroup
+move_bd_cells [get_bd_cells float32_accel] [get_bd_cells myproject_axi_0]
+move_bd_cells [get_bd_cells /] [get_bd_cells float32_accel/myproject_axi_0]
+move_bd_cells [get_bd_cells float32_accel] [get_bd_cells myproject_axi_0]
+regenerate_bd_layout
+connect_bd_intf_net [get_bd_intf_pins float32_accel/axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins float32_accel/myproject_axi_0/in_stream]
+connect_bd_intf_net [get_bd_intf_pins float32_accel/myproject_axi_0/out_stream] [get_bd_intf_pins float32_accel/axi_dma_0/S_AXIS_S2MM]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins float32_accel/myproject_axi_0/ap_clk] [get_bd_pins zynq_ultra_ps_e_0/pl_clk0]
+connect_bd_net [get_bd_pins float32_accel/ap_rst_n] [get_bd_pins float32_accel/myproject_axi_0/ap_rst_n]
+regenerate_bd_layout
+validate_bd_design
+regenerate_bd_layout
+regenerate_bd_layout
+regenerate_bd_layout
+open_bd_design {/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.srcs/sources_1/bd/design_1/design_1.bd}
+save_bd_design
+make_wrapper -files [get_files /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.srcs/sources_1/bd/design_1/design_1.bd] -top
+add_files -norecurse /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+open_bd_design {/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/Vivado_float32/Vivado_float32.srcs/sources_1/bd/design_1/design_1.bd}
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

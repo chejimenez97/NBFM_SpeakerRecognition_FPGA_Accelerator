@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s'" level="0">
-<item name = "Date">Sun Mar 22 09:49:02 2026
+<item name = "Date">Mon Mar 30 19:06:57 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -31,7 +31,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_620">init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s, 1044, 1044, 5.220 us, 5.220 us, 1044, 1044, no</column>
+<column name="grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616">init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s, 1044, 1044, 5.220 us, 5.220 us, 1044, 1044, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

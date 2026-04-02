@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config5_s'" level="0">
-<item name = "Date">Sun Mar 22 09:55:12 2026
+<item name = "Date">Mon Mar 30 19:13:41 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -313,29 +313,29 @@
 <column name="icmp_ln52_7_reg_2129">1, 0, 1, 0</column>
 <column name="icmp_ln52_8_reg_2135">1, 0, 1, 0</column>
 <column name="start_once_reg">1, 0, 1, 0</column>
-<column name="tmp_11_reg_2098">1, 0, 1, 0</column>
-<column name="tmp_12_reg_2109">1, 0, 1, 0</column>
-<column name="tmp_27_reg_2116">1, 0, 1, 0</column>
-<column name="tmp_28_reg_2141">1, 0, 1, 0</column>
-<column name="tmp_29_reg_2152">1, 0, 1, 0</column>
-<column name="tmp_32_reg_2159">1, 0, 1, 0</column>
-<column name="tmp_33_reg_2184">1, 0, 1, 0</column>
-<column name="tmp_34_reg_2195">1, 0, 1, 0</column>
-<column name="tmp_37_reg_2202">1, 0, 1, 0</column>
-<column name="tmp_38_reg_2227">1, 0, 1, 0</column>
-<column name="tmp_39_reg_2238">1, 0, 1, 0</column>
-<column name="tmp_3_reg_2030">1, 0, 1, 0</column>
-<column name="tmp_42_reg_2245">1, 0, 1, 0</column>
-<column name="tmp_43_reg_2270">1, 0, 1, 0</column>
-<column name="tmp_44_reg_2281">1, 0, 1, 0</column>
-<column name="tmp_47_reg_2288">1, 0, 1, 0</column>
-<column name="tmp_48_reg_2313">1, 0, 1, 0</column>
-<column name="tmp_49_reg_2324">1, 0, 1, 0</column>
-<column name="tmp_4_reg_2055">1, 0, 1, 0</column>
-<column name="tmp_52_reg_2331">1, 0, 1, 0</column>
-<column name="tmp_53_reg_2356">1, 0, 1, 0</column>
-<column name="tmp_5_reg_2066">1, 0, 1, 0</column>
-<column name="tmp_9_reg_2073">1, 0, 1, 0</column>
+<column name="tmp_18_reg_2030">1, 0, 1, 0</column>
+<column name="tmp_19_reg_2055">1, 0, 1, 0</column>
+<column name="tmp_20_reg_2066">1, 0, 1, 0</column>
+<column name="tmp_23_reg_2073">1, 0, 1, 0</column>
+<column name="tmp_24_reg_2098">1, 0, 1, 0</column>
+<column name="tmp_25_reg_2109">1, 0, 1, 0</column>
+<column name="tmp_28_reg_2116">1, 0, 1, 0</column>
+<column name="tmp_29_reg_2141">1, 0, 1, 0</column>
+<column name="tmp_30_reg_2152">1, 0, 1, 0</column>
+<column name="tmp_33_reg_2159">1, 0, 1, 0</column>
+<column name="tmp_34_reg_2184">1, 0, 1, 0</column>
+<column name="tmp_35_reg_2195">1, 0, 1, 0</column>
+<column name="tmp_38_reg_2202">1, 0, 1, 0</column>
+<column name="tmp_39_reg_2227">1, 0, 1, 0</column>
+<column name="tmp_40_reg_2238">1, 0, 1, 0</column>
+<column name="tmp_43_reg_2245">1, 0, 1, 0</column>
+<column name="tmp_44_reg_2270">1, 0, 1, 0</column>
+<column name="tmp_45_reg_2281">1, 0, 1, 0</column>
+<column name="tmp_48_reg_2288">1, 0, 1, 0</column>
+<column name="tmp_49_reg_2313">1, 0, 1, 0</column>
+<column name="tmp_50_reg_2324">1, 0, 1, 0</column>
+<column name="tmp_53_reg_2331">1, 0, 1, 0</column>
+<column name="tmp_54_reg_2356">1, 0, 1, 0</column>
 <column name="tmp_reg_2023">1, 0, 1, 0</column>
 </table>
 </item>

@@ -579,7 +579,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985884864</coreId>
+						<coreId>3865502768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -635,7 +635,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985007696</coreId>
+						<coreId>3864394800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -694,7 +694,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296545725</coreId>
+						<coreId>3917308830</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -753,7 +753,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1302068233</coreId>
+						<coreId>1601463662</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -812,7 +812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>757935405</coreId>
+						<coreId>3862124248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -871,7 +871,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985759264</coreId>
+						<coreId>3868573280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -930,7 +930,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1431261768</coreId>
+						<coreId>3924543339</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -989,7 +989,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1977390736</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -1105,7 +1105,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1869833586</coreId>
+						<coreId>7955819</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1163,7 +1163,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702258035</coreId>
+						<coreId>3864875776</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1190,64 +1190,6 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>tmp_93</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1297398445</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>375</item>
-					<item>376</item>
-					<item>377</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>21</m_topoIndex>
-				<m_clusterGroupNumber>1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_23">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>30</id>
 						<name>tmp_94</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -1280,7 +1222,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985132368</coreId>
+						<coreId>3865148864</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>375</item>
+					<item>376</item>
+					<item>377</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>21</m_topoIndex>
+				<m_clusterGroupNumber>1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_23">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>30</id>
+						<name>tmp_95</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3864975376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1338,7 +1338,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985077248</coreId>
+						<coreId>3938585871</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -1419,7 +1419,7 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>tmp_95</name>
+						<name>tmp_96</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -1451,7 +1451,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985893184</coreId>
+						<coreId>3854329808</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -1623,7 +1623,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987065760</coreId>
+						<coreId>320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1736,7 +1736,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1323018881</coreId>
+						<coreId>3911236013</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -1792,7 +1792,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1323011917</coreId>
+						<coreId>3910818227</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -1933,7 +1933,7 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>tmp_96</name>
+						<name>tmp_97</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -1965,7 +1965,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1984350400</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -2539,7 +2539,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>144</coreId>
+						<coreId>3865051376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2966,7 +2966,7 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>tmp_97</name>
+						<name>tmp_98</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -2998,7 +2998,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1298605524</coreId>
+						<coreId>3863919408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3056,7 +3056,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1314013527</coreId>
+						<coreId>3862432608</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3083,64 +3083,6 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>tmp_98</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1984544048</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>467</item>
-					<item>468</item>
-					<item>469</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>43</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_56">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>63</id>
 						<name>tmp_99</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -3173,7 +3115,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987702464</coreId>
+						<coreId>3864513280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3181,9 +3123,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>470</item>
-					<item>471</item>
-					<item>473</item>
+					<item>467</item>
+					<item>468</item>
+					<item>469</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -3191,15 +3133,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>44</m_topoIndex>
+				<m_topoIndex>43</m_topoIndex>
 				<m_clusterGroupNumber>6</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_57">
+			<item class_id_reference="9" object_id="_56">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>64</id>
-						<name>tmp_41</name>
+						<id>63</id>
+						<name>tmp_100</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -3231,7 +3173,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>72</coreId>
+						<coreId>3863882032</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>470</item>
+					<item>471</item>
+					<item>473</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>44</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_57">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>64</id>
+						<name>tmp_29</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3934258581</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -3315,7 +3315,7 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>tmp_100</name>
+						<name>tmp_101</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -3347,7 +3347,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296910466</coreId>
+						<coreId>3863882192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -3519,7 +3519,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985475584</coreId>
+						<coreId>3865004720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3632,7 +3632,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1984544048</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -3656,7 +3656,7 @@
 					<Obj>
 						<type>0</type>
 						<id>72</id>
-						<name>tmp_42</name>
+						<name>tmp_30</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -3688,7 +3688,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1297027207</coreId>
+						<coreId>3864941584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -3829,7 +3829,7 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>tmp_101</name>
+						<name>tmp_102</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -3861,7 +3861,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>78</coreId>
+						<coreId>3864710304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -4435,7 +4435,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>608</coreId>
+						<coreId>3863712288</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4862,7 +4862,7 @@
 					<Obj>
 						<type>0</type>
 						<id>93</id>
-						<name>tmp_102</name>
+						<name>tmp_103</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -4894,7 +4894,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1984544048</coreId>
+						<coreId>3856649120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -4952,7 +4952,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
+						<coreId>3856649120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4979,64 +4979,6 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>tmp_103</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1984143456</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>554</item>
-					<item>555</item>
-					<item>556</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>65</m_topoIndex>
-				<m_clusterGroupNumber>11</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_89">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>96</id>
 						<name>tmp_104</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -5069,7 +5011,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1978643872</coreId>
+						<coreId>3863943120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5077,9 +5019,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>557</item>
-					<item>558</item>
-					<item>560</item>
+					<item>554</item>
+					<item>555</item>
+					<item>556</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -5087,15 +5029,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>66</m_topoIndex>
+				<m_topoIndex>65</m_topoIndex>
 				<m_clusterGroupNumber>11</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_90">
+			<item class_id_reference="9" object_id="_89">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>97</id>
-						<name>tmp_43</name>
+						<id>96</id>
+						<name>tmp_105</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -5127,7 +5069,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3856649120</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>557</item>
+					<item>558</item>
+					<item>560</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>66</m_topoIndex>
+				<m_clusterGroupNumber>11</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_90">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>97</id>
+						<name>tmp_31</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1936942413</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -5211,7 +5211,7 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>tmp_105</name>
+						<name>tmp_106</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -5243,7 +5243,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1293599386</coreId>
+						<coreId>3856649120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -5415,7 +5415,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1983701072</coreId>
+						<coreId>3856649120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -5528,7 +5528,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1979528976</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -5552,7 +5552,7 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>tmp_44</name>
+						<name>tmp_32</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -5584,7 +5584,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1979621824</coreId>
+						<coreId>1830842991</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -5725,7 +5725,7 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>tmp_106</name>
+						<name>tmp_107</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -5757,7 +5757,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1320863385</coreId>
+						<coreId>3856649120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6331,7 +6331,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985478848</coreId>
+						<coreId>3864372160</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -6758,7 +6758,7 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>tmp_107</name>
+						<name>tmp_108</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -6790,7 +6790,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985458208</coreId>
+						<coreId>3924533788</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6875,64 +6875,6 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>tmp_108</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1985887184</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>640</item>
-					<item>641</item>
-					<item>642</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>87</m_topoIndex>
-				<m_clusterGroupNumber>16</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_122">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>129</id>
 						<name>tmp_109</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -6965,7 +6907,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1631353185</coreId>
+						<coreId>1600402020</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6973,9 +6915,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>643</item>
-					<item>644</item>
-					<item>646</item>
+					<item>640</item>
+					<item>641</item>
+					<item>642</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -6983,15 +6925,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>88</m_topoIndex>
+				<m_topoIndex>87</m_topoIndex>
 				<m_clusterGroupNumber>16</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_123">
+			<item class_id_reference="9" object_id="_122">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>130</id>
-						<name>tmp_45</name>
+						<id>129</id>
+						<name>tmp_110</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -7023,7 +6965,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>542329928</coreId>
+						<coreId>758591488</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>643</item>
+					<item>644</item>
+					<item>646</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>88</m_topoIndex>
+				<m_clusterGroupNumber>16</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_123">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>130</id>
+						<name>tmp_33</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3924549387</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -7107,7 +7107,7 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>tmp_110</name>
+						<name>tmp_111</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -7139,7 +7139,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985725248</coreId>
+						<coreId>3858994992</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7311,7 +7311,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>941632574</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7424,7 +7424,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852713022</coreId>
+						<coreId>3862113280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -7448,7 +7448,7 @@
 					<Obj>
 						<type>0</type>
 						<id>138</id>
-						<name>tmp_46</name>
+						<name>tmp_34</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -7480,7 +7480,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987151136</coreId>
+						<coreId>3864601104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -7621,7 +7621,7 @@
 					<Obj>
 						<type>0</type>
 						<id>141</id>
-						<name>tmp_111</name>
+						<name>tmp_112</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -7653,7 +7653,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1313426944</coreId>
+						<coreId>3863288032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8227,7 +8227,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>544828517</coreId>
+						<coreId>3864750216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8654,7 +8654,7 @@
 					<Obj>
 						<type>0</type>
 						<id>159</id>
-						<name>tmp_112</name>
+						<name>tmp_113</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -8686,7 +8686,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793632</coreId>
+						<coreId>673197111</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8744,7 +8744,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1831826537</coreId>
+						<coreId>1768316784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8771,64 +8771,6 @@
 					<Obj>
 						<type>0</type>
 						<id>161</id>
-						<name>tmp_113</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1750344253</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>726</item>
-					<item>727</item>
-					<item>728</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>109</m_topoIndex>
-				<m_clusterGroupNumber>21</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_155">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>162</id>
 						<name>tmp_114</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -8861,7 +8803,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3863711488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8869,9 +8811,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>729</item>
-					<item>730</item>
-					<item>732</item>
+					<item>726</item>
+					<item>727</item>
+					<item>728</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -8879,15 +8821,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>110</m_topoIndex>
+				<m_topoIndex>109</m_topoIndex>
 				<m_clusterGroupNumber>21</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_156">
+			<item class_id_reference="9" object_id="_155">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>163</id>
-						<name>tmp_47</name>
+						<id>162</id>
+						<name>tmp_115</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -8919,7 +8861,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296145263</coreId>
+						<coreId>3863711488</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>729</item>
+					<item>730</item>
+					<item>732</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>110</m_topoIndex>
+				<m_clusterGroupNumber>21</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_156">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>163</id>
+						<name>tmp_35</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>875128164</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -9003,7 +9003,7 @@
 					<Obj>
 						<type>0</type>
 						<id>165</id>
-						<name>tmp_115</name>
+						<name>tmp_116</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -9035,7 +9035,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988090960</coreId>
+						<coreId>1701735983</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9207,7 +9207,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>64</coreId>
+						<coreId>1768320623</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9320,7 +9320,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988709552</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -9344,7 +9344,7 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>tmp_48</name>
+						<name>tmp_36</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -9376,7 +9376,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>774905914</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -9517,7 +9517,7 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>tmp_116</name>
+						<name>tmp_117</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -9549,7 +9549,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>784</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10123,7 +10123,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3866182755</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10550,7 +10550,7 @@
 					<Obj>
 						<type>0</type>
 						<id>192</id>
-						<name>tmp_117</name>
+						<name>tmp_118</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -10582,7 +10582,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>960115507</coreId>
+						<coreId>3868374432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10640,7 +10640,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3865509824</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10667,64 +10667,6 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>tmp_118</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1302237855</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>812</item>
-					<item>813</item>
-					<item>814</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>131</m_topoIndex>
-				<m_clusterGroupNumber>26</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_188">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>195</id>
 						<name>tmp_119</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -10757,7 +10699,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>539568680</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10765,9 +10707,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>815</item>
-					<item>816</item>
-					<item>818</item>
+					<item>812</item>
+					<item>813</item>
+					<item>814</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -10775,15 +10717,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>132</m_topoIndex>
+				<m_topoIndex>131</m_topoIndex>
 				<m_clusterGroupNumber>26</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_189">
+			<item class_id_reference="9" object_id="_188">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>196</id>
-						<name>tmp_49</name>
+						<id>195</id>
+						<name>tmp_120</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -10815,7 +10757,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3863711488</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>815</item>
+					<item>816</item>
+					<item>818</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>132</m_topoIndex>
+				<m_clusterGroupNumber>26</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_189">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>196</id>
+						<name>tmp_37</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3863711488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -10899,7 +10899,7 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>tmp_120</name>
+						<name>tmp_121</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -10931,7 +10931,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1302163569</coreId>
+						<coreId>3868387120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11103,7 +11103,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>574452846</coreId>
+						<coreId>741</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11216,7 +11216,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701735983</coreId>
+						<coreId>1834970975</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -11240,7 +11240,7 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>tmp_50</name>
+						<name>tmp_38</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -11272,7 +11272,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601200444</coreId>
+						<coreId>3868398568</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -11413,7 +11413,7 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>tmp_121</name>
+						<name>tmp_122</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -11445,7 +11445,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985781184</coreId>
+						<coreId>1885420664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12019,7 +12019,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296794750</coreId>
+						<coreId>539768832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12446,7 +12446,7 @@
 					<Obj>
 						<type>0</type>
 						<id>225</id>
-						<name>tmp_122</name>
+						<name>tmp_123</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -12478,7 +12478,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985813728</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12536,7 +12536,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985815072</coreId>
+						<coreId>3863711488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12563,64 +12563,6 @@
 					<Obj>
 						<type>0</type>
 						<id>227</id>
-						<name>tmp_123</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>898</item>
-					<item>899</item>
-					<item>900</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>153</m_topoIndex>
-				<m_clusterGroupNumber>31</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_221">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>228</id>
 						<name>tmp_124</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
@@ -12653,7 +12595,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985821080</coreId>
+						<coreId>8</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12661,9 +12603,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>901</item>
-					<item>902</item>
-					<item>904</item>
+					<item>898</item>
+					<item>899</item>
+					<item>900</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -12671,15 +12613,15 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>154</m_topoIndex>
+				<m_topoIndex>153</m_topoIndex>
 				<m_clusterGroupNumber>31</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_222">
+			<item class_id_reference="9" object_id="_221">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>229</id>
-						<name>tmp_51</name>
+						<id>228</id>
+						<name>tmp_125</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -12711,7 +12653,65 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3868320176</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>901</item>
+					<item>902</item>
+					<item>904</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>154</m_topoIndex>
+				<m_clusterGroupNumber>31</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_222">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>229</id>
+						<name>tmp_39</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3868322888</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -12795,7 +12795,7 @@
 					<Obj>
 						<type>0</type>
 						<id>231</id>
-						<name>tmp_125</name>
+						<name>tmp_126</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -12827,7 +12827,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985824768</coreId>
+						<coreId>3868325888</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12999,7 +12999,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987100192</coreId>
+						<coreId>3924583616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13112,7 +13112,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>608</coreId>
+						<coreId>3868334944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -13136,7 +13136,7 @@
 					<Obj>
 						<type>0</type>
 						<id>237</id>
-						<name>tmp_52</name>
+						<name>tmp_40</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -13168,7 +13168,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988193120</coreId>
+						<coreId>3868336744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -13309,7 +13309,7 @@
 					<Obj>
 						<type>0</type>
 						<id>240</id>
-						<name>tmp_126</name>
+						<name>tmp_127</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -13341,7 +13341,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988196848</coreId>
+						<coreId>169984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13915,7 +13915,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988216880</coreId>
+						<coreId>3868360256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14342,7 +14342,7 @@
 					<Obj>
 						<type>0</type>
 						<id>258</id>
-						<name>tmp_127</name>
+						<name>tmp_128</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -14374,7 +14374,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>304</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14432,7 +14432,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988232880</coreId>
+						<coreId>3866678528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14459,7 +14459,65 @@
 					<Obj>
 						<type>0</type>
 						<id>260</id>
-						<name>tmp_128</name>
+						<name>tmp_129</name>
+						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
+						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
+						<lineNumber>52</lineNumber>
+						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
+						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
+											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
+										</first>
+										<second>52</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3866680480</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>984</item>
+					<item>985</item>
+					<item>986</item>
+				</oprand_edges>
+				<opcode>bitselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>175</m_topoIndex>
+				<m_clusterGroupNumber>36</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_254">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>261</id>
+						<name>tmp_130</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -14499,64 +14557,6 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>984</item>
-					<item>985</item>
-					<item>986</item>
-				</oprand_edges>
-				<opcode>bitselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>175</m_topoIndex>
-				<m_clusterGroupNumber>36</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_254">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>261</id>
-						<name>tmp_129</name>
-						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
-						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
-						<lineNumber>52</lineNumber>
-						<contextFuncName>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</contextFuncName>
-						<contextNormFuncName>relu_nnet_array_ap_fixed_41_24_AP_TRN_AP_WRAP_0_8_nnet_array_ap_ufixed_8_4_AP_RND_CONV_AP_SAT_0_8_relu_config10_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_activation_stream.h</first>
-											<second>relu&amp;lt;nnet::array&amp;lt;ap_fixed&amp;lt;41, 24, AP_TRN, AP_WRAP, 0&amp;gt;, 8&amp;gt;, nnet::array&amp;lt;ap_ufixed&amp;lt;8, 4, AP_RND_CONV, AP_SAT, 0&amp;gt;, 8&amp;gt;, relu_config10&amp;gt;</second>
-										</first>
-										<second>52</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1988236560</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
 					<item>987</item>
 					<item>988</item>
 					<item>990</item>
@@ -14575,7 +14575,7 @@
 					<Obj>
 						<type>0</type>
 						<id>262</id>
-						<name>tmp_53</name>
+						<name>tmp_41</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -14607,7 +14607,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1313434723</coreId>
+						<coreId>3866684200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -14691,7 +14691,7 @@
 					<Obj>
 						<type>0</type>
 						<id>264</id>
-						<name>tmp_130</name>
+						<name>tmp_131</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -14723,7 +14723,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3866687760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14895,7 +14895,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987701488</coreId>
+						<coreId>3858651168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -15008,7 +15008,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988253328</coreId>
+						<coreId>3866699104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -15032,7 +15032,7 @@
 					<Obj>
 						<type>0</type>
 						<id>270</id>
-						<name>tmp_54</name>
+						<name>tmp_42</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -15064,7 +15064,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988255088</coreId>
+						<coreId>3866698656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -15205,7 +15205,7 @@
 					<Obj>
 						<type>0</type>
 						<id>273</id>
-						<name>tmp_131</name>
+						<name>tmp_132</name>
 						<fileName>firmware/nnet_utils/nnet_activation_stream.h</fileName>
 						<fileDirectory>/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit</fileDirectory>
 						<lineNumber>52</lineNumber>
@@ -15237,7 +15237,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1301616775</coreId>
+						<coreId>3866703680</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -15811,7 +15811,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1986096740</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -16213,7 +16213,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>10</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>64</bitwidth>
@@ -16335,7 +16335,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988820888</coreId>
+						<coreId>3925513151</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16394,7 +16394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>3</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16450,7 +16450,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988824400</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16557,7 +16557,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2211774992</coreId>
+						<coreId>40614400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -16588,7 +16588,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2211765920</coreId>
+						<coreId>40605328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>9</bitwidth>
@@ -16619,7 +16619,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2212030960</coreId>
+						<coreId>40870368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16650,7 +16650,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3863711488</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16681,7 +16681,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1986115875</coreId>
+						<coreId>1599294536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16712,7 +16712,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988827368</coreId>
+						<coreId>3867481296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16743,7 +16743,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988827888</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16805,7 +16805,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>7040</coreId>
+						<coreId>3867482896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16836,7 +16836,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852714853</coreId>
+						<coreId>3867483400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16867,7 +16867,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988829992</coreId>
+						<coreId>3925570913</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16898,7 +16898,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1302086754</coreId>
+						<coreId>3867482032</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16929,7 +16929,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988830752</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16960,7 +16960,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3867485520</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16991,7 +16991,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>3867486592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17022,7 +17022,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3867487224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17053,7 +17053,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1985773632</coreId>
+						<coreId>3925559442</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>41</bitwidth>
@@ -17084,7 +17084,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988832992</coreId>
+						<coreId>3867487856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17115,7 +17115,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988158288</coreId>
+						<coreId>3867488592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17146,7 +17146,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17177,7 +17177,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17208,7 +17208,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988836352</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>12</bitwidth>
@@ -17239,7 +17239,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988837632</coreId>
+						<coreId>3866176883</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17270,7 +17270,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988829952</coreId>
+						<coreId>3867492216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -17301,7 +17301,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988836912</coreId>
+						<coreId>3867490592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>20</bitwidth>
@@ -17332,7 +17332,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>608</coreId>
+						<coreId>3867492536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17363,7 +17363,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988839440</coreId>
+						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -17394,7 +17394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1701080941</coreId>
+						<coreId>3867494264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>7</bitwidth>
@@ -17425,7 +17425,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>3866178463</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -17456,7 +17456,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988842176</coreId>
+						<coreId>3867495672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -17487,7 +17487,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17518,7 +17518,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988845320</coreId>
+						<coreId>3866179383</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17549,7 +17549,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988843408</coreId>
+						<coreId>3867498320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17580,7 +17580,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3867498848</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17611,7 +17611,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987164008</coreId>
+						<coreId>151666223</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17642,7 +17642,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>3866180901</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17673,7 +17673,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>5</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17704,7 +17704,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988848176</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17735,7 +17735,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988850080</coreId>
+						<coreId>3867503712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17766,7 +17766,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3867505176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17797,7 +17797,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988836912</coreId>
+						<coreId>3867490592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17828,7 +17828,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988845488</coreId>
+						<coreId>3867499168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17859,7 +17859,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988851360</coreId>
+						<coreId>3867505088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17890,7 +17890,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988845344</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17921,7 +17921,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988858384</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17952,7 +17952,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1302131625</coreId>
+						<coreId>3867514368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17983,7 +17983,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988042960</coreId>
+						<coreId>11</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18014,7 +18014,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988860656</coreId>
+						<coreId>3867515920</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18045,7 +18045,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988862560</coreId>
+						<coreId>3867516296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18076,7 +18076,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18107,7 +18107,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>3867519864</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18138,7 +18138,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>784</coreId>
+						<coreId>3866190285</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18169,7 +18169,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988867096</coreId>
+						<coreId>3866190492</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18200,7 +18200,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18231,7 +18231,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1987151136</coreId>
+						<coreId>3867522832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18262,7 +18262,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>4</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18293,7 +18293,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3867525048</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18355,7 +18355,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3866192838</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18386,7 +18386,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3866193289</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18417,7 +18417,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988836912</coreId>
+						<coreId>3867490592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18448,7 +18448,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1980606800</coreId>
+						<coreId>3867499168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18479,7 +18479,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988851552</coreId>
+						<coreId>3867505088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18510,7 +18510,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988866672</coreId>
+						<coreId>3867520400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -18541,7 +18541,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1988864032</coreId>
+						<coreId>3867517568</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -30594,7 +30594,15 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_100_fu_498</first>
+			<first>tmp_100_fu_474</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>63</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_101_fu_498</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30602,7 +30610,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_101_fu_550</first>
+			<first>tmp_102_fu_550</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30610,7 +30618,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_102_fu_604</first>
+			<first>tmp_103_fu_604</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30618,7 +30626,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_103_fu_622</first>
+			<first>tmp_104_fu_622</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30626,7 +30634,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_104_fu_630</first>
+			<first>tmp_105_fu_630</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30634,7 +30642,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_105_fu_654</first>
+			<first>tmp_106_fu_654</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30642,7 +30650,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_106_fu_706</first>
+			<first>tmp_107_fu_706</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30650,7 +30658,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_107_fu_760</first>
+			<first>tmp_108_fu_760</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30658,7 +30666,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_108_fu_778</first>
+			<first>tmp_109_fu_778</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30666,7 +30674,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_109_fu_786</first>
+			<first>tmp_110_fu_786</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30674,7 +30682,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_110_fu_810</first>
+			<first>tmp_111_fu_810</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30682,7 +30690,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_111_fu_862</first>
+			<first>tmp_112_fu_862</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30690,7 +30698,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_112_fu_916</first>
+			<first>tmp_113_fu_916</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30698,7 +30706,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_113_fu_934</first>
+			<first>tmp_114_fu_934</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30706,7 +30714,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_114_fu_942</first>
+			<first>tmp_115_fu_942</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30714,7 +30722,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_115_fu_966</first>
+			<first>tmp_116_fu_966</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30722,7 +30730,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_116_fu_1018</first>
+			<first>tmp_117_fu_1018</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30730,7 +30738,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_117_fu_1072</first>
+			<first>tmp_118_fu_1072</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30738,7 +30746,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_118_fu_1090</first>
+			<first>tmp_119_fu_1090</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30746,7 +30754,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_119_fu_1098</first>
+			<first>tmp_120_fu_1098</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30754,7 +30762,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_120_fu_1122</first>
+			<first>tmp_121_fu_1122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30762,7 +30770,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_121_fu_1174</first>
+			<first>tmp_122_fu_1174</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30770,7 +30778,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_122_fu_1228</first>
+			<first>tmp_123_fu_1228</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30778,7 +30786,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_123_fu_1246</first>
+			<first>tmp_124_fu_1246</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30786,7 +30794,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_124_fu_1254</first>
+			<first>tmp_125_fu_1254</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30794,7 +30802,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_125_fu_1278</first>
+			<first>tmp_126_fu_1278</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30802,7 +30810,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_126_fu_1330</first>
+			<first>tmp_127_fu_1330</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30810,7 +30818,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_127_fu_1384</first>
+			<first>tmp_128_fu_1384</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30818,7 +30826,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_128_fu_1402</first>
+			<first>tmp_129_fu_1402</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30826,7 +30834,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_129_fu_1410</first>
+			<first>tmp_130_fu_1410</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30834,7 +30842,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_130_fu_1434</first>
+			<first>tmp_131_fu_1434</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30842,7 +30850,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_131_fu_1486</first>
+			<first>tmp_132_fu_1486</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30850,7 +30858,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_41_fu_482</first>
+			<first>tmp_29_fu_482</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30858,7 +30866,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_42_fu_528</first>
+			<first>tmp_30_fu_528</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30866,7 +30874,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_43_fu_638</first>
+			<first>tmp_31_fu_638</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30874,7 +30882,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_44_fu_684</first>
+			<first>tmp_32_fu_684</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30882,7 +30890,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_45_fu_794</first>
+			<first>tmp_33_fu_794</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30890,7 +30898,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_46_fu_840</first>
+			<first>tmp_34_fu_840</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30898,7 +30906,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_47_fu_950</first>
+			<first>tmp_35_fu_950</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30906,7 +30914,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_48_fu_996</first>
+			<first>tmp_36_fu_996</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30914,7 +30922,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_49_fu_1106</first>
+			<first>tmp_37_fu_1106</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30922,7 +30930,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_50_fu_1152</first>
+			<first>tmp_38_fu_1152</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30930,7 +30938,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_51_fu_1262</first>
+			<first>tmp_39_fu_1262</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30938,7 +30946,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_52_fu_1308</first>
+			<first>tmp_40_fu_1308</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30946,7 +30954,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_53_fu_1418</first>
+			<first>tmp_41_fu_1418</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30954,7 +30962,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_54_fu_1464</first>
+			<first>tmp_42_fu_1464</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30962,7 +30970,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_93_fu_316</first>
+			<first>tmp_94_fu_316</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30970,7 +30978,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_94_fu_324</first>
+			<first>tmp_95_fu_324</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30978,7 +30986,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_95_fu_342</first>
+			<first>tmp_96_fu_342</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30986,7 +30994,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_96_fu_394</first>
+			<first>tmp_97_fu_394</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -30994,7 +31002,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_97_fu_448</first>
+			<first>tmp_98_fu_448</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -31002,19 +31010,11 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_98_fu_466</first>
+			<first>tmp_99_fu_466</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>62</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_99_fu_474</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>63</item>
 			</second>
 		</item>
 		<item>
@@ -32226,7 +32226,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_102_reg_2127</first>
+			<first>tmp_103_reg_2127</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32234,7 +32234,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_107_reg_2157</first>
+			<first>tmp_108_reg_2157</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32242,7 +32242,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_112_reg_2187</first>
+			<first>tmp_113_reg_2187</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32250,7 +32250,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_117_reg_2217</first>
+			<first>tmp_118_reg_2217</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32258,7 +32258,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_122_reg_2247</first>
+			<first>tmp_123_reg_2247</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32266,7 +32266,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_127_reg_2277</first>
+			<first>tmp_128_reg_2277</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -32274,7 +32274,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_97_reg_2097</first>
+			<first>tmp_98_reg_2097</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

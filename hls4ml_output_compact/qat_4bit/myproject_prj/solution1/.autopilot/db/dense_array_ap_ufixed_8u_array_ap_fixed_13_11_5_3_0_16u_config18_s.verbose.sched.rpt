@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_array_ap_ufixed_8u_array_ap_fixed_13_11_5_3_0_16u_config18_s'
 ================================================================
-* Date:           Sun Mar 22 09:55:09 2026
+* Date:           Mon Mar 30 19:13:36 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -118,7 +118,7 @@ ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%p_0_3_0_0_07_loc_load = load i4 %p
 ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%p_0_2_0_0_05_loc_load = load i4 %p_0_2_0_0_05_loc"   --->   Operation 38 'load' 'p_0_2_0_0_05_loc_load' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%p_0_1_0_0_03_loc_load = load i4 %p_0_1_0_0_03_loc"   --->   Operation 39 'load' 'p_0_1_0_0_03_loc_load' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 40 [1/1] (0.00ns)   --->   "%p_0_0_0_0_01_loc_load = load i4 %p_0_0_0_0_01_loc"   --->   Operation 40 'load' 'p_0_0_0_0_01_loc_load' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%empty_151 = wait i32 @_ssdm_op_Wait"   --->   Operation 41 'wait' 'empty_151' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "%empty_163 = wait i32 @_ssdm_op_Wait"   --->   Operation 41 'wait' 'empty_163' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 42 [2/2] (0.79ns)   --->   "%call_ret = call i208 @dense_latency_wrapper<ap_ufixed,ap_fixed<13,11,5,3,0>,config18>, i4 %p_0_0_0_0_017_loc_load, i4 %p_0_1_0_0_019_loc_load, i4 %p_0_2_0_0_021_loc_load, i4 %p_0_3_0_0_023_loc_load, i4 %p_0_4_0_0_025_loc_load, i4 %p_0_5_0_0_027_loc_load, i4 %p_0_6_0_0_029_loc_load, i4 %p_0_7_0_0_031_loc_load, i4 %p_0_0_0_0_01_loc_load, i4 %p_0_1_0_0_03_loc_load, i4 %p_0_2_0_0_05_loc_load, i4 %p_0_3_0_0_07_loc_load, i4 %p_0_4_0_0_09_loc_load, i4 %p_0_5_0_0_011_loc_load, i4 %p_0_6_0_0_013_loc_load, i4 %p_0_7_0_0_015_loc_load" [firmware/nnet_utils/nnet_dense_stream.h:95]   --->   Operation 42 'call' 'call_ret' <Predicate = true> <Delay = 0.79> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 4 <SV = 3> <Delay = 3.30>
@@ -141,8 +141,8 @@ ST_4 : Operation 58 [1/1] (0.00ns)   --->   "%res_29 = extractvalue i208 %call_r
 ST_4 : Operation 59 [1/1] (0.00ns)   --->   "%res_30 = extractvalue i208 %call_ret" [firmware/nnet_utils/nnet_dense_stream.h:95]   --->   Operation 59 'extractvalue' 'res_30' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 4> <Delay = 1.82>
-ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i208 %layer18_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 60 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 61 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer16_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 61 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i208 %layer18_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 60 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 61 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer16_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 61 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 62 [1/1] (0.00ns)   --->   "%p_0 = bitconcatenate i208 @_ssdm_op_BitConcatenate.i208.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13.i13, i13 %res_30, i13 %res_29, i13 %res_28, i13 %res_27, i13 %res_26, i13 %res_25, i13 %res_24, i13 %res_23, i13 %res_22, i13 %res_21, i13 %res_20, i13 %res_19, i13 %res_18, i13 %res_17, i13 %res_16, i13 %res" [firmware/nnet_utils/nnet_dense_stream.h:77->firmware/nnet_utils/nnet_dense_stream.h:100]   --->   Operation 62 'bitconcatenate' 'p_0' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 63 [1/1] (1.82ns)   --->   "%write_ln77 = write void @_ssdm_op_Write.ap_fifo.volatile.i208P0A, i208 %layer18_out, i208 %p_0" [firmware/nnet_utils/nnet_dense_stream.h:77->firmware/nnet_utils/nnet_dense_stream.h:100]   --->   Operation 63 'write' 'write_ln77' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 208> <Depth = 1> <FIFO>
 ST_5 : Operation 64 [1/1] (0.00ns)   --->   "%ret_ln101 = ret" [firmware/nnet_utils/nnet_dense_stream.h:101]   --->   Operation 64 'ret' 'ret_ln101' <Predicate = true> <Delay = 0.00>

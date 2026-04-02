@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense_latency_ap_ufixed_4_3_4_0_0_ap_fixed_16_14_5_3_0_config7_mult_s'" level="0">
-<item name = "Date">Sun Mar 22 09:55:14 2026
+<item name = "Date">Mon Mar 30 19:13:43 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -123,12 +123,12 @@
 <column name="add_ln58_251_fu_1899_p2">+, 0, 0, 20, 13, 13</column>
 <column name="add_ln58_252_fu_1909_p2">+, 0, 0, 16, 16, 16</column>
 <column name="add_ln58_fu_308_p2">+, 0, 0, 12, 5, 5</column>
-<column name="empty_103_fu_1455_p2">+, 0, 0, 16, 7, 7</column>
-<column name="empty_105_fu_1560_p2">+, 0, 0, 13, 6, 6</column>
-<column name="empty_110_fu_1668_p2">+, 0, 0, 13, 6, 6</column>
-<column name="empty_111_fu_1687_p2">+, 0, 0, 16, 7, 7</column>
-<column name="empty_112_fu_376_p2">+, 0, 0, 12, 5, 5</column>
-<column name="empty_116_fu_1835_p2">+, 0, 0, 16, 7, 7</column>
+<column name="empty_115_fu_1455_p2">+, 0, 0, 16, 7, 7</column>
+<column name="empty_117_fu_1560_p2">+, 0, 0, 13, 6, 6</column>
+<column name="empty_122_fu_1668_p2">+, 0, 0, 13, 6, 6</column>
+<column name="empty_123_fu_1687_p2">+, 0, 0, 16, 7, 7</column>
+<column name="empty_124_fu_376_p2">+, 0, 0, 12, 5, 5</column>
+<column name="empty_128_fu_1835_p2">+, 0, 0, 16, 7, 7</column>
 <column name="empty_fu_1237_p2">+, 0, 0, 12, 5, 5</column>
 <column name="sum27_i_fu_302_p2">+, 0, 0, 13, 6, 6</column>
 <column name="sum28_i_fu_1108_p2">+, 0, 0, 14, 7, 7</column>
@@ -154,17 +154,17 @@
 <column name="x_40_fu_1227_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_41_fu_1551_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_fu_1786_p2">+, 0, 0, 16, 16, 16</column>
-<column name="empty_100_fu_324_p2">-, 0, 0, 12, 5, 5</column>
-<column name="empty_101_fu_334_p2">-, 0, 0, 13, 6, 6</column>
-<column name="empty_102_fu_1429_p2">-, 0, 0, 16, 7, 7</column>
-<column name="empty_104_fu_344_p2">-, 0, 0, 12, 5, 5</column>
-<column name="empty_106_fu_1566_p2">-, 0, 0, 13, 6, 6</column>
-<column name="empty_107_fu_1576_p2">-, 0, 0, 16, 7, 7</column>
-<column name="empty_108_fu_1582_p2">-, 0, 0, 16, 7, 7</column>
-<column name="empty_109_fu_1658_p2">-, 0, 0, 12, 5, 5</column>
-<column name="empty_113_fu_1795_p2">-, 0, 0, 13, 6, 6</column>
-<column name="empty_114_fu_1801_p2">-, 0, 0, 13, 6, 6</column>
-<column name="empty_115_fu_1811_p2">-, 0, 0, 16, 7, 7</column>
+<column name="empty_112_fu_324_p2">-, 0, 0, 12, 5, 5</column>
+<column name="empty_113_fu_334_p2">-, 0, 0, 13, 6, 6</column>
+<column name="empty_114_fu_1429_p2">-, 0, 0, 16, 7, 7</column>
+<column name="empty_116_fu_344_p2">-, 0, 0, 12, 5, 5</column>
+<column name="empty_118_fu_1566_p2">-, 0, 0, 13, 6, 6</column>
+<column name="empty_119_fu_1576_p2">-, 0, 0, 16, 7, 7</column>
+<column name="empty_120_fu_1582_p2">-, 0, 0, 16, 7, 7</column>
+<column name="empty_121_fu_1658_p2">-, 0, 0, 12, 5, 5</column>
+<column name="empty_125_fu_1795_p2">-, 0, 0, 13, 6, 6</column>
+<column name="empty_126_fu_1801_p2">-, 0, 0, 13, 6, 6</column>
+<column name="empty_127_fu_1811_p2">-, 0, 0, 16, 7, 7</column>
 <column name="sub_ln58_fu_1135_p2">-, 0, 0, 13, 1, 6</column>
 <column name="sub_ln73_29_fu_463_p2">-, 0, 0, 12, 1, 5</column>
 <column name="sub_ln73_30_fu_497_p2">-, 0, 0, 12, 1, 5</column>
@@ -202,9 +202,9 @@
 <column name="a_40_reg_2091">4, 0, 4, 0</column>
 <column name="add_ln58_reg_2106">5, 0, 5, 0</column>
 <column name="ap_CS_fsm">2, 0, 2, 0</column>
-<column name="empty_101_reg_2116">6, 0, 6, 0</column>
-<column name="empty_104_reg_2121">5, 0, 5, 0</column>
-<column name="empty_112_reg_2131">5, 0, 5, 0</column>
+<column name="empty_113_reg_2116">6, 0, 6, 0</column>
+<column name="empty_116_reg_2121">5, 0, 5, 0</column>
+<column name="empty_124_reg_2131">5, 0, 5, 0</column>
 <column name="sum27_i_reg_2101">6, 0, 6, 0</column>
 <column name="sum30_i_reg_2111">5, 0, 5, 0</column>
 <column name="sum34_i_reg_2126">6, 0, 6, 0</column>

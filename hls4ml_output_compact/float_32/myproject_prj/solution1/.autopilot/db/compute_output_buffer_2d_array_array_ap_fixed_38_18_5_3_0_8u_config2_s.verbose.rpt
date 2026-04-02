@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'compute_output_buffer_2d_array_array_ap_fixed_38_18_5_3_0_8u_config2_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:35 2026
+* Date:           Sun Mar 29 16:30:11 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -256,7 +256,7 @@ ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%in_elem_0_0_0_0_0_val_read = read i
 ST_1 : Operation 7 [1/1] (1.43ns)   --->   "%call_ln281 = call void @shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>, i16 %in_elem_0_0_0_0_0_val_read, i16 %in_elem_0_1_0_0_0_val_read, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_35, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_33, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_34, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_32" [firmware/nnet_utils/nnet_conv_stream.h:281]   --->   Operation 7 'call' 'call_ln281' <Predicate = true> <Delay = 1.43> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 2 <SV = 1> <Delay = 2.74>
-ST_2 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i304 %layer2_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i304 %layer2_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%sX_5_load = load i32 %sX_5" [firmware/nnet_utils/nnet_conv_stream.h:284]   --->   Operation 9 'load' 'sX_5_load' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 10 [1/1] (1.01ns)   --->   "%icmp_ln284 = icmp_eq  i32 %sX_5_load, i32 2" [firmware/nnet_utils/nnet_conv_stream.h:284]   --->   Operation 10 'icmp' 'icmp_ln284' <Predicate = true> <Delay = 1.01> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.01> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 11 [1/1] (0.00ns)   --->   "%sY_5_load = load i32 %sY_5" [firmware/nnet_utils/nnet_conv_stream.h:284]   --->   Operation 11 'load' 'sY_5_load' <Predicate = true> <Delay = 0.00>
@@ -716,7 +716,7 @@ ret_ln320                  (ret           ) [ 00000]
 <pin id="65" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -734,7 +734,7 @@ ret_ln320                  (ret           ) [ 00000]
 <pin id="69" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 

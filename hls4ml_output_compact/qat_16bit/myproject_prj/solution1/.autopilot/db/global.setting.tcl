@@ -1,10 +1,10 @@
 
-set TopModule "myproject"
+set TopModule "myproject_axi"
 set ClockPeriod 5
 set ClockList ap_clk
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0
-set PipelineFlag 1
+set PipelineFlag 0
 set DataflowTaskPipelineFlag 1
 set TrivialPipelineFlag 0
 set noPortSwitchingFlag 0
@@ -23,7 +23,7 @@ set ResetRegisterNum 0
 set FsmEncStyle onehot
 set MaxFanout 0
 set RtlPrefix {}
-set RtlSubPrefix myproject_
+set RtlSubPrefix myproject_axi_
 set ExtraCCFlags {}
 set ExtraCLdFlags {}
 set SynCheckOptions {}
@@ -42,8 +42,8 @@ set SCTraceFileName mytrace
 set SCTraceFileFormat vcd
 set SCTraceOption all
 set TargetInfo xck26:-sfvc784:-2LV-c
-set SourceFiles {sc {} c ../../firmware/myproject.cpp}
-set SourceFlags {sc {} c -std=c++0x}
+set SourceFiles {sc {} c {../../firmware/myproject_axi.cpp ../../firmware/myproject.cpp}}
+set SourceFlags {sc {} c {-std=c++0x -std=c++0x}}
 set DirectiveFile {}
 set TBFiles {verilog {../../tb_data ../../firmware/weights ../../myproject_test.cpp} bc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../myproject_test.cpp} sc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} cas {../../tb_data ../../firmware/weights ../../myproject_test.cpp} c {}}
 set SpecLanguage C

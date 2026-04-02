@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:34 2026
+* Date:           Sun Mar 29 16:30:10 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -38,9 +38,9 @@
         |                                                                                         |                                                                               |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
         |                                         Instance                                        |                                     Module                                    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
         +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
-        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |     1322|     1322|  6.610 us|  6.610 us|  1322|  1322|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |     1322|     1322|  6.610 us|  6.610 us|  1322|  1322|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
         +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
 
         * Loop: 
@@ -75,9 +75,9 @@
     +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
     |                                         Instance                                        |                                     Module                                    | BRAM_18K| DSP|  FF | LUT | URAM|
     +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
-    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |        0|   0|  112|  555|    0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |        0|   0|   10|   77|    0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |        0|   0|   10|   77|    0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |        0|   0|  112|  555|    0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |        0|   0|   10|   77|    0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |        0|   0|   10|   77|    0|
     +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
     |Total                                                                                    |                                                                               |        0|   0|  132|  709|    0|
     +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+----+-----+-----+-----+
@@ -101,18 +101,18 @@
     +-----------------+----------+----+---+----+------------+------------+
 
     * Multiplexer: 
-    +-----------------------------+----+-----------+-----+-----------+
-    |             Name            | LUT| Input Size| Bits| Total Bits|
-    +-----------------------------+----+-----------+-----+-----------+
-    |ap_NS_fsm                    |  49|          9|    1|          9|
-    |ap_done                      |   9|          2|    1|          2|
-    |input_4_TREADY_int_regslice  |   9|          2|    1|          2|
-    |layer24_out_din              |  14|          3|   32|         96|
-    |layer24_out_write            |  20|          4|    1|          4|
-    |real_start                   |   9|          2|    1|          2|
-    +-----------------------------+----+-----------+-----+-----------+
-    |Total                        | 110|         22|   37|        115|
-    +-----------------------------+----+-----------+-----+-----------+
+    +-------------------+----+-----------+-----+-----------+
+    |        Name       | LUT| Input Size| Bits| Total Bits|
+    +-------------------+----+-----------+-----+-----------+
+    |ap_NS_fsm          |  49|          9|    1|          9|
+    |ap_done            |   9|          2|    1|          2|
+    |input_local_read   |   9|          2|    1|          2|
+    |layer24_out_din    |  14|          3|   32|         96|
+    |layer24_out_write  |  20|          4|    1|          4|
+    |real_start         |   9|          2|    1|          2|
+    +-------------------+----+-----------+-----+-----------+
+    |Total              | 110|         22|   37|        115|
+    +-------------------+----+-----------+-----+-----------+
 
     * Register: 
     +------------------------------------------------------------------------------------------------------+---+----+-----+-----------+
@@ -120,9 +120,9 @@
     +------------------------------------------------------------------------------------------------------+---+----+-----+-----------+
     |ap_CS_fsm                                                                                             |  8|   0|    8|          0|
     |ap_done_reg                                                                                           |  1|   0|    1|          0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34_ap_start_reg      |  1|   0|    1|          0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28_ap_start_reg  |  1|   0|    1|          0|
-    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42_ap_start_reg          |  1|   0|    1|          0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28_ap_start_reg      |  1|   0|    1|          0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22_ap_start_reg  |  1|   0|    1|          0|
+    |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36_ap_start_reg          |  1|   0|    1|          0|
     |start_once_reg                                                                                        |  1|   0|    1|          0|
     +------------------------------------------------------------------------------------------------------+---+----+-----+-----------+
     |Total                                                                                                 | 13|   0|   13|          0|
@@ -147,9 +147,9 @@
 |ap_ready                    |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
 |start_out                   |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
 |start_write                 |  out|    1|  ap_ctrl_hs|  zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24>|  return value|
-|input_4_TDATA               |   in|   32|        axis|                                                                   input_4|       pointer|
-|input_4_TVALID              |   in|    1|        axis|                                                                   input_4|       pointer|
-|input_4_TREADY              |  out|    1|        axis|                                                                   input_4|       pointer|
+|input_local_dout            |   in|   32|     ap_fifo|                                                               input_local|       pointer|
+|input_local_empty_n         |   in|    1|     ap_fifo|                                                               input_local|       pointer|
+|input_local_read            |  out|    1|     ap_fifo|                                                               input_local|       pointer|
 |layer24_out_din             |  out|   32|     ap_fifo|                                                               layer24_out|       pointer|
 |layer24_out_num_data_valid  |   in|   12|     ap_fifo|                                                               layer24_out|       pointer|
 |layer24_out_fifo_cap        |   in|   12|     ap_fifo|                                                               layer24_out|       pointer|

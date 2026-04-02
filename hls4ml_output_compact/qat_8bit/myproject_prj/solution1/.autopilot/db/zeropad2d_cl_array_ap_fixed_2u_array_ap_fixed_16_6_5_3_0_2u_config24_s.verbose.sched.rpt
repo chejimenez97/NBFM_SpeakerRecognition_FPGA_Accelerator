@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'
 ================================================================
-* Date:           Sun Mar 22 09:52:07 2026
+* Date:           Mon Mar 30 19:10:23 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -89,25 +89,25 @@ State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 11 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadTopWidth, i32 %layer24_out"   --->   Operation 11 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 12 [1/1] (0.00ns)   --->   "%empty_73 = wait i32 @_ssdm_op_Wait"   --->   Operation 12 'wait' 'empty_73' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 12 [1/1] (0.00ns)   --->   "%empty_81 = wait i32 @_ssdm_op_Wait"   --->   Operation 12 'wait' 'empty_81' <Predicate = true> <Delay = 0.00>
 
-State 4 <SV = 3> <Delay = 1.00>
-ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%empty_74 = wait i32 @_ssdm_op_Wait"   --->   Operation 13 'wait' 'empty_74' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 14 [2/2] (1.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_6"   --->   Operation 14 'call' 'call_ln0' <Predicate = true> <Delay = 1.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%empty_82 = wait i32 @_ssdm_op_Wait"   --->   Operation 13 'wait' 'empty_82' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 14 [2/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_local"   --->   Operation 14 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 5 <SV = 4> <Delay = 0.00>
-ST_5 : Operation 15 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_6"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 15 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_local"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 16 [1/1] (0.00ns)   --->   "%empty_75 = wait i32 @_ssdm_op_Wait"   --->   Operation 16 'wait' 'empty_75' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 16 [1/1] (0.00ns)   --->   "%empty_83 = wait i32 @_ssdm_op_Wait"   --->   Operation 16 'wait' 'empty_83' <Predicate = true> <Delay = 0.00>
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 17 [1/1] (0.00ns)   --->   "%empty_76 = wait i32 @_ssdm_op_Wait"   --->   Operation 17 'wait' 'empty_76' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 17 [1/1] (0.00ns)   --->   "%empty_84 = wait i32 @_ssdm_op_Wait"   --->   Operation 17 'wait' 'empty_84' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 18 [2/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth, i32 %layer24_out"   --->   Operation 18 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 7> <Delay = 0.00>
-ST_8 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %input_6, void @empty_12, i32 1, i32 1, void @empty_21, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %input_local, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 21 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth, i32 %layer24_out"   --->   Operation 21 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_8 : Operation 22 [1/1] (0.00ns)   --->   "%ret_ln81 = ret" [firmware/nnet_utils/nnet_padding_stream.h:81]   --->   Operation 22 'ret' 'ret_ln81' <Predicate = true> <Delay = 0.00>
 
@@ -126,9 +126,8 @@ The critical path consists of the following:
  <State 3>: 0.000ns
 The critical path consists of the following:
 
- <State 4>: 1.000ns
+ <State 4>: 0.000ns
 The critical path consists of the following:
-	'call' operation 0 bit ('call_ln0') to 'zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain' [9]  (1.000 ns)
 
  <State 5>: 0.000ns
 The critical path consists of the following:

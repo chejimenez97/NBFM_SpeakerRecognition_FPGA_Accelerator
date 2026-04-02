@@ -7,29 +7,10 @@ if {${::AESL::PGuard_autoexp_gen}} {
     AESL_LIB_XILADAPTER::native_axis_begin
 }
 
-# Native AXIS:
-if {${::AESL::PGuard_autoexp_gen}} {
-if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
-eval "::AESL_LIB_XILADAPTER::native_axis_add { \
-    id 1560 \
-    name layer23_out \
-    reset_level 1 \
-    sync_rst true \
-    corename {} \
-    metadata {  } \
-    op interface \
-    ports { layer23_out_TDATA { O 160 vector } layer23_out_TVALID { O 1 bit } layer23_out_TREADY { I 1 bit } } \
-} "
-} else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'layer23_out'"
-}
-}
-
-
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1559 \
+    id 1566 \
     name layer21_out \
     type fifo \
     dir I \
@@ -38,6 +19,21 @@ eval "cg_default_interface_gen_dc { \
     corename dc_layer21_out \
     op interface \
     ports { layer21_out_dout { I 370 vector } layer21_out_num_data_valid { I 2 vector } layer21_out_fifo_cap { I 2 vector } layer21_out_empty_n { I 1 bit } layer21_out_read { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 1567 \
+    name output_local \
+    type fifo \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_output_local \
+    op interface \
+    ports { output_local_din { O 160 vector } output_local_full_n { I 1 bit } output_local_write { O 1 bit } } \
 } "
 }
 
@@ -102,29 +98,6 @@ if {${::AESL::PGuard_autoexp_gen}} {
     cg_default_interface_gen_dc_end
     cg_default_interface_gen_bundle_end
     AESL_LIB_XILADAPTER::native_axis_end
-}
-
-
-# RegSlice definition:
-set ID 1561
-set RegSliceName myproject_regslice_both
-set RegSliceInstName myproject_regslice_both_U
-set CoreName ap_simcore_myproject_regslice_both
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler $RegSliceName BINDTYPE interface TYPE interface_regslice INSTNAME $RegSliceInstName
-}
-
-
-if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
-if {[info proc ::AESL_LIB_VIRTEX::xil_gen_regSlice] == "::AESL_LIB_VIRTEX::xil_gen_regSlice"} {
-eval "::AESL_LIB_VIRTEX::xil_gen_regSlice { \
-    name ${RegSliceName} \
-    prefix myproject_ \
-    sliceTypeList 0\
-}"
-} else {
-puts "@W \[IMPL-107\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_regSlice, check your platform lib"
-}
 }
 
 

@@ -64,7 +64,7 @@ entry:0 %indvar_flatten = alloca i32 1
 
 <Node id="96" bw="0" op_0_bw="0" op_1_bw="192" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i192 %layer7_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i192 %layer7_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -79,7 +79,7 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i192 %l
 
 <Node id="97" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer25_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer25_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -817,7 +817,7 @@ for.cond.cleanup11.i:14 %br_ln27 = br void %for.body12.i
 </dataflow>
 <dataflow id="153" from="layer7_out" to="specinterface_ln0" fromId="56" toId="10">
 </dataflow>
-<dataflow id="155" from="empty_11" to="specinterface_ln0" fromId="154" toId="10">
+<dataflow id="155" from="empty_12" to="specinterface_ln0" fromId="154" toId="10">
 </dataflow>
 <dataflow id="157" from="StgValue_156" to="specinterface_ln0" fromId="156" toId="10">
 </dataflow>
@@ -855,7 +855,7 @@ for.cond.cleanup11.i:14 %br_ln27 = br void %for.body12.i
 </dataflow>
 <dataflow id="176" from="layer25_out" to="specinterface_ln0" fromId="55" toId="11">
 </dataflow>
-<dataflow id="177" from="empty_11" to="specinterface_ln0" fromId="154" toId="11">
+<dataflow id="177" from="empty_12" to="specinterface_ln0" fromId="154" toId="11">
 </dataflow>
 <dataflow id="178" from="StgValue_156" to="specinterface_ln0" fromId="156" toId="11">
 </dataflow>

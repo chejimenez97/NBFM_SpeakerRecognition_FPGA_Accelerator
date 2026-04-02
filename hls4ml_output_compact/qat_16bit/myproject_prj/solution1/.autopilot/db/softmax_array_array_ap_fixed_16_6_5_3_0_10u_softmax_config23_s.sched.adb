@@ -52,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>layer23_out</name>
+						<name>output_local</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -62,7 +62,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -76,7 +76,7 @@
 					<bitwidth>160</bitwidth>
 				</Value>
 				<direction>1</direction>
-				<if_type>0</if_type>
+				<if_type>3</if_type>
 				<array_size>0</array_size>
 				<bit_vecs>
 					<count>0</count>
@@ -327,8 +327,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1058</mMinLatency>
-			<mMaxLatency>1058</mMaxLatency>
+			<mMinLatency>1057</mMinLatency>
+			<mMaxLatency>1057</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -348,7 +348,7 @@
 		<item>
 			<first>7</first>
 			<second>
-				<first>2</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -360,7 +360,7 @@
 			<first>8</first>
 			<second class_id="31" tracking_level="0" version="0">
 				<first>0</first>
-				<second>2</second>
+				<second>1</second>
 			</second>
 		</item>
 	</bblk_ent_exit>

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'compute_output_buffer_2d_array_array_ap_fixed_40_20_5_3_0_8u_config7_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:40 2026
+* Date:           Sun Mar 29 16:30:16 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -315,7 +315,7 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 2.74>
-ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer7_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer7_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%p_read715 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read7"   --->   Operation 9 'read' 'p_read715' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%p_read614 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read6"   --->   Operation 10 'read' 'p_read614' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%p_read513 = read i16 @_ssdm_op_Read.ap_auto.i16, i16 %p_read5"   --->   Operation 11 'read' 'p_read513' <Predicate = true> <Delay = 0.00>
@@ -1515,7 +1515,7 @@ ret_ln320         (ret           ) [ 00000000]
 <pin id="205" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1533,7 +1533,7 @@ ret_ln320         (ret           ) [ 00000000]
 <pin id="209" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 

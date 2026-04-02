@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense_latency_wrapper_ap_ufixed_ap_fixed_21_14_5_3_0_config21_s'" level="0">
-<item name = "Date">Sun Mar 22 09:52:39 2026
+<item name = "Date">Mon Mar 30 19:10:56 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -61,11 +61,11 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_8ns_8s_16_1_1_U760">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
-<column name="mul_8ns_8s_16_1_1_U761">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
-<column name="mul_8ns_8s_16_1_1_U762">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
-<column name="mul_8ns_8s_16_1_1_U763">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
-<column name="mul_9ns_8s_16_1_1_U764">mul_9ns_8s_16_1_1, 0, 0, 0, 50, 0</column>
+<column name="mul_8ns_8s_16_1_1_U767">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
+<column name="mul_8ns_8s_16_1_1_U768">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
+<column name="mul_8ns_8s_16_1_1_U769">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
+<column name="mul_8ns_8s_16_1_1_U770">mul_8ns_8s_16_1_1, 0, 0, 0, 40, 0</column>
+<column name="mul_9ns_8s_16_1_1_U771">mul_9ns_8s_16_1_1, 0, 0, 0, 50, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -184,7 +184,7 @@
 <column name="add_ln58_99_fu_5723_p2">+, 0, 0, 16, 15, 15</column>
 <column name="add_ln58_9_fu_4694_p2">+, 0, 0, 22, 15, 10</column>
 <column name="add_ln58_fu_4578_p2">+, 0, 0, 20, 13, 12</column>
-<column name="empty_103_fu_5589_p2">+, 0, 0, 18, 10, 10</column>
+<column name="empty_115_fu_5589_p2">+, 0, 0, 18, 10, 10</column>
 <column name="tmp345171_fu_4828_p2">+, 0, 0, 16, 9, 9</column>
 <column name="tmp350_fu_4954_p2">+, 0, 0, 16, 9, 9</column>
 <column name="tmp352_fu_4965_p2">+, 0, 0, 16, 9, 9</column>
@@ -207,7 +207,7 @@
 <column name="x_18_fu_6196_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_19_fu_6236_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_fu_5934_p2">+, 0, 0, 16, 16, 16</column>
-<column name="empty_102_fu_5579_p2">-, 0, 0, 16, 9, 9</column>
+<column name="empty_114_fu_5579_p2">-, 0, 0, 16, 9, 9</column>
 <column name="empty_fu_5089_p2">-, 0, 0, 16, 9, 9</column>
 <column name="p_neg28_fu_6029_p2">-, 0, 0, 16, 1, 16</column>
 <column name="p_neg36_fu_4983_p2">-, 0, 0, 16, 1, 16</column>

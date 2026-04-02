@@ -745,7 +745,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1944729824</coreId>
+              <coreId>1701735968</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>7</bitwidth>
@@ -1342,7 +1342,7 @@
         <count>1</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>flow_control_loop_pipe_sequential_init_U (myproject_flow_control_loop_pipe_sequential_init)</first>
+          <first>flow_control_loop_pipe_sequential_init_U (myproject_axi_flow_control_loop_pipe_sequential_init)</first>
           <second class_id="37" tracking_level="0" version="0">
             <count>0</count>
             <item_version>0</item_version>

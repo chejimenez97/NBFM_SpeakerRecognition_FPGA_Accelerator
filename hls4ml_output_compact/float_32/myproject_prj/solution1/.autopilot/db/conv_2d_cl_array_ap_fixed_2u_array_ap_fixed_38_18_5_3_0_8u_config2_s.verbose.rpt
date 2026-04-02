@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_18_5_3_0_8u_config2_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:35 2026
+* Date:           Sun Mar 29 16:30:11 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -220,8 +220,8 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 1.65>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%indvar_flatten = alloca i32 1"   --->   Operation 8 'alloca' 'indvar_flatten' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i304 %layer2_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i304 %layer2_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 11 [1/1] (0.42ns)   --->   "%store_ln0 = store i11 0, i11 %indvar_flatten"   --->   Operation 11 'store' 'store_ln0' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln25 = br void %for.body12.i" [firmware/nnet_utils/nnet_conv2d_stream.h:25->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 12 'br' 'br_ln25' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%indvar_flatten_load = load i11 %indvar_flatten" [firmware/nnet_utils/nnet_conv2d_stream.h:25->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 13 'load' 'indvar_flatten_load' <Predicate = true> <Delay = 0.00>
@@ -246,7 +246,7 @@ ST_4 : Operation 23 [2/4] (0.00ns)   --->   "%call_ln32 = call void @compute_out
 State 5 <SV = 4> <Delay = 0.00>
 ST_5 : Operation 24 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @ReadInputHeight_ReadInputWidth_str"   --->   Operation 24 'specloopname' 'specloopname_ln0' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 25 [1/1] (0.00ns)   --->   "%speclooptripcount_ln0 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 1452, i64 1452, i64 1452"   --->   Operation 25 'speclooptripcount' 'speclooptripcount_ln0' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 26 [1/1] (0.00ns)   --->   "%specpipeline_ln29 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_6" [firmware/nnet_utils/nnet_conv2d_stream.h:29->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 26 'specpipeline' 'specpipeline_ln29' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 26 [1/1] (0.00ns)   --->   "%specpipeline_ln29 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_conv2d_stream.h:29->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 26 'specpipeline' 'specpipeline_ln29' <Predicate = true> <Delay = 0.00>
 ST_5 : Operation 27 [1/4] (0.00ns)   --->   "%call_ln32 = call void @compute_output_buffer_2d<array,array<ap_fixed<38,18,5,3,0>,8u>,config2>, i16 %trunc_ln32, i16 %trunc_ln32_s, i304 %layer2_out, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25, i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137, i16 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_35, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_33, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_34, i16 %p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_32, i32 %sX_5, i32 %sY_5, i32 %pY_5, i32 %pX_5" [firmware/nnet_utils/nnet_conv2d_stream.h:32->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 27 'call' 'call_ln32' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_5 : Operation 28 [1/1] (0.00ns)   --->   "%br_ln27 = br void %for.body12.i" [firmware/nnet_utils/nnet_conv2d_stream.h:27->firmware/nnet_utils/nnet_conv2d_stream.h:76]   --->   Operation 28 'br' 'br_ln27' <Predicate = true> <Delay = 0.00>
 
@@ -599,7 +599,7 @@ ret_ln82              (ret              ) [ 000000]
 <pin id="61" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -617,7 +617,7 @@ ret_ln82              (ret              ) [ 000000]
 <pin id="65" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 

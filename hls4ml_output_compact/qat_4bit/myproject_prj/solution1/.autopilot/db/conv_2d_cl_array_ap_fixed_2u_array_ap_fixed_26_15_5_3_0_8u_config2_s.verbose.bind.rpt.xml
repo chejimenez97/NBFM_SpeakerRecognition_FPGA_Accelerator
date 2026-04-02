@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_26_15_5_3_0_8u_config2_s'" level="0">
-<item name = "Date">Sun Mar 22 09:55:01 2026
+<item name = "Date">Mon Mar 30 19:13:27 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>

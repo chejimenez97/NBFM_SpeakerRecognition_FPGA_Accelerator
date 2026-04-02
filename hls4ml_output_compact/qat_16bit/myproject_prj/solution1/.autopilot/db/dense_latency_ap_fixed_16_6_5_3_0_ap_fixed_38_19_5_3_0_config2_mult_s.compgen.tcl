@@ -1,54 +1,54 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_mul_16s_9ns_25_1_0
+set name myproject_axi_mul_16s_9ns_25_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_8s_24_1_0
+set name myproject_axi_mul_16s_8s_24_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_6ns_22_1_0
+set name myproject_axi_mul_16s_6ns_22_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_7s_23_1_0
+set name myproject_axi_mul_16s_7s_23_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_8ns_24_1_0
+set name myproject_axi_mul_16s_8ns_24_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_9s_25_1_0
+set name myproject_axi_mul_16s_9s_25_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_6s_22_1_0
+set name myproject_axi_mul_16s_6s_22_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_7ns_23_1_0
+set name myproject_axi_mul_16s_7ns_23_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16s_5ns_21_1_0
+set name myproject_axi_mul_16s_5ns_21_1_0
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -64,7 +64,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 130 \
+    id 137 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29 \
     type other \
     dir I \
@@ -79,7 +79,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 131 \
+    id 138 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28 \
     type other \
     dir I \
@@ -94,7 +94,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 132 \
+    id 139 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 \
     type other \
     dir I \
@@ -109,7 +109,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 133 \
+    id 140 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 \
     type other \
     dir I \
@@ -124,7 +124,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 134 \
+    id 141 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 \
     type other \
     dir I \
@@ -139,7 +139,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 135 \
+    id 142 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 \
     type other \
     dir I \
@@ -154,7 +154,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 136 \
+    id 143 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23 \
     type other \
     dir I \
@@ -169,7 +169,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 137 \
+    id 144 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22 \
     type other \
     dir I \
@@ -184,7 +184,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 138 \
+    id 145 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21 \
     type other \
     dir I \
@@ -199,7 +199,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 139 \
+    id 146 \
     name void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20 \
     type other \
     dir I \
@@ -214,7 +214,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 140 \
+    id 147 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_7 \
     type other \
     dir I \
@@ -229,7 +229,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 141 \
+    id 148 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_6 \
     type other \
     dir I \
@@ -244,7 +244,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 142 \
+    id 149 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_5 \
     type other \
     dir I \
@@ -259,7 +259,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 143 \
+    id 150 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_4 \
     type other \
     dir I \
@@ -274,7 +274,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 144 \
+    id 151 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_3 \
     type other \
     dir I \
@@ -289,7 +289,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 145 \
+    id 152 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_2 \
     type other \
     dir I \
@@ -304,7 +304,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 146 \
+    id 153 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_1 \
     type other \
     dir I \
@@ -319,7 +319,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 147 \
+    id 154 \
     name p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9 \
     type other \
     dir I \

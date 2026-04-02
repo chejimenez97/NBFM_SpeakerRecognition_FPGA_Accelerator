@@ -136,8 +136,9 @@ if {$opt(reset)} {
 } else {
     open_project ${project_name}_prj
 }
-set_top ${project_name}
+set_top ${project_name}_axi
 add_files firmware/${project_name}.cpp -cflags "-std=c++0x"
+add_files firmware/${project_name}_axi.cpp -cflags "-std=c++0x"
 add_files -tb ${project_name}_test.cpp -cflags "-std=c++0x"
 add_files -tb firmware/weights
 add_files -tb tb_data

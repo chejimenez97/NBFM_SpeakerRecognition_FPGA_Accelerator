@@ -1,0 +1,70 @@
+
+wire kernel_monitor_reset;
+wire kernel_monitor_clock;
+wire kernel_monitor_report;
+assign kernel_monitor_reset = ~ap_rst_n;
+assign kernel_monitor_clock = ap_clk;
+assign kernel_monitor_report = 1'b0;
+wire [1:0] axis_block_sigs;
+wire [18:0] inst_idle_sigs;
+wire [15:0] inst_block_sigs;
+wire kernel_block;
+
+assign axis_block_sigs[0] = ~grp_myproject_axi_Pipeline_VITIS_LOOP_30_1_fu_1298.in_stream_TDATA_blk_n;
+assign axis_block_sigs[1] = ~grp_myproject_axi_Pipeline_VITIS_LOOP_59_2_fu_2377.out_stream_TDATA_blk_n;
+
+assign inst_idle_sigs[0] = grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0.ap_idle;
+assign inst_block_sigs[0] = (grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0.ap_done & ~grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0.ap_continue);
+assign inst_idle_sigs[1] = grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_18_5_3_0_8u_config2_U0.ap_idle;
+assign inst_block_sigs[1] = (grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_18_5_3_0_8u_config2_U0.ap_done & ~grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_2u_array_ap_fixed_38_18_5_3_0_8u_config2_U0.ap_continue);
+assign inst_idle_sigs[2] = grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config5_U0.ap_idle;
+assign inst_block_sigs[2] = (grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config5_U0.ap_done & ~grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config5_U0.ap_continue);
+assign inst_idle_sigs[3] = grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config6_U0.ap_idle;
+assign inst_block_sigs[3] = (grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config6_U0.ap_done & ~grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config6_U0.ap_continue);
+assign inst_idle_sigs[4] = grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config25_U0.ap_idle;
+assign inst_block_sigs[4] = (grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config25_U0.ap_done & ~grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config25_U0.ap_continue);
+assign inst_idle_sigs[5] = grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config7_U0.ap_idle;
+assign inst_block_sigs[5] = (grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config7_U0.ap_done & ~grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config7_U0.ap_continue);
+assign inst_idle_sigs[6] = grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config10_U0.ap_idle;
+assign inst_block_sigs[6] = (grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config10_U0.ap_done & ~grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config10_U0.ap_continue);
+assign inst_idle_sigs[7] = grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config11_U0.ap_idle;
+assign inst_block_sigs[7] = (grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config11_U0.ap_done & ~grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config11_U0.ap_continue);
+assign inst_idle_sigs[8] = grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config26_U0.ap_idle;
+assign inst_block_sigs[8] = (grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config26_U0.ap_done & ~grp_myproject_fu_1317.zeropad2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config26_U0.ap_continue);
+assign inst_idle_sigs[9] = grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config12_U0.ap_idle;
+assign inst_block_sigs[9] = (grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config12_U0.ap_done & ~grp_myproject_fu_1317.conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_40_20_5_3_0_8u_config12_U0.ap_continue);
+assign inst_idle_sigs[10] = grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config15_U0.ap_idle;
+assign inst_block_sigs[10] = (grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config15_U0.ap_done & ~grp_myproject_fu_1317.relu_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_relu_config15_U0.ap_continue);
+assign inst_idle_sigs[11] = grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.ap_idle;
+assign inst_block_sigs[11] = (grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.ap_done & ~grp_myproject_fu_1317.pooling2d_cl_array_ap_fixed_8u_array_ap_fixed_16_6_5_3_0_8u_config16_U0.ap_continue);
+assign inst_idle_sigs[12] = grp_myproject_fu_1317.dense_array_ap_fixed_8u_array_ap_fixed_37_17_5_3_0_16u_config18_U0.ap_idle;
+assign inst_block_sigs[12] = (grp_myproject_fu_1317.dense_array_ap_fixed_8u_array_ap_fixed_37_17_5_3_0_16u_config18_U0.ap_done & ~grp_myproject_fu_1317.dense_array_ap_fixed_8u_array_ap_fixed_37_17_5_3_0_16u_config18_U0.ap_continue);
+assign inst_idle_sigs[13] = grp_myproject_fu_1317.relu_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_relu_config20_U0.ap_idle;
+assign inst_block_sigs[13] = (grp_myproject_fu_1317.relu_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_relu_config20_U0.ap_done & ~grp_myproject_fu_1317.relu_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_relu_config20_U0.ap_continue);
+assign inst_idle_sigs[14] = grp_myproject_fu_1317.dense_array_ap_fixed_16u_array_ap_fixed_37_17_5_3_0_10u_config21_U0.ap_idle;
+assign inst_block_sigs[14] = (grp_myproject_fu_1317.dense_array_ap_fixed_16u_array_ap_fixed_37_17_5_3_0_10u_config21_U0.ap_done & ~grp_myproject_fu_1317.dense_array_ap_fixed_16u_array_ap_fixed_37_17_5_3_0_10u_config21_U0.ap_continue);
+assign inst_idle_sigs[15] = grp_myproject_fu_1317.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.ap_idle;
+assign inst_block_sigs[15] = (grp_myproject_fu_1317.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.ap_done & ~grp_myproject_fu_1317.softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0.ap_continue);
+
+assign inst_idle_sigs[16] = 1'b0;
+assign inst_idle_sigs[17] = grp_myproject_axi_Pipeline_VITIS_LOOP_30_1_fu_1298.ap_idle;
+assign inst_idle_sigs[18] = grp_myproject_axi_Pipeline_VITIS_LOOP_59_2_fu_2377.ap_idle;
+
+myproject_axi_hls_deadlock_idx0_monitor myproject_axi_hls_deadlock_idx0_monitor_U (
+    .clock(kernel_monitor_clock),
+    .reset(kernel_monitor_reset),
+    .axis_block_sigs(axis_block_sigs),
+    .inst_idle_sigs(inst_idle_sigs),
+    .inst_block_sigs(inst_block_sigs),
+    .block(kernel_block)
+);
+
+
+always @ (kernel_block or kernel_monitor_reset) begin
+    if (kernel_block == 1'b1 && kernel_monitor_reset == 1'b0) begin
+        find_kernel_block = 1'b1;
+    end
+    else begin
+        find_kernel_block = 1'b0;
+    end
+end

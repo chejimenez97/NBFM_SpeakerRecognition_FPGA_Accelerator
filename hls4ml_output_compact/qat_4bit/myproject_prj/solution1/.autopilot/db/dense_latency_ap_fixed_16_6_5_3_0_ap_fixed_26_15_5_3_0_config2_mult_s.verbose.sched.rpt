@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_26_15_5_3_0_config2_mult_s'
 ================================================================
-* Date:           Sun Mar 22 09:55:00 2026
+* Date:           Mon Mar 30 19:13:27 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -79,8 +79,8 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 2.39>
-ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 2 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 44, void @empty_12, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 3 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_20" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 2 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 44, void @empty_14, void @empty_20, void @empty_20, void @empty_20" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 3 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%a = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24"   --->   Operation 4 'load' 'a' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i15 @_ssdm_op_PartSelect.i15.i16.i32.i32, i16 %a, i32 1, i32 15" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 5 'partselect' 'trunc_ln' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%sext_ln42 = sext i15 %trunc_ln" [firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 6 'sext' 'sext_ln42' <Predicate = true> <Delay = 0.00>

@@ -52,7 +52,7 @@
             <Obj>
               <type>1</type>
               <id>2</id>
-              <name>layer23_out</name>
+              <name>output_local</name>
               <fileName/>
               <fileDirectory/>
               <lineNumber>0</lineNumber>
@@ -62,7 +62,7 @@
                 <count>0</count>
                 <item_version>0</item_version>
               </inlineStackInfo>
-              <originalName>res</originalName>
+              <originalName/>
               <rtlName/>
               <control/>
               <opType/>
@@ -76,7 +76,7 @@
             <bitwidth>160</bitwidth>
           </Value>
           <direction>1</direction>
-          <if_type>0</if_type>
+          <if_type>3</if_type>
           <array_size>0</array_size>
           <bit_vecs>
             <count>0</count>
@@ -117,7 +117,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24</rtlName>
+              <rtlName>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -228,7 +228,7 @@
               <coreName/>
               <isStorage>0</isStorage>
               <storageDepth>0</storageDepth>
-              <coreId>1885415456</coreId>
+              <coreId>742273056</coreId>
               <rtlModuleName/>
             </Obj>
             <bitwidth>0</bitwidth>
@@ -327,15 +327,15 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>1057</mMinLatency>
-        <mMaxLatency>1057</mMaxLatency>
+        <mMinLatency>1056</mMinLatency>
+        <mMaxLatency>1056</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
     </cdfg_regions>
     <fsm class_id="24" tracking_level="1" version="0" object_id="_12">
       <states class_id="25" tracking_level="0" version="0">
-        <count>3</count>
+        <count>2</count>
         <item_version>0</item_version>
         <item class_id="26" tracking_level="1" version="0" object_id="_13">
           <id>1</id>
@@ -352,31 +352,24 @@
         <item class_id_reference="26" object_id="_15">
           <id>2</id>
           <operations>
-            <count>1</count>
+            <count>4</count>
             <item_version>0</item_version>
             <item class_id_reference="28" object_id="_16">
-              <id>6</id>
-              <stage>1</stage>
-              <latency>2</latency>
-            </item>
-          </operations>
-        </item>
-        <item class_id_reference="26" object_id="_17">
-          <id>3</id>
-          <operations>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item class_id_reference="28" object_id="_18">
               <id>4</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_19">
+            <item class_id_reference="28" object_id="_17">
               <id>5</id>
               <stage>1</stage>
               <latency>1</latency>
             </item>
-            <item class_id_reference="28" object_id="_20">
+            <item class_id_reference="28" object_id="_18">
+              <id>6</id>
+              <stage>1</stage>
+              <latency>2</latency>
+            </item>
+            <item class_id_reference="28" object_id="_19">
               <id>7</id>
               <stage>1</stage>
               <latency>1</latency>
@@ -385,9 +378,9 @@
         </item>
       </states>
       <transitions class_id="29" tracking_level="0" version="0">
-        <count>2</count>
+        <count>1</count>
         <item_version>0</item_version>
-        <item class_id="30" tracking_level="1" version="0" object_id="_21">
+        <item class_id="30" tracking_level="1" version="0" object_id="_20">
           <inState>1</inState>
           <outState>2</outState>
           <condition class_id="31" tracking_level="0" version="0">
@@ -402,29 +395,14 @@
             </sop>
           </condition>
         </item>
-        <item class_id_reference="30" object_id="_22">
-          <inState>2</inState>
-          <outState>3</outState>
-          <condition>
-            <id>-1</id>
-            <sop>
-              <count>1</count>
-              <item_version>0</item_version>
-              <item>
-                <count>0</count>
-                <item_version>0</item_version>
-              </item>
-            </sop>
-          </condition>
-        </item>
       </transitions>
     </fsm>
-    <res class_id="34" tracking_level="1" version="0" object_id="_23">
+    <res class_id="34" tracking_level="1" version="0" object_id="_21">
       <dp_component_resource class_id="35" tracking_level="0" version="0">
-        <count>2</count>
+        <count>1</count>
         <item_version>0</item_version>
         <item class_id="36" tracking_level="0" version="0">
-          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24 (softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s)</first>
+          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 (softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s)</first>
           <second class_id="37" tracking_level="0" version="0">
             <count>5</count>
             <item_version>0</item_version>
@@ -438,7 +416,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>1602</second>
+              <second>1762</second>
             </item>
             <item>
               <first>LUT</first>
@@ -450,42 +428,12 @@
             </item>
           </second>
         </item>
-        <item>
-          <first>regslice_both_layer23_out_U (myproject_regslice_both)</first>
-          <second>
-            <count>0</count>
-            <item_version>0</item_version>
-          </second>
-        </item>
       </dp_component_resource>
       <dp_expression_resource>
-        <count>2</count>
+        <count>1</count>
         <item_version>0</item_version>
         <item>
           <first>ap_block_state1 ( or ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>2</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24_layer23_out_TREADY ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -517,7 +465,7 @@
         <item_version>0</item_version>
       </dp_memory_resource>
       <dp_multiplexer_resource>
-        <count>3</count>
+        <count>4</count>
         <item_version>0</item_version>
         <item>
           <first>ap_NS_fsm</first>
@@ -526,7 +474,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0Size)</first>
-              <second>4</second>
+              <second>3</second>
             </item>
             <item>
               <first>(1Bits)</first>
@@ -534,11 +482,11 @@
             </item>
             <item>
               <first>(2Count)</first>
-              <second>4</second>
+              <second>3</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>20</second>
+              <second>14</second>
             </item>
           </second>
         </item>
@@ -588,6 +536,29 @@
             </item>
           </second>
         </item>
+        <item>
+          <first>output_local_write</first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0Size)</first>
+              <second>2</second>
+            </item>
+            <item>
+              <first>(1Bits)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(2Count)</first>
+              <second>2</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>9</second>
+            </item>
+          </second>
+        </item>
       </dp_multiplexer_resource>
       <dp_register_resource>
         <count>3</count>
@@ -599,7 +570,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>3</second>
+              <second>2</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -607,7 +578,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>3</second>
+              <second>2</second>
             </item>
           </second>
         </item>
@@ -631,7 +602,7 @@
           </second>
         </item>
         <item>
-          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24_ap_start_reg</first>
+          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18_ap_start_reg</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -651,17 +622,10 @@
         </item>
       </dp_register_resource>
       <dp_dsp_resource>
-        <count>2</count>
+        <count>1</count>
         <item_version>0</item_version>
         <item>
-          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24</first>
-          <second>
-            <count>0</count>
-            <item_version>0</item_version>
-          </second>
-        </item>
-        <item>
-          <first>regslice_both_layer23_out_U</first>
+          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18</first>
           <second>
             <count>0</count>
             <item_version>0</item_version>
@@ -672,7 +636,7 @@
         <count>1</count>
         <item_version>0</item_version>
         <item class_id="40" tracking_level="0" version="0">
-          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24 (softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s)</first>
+          <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 (softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s)</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -706,7 +670,7 @@
       <item>
         <first>7</first>
         <second>
-          <first>2</first>
+          <first>1</first>
           <second>0</second>
         </second>
       </item>
@@ -718,7 +682,7 @@
         <first>8</first>
         <second class_id="46" tracking_level="0" version="0">
           <first>0</first>
-          <second>2</second>
+          <second>1</second>
         </second>
       </item>
     </bblk_ent_exit>
@@ -730,7 +694,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item class_id="49" tracking_level="0" version="0">
-        <first>24</first>
+        <first>18</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -747,7 +711,7 @@
       <count>1</count>
       <item_version>0</item_version>
       <item class_id="52" tracking_level="0" version="0">
-        <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24</first>
+        <first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -814,7 +778,7 @@
         </second>
       </item>
       <item>
-        <first>layer23_out</first>
+        <first>output_local</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

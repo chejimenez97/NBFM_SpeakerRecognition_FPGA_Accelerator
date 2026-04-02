@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'" level="0">
-<item name = "Date">Sun Mar 22 09:48:37 2026
+<item name = "Date">Mon Mar 30 19:06:31 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -31,9 +31,9 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth, 68, 68, 0.340 us, 0.340 us, 68, 68, no</column>
-<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain, 1322, 1322, 6.610 us, 6.610 us, 1322, 1322, no</column>
-<column name="grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42">zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth, 68, 68, 0.340 us, 0.340 us, 68, 68, no</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth, 68, 68, 0.340 us, 0.340 us, 68, 68, no</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28">zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain, 1322, 1322, 6.610 us, 6.610 us, 1322, 1322, no</column>
+<column name="grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36">zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth, 68, 68, 0.340 us, 0.340 us, 68, 68, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

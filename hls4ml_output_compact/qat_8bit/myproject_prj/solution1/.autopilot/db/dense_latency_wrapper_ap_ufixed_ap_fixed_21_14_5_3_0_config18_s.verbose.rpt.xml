@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'dense_latency_wrapper_ap_ufixed_ap_fixed_21_14_5_3_0_config18_s'" level="0">
-<item name = "Date">Sun Mar 22 09:52:38 2026
+<item name = "Date">Mon Mar 30 19:10:54 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -252,7 +252,7 @@
 <column name="x_32_fu_3476_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_34_fu_3682_p2">+, 0, 0, 16, 16, 16</column>
 <column name="x_fu_2680_p2">+, 0, 0, 16, 16, 16</column>
-<column name="empty_104_fu_1404_p2">-, 0, 0, 16, 9, 9</column>
+<column name="empty_116_fu_1404_p2">-, 0, 0, 16, 9, 9</column>
 <column name="empty_fu_2584_p2">-, 0, 0, 16, 9, 9</column>
 <column name="mult_11_fu_432_p2">-, 0, 0, 21, 14, 14</column>
 <column name="mult_15_fu_1591_p2">-, 0, 0, 22, 15, 15</column>
@@ -396,7 +396,7 @@
 <column name="data_6_val7_read_reg_4065">8, 0, 8, 0</column>
 <column name="data_7_val8_read_reg_4060">8, 0, 8, 0</column>
 <column name="data_8_val9_read_reg_4054">8, 0, 8, 0</column>
-<column name="empty_104_reg_4373">9, 0, 9, 0</column>
+<column name="empty_116_reg_4373">9, 0, 9, 0</column>
 <column name="mult_17_reg_4102">8, 0, 11, 3</column>
 <column name="mult_19_reg_4108">11, 0, 14, 3</column>
 <column name="mult_23_reg_4123">11, 0, 14, 3</column>

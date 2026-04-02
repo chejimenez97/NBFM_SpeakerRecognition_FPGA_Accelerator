@@ -1165,9 +1165,6 @@ firmware/nnet_utils/nnet_pooling_stream.h:328:9: warning: HLS pragma dump _XLX_S
 firmware/nnet_utils/nnet_pooling_stream.h:334:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=global_pooling1d_cl_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS UNROLL
         ^
-/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/build_prj.tcl:169:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=name=myproject_XLX_SEP_ [-Wdump-hls-pragmas]
-#pragma HLSDIRECTIVE TOP name=myproject
-        ^
 firmware/myproject.cpp:13:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=axis port=input_4,layer23_out_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS INTERFACE axis port=input_4,layer23_out
         ^
@@ -1219,4 +1216,4 @@ firmware/myproject.cpp:79:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_
 firmware/myproject.cpp:82:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_XLX_SEP_ PragmaOptions=variable=layer21_out depth=1_XLX_SEP_ [-Wdump-hls-pragmas]
 #pragma HLS STREAM variable=layer21_out depth=1
         ^
-386 warnings generated.
+385 warnings generated.

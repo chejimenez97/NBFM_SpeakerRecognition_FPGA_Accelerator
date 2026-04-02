@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'init_exp_table_ap_ufixed_36_16_5_3_0_softmax_config23_s'" level="0">
-<item name = "Date">Sun Mar 22 09:45:53 2026
+<item name = "Date">Sun Mar 29 16:30:29 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -62,8 +62,8 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="fexp_32ns_32ns_32_13_full_dsp_1_U1540">fexp_32ns_32ns_32_13_full_dsp_1, 0, 7, 381, 939, 0</column>
-<column name="fpext_32ns_64_2_no_dsp_1_U1539">fpext_32ns_64_2_no_dsp_1, 0, 0, 0, 0, 0</column>
+<column name="fexp_32ns_32ns_32_13_full_dsp_1_U1547">fexp_32ns_32ns_32_13_full_dsp_1, 0, 7, 381, 939, 0</column>
+<column name="fpext_32ns_64_2_no_dsp_1_U1546">fpext_32ns_64_2_no_dsp_1, 0, 0, 0, 0, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">
@@ -194,7 +194,7 @@
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
 <column name="ap_done_int">9, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">9, 2, 1, 2</column>
-<column name="ap_sig_allocacmp_i_13">9, 2, 11, 22</column>
+<column name="ap_sig_allocacmp_i_15">9, 2, 11, 22</column>
 <column name="i_fu_158">9, 2, 11, 22</column>
 </table>
 </item>
@@ -245,7 +245,7 @@
 <column name="ap_loop_exit_ready_pp0_iter9_reg">1, 0, 1, 0</column>
 <column name="bit_select59_i_reg_1305">1, 0, 1, 0</column>
 <column name="bit_select_i_i_i_reg_1213">1, 0, 1, 0</column>
-<column name="i_13_reg_1179">11, 0, 11, 0</column>
+<column name="i_15_reg_1179">11, 0, 11, 0</column>
 <column name="i_fu_158">11, 0, 11, 0</column>
 <column name="icmp_ln138_1_reg_1203">1, 0, 1, 0</column>
 <column name="icmp_ln138_2_reg_1208">1, 0, 1, 0</column>
@@ -272,7 +272,7 @@
 <column name="shl_ln138_reg_1228">36, 0, 36, 0</column>
 <column name="shl_ln159_reg_1358">18, 0, 18, 0</column>
 <column name="tmp_14_reg_1335">1, 0, 1, 0</column>
-<column name="tmp_6_reg_1238">32, 0, 32, 0</column>
+<column name="tmp_5_reg_1238">32, 0, 32, 0</column>
 <column name="tmp_7_reg_1244">1, 0, 1, 0</column>
 <column name="tmp_8_reg_1253">11, 0, 11, 0</column>
 <column name="trunc_ln138_1_reg_1193">8, 0, 8, 0</column>
@@ -281,9 +281,9 @@
 <column name="trunc_ln159_8_reg_1348">6, 0, 6, 0</column>
 <column name="x_10_reg_1233">32, 0, 32, 0</column>
 <column name="xor_ln159_3_reg_1385">1, 0, 1, 0</column>
-<column name="i_13_reg_1179">64, 32, 11, 0</column>
+<column name="i_15_reg_1179">64, 32, 11, 0</column>
 <column name="icmp_ln159_reg_1263">64, 32, 1, 0</column>
-<column name="tmp_6_reg_1238">64, 32, 32, 0</column>
+<column name="tmp_5_reg_1238">64, 32, 32, 0</column>
 <column name="tmp_7_reg_1244">64, 32, 1, 0</column>
 </table>
 </item>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'myproject'" level="0">
-<item name = "Date">Sun Mar 22 09:49:28 2026
+<item name = "Date">Mon Mar 30 19:07:23 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -49,7 +49,7 @@
 <column name="dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_U0">dense_array_ap_ufixed_8u_array_ap_fixed_37_18_5_3_0_16u_config18_s, 8, 8, 40.000 ns, 40.000 ns, 8, 8, no</column>
 <column name="relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_U0">relu_array_ap_fixed_16u_array_ap_ufixed_16_6_4_0_0_16u_relu_config20_s, 1, 1, 5.000 ns, 5.000 ns, 1, 1, no</column>
 <column name="dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_U0">dense_array_ap_ufixed_16u_array_ap_fixed_37_18_5_3_0_10u_config21_s, 3, 3, 15.000 ns, 15.000 ns, 3, 3, no</column>
-<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 1058, 1058, 5.290 us, 5.290 us, 1058, 1058, no</column>
+<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 1057, 1057, 5.285 us, 5.285 us, 1057, 1057, no</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -68,7 +68,7 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 2, -</column>
 <column name="FIFO">238, -, 2640, 1083, -</column>
-<column name="Instance">2, 793, 40757, 99954, 0</column>
+<column name="Instance">2, 793, 40916, 99955, 0</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, -, -</column>
 <column name="Register">-, -, -, -, -</column>
@@ -95,7 +95,7 @@
 <column name="relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0">relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s, 0, 0, 191, 2285, 0</column>
 <column name="relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_U0">relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config15_s, 0, 0, 188, 2279, 0</column>
 <column name="relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_U0">relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config5_s, 0, 0, 193, 2241, 0</column>
-<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 2, 17, 2054, 5038, 0</column>
+<column name="softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0">softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s, 2, 17, 2213, 5039, 0</column>
 <column name="zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_U0">zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s, 0, 0, 145, 821, 0</column>
 <column name="zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_U0">zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config25_s, 0, 0, 205, 605, 0</column>
 <column name="zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0">zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_s, 0, 0, 172, 449, 0</column>
@@ -151,18 +151,19 @@
 <section name = "Interface" level="0">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
-<column name="input_5_TDATA">in, 32, axis, input_5, pointer</column>
-<column name="input_5_TVALID">in, 1, axis, input_5, pointer</column>
-<column name="input_5_TREADY">out, 1, axis, input_5, pointer</column>
-<column name="layer23_out_TDATA">out, 160, axis, layer23_out, pointer</column>
-<column name="layer23_out_TVALID">out, 1, axis, layer23_out, pointer</column>
-<column name="layer23_out_TREADY">in, 1, axis, layer23_out, pointer</column>
+<column name="input_local_dout">in, 32, ap_fifo, input_local, pointer</column>
+<column name="input_local_empty_n">in, 1, ap_fifo, input_local, pointer</column>
+<column name="input_local_read">out, 1, ap_fifo, input_local, pointer</column>
+<column name="output_local_din">out, 160, ap_fifo, output_local, pointer</column>
+<column name="output_local_full_n">in, 1, ap_fifo, output_local, pointer</column>
+<column name="output_local_write">out, 1, ap_fifo, output_local, pointer</column>
 <column name="ap_clk">in, 1, ap_ctrl_hs, myproject, return value</column>
-<column name="ap_rst_n">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, myproject, return value</column>
 <column name="ap_start">in, 1, ap_ctrl_hs, myproject, return value</column>
 <column name="ap_done">out, 1, ap_ctrl_hs, myproject, return value</column>
 <column name="ap_ready">out, 1, ap_ctrl_hs, myproject, return value</column>
 <column name="ap_idle">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_continue">in, 1, ap_ctrl_hs, myproject, return value</column>
 </table>
 </item>
 </section>

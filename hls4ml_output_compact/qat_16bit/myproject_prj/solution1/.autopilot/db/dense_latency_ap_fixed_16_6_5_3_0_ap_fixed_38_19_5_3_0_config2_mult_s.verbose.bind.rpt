@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_38_19_5_3_0_config2_mult_s'
 ================================================================
-* Date:           Sun Mar 22 09:48:38 2026
+* Date:           Mon Mar 30 19:06:33 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -719,7 +719,7 @@ ST_1 : Operation 638 [1/1] (0.77ns) (root node of TernaryAdder)   --->   "%add_l
 
 State 2 <SV = 1> <Delay = 3.10>
 ST_2 : Operation 639 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 639 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 640 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 143, void @empty_13, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 640 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 640 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 143, void @empty_25, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 640 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 641 [1/1] (0.00ns)   --->   "%shl_ln = bitconcatenate i22 @_ssdm_op_BitConcatenate.i22.i16.i6, i16 %a, i6 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 641 'bitconcatenate' 'shl_ln' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 642 [1/1] (0.00ns)   --->   "%sext_ln73 = sext i22 %shl_ln" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 642 'sext' 'sext_ln73' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 643 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_ln73 = sub i23 0, i23 %sext_ln73" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 643 'sub' 'sub_ln73' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
@@ -3106,7 +3106,7 @@ ret_ln33               (ret              ) [ 000]
 <pin id="295" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_13"/></StgValue>
+<StgValue><ssdm name="empty_25"/></StgValue>
 </bind>
 </comp>
 

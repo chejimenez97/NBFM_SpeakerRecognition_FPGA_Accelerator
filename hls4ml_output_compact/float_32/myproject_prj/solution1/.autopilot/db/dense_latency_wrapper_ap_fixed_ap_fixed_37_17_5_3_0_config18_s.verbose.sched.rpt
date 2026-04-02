@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_wrapper_ap_fixed_ap_fixed_37_17_5_3_0_config18_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:30 2026
+* Date:           Sun Mar 29 16:30:05 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -936,8 +936,8 @@ ST_1 : Operation 855 [1/1] (0.00ns)   --->   "%sext_ln58_51 = sext i13 %add_ln58
 ST_1 : Operation 856 [1/1] (0.82ns)   --->   "%add_ln58_411 = add i14 %sext_ln58_51, i14 %sext_ln17_36" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 856 'add' 'add_ln58_411' <Predicate = true> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 2 <SV = 1> <Delay = 3.12>
-ST_2 : Operation 857 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_6" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 857 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 858 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 256, void @empty_12, void @empty_6, void @empty_6, void @empty_6" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 858 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 857 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 857 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 858 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 256, void @empty_11, void @empty_0, void @empty_0, void @empty_0" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 858 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 859 [1/1] (0.00ns)   --->   "%sext_ln42_30 = sext i14 %mult_14" [firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 859 'sext' 'sext_ln42_30' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 860 [1/1] (0.00ns)   --->   "%sext_ln17 = sext i11 %mult_21" [firmware/nnet_utils/nnet_dense_latency.h:17->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 860 'sext' 'sext_ln17' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 861 [1/1] (0.00ns)   --->   "%shl_ln73_s = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i16.i9, i16 %data_1_val2_read, i9 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 861 'bitconcatenate' 'shl_ln73_s' <Predicate = true> <Delay = 0.00>

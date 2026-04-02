@@ -13328,14 +13328,14 @@ Args:
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 }
-Function:        _ZN4nnet6reduceI8ap_fixedILi13ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EELi2ENS_6Op_maxIS4_EEEET_PKS7_T1_.274
+Function:        _ZN4nnet6reduceI8ap_fixedILi13ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EELi2ENS_6Op_maxIS4_EEEET_PKS7_T1_.276
 Args:            
   - String:          'Inlining function '''
   - Callee:          'nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 66, 
                        Column: 0 }
   - String:          ''' into '''
-  - Caller:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.274)'
+  - Caller:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.276)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''''
@@ -13347,7 +13347,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi13ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EELi4ENS_6Op_maxIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.274)'
+  - Callee:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.276)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13427,7 +13427,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi13ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EELi10ENS_6Op_maxIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.274)'
+  - Callee:          'ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.276)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13443,7 +13443,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi13ELi11EL9ap_q_mode5EL9ap_o_mode3ELi0EELi10ENS_6Op_maxIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>) (.269)'
+  - Callee:          'nnet::Op_max<ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<13, 11, (ap_q_mode)5, (ap_o_mode)3, 0>) (.271)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 66, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13456,14 +13456,14 @@ Args:
 Pass:            reflow-inliner
 Name:            Inline
 DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 }
-Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi2ENS_6Op_addIS4_EEEET_PKS7_T1_.260
+Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi2ENS_6Op_addIS4_EEEET_PKS7_T1_.262
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.233.242)'
+  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.235.244)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 51, 
                        Column: 0 }
   - String:          ''' into '''
-  - Caller:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.260)'
+  - Caller:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.262)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''''
@@ -13475,7 +13475,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi4ENS_6Op_addIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.260)'
+  - Callee:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.262)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13491,7 +13491,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi4ENS_6Op_addIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.233.242)'
+  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.235.244)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 51, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13507,7 +13507,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi8ENS_6Op_addIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.233.242)'
+  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.235.244)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 51, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13539,7 +13539,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi10ENS_6Op_addIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.260)'
+  - Callee:          'ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> nnet::reduce<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> > >(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> const*, nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >) (.262)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13555,7 +13555,7 @@ DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 37, Column: 0 
 Function:        _ZN4nnet6reduceI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELi10ENS_6Op_addIS4_EEEET_PKS7_T1_
 Args:            
   - String:          'Inlining function '''
-  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.233.242)'
+  - Callee:          'nnet::Op_add<ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()(ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>, ap_fixed<16, 6, (ap_q_mode)5, (ap_o_mode)3, 0>) (.235.244)'
     DebugLoc:        { File: firmware/nnet_utils/nnet_common.h, Line: 51, 
                        Column: 0 }
   - String:          ''' into '''
@@ -13802,157 +13802,13 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b2.h, Line: 12, Column: 0 }
+DebugLoc:        { File: firmware/weights/b21.h, Line: 12, Column: 0 }
 Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
 Args:            
   - String:          'Applying '
   - String:          array_partition
   - String:          ' to '''
-  - UOName:          b2
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/s4.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          s4
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b4.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          b4
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b7.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          b7
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/s9.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          s9
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b9.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          b9
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b12.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          b12
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/s14.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          s14
-  - String:          ''':'
-  - String:          ' '
-  - Mode:            Complete
-  - String:          ' partitioning'
-  - String:          ' on dimension '
-  - Dim:             '1'
-  - String:          .
-...
---- !Passed
-Pass:            reflow-array-partition
-Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b14.h, Line: 12, Column: 0 }
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
-Args:            
-  - String:          'Applying '
-  - String:          array_partition
-  - String:          ' to '''
-  - UOName:          b14
+  - UOName:          b21
   - String:          ''':'
   - String:          ' '
   - Mode:            Complete
@@ -13982,13 +13838,157 @@ Args:
 --- !Passed
 Pass:            reflow-array-partition
 Name:            ArrayXform
-DebugLoc:        { File: firmware/weights/b21.h, Line: 12, Column: 0 }
+DebugLoc:        { File: firmware/weights/b14.h, Line: 12, Column: 0 }
 Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
 Args:            
   - String:          'Applying '
   - String:          array_partition
   - String:          ' to '''
-  - UOName:          b21
+  - UOName:          b14
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/s14.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          s14
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b12.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b12
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b9.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b9
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/s9.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          s9
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b7.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b7
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b4.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b4
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/s4.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          s4
+  - String:          ''':'
+  - String:          ' '
+  - Mode:            Complete
+  - String:          ' partitioning'
+  - String:          ' on dimension '
+  - Dim:             '1'
+  - String:          .
+...
+--- !Passed
+Pass:            reflow-array-partition
+Name:            ArrayXform
+DebugLoc:        { File: firmware/weights/b2.h, Line: 12, Column: 0 }
+Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Args:            
+  - String:          'Applying '
+  - String:          array_partition
+  - String:          ' to '''
+  - UOName:          b2
   - String:          ''':'
   - String:          ' '
   - Mode:            Complete
@@ -14323,6 +14323,22 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
+DebugLoc:        { File: firmware/myproject_axi.cpp, Line: 24, Column: 27 }
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            output_local
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '160'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
 DebugLoc:        { File: firmware/myproject.cpp, Line: 96, Column: 31 }
 Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
 Args:            
@@ -14595,6 +14611,22 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
+DebugLoc:        { File: firmware/myproject_axi.cpp, Line: 23, Column: 23 }
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
+Args:            
+  - String:          'Aggregating '
+  - HwTyName:        'fifo (hls::stream)'
+  - String:          ' variable '''
+  - Name:            input_local
+  - String:          ''' with '
+  - AggregateTypeName: 'compact=bit'
+  - String:          ' mode in '
+  - Bitwidth:        '32'
+  - String:          '-bits'
+...
+--- !Passed
+Pass:            reflow-aggr
+Name:            AggrSucc
 DebugLoc:        { File: firmware/myproject.cpp, Line: 44, Column: 25 }
 Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
 Args:            
@@ -14611,7 +14643,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14626,7 +14658,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14641,7 +14673,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14656,7 +14688,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14671,7 +14703,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14686,7 +14718,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14701,7 +14733,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14716,7 +14748,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14731,7 +14763,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14746,7 +14778,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14761,7 +14793,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14776,7 +14808,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14791,7 +14823,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14806,7 +14838,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14821,7 +14853,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14836,7 +14868,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14851,7 +14883,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14866,7 +14898,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14881,7 +14913,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14896,7 +14928,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14911,7 +14943,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14926,7 +14958,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14941,7 +14973,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14956,7 +14988,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14971,7 +15003,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -14986,7 +15018,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15001,7 +15033,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15016,7 +15048,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15031,7 +15063,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15046,7 +15078,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15061,7 +15093,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15076,7 +15108,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15091,7 +15123,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15106,7 +15138,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15121,7 +15153,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15136,7 +15168,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15151,7 +15183,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15166,7 +15198,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15181,7 +15213,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15196,7 +15228,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15211,7 +15243,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15226,7 +15258,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15241,7 +15273,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15256,7 +15288,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15271,7 +15303,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15286,7 +15318,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15301,7 +15333,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15316,7 +15348,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15331,7 +15363,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15346,7 +15378,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15361,7 +15393,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15376,7 +15408,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15391,7 +15423,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15406,7 +15438,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15421,7 +15453,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15436,7 +15468,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15451,7 +15483,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15466,7 +15498,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15481,7 +15513,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15496,7 +15528,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15511,7 +15543,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15526,7 +15558,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15541,7 +15573,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15556,7 +15588,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15571,7 +15603,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15586,7 +15618,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15601,7 +15633,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15616,7 +15648,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15631,7 +15663,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15646,7 +15678,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15661,7 +15693,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15676,7 +15708,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15691,7 +15723,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15706,7 +15738,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15721,7 +15753,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15736,7 +15768,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15751,7 +15783,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15766,7 +15798,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15781,7 +15813,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15796,7 +15828,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15811,7 +15843,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15826,7 +15858,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15841,7 +15873,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram
@@ -15856,7 +15888,7 @@ Args:
 --- !Passed
 Pass:            reflow-aggr
 Name:            AggrSucc
-Function:        _Z9myprojectRN3hls6streamIN4nnet5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9ap_o_mode3ELi0EELj2EEELi0EEERNS0_INS2_IS6_Lj10EEELi0EEE
+Function:        _Z13myproject_axiRN3hls6streamINS_4axisI7ap_uintILi32EELm4ELm4ELm1ELh56ELb0EEELi0EEERNS0_INS1_IS2_ILi16EELm2ELm2ELm1ELh56ELb0EEELi0EEE
 Args:            
   - String:          'Aggregating '
   - HwTyName:        bram

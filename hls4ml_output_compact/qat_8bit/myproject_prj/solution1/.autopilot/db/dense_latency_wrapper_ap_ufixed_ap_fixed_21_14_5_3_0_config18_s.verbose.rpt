@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_wrapper_ap_ufixed_ap_fixed_21_14_5_3_0_config18_s'
 ================================================================
-* Date:           Sun Mar 22 09:52:38 2026
+* Date:           Mon Mar 30 19:10:54 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -255,7 +255,7 @@
     |x_32_fu_3476_p2          |         +|   0|  0|  16|          16|          16|
     |x_34_fu_3682_p2          |         +|   0|  0|  16|          16|          16|
     |x_fu_2680_p2             |         +|   0|  0|  16|          16|          16|
-    |empty_104_fu_1404_p2     |         -|   0|  0|  16|           9|           9|
+    |empty_116_fu_1404_p2     |         -|   0|  0|  16|           9|           9|
     |empty_fu_2584_p2         |         -|   0|  0|  16|           9|           9|
     |mult_11_fu_432_p2        |         -|   0|  0|  21|          14|          14|
     |mult_15_fu_1591_p2       |         -|   0|  0|  22|          15|          15|
@@ -402,7 +402,7 @@
     |data_6_val7_read_reg_4065    |   8|   0|    8|          0|
     |data_7_val8_read_reg_4060    |   8|   0|    8|          0|
     |data_8_val9_read_reg_4054    |   8|   0|    8|          0|
-    |empty_104_reg_4373           |   9|   0|    9|          0|
+    |empty_116_reg_4373           |   9|   0|    9|          0|
     |mult_17_reg_4102             |   8|   0|   11|          3|
     |mult_19_reg_4108             |  11|   0|   14|          3|
     |mult_23_reg_4123             |  11|   0|   14|          3|
@@ -783,7 +783,7 @@ ST_1 : Operation 241 [1/1] (0.00ns)   --->   "%zext_ln58_29 = zext i12 %add_ln58
 ST_1 : Operation 242 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_181 = add i15 %zext_ln58_29, i15 %add_ln58_179" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 242 'add' 'add_ln58_181' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 243 [1/1] (0.73ns) (root node of TernaryAdder)   --->   "%sub_ln58_46 = sub i15 %add_ln58_181, i15 %zext_ln42_105" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 243 'sub' 'sub_ln58_46' <Predicate = true> <Delay = 0.73> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_1 : Operation 244 [1/1] (0.00ns)   --->   "%data_4_val5_cast75 = zext i8 %data_4_val5_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 244 'zext' 'data_4_val5_cast75' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 245 [1/1] (0.76ns)   --->   "%empty_104 = sub i9 %zext_ln73_16, i9 %data_4_val5_cast75" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 245 'sub' 'empty_104' <Predicate = true> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 245 [1/1] (0.76ns)   --->   "%empty_116 = sub i9 %zext_ln73_16, i9 %data_4_val5_cast75" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 245 'sub' 'empty_116' <Predicate = true> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 246 [1/1] (0.82ns)   --->   "%add_ln58_186 = add i13 %sub_ln58, i13 %zext_ln17" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 246 'add' 'add_ln58_186' <Predicate = true> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.82> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 247 [1/1] (0.00ns)   --->   "%sext_ln58_26 = sext i13 %add_ln58_186" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 247 'sext' 'sext_ln58_26' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 248 [1/1] (0.82ns)   --->   "%add_ln58_187 = add i14 %sext_ln58_26, i14 %zext_ln17_8" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 248 'add' 'add_ln58_187' <Predicate = true> <Delay = 0.82> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -811,7 +811,7 @@ ST_1 : Operation 269 [1/1] (0.76ns)   --->   "%tmp42816 = add i9 %zext_ln73_20, 
 
 State 2 <SV = 1> <Delay = 3.63>
 ST_2 : Operation 270 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 270 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 271 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 230, void @empty_13, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 271 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 271 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 230, void @empty_25, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 271 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 272 [1/1] (0.00ns)   --->   "%sext_ln42_39 = sext i12 %mult_3" [firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 272 'sext' 'sext_ln42_39' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 273 [1/1] (0.00ns)   --->   "%zext_ln42_99 = zext i13 %shl_ln" [firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 273 'zext' 'zext_ln42_99' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 274 [1/1] (0.00ns)   --->   "%zext_ln42_101 = zext i8 %data_3_val4_read" [firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 274 'zext' 'zext_ln42_101' <Predicate = true> <Delay = 0.00>
@@ -1035,8 +1035,8 @@ ST_2 : Operation 491 [1/1] (0.00ns)   --->   "%data_13_val14_cast67 = zext i8 %d
 ST_2 : Operation 492 [1/1] (0.76ns)   --->   "%empty = sub i9 %zext_ln73_20, i9 %zext_ln73_21" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 492 'sub' 'empty' <Predicate = true> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 493 [1/1] (0.00ns)   --->   "%p_cast = sext i9 %empty" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 493 'sext' 'p_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 494 [1/1] (0.77ns)   --->   "%tmp40136 = add i10 %p_cast, i10 %data_13_val14_cast67" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 494 'add' 'tmp40136' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 495 [1/1] (0.00ns)   --->   "%tmp_51 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i10.i4, i10 %tmp40136, i4 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 495 'bitconcatenate' 'tmp_51' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 496 [1/1] (0.00ns)   --->   "%tmp402 = sext i14 %tmp_51" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 496 'sext' 'tmp402' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 495 [1/1] (0.00ns)   --->   "%tmp_60 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i10.i4, i10 %tmp40136, i4 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 495 'bitconcatenate' 'tmp_60' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 496 [1/1] (0.00ns)   --->   "%tmp402 = sext i14 %tmp_60" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 496 'sext' 'tmp402' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 497 [1/1] (0.76ns)   --->   "%tmp403206 = add i9 %zext_ln73_22, i9 %zext_ln42_111" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 497 'add' 'tmp403206' <Predicate = true> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 498 [1/1] (0.00ns)   --->   "%p_shl30 = bitconcatenate i14 @_ssdm_op_BitConcatenate.i14.i9.i5, i9 %tmp403206, i5 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 498 'bitconcatenate' 'p_shl30' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 499 [1/1] (0.00ns)   --->   "%zext_ln58 = zext i14 %p_shl30" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 499 'zext' 'zext_ln58' <Predicate = true> <Delay = 0.00>
@@ -1076,11 +1076,11 @@ ST_2 : Operation 532 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%sub_l
 ST_2 : Operation 533 [1/1] (0.80ns)   --->   "%add_ln58_184 = add i14 %sext_ln17_42, i14 %zext_ln17_48" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 533 'add' 'add_ln58_184' <Predicate = true> <Delay = 0.80> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 534 [1/1] (0.00ns)   --->   "%sext_ln58_60 = sext i14 %add_ln58_184" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 534 'sext' 'sext_ln58_60' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 535 [1/1] (0.68ns) (root node of TernaryAdder)   --->   "%x_22 = add i16 %sext_ln58_60, i16 %sub_ln58_49" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 535 'add' 'x_22' <Predicate = true> <Delay = 0.68> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_2 : Operation 536 [1/1] (0.00ns)   --->   "%p_cast76 = sext i9 %empty_104" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 536 'sext' 'p_cast76' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 536 [1/1] (0.00ns)   --->   "%p_cast76 = sext i9 %empty_116" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 536 'sext' 'p_cast76' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 537 [1/1] (0.00ns)   --->   "%data_10_val11_cast77 = zext i8 %data_10_val11_read" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 537 'zext' 'data_10_val11_cast77' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 538 [1/1] (0.77ns)   --->   "%tmp41030 = sub i10 %p_cast76, i10 %data_10_val11_cast77" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 538 'sub' 'tmp41030' <Predicate = true> <Delay = 0.77> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 539 [1/1] (0.00ns)   --->   "%tmp_52 = bitconcatenate i15 @_ssdm_op_BitConcatenate.i15.i10.i5, i10 %tmp41030, i5 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 539 'bitconcatenate' 'tmp_52' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 540 [1/1] (0.00ns)   --->   "%tmp411 = sext i15 %tmp_52" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 540 'sext' 'tmp411' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 539 [1/1] (0.00ns)   --->   "%tmp_61 = bitconcatenate i15 @_ssdm_op_BitConcatenate.i15.i10.i5, i10 %tmp41030, i5 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 539 'bitconcatenate' 'tmp_61' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 540 [1/1] (0.00ns)   --->   "%tmp411 = sext i15 %tmp_61" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 540 'sext' 'tmp411' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 541 [1/1] (0.00ns)   --->   "%sext_ln58_27 = sext i14 %add_ln58_187" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 541 'sext' 'sext_ln58_27' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 542 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_188 = add i15 %sext_ln17_10, i15 %zext_ln73_18" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 542 'add' 'add_ln58_188' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 543 [1/1] (0.73ns) (root node of TernaryAdder)   --->   "%add_ln58_189 = add i15 %add_ln58_188, i15 %sext_ln58_27" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 543 'add' 'add_ln58_189' <Predicate = true> <Delay = 0.73> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
@@ -1212,8 +1212,8 @@ ST_2 : Operation 668 [1/1] (0.00ns)   --->   "%p_shl18 = bitconcatenate i12 @_ss
 ST_2 : Operation 669 [1/1] (0.00ns)   --->   "%p_shl18_cast = zext i12 %p_shl18" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 669 'zext' 'p_shl18_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 670 [1/1] (0.83ns)   --->   "%tmp427 = sub i15 %p_shl_cast, i15 %p_shl18_cast" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 670 'sub' 'tmp427' <Predicate = true> <Delay = 0.83> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.84> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 671 [1/1] (0.00ns)   --->   "%tmp427_cast = sext i15 %tmp427" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 671 'sext' 'tmp427_cast' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 672 [1/1] (0.00ns)   --->   "%tmp53 = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i9.i3, i9 %tmp42816, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 672 'bitconcatenate' 'tmp53' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 673 [1/1] (0.00ns)   --->   "%zext_ln58_41 = zext i12 %tmp53" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 673 'zext' 'zext_ln58_41' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 672 [1/1] (0.00ns)   --->   "%tmp62 = bitconcatenate i12 @_ssdm_op_BitConcatenate.i12.i9.i3, i9 %tmp42816, i3 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 672 'bitconcatenate' 'tmp62' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 673 [1/1] (0.00ns)   --->   "%zext_ln58_41 = zext i12 %tmp62" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 673 'zext' 'zext_ln58_41' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 674 [1/1] (0.68ns) (root node of TernaryAdder)   --->   "%add_ln58_252 = add i16 %sext_ln42_42, i16 %tmp425" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 674 'add' 'add_ln58_252' <Predicate = true> <Delay = 0.68> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 675 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%add_ln58_253 = add i16 %add_ln58_252, i16 %sext_ln42_39" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 675 'add' 'add_ln58_253' <Predicate = true> <Delay = 0.00> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
 ST_2 : Operation 676 [1/1] (0.73ns) (root node of TernaryAdder)   --->   "%add_ln58_254 = add i15 %mult_36, i15 %mult_69" [firmware/nnet_utils/nnet_dense_latency.h:58->firmware/nnet_utils/nnet_dense_stream.h:17]   --->   Operation 676 'add' 'add_ln58_254' <Predicate = true> <Delay = 0.73> <CoreInst = "TAddSub">   --->   Core 10 'TAddSub' <Latency = 0> <II = 1> <Delay = 0.34> <IPBlock> <Opcode : '' 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
@@ -1562,7 +1562,7 @@ zext_ln58_29           (zext             ) [ 000]
 add_ln58_181           (add              ) [ 000]
 sub_ln58_46            (sub              ) [ 011]
 data_4_val5_cast75     (zext             ) [ 000]
-empty_104              (sub              ) [ 011]
+empty_116              (sub              ) [ 011]
 add_ln58_186           (add              ) [ 000]
 sext_ln58_26           (sext             ) [ 000]
 add_ln58_187           (add              ) [ 011]
@@ -1812,7 +1812,7 @@ data_13_val14_cast67   (zext             ) [ 000]
 empty                  (sub              ) [ 000]
 p_cast                 (sext             ) [ 000]
 tmp40136               (add              ) [ 000]
-tmp_51                 (bitconcatenate   ) [ 000]
+tmp_60                 (bitconcatenate   ) [ 000]
 tmp402                 (sext             ) [ 000]
 tmp403206              (add              ) [ 000]
 p_shl30                (bitconcatenate   ) [ 000]
@@ -1856,7 +1856,7 @@ x_22                   (add              ) [ 000]
 p_cast76               (sext             ) [ 000]
 data_10_val11_cast77   (zext             ) [ 000]
 tmp41030               (sub              ) [ 000]
-tmp_52                 (bitconcatenate   ) [ 000]
+tmp_61                 (bitconcatenate   ) [ 000]
 tmp411                 (sext             ) [ 000]
 sext_ln58_27           (sext             ) [ 000]
 add_ln58_188           (add              ) [ 000]
@@ -1989,7 +1989,7 @@ p_shl18                (bitconcatenate   ) [ 000]
 p_shl18_cast           (zext             ) [ 000]
 tmp427                 (sub              ) [ 000]
 tmp427_cast            (sext             ) [ 000]
-tmp53                  (bitconcatenate   ) [ 000]
+tmp62                  (bitconcatenate   ) [ 000]
 zext_ln58_41           (zext             ) [ 000]
 add_ln58_252           (add              ) [ 000]
 add_ln58_253           (add              ) [ 000]
@@ -2405,7 +2405,7 @@ ret_ln18               (ret              ) [ 000]
 <pin id="75" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_13"/></StgValue>
+<StgValue><ssdm name="empty_25"/></StgValue>
 </bind>
 </comp>
 
@@ -5347,7 +5347,7 @@ ret_ln18               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="1404" class="1004" name="empty_104_fu_1404">
+<comp id="1404" class="1004" name="empty_116_fu_1404">
 <pin_list>
 <pin id="1405" dir="0" index="0" bw="8" slack="0"/>
 <pin id="1406" dir="0" index="1" bw="8" slack="0"/>
@@ -5355,7 +5355,7 @@ ret_ln18               (ret              ) [ 000]
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="empty_104/1 "/>
+<opset="empty_116/1 "/>
 </bind>
 </comp>
 
@@ -8220,7 +8220,7 @@ ret_ln18               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="2598" class="1004" name="tmp_51_fu_2598">
+<comp id="2598" class="1004" name="tmp_60_fu_2598">
 <pin_list>
 <pin id="2599" dir="0" index="0" bw="14" slack="0"/>
 <pin id="2600" dir="0" index="1" bw="10" slack="0"/>
@@ -8229,7 +8229,7 @@ ret_ln18               (ret              ) [ 000]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp_51/2 "/>
+<opset="tmp_60/2 "/>
 </bind>
 </comp>
 
@@ -8737,7 +8737,7 @@ ret_ln18               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="2834" class="1004" name="tmp_52_fu_2834">
+<comp id="2834" class="1004" name="tmp_61_fu_2834">
 <pin_list>
 <pin id="2835" dir="0" index="0" bw="15" slack="0"/>
 <pin id="2836" dir="0" index="1" bw="10" slack="0"/>
@@ -8746,7 +8746,7 @@ ret_ln18               (ret              ) [ 000]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp_52/2 "/>
+<opset="tmp_61/2 "/>
 </bind>
 </comp>
 
@@ -10306,7 +10306,7 @@ ret_ln18               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="3559" class="1004" name="tmp53_fu_3559">
+<comp id="3559" class="1004" name="tmp62_fu_3559">
 <pin_list>
 <pin id="3560" dir="0" index="0" bw="12" slack="0"/>
 <pin id="3561" dir="0" index="1" bw="9" slack="1"/>
@@ -10315,7 +10315,7 @@ ret_ln18               (ret              ) [ 000]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp53/2 "/>
+<opset="tmp62/2 "/>
 </bind>
 </comp>
 
@@ -11830,13 +11830,13 @@ ret_ln18               (ret              ) [ 000]
 </bind>
 </comp>
 
-<comp id="4373" class="1005" name="empty_104_reg_4373">
+<comp id="4373" class="1005" name="empty_116_reg_4373">
 <pin_list>
 <pin id="4374" dir="0" index="0" bw="9" slack="1"/>
 <pin id="4375" dir="1" index="1" bw="9" slack="1"/>
 </pin_list>
 <bind>
-<opset="empty_104 "/>
+<opset="empty_116 "/>
 </bind>
 </comp>
 
@@ -14841,7 +14841,7 @@ ret_ln18               (ret              ) [ 000]
 		zext_ln58_29 : 3
 		add_ln58_181 : 6
 		sub_ln58_46 : 7
-		empty_104 : 1
+		empty_116 : 1
 		add_ln58_186 : 3
 		sext_ln58_26 : 4
 		add_ln58_187 : 5
@@ -15010,7 +15010,7 @@ ret_ln18               (ret              ) [ 000]
 		sub_ln58_41 : 7
 		p_cast : 1
 		tmp40136 : 2
-		tmp_51 : 3
+		tmp_60 : 3
 		tmp402 : 4
 		tmp403206 : 1
 		p_shl30 : 2
@@ -15050,7 +15050,7 @@ ret_ln18               (ret              ) [ 000]
 		sext_ln58_60 : 5
 		x_22 : 7
 		tmp41030 : 1
-		tmp_52 : 2
+		tmp_61 : 2
 		tmp411 : 3
 		add_ln58_188 : 1
 		add_ln58_189 : 2
@@ -15470,7 +15470,7 @@ ret_ln18               (ret              ) [ 000]
 |          |       sub_ln58_42_fu_1330      |    0    |    19   |
 |          |       sub_ln58_43_fu_1340      |    0    |    16   |
 |          |       sub_ln58_46_fu_1394      |    0    |    16   |
-|          |        empty_104_fu_1404       |    0    |    15   |
+|          |        empty_116_fu_1404       |    0    |    15   |
 |          |       sub_ln58_54_fu_1432      |    0    |    16   |
 |          |       sub_ln58_58_fu_1444      |    0    |    19   |
 |          |       sub_ln58_62_fu_1506      |    0    |    20   |
@@ -15628,10 +15628,10 @@ ret_ln18               (ret              ) [ 000]
 |          |       shl_ln42_73_fu_2227      |    0    |    0    |
 |          |         mult_77_fu_2251        |    0    |    0    |
 |          |         mult_78_fu_2275        |    0    |    0    |
-|          |         tmp_51_fu_2598         |    0    |    0    |
+|          |         tmp_60_fu_2598         |    0    |    0    |
 |          |         p_shl30_fu_2615        |    0    |    0    |
 |          |         p_shl31_fu_2761        |    0    |    0    |
-|          |         tmp_52_fu_2834         |    0    |    0    |
+|          |         tmp_61_fu_2834         |    0    |    0    |
 |          |         p_shl28_fu_2996        |    0    |    0    |
 |          |         p_shl29_fu_3008        |    0    |    0    |
 |          |         p_shl26_fu_3102        |    0    |    0    |
@@ -15644,7 +15644,7 @@ ret_ln18               (ret              ) [ 000]
 |          |         p_shl20_fu_3503        |    0    |    0    |
 |          |          p_shl_fu_3525         |    0    |    0    |
 |          |         p_shl18_fu_3537        |    0    |    0    |
-|          |          tmp53_fu_3559         |    0    |    0    |
+|          |          tmp62_fu_3559         |    0    |    0    |
 |----------|--------------------------------|---------|---------|
 |          |        zext_ln42_fu_204        |    0    |    0    |
 |          |       zext_ln42_91_fu_208      |    0    |    0    |
@@ -16038,7 +16038,7 @@ N/A
 | data_6_val7_read_reg_4065 |    8   |
 | data_7_val8_read_reg_4060 |    8   |
 | data_8_val9_read_reg_4054 |    8   |
-|     empty_104_reg_4373    |    9   |
+|     empty_116_reg_4373    |    9   |
 |      mult_17_reg_4102     |   11   |
 |      mult_19_reg_4108     |   14   |
 |      mult_23_reg_4123     |   14   |

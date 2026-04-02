@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_33_21_5_3_0_8u_config9_s'
 ================================================================
-* Date:           Sun Mar 22 09:55:16 2026
+* Date:           Mon Mar 30 19:13:44 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -73,12 +73,12 @@
     +--------------------------+---------------------+---------+----+---+----+-----+
     |         Instance         |        Module       | BRAM_18K| DSP| FF| LUT| URAM|
     +--------------------------+---------------------+---------+----+---+----+-----+
-    |mul_16s_10ns_25_1_1_U249  |mul_16s_10ns_25_1_1  |        0|   1|  0|   5|    0|
-    |mul_16s_11ns_26_1_1_U247  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
-    |mul_16s_11ns_26_1_1_U248  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
-    |mul_16s_11ns_26_1_1_U250  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
-    |mul_16s_11ns_26_1_1_U251  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
-    |mul_16s_11ns_26_1_1_U252  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_10ns_25_1_1_U256  |mul_16s_10ns_25_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_11ns_26_1_1_U254  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_11ns_26_1_1_U255  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_11ns_26_1_1_U257  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_11ns_26_1_1_U258  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
+    |mul_16s_11ns_26_1_1_U259  |mul_16s_11ns_26_1_1  |        0|   1|  0|   5|    0|
     +--------------------------+---------------------+---------+----+---+----+-----+
     |Total                     |                     |        0|   6|  0|  30|    0|
     +--------------------------+---------------------+---------+----+---+----+-----+
@@ -155,8 +155,8 @@
     |mul_ln42_9_reg_64159              |  26|   0|   26|          0|
     |mul_ln42_reg_64151                |  26|   0|   26|          0|
     |start_once_reg                    |   1|   0|    1|          0|
-    |tmp_35_reg_64511                  |  16|   0|   16|          0|
-    |tmp_35_reg_64511_pp0_iter2_reg    |  16|   0|   16|          0|
+    |tmp_43_reg_64511                  |  16|   0|   16|          0|
+    |tmp_43_reg_64511_pp0_iter2_reg    |  16|   0|   16|          0|
     |tmp_reg_64505                     |  16|   0|   16|          0|
     |tmp_reg_64505_pp0_iter2_reg       |  16|   0|   16|          0|
     +----------------------------------+----+----+-----+-----------+
@@ -238,9 +238,9 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 1.63>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_02 = alloca i32 1" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 7 'alloca' 'i_02' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i264 %layer9_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer7_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_12, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:22]   --->   Operation 10 'specresourcelimit' 'specresourcelimit_ln22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i264 %layer9_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer7_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_14, void @empty_20, void @empty_20, void @empty_20" [firmware/nnet_utils/nnet_batchnorm_stream.h:22]   --->   Operation 10 'specresourcelimit' 'specresourcelimit_ln22' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 11 [1/1] (0.42ns)   --->   "%store_ln25 = store i9 0, i9 %i_02" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 11 'store' 'store_ln25' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln25 = br void %BatchNormpack" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 12 'br' 'br_ln25' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%i = load i9 %i_02" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 13 'load' 'i' <Predicate = true> <Delay = 0.00>
@@ -258,7 +258,7 @@ ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%a_10 = partselect i16 @_ssdm_op_Pa
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%a_1 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 64, i32 79" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 23 'partselect' 'a_1' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%a_2 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 112, i32 127" [firmware/nnet_utils/nnet_batchnorm_stream.h:28]   --->   Operation 24 'partselect' 'a_2' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%tmp = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 80, i32 95" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 25 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_35 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 96, i32 111" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 26 'partselect' 'tmp_35' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_43 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 96, i32 111" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 26 'partselect' 'tmp_43' <Predicate = true> <Delay = 0.00>
 
 State 3 <SV = 2> <Delay = 2.38>
 ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%sext_ln42 = sext i16 %a" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 27 'sext' 'sext_ln42' <Predicate = true> <Delay = 0.00>
@@ -276,9 +276,9 @@ ST_3 : Operation 38 [1/1] (2.38ns)   --->   "%mul_ln42_12 = mul i25 %sext_ln42_1
 ST_3 : Operation 73 [1/1] (0.00ns)   --->   "%ret_ln48 = ret" [firmware/nnet_utils/nnet_batchnorm_stream.h:48]   --->   Operation 73 'ret' 'ret_ln48' <Predicate = (icmp_ln25)> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 3.56>
-ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%specpipeline_ln26 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:26]   --->   Operation 39 'specpipeline' 'specpipeline_ln26' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%specpipeline_ln26 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_20" [firmware/nnet_utils/nnet_batchnorm_stream.h:26]   --->   Operation 39 'specpipeline' 'specpipeline_ln26' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%speclooptripcount_ln25 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 320, i64 320, i64 320" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 40 'speclooptripcount' 'speclooptripcount_ln25' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 41 'specloopname' 'specloopname_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 41 [1/1] (0.00ns)   --->   "%specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 41 'specloopname' 'specloopname_ln25' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 42 [1/1] (0.95ns)   --->   "%add_ln42 = add i26 %mul_ln42, i26 7628" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 42 'add' 'add_ln42' <Predicate = true> <Delay = 0.95> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%sext_ln70 = sext i26 %add_ln42" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 43 'sext' 'sext_ln70' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 44 [1/1] (0.95ns)   --->   "%add_ln42_8 = add i26 %mul_ln42_8, i26 67107580" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 44 'add' 'add_ln42_8' <Predicate = true> <Delay = 0.95> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -297,9 +297,9 @@ ST_4 : Operation 56 [1/1] (0.87ns)   --->   "%add_ln42_15 = add i19 %sext_ln42_1
 ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%sext_ln42_16 = sext i19 %add_ln42_15" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 57 'sext' 'sext_ln42_16' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 58 [1/1] (0.94ns)   --->   "%add_ln42_12 = add i26 %sext_ln42_16, i26 %sext_ln73" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 58 'add' 'add_ln42_12' <Predicate = true> <Delay = 0.94> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 59 [1/1] (0.00ns)   --->   "%sext_ln42_12 = sext i26 %add_ln42_12" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 59 'sext' 'sext_ln42_12' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 60 [1/1] (0.00ns)   --->   "%and_ln73_2 = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i16.i9, i16 %tmp_35, i9 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 60 'bitconcatenate' 'and_ln73_2' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 60 [1/1] (0.00ns)   --->   "%and_ln73_2 = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i16.i9, i16 %tmp_43, i9 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 60 'bitconcatenate' 'and_ln73_2' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 61 [1/1] (0.00ns)   --->   "%sext_ln73_1 = sext i25 %and_ln73_2" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 61 'sext' 'sext_ln73_1' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%and_ln73_3 = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i16.i7, i16 %tmp_35, i7 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 62 'bitconcatenate' 'and_ln73_3' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 62 [1/1] (0.00ns)   --->   "%and_ln73_3 = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i16.i7, i16 %tmp_43, i7 0" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 62 'bitconcatenate' 'and_ln73_3' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 63 [1/1] (0.00ns)   --->   "%sext_ln42_17 = sext i23 %and_ln73_3" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 63 'sext' 'sext_ln42_17' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 64 [1/1] (0.92ns)   --->   "%add_ln42_16 = add i24 %sext_ln42_17, i24 7692" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 64 'add' 'add_ln42_16' <Predicate = true> <Delay = 0.92> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.93> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 65 [1/1] (0.00ns)   --->   "%sext_ln42_18 = sext i24 %add_ln42_16" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 65 'sext' 'sext_ln42_18' <Predicate = true> <Delay = 0.00>
@@ -350,7 +350,7 @@ a_10                   (partselect       ) [ 01010]
 a_1                    (partselect       ) [ 01010]
 a_2                    (partselect       ) [ 01010]
 tmp                    (partselect       ) [ 01011]
-tmp_35                 (partselect       ) [ 01011]
+tmp_43                 (partselect       ) [ 01011]
 sext_ln42              (sext             ) [ 00000]
 mul_ln42               (mul              ) [ 01001]
 sext_ln42_8            (sext             ) [ 00000]
@@ -444,7 +444,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="9" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_11"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -462,7 +462,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="13" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_1"/></StgValue>
+<StgValue><ssdm name="empty_20"/></StgValue>
 </bind>
 </comp>
 
@@ -498,7 +498,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="21" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_12"/></StgValue>
+<StgValue><ssdm name="empty_14"/></StgValue>
 </bind>
 </comp>
 
@@ -759,7 +759,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="79" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_14"/></StgValue>
+<StgValue><ssdm name="empty_19"/></StgValue>
 </bind>
 </comp>
 
@@ -1220,7 +1220,7 @@ ret_ln48               (ret              ) [ 00000]
 </bind>
 </comp>
 
-<comp id="64265" class="1004" name="tmp_35_fu_64265">
+<comp id="64265" class="1004" name="tmp_43_fu_64265">
 <pin_list>
 <pin id="64266" dir="0" index="0" bw="16" slack="0"/>
 <pin id="64267" dir="0" index="1" bw="128" slack="0"/>
@@ -1230,7 +1230,7 @@ ret_ln48               (ret              ) [ 00000]
 </pin_list>
 <bind>
 <opcode="partselect(1002) " fcode="partselect"/>
-<opset="tmp_35/2 "/>
+<opset="tmp_43/2 "/>
 </bind>
 </comp>
 
@@ -1735,13 +1735,13 @@ ret_ln48               (ret              ) [ 00000]
 </bind>
 </comp>
 
-<comp id="64511" class="1005" name="tmp_35_reg_64511">
+<comp id="64511" class="1005" name="tmp_43_reg_64511">
 <pin_list>
 <pin id="64512" dir="0" index="0" bw="16" slack="2"/>
 <pin id="64513" dir="1" index="1" bw="16" slack="2"/>
 </pin_list>
 <bind>
-<opset="tmp_35 "/>
+<opset="tmp_43 "/>
 </bind>
 </comp>
 
@@ -2104,7 +2104,7 @@ ret_ln48               (ret              ) [ 00000]
 |partselect|         a_1_fu_64235        |    0    |    0    |    0    |
 |          |         a_2_fu_64245        |    0    |    0    |    0    |
 |          |         tmp_fu_64255        |    0    |    0    |    0    |
-|          |       tmp_35_fu_64265       |    0    |    0    |    0    |
+|          |       tmp_43_fu_64265       |    0    |    0    |    0    |
 |----------|-----------------------------|---------|---------|---------|
 |          |      sext_ln42_fu_64275     |    0    |    0    |    0    |
 |          |     sext_ln42_8_fu_64279    |    0    |    0    |    0    |
@@ -2157,7 +2157,7 @@ N/A
 | mul_ln42_8_reg_64155|   26   |
 | mul_ln42_9_reg_64159|   26   |
 |  mul_ln42_reg_64151 |   26   |
-|   tmp_35_reg_64511  |   16   |
+|   tmp_43_reg_64511  |   16   |
 |    tmp_reg_64505    |   16   |
 +---------------------+--------+
 |        Total        |   293  |

@@ -1,18 +1,18 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_mul_18s_16s_26_1_1
+set name myproject_axi_mul_18s_16s_26_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn BINDTYPE {storage} TYPE {rom} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler myproject_axi_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_invert_bxn BINDTYPE {storage} TYPE {rom} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
 }
 
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn BINDTYPE {storage} TYPE {ram} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler myproject_axi_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_exp_tabbyn BINDTYPE {storage} TYPE {ram} IMPL {auto} LATENCY 2 ALLOW_PRAGMA 1
 }
 
 
@@ -23,29 +23,10 @@ if {${::AESL::PGuard_autoexp_gen}} {
     AESL_LIB_XILADAPTER::native_axis_begin
 }
 
-# Native AXIS:
-if {${::AESL::PGuard_autoexp_gen}} {
-if {[info proc ::AESL_LIB_XILADAPTER::native_axis_add] == "::AESL_LIB_XILADAPTER::native_axis_add"} {
-eval "::AESL_LIB_XILADAPTER::native_axis_add { \
-    id 804 \
-    name layer23_out \
-    reset_level 1 \
-    sync_rst true \
-    corename {} \
-    metadata {  } \
-    op interface \
-    ports { layer23_out_TDATA { O 160 vector } layer23_out_TVALID { O 1 bit } layer23_out_TREADY { I 1 bit } } \
-} "
-} else {
-puts "@W \[IMPL-110\] Cannot find bus interface model in the library. Ignored generation of bus interface for 'layer23_out'"
-}
-}
-
-
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 803 \
+    id 810 \
     name layer21_out \
     type fifo \
     dir I \
@@ -54,6 +35,21 @@ eval "cg_default_interface_gen_dc { \
     corename dc_layer21_out \
     op interface \
     ports { layer21_out_dout { I 210 vector } layer21_out_num_data_valid { I 2 vector } layer21_out_fifo_cap { I 2 vector } layer21_out_empty_n { I 1 bit } layer21_out_read { O 1 bit } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 811 \
+    name output_local \
+    type fifo \
+    dir O \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_output_local \
+    op interface \
+    ports { output_local_din { O 160 vector } output_local_full_n { I 1 bit } output_local_write { O 1 bit } } \
 } "
 }
 

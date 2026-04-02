@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'relu_array_ap_fixed_16u_array_ap_fixed_16_6_5_3_0_16u_relu_config20_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:52 2026
+* Date:           Sun Mar 29 16:30:28 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -292,8 +292,8 @@ ST_1 : Operation 66 [1/1] (0.00ns)   --->   "%trunc_ln52_10 = partselect i16 @_s
 ST_1 : Operation 67 [1/1] (0.35ns)   --->   "%select_ln51_24 = select i1 %icmp_ln51_29, i16 %trunc_ln52_10, i16 0" [firmware/nnet_utils/nnet_activation_stream.h:51]   --->   Operation 67 'select' 'select_ln51_24' <Predicate = true> <Delay = 0.35> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.35> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
 State 2 <SV = 1> <Delay = 1.82>
-ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %layer20_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 68 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i592 %layer18_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 69 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 68 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %layer20_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 68 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 69 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i592 %layer18_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 69 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 70 [1/1] (0.00ns)   --->   "%p_s = bitconcatenate i256 @_ssdm_op_BitConcatenate.i256.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16.i16, i16 %select_ln51_24, i16 %select_ln51_23, i16 %select_ln51_22, i16 %select_ln51_21, i16 %select_ln51_20, i16 %select_ln51_19, i16 %select_ln51_18, i16 %select_ln51_17, i16 %select_ln51_16, i16 %select_ln51_15, i16 %select_ln51_14, i16 %select_ln51_13, i16 %select_ln51_12, i16 %select_ln51_11, i16 %select_ln51_10, i16 %select_ln51" [firmware/nnet_utils/nnet_activation_stream.h:57]   --->   Operation 70 'bitconcatenate' 'p_s' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 71 [1/1] (1.82ns)   --->   "%write_ln57 = write void @_ssdm_op_Write.ap_fifo.volatile.i256P0A, i256 %layer20_out, i256 %p_s" [firmware/nnet_utils/nnet_activation_stream.h:57]   --->   Operation 71 'write' 'write_ln57' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 256> <Depth = 1> <FIFO>
 ST_2 : Operation 72 [1/1] (0.00ns)   --->   "%ret_ln59 = ret" [firmware/nnet_utils/nnet_activation_stream.h:59]   --->   Operation 72 'ret' 'ret_ln59' <Predicate = true> <Delay = 0.00>
@@ -1028,7 +1028,7 @@ ret_ln59          (ret           ) [ 000]
 <pin id="141" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -1046,7 +1046,7 @@ ret_ln59          (ret           ) [ 000]
 <pin id="145" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 

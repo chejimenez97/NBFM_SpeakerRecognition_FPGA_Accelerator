@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_array_ap_fixed_16u_array_ap_fixed_37_17_5_3_0_10u_config21_s'
 ================================================================
-* Date:           Sun Mar 22 09:45:32 2026
+* Date:           Sun Mar 29 16:30:08 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -118,8 +118,8 @@ ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%res_8 = extractvalue i370 %call_re
 ST_3 : Operation 33 [1/1] (0.00ns)   --->   "%res_9 = extractvalue i370 %call_ret" [firmware/nnet_utils/nnet_dense_stream.h:95]   --->   Operation 33 'extractvalue' 'res_9' <Predicate = true> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 1.82>
-ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i370 %layer21_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 34 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 35 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %layer20_out, void @empty_20, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 35 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i370 %layer21_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 34 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 35 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i256 %layer20_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0"   --->   Operation 35 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%p_s = bitconcatenate i370 @_ssdm_op_BitConcatenate.i370.i37.i37.i37.i37.i37.i37.i37.i37.i37.i37, i37 %res_9, i37 %res_8, i37 %res_7, i37 %res_6, i37 %res_5, i37 %res_4, i37 %res_3, i37 %res_2, i37 %res_1, i37 %res" [firmware/nnet_utils/nnet_dense_stream.h:77->firmware/nnet_utils/nnet_dense_stream.h:100]   --->   Operation 36 'bitconcatenate' 'p_s' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 37 [1/1] (1.82ns)   --->   "%write_ln77 = write void @_ssdm_op_Write.ap_fifo.volatile.i370P0A, i370 %layer21_out, i370 %p_s" [firmware/nnet_utils/nnet_dense_stream.h:77->firmware/nnet_utils/nnet_dense_stream.h:100]   --->   Operation 37 'write' 'write_ln77' <Predicate = true> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 370> <Depth = 1> <FIFO>
 ST_4 : Operation 38 [1/1] (0.00ns)   --->   "%ret_ln101 = ret" [firmware/nnet_utils/nnet_dense_stream.h:101]   --->   Operation 38 'ret' 'ret_ln101' <Predicate = true> <Delay = 0.00>
@@ -511,7 +511,7 @@ ret_ln101         (ret           ) [ 00000]
 <pin id="73" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -529,7 +529,7 @@ ret_ln101         (ret           ) [ 00000]
 <pin id="77" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_6"/></StgValue>
+<StgValue><ssdm name="empty_0"/></StgValue>
 </bind>
 </comp>
 

@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth'
 ================================================================
-* Date:           Sun Mar 22 09:54:59 2026
+* Date:           Mon Mar 30 19:13:25 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -86,7 +86,7 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 1.62>
 ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%j = alloca i32 1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 5 'alloca' 'j' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 6 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 7 [1/1] (0.42ns)   --->   "%store_ln53 = store i7 0, i7 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 7 'store' 'store_ln53' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%br_ln0 = br void %for.inc"   --->   Operation 8 'br' 'br_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%j_7 = load i7 %j" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 9 'load' 'j_7' <Predicate = true> <Delay = 0.00>
@@ -97,9 +97,9 @@ ST_1 : Operation 13 [1/1] (0.42ns)   --->   "%store_ln53 = store i7 %j_8, i7 %j"
 ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%ret_ln0 = ret"   --->   Operation 19 'ret' 'ret_ln0' <Predicate = (icmp_ln53)> <Delay = 0.00>
 
 State 2 <SV = 1> <Delay = 1.75>
-ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln53 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 14 'specpipeline' 'specpipeline_ln53' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%specpipeline_ln53 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_20" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 14 'specpipeline' 'specpipeline_ln53' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 15 [1/1] (0.00ns)   --->   "%speclooptripcount_ln53 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 66, i64 66, i64 66" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 15 'speclooptripcount' 'speclooptripcount_ln53' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln53 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 16 'specloopname' 'specloopname_ln53' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%specloopname_ln53 = specloopname void @_ssdm_op_SpecLoopName, void @empty_4" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 16 'specloopname' 'specloopname_ln53' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 17 [1/1] (1.75ns)   --->   "%write_ln15 = write void @_ssdm_op_Write.ap_fifo.volatile.i32P0A, i32 %layer24_out, i32 0" [firmware/nnet_utils/nnet_padding_stream.h:15->firmware/nnet_utils/nnet_padding_stream.h:54]   --->   Operation 17 'write' 'write_ln15' <Predicate = true> <Delay = 1.75> <CoreInst = "FIFO">   --->   Core 78 'FIFO' <Latency = 0> <II = 1> <Delay = 1.75> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 32> <Depth = 1452> <FIFO>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln53 = br void %for.inc" [firmware/nnet_utils/nnet_padding_stream.h:53]   --->   Operation 18 'br' 'br_ln53' <Predicate = true> <Delay = 0.00>
 

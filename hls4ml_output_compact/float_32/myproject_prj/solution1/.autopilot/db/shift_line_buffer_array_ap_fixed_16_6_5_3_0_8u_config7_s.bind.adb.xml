@@ -19,7 +19,7 @@
 
 <Node id="81" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
 <![CDATA[
-entry:0 %specpipeline_ln232 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_6
+entry:0 %specpipeline_ln232 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln232"/></StgValue>
@@ -2522,7 +2522,7 @@ entry:145 %ret_ln232 = ret
 </dataflow>
 <dataflow id="252" from="StgValue_249" to="specpipeline_ln232" fromId="249" toId="2">
 </dataflow>
-<dataflow id="254" from="empty_6" to="specpipeline_ln232" fromId="253" toId="2">
+<dataflow id="254" from="empty_0" to="specpipeline_ln232" fromId="253" toId="2">
 </dataflow>
 <dataflow id="256" from="_ssdm_op_Read.ap_auto.i16" to="p_read_1" fromId="255" toId="3">
 </dataflow>

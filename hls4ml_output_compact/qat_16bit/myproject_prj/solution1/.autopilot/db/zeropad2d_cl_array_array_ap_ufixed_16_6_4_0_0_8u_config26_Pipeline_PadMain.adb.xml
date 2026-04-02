@@ -94,7 +94,7 @@ newFuncRoot:0 %i = alloca i32 1
 
 <Node id="4" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer11_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer11_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -109,7 +109,7 @@ newFuncRoot:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i
 
 <Node id="5" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-newFuncRoot:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer26_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+newFuncRoot:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer26_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -578,7 +578,7 @@ PadLeft.split:1 %speclooptripcount_ln59 = speclooptripcount void @_ssdm_op_SpecL
 
 <Node id="16" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-PadLeft.split:2 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18
+PadLeft.split:2 %specloopname_ln59 = specloopname void @_ssdm_op_SpecLoopName, void @empty_21
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln59"/></StgValue>
@@ -634,7 +634,7 @@ PadLeft.split:22 %br_ln59 = br void %PadLeft
 </dataflow>
 <dataflow id="80" from="layer11_out" to="specinterface_ln0" fromId="75" toId="15">
 </dataflow>
-<dataflow id="82" from="empty_11" to="specinterface_ln0" fromId="81" toId="15">
+<dataflow id="82" from="empty_12" to="specinterface_ln0" fromId="81" toId="15">
 </dataflow>
 <dataflow id="84" from="StgValue_83" to="specinterface_ln0" fromId="83" toId="15">
 </dataflow>
@@ -672,7 +672,7 @@ PadLeft.split:22 %br_ln59 = br void %PadLeft
 </dataflow>
 <dataflow id="103" from="layer26_out" to="specinterface_ln0" fromId="74" toId="16">
 </dataflow>
-<dataflow id="104" from="empty_11" to="specinterface_ln0" fromId="81" toId="16">
+<dataflow id="104" from="empty_12" to="specinterface_ln0" fromId="81" toId="16">
 </dataflow>
 <dataflow id="105" from="StgValue_83" to="specinterface_ln0" fromId="83" toId="16">
 </dataflow>
@@ -834,7 +834,7 @@ PadLeft.split:22 %br_ln59 = br void %PadLeft
 </dataflow>
 <dataflow id="194" from="_ssdm_op_SpecLoopName" to="specloopname_ln59" fromId="193" toId="43">
 </dataflow>
-<dataflow id="196" from="empty_18" to="specloopname_ln59" fromId="195" toId="43">
+<dataflow id="196" from="empty_21" to="specloopname_ln59" fromId="195" toId="43">
 </dataflow>
 <dataflow id="197" from="_ssdm_op_Write.ap_fifo.volatile.i128P0A" to="write_ln15" fromId="134" toId="44">
 </dataflow>

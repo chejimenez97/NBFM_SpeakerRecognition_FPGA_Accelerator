@@ -1,0 +1,40 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.705217",
+   "Default View_TopLeft":"10,-349",
+   "ExpandedHierarchyInLayout":"/float32_accel",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 4 -x 2150 -y 210 -defaultsOSRD
+preplace inst float32_accel -pg 1 -lvl 2 -x 610 -y 90 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 210 -y 330 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 3 -x 1680 -y 170 -defaultsOSRD
+preplace inst float32_accel|axi_dma_0 -pg 1 -lvl 2 -x 1060 -y 180 -defaultsOSRD
+preplace inst float32_accel|myproject_axi_0 -pg 1 -lvl 1 -x 710 -y 130 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 30 230 390 340 1380 280 1990
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 1 400 250n
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 3 NJ 350 NJ 350 2000
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 4 20 10 NJ 10 1370J 290 1980
+preplace netloc axi_interconnect_0_M00_AXI 1 1 4 410 330 NJ 330 NJ 330 2300
+preplace netloc float32_accel_M_AXI_MM2S 1 2 1 N 120
+preplace netloc float32_accel_M_AXI_S2MM 1 2 1 N 140
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 3 1 N 150
+preplace netloc float32_accel|ap_clk_1 1 0 2 540 220 890
+preplace netloc float32_accel|ap_rst_n_1 1 0 2 550 230 N
+preplace netloc float32_accel|Conn1 1 2 1 N 120
+preplace netloc float32_accel|Conn2 1 2 1 N 140
+preplace netloc float32_accel|axi_interconnect_0_M00_AXI 1 0 2 NJ 210 880
+preplace netloc float32_accel|axi_dma_0_M_AXIS_MM2S 1 0 3 550 50 NJ 50 1230
+preplace netloc float32_accel|myproject_axi_0_out_stream 1 1 1 870 130n
+levelinfo -pg 1 0 210 610 1680 2150 2320
+levelinfo -hier float32_accel * 710 1060 *
+pagesize -pg 1 -db -bbox -sgen 0 0 2320 430
+pagesize -hier float32_accel -db -bbox -sgen 510 40 1260 300
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_board_cnt":"3",
+   "da_clkrst_cnt":"5",
+   "da_zynq_ultra_ps_e_cnt":"2"
+}

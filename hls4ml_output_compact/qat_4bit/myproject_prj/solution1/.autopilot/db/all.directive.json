@@ -1,7 +1,7 @@
 [
   {
     "functionLabel": "",
-    "functionName": "myproject",
+    "functionName": "myproject_axi",
     "id": 0,
     "ifcond": "",
     "insert_position": "",
@@ -11,13 +11,13 @@
       "option": [
         {
           "name": "name",
-          "value": "myproject"
+          "value": "myproject_axi"
         }
       ]
     },
     "slx": false,
     "sourceFile": "/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit/build_prj.tcl",
-    "sourceLine": 169,
+    "sourceLine": 170,
     "success": true
   }
 ]

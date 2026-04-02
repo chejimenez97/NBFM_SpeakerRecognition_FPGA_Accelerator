@@ -1,12 +1,12 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_fpext_32ns_64_2_no_dsp_1
+set name myproject_axi_fpext_32ns_64_2_no_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fpext} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_fexp_32ns_32ns_32_13_full_dsp_1
+set name myproject_axi_fexp_32ns_32ns_32_13_full_dsp_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {fexp} IMPL {fulldsp} LATENCY 12 ALLOW_PRAGMA 1
 }
@@ -23,7 +23,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 if {${::AESL::PGuard_autoexp_gen}} {
 if {[info proc ::AESL_LIB_XILADAPTER::xil_bram_gen] == "::AESL_LIB_XILADAPTER::xil_bram_gen"} {
 eval "::AESL_LIB_XILADAPTER::xil_bram_gen { \
-    id 1543 \
+    id 1550 \
     name table_out \
     reset_level 1 \
     sync_rst true \
@@ -103,14 +103,14 @@ if {${::AESL::PGuard_autoexp_gen}} {
 
 
 # flow_control definition:
-set InstName myproject_flow_control_loop_pipe_sequential_init_U
-set CompName myproject_flow_control_loop_pipe_sequential_init
+set InstName myproject_axi_flow_control_loop_pipe_sequential_init_U
+set CompName myproject_axi_flow_control_loop_pipe_sequential_init
 set name flow_control_loop_pipe_sequential_init
 if {${::AESL::PGuard_autocg_gen} && ${::AESL::PGuard_autocg_ipmgen}} {
 if {[info proc ::AESL_LIB_VIRTEX::xil_gen_UPC_flow_control] == "::AESL_LIB_VIRTEX::xil_gen_UPC_flow_control"} {
 eval "::AESL_LIB_VIRTEX::xil_gen_UPC_flow_control { \
     name ${name} \
-    prefix myproject_ \
+    prefix myproject_axi_ \
 }"
 } else {
 puts "@W \[IMPL-107\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_UPC_flow_control, check your platform lib"

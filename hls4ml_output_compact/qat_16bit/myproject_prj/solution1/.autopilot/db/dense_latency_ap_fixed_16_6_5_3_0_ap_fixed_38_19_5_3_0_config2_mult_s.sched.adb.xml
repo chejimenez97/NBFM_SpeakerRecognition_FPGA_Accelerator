@@ -9583,7 +9583,7 @@ entry:0 %specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i3
 
 <Node id="20" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="0" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:1 %specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 143, void @empty_13, void @empty_1, void @empty_1, void @empty_1
+entry:1 %specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 143, void @empty_25, void @empty_1, void @empty_1, void @empty_1
 
 ]]></Node>
 <StgValue><ssdm name="specresourcelimit_ln33"/></StgValue>

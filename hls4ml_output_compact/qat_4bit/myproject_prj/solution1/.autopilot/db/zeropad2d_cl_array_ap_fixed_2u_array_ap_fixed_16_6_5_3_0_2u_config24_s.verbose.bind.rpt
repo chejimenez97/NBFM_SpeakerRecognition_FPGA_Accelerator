@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'zeropad2d_cl_array_ap_fixed_2u_array_ap_fixed_16_6_5_3_0_2u_config24_s'
 ================================================================
-* Date:           Sun Mar 22 09:55:00 2026
+* Date:           Mon Mar 30 19:13:26 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -38,9 +38,9 @@
         |                                                                                         |                                                                               |  Latency (cycles) |  Latency (absolute) |   Interval  | Pipeline|
         |                                         Instance                                        |                                     Module                                    |   min   |   max   |    min   |    max   |  min |  max |   Type  |
         +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
-        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |     1322|     1322|  6.610 us|  6.610 us|  1322|  1322|       no|
-        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22  |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth  |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28      |zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain      |     1322|     1322|  6.610 us|  6.610 us|  1322|  1322|       no|
+        |grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36          |zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth          |       68|       68|  0.340 us|  0.340 us|    68|    68|       no|
         +-----------------------------------------------------------------------------------------+-------------------------------------------------------------------------------+---------+---------+----------+----------+------+------+---------+
 
         * Loop: 
@@ -96,25 +96,25 @@ State 2 <SV = 1> <Delay = 0.00>
 ST_2 : Operation 11 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadTopWidth, i32 %layer24_out"   --->   Operation 11 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 3 <SV = 2> <Delay = 0.00>
-ST_3 : Operation 12 [1/1] (0.00ns)   --->   "%empty_63 = wait i32 @_ssdm_op_Wait"   --->   Operation 12 'wait' 'empty_63' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 12 [1/1] (0.00ns)   --->   "%empty_71 = wait i32 @_ssdm_op_Wait"   --->   Operation 12 'wait' 'empty_71' <Predicate = true> <Delay = 0.00>
 
-State 4 <SV = 3> <Delay = 1.00>
-ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%empty_64 = wait i32 @_ssdm_op_Wait"   --->   Operation 13 'wait' 'empty_64' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 14 [2/2] (1.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_8"   --->   Operation 14 'call' 'call_ln0' <Predicate = true> <Delay = 1.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+State 4 <SV = 3> <Delay = 0.00>
+ST_4 : Operation 13 [1/1] (0.00ns)   --->   "%empty_72 = wait i32 @_ssdm_op_Wait"   --->   Operation 13 'wait' 'empty_72' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 14 [2/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_local"   --->   Operation 14 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 5 <SV = 4> <Delay = 0.00>
-ST_5 : Operation 15 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_8"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 15 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pipeline_PadMain, i32 %layer24_out, i32 %input_local"   --->   Operation 15 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 5> <Delay = 0.00>
-ST_6 : Operation 16 [1/1] (0.00ns)   --->   "%empty_65 = wait i32 @_ssdm_op_Wait"   --->   Operation 16 'wait' 'empty_65' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 16 [1/1] (0.00ns)   --->   "%empty_73 = wait i32 @_ssdm_op_Wait"   --->   Operation 16 'wait' 'empty_73' <Predicate = true> <Delay = 0.00>
 
 State 7 <SV = 6> <Delay = 0.00>
-ST_7 : Operation 17 [1/1] (0.00ns)   --->   "%empty_66 = wait i32 @_ssdm_op_Wait"   --->   Operation 17 'wait' 'empty_66' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 17 [1/1] (0.00ns)   --->   "%empty_74 = wait i32 @_ssdm_op_Wait"   --->   Operation 17 'wait' 'empty_74' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 18 [2/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth, i32 %layer24_out"   --->   Operation 18 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 7> <Delay = 0.00>
-ST_8 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %input_8, void @empty_21, i32 1, i32 1, void @empty_20, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 19 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %layer24_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 19 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 20 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i32 %input_local, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0"   --->   Operation 20 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 21 [1/2] (0.00ns)   --->   "%call_ln0 = call void @zeropad2d_cl<array,array<ap_fixed,2u>,config24>_Pipeline_PadBottomWidth, i32 %layer24_out"   --->   Operation 21 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_8 : Operation 22 [1/1] (0.00ns)   --->   "%ret_ln81 = ret" [firmware/nnet_utils/nnet_padding_stream.h:81]   --->   Operation 22 'ret' 'ret_ln81' <Predicate = true> <Delay = 0.00>
 
@@ -130,7 +130,7 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
-Port [ input_8]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; pingpong=0; private_global=0; IO mode=axis:ce=0
+Port [ input_local]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
 Port [ layer24_out]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=3; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
 ---------------- STG Properties END ------------------
 
@@ -140,11 +140,11 @@ Port [ layer24_out]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0
 <method=bitvector/>
 empty             (wait         ) [ 000000000]
 call_ln0          (call         ) [ 000000000]
-empty_63          (wait         ) [ 000000000]
-empty_64          (wait         ) [ 000000000]
+empty_71          (wait         ) [ 000000000]
+empty_72          (wait         ) [ 000000000]
 call_ln0          (call         ) [ 000000000]
-empty_65          (wait         ) [ 000000000]
-empty_66          (wait         ) [ 000000000]
+empty_73          (wait         ) [ 000000000]
+empty_74          (wait         ) [ 000000000]
 specinterface_ln0 (specinterface) [ 000000000]
 specinterface_ln0 (specinterface) [ 000000000]
 call_ln0          (call         ) [ 000000000]
@@ -154,12 +154,12 @@ ret_ln81          (ret          ) [ 000000000]
 <model>
 
 <comp_list>
-<comp id="0" class="1000" name="input_8">
+<comp id="0" class="1000" name="input_local">
 <pin_list>
 <pin id="1" dir="1" index="0" bw="1" slack="0"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="input_8"/></StgValue>
+<StgValue><ssdm name="input_local"/></StgValue>
 </bind>
 </comp>
 
@@ -222,7 +222,7 @@ ret_ln81          (ret          ) [ 000000000]
 <pin id="15" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_11"/></StgValue>
+<StgValue><ssdm name="empty_1"/></StgValue>
 </bind>
 </comp>
 
@@ -240,7 +240,7 @@ ret_ln81          (ret          ) [ 000000000]
 <pin id="19" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_1"/></StgValue>
+<StgValue><ssdm name="empty_20"/></StgValue>
 </bind>
 </comp>
 
@@ -253,38 +253,11 @@ ret_ln81          (ret          ) [ 000000000]
 </bind>
 </comp>
 
-<comp id="22" class="1001" name="const_22">
+<comp id="22" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22">
 <pin_list>
-<pin id="23" dir="1" index="0" bw="1" slack="2147483647"/>
-</pin_list>
-<bind>
-<StgValue><ssdm name="empty_21"/></StgValue>
-</bind>
-</comp>
-
-<comp id="24" class="1001" name="const_24">
-<pin_list>
-<pin id="25" dir="1" index="0" bw="1" slack="2147483647"/>
-</pin_list>
-<bind>
-<StgValue><ssdm name=""/></StgValue>
-</bind>
-</comp>
-
-<comp id="26" class="1001" name="const_26">
-<pin_list>
-<pin id="27" dir="1" index="0" bw="1" slack="2147483647"/>
-</pin_list>
-<bind>
-<StgValue><ssdm name="empty_20"/></StgValue>
-</bind>
-</comp>
-
-<comp id="28" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28">
-<pin_list>
-<pin id="29" dir="0" index="0" bw="0" slack="0"/>
-<pin id="30" dir="0" index="1" bw="32" slack="0"/>
-<pin id="31" dir="1" index="2" bw="0" slack="2147483647"/>
+<pin id="23" dir="0" index="0" bw="0" slack="0"/>
+<pin id="24" dir="0" index="1" bw="32" slack="0"/>
+<pin id="25" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
@@ -292,12 +265,12 @@ ret_ln81          (ret          ) [ 000000000]
 </bind>
 </comp>
 
-<comp id="34" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34">
+<comp id="28" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28">
 <pin_list>
-<pin id="35" dir="0" index="0" bw="0" slack="0"/>
-<pin id="36" dir="0" index="1" bw="32" slack="0"/>
-<pin id="37" dir="0" index="2" bw="32" slack="0"/>
-<pin id="38" dir="1" index="3" bw="0" slack="2147483647"/>
+<pin id="29" dir="0" index="0" bw="0" slack="0"/>
+<pin id="30" dir="0" index="1" bw="32" slack="0"/>
+<pin id="31" dir="0" index="2" bw="32" slack="0"/>
+<pin id="32" dir="1" index="3" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
@@ -305,11 +278,11 @@ ret_ln81          (ret          ) [ 000000000]
 </bind>
 </comp>
 
-<comp id="42" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42">
+<comp id="36" class="1004" name="grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36">
 <pin_list>
-<pin id="43" dir="0" index="0" bw="0" slack="0"/>
-<pin id="44" dir="0" index="1" bw="32" slack="0"/>
-<pin id="45" dir="1" index="2" bw="0" slack="2147483647"/>
+<pin id="37" dir="0" index="0" bw="0" slack="0"/>
+<pin id="38" dir="0" index="1" bw="32" slack="0"/>
+<pin id="39" dir="1" index="2" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
@@ -320,19 +293,19 @@ ret_ln81          (ret          ) [ 000000000]
 </comp_list>
 
 <net_list>
-<net id="32"><net_src comp="6" pin="0"/><net_sink comp="28" pin=0"/></net>
+<net id="26"><net_src comp="6" pin="0"/><net_sink comp="22" pin=0"/></net>
 
-<net id="33"><net_src comp="2" pin="0"/><net_sink comp="28" pin=1"/></net>
+<net id="27"><net_src comp="2" pin="0"/><net_sink comp="22" pin=1"/></net>
 
-<net id="39"><net_src comp="8" pin="0"/><net_sink comp="34" pin=0"/></net>
+<net id="33"><net_src comp="8" pin="0"/><net_sink comp="28" pin=0"/></net>
 
-<net id="40"><net_src comp="2" pin="0"/><net_sink comp="34" pin=1"/></net>
+<net id="34"><net_src comp="2" pin="0"/><net_sink comp="28" pin=1"/></net>
 
-<net id="41"><net_src comp="0" pin="0"/><net_sink comp="34" pin=2"/></net>
+<net id="35"><net_src comp="0" pin="0"/><net_sink comp="28" pin=2"/></net>
 
-<net id="46"><net_src comp="10" pin="0"/><net_sink comp="42" pin=0"/></net>
+<net id="40"><net_src comp="10" pin="0"/><net_sink comp="36" pin=0"/></net>
 
-<net id="47"><net_src comp="2" pin="0"/><net_sink comp="42" pin=1"/></net>
+<net id="41"><net_src comp="2" pin="0"/><net_sink comp="36" pin=1"/></net>
 
 </net_list>
 
@@ -343,7 +316,7 @@ ret_ln81          (ret          ) [ 000000000]
   - Output states:
 	Port: layer24_out | {1 2 4 5 7 8 }
  - Input state : 
-	Port: zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24> : input_8 | {4 5 }
+	Port: zeropad2d_cl<array<ap_fixed,2u>,array<ap_fixed<16,6,5,3,0>,2u>,config24> : input_local | {4 5 }
   - Chain level:
 	State 1
 	State 2
@@ -363,9 +336,9 @@ ret_ln81          (ret          ) [ 000000000]
 |----------|-----------------------------------------------------------------------------------------|---------|---------|---------|
 | Operation|                                     Functional Unit                                     |  Delay  |    FF   |   LUT   |
 |----------|-----------------------------------------------------------------------------------------|---------|---------|---------|
-|          | grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_28 |    0    |    7    |    28   |
-|   call   |   grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_34   |  0.427  |    43   |    33   |
-|          |     grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_42     |    0    |    7    |    28   |
+|          | grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadTopWidth_fu_22 |    0    |    7    |    28   |
+|   call   |   grp_zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain_fu_28   |  0.427  |    43   |    33   |
+|          |     grp_zeropad2d_cl_array_array_ap_fixed_2u_config24_Pipeline_PadBottomWidth_fu_36     |    0    |    7    |    28   |
 |----------|-----------------------------------------------------------------------------------------|---------|---------|---------|
 |   Total  |                                                                                         |  0.427  |    57   |    89   |
 |----------|-----------------------------------------------------------------------------------------|---------|---------|---------|

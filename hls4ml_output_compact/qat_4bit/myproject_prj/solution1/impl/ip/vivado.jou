@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sun Mar 22 09:55:52 2026
-# Process ID: 39992
+# Start of session at: Mon Mar 30 19:14:37 2026
+# Process ID: 10982
 # Current directory: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit/myproject_prj/solution1/impl/ip
 # Command line: vivado -notrace -mode batch -source run_ippack.tcl
 # Log file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit/myproject_prj/solution1/impl/ip/vivado.log
 # Journal file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_4bit/myproject_prj/solution1/impl/ip/vivado.jou
-# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3677.453 MHz, CPU Physical cores: 4, Host memory: 8273 MB
+# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3698.767 MHz, CPU Physical cores: 4, Host memory: 8273 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace

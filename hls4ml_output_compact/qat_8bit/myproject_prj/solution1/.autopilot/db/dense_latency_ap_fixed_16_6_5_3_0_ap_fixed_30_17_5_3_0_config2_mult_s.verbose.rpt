@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'dense_latency_ap_fixed_16_6_5_3_0_ap_fixed_30_17_5_3_0_config2_mult_s'
 ================================================================
-* Date:           Sun Mar 22 09:52:22 2026
+* Date:           Mon Mar 30 19:10:39 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -361,7 +361,7 @@ ST_1 : Operation 21 [1/1] (0.82ns)   --->   "%add_ln58_829 = add i14 %sext_ln73_
 
 State 2 <SV = 1> <Delay = 3.21>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%specpipeline_ln33 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 22 'specpipeline' 'specpipeline_ln33' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 103, void @empty_13, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 23 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%specresourcelimit_ln33 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 103, void @empty_25, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_dense_latency.h:33]   --->   Operation 23 'specresourcelimit' 'specresourcelimit_ln33' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%a = load i16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29"   --->   Operation 24 'load' 'a' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 25 [1/1] (0.00ns)   --->   "%sext_ln73 = sext i16 %a" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 25 'sext' 'sext_ln73' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%sext_ln73_1 = sext i16 %a" [firmware/nnet_utils/nnet_mult.h:73->firmware/nnet_utils/nnet_dense_latency.h:42]   --->   Operation 26 'sext' 'sext_ln73_1' <Predicate = true> <Delay = 0.00>
@@ -1545,7 +1545,7 @@ ret_ln33               (ret              ) [ 000]
 <pin id="75" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_13"/></StgValue>
+<StgValue><ssdm name="empty_25"/></StgValue>
 </bind>
 </comp>
 

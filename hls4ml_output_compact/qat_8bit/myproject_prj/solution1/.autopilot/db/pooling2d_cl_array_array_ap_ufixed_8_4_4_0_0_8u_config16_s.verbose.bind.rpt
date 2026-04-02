@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'pooling2d_cl_array_array_ap_ufixed_8_4_4_0_0_8u_config16_s'
 ================================================================
-* Date:           Sun Mar 22 09:52:18 2026
+* Date:           Mon Mar 30 19:10:34 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -95,8 +95,8 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 2.74>
 ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%indvar_flatten = alloca i32 1"   --->   Operation 9 'alloca' 'indvar_flatten' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer16_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer15_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer16_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 10 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer15_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 12 [1/1] (0.42ns)   --->   "%store_ln0 = store i6 0, i6 %indvar_flatten"   --->   Operation 12 'store' 'store_ln0' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%br_ln109 = br void %for.body14" [firmware/nnet_utils/nnet_pooling_stream.h:109]   --->   Operation 13 'br' 'br_ln109' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%indvar_flatten_load = load i6 %indvar_flatten" [firmware/nnet_utils/nnet_pooling_stream.h:109]   --->   Operation 14 'load' 'indvar_flatten_load' <Predicate = true> <Delay = 0.00>
@@ -960,93 +960,93 @@ ST_5 : Operation 862 [1/1] (0.78ns)   --->   "%icmp_ln68_7 = icmp_ne  i5 %trunc_
 
 State 6 <SV = 5> <Delay = 2.98>
 ST_6 : Operation 863 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%trunc_ln = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 863 'partselect' 'trunc_ln' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 864 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%tmp_211 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 864 'bitselect' 'tmp_211' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 865 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%tmp_212 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 865 'bitselect' 'tmp_212' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 866 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%tmp_213 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 866 'bitselect' 'tmp_213' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 867 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%or_ln68 = or i1 %tmp_211, i1 %icmp_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 867 'or' 'or_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 868 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%and_ln68 = and i1 %or_ln68, i1 %tmp_212" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 868 'and' 'and_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 864 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%tmp_212 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 864 'bitselect' 'tmp_212' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 865 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%tmp_213 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 865 'bitselect' 'tmp_213' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 866 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%tmp_214 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 866 'bitselect' 'tmp_214' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 867 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%or_ln68 = or i1 %tmp_212, i1 %icmp_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 867 'or' 'or_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 868 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%and_ln68 = and i1 %or_ln68, i1 %tmp_213" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 868 'and' 'and_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 869 [1/1] (0.00ns) (grouped into LUT with out node add_ln68)   --->   "%zext_ln68 = zext i1 %and_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 869 'zext' 'zext_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 870 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68 = add i8 %trunc_ln, i8 %zext_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 870 'add' 'add_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 871 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%tmp_214 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 871 'bitselect' 'tmp_214' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 872 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%select_ln68 = select i1 %tmp_214, i8 %add_ln68, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 872 'select' 'select_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 873 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack = select i1 %tmp_213, i8 %select_ln68, i8 %add_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 873 'select' 'res_pack' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 871 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%tmp_215 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 871 'bitselect' 'tmp_215' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 872 [1/1] (0.00ns) (grouped into LUT with out node res_pack)   --->   "%select_ln68 = select i1 %tmp_215, i8 %add_ln68, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 872 'select' 'select_ln68' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 873 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack = select i1 %tmp_214, i8 %select_ln68, i8 %add_ln68" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 873 'select' 'res_pack' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 874 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%trunc_ln68_4 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_9, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 874 'partselect' 'trunc_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 875 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%tmp_215 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 875 'bitselect' 'tmp_215' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 876 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%tmp_216 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 876 'bitselect' 'tmp_216' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 877 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%tmp_217 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 877 'bitselect' 'tmp_217' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 878 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%or_ln68_1 = or i1 %tmp_215, i1 %icmp_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 878 'or' 'or_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 879 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%and_ln68_1 = and i1 %or_ln68_1, i1 %tmp_216" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 879 'and' 'and_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 875 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%tmp_216 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 875 'bitselect' 'tmp_216' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 876 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%tmp_217 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 876 'bitselect' 'tmp_217' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 877 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%tmp_218 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_9, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 877 'bitselect' 'tmp_218' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 878 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%or_ln68_1 = or i1 %tmp_216, i1 %icmp_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 878 'or' 'or_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 879 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%and_ln68_1 = and i1 %or_ln68_1, i1 %tmp_217" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 879 'and' 'and_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 880 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_1)   --->   "%zext_ln68_1 = zext i1 %and_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 880 'zext' 'zext_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 881 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_1 = add i8 %trunc_ln68_4, i8 %zext_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 881 'add' 'add_ln68_1' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 882 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%tmp_218 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_1, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 882 'bitselect' 'tmp_218' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 883 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%select_ln68_2 = select i1 %tmp_218, i8 %add_ln68_1, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 883 'select' 'select_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 884 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_8 = select i1 %tmp_217, i8 %select_ln68_2, i8 %add_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 884 'select' 'res_pack_8' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 882 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%tmp_219 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_1, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 882 'bitselect' 'tmp_219' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 883 [1/1] (0.00ns) (grouped into LUT with out node res_pack_8)   --->   "%select_ln68_2 = select i1 %tmp_219, i8 %add_ln68_1, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 883 'select' 'select_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 884 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_8 = select i1 %tmp_218, i8 %select_ln68_2, i8 %add_ln68_1" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 884 'select' 'res_pack_8' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 885 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%trunc_ln68_7 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_10, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 885 'partselect' 'trunc_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 886 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%tmp_219 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 886 'bitselect' 'tmp_219' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 887 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%tmp_220 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 887 'bitselect' 'tmp_220' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 888 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%tmp_221 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 888 'bitselect' 'tmp_221' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 889 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%or_ln68_2 = or i1 %tmp_219, i1 %icmp_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 889 'or' 'or_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 890 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%and_ln68_2 = and i1 %or_ln68_2, i1 %tmp_220" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 890 'and' 'and_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 886 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%tmp_220 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 886 'bitselect' 'tmp_220' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 887 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%tmp_221 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 887 'bitselect' 'tmp_221' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 888 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%tmp_222 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_10, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 888 'bitselect' 'tmp_222' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 889 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%or_ln68_2 = or i1 %tmp_220, i1 %icmp_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 889 'or' 'or_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 890 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%and_ln68_2 = and i1 %or_ln68_2, i1 %tmp_221" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 890 'and' 'and_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 891 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_2)   --->   "%zext_ln68_2 = zext i1 %and_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 891 'zext' 'zext_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 892 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_2 = add i8 %trunc_ln68_7, i8 %zext_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 892 'add' 'add_ln68_2' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 893 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%tmp_222 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_2, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 893 'bitselect' 'tmp_222' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 894 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%select_ln68_4 = select i1 %tmp_222, i8 %add_ln68_2, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 894 'select' 'select_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 895 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_9 = select i1 %tmp_221, i8 %select_ln68_4, i8 %add_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 895 'select' 'res_pack_9' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 893 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%tmp_223 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_2, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 893 'bitselect' 'tmp_223' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 894 [1/1] (0.00ns) (grouped into LUT with out node res_pack_9)   --->   "%select_ln68_4 = select i1 %tmp_223, i8 %add_ln68_2, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 894 'select' 'select_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 895 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_9 = select i1 %tmp_222, i8 %select_ln68_4, i8 %add_ln68_2" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 895 'select' 'res_pack_9' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 896 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%trunc_ln68_s = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_11, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 896 'partselect' 'trunc_ln68_s' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 897 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%tmp_223 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 897 'bitselect' 'tmp_223' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 898 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%tmp_224 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 898 'bitselect' 'tmp_224' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 899 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%tmp_225 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 899 'bitselect' 'tmp_225' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 900 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%or_ln68_3 = or i1 %tmp_223, i1 %icmp_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 900 'or' 'or_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 901 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%and_ln68_3 = and i1 %or_ln68_3, i1 %tmp_224" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 901 'and' 'and_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 897 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%tmp_224 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 897 'bitselect' 'tmp_224' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 898 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%tmp_225 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 898 'bitselect' 'tmp_225' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 899 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%tmp_226 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_11, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 899 'bitselect' 'tmp_226' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 900 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%or_ln68_3 = or i1 %tmp_224, i1 %icmp_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 900 'or' 'or_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 901 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%and_ln68_3 = and i1 %or_ln68_3, i1 %tmp_225" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 901 'and' 'and_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 902 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_3)   --->   "%zext_ln68_3 = zext i1 %and_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 902 'zext' 'zext_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 903 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_3 = add i8 %trunc_ln68_s, i8 %zext_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 903 'add' 'add_ln68_3' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 904 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%tmp_226 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_3, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 904 'bitselect' 'tmp_226' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 905 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%select_ln68_6 = select i1 %tmp_226, i8 %add_ln68_3, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 905 'select' 'select_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 906 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_10 = select i1 %tmp_225, i8 %select_ln68_6, i8 %add_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 906 'select' 'res_pack_10' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 904 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%tmp_227 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_3, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 904 'bitselect' 'tmp_227' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 905 [1/1] (0.00ns) (grouped into LUT with out node res_pack_10)   --->   "%select_ln68_6 = select i1 %tmp_227, i8 %add_ln68_3, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 905 'select' 'select_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 906 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_10 = select i1 %tmp_226, i8 %select_ln68_6, i8 %add_ln68_3" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 906 'select' 'res_pack_10' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 907 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%trunc_ln68_5 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_12, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 907 'partselect' 'trunc_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 908 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%tmp_227 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 908 'bitselect' 'tmp_227' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 909 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%tmp_228 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 909 'bitselect' 'tmp_228' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 910 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%tmp_229 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 910 'bitselect' 'tmp_229' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 911 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%or_ln68_4 = or i1 %tmp_227, i1 %icmp_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 911 'or' 'or_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 912 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%and_ln68_4 = and i1 %or_ln68_4, i1 %tmp_228" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 912 'and' 'and_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 908 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%tmp_228 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 908 'bitselect' 'tmp_228' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 909 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%tmp_229 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 909 'bitselect' 'tmp_229' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 910 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%tmp_230 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_12, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 910 'bitselect' 'tmp_230' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 911 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%or_ln68_4 = or i1 %tmp_228, i1 %icmp_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 911 'or' 'or_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 912 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%and_ln68_4 = and i1 %or_ln68_4, i1 %tmp_229" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 912 'and' 'and_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 913 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_4)   --->   "%zext_ln68_4 = zext i1 %and_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 913 'zext' 'zext_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 914 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_4 = add i8 %trunc_ln68_5, i8 %zext_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 914 'add' 'add_ln68_4' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 915 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%tmp_230 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_4, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 915 'bitselect' 'tmp_230' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 916 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%select_ln68_8 = select i1 %tmp_230, i8 %add_ln68_4, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 916 'select' 'select_ln68_8' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 917 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_11 = select i1 %tmp_229, i8 %select_ln68_8, i8 %add_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 917 'select' 'res_pack_11' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 915 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%tmp_231 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_4, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 915 'bitselect' 'tmp_231' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 916 [1/1] (0.00ns) (grouped into LUT with out node res_pack_11)   --->   "%select_ln68_8 = select i1 %tmp_231, i8 %add_ln68_4, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 916 'select' 'select_ln68_8' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 917 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_11 = select i1 %tmp_230, i8 %select_ln68_8, i8 %add_ln68_4" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 917 'select' 'res_pack_11' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 918 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%trunc_ln68_8 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_13, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 918 'partselect' 'trunc_ln68_8' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 919 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%tmp_231 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 919 'bitselect' 'tmp_231' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 920 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%tmp_232 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 920 'bitselect' 'tmp_232' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 921 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%tmp_233 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 921 'bitselect' 'tmp_233' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 922 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%or_ln68_5 = or i1 %tmp_231, i1 %icmp_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 922 'or' 'or_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 923 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%and_ln68_5 = and i1 %or_ln68_5, i1 %tmp_232" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 923 'and' 'and_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 919 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%tmp_232 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 919 'bitselect' 'tmp_232' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 920 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%tmp_233 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 920 'bitselect' 'tmp_233' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 921 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%tmp_234 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_13, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 921 'bitselect' 'tmp_234' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 922 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%or_ln68_5 = or i1 %tmp_232, i1 %icmp_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 922 'or' 'or_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 923 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%and_ln68_5 = and i1 %or_ln68_5, i1 %tmp_233" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 923 'and' 'and_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 924 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_5)   --->   "%zext_ln68_5 = zext i1 %and_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 924 'zext' 'zext_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 925 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_5 = add i8 %trunc_ln68_8, i8 %zext_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 925 'add' 'add_ln68_5' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 926 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%tmp_234 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_5, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 926 'bitselect' 'tmp_234' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 927 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%select_ln68_10 = select i1 %tmp_234, i8 %add_ln68_5, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 927 'select' 'select_ln68_10' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 928 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_12 = select i1 %tmp_233, i8 %select_ln68_10, i8 %add_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 928 'select' 'res_pack_12' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 926 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%tmp_235 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_5, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 926 'bitselect' 'tmp_235' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 927 [1/1] (0.00ns) (grouped into LUT with out node res_pack_12)   --->   "%select_ln68_10 = select i1 %tmp_235, i8 %add_ln68_5, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 927 'select' 'select_ln68_10' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 928 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_12 = select i1 %tmp_234, i8 %select_ln68_10, i8 %add_ln68_5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 928 'select' 'res_pack_12' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 929 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%trunc_ln68_10 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_14, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 929 'partselect' 'trunc_ln68_10' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 930 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%tmp_235 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 930 'bitselect' 'tmp_235' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 931 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%tmp_236 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 931 'bitselect' 'tmp_236' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 932 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%tmp_237 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 932 'bitselect' 'tmp_237' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 933 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%or_ln68_6 = or i1 %tmp_235, i1 %icmp_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 933 'or' 'or_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 934 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%and_ln68_6 = and i1 %or_ln68_6, i1 %tmp_236" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 934 'and' 'and_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 930 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%tmp_236 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 930 'bitselect' 'tmp_236' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 931 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%tmp_237 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 931 'bitselect' 'tmp_237' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 932 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%tmp_238 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_14, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 932 'bitselect' 'tmp_238' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 933 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%or_ln68_6 = or i1 %tmp_236, i1 %icmp_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 933 'or' 'or_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 934 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%and_ln68_6 = and i1 %or_ln68_6, i1 %tmp_237" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 934 'and' 'and_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 935 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_6)   --->   "%zext_ln68_6 = zext i1 %and_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 935 'zext' 'zext_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 936 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_6 = add i8 %trunc_ln68_10, i8 %zext_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 936 'add' 'add_ln68_6' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 937 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%tmp_238 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_6, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 937 'bitselect' 'tmp_238' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 938 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%select_ln68_12 = select i1 %tmp_238, i8 %add_ln68_6, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 938 'select' 'select_ln68_12' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 939 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_13 = select i1 %tmp_237, i8 %select_ln68_12, i8 %add_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 939 'select' 'res_pack_13' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 937 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%tmp_239 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_6, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 937 'bitselect' 'tmp_239' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 938 [1/1] (0.00ns) (grouped into LUT with out node res_pack_13)   --->   "%select_ln68_12 = select i1 %tmp_239, i8 %add_ln68_6, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 938 'select' 'select_ln68_12' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 939 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_13 = select i1 %tmp_238, i8 %select_ln68_12, i8 %add_ln68_6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 939 'select' 'res_pack_13' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 940 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%trunc_ln68_12 = partselect i8 @_ssdm_op_PartSelect.i8.i14.i32.i32, i14 %select_ln66_15, i32 6, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 940 'partselect' 'trunc_ln68_12' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 941 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%tmp_239 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 941 'bitselect' 'tmp_239' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 942 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%tmp_240 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 942 'bitselect' 'tmp_240' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 943 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%tmp_241 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 943 'bitselect' 'tmp_241' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 944 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%or_ln68_7 = or i1 %tmp_239, i1 %icmp_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 944 'or' 'or_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 945 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%and_ln68_7 = and i1 %or_ln68_7, i1 %tmp_240" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 945 'and' 'and_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 941 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%tmp_240 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 6" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 941 'bitselect' 'tmp_240' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 942 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%tmp_241 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 5" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 942 'bitselect' 'tmp_241' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 943 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%tmp_242 = bitselect i1 @_ssdm_op_BitSelect.i1.i14.i32, i14 %select_ln66_15, i32 13" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 943 'bitselect' 'tmp_242' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 944 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%or_ln68_7 = or i1 %tmp_240, i1 %icmp_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 944 'or' 'or_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 945 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%and_ln68_7 = and i1 %or_ln68_7, i1 %tmp_241" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 945 'and' 'and_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.28> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 946 [1/1] (0.00ns) (grouped into LUT with out node add_ln68_7)   --->   "%zext_ln68_7 = zext i1 %and_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 946 'zext' 'zext_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 947 [1/1] (0.76ns) (out node of the LUT)   --->   "%add_ln68_7 = add i8 %trunc_ln68_12, i8 %zext_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 947 'add' 'add_ln68_7' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.76> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 0.76> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 948 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%tmp_242 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_7, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 948 'bitselect' 'tmp_242' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
-ST_6 : Operation 949 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%select_ln68_14 = select i1 %tmp_242, i8 %add_ln68_7, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 949 'select' 'select_ln68_14' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 950 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_14 = select i1 %tmp_241, i8 %select_ln68_14, i8 %add_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 950 'select' 'res_pack_14' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 948 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%tmp_243 = bitselect i1 @_ssdm_op_BitSelect.i1.i8.i32, i8 %add_ln68_7, i32 7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 948 'bitselect' 'tmp_243' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
+ST_6 : Operation 949 [1/1] (0.00ns) (grouped into LUT with out node res_pack_14)   --->   "%select_ln68_14 = select i1 %tmp_243, i8 %add_ln68_7, i8 255" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 949 'select' 'select_ln68_14' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 950 [1/1] (0.39ns) (out node of the LUT)   --->   "%res_pack_14 = select i1 %tmp_242, i8 %select_ln68_14, i8 %add_ln68_7" [firmware/nnet_utils/nnet_pooling_stream.h:68->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 950 'select' 'res_pack_14' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.39> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.39> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_6 : Operation 951 [1/1] (0.00ns)   --->   "%or_ln72_s = bitconcatenate i64 @_ssdm_op_BitConcatenate.i64.i8.i8.i8.i8.i8.i8.i8.i8, i8 %res_pack_14, i8 %res_pack_13, i8 %res_pack_12, i8 %res_pack_11, i8 %res_pack_10, i8 %res_pack_9, i8 %res_pack_8, i8 %res_pack" [firmware/nnet_utils/nnet_pooling_stream.h:72->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 951 'bitconcatenate' 'or_ln72_s' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
 ST_6 : Operation 952 [1/1] (1.82ns)   --->   "%write_ln72 = write void @_ssdm_op_Write.ap_fifo.volatile.i64P0A, i64 %layer16_out, i64 %or_ln72_s" [firmware/nnet_utils/nnet_pooling_stream.h:72->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 952 'write' 'write_ln72' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 1.82> <CoreInst = "FIFO_SRL">   --->   Core 81 'FIFO_SRL' <Latency = 0> <II = 1> <Delay = 1.83> <Storage> <Opcode : 'read' 'write' 'nbread' 'nbwrite'> <Ports = 0> <Width = 64> <Depth = 2> <FIFO>
 ST_6 : Operation 953 [1/1] (0.00ns)   --->   "%br_ln73 = br void %if.end.i" [firmware/nnet_utils/nnet_pooling_stream.h:73->firmware/nnet_utils/nnet_pooling_stream.h:115]   --->   Operation 953 'br' 'br_ln73' <Predicate = (icmp_ln55 & and_ln55_2)> <Delay = 0.00>
@@ -2122,91 +2122,91 @@ select_ln66_15                                                                  
 trunc_ln68_13                                                                         (trunc            ) [ 0000000]
 icmp_ln68_7                                                                           (icmp             ) [ 0010001]
 trunc_ln                                                                              (partselect       ) [ 0000000]
-tmp_211                                                                               (bitselect        ) [ 0000000]
 tmp_212                                                                               (bitselect        ) [ 0000000]
 tmp_213                                                                               (bitselect        ) [ 0000000]
+tmp_214                                                                               (bitselect        ) [ 0000000]
 or_ln68                                                                               (or               ) [ 0000000]
 and_ln68                                                                              (and              ) [ 0000000]
 zext_ln68                                                                             (zext             ) [ 0000000]
 add_ln68                                                                              (add              ) [ 0000000]
-tmp_214                                                                               (bitselect        ) [ 0000000]
+tmp_215                                                                               (bitselect        ) [ 0000000]
 select_ln68                                                                           (select           ) [ 0000000]
 res_pack                                                                              (select           ) [ 0000000]
 trunc_ln68_4                                                                          (partselect       ) [ 0000000]
-tmp_215                                                                               (bitselect        ) [ 0000000]
 tmp_216                                                                               (bitselect        ) [ 0000000]
 tmp_217                                                                               (bitselect        ) [ 0000000]
+tmp_218                                                                               (bitselect        ) [ 0000000]
 or_ln68_1                                                                             (or               ) [ 0000000]
 and_ln68_1                                                                            (and              ) [ 0000000]
 zext_ln68_1                                                                           (zext             ) [ 0000000]
 add_ln68_1                                                                            (add              ) [ 0000000]
-tmp_218                                                                               (bitselect        ) [ 0000000]
+tmp_219                                                                               (bitselect        ) [ 0000000]
 select_ln68_2                                                                         (select           ) [ 0000000]
 res_pack_8                                                                            (select           ) [ 0000000]
 trunc_ln68_7                                                                          (partselect       ) [ 0000000]
-tmp_219                                                                               (bitselect        ) [ 0000000]
 tmp_220                                                                               (bitselect        ) [ 0000000]
 tmp_221                                                                               (bitselect        ) [ 0000000]
+tmp_222                                                                               (bitselect        ) [ 0000000]
 or_ln68_2                                                                             (or               ) [ 0000000]
 and_ln68_2                                                                            (and              ) [ 0000000]
 zext_ln68_2                                                                           (zext             ) [ 0000000]
 add_ln68_2                                                                            (add              ) [ 0000000]
-tmp_222                                                                               (bitselect        ) [ 0000000]
+tmp_223                                                                               (bitselect        ) [ 0000000]
 select_ln68_4                                                                         (select           ) [ 0000000]
 res_pack_9                                                                            (select           ) [ 0000000]
 trunc_ln68_s                                                                          (partselect       ) [ 0000000]
-tmp_223                                                                               (bitselect        ) [ 0000000]
 tmp_224                                                                               (bitselect        ) [ 0000000]
 tmp_225                                                                               (bitselect        ) [ 0000000]
+tmp_226                                                                               (bitselect        ) [ 0000000]
 or_ln68_3                                                                             (or               ) [ 0000000]
 and_ln68_3                                                                            (and              ) [ 0000000]
 zext_ln68_3                                                                           (zext             ) [ 0000000]
 add_ln68_3                                                                            (add              ) [ 0000000]
-tmp_226                                                                               (bitselect        ) [ 0000000]
+tmp_227                                                                               (bitselect        ) [ 0000000]
 select_ln68_6                                                                         (select           ) [ 0000000]
 res_pack_10                                                                           (select           ) [ 0000000]
 trunc_ln68_5                                                                          (partselect       ) [ 0000000]
-tmp_227                                                                               (bitselect        ) [ 0000000]
 tmp_228                                                                               (bitselect        ) [ 0000000]
 tmp_229                                                                               (bitselect        ) [ 0000000]
+tmp_230                                                                               (bitselect        ) [ 0000000]
 or_ln68_4                                                                             (or               ) [ 0000000]
 and_ln68_4                                                                            (and              ) [ 0000000]
 zext_ln68_4                                                                           (zext             ) [ 0000000]
 add_ln68_4                                                                            (add              ) [ 0000000]
-tmp_230                                                                               (bitselect        ) [ 0000000]
+tmp_231                                                                               (bitselect        ) [ 0000000]
 select_ln68_8                                                                         (select           ) [ 0000000]
 res_pack_11                                                                           (select           ) [ 0000000]
 trunc_ln68_8                                                                          (partselect       ) [ 0000000]
-tmp_231                                                                               (bitselect        ) [ 0000000]
 tmp_232                                                                               (bitselect        ) [ 0000000]
 tmp_233                                                                               (bitselect        ) [ 0000000]
+tmp_234                                                                               (bitselect        ) [ 0000000]
 or_ln68_5                                                                             (or               ) [ 0000000]
 and_ln68_5                                                                            (and              ) [ 0000000]
 zext_ln68_5                                                                           (zext             ) [ 0000000]
 add_ln68_5                                                                            (add              ) [ 0000000]
-tmp_234                                                                               (bitselect        ) [ 0000000]
+tmp_235                                                                               (bitselect        ) [ 0000000]
 select_ln68_10                                                                        (select           ) [ 0000000]
 res_pack_12                                                                           (select           ) [ 0000000]
 trunc_ln68_10                                                                         (partselect       ) [ 0000000]
-tmp_235                                                                               (bitselect        ) [ 0000000]
 tmp_236                                                                               (bitselect        ) [ 0000000]
 tmp_237                                                                               (bitselect        ) [ 0000000]
+tmp_238                                                                               (bitselect        ) [ 0000000]
 or_ln68_6                                                                             (or               ) [ 0000000]
 and_ln68_6                                                                            (and              ) [ 0000000]
 zext_ln68_6                                                                           (zext             ) [ 0000000]
 add_ln68_6                                                                            (add              ) [ 0000000]
-tmp_238                                                                               (bitselect        ) [ 0000000]
+tmp_239                                                                               (bitselect        ) [ 0000000]
 select_ln68_12                                                                        (select           ) [ 0000000]
 res_pack_13                                                                           (select           ) [ 0000000]
 trunc_ln68_12                                                                         (partselect       ) [ 0000000]
-tmp_239                                                                               (bitselect        ) [ 0000000]
 tmp_240                                                                               (bitselect        ) [ 0000000]
 tmp_241                                                                               (bitselect        ) [ 0000000]
+tmp_242                                                                               (bitselect        ) [ 0000000]
 or_ln68_7                                                                             (or               ) [ 0000000]
 and_ln68_7                                                                            (and              ) [ 0000000]
 zext_ln68_7                                                                           (zext             ) [ 0000000]
 add_ln68_7                                                                            (add              ) [ 0000000]
-tmp_242                                                                               (bitselect        ) [ 0000000]
+tmp_243                                                                               (bitselect        ) [ 0000000]
 select_ln68_14                                                                        (select           ) [ 0000000]
 res_pack_14                                                                           (select           ) [ 0000000]
 or_ln72_s                                                                             (bitconcatenate   ) [ 0000000]
@@ -4055,7 +4055,7 @@ ret_ln118                                                                       
 <pin id="401" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_11"/></StgValue>
+<StgValue><ssdm name="empty_12"/></StgValue>
 </bind>
 </comp>
 
@@ -14938,7 +14938,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6192" class="1004" name="tmp_211_fu_6192">
+<comp id="6192" class="1004" name="tmp_212_fu_6192">
 <pin_list>
 <pin id="6193" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6194" dir="0" index="1" bw="14" slack="1"/>
@@ -14947,11 +14947,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_211/6 "/>
+<opset="tmp_212/6 "/>
 </bind>
 </comp>
 
-<comp id="6199" class="1004" name="tmp_212_fu_6199">
+<comp id="6199" class="1004" name="tmp_213_fu_6199">
 <pin_list>
 <pin id="6200" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6201" dir="0" index="1" bw="14" slack="1"/>
@@ -14960,11 +14960,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_212/6 "/>
+<opset="tmp_213/6 "/>
 </bind>
 </comp>
 
-<comp id="6206" class="1004" name="tmp_213_fu_6206">
+<comp id="6206" class="1004" name="tmp_214_fu_6206">
 <pin_list>
 <pin id="6207" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6208" dir="0" index="1" bw="14" slack="1"/>
@@ -14973,7 +14973,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_213/6 "/>
+<opset="tmp_214/6 "/>
 </bind>
 </comp>
 
@@ -15024,7 +15024,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6234" class="1004" name="tmp_214_fu_6234">
+<comp id="6234" class="1004" name="tmp_215_fu_6234">
 <pin_list>
 <pin id="6235" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6236" dir="0" index="1" bw="8" slack="0"/>
@@ -15033,7 +15033,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_214/6 "/>
+<opset="tmp_215/6 "/>
 </bind>
 </comp>
 
@@ -15077,7 +15077,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6267" class="1004" name="tmp_215_fu_6267">
+<comp id="6267" class="1004" name="tmp_216_fu_6267">
 <pin_list>
 <pin id="6268" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6269" dir="0" index="1" bw="14" slack="1"/>
@@ -15086,11 +15086,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_215/6 "/>
+<opset="tmp_216/6 "/>
 </bind>
 </comp>
 
-<comp id="6274" class="1004" name="tmp_216_fu_6274">
+<comp id="6274" class="1004" name="tmp_217_fu_6274">
 <pin_list>
 <pin id="6275" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6276" dir="0" index="1" bw="14" slack="1"/>
@@ -15099,11 +15099,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_216/6 "/>
+<opset="tmp_217/6 "/>
 </bind>
 </comp>
 
-<comp id="6281" class="1004" name="tmp_217_fu_6281">
+<comp id="6281" class="1004" name="tmp_218_fu_6281">
 <pin_list>
 <pin id="6282" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6283" dir="0" index="1" bw="14" slack="1"/>
@@ -15112,7 +15112,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_217/6 "/>
+<opset="tmp_218/6 "/>
 </bind>
 </comp>
 
@@ -15163,7 +15163,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6309" class="1004" name="tmp_218_fu_6309">
+<comp id="6309" class="1004" name="tmp_219_fu_6309">
 <pin_list>
 <pin id="6310" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6311" dir="0" index="1" bw="8" slack="0"/>
@@ -15172,7 +15172,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_218/6 "/>
+<opset="tmp_219/6 "/>
 </bind>
 </comp>
 
@@ -15216,7 +15216,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6342" class="1004" name="tmp_219_fu_6342">
+<comp id="6342" class="1004" name="tmp_220_fu_6342">
 <pin_list>
 <pin id="6343" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6344" dir="0" index="1" bw="14" slack="1"/>
@@ -15225,11 +15225,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_219/6 "/>
+<opset="tmp_220/6 "/>
 </bind>
 </comp>
 
-<comp id="6349" class="1004" name="tmp_220_fu_6349">
+<comp id="6349" class="1004" name="tmp_221_fu_6349">
 <pin_list>
 <pin id="6350" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6351" dir="0" index="1" bw="14" slack="1"/>
@@ -15238,11 +15238,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_220/6 "/>
+<opset="tmp_221/6 "/>
 </bind>
 </comp>
 
-<comp id="6356" class="1004" name="tmp_221_fu_6356">
+<comp id="6356" class="1004" name="tmp_222_fu_6356">
 <pin_list>
 <pin id="6357" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6358" dir="0" index="1" bw="14" slack="1"/>
@@ -15251,7 +15251,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_221/6 "/>
+<opset="tmp_222/6 "/>
 </bind>
 </comp>
 
@@ -15302,7 +15302,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6384" class="1004" name="tmp_222_fu_6384">
+<comp id="6384" class="1004" name="tmp_223_fu_6384">
 <pin_list>
 <pin id="6385" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6386" dir="0" index="1" bw="8" slack="0"/>
@@ -15311,7 +15311,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_222/6 "/>
+<opset="tmp_223/6 "/>
 </bind>
 </comp>
 
@@ -15355,7 +15355,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6417" class="1004" name="tmp_223_fu_6417">
+<comp id="6417" class="1004" name="tmp_224_fu_6417">
 <pin_list>
 <pin id="6418" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6419" dir="0" index="1" bw="14" slack="1"/>
@@ -15364,11 +15364,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_223/6 "/>
+<opset="tmp_224/6 "/>
 </bind>
 </comp>
 
-<comp id="6424" class="1004" name="tmp_224_fu_6424">
+<comp id="6424" class="1004" name="tmp_225_fu_6424">
 <pin_list>
 <pin id="6425" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6426" dir="0" index="1" bw="14" slack="1"/>
@@ -15377,11 +15377,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_224/6 "/>
+<opset="tmp_225/6 "/>
 </bind>
 </comp>
 
-<comp id="6431" class="1004" name="tmp_225_fu_6431">
+<comp id="6431" class="1004" name="tmp_226_fu_6431">
 <pin_list>
 <pin id="6432" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6433" dir="0" index="1" bw="14" slack="1"/>
@@ -15390,7 +15390,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_225/6 "/>
+<opset="tmp_226/6 "/>
 </bind>
 </comp>
 
@@ -15441,7 +15441,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6459" class="1004" name="tmp_226_fu_6459">
+<comp id="6459" class="1004" name="tmp_227_fu_6459">
 <pin_list>
 <pin id="6460" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6461" dir="0" index="1" bw="8" slack="0"/>
@@ -15450,7 +15450,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_226/6 "/>
+<opset="tmp_227/6 "/>
 </bind>
 </comp>
 
@@ -15494,7 +15494,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6492" class="1004" name="tmp_227_fu_6492">
+<comp id="6492" class="1004" name="tmp_228_fu_6492">
 <pin_list>
 <pin id="6493" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6494" dir="0" index="1" bw="14" slack="1"/>
@@ -15503,11 +15503,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_227/6 "/>
+<opset="tmp_228/6 "/>
 </bind>
 </comp>
 
-<comp id="6499" class="1004" name="tmp_228_fu_6499">
+<comp id="6499" class="1004" name="tmp_229_fu_6499">
 <pin_list>
 <pin id="6500" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6501" dir="0" index="1" bw="14" slack="1"/>
@@ -15516,11 +15516,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_228/6 "/>
+<opset="tmp_229/6 "/>
 </bind>
 </comp>
 
-<comp id="6506" class="1004" name="tmp_229_fu_6506">
+<comp id="6506" class="1004" name="tmp_230_fu_6506">
 <pin_list>
 <pin id="6507" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6508" dir="0" index="1" bw="14" slack="1"/>
@@ -15529,7 +15529,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_229/6 "/>
+<opset="tmp_230/6 "/>
 </bind>
 </comp>
 
@@ -15580,7 +15580,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6534" class="1004" name="tmp_230_fu_6534">
+<comp id="6534" class="1004" name="tmp_231_fu_6534">
 <pin_list>
 <pin id="6535" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6536" dir="0" index="1" bw="8" slack="0"/>
@@ -15589,7 +15589,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_230/6 "/>
+<opset="tmp_231/6 "/>
 </bind>
 </comp>
 
@@ -15633,7 +15633,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6567" class="1004" name="tmp_231_fu_6567">
+<comp id="6567" class="1004" name="tmp_232_fu_6567">
 <pin_list>
 <pin id="6568" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6569" dir="0" index="1" bw="14" slack="1"/>
@@ -15642,11 +15642,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_231/6 "/>
+<opset="tmp_232/6 "/>
 </bind>
 </comp>
 
-<comp id="6574" class="1004" name="tmp_232_fu_6574">
+<comp id="6574" class="1004" name="tmp_233_fu_6574">
 <pin_list>
 <pin id="6575" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6576" dir="0" index="1" bw="14" slack="1"/>
@@ -15655,11 +15655,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_232/6 "/>
+<opset="tmp_233/6 "/>
 </bind>
 </comp>
 
-<comp id="6581" class="1004" name="tmp_233_fu_6581">
+<comp id="6581" class="1004" name="tmp_234_fu_6581">
 <pin_list>
 <pin id="6582" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6583" dir="0" index="1" bw="14" slack="1"/>
@@ -15668,7 +15668,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_233/6 "/>
+<opset="tmp_234/6 "/>
 </bind>
 </comp>
 
@@ -15719,7 +15719,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6609" class="1004" name="tmp_234_fu_6609">
+<comp id="6609" class="1004" name="tmp_235_fu_6609">
 <pin_list>
 <pin id="6610" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6611" dir="0" index="1" bw="8" slack="0"/>
@@ -15728,7 +15728,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_234/6 "/>
+<opset="tmp_235/6 "/>
 </bind>
 </comp>
 
@@ -15772,7 +15772,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6642" class="1004" name="tmp_235_fu_6642">
+<comp id="6642" class="1004" name="tmp_236_fu_6642">
 <pin_list>
 <pin id="6643" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6644" dir="0" index="1" bw="14" slack="1"/>
@@ -15781,11 +15781,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_235/6 "/>
+<opset="tmp_236/6 "/>
 </bind>
 </comp>
 
-<comp id="6649" class="1004" name="tmp_236_fu_6649">
+<comp id="6649" class="1004" name="tmp_237_fu_6649">
 <pin_list>
 <pin id="6650" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6651" dir="0" index="1" bw="14" slack="1"/>
@@ -15794,11 +15794,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_236/6 "/>
+<opset="tmp_237/6 "/>
 </bind>
 </comp>
 
-<comp id="6656" class="1004" name="tmp_237_fu_6656">
+<comp id="6656" class="1004" name="tmp_238_fu_6656">
 <pin_list>
 <pin id="6657" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6658" dir="0" index="1" bw="14" slack="1"/>
@@ -15807,7 +15807,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_237/6 "/>
+<opset="tmp_238/6 "/>
 </bind>
 </comp>
 
@@ -15858,7 +15858,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6684" class="1004" name="tmp_238_fu_6684">
+<comp id="6684" class="1004" name="tmp_239_fu_6684">
 <pin_list>
 <pin id="6685" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6686" dir="0" index="1" bw="8" slack="0"/>
@@ -15867,7 +15867,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_238/6 "/>
+<opset="tmp_239/6 "/>
 </bind>
 </comp>
 
@@ -15911,7 +15911,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6717" class="1004" name="tmp_239_fu_6717">
+<comp id="6717" class="1004" name="tmp_240_fu_6717">
 <pin_list>
 <pin id="6718" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6719" dir="0" index="1" bw="14" slack="1"/>
@@ -15920,11 +15920,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_239/6 "/>
+<opset="tmp_240/6 "/>
 </bind>
 </comp>
 
-<comp id="6724" class="1004" name="tmp_240_fu_6724">
+<comp id="6724" class="1004" name="tmp_241_fu_6724">
 <pin_list>
 <pin id="6725" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6726" dir="0" index="1" bw="14" slack="1"/>
@@ -15933,11 +15933,11 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_240/6 "/>
+<opset="tmp_241/6 "/>
 </bind>
 </comp>
 
-<comp id="6731" class="1004" name="tmp_241_fu_6731">
+<comp id="6731" class="1004" name="tmp_242_fu_6731">
 <pin_list>
 <pin id="6732" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6733" dir="0" index="1" bw="14" slack="1"/>
@@ -15946,7 +15946,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_241/6 "/>
+<opset="tmp_242/6 "/>
 </bind>
 </comp>
 
@@ -15997,7 +15997,7 @@ ret_ln118                                                                       
 </bind>
 </comp>
 
-<comp id="6759" class="1004" name="tmp_242_fu_6759">
+<comp id="6759" class="1004" name="tmp_243_fu_6759">
 <pin_list>
 <pin id="6760" dir="0" index="0" bw="1" slack="0"/>
 <pin id="6761" dir="0" index="1" bw="8" slack="0"/>
@@ -16006,7 +16006,7 @@ ret_ln118                                                                       
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_242/6 "/>
+<opset="tmp_243/6 "/>
 </bind>
 </comp>
 
@@ -22331,56 +22331,56 @@ ret_ln118                                                                       
 		and_ln68 : 1
 		zext_ln68 : 1
 		add_ln68 : 2
-		tmp_214 : 3
+		tmp_215 : 3
 		select_ln68 : 4
 		res_pack : 5
 		or_ln68_1 : 1
 		and_ln68_1 : 1
 		zext_ln68_1 : 1
 		add_ln68_1 : 2
-		tmp_218 : 3
+		tmp_219 : 3
 		select_ln68_2 : 4
 		res_pack_8 : 5
 		or_ln68_2 : 1
 		and_ln68_2 : 1
 		zext_ln68_2 : 1
 		add_ln68_2 : 2
-		tmp_222 : 3
+		tmp_223 : 3
 		select_ln68_4 : 4
 		res_pack_9 : 5
 		or_ln68_3 : 1
 		and_ln68_3 : 1
 		zext_ln68_3 : 1
 		add_ln68_3 : 2
-		tmp_226 : 3
+		tmp_227 : 3
 		select_ln68_6 : 4
 		res_pack_10 : 5
 		or_ln68_4 : 1
 		and_ln68_4 : 1
 		zext_ln68_4 : 1
 		add_ln68_4 : 2
-		tmp_230 : 3
+		tmp_231 : 3
 		select_ln68_8 : 4
 		res_pack_11 : 5
 		or_ln68_5 : 1
 		and_ln68_5 : 1
 		zext_ln68_5 : 1
 		add_ln68_5 : 2
-		tmp_234 : 3
+		tmp_235 : 3
 		select_ln68_10 : 4
 		res_pack_12 : 5
 		or_ln68_6 : 1
 		and_ln68_6 : 1
 		zext_ln68_6 : 1
 		add_ln68_6 : 2
-		tmp_238 : 3
+		tmp_239 : 3
 		select_ln68_12 : 4
 		res_pack_13 : 5
 		or_ln68_7 : 1
 		and_ln68_7 : 1
 		zext_ln68_7 : 1
 		add_ln68_7 : 2
-		tmp_242 : 3
+		tmp_243 : 3
 		select_ln68_14 : 4
 		res_pack_14 : 5
 		or_ln72_s : 6
@@ -23117,38 +23117,38 @@ ret_ln118                                                                       
 |          |                            shl_ln63_188_fu_5483                            |    0    |    0    |
 |          |                              or_ln72_s_fu_6783                             |    0    |    0    |
 |----------|----------------------------------------------------------------------------|---------|---------|
-|          |                               tmp_211_fu_6192                              |    0    |    0    |
-|          |                               tmp_212_fu_6199                              |    0    |    0    |
-|          |                               tmp_213_fu_6206                              |    0    |    0    |
-|          |                               tmp_214_fu_6234                              |    0    |    0    |
-|          |                               tmp_215_fu_6267                              |    0    |    0    |
-|          |                               tmp_216_fu_6274                              |    0    |    0    |
-|          |                               tmp_217_fu_6281                              |    0    |    0    |
-|          |                               tmp_218_fu_6309                              |    0    |    0    |
-|          |                               tmp_219_fu_6342                              |    0    |    0    |
-|          |                               tmp_220_fu_6349                              |    0    |    0    |
-|          |                               tmp_221_fu_6356                              |    0    |    0    |
-|          |                               tmp_222_fu_6384                              |    0    |    0    |
-|          |                               tmp_223_fu_6417                              |    0    |    0    |
-|          |                               tmp_224_fu_6424                              |    0    |    0    |
-|          |                               tmp_225_fu_6431                              |    0    |    0    |
-| bitselect|                               tmp_226_fu_6459                              |    0    |    0    |
-|          |                               tmp_227_fu_6492                              |    0    |    0    |
-|          |                               tmp_228_fu_6499                              |    0    |    0    |
-|          |                               tmp_229_fu_6506                              |    0    |    0    |
-|          |                               tmp_230_fu_6534                              |    0    |    0    |
-|          |                               tmp_231_fu_6567                              |    0    |    0    |
-|          |                               tmp_232_fu_6574                              |    0    |    0    |
-|          |                               tmp_233_fu_6581                              |    0    |    0    |
-|          |                               tmp_234_fu_6609                              |    0    |    0    |
-|          |                               tmp_235_fu_6642                              |    0    |    0    |
-|          |                               tmp_236_fu_6649                              |    0    |    0    |
-|          |                               tmp_237_fu_6656                              |    0    |    0    |
-|          |                               tmp_238_fu_6684                              |    0    |    0    |
-|          |                               tmp_239_fu_6717                              |    0    |    0    |
-|          |                               tmp_240_fu_6724                              |    0    |    0    |
-|          |                               tmp_241_fu_6731                              |    0    |    0    |
-|          |                               tmp_242_fu_6759                              |    0    |    0    |
+|          |                               tmp_212_fu_6192                              |    0    |    0    |
+|          |                               tmp_213_fu_6199                              |    0    |    0    |
+|          |                               tmp_214_fu_6206                              |    0    |    0    |
+|          |                               tmp_215_fu_6234                              |    0    |    0    |
+|          |                               tmp_216_fu_6267                              |    0    |    0    |
+|          |                               tmp_217_fu_6274                              |    0    |    0    |
+|          |                               tmp_218_fu_6281                              |    0    |    0    |
+|          |                               tmp_219_fu_6309                              |    0    |    0    |
+|          |                               tmp_220_fu_6342                              |    0    |    0    |
+|          |                               tmp_221_fu_6349                              |    0    |    0    |
+|          |                               tmp_222_fu_6356                              |    0    |    0    |
+|          |                               tmp_223_fu_6384                              |    0    |    0    |
+|          |                               tmp_224_fu_6417                              |    0    |    0    |
+|          |                               tmp_225_fu_6424                              |    0    |    0    |
+|          |                               tmp_226_fu_6431                              |    0    |    0    |
+| bitselect|                               tmp_227_fu_6459                              |    0    |    0    |
+|          |                               tmp_228_fu_6492                              |    0    |    0    |
+|          |                               tmp_229_fu_6499                              |    0    |    0    |
+|          |                               tmp_230_fu_6506                              |    0    |    0    |
+|          |                               tmp_231_fu_6534                              |    0    |    0    |
+|          |                               tmp_232_fu_6567                              |    0    |    0    |
+|          |                               tmp_233_fu_6574                              |    0    |    0    |
+|          |                               tmp_234_fu_6581                              |    0    |    0    |
+|          |                               tmp_235_fu_6609                              |    0    |    0    |
+|          |                               tmp_236_fu_6642                              |    0    |    0    |
+|          |                               tmp_237_fu_6649                              |    0    |    0    |
+|          |                               tmp_238_fu_6656                              |    0    |    0    |
+|          |                               tmp_239_fu_6684                              |    0    |    0    |
+|          |                               tmp_240_fu_6717                              |    0    |    0    |
+|          |                               tmp_241_fu_6724                              |    0    |    0    |
+|          |                               tmp_242_fu_6731                              |    0    |    0    |
+|          |                               tmp_243_fu_6759                              |    0    |    0    |
 |----------|----------------------------------------------------------------------------|---------|---------|
 |          |                              zext_ln68_fu_6224                             |    0    |    0    |
 |          |                             zext_ln68_1_fu_6299                            |    0    |    0    |

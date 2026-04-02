@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_41_24_5_3_0_8u_config9_s'" level="0">
-<item name = "Date">Sun Mar 22 09:52:27 2026
+<item name = "Date">Mon Mar 30 19:10:44 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -62,14 +62,14 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="7">Instance, Module, BRAM_18K, DSP, FF, LUT, URAM</keys>
-<column name="mul_24s_11ns_34_1_1_U280">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_11ns_34_1_1_U281">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_11ns_34_1_1_U282">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_11ns_34_1_1_U283">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_11ns_34_1_1_U284">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
 <column name="mul_24s_11ns_34_1_1_U287">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_12ns_35_1_1_U285">mul_24s_12ns_35_1_1, 0, 1, 0, 40, 0</column>
-<column name="mul_24s_12ns_35_1_1_U286">mul_24s_12ns_35_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_11ns_34_1_1_U288">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_11ns_34_1_1_U289">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_11ns_34_1_1_U290">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_11ns_34_1_1_U291">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_11ns_34_1_1_U294">mul_24s_11ns_34_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_12ns_35_1_1_U292">mul_24s_12ns_35_1_1, 0, 1, 0, 40, 0</column>
+<column name="mul_24s_12ns_35_1_1_U293">mul_24s_12ns_35_1_1, 0, 1, 0, 40, 0</column>
 </table>
 </item>
 <item name = "DSP"><table name="" hasTotal="0">

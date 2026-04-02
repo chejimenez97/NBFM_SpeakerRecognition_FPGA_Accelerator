@@ -52,7 +52,7 @@ entry:0 %i_02 = alloca i32 1
 
 <Node id="4" bw="0" op_0_bw="0" op_1_bw="264" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i264 %layer9_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i264 %layer9_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -67,7 +67,7 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i264 %l
 
 <Node id="5" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer7_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer7_out, void @empty_1, i32 0, i32 0, void @empty_20, i32 0, i32 0, void @empty_20, void @empty_20, void @empty_20, i32 0, i32 0, i32 0, i32 0, void @empty_20, void @empty_20, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -82,7 +82,7 @@ entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %l
 
 <Node id="6" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="0" op_4_bw="0" op_5_bw="0">
 <![CDATA[
-entry:3 %specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_12, void @empty_1, void @empty_1, void @empty_1
+entry:3 %specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_14, void @empty_20, void @empty_20, void @empty_20
 
 ]]></Node>
 <StgValue><ssdm name="specresourcelimit_ln22"/></StgValue>
@@ -326,10 +326,10 @@ BatchNormpack.split:30 %tmp = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i
 
 <Node id="54" bw="16" op_0_bw="16" op_1_bw="128" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-BatchNormpack.split:39 %tmp_35 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 96, i32 111
+BatchNormpack.split:39 %tmp_43 = partselect i16 @_ssdm_op_PartSelect.i16.i128.i32.i32, i128 %layer7_out_read, i32 96, i32 111
 
 ]]></Node>
-<StgValue><ssdm name="tmp_35"/></StgValue>
+<StgValue><ssdm name="tmp_43"/></StgValue>
 </operation>
 </state>
 
@@ -543,7 +543,7 @@ for.end12:0 %ret_ln48 = ret
 
 <Node id="15" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
 <![CDATA[
-BatchNormpack.split:0 %specpipeline_ln26 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1
+BatchNormpack.split:0 %specpipeline_ln26 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_20
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln26"/></StgValue>
@@ -573,7 +573,7 @@ BatchNormpack.split:1 %speclooptripcount_ln25 = speclooptripcount void @_ssdm_op
 
 <Node id="17" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-BatchNormpack.split:2 %specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_14
+BatchNormpack.split:2 %specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_19
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln25"/></StgValue>
@@ -858,7 +858,7 @@ BatchNormpack.split:38 %sext_ln42_12 = sext i26 %add_ln42_12
 
 <Node id="55" bw="25" op_0_bw="25" op_1_bw="16" op_2_bw="9">
 <![CDATA[
-BatchNormpack.split:40 %and_ln73_2 = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i16.i9, i16 %tmp_35, i9 0
+BatchNormpack.split:40 %and_ln73_2 = bitconcatenate i25 @_ssdm_op_BitConcatenate.i25.i16.i9, i16 %tmp_43, i9 0
 
 ]]></Node>
 <StgValue><ssdm name="and_ln73_2"/></StgValue>
@@ -888,7 +888,7 @@ BatchNormpack.split:41 %sext_ln73_1 = sext i25 %and_ln73_2
 
 <Node id="57" bw="23" op_0_bw="23" op_1_bw="16" op_2_bw="7">
 <![CDATA[
-BatchNormpack.split:42 %and_ln73_3 = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i16.i7, i16 %tmp_35, i7 0
+BatchNormpack.split:42 %and_ln73_3 = bitconcatenate i23 @_ssdm_op_BitConcatenate.i23.i16.i7, i16 %tmp_43, i7 0
 
 ]]></Node>
 <StgValue><ssdm name="and_ln73_3"/></StgValue>
@@ -1064,23 +1064,23 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="93" from="layer9_out" to="specinterface_ln0" fromId="88" toId="8">
 </dataflow>
-<dataflow id="95" from="empty_11" to="specinterface_ln0" fromId="94" toId="8">
+<dataflow id="95" from="empty_1" to="specinterface_ln0" fromId="94" toId="8">
 </dataflow>
 <dataflow id="97" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
 <dataflow id="98" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
-<dataflow id="100" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="100" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
 <dataflow id="101" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
 <dataflow id="102" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
-<dataflow id="103" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="103" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
-<dataflow id="104" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="104" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
-<dataflow id="105" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="105" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
 <dataflow id="106" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
@@ -1090,9 +1090,9 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="109" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="8">
 </dataflow>
-<dataflow id="110" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="110" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
-<dataflow id="111" from="empty_1" to="specinterface_ln0" fromId="99" toId="8">
+<dataflow id="111" from="empty_20" to="specinterface_ln0" fromId="99" toId="8">
 </dataflow>
 <dataflow id="113" from="StgValue_112" to="specinterface_ln0" fromId="112" toId="8">
 </dataflow>
@@ -1102,23 +1102,23 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="116" from="layer7_out" to="specinterface_ln0" fromId="87" toId="9">
 </dataflow>
-<dataflow id="117" from="empty_11" to="specinterface_ln0" fromId="94" toId="9">
+<dataflow id="117" from="empty_1" to="specinterface_ln0" fromId="94" toId="9">
 </dataflow>
 <dataflow id="118" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
 <dataflow id="119" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
-<dataflow id="120" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="120" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
 <dataflow id="121" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
 <dataflow id="122" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
-<dataflow id="123" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="123" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
-<dataflow id="124" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="124" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
-<dataflow id="125" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="125" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
 <dataflow id="126" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
@@ -1128,9 +1128,9 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="129" from="StgValue_96" to="specinterface_ln0" fromId="96" toId="9">
 </dataflow>
-<dataflow id="130" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="130" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
-<dataflow id="131" from="empty_1" to="specinterface_ln0" fromId="99" toId="9">
+<dataflow id="131" from="empty_20" to="specinterface_ln0" fromId="99" toId="9">
 </dataflow>
 <dataflow id="132" from="StgValue_112" to="specinterface_ln0" fromId="112" toId="9">
 </dataflow>
@@ -1140,13 +1140,13 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="137" from="StgValue_136" to="specresourcelimit_ln22" fromId="136" toId="10">
 </dataflow>
-<dataflow id="139" from="empty_12" to="specresourcelimit_ln22" fromId="138" toId="10">
+<dataflow id="139" from="empty_14" to="specresourcelimit_ln22" fromId="138" toId="10">
 </dataflow>
-<dataflow id="140" from="empty_1" to="specresourcelimit_ln22" fromId="99" toId="10">
+<dataflow id="140" from="empty_20" to="specresourcelimit_ln22" fromId="99" toId="10">
 </dataflow>
-<dataflow id="141" from="empty_1" to="specresourcelimit_ln22" fromId="99" toId="10">
+<dataflow id="141" from="empty_20" to="specresourcelimit_ln22" fromId="99" toId="10">
 </dataflow>
-<dataflow id="142" from="empty_1" to="specresourcelimit_ln22" fromId="99" toId="10">
+<dataflow id="142" from="empty_20" to="specresourcelimit_ln22" fromId="99" toId="10">
 </dataflow>
 <dataflow id="144" from="StgValue_143" to="store_ln25" fromId="143" toId="11">
 </dataflow>
@@ -1222,13 +1222,13 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="196" from="StgValue_195" to="tmp" fromId="195" toId="25">
 </dataflow>
-<dataflow id="197" from="_ssdm_op_PartSelect.i16.i128.i32.i32" to="tmp_35" fromId="160" toId="26">
+<dataflow id="197" from="_ssdm_op_PartSelect.i16.i128.i32.i32" to="tmp_43" fromId="160" toId="26">
 </dataflow>
-<dataflow id="198" from="layer7_out_read" to="tmp_35" fromId="18" toId="26">
+<dataflow id="198" from="layer7_out_read" to="tmp_43" fromId="18" toId="26">
 </dataflow>
-<dataflow id="200" from="StgValue_199" to="tmp_35" fromId="199" toId="26">
+<dataflow id="200" from="StgValue_199" to="tmp_43" fromId="199" toId="26">
 </dataflow>
-<dataflow id="202" from="StgValue_201" to="tmp_35" fromId="201" toId="26">
+<dataflow id="202" from="StgValue_201" to="tmp_43" fromId="201" toId="26">
 </dataflow>
 <dataflow id="203" from="a" to="sext_ln42" fromId="19" toId="27">
 </dataflow>
@@ -1276,7 +1276,7 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="231" from="StgValue_96" to="specpipeline_ln26" fromId="96" toId="39">
 </dataflow>
-<dataflow id="232" from="empty_1" to="specpipeline_ln26" fromId="99" toId="39">
+<dataflow id="232" from="empty_20" to="specpipeline_ln26" fromId="99" toId="39">
 </dataflow>
 <dataflow id="234" from="_ssdm_op_SpecLoopTripCount" to="speclooptripcount_ln25" fromId="233" toId="40">
 </dataflow>
@@ -1288,7 +1288,7 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="240" from="_ssdm_op_SpecLoopName" to="specloopname_ln25" fromId="239" toId="41">
 </dataflow>
-<dataflow id="242" from="empty_14" to="specloopname_ln25" fromId="241" toId="41">
+<dataflow id="242" from="empty_19" to="specloopname_ln25" fromId="241" toId="41">
 </dataflow>
 <dataflow id="243" from="mul_ln42" to="add_ln42" fromId="28" toId="42">
 </dataflow>
@@ -1350,7 +1350,7 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="281" from="_ssdm_op_BitConcatenate.i25.i16.i9" to="and_ln73_2" fromId="263" toId="60">
 </dataflow>
-<dataflow id="282" from="tmp_35" to="and_ln73_2" fromId="26" toId="60">
+<dataflow id="282" from="tmp_43" to="and_ln73_2" fromId="26" toId="60">
 </dataflow>
 <dataflow id="283" from="StgValue_143" to="and_ln73_2" fromId="143" toId="60">
 </dataflow>
@@ -1358,7 +1358,7 @@ BatchNormpack.split:55 %br_ln25 = br void %BatchNormpack
 </dataflow>
 <dataflow id="286" from="_ssdm_op_BitConcatenate.i23.i16.i7" to="and_ln73_3" fromId="285" toId="62">
 </dataflow>
-<dataflow id="287" from="tmp_35" to="and_ln73_3" fromId="26" toId="62">
+<dataflow id="287" from="tmp_43" to="and_ln73_3" fromId="26" toId="62">
 </dataflow>
 <dataflow id="289" from="StgValue_288" to="and_ln73_3" fromId="288" toId="62">
 </dataflow>

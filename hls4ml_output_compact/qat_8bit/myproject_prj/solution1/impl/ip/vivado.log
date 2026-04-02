@@ -3,19 +3,23 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Sun Mar 22 09:53:08 2026
-# Process ID: 39762
+# Start of session at: Mon Mar 30 19:11:40 2026
+# Process ID: 10752
 # Current directory: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/impl/ip
 # Command line: vivado -notrace -mode batch -source run_ippack.tcl
 # Log file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/impl/ip/vivado.log
 # Journal file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/impl/ip/vivado.jou
-# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3797.509 MHz, CPU Physical cores: 4, Host memory: 8273 MB
+# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3671.821 MHz, CPU Physical cores: 4, Host memory: 8273 MB
 #-----------------------------------------------------------
 source run_ippack.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1259.770 ; gain = 3.996 ; free physical = 200 ; free virtual = 8462
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1315.031 ; gain = 0.027 ; free physical = 134 ; free virtual = 8144
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'myproject_axi_fexp_32ns_32ns_32_13_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'myproject_axi_fexp_32ns_32ns_32_13_full_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'myproject_axi_fpext_32ns_64_2_no_dsp_1_ip'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'myproject_axi_fpext_32ns_64_2_no_dsp_1_ip'...
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'myproject_fexp_32ns_32ns_32_13_full_dsp_1_ip'...
 INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'myproject_fexp_32ns_32ns_32_13_full_dsp_1_ip'...
 INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'myproject_fpext_32ns_64_2_no_dsp_1_ip'...
@@ -23,4 +27,4 @@ INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'myproject_fpext_3
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
-INFO: [Common 17-206] Exiting Vivado at Sun Mar 22 09:53:20 2026...
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 30 19:11:54 2026...

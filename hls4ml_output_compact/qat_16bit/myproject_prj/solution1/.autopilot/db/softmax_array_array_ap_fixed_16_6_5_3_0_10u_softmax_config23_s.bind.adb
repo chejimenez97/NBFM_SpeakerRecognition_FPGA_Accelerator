@@ -52,7 +52,7 @@
 					<Obj>
 						<type>1</type>
 						<id>2</id>
-						<name>layer23_out</name>
+						<name>output_local</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
 						<lineNumber>0</lineNumber>
@@ -62,7 +62,7 @@
 							<count>0</count>
 							<item_version>0</item_version>
 						</inlineStackInfo>
-						<originalName>res</originalName>
+						<originalName></originalName>
 						<rtlName></rtlName>
 						<control></control>
 						<opType></opType>
@@ -76,7 +76,7 @@
 					<bitwidth>160</bitwidth>
 				</Value>
 				<direction>1</direction>
-				<if_type>0</if_type>
+				<if_type>3</if_type>
 				<array_size>0</array_size>
 				<bit_vecs>
 					<count>0</count>
@@ -327,15 +327,15 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1058</mMinLatency>
-			<mMaxLatency>1058</mMaxLatency>
+			<mMinLatency>1057</mMinLatency>
+			<mMaxLatency>1057</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
 	</cdfg_regions>
 	<fsm class_id="24" tracking_level="1" version="0" object_id="_12">
 		<states class_id="25" tracking_level="0" version="0">
-			<count>3</count>
+			<count>2</count>
 			<item_version>0</item_version>
 			<item class_id="26" tracking_level="1" version="0" object_id="_13">
 				<id>1</id>
@@ -352,31 +352,24 @@
 			<item class_id_reference="26" object_id="_15">
 				<id>2</id>
 				<operations>
-					<count>1</count>
+					<count>4</count>
 					<item_version>0</item_version>
 					<item class_id_reference="28" object_id="_16">
-						<id>6</id>
-						<stage>1</stage>
-						<latency>2</latency>
-					</item>
-				</operations>
-			</item>
-			<item class_id_reference="26" object_id="_17">
-				<id>3</id>
-				<operations>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_18">
 						<id>4</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_19">
+					<item class_id_reference="28" object_id="_17">
 						<id>5</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_20">
+					<item class_id_reference="28" object_id="_18">
+						<id>6</id>
+						<stage>1</stage>
+						<latency>2</latency>
+					</item>
+					<item class_id_reference="28" object_id="_19">
 						<id>7</id>
 						<stage>1</stage>
 						<latency>1</latency>
@@ -385,9 +378,9 @@
 			</item>
 		</states>
 		<transitions class_id="29" tracking_level="0" version="0">
-			<count>2</count>
+			<count>1</count>
 			<item_version>0</item_version>
-			<item class_id="30" tracking_level="1" version="0" object_id="_21">
+			<item class_id="30" tracking_level="1" version="0" object_id="_20">
 				<inState>1</inState>
 				<outState>2</outState>
 				<condition class_id="31" tracking_level="0" version="0">
@@ -396,21 +389,6 @@
 						<count>1</count>
 						<item_version>0</item_version>
 						<item class_id="33" tracking_level="0" version="0">
-							<count>0</count>
-							<item_version>0</item_version>
-						</item>
-					</sop>
-				</condition>
-			</item>
-			<item class_id_reference="30" object_id="_22">
-				<inState>2</inState>
-				<outState>3</outState>
-				<condition>
-					<id>-1</id>
-					<sop>
-						<count>1</count>
-						<item_version>0</item_version>
-						<item>
 							<count>0</count>
 							<item_version>0</item_version>
 						</item>
@@ -433,7 +411,7 @@
 		<item>
 			<first>7</first>
 			<second>
-				<first>2</first>
+				<first>1</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -445,7 +423,7 @@
 			<first>8</first>
 			<second class_id="40" tracking_level="0" version="0">
 				<first>0</first>
-				<second>2</second>
+				<second>1</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
@@ -457,7 +435,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="43" tracking_level="0" version="0">
-			<first>24</first>
+			<first>18</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -474,7 +452,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="46" tracking_level="0" version="0">
-			<first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_24</first>
+			<first>grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18</first>
 			<second>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -541,7 +519,7 @@
 			</second>
 		</item>
 		<item>
-			<first>layer23_out</first>
+			<first>output_local</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

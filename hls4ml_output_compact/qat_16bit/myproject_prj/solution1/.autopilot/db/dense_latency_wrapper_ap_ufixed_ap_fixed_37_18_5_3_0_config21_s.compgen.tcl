@@ -1,12 +1,12 @@
 # This script segment is generated automatically by AutoPilot
 
-set name myproject_mul_16ns_11s_25_1_1
+set name myproject_axi_mul_16ns_11s_25_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
 
 
-set name myproject_mul_16ns_12s_25_1_1
+set name myproject_axi_mul_16ns_12s_25_1_1
 if {${::AESL::PGuard_rtl_comp_handler}} {
 	::AP::rtl_comp_handler $name BINDTYPE {op} TYPE {mul} IMPL {auto} LATENCY 0 ALLOW_PRAGMA 1
 }
@@ -22,7 +22,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1517 \
+    id 1524 \
     name data_0_val1 \
     type other \
     dir I \
@@ -37,7 +37,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1518 \
+    id 1525 \
     name data_1_val2 \
     type other \
     dir I \
@@ -52,7 +52,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1519 \
+    id 1526 \
     name data_2_val3 \
     type other \
     dir I \
@@ -67,7 +67,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1520 \
+    id 1527 \
     name data_3_val4 \
     type other \
     dir I \
@@ -82,7 +82,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1521 \
+    id 1528 \
     name data_4_val5 \
     type other \
     dir I \
@@ -97,7 +97,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1522 \
+    id 1529 \
     name data_5_val6 \
     type other \
     dir I \
@@ -112,7 +112,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1523 \
+    id 1530 \
     name data_6_val7 \
     type other \
     dir I \
@@ -127,7 +127,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1524 \
+    id 1531 \
     name data_7_val8 \
     type other \
     dir I \
@@ -142,7 +142,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1525 \
+    id 1532 \
     name data_8_val9 \
     type other \
     dir I \
@@ -157,7 +157,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1526 \
+    id 1533 \
     name data_9_val10 \
     type other \
     dir I \
@@ -172,7 +172,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1527 \
+    id 1534 \
     name data_10_val11 \
     type other \
     dir I \
@@ -187,7 +187,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1528 \
+    id 1535 \
     name data_11_val12 \
     type other \
     dir I \
@@ -202,7 +202,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1529 \
+    id 1536 \
     name data_12_val13 \
     type other \
     dir I \
@@ -217,7 +217,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1530 \
+    id 1537 \
     name data_13_val14 \
     type other \
     dir I \
@@ -232,7 +232,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1531 \
+    id 1538 \
     name data_14_val15 \
     type other \
     dir I \
@@ -247,7 +247,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 1532 \
+    id 1539 \
     name data_15_val16 \
     type other \
     dir I \

@@ -16,13 +16,13 @@ set C_modelName {zeropad2d_cl<array,array<ap_fixed<16,6,5,3,0>,2u>,config24>_Pip
 set C_modelType { void 0 }
 set C_modelArgList {
 	{ layer24_out int 32 regular {fifo 1 volatile }  }
-	{ input_4 int 32 regular {axi_s 0 volatile  { input_4 Data } }  }
+	{ input_local int 32 regular {fifo 0 volatile }  }
 }
 set hasAXIMCache 0
 set AXIMCacheInstList { }
 set C_modelArgMapList {[ 
 	{ "Name" : "layer24_out", "interface" : "fifo", "bitwidth" : 32, "direction" : "WRITEONLY"} , 
- 	{ "Name" : "input_4", "interface" : "axis", "bitwidth" : 32, "direction" : "READONLY"} ]}
+ 	{ "Name" : "input_local", "interface" : "fifo", "bitwidth" : 32, "direction" : "READONLY"} ]}
 # RTL Port declarations: 
 set portNum 14
 set portList { 
@@ -37,9 +37,9 @@ set portList {
 	{ layer24_out_fifo_cap sc_in sc_lv 12 signal 0 } 
 	{ layer24_out_full_n sc_in sc_logic 1 signal 0 } 
 	{ layer24_out_write sc_out sc_logic 1 signal 0 } 
-	{ input_4_TDATA sc_in sc_lv 32 signal 1 } 
-	{ input_4_TVALID sc_in sc_logic 1 invld 1 } 
-	{ input_4_TREADY sc_out sc_logic 1 inacc 1 } 
+	{ input_local_dout sc_in sc_lv 32 signal 1 } 
+	{ input_local_empty_n sc_in sc_logic 1 signal 1 } 
+	{ input_local_read sc_out sc_logic 1 signal 1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -53,9 +53,9 @@ set NewPortList {[
  	{ "name": "layer24_out_fifo_cap", "direction": "in", "datatype": "sc_lv", "bitwidth":12, "type": "signal", "bundle":{"name": "layer24_out", "role": "fifo_cap" }} , 
  	{ "name": "layer24_out_full_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer24_out", "role": "full_n" }} , 
  	{ "name": "layer24_out_write", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "layer24_out", "role": "write" }} , 
- 	{ "name": "input_4_TDATA", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "input_4", "role": "TDATA" }} , 
- 	{ "name": "input_4_TVALID", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "invld", "bundle":{"name": "input_4", "role": "TVALID" }} , 
- 	{ "name": "input_4_TREADY", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "inacc", "bundle":{"name": "input_4", "role": "TREADY" }}  ]}
+ 	{ "name": "input_local_dout", "direction": "in", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "input_local", "role": "dout" }} , 
+ 	{ "name": "input_local_empty_n", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_local", "role": "empty_n" }} , 
+ 	{ "name": "input_local_read", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "input_local", "role": "read" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1"],
@@ -76,9 +76,9 @@ set RtlHierarchyInfo {[
 			{"Name" : "layer24_out", "Type" : "Fifo", "Direction" : "O",
 				"BlockSignal" : [
 					{"Name" : "layer24_out_blk_n", "Type" : "RtlSignal"}]},
-			{"Name" : "input_4", "Type" : "Axis", "Direction" : "I",
+			{"Name" : "input_local", "Type" : "Fifo", "Direction" : "I",
 				"BlockSignal" : [
-					{"Name" : "input_4_TDATA_blk_n", "Type" : "RtlSignal"}]}],
+					{"Name" : "input_local_blk_n", "Type" : "RtlSignal"}]}],
 		"Loop" : [
 			{"Name" : "PadMain", "PipelineType" : "UPC",
 				"LoopDec" : {"FSMBitwidth" : "66", "FirstState" : "ap_ST_fsm_pp0_stage0", "FirstStateIter" : "ap_enable_reg_pp0_iter0", "FirstStateBlock" : "ap_block_pp0_stage0_subdone", "LastState" : "ap_ST_fsm_pp0_stage0", "LastStateIter" : "ap_enable_reg_pp0_iter1", "LastStateBlock" : "ap_block_pp0_stage0_subdone", "QuitState" : "ap_ST_fsm_pp0_stage0", "QuitStateIter" : "ap_enable_reg_pp0_iter1", "QuitStateBlock" : "ap_block_pp0_stage0_subdone", "OneDepthLoop" : "0", "has_ap_ctrl" : "1", "has_continue" : "0"}}]},
@@ -88,7 +88,7 @@ set RtlHierarchyInfo {[
 set ArgLastReadFirstWriteLatency {
 	zeropad2d_cl_array_array_ap_fixed_16_6_5_3_0_2u_config24_Pipeline_PadMain {
 		layer24_out {Type O LastRead -1 FirstWrite 1}
-		input_4 {Type I LastRead 64 FirstWrite -1}}}
+		input_local {Type I LastRead 64 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
@@ -103,5 +103,5 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	layer24_out { ap_fifo {  { layer24_out_din fifo_data_in 1 32 }  { layer24_out_num_data_valid fifo_status_num_data_valid 0 12 }  { layer24_out_fifo_cap fifo_update 0 12 }  { layer24_out_full_n fifo_status 0 1 }  { layer24_out_write fifo_port_we 1 1 } } }
-	input_4 { axis {  { input_4_TDATA in_data 0 32 }  { input_4_TVALID in_vld 0 1 }  { input_4_TREADY in_acc 1 1 } } }
+	input_local { ap_fifo {  { input_local_dout fifo_data_in 0 32 }  { input_local_empty_n fifo_status 0 1 }  { input_local_read fifo_port_we 1 1 } } }
 }

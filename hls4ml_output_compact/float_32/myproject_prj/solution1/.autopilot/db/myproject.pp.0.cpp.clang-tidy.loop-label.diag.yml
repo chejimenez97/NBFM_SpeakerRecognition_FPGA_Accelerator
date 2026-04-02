@@ -79,7 +79,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2364980
+        Offset:          2364936
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -88,7 +88,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2365367
+        Offset:          2365323
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -97,7 +97,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2365702
+        Offset:          2365658
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -106,7 +106,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2365925
+        Offset:          2365881
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -115,7 +115,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366020
+        Offset:          2365976
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -124,7 +124,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366384
+        Offset:          2366340
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -133,7 +133,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366466
+        Offset:          2366422
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -142,7 +142,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2366809
+        Offset:          2366765
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -151,7 +151,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2367262
+        Offset:          2367218
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -160,7 +160,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2367307
+        Offset:          2367263
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -169,7 +169,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2367716
+        Offset:          2367672
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -178,7 +178,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2367929
+        Offset:          2367885
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -187,7 +187,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2377481
+        Offset:          2377437
         Length:          0
         ReplacementText: 'VITIS_LOOP_136_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -196,7 +196,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2377565
+        Offset:          2377521
         Length:          0
         ReplacementText: 'VITIS_LOOP_137_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -205,7 +205,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2378107
+        Offset:          2378063
         Length:          0
         ReplacementText: 'VITIS_LOOP_158_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -214,7 +214,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_conv1d_latency.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2378191
+        Offset:          2378147
         Length:          0
         ReplacementText: 'VITIS_LOOP_159_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -223,7 +223,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2382370
+        Offset:          2382326
         Length:          0
         ReplacementText: 'VITIS_LOOP_31_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -232,7 +232,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2382623
+        Offset:          2382579
         Length:          0
         ReplacementText: 'VITIS_LOOP_43_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -241,7 +241,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2382984
+        Offset:          2382940
         Length:          0
         ReplacementText: 'VITIS_LOOP_57_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -250,7 +250,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2383800
+        Offset:          2383756
         Length:          0
         ReplacementText: 'VITIS_LOOP_84_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -259,7 +259,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2384461
+        Offset:          2384417
         Length:          0
         ReplacementText: 'VITIS_LOOP_114_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -268,7 +268,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2385606
+        Offset:          2385562
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -277,7 +277,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2386070
+        Offset:          2386026
         Length:          0
         ReplacementText: 'VITIS_LOOP_167_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -286,7 +286,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2387002
+        Offset:          2386958
         Length:          0
         ReplacementText: 'VITIS_LOOP_200_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -295,7 +295,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2387537
+        Offset:          2387493
         Length:          0
         ReplacementText: 'VITIS_LOOP_213_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -304,7 +304,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2388400
+        Offset:          2388356
         Length:          0
         ReplacementText: 'VITIS_LOOP_246_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -313,7 +313,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2388670
+        Offset:          2388626
         Length:          0
         ReplacementText: 'VITIS_LOOP_255_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -322,7 +322,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2389233
+        Offset:          2389189
         Length:          0
         ReplacementText: 'VITIS_LOOP_268_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -331,7 +331,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2389470
+        Offset:          2389426
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -340,7 +340,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2389830
+        Offset:          2389786
         Length:          0
         ReplacementText: 'VITIS_LOOP_288_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -349,7 +349,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2390787
+        Offset:          2390743
         Length:          0
         ReplacementText: 'VITIS_LOOP_325_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -358,7 +358,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2390907
+        Offset:          2390863
         Length:          0
         ReplacementText: 'VITIS_LOOP_330_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -367,7 +367,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2390964
+        Offset:          2390920
         Length:          0
         ReplacementText: 'VITIS_LOOP_331_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -376,7 +376,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2391564
+        Offset:          2391520
         Length:          0
         ReplacementText: 'VITIS_LOOP_348_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -385,7 +385,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2392072
+        Offset:          2392028
         Length:          0
         ReplacementText: 'VITIS_LOOP_361_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -394,7 +394,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2392216
+        Offset:          2392172
         Length:          0
         ReplacementText: 'VITIS_LOOP_369_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -403,7 +403,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2393411
+        Offset:          2393367
         Length:          0
         ReplacementText: 'VITIS_LOOP_405_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -412,7 +412,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2393480
+        Offset:          2393436
         Length:          0
         ReplacementText: 'VITIS_LOOP_407_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -421,7 +421,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2393549
+        Offset:          2393505
         Length:          0
         ReplacementText: 'VITIS_LOOP_409_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -430,7 +430,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2393805
+        Offset:          2393761
         Length:          0
         ReplacementText: 'VITIS_LOOP_414_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -439,7 +439,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2394119
+        Offset:          2394075
         Length:          0
         ReplacementText: 'VITIS_LOOP_427_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -448,7 +448,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2394756
+        Offset:          2394712
         Length:          0
         ReplacementText: 'VITIS_LOOP_457_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -457,7 +457,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2395592
+        Offset:          2395548
         Length:          0
         ReplacementText: 'VITIS_LOOP_484_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -466,7 +466,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2395934
+        Offset:          2395890
         Length:          0
         ReplacementText: 'VITIS_LOOP_498_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -475,7 +475,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2396392
+        Offset:          2396348
         Length:          0
         ReplacementText: 'VITIS_LOOP_514_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -484,7 +484,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2396862
+        Offset:          2396818
         Length:          0
         ReplacementText: 'VITIS_LOOP_532_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -493,7 +493,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2397265
+        Offset:          2397221
         Length:          0
         ReplacementText: 'VITIS_LOOP_549_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -502,7 +502,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2397660
+        Offset:          2397616
         Length:          0
         ReplacementText: 'VITIS_LOOP_566_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -511,7 +511,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2398326
+        Offset:          2398282
         Length:          0
         ReplacementText: 'VITIS_LOOP_596_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -520,7 +520,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2398900
+        Offset:          2398856
         Length:          0
         ReplacementText: 'VITIS_LOOP_615_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -529,7 +529,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2399566
+        Offset:          2399522
         Length:          0
         ReplacementText: 'VITIS_LOOP_645_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -538,7 +538,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2400120
+        Offset:          2400076
         Length:          0
         ReplacementText: 'VITIS_LOOP_664_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -547,7 +547,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2400769
+        Offset:          2400725
         Length:          0
         ReplacementText: 'VITIS_LOOP_694_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -556,7 +556,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2401607
+        Offset:          2401563
         Length:          0
         ReplacementText: 'VITIS_LOOP_721_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -565,7 +565,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2402291
+        Offset:          2402247
         Length:          0
         ReplacementText: 'VITIS_LOOP_749_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -574,7 +574,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2402976
+        Offset:          2402932
         Length:          0
         ReplacementText: 'VITIS_LOOP_779_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -583,7 +583,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2403816
+        Offset:          2403772
         Length:          0
         ReplacementText: 'VITIS_LOOP_808_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -592,7 +592,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2404235
+        Offset:          2404191
         Length:          0
         ReplacementText: 'VITIS_LOOP_828_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -601,7 +601,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2410289
+        Offset:          2410245
         Length:          0
         ReplacementText: 'VITIS_LOOP_229_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -610,7 +610,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2410429
+        Offset:          2410385
         Length:          0
         ReplacementText: 'VITIS_LOOP_236_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -619,7 +619,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2410694
+        Offset:          2410650
         Length:          0
         ReplacementText: 'VITIS_LOOP_245_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -628,7 +628,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2410888
+        Offset:          2410844
         Length:          0
         ReplacementText: 'VITIS_LOOP_254_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -637,7 +637,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2410981
+        Offset:          2410937
         Length:          0
         ReplacementText: 'VITIS_LOOP_258_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -646,7 +646,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2411307
+        Offset:          2411263
         Length:          0
         ReplacementText: 'VITIS_LOOP_269_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -655,7 +655,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2411417
+        Offset:          2411373
         Length:          0
         ReplacementText: 'VITIS_LOOP_273_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -664,7 +664,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2412383
+        Offset:          2412339
         Length:          0
         ReplacementText: 'VITIS_LOOP_297_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -673,7 +673,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2412469
+        Offset:          2412425
         Length:          0
         ReplacementText: 'VITIS_LOOP_301_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -682,7 +682,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2413145
+        Offset:          2413101
         Length:          0
         ReplacementText: 'VITIS_LOOP_320_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -691,7 +691,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2419447
+        Offset:          2419403
         Length:          0
         ReplacementText: 'VITIS_LOOP_211_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -700,7 +700,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2419725
+        Offset:          2419681
         Length:          0
         ReplacementText: 'VITIS_LOOP_220_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -709,7 +709,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2422946
+        Offset:          2422902
         Length:          0
         ReplacementText: 'VITIS_LOOP_325_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -718,7 +718,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2423088
+        Offset:          2423044
         Length:          0
         ReplacementText: 'VITIS_LOOP_330_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -727,7 +727,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2423292
+        Offset:          2423248
         Length:          0
         ReplacementText: 'VITIS_LOOP_338_3: '
   - DiagnosticName:  clang-diagnostic-error
@@ -751,7 +751,7 @@ Diagnostics:
     FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2459924
+        Offset:          2459880
         Length:          0
         ReplacementText: 'VITIS_LOOP_64_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -760,7 +760,7 @@ Diagnostics:
     FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2460128
+        Offset:          2460084
         Length:          0
         ReplacementText: 'VITIS_LOOP_71_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -769,7 +769,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2477244
+        Offset:          2477200
         Length:          0
         ReplacementText: 'VITIS_LOOP_14_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -778,7 +778,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2479115
+        Offset:          2479071
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -787,7 +787,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2483923
+        Offset:          2483879
         Length:          0
         ReplacementText: 'VITIS_LOOP_20_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -796,7 +796,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2483976
+        Offset:          2483932
         Length:          0
         ReplacementText: 'VITIS_LOOP_21_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -805,7 +805,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484068
+        Offset:          2484024
         Length:          0
         ReplacementText: 'VITIS_LOOP_25_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -814,7 +814,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484177
+        Offset:          2484133
         Length:          0
         ReplacementText: 'VITIS_LOOP_29_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -823,7 +823,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484472
+        Offset:          2484428
         Length:          0
         ReplacementText: 'VITIS_LOOP_39_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -832,7 +832,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484527
+        Offset:          2484483
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -841,7 +841,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484619
+        Offset:          2484575
         Length:          0
         ReplacementText: 'VITIS_LOOP_45_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -850,7 +850,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484674
+        Offset:          2484630
         Length:          0
         ReplacementText: 'VITIS_LOOP_46_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -859,7 +859,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484783
+        Offset:          2484739
         Length:          0
         ReplacementText: 'VITIS_LOOP_51_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -868,7 +868,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2484839
+        Offset:          2484795
         Length:          0
         ReplacementText: 'VITIS_LOOP_52_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -877,7 +877,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485594
+        Offset:          2485550
         Length:          0
         ReplacementText: 'VITIS_LOOP_75_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -886,7 +886,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485648
+        Offset:          2485604
         Length:          0
         ReplacementText: 'VITIS_LOOP_77_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -895,7 +895,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485706
+        Offset:          2485662
         Length:          0
         ReplacementText: 'VITIS_LOOP_78_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -904,7 +904,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485817
+        Offset:          2485773
         Length:          0
         ReplacementText: 'VITIS_LOOP_83_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -913,7 +913,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485877
+        Offset:          2485833
         Length:          0
         ReplacementText: 'VITIS_LOOP_84_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -922,7 +922,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2485980
+        Offset:          2485936
         Length:          0
         ReplacementText: 'VITIS_LOOP_87_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -931,7 +931,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486100
+        Offset:          2486056
         Length:          0
         ReplacementText: 'VITIS_LOOP_90_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -940,7 +940,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486211
+        Offset:          2486167
         Length:          0
         ReplacementText: 'VITIS_LOOP_95_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -949,7 +949,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486272
+        Offset:          2486228
         Length:          0
         ReplacementText: 'VITIS_LOOP_96_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -958,7 +958,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486648
+        Offset:          2486604
         Length:          0
         ReplacementText: 'VITIS_LOOP_108_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -967,7 +967,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486702
+        Offset:          2486658
         Length:          0
         ReplacementText: 'VITIS_LOOP_109_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -976,7 +976,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486762
+        Offset:          2486718
         Length:          0
         ReplacementText: 'VITIS_LOOP_110_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -985,7 +985,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486872
+        Offset:          2486828
         Length:          0
         ReplacementText: 'VITIS_LOOP_116_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -994,7 +994,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486928
+        Offset:          2486884
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1003,7 +1003,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2486987
+        Offset:          2486943
         Length:          0
         ReplacementText: 'VITIS_LOOP_118_6: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1012,7 +1012,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487094
+        Offset:          2487050
         Length:          0
         ReplacementText: 'VITIS_LOOP_122_7: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1021,7 +1021,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487153
+        Offset:          2487109
         Length:          0
         ReplacementText: 'VITIS_LOOP_123_8: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1030,7 +1030,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487277
+        Offset:          2487233
         Length:          0
         ReplacementText: 'VITIS_LOOP_127_9: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1039,7 +1039,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487337
+        Offset:          2487293
         Length:          0
         ReplacementText: 'VITIS_LOOP_128_10: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1048,7 +1048,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487447
+        Offset:          2487403
         Length:          0
         ReplacementText: 'VITIS_LOOP_134_11: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1057,7 +1057,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487504
+        Offset:          2487460
         Length:          0
         ReplacementText: 'VITIS_LOOP_135_12: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1066,7 +1066,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2487564
+        Offset:          2487520
         Length:          0
         ReplacementText: 'VITIS_LOOP_136_13: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1075,7 +1075,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2488083
+        Offset:          2488039
         Length:          0
         ReplacementText: 'VITIS_LOOP_11_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1084,7 +1084,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_padding_stream.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2488400
+        Offset:          2488356
         Length:          0
         ReplacementText: 'VITIS_LOOP_22_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1093,7 +1093,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490169
+        Offset:          2490125
         Length:          0
         ReplacementText: 'VITIS_LOOP_13_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1102,7 +1102,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2490368
+        Offset:          2490324
         Length:          0
         ReplacementText: 'VITIS_LOOP_22_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1111,7 +1111,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2492296
+        Offset:          2492252
         Length:          0
         ReplacementText: 'VITIS_LOOP_97_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1120,7 +1120,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2492353
+        Offset:          2492309
         Length:          0
         ReplacementText: 'VITIS_LOOP_99_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1129,7 +1129,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2492578
+        Offset:          2492534
         Length:          0
         ReplacementText: 'VITIS_LOOP_104_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1138,7 +1138,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2493895
+        Offset:          2493851
         Length:          0
         ReplacementText: 'VITIS_LOOP_132_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1147,7 +1147,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2494038
+        Offset:          2493994
         Length:          0
         ReplacementText: 'VITIS_LOOP_135_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1156,7 +1156,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2496315
+        Offset:          2496271
         Length:          0
         ReplacementText: 'VITIS_LOOP_190_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1165,7 +1165,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2496372
+        Offset:          2496328
         Length:          0
         ReplacementText: 'VITIS_LOOP_192_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1174,7 +1174,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2496466
+        Offset:          2496422
         Length:          0
         ReplacementText: 'VITIS_LOOP_194_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1183,7 +1183,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2496725
+        Offset:          2496681
         Length:          0
         ReplacementText: 'VITIS_LOOP_201_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1192,7 +1192,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2496799
+        Offset:          2496755
         Length:          0
         ReplacementText: 'VITIS_LOOP_203_5: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1201,7 +1201,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2499164
+        Offset:          2499120
         Length:          0
         ReplacementText: 'VITIS_LOOP_244_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1210,7 +1210,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2499221
+        Offset:          2499177
         Length:          0
         ReplacementText: 'VITIS_LOOP_246_2: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1219,7 +1219,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2499315
+        Offset:          2499271
         Length:          0
         ReplacementText: 'VITIS_LOOP_248_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1228,7 +1228,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2499571
+        Offset:          2499527
         Length:          0
         ReplacementText: 'VITIS_LOOP_254_4: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -1237,7 +1237,7 @@ Diagnostics:
     FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
       - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2499647
+        Offset:          2499603
         Length:          0
         ReplacementText: 'VITIS_LOOP_256_5: '
 ...

@@ -280,7 +280,7 @@ newFuncRoot:16 %p_0_7_0_0_031 = alloca i32 1
 
 <Node id="35" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-newFuncRoot:17 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer16_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+newFuncRoot:17 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer16_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -1234,7 +1234,7 @@ for.body.i.split:17 %speclooptripcount_ln33 = speclooptripcount void @_ssdm_op_S
 
 <Node id="62" bw="0" op_0_bw="0" op_1_bw="0">
 <![CDATA[
-for.body.i.split:18 %specloopname_ln33 = specloopname void @_ssdm_op_SpecLoopName, void @empty_20
+for.body.i.split:18 %specloopname_ln33 = specloopname void @_ssdm_op_SpecLoopName, void @empty_16
 
 ]]></Node>
 <StgValue><ssdm name="specloopname_ln33"/></StgValue>
@@ -1967,7 +1967,7 @@ for.body.i.split:62 %br_ln33 = br void %for.body.i
 </dataflow>
 <dataflow id="171" from="layer16_out" to="specinterface_ln0" fromId="134" toId="22">
 </dataflow>
-<dataflow id="173" from="empty_11" to="specinterface_ln0" fromId="172" toId="22">
+<dataflow id="173" from="empty_12" to="specinterface_ln0" fromId="172" toId="22">
 </dataflow>
 <dataflow id="175" from="StgValue_174" to="specinterface_ln0" fromId="174" toId="22">
 </dataflow>
@@ -2077,7 +2077,7 @@ for.body.i.split:62 %br_ln33 = br void %for.body.i
 </dataflow>
 <dataflow id="237" from="_ssdm_op_SpecLoopName" to="specloopname_ln33" fromId="236" toId="49">
 </dataflow>
-<dataflow id="239" from="empty_20" to="specloopname_ln33" fromId="238" toId="49">
+<dataflow id="239" from="empty_16" to="specloopname_ln33" fromId="238" toId="49">
 </dataflow>
 <dataflow id="241" from="_ssdm_op_Read.ap_fifo.volatile.i128P0A" to="layer16_out_read" fromId="240" toId="50">
 </dataflow>

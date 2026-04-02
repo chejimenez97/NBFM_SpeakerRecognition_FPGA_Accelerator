@@ -49,7 +49,7 @@
 
 <Node id="102" bw="0" op_0_bw="0" op_1_bw="320" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer12_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:0 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer12_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -306,10 +306,10 @@ land.lhs.true:0 %icmp_ln284_4 = icmp_eq  i32 %sY_4_load, i32 2
 
 <Node id="120" bw="31" op_0_bw="31" op_1_bw="32" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-land.lhs.true:1 %tmp_246 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pY_4_load, i32 1, i32 31
+land.lhs.true:1 %tmp_247 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pY_4_load, i32 1, i32 31
 
 ]]></Node>
-<StgValue><ssdm name="tmp_246"/></StgValue>
+<StgValue><ssdm name="tmp_247"/></StgValue>
 </operation>
 
 <operation id="25" st_id="1" stage="1" lat="1">
@@ -322,7 +322,7 @@ land.lhs.true:1 %tmp_246 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, 
 
 <Node id="121" bw="1" op_0_bw="31" op_1_bw="31">
 <![CDATA[
-land.lhs.true:2 %icmp_ln284_5 = icmp_sgt  i31 %tmp_246, i31 0
+land.lhs.true:2 %icmp_ln284_5 = icmp_sgt  i31 %tmp_247, i31 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln284_5"/></StgValue>
@@ -338,10 +338,10 @@ land.lhs.true:2 %icmp_ln284_5 = icmp_sgt  i31 %tmp_246, i31 0
 
 <Node id="122" bw="31" op_0_bw="31" op_1_bw="32" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-land.lhs.true:3 %tmp_247 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pX_4_load, i32 1, i32 31
+land.lhs.true:3 %tmp_248 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %pX_4_load, i32 1, i32 31
 
 ]]></Node>
-<StgValue><ssdm name="tmp_247"/></StgValue>
+<StgValue><ssdm name="tmp_248"/></StgValue>
 </operation>
 
 <operation id="27" st_id="1" stage="1" lat="1">
@@ -354,7 +354,7 @@ land.lhs.true:3 %tmp_247 = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, 
 
 <Node id="123" bw="1" op_0_bw="31" op_1_bw="31">
 <![CDATA[
-land.lhs.true:4 %icmp_ln284_6 = icmp_sgt  i31 %tmp_247, i31 0
+land.lhs.true:4 %icmp_ln284_6 = icmp_sgt  i31 %tmp_248, i31 0
 
 ]]></Node>
 <StgValue><ssdm name="icmp_ln284_6"/></StgValue>

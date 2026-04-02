@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s'
 ================================================================
-* Date:           Sun Mar 22 09:48:47 2026
+* Date:           Mon Mar 30 19:06:42 2026
 
 * Version:        2023.2 (Build 4023990 on Oct 11 2023)
 * Project:        myproject_prj
@@ -88,9 +88,9 @@ IsGatedGlobalClock: 0
 
 State 1 <SV = 0> <Delay = 1.63>
 ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%i_02 = alloca i32 1" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 7 'alloca' 'i_02' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i456 %layer9_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer7_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_13, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:22]   --->   Operation 10 'specresourcelimit' 'specresourcelimit_ln22' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i456 %layer9_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 8 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i320 %layer7_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specresourcelimit_ln22 = specresourcelimit void @_ssdm_op_SpecResourceLimit, i64 2560, void @empty_25, void @empty_1, void @empty_1, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:22]   --->   Operation 10 'specresourcelimit' 'specresourcelimit_ln22' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 11 [1/1] (0.42ns)   --->   "%store_ln25 = store i9 0, i9 %i_02" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 11 'store' 'store_ln25' <Predicate = true> <Delay = 0.42>
 ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%br_ln25 = br void %BatchNormpack" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 12 'br' 'br_ln25' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%i = load i9 %i_02" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 13 'load' 'i' <Predicate = true> <Delay = 0.00>
@@ -132,7 +132,7 @@ ST_3 : Operation 65 [1/1] (0.00ns)   --->   "%ret_ln48 = ret" [firmware/nnet_uti
 State 4 <SV = 3> <Delay = 2.80>
 ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%specpipeline_ln26 = specpipeline void @_ssdm_op_SpecPipeline, i32 1, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_batchnorm_stream.h:26]   --->   Operation 43 'specpipeline' 'specpipeline_ln26' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 44 [1/1] (0.00ns)   --->   "%speclooptripcount_ln25 = speclooptripcount void @_ssdm_op_SpecLoopTripCount, i64 320, i64 320, i64 320" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 44 'speclooptripcount' 'speclooptripcount_ln25' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 45 [1/1] (0.00ns)   --->   "%specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_15" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 45 'specloopname' 'specloopname_ln25' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 45 [1/1] (0.00ns)   --->   "%specloopname_ln25 = specloopname void @_ssdm_op_SpecLoopName, void @empty_18" [firmware/nnet_utils/nnet_batchnorm_stream.h:25]   --->   Operation 45 'specloopname' 'specloopname_ln25' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 46 [1/1] (1.10ns)   --->   "%add_ln42 = add i51 %mul_ln73, i51 438304768" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 46 'add' 'add_ln42' <Predicate = true> <Delay = 1.10> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.10> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%sext_ln70 = sext i51 %add_ln42" [firmware/nnet_utils/nnet_mult.h:70->firmware/nnet_utils/nnet_batchnorm_stream.h:41]   --->   Operation 47 'sext' 'sext_ln70' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 48 [1/1] (1.10ns)   --->   "%add_ln42_1 = add i50 %mul_ln42, i50 1125899696603136" [firmware/nnet_utils/nnet_batchnorm_stream.h:42]   --->   Operation 48 'add' 'add_ln42_1' <Predicate = true> <Delay = 1.10> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.10> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -278,7 +278,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="9" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_11"/></StgValue>
+<StgValue><ssdm name="empty_12"/></StgValue>
 </bind>
 </comp>
 
@@ -332,7 +332,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="21" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_13"/></StgValue>
+<StgValue><ssdm name="empty_25"/></StgValue>
 </bind>
 </comp>
 
@@ -620,7 +620,7 @@ ret_ln48               (ret              ) [ 00000]
 <pin id="85" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="empty_15"/></StgValue>
+<StgValue><ssdm name="empty_18"/></StgValue>
 </bind>
 </comp>
 

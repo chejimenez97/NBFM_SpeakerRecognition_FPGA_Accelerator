@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'relu_array_ap_fixed_8u_array_ap_ufixed_4_3_4_0_0_8u_relu_config10_s'" level="0">
-<item name = "Date">Sun Mar 22 09:55:16 2026
+<item name = "Date">Mon Mar 30 19:13:44 2026
 </item>
 <item name = "Version">2023.2 (Build 4023990 on Oct 11 2023)</item>
 <item name = "Project">myproject_prj</item>
@@ -313,13 +313,13 @@
 <column name="or_ln52_65_reg_2260">1, 0, 1, 0</column>
 <column name="or_ln52_68_reg_2290">1, 0, 1, 0</column>
 <column name="start_once_reg">1, 0, 1, 0</column>
-<column name="tmp_102_reg_2127">1, 0, 1, 0</column>
-<column name="tmp_107_reg_2157">1, 0, 1, 0</column>
-<column name="tmp_112_reg_2187">1, 0, 1, 0</column>
-<column name="tmp_117_reg_2217">1, 0, 1, 0</column>
-<column name="tmp_122_reg_2247">1, 0, 1, 0</column>
-<column name="tmp_127_reg_2277">1, 0, 1, 0</column>
-<column name="tmp_97_reg_2097">1, 0, 1, 0</column>
+<column name="tmp_103_reg_2127">1, 0, 1, 0</column>
+<column name="tmp_108_reg_2157">1, 0, 1, 0</column>
+<column name="tmp_113_reg_2187">1, 0, 1, 0</column>
+<column name="tmp_118_reg_2217">1, 0, 1, 0</column>
+<column name="tmp_123_reg_2247">1, 0, 1, 0</column>
+<column name="tmp_128_reg_2277">1, 0, 1, 0</column>
+<column name="tmp_98_reg_2097">1, 0, 1, 0</column>
 <column name="tmp_reg_2067">1, 0, 1, 0</column>
 </table>
 </item>

@@ -1,0 +1,4 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+DSP Report: Generating DSP mul_16ns_7s_23_1_1_U822/tmp_product, operation Mode is: A*(B:0x3ffd1).
+DSP Report: operator mul_16ns_7s_23_1_1_U822/tmp_product is absorbed into DSP mul_16ns_7s_23_1_1_U822/tmp_product.

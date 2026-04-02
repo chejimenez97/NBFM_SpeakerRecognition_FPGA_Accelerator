@@ -35520,7 +35520,7 @@ typedef ap_fixed<18,8,AP_RND,AP_SAT,0> softmax_inv_inp_t;
 
 
 
-__attribute__((sdx_kernel("myproject", 0))) void myproject(
+void myproject(
     hls::stream<input_t> &input_4,
     hls::stream<result_t> &layer23_out
 );
@@ -62516,14 +62516,10 @@ struct softmax_config23 : nnet::activ_config {
 # 5 "firmware/myproject.cpp" 2
 
 
-__attribute__((sdx_kernel("myproject", 0))) void myproject(
+void myproject(
     hls::stream<input_t> &input_4,
     hls::stream<result_t> &layer23_out
 ) {
-#line 169 "/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/build_prj.tcl"
-#pragma HLSDIRECTIVE TOP name=myproject
-# 10 "firmware/myproject.cpp"
-
 
 
 #pragma HLS INTERFACE axis port=input_4,layer23_out

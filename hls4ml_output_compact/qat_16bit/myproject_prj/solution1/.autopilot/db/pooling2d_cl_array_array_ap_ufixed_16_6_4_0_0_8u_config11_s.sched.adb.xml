@@ -52,7 +52,7 @@ entry:0 %indvar_flatten = alloca i32 1
 
 <Node id="80" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer11_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer11_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -67,7 +67,7 @@ entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %l
 
 <Node id="81" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
 <![CDATA[
-entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer10_out, void @empty_11, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer10_out, void @empty_12, i32 0, i32 0, void @empty_1, i32 0, i32 0, void @empty_1, void @empty_1, void @empty_1, i32 0, i32 0, i32 0, i32 0, void @empty_1, void @empty_1, i32 4294967295, i32 0
 
 ]]></Node>
 <StgValue><ssdm name="specinterface_ln0"/></StgValue>
@@ -2103,10 +2103,10 @@ for.body11.i:62 %trunc_ln68_15 = trunc i16 %select_ln66_23
 
 <Node id="180" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:63 %tmp_226 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_23, i32 15
+for.body11.i:63 %tmp_227 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_23, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_226"/></StgValue>
+<StgValue><ssdm name="tmp_227"/></StgValue>
 </operation>
 
 <operation id="130" st_id="3" stage="1" lat="1">
@@ -2630,10 +2630,10 @@ for.body11.i:95 %trunc_ln68_16 = trunc i16 %select_ln66_24
 
 <Node id="213" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:96 %tmp_227 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_24, i32 15
+for.body11.i:96 %tmp_228 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_24, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_227"/></StgValue>
+<StgValue><ssdm name="tmp_228"/></StgValue>
 </operation>
 
 <operation id="161" st_id="3" stage="1" lat="1">
@@ -3157,10 +3157,10 @@ for.body11.i:128 %trunc_ln68_17 = trunc i16 %select_ln66_25
 
 <Node id="246" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:129 %tmp_228 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_25, i32 15
+for.body11.i:129 %tmp_229 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_25, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_228"/></StgValue>
+<StgValue><ssdm name="tmp_229"/></StgValue>
 </operation>
 
 <operation id="192" st_id="3" stage="1" lat="1">
@@ -3684,10 +3684,10 @@ for.body11.i:161 %trunc_ln68_18 = trunc i16 %select_ln66_26
 
 <Node id="279" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:162 %tmp_229 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_26, i32 15
+for.body11.i:162 %tmp_230 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_26, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_229"/></StgValue>
+<StgValue><ssdm name="tmp_230"/></StgValue>
 </operation>
 
 <operation id="223" st_id="3" stage="1" lat="1">
@@ -4211,10 +4211,10 @@ for.body11.i:194 %trunc_ln68_19 = trunc i16 %select_ln66_27
 
 <Node id="312" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:195 %tmp_230 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_27, i32 15
+for.body11.i:195 %tmp_231 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_27, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_230"/></StgValue>
+<StgValue><ssdm name="tmp_231"/></StgValue>
 </operation>
 
 <operation id="254" st_id="3" stage="1" lat="1">
@@ -4738,10 +4738,10 @@ for.body11.i:227 %trunc_ln68_20 = trunc i16 %select_ln66_28
 
 <Node id="345" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:228 %tmp_231 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_28, i32 15
+for.body11.i:228 %tmp_232 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_28, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_231"/></StgValue>
+<StgValue><ssdm name="tmp_232"/></StgValue>
 </operation>
 
 <operation id="285" st_id="3" stage="1" lat="1">
@@ -5265,10 +5265,10 @@ for.body11.i:260 %trunc_ln68_21 = trunc i16 %select_ln66_29
 
 <Node id="378" bw="1" op_0_bw="1" op_1_bw="16" op_2_bw="32">
 <![CDATA[
-for.body11.i:261 %tmp_232 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_29, i32 15
+for.body11.i:261 %tmp_233 = bitselect i1 @_ssdm_op_BitSelect.i1.i16.i32, i16 %select_ln66_29, i32 15
 
 ]]></Node>
-<StgValue><ssdm name="tmp_232"/></StgValue>
+<StgValue><ssdm name="tmp_233"/></StgValue>
 </operation>
 </state>
 
@@ -5319,7 +5319,7 @@ for.body11.i:32 %zext_ln48 = zext i15 %res_pack
 
 <Node id="181" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:64 %res_pack_15 = select i1 %tmp_226, i15 0, i15 %trunc_ln68_15
+for.body11.i:64 %res_pack_15 = select i1 %tmp_227, i15 0, i15 %trunc_ln68_15
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_15"/></StgValue>
@@ -5353,7 +5353,7 @@ for.body11.i:65 %zext_ln48_13 = zext i15 %res_pack_15
 
 <Node id="214" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:97 %res_pack_16 = select i1 %tmp_227, i15 0, i15 %trunc_ln68_16
+for.body11.i:97 %res_pack_16 = select i1 %tmp_228, i15 0, i15 %trunc_ln68_16
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_16"/></StgValue>
@@ -5387,7 +5387,7 @@ for.body11.i:98 %zext_ln48_14 = zext i15 %res_pack_16
 
 <Node id="247" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:130 %res_pack_17 = select i1 %tmp_228, i15 0, i15 %trunc_ln68_17
+for.body11.i:130 %res_pack_17 = select i1 %tmp_229, i15 0, i15 %trunc_ln68_17
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_17"/></StgValue>
@@ -5421,7 +5421,7 @@ for.body11.i:131 %zext_ln48_15 = zext i15 %res_pack_17
 
 <Node id="280" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:163 %res_pack_18 = select i1 %tmp_229, i15 0, i15 %trunc_ln68_18
+for.body11.i:163 %res_pack_18 = select i1 %tmp_230, i15 0, i15 %trunc_ln68_18
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_18"/></StgValue>
@@ -5455,7 +5455,7 @@ for.body11.i:164 %zext_ln48_16 = zext i15 %res_pack_18
 
 <Node id="313" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:196 %res_pack_19 = select i1 %tmp_230, i15 0, i15 %trunc_ln68_19
+for.body11.i:196 %res_pack_19 = select i1 %tmp_231, i15 0, i15 %trunc_ln68_19
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_19"/></StgValue>
@@ -5489,7 +5489,7 @@ for.body11.i:197 %zext_ln48_17 = zext i15 %res_pack_19
 
 <Node id="346" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:229 %res_pack_20 = select i1 %tmp_231, i15 0, i15 %trunc_ln68_20
+for.body11.i:229 %res_pack_20 = select i1 %tmp_232, i15 0, i15 %trunc_ln68_20
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_20"/></StgValue>
@@ -5523,7 +5523,7 @@ for.body11.i:230 %zext_ln48_18 = zext i15 %res_pack_20
 
 <Node id="379" bw="15" op_0_bw="1" op_1_bw="15" op_2_bw="15">
 <![CDATA[
-for.body11.i:262 %res_pack_21 = select i1 %tmp_232, i15 0, i15 %trunc_ln68_21
+for.body11.i:262 %res_pack_21 = select i1 %tmp_233, i15 0, i15 %trunc_ln68_21
 
 ]]></Node>
 <StgValue><ssdm name="res_pack_21"/></StgValue>
