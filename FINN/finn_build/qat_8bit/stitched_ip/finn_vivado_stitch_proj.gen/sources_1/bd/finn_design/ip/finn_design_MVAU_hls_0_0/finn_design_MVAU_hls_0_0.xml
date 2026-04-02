@@ -534,7 +534,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:f198c483</spirit:value>
+            <spirit:value>9:3e60745b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -550,11 +550,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Mar 29 02:29:38 UTC 2026</spirit:value>
+            <spirit:value>Thu Apr 02 04:52:23 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6f90b6d8</spirit:value>
+            <spirit:value>9:a0680600</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -570,11 +570,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Mar 29 02:29:38 UTC 2026</spirit:value>
+            <spirit:value>Thu Apr 02 04:52:23 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:6f90b6d8</spirit:value>
+            <spirit:value>9:a0680600</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -590,11 +590,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Mar 29 02:29:38 UTC 2026</spirit:value>
+            <spirit:value>Thu Apr 02 04:52:23 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:f198c483</spirit:value>
+            <spirit:value>9:3e60745b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -610,11 +610,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Sun Mar 29 02:29:38 UTC 2026</spirit:value>
+            <spirit:value>Thu Apr 02 04:52:23 UTC 2026</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:f198c483</spirit:value>
+            <spirit:value>9:3e60745b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -781,42 +781,42 @@
     <spirit:fileSet>
       <spirit:name>xilinx_verilogbehavioralsimulation_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_16s_17_4_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_16s_17_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_18s_18_4_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_18s_18_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_Matrix_Vector_Activate_Stream_Batch.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_Matrix_Vector_Activate_Stream_Batch.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mul_8s_8s_16_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mul_8s_8s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_regslice_both.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_regslice_both.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_sparsemux_13_3_24_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_sparsemux_13_3_24_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -837,35 +837,35 @@
         <spirit:userFileType>USED_IN_out_of_context</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_flow_control_loop_pipe_sequential_init.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_16s_17_4_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_16s_17_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_18s_18_4_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mac_muladd_8s_8s_18s_18_4_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_Matrix_Vector_Activate_Stream_Batch.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_Matrix_Vector_Activate_Stream_Batch.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_mul_8s_8s_16_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_mul_8s_8s_16_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_regslice_both.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_regslice_both.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0_sparsemux_13_3_24_1_1.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0_sparsemux_13_3_24_1_1.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>../../ipshared/2bdd/hdl/verilog/MVAU_hls_0.v</spirit:name>
+        <spirit:name>../../ipshared/48ae/hdl/verilog/MVAU_hls_0.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
       </spirit:file>
     </spirit:fileSet>
@@ -944,7 +944,7 @@
     <xilinx:coreExtensions>
       <xilinx:displayName>Mvau_hls_0</xilinx:displayName>
       <xilinx:definitionSource>HLS</xilinx:definitionSource>
-      <xilinx:coreRevision>2114541619</xilinx:coreRevision>
+      <xilinx:coreRevision>2114547522</xilinx:coreRevision>
       <xilinx:sdxKernelAttributes>
         <xilinx:sdx_kernel>true</xilinx:sdx_kernel>
         <xilinx:sdx_kernel_type>hls</xilinx:sdx_kernel_type>

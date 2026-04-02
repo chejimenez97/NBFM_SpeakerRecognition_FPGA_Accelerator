@@ -4,7 +4,7 @@
     "xci_name": "finn_design_StreamingDataWidthConverter_hls_0_0",
     "cell_name": "StreamingDataWidthConverter_hls_0",
     "component_reference": "xilinx.com:hls:StreamingDataWidthConverter_hls_0:1.0",
-    "ip_revision": "2114541620",
+    "ip_revision": "2114547523",
     "gen_directory": "../../../../../../finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_hls_0_0",
     "parameters": {
       "component_parameters": {
@@ -30,7 +30,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114541620" } ],
+        "IPREVISION": [ { "value": "2114547523" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingDataWidthConverter_hls_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

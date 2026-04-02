@@ -274,7 +274,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>16a72488</spirit:value>
+            <spirit:value>334b5046</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -320,7 +320,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>45c8cb69</spirit:value>
+            <spirit:value>7e163f48</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -362,7 +362,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>0463ef8a</spirit:value>
+            <spirit:value>c551f19c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1055,7 +1055,7 @@
       <spirit:file>
         <spirit:name>src/finn_design.v</spirit:name>
         <spirit:fileType>verilogSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_a58fec84</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_848709bd</spirit:userFileType>
         <spirit:userFileType>IMPORTED_FILE</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
@@ -1938,7 +1938,7 @@
       <xilinx:displayName>finn_design_v1_0</xilinx:displayName>
       <xilinx:definitionSource>IPI</xilinx:definitionSource>
       <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-03-29T02:29:39Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-04-02T04:52:23Z</xilinx:coreCreationDateTime>
       <xilinx:configElementInfos>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.CLK.AP_CLK.FREQ_HZ" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.M_AXIS_0.FREQ_HZ" xilinx:valueSource="user" xilinx:valuePermission="bd"/>
@@ -1968,7 +1968,7 @@
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2023.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="c04664c5"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="23738514"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="07be3f0a"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="64a4cd05"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="c89a5ebc"/>
       <xilinx:targetDRCs>

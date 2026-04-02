@@ -138,7 +138,7 @@ output wire [7 : 0] m_axis_0_tdata;
   memstream_axi_wrapper #(
     .DEPTH(256),
     .WIDTH(8),
-    .INIT_FILE("/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_tw1y3ror/memblock.dat"),
+    .INIT_FILE("/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_tzls004r/memblock.dat"),
     .RAM_STYLE("auto"),
     .AXILITE_ADDR_WIDTH(10)
   ) inst (

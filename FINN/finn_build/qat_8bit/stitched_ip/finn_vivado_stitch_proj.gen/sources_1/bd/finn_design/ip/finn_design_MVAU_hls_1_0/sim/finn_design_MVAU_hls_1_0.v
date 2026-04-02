@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:MVAU_hls_1:1.0
-// IP Revision: 2114541619
+// IP Revision: 2114547522
 
 `timescale 1ns/1ps
 

@@ -48,7 +48,7 @@
 
 
 // IP VLNV: xilinx.com:hls:StreamingMaxPool_hls_1:1.0
-// IP Revision: 2114541588
+// IP Revision: 2114547491
 
 `timescale 1ns/1ps
 

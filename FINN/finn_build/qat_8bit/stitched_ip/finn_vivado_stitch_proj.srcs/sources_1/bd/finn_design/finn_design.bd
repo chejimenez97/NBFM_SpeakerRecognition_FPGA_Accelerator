@@ -1259,7 +1259,7 @@
       },
       "StreamingDataWidthConverter_hls_0": {
         "vlnv": "xilinx.com:hls:StreamingDataWidthConverter_hls_0:1.0",
-        "ip_revision": "2114541620",
+        "ip_revision": "2114547523",
         "xci_name": "finn_design_StreamingDataWidthConverter_hls_0_0",
         "xci_path": "ip/finn_design_StreamingDataWidthConverter_hls_0_0/finn_design_StreamingDataWidthConverter_hls_0_0.xci",
         "inst_hier_path": "StreamingDataWidthConverter_hls_0"
@@ -1362,7 +1362,7 @@
         "components": {
           "MVAU_hls_0": {
             "vlnv": "xilinx.com:hls:MVAU_hls_0:1.0",
-            "ip_revision": "2114541619",
+            "ip_revision": "2114547522",
             "xci_name": "finn_design_MVAU_hls_0_0",
             "xci_path": "ip/finn_design_MVAU_hls_0_0/finn_design_MVAU_hls_0_0.xci",
             "inst_hier_path": "MVAU_hls_0/MVAU_hls_0"
@@ -1378,7 +1378,7 @@
                 "value": "12"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_0_wvr4y50m/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_0_tavky634/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -1977,7 +1977,7 @@
       },
       "StreamingMaxPool_hls_0": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_0:1.0",
-        "ip_revision": "2114541619",
+        "ip_revision": "2114547521",
         "xci_name": "finn_design_StreamingMaxPool_hls_0_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_0_0/finn_design_StreamingMaxPool_hls_0_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_0"
@@ -3704,7 +3704,7 @@
         "components": {
           "MVAU_hls_1": {
             "vlnv": "xilinx.com:hls:MVAU_hls_1:1.0",
-            "ip_revision": "2114541619",
+            "ip_revision": "2114547522",
             "xci_name": "finn_design_MVAU_hls_1_0",
             "xci_path": "ip/finn_design_MVAU_hls_1_0/finn_design_MVAU_hls_1_0.xci",
             "inst_hier_path": "MVAU_hls_1/MVAU_hls_1"
@@ -3720,7 +3720,7 @@
                 "value": "36"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_1__uj3dpjm/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_1_uttny_8k/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -4319,7 +4319,7 @@
       },
       "StreamingMaxPool_hls_1": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_1:1.0",
-        "ip_revision": "2114541618",
+        "ip_revision": "2114547521",
         "xci_name": "finn_design_StreamingMaxPool_hls_1_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_1_0/finn_design_StreamingMaxPool_hls_1_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_1"
@@ -6046,7 +6046,7 @@
         "components": {
           "MVAU_hls_2": {
             "vlnv": "xilinx.com:hls:MVAU_hls_2:1.0",
-            "ip_revision": "2114541618",
+            "ip_revision": "2114547521",
             "xci_name": "finn_design_MVAU_hls_2_0",
             "xci_path": "ip/finn_design_MVAU_hls_2_0/finn_design_MVAU_hls_2_0.xci",
             "inst_hier_path": "MVAU_hls_2/MVAU_hls_2"
@@ -6062,7 +6062,7 @@
                 "value": "288"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_2_z_y9mw3q/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_2_pozu68ab/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -6661,7 +6661,7 @@
       },
       "StreamingMaxPool_hls_2": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_2:1.0",
-        "ip_revision": "2114541618",
+        "ip_revision": "2114547521",
         "xci_name": "finn_design_StreamingMaxPool_hls_2_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_2_0/finn_design_StreamingMaxPool_hls_2_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_2"
@@ -7234,7 +7234,7 @@
         "components": {
           "MVAU_hls_3": {
             "vlnv": "xilinx.com:hls:MVAU_hls_3:1.0",
-            "ip_revision": "2114541618",
+            "ip_revision": "2114547521",
             "xci_name": "finn_design_MVAU_hls_3_0",
             "xci_path": "ip/finn_design_MVAU_hls_3_0/finn_design_MVAU_hls_3_0.xci",
             "inst_hier_path": "MVAU_hls_3/MVAU_hls_3"
@@ -7250,7 +7250,7 @@
                 "value": "256"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_nll6fyfq/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_er3hh5a5/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -7761,7 +7761,7 @@
                 "value": "160"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_i6l45j2o/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_ggh6j16i/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"

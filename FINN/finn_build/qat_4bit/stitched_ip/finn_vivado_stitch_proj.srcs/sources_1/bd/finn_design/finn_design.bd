@@ -1641,7 +1641,7 @@
         "components": {
           "MVAU_hls_0": {
             "vlnv": "xilinx.com:hls:MVAU_hls_0:1.0",
-            "ip_revision": "2114541589",
+            "ip_revision": "2114547492",
             "xci_name": "finn_design_MVAU_hls_0_0",
             "xci_path": "ip/finn_design_MVAU_hls_0_0/finn_design_MVAU_hls_0_0.xci",
             "inst_hier_path": "MVAU_hls_0/MVAU_hls_0"
@@ -1657,7 +1657,7 @@
                 "value": "8"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_0_0_m5z_tk/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_0_4p5qrp97/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -2256,7 +2256,7 @@
       },
       "StreamingMaxPool_hls_0": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_0:1.0",
-        "ip_revision": "2114541589",
+        "ip_revision": "2114547492",
         "xci_name": "finn_design_StreamingMaxPool_hls_0_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_0_0/finn_design_StreamingMaxPool_hls_0_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_0"
@@ -3871,7 +3871,7 @@
         "components": {
           "MVAU_hls_1": {
             "vlnv": "xilinx.com:hls:MVAU_hls_1:1.0",
-            "ip_revision": "2114541589",
+            "ip_revision": "2114547492",
             "xci_name": "finn_design_MVAU_hls_1_0",
             "xci_path": "ip/finn_design_MVAU_hls_1_0/finn_design_MVAU_hls_1_0.xci",
             "inst_hier_path": "MVAU_hls_1/MVAU_hls_1"
@@ -3887,7 +3887,7 @@
                 "value": "48"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_1_mxfg5hi0/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_1_n6257_np/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -4486,7 +4486,7 @@
       },
       "StreamingMaxPool_hls_1": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_1:1.0",
-        "ip_revision": "2114541588",
+        "ip_revision": "2114547491",
         "xci_name": "finn_design_StreamingMaxPool_hls_1_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_1_0/finn_design_StreamingMaxPool_hls_1_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_1"
@@ -6213,7 +6213,7 @@
         "components": {
           "MVAU_hls_2": {
             "vlnv": "xilinx.com:hls:MVAU_hls_2:1.0",
-            "ip_revision": "2114541588",
+            "ip_revision": "2114547491",
             "xci_name": "finn_design_MVAU_hls_2_0",
             "xci_path": "ip/finn_design_MVAU_hls_2_0/finn_design_MVAU_hls_2_0.xci",
             "inst_hier_path": "MVAU_hls_2/MVAU_hls_2"
@@ -6229,7 +6229,7 @@
                 "value": "288"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_2__lh4_jdb/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_2_xruhvd14/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -6828,7 +6828,7 @@
       },
       "StreamingMaxPool_hls_2": {
         "vlnv": "xilinx.com:hls:StreamingMaxPool_hls_2:1.0",
-        "ip_revision": "2114541588",
+        "ip_revision": "2114547491",
         "xci_name": "finn_design_StreamingMaxPool_hls_2_0",
         "xci_path": "ip/finn_design_StreamingMaxPool_hls_2_0/finn_design_StreamingMaxPool_hls_2_0.xci",
         "inst_hier_path": "StreamingMaxPool_hls_2"
@@ -7401,7 +7401,7 @@
         "components": {
           "MVAU_hls_3": {
             "vlnv": "xilinx.com:hls:MVAU_hls_3:1.0",
-            "ip_revision": "2114541588",
+            "ip_revision": "2114547491",
             "xci_name": "finn_design_MVAU_hls_3_0",
             "xci_path": "ip/finn_design_MVAU_hls_3_0/finn_design_MVAU_hls_3_0.xci",
             "inst_hier_path": "MVAU_hls_3/MVAU_hls_3"
@@ -7417,7 +7417,7 @@
                 "value": "256"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_tw1y3ror/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_tzls004r/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"
@@ -7928,7 +7928,7 @@
                 "value": "160"
               },
               "INIT_FILE": {
-                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_f68fha_v/memblock.dat"
+                "value": "/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_sk7gu_98/memblock.dat"
               },
               "RAM_STYLE": {
                 "value": "auto"

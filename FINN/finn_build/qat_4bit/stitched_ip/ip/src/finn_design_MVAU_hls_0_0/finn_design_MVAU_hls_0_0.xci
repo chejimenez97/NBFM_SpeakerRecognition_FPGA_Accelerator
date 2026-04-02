@@ -4,7 +4,7 @@
     "xci_name": "finn_design_MVAU_hls_0_0",
     "cell_name": "MVAU_hls_0/MVAU_hls_0",
     "component_reference": "xilinx.com:hls:MVAU_hls_0:1.0",
-    "ip_revision": "2114541589",
+    "ip_revision": "2114547492",
     "gen_directory": "./",
     "parameters": {
       "component_parameters": {
@@ -30,7 +30,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114541589" } ],
+        "IPREVISION": [ { "value": "2114547492" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "./" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

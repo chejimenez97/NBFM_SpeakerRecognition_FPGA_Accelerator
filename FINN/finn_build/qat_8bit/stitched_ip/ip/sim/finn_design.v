@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-//Date        : Sun Mar 29 02:29:38 2026
+//Date        : Thu Apr  2 04:52:22 2026
 //Host        : finn_dev_emanuel-hernandez running 64-bit Ubuntu 22.04.1 LTS
 //Command     : generate_target finn_design.bd
 //Design      : finn_design
