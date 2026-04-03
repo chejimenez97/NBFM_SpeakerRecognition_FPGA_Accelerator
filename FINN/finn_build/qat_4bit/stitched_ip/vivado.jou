@@ -1,14 +1,13 @@
 #-----------------------------------------------------------
-# Vivado v2023.2 (64-bit)
-# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
-# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
-# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Thu Apr  2 04:21:35 2026
-# Process ID: 6203
-# Current directory: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_m72ui60r
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr  3 17:15:32 2026
+# Process ID: 177634
+# Current directory: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_vi50w200
 # Command line: vivado -mode batch -source make_project.tcl
-# Log file: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_m72ui60r/vivado.log
-# Journal file: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_m72ui60r/vivado.jou
-# Running On: finn_dev_emanuel-hernandez, OS: Linux, CPU Frequency: 975.811 MHz, CPU Physical cores: 12, Host memory: 16465 MB
+# Log file: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_vi50w200/vivado.log
+# Journal file: /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_vi50w200/vivado.jou
+# Running On: finn_dev_emanuel-hernandez, OS: Linux, CPU Frequency: 399.806 MHz, CPU Physical cores: 12, Host memory: 16465 MB
 #-----------------------------------------------------------
 source make_project.tcl

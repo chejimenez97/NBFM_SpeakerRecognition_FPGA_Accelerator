@@ -3,13 +3,484 @@
 # SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Mar 24 19:08:56 2026
-# Process ID: 244966
-# Current directory: /home/emanuel-hernandez/finn/SR_PROJECT
-# Command line: vivado -mode batch -notrace -source /dev/stdin
-# Log file: /home/emanuel-hernandez/finn/SR_PROJECT/vivado.log
-# Journal file: /home/emanuel-hernandez/finn/SR_PROJECT/vivado.jou
-# Running On: ema-ubuntu, OS: Linux, CPU Frequency: 837.170 MHz, CPU Physical cores: 12, Host memory: 16465 MB
+# Start of session at: Thu Apr  2 13:22:22 2026
+# Process ID: 19424
+# Current directory: /home/emanuel-hernandez/finn/notebooks/SR_PROJECT
+# Command line: vivado
+# Log file: /home/emanuel-hernandez/finn/notebooks/SR_PROJECT/vivado.log
+# Journal file: /home/emanuel-hernandez/finn/notebooks/SR_PROJECT/vivado.jou
+# Running On: ema-ubuntu, OS: Linux, CPU Frequency: 733.881 MHz, CPU Physical cores: 12, Host memory: 16465 MB
 #-----------------------------------------------------------
-source /dev/stdin -notrace
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 24 19:08:58 2026...
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:ac701:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/ac701/1.4/board.xml as part xc7a200tfbg676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/stitched_ip/finn_vivado_stitch_proj.xpr
+INFO: [Project 1-313] Project file moved from '/tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_m72ui60r' since last save.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/memstream'; using path '/home/emanuel-hernandez/finn/finn-rtllib/memstream' instead.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_0_nju99e9j'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_1_b7c6kk9d', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_1_b7c6kk9d'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_0_4p5qrp97/project_MVAU_hls_0/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_0_4p5qrp97/project_MVAU_hls_0/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_0_eofjf9ii/project_StreamingMaxPool_hls_0/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingMaxPool_hls_0_eofjf9ii/project_StreamingMaxPool_hls_0/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_8_0lvp9hv3', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_8_0lvp9hv3'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_10_7fhn6rlz', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_10_7fhn6rlz'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_1_n6257_np/project_MVAU_hls_1/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_1_n6257_np/project_MVAU_hls_1/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_1_8apyfk56/project_StreamingMaxPool_hls_1/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingMaxPool_hls_1_8apyfk56/project_StreamingMaxPool_hls_1/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_2_mommkclc'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_17_nhacu_fv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_17_nhacu_fv'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_2_xruhvd14/project_MVAU_hls_2/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_2_xruhvd14/project_MVAU_hls_2/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_2_jlrxelbb/project_StreamingMaxPool_hls_2/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingMaxPool_hls_2_jlrxelbb/project_StreamingMaxPool_hls_2/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_3_tzls004r/project_MVAU_hls_3/sol1/impl/ip', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_hls_3_tzls004r/project_MVAU_hls_3/sol1/impl/ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_rtl_0_sk7gu_98', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_sk7gu_98'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja/StreamingFIFO_rtl_0.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja/StreamingFIFO_rtl_0.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/fmpadding_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/fmpadding_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/fmpadding.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/fmpadding.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/axi2we.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/axi2we.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/FMPadding_rtl_0.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_0_nju99e9j/FMPadding_rtl_0.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/swg_pkg.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/swg_pkg.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/ConvolutionInputGenerator_rtl_0_wrapper.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/ConvolutionInputGenerator_rtl_0_wrapper.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/ConvolutionInputGenerator_rtl_0_impl.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/ConvolutionInputGenerator_rtl_0_impl.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/swg_common.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi/swg_common.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz/StreamingFIFO_rtl_2.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz/StreamingFIFO_rtl_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/StreamingDataWidthConverter_rtl_0.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t/StreamingDataWidthConverter_rtl_0.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7/StreamingFIFO_rtl_3.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7/StreamingFIFO_rtl_3.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws/StreamingFIFO_rtl_4.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws/StreamingFIFO_rtl_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/StreamingDataWidthConverter_rtl_1.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0/StreamingDataWidthConverter_rtl_1.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_/StreamingFIFO_rtl_5.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_/StreamingFIFO_rtl_5.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg/StreamingFIFO_rtl_6.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg/StreamingFIFO_rtl_6.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/fmpadding_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/fmpadding_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/fmpadding.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/fmpadding.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/axi2we.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/axi2we.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/FMPadding_rtl_1.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3/FMPadding_rtl_1.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t/StreamingFIFO_rtl_7.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t/StreamingFIFO_rtl_7.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/StreamingDataWidthConverter_rtl_2.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8/StreamingDataWidthConverter_rtl_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/swg_pkg.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/swg_pkg.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/ConvolutionInputGenerator_rtl_1_wrapper.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/ConvolutionInputGenerator_rtl_1_wrapper.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/ConvolutionInputGenerator_rtl_1_impl.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/ConvolutionInputGenerator_rtl_1_impl.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/swg_common.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4/swg_common.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4/StreamingFIFO_rtl_9.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4/StreamingFIFO_rtl_9.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/StreamingDataWidthConverter_rtl_3.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit/StreamingDataWidthConverter_rtl_3.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji/StreamingFIFO_rtl_11.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji/StreamingFIFO_rtl_11.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/StreamingDataWidthConverter_rtl_4.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz/StreamingDataWidthConverter_rtl_4.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j/StreamingFIFO_rtl_12.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j/StreamingFIFO_rtl_12.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9/StreamingFIFO_rtl_13.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9/StreamingFIFO_rtl_13.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc/fmpadding_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_2_mommkclc/fmpadding_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc/fmpadding.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_2_mommkclc/fmpadding.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc/axi2we.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_2_mommkclc/axi2we.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc/FMPadding_rtl_2.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_FMPadding_rtl_2_mommkclc/FMPadding_rtl_2.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb/StreamingFIFO_rtl_14.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb/StreamingFIFO_rtl_14.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/StreamingDataWidthConverter_rtl_5.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh/StreamingDataWidthConverter_rtl_5.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_/StreamingFIFO_rtl_15.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_/StreamingFIFO_rtl_15.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/swg_pkg.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/swg_pkg.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/ConvolutionInputGenerator_rtl_2_wrapper.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/ConvolutionInputGenerator_rtl_2_wrapper.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/ConvolutionInputGenerator_rtl_2_impl.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/ConvolutionInputGenerator_rtl_2_impl.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/swg_common.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297/swg_common.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6/StreamingFIFO_rtl_16.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6/StreamingFIFO_rtl_16.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/StreamingDataWidthConverter_rtl_6.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g/StreamingDataWidthConverter_rtl_6.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os/StreamingFIFO_rtl_18.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os/StreamingFIFO_rtl_18.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/StreamingDataWidthConverter_rtl_7.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw/StreamingDataWidthConverter_rtl_7.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608/StreamingFIFO_rtl_19.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608/StreamingFIFO_rtl_19.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd/StreamingFIFO_rtl_20.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd/StreamingFIFO_rtl_20.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/dwc_axi.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/dwc_axi.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/dwc.sv', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/dwc.sv'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/StreamingDataWidthConverter_rtl_8.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f/StreamingDataWidthConverter_rtl_8.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r/StreamingFIFO_rtl_21.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r/StreamingFIFO_rtl_21.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n/StreamingFIFO_rtl_22.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n/StreamingFIFO_rtl_22.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_rtl_0_sk7gu_98/MVAU_rtl_0_wrapper.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_MVAU_rtl_0_sk7gu_98/MVAU_rtl_0_wrapper.v'.
+WARNING: [Project 1-312] File not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_vvu_axi.sv'; using path '/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_vvu_axi.sv' instead.
+WARNING: [Project 1-312] File not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/mvu/replay_buffer.sv'; using path '/home/emanuel-hernandez/finn/finn-rtllib/mvu/replay_buffer.sv' instead.
+WARNING: [Project 1-312] File not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_4sx4u.sv'; using path '/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_4sx4u.sv' instead.
+WARNING: [Project 1-312] File not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv'; using path '/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_vvu_8sx9_dsp58.sv' instead.
+WARNING: [Project 1-312] File not found as '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv'; using path '/home/emanuel-hernandez/finn/finn-rtllib/mvu/mvu_8sx8u_dsp48.sv' instead.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp/Q_srl.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp/Q_srl.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp/StreamingFIFO_rtl_23.v', nor could it be found using path '/tmp/finn_dev_emanuel-hernandez/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp/StreamingFIFO_rtl_23.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/emanuel-hernandez/finn/finn-rtllib/memstream'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_0_twgnadja'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_0_nju99e9j'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_1_b7c6kk9d'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_0_iru4wlpi'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_2_5erqxcfz'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_24u1tm8t'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_3_2nd73sc7'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_0_4p5qrp97/project_MVAU_hls_0/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_4_jpgvqqws'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_m6y61ag0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_5_q1np_qu_'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_0_eofjf9ii/project_StreamingMaxPool_hls_0/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_6_qo_bd0yg'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_1_a9xrwcj3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_7_g57ci78t'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_4x3fgrk8'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_8_0lvp9hv3'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_7sxqkso4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_9_ywkl4kx4'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_uspv2wit'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_10_7fhn6rlz'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_1_n6257_np/project_MVAU_hls_1/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_11_ij8ufoji'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_l7ehpnrz'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_12_8hv2gc5j'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_1_8apyfk56/project_StreamingMaxPool_hls_1/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_13_ak4gbgw9'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_FMPadding_rtl_2_mommkclc'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_14_q0ii6kcb'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_pqlk12fh'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_15_qurqm53_'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_yngkv297'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_16_e21roco6'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_nruwex_g'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_17_nhacu_fv'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_2_xruhvd14/project_MVAU_hls_2/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_18_jknk42os'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_zdh5i5tw'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_19_g7507608'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingMaxPool_hls_2_jlrxelbb/project_StreamingMaxPool_hls_2/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_20_jbtwd2sd'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_qzojh04f'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_21_1ng7ri2r'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_hls_3_tzls004r/project_MVAU_hls_3/sol1/impl/ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_22_s5ugwq5n'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_MVAU_rtl_0_sk7gu_98'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/code_gen_ipgen_StreamingFIFO_rtl_23_anqpukqp'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'finn_design.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+finn_design_StreamingMaxPool_hls_2_0
+finn_design_MVAU_hls_0_0
+finn_design_MVAU_hls_1_0
+finn_design_MVAU_hls_2_0
+finn_design_StreamingMaxPool_hls_0_0
+finn_design_MVAU_hls_3_0
+finn_design_StreamingMaxPool_hls_1_0
+
+update_compile_order -fileset sources_1
+open_bd_design {/home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/stitched_ip/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd}
+Reading block design file </home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/stitched_ip/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd>...
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_0:1.0 - StreamingFIFO_rtl_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_0'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_0, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_0:1.0 - FMPadding_rtl_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/FMPadding_rtl_0'.
+Given inputs for module-source, Top-module name : FMPadding_rtl_0, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_0:1.0 - ConvolutionInputGenerator_rtl_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ConvolutionInputGenerator_rtl_0'.
+Given inputs for module-source, Top-module name : ConvolutionInputGenerator_rtl_0, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_2:1.0 - StreamingFIFO_rtl_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_2'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_2, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_0:1.0 - StreamingDataWidthConverter_rtl_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_0'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_0, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_3:1.0 - StreamingFIFO_rtl_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_3'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_3, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:hls:MVAU_hls_0:1.0 - MVAU_hls_0
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_0_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_4:1.0 - StreamingFIFO_rtl_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_4'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_4, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_1:1.0 - StreamingDataWidthConverter_rtl_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_1'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_1, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_5:1.0 - StreamingFIFO_rtl_5
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_5'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_5, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_0:1.0 - StreamingMaxPool_hls_0
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_6:1.0 - StreamingFIFO_rtl_6
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_6'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_6, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_1:1.0 - FMPadding_rtl_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/FMPadding_rtl_1'.
+Given inputs for module-source, Top-module name : FMPadding_rtl_1, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_7:1.0 - StreamingFIFO_rtl_7
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_7'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_7, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_2:1.0 - StreamingDataWidthConverter_rtl_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_2'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_2, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_1:1.0 - ConvolutionInputGenerator_rtl_1
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ConvolutionInputGenerator_rtl_1'.
+Given inputs for module-source, Top-module name : ConvolutionInputGenerator_rtl_1, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_9:1.0 - StreamingFIFO_rtl_9
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_9'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_9, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_3:1.0 - StreamingDataWidthConverter_rtl_3
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_3'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_3, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_1:1.0 - MVAU_hls_1
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_1_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_11:1.0 - StreamingFIFO_rtl_11
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_11'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_11, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_4:1.0 - StreamingDataWidthConverter_rtl_4
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_4'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_4, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_12:1.0 - StreamingFIFO_rtl_12
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_12'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_12, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_1:1.0 - StreamingMaxPool_hls_1
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_13:1.0 - StreamingFIFO_rtl_13
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_13'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_13, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:FMPadding_rtl_2:1.0 - FMPadding_rtl_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/FMPadding_rtl_2'.
+Given inputs for module-source, Top-module name : FMPadding_rtl_2, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_14:1.0 - StreamingFIFO_rtl_14
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_14'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_14, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_5:1.0 - StreamingDataWidthConverter_rtl_5
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_5'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_5, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_15:1.0 - StreamingFIFO_rtl_15
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_15'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_15, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:ConvolutionInputGenerator_rtl_2:1.0 - ConvolutionInputGenerator_rtl_2
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/ConvolutionInputGenerator_rtl_2'.
+Given inputs for module-source, Top-module name : ConvolutionInputGenerator_rtl_2, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_16:1.0 - StreamingFIFO_rtl_16
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_16'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_16, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_6:1.0 - StreamingDataWidthConverter_rtl_6
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_6'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_6, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:ip:axis_data_fifo:2.0 - fifo
+Adding component instance block -- xilinx.com:hls:MVAU_hls_2:1.0 - MVAU_hls_2
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_2_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_18:1.0 - StreamingFIFO_rtl_18
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_18'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_18, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_7:1.0 - StreamingDataWidthConverter_rtl_7
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_7'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_7, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_19:1.0 - StreamingFIFO_rtl_19
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_19'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_19, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:hls:StreamingMaxPool_hls_2:1.0 - StreamingMaxPool_hls_2
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_20:1.0 - StreamingFIFO_rtl_20
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_20'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_20, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingDataWidthConverter_rtl_8:1.0 - StreamingDataWidthConverter_rtl_8
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingDataWidthConverter_rtl_8'.
+Given inputs for module-source, Top-module name : StreamingDataWidthConverter_rtl_8, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_21:1.0 - StreamingFIFO_rtl_21
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_21'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_21, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:hls:MVAU_hls_3:1.0 - MVAU_hls_3
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_hls_3_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_22:1.0 - StreamingFIFO_rtl_22
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_22'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_22, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- xilinx.com:module_ref:MVAU_rtl_0:1.0 - MVAU_rtl_0
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/MVAU_rtl_0/MVAU_rtl_0'.
+Given inputs for module-source, Top-module name : MVAU_rtl_0, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Adding component instance block -- amd.com:finn:memstream:1.0 - MVAU_rtl_0_wstrm
+Adding component instance block -- xilinx.com:module_ref:StreamingFIFO_rtl_23:1.0 - StreamingFIFO_rtl_23
+CRITICAL WARNING: [BD 41-1726] Unable to resolve module-source for block '/StreamingFIFO_rtl_23'.
+Given inputs for module-source, Top-module name : StreamingFIFO_rtl_23, Module Type : RTL.
+Please review and update or add design-sources to this project to resolve this module-reference.
+Successfully read diagram <finn_design> from block design file </home/emanuel-hernandez/finn/notebooks/SR_PROJECT/finn_build/qat_4bit/stitched_ip/finn_vivado_stitch_proj.srcs/sources_1/bd/finn_design/finn_design.bd>
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  2 13:23:30 2026...

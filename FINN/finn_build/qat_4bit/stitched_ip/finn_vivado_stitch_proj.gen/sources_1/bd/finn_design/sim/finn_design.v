@@ -1,8 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-//Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
-//Tool Version: Vivado v.2023.2 (lin64) Build 4029153 Fri Oct 13 20:13:54 MDT 2023
-//Date        : Thu Apr  2 04:22:26 2026
+//Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+//Date        : Fri Apr  3 17:18:10 2026
 //Host        : finn_dev_emanuel-hernandez running 64-bit Ubuntu 22.04.1 LTS
 //Command     : generate_target finn_design.bd
 //Design      : finn_design
@@ -539,7 +538,7 @@ module StreamingFIFO_rtl_8_imp_MIL7BA
         .s_axis_tvalid(in0_V_1_TVALID));
 endmodule
 
-(* CORE_GENERATION_INFO = "finn_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=finn_design,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=61,numReposBlks=52,numNonXlnxBlks=5,numHierBlks=9,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=7,numHdlrefBlks=36,numPkgbdBlks=0,bdsource=USER,synth_mode=Hierarchical}" *) (* HW_HANDOFF = "finn_design.hwdef" *) 
+(* CORE_GENERATION_INFO = "finn_design,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=finn_design,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=61,numReposBlks=52,numNonXlnxBlks=5,numHierBlks=9,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=7,numHdlrefBlks=36,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "finn_design.hwdef" *) 
 module finn_design
    (ap_clk,
     ap_rst_n,

@@ -1,21 +1,21 @@
-// (c) Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-// (c) Copyright 2022-2026 Advanced Micro Devices, Inc. All rights reserved.
+// (c) Copyright 1995-2026 Xilinx, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
-// of AMD and is protected under U.S. and international copyright
-// and other intellectual property laws.
+// of Xilinx, Inc. and is protected under U.S. and
+// international copyright and other intellectual property
+// laws.
 // 
 // DISCLAIMER
 // This disclaimer is not a license and does not grant any
 // rights to the materials distributed herewith. Except as
 // otherwise provided in a valid license issued to you by
-// AMD, and to the maximum extent permitted by applicable
+// Xilinx, and to the maximum extent permitted by applicable
 // law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
-// WITH ALL FAULTS, AND AMD HEREBY DISCLAIMS ALL WARRANTIES
+// WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
 // AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
 // BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
 // INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
-// (2) AMD shall not be liable (whether in contract or tort,
+// (2) Xilinx shall not be liable (whether in contract or tort,
 // including negligence, or under any other theory of
 // liability) for any loss or damage of any kind or nature
 // related to, arising under or in connection with these
@@ -24,11 +24,11 @@
 // (including loss of data, profits, goodwill, or any type of
 // loss or damage suffered as a result of any action brought
 // by a third party) even if such damage or loss was
-// reasonably foreseeable or AMD had been advised of the
+// reasonably foreseeable or Xilinx had been advised of the
 // possibility of the same.
 // 
 // CRITICAL APPLICATIONS
-// AMD products are not designed or intended to be fail-
+// Xilinx products are not designed or intended to be fail-
 // safe, or for use in any application requiring fail-safe
 // performance, such as life-support or safety devices or
 // systems, Class III medical devices, nuclear facilities,
@@ -37,7 +37,7 @@
 // injury, or severe property or environmental damage
 // (individually and collectively, "Critical
 // Applications"). Customer assumes the sole risk and
-// liability of any use of AMD products in Critical
+// liability of any use of Xilinx products in Critical
 // Applications, subject only to applicable laws and
 // regulations governing limitations on product liability.
 // 
@@ -50,9 +50,9 @@
 // IP VLNV: xilinx.com:module_ref:MVAU_rtl_0:1.0
 // IP Revision: 1
 
-(* X_CORE_INFO = "MVAU_rtl_0,Vivado 2023.2" *)
+(* X_CORE_INFO = "MVAU_rtl_0,Vivado 2022.2" *)
 (* CHECK_LICENSE_TYPE = "finn_design_MVAU_rtl_0_0,MVAU_rtl_0,{}" *)
-(* CORE_GENERATION_INFO = "finn_design_MVAU_rtl_0_0,MVAU_rtl_0,{x_ipProduct=Vivado 2023.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=MVAU_rtl_0,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,IS_MVU=1,COMPUTE_CORE=mvu_8sx8u_dsp48,PUMPED_COMPUTE=0,MW=16,MH=10,PE=1,SIMD=1,ACTIVATION_WIDTH=8,WEIGHT_WIDTH=8,ACCU_WIDTH=24,NARROW_WEIGHTS=1,SIGNED_ACTIVATIONS=0,SEGMENTLEN=1,FORCE_BEHAVIORAL=0,WEIGHT_STREAM_WIDTH_BA=8,INPUT_STREAM_WIDTH_BA=8,OUTPUT_STREAM_WIDTH_BA=24}" *)
+(* CORE_GENERATION_INFO = "finn_design_MVAU_rtl_0_0,MVAU_rtl_0,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=MVAU_rtl_0,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,IS_MVU=1,COMPUTE_CORE=mvu_8sx8u_dsp48,PUMPED_COMPUTE=0,MW=16,MH=10,PE=1,SIMD=1,ACTIVATION_WIDTH=8,WEIGHT_WIDTH=8,ACCU_WIDTH=24,NARROW_WEIGHTS=1,SIGNED_ACTIVATIONS=0,SEGMENTLEN=1,FORCE_BEHAVIORAL=0,WEIGHT_STREAM_WIDTH_BA=8,INPUT_STREAM_WIDTH_BA=8,OUTPUT_STREAM_WIDTH_BA=24}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module finn_design_MVAU_rtl_0_0 (

@@ -1,0 +1,16 @@
+{
+  "FMPadding_rtl_0": 1452,
+  "ConvolutionInputGenerator_rtl_0": 11655,
+  "MVAU_hls_0": 10240,
+  "StreamingMaxPool_hls_0": 5120,
+  "FMPadding_rtl_1": 408,
+  "ConvolutionInputGenerator_rtl_1": 11804,
+  "MVAU_hls_1": 15360,
+  "StreamingMaxPool_hls_1": 1088,
+  "FMPadding_rtl_2": 70,
+  "ConvolutionInputGenerator_rtl_2": 3064,
+  "MVAU_hls_2": 11520,
+  "StreamingMaxPool_hls_2": 68,
+  "MVAU_hls_3": 256,
+  "MVAU_rtl_0": 160
+}
