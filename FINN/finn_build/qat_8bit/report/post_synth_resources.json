@@ -1,33 +1,33 @@
 {
   "(top)": {
-    "LUT": 46438,
-    "SRL": 1273,
-    "FF": 29207,
-    "BRAM_36K": 3,
-    "BRAM_18K": 4,
-    "URAM": 1,
-    "DSP": 32
+    "LUT": 42687,
+    "SRL": 3615,
+    "FF": 27019,
+    "BRAM_36K": 2,
+    "BRAM_18K": 5,
+    "URAM": 0,
+    "DSP": 23
   },
   "StreamingDataflowPartition_0_IODMA_hls_0": {
-    "LUT": 1201,
-    "SRL": 37,
-    "FF": 2069,
+    "LUT": 1142,
+    "SRL": 35,
+    "FF": 2046,
     "BRAM_36K": 2,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_0": {
-    "LUT": 596,
-    "SRL": 480,
-    "FF": 46,
+    "LUT": 1148,
+    "SRL": 1024,
+    "FF": 62,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_FMPadding_rtl_0": {
-    "LUT": 38,
+    "LUT": 33,
     "SRL": 0,
     "FF": 47,
     "BRAM_36K": 0,
@@ -36,25 +36,16 @@
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_1": {
-    "LUT": 71,
-    "SRL": 0,
-    "FF": 61,
-    "BRAM_36K": 1,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_ConvolutionInputGenerator_rtl_0": {
-    "LUT": 227,
-    "SRL": 0,
-    "FF": 98,
+    "LUT": 611,
+    "SRL": 512,
+    "FF": 44,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_2": {
-    "LUT": 19,
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_0": {
+    "LUT": 16,
     "SRL": 0,
     "FF": 36,
     "BRAM_36K": 0,
@@ -62,43 +53,70 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_hls_0": {
-    "LUT": 263,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_2": {
+    "LUT": 183,
+    "SRL": 128,
+    "FF": 22,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_ConvolutionInputGenerator_rtl_0": {
+    "LUT": 237,
     "SRL": 0,
-    "FF": 363,
+    "FF": 96,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_3": {
-    "LUT": 74,
-    "SRL": 0,
-    "FF": 89,
+    "LUT": 183,
+    "SRL": 128,
+    "FF": 22,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
-    "URAM": 1,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_1": {
+    "LUT": 8,
+    "SRL": 0,
+    "FF": 36,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_4": {
+    "LUT": 254,
+    "SRL": 192,
+    "FF": 40,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_MVAU_hls_0": {
-    "LUT": 11233,
+    "LUT": 11132,
     "SRL": 0,
-    "FF": 1540,
+    "FF": 1275,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 12
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_4": {
-    "LUT": 36,
-    "SRL": 0,
-    "FF": 68,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_5": {
+    "LUT": 329,
+    "SRL": 256,
+    "FF": 51,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_0": {
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_2": {
     "LUT": 19,
     "SRL": 0,
     "FF": 99,
@@ -107,10 +125,10 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_5": {
-    "LUT": 67,
-    "SRL": 0,
-    "FF": 132,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_6": {
+    "LUT": 355,
+    "SRL": 256,
+    "FF": 80,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
@@ -125,10 +143,10 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_6": {
-    "LUT": 68,
-    "SRL": 0,
-    "FF": 132,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_7": {
+    "LUT": 357,
+    "SRL": 256,
+    "FF": 82,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
@@ -143,17 +161,35 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_7": {
-    "LUT": 321,
-    "SRL": 192,
-    "FF": 81,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_8": {
+    "LUT": 218,
+    "SRL": 128,
+    "FF": 75,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_1": {
-    "LUT": 37,
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_3": {
+    "LUT": 38,
+    "SRL": 0,
+    "FF": 86,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_9": {
+    "LUT": 52,
+    "SRL": 16,
+    "FF": 19,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_ConvolutionInputGenerator_rtl_1": {
+    "LUT": 292,
     "SRL": 0,
     "FF": 101,
     "BRAM_36K": 0,
@@ -161,43 +197,25 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_8": {
-    "LUT": 57,
-    "SRL": 0,
-    "FF": 53,
-    "BRAM_36K": 0,
-    "BRAM_18K": 1,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_ConvolutionInputGenerator_rtl_1": {
-    "LUT": 291,
-    "SRL": 0,
-    "FF": 103,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_9": {
-    "LUT": 19,
-    "SRL": 0,
-    "FF": 36,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_2": {
-    "LUT": 11,
-    "SRL": 0,
-    "FF": 51,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_10": {
+    "LUT": 39,
+    "SRL": 8,
+    "FF": 18,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_4": {
+    "LUT": 8,
+    "SRL": 0,
+    "FF": 44,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_11": {
     "LUT": 86,
     "SRL": 32,
     "FF": 42,
@@ -207,43 +225,43 @@
     "DSP": 0
   },
   "StreamingDataflowPartition_1_MVAU_hls_1": {
-    "LUT": 12372,
+    "LUT": 6319,
     "SRL": 0,
-    "FF": 2069,
+    "FF": 1318,
     "BRAM_36K": 0,
-    "BRAM_18K": 0,
+    "BRAM_18K": 2,
     "URAM": 0,
-    "DSP": 16
-  },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_11": {
-    "LUT": 36,
-    "SRL": 0,
-    "FF": 68,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_3": {
-    "LUT": 20,
-    "SRL": 0,
-    "FF": 99,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
+    "DSP": 8
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_12": {
-    "LUT": 67,
+    "LUT": 42,
+    "SRL": 8,
+    "FF": 25,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_5": {
+    "LUT": 12,
     "SRL": 0,
-    "FF": 132,
+    "FF": 84,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_13": {
+    "LUT": 114,
+    "SRL": 32,
+    "FF": 73,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingMaxPool_hls_1": {
-    "LUT": 423,
+    "LUT": 424,
     "SRL": 0,
     "FF": 522,
     "BRAM_36K": 0,
@@ -251,17 +269,17 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_13": {
-    "LUT": 68,
-    "SRL": 0,
-    "FF": 132,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_14": {
+    "LUT": 115,
+    "SRL": 32,
+    "FF": 73,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_FMPadding_rtl_2": {
-    "LUT": 47,
+    "LUT": 45,
     "SRL": 0,
     "FF": 138,
     "BRAM_36K": 0,
@@ -269,17 +287,17 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_14": {
-    "LUT": 150,
-    "SRL": 64,
-    "FF": 74,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_15": {
+    "LUT": 116,
+    "SRL": 32,
+    "FF": 73,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_4": {
-    "LUT": 40,
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_6": {
+    "LUT": 39,
     "SRL": 0,
     "FF": 86,
     "BRAM_36K": 0,
@@ -287,71 +305,53 @@
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_15": {
-    "LUT": 96,
-    "SRL": 48,
-    "FF": 21,
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_16": {
+    "LUT": 35,
+    "SRL": 8,
+    "FF": 17,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_ConvolutionInputGenerator_rtl_2": {
-    "LUT": 188,
+    "LUT": 191,
     "SRL": 0,
-    "FF": 89,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_16": {
-    "LUT": 11,
-    "SRL": 0,
-    "FF": 20,
-    "BRAM_36K": 0,
-    "BRAM_18K": 0,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_5": {
-    "LUT": 7,
-    "SRL": 0,
-    "FF": 27,
+    "FF": 85,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_17": {
-    "LUT": 55,
-    "SRL": 0,
-    "FF": 53,
-    "BRAM_36K": 0,
-    "BRAM_18K": 1,
-    "URAM": 0,
-    "DSP": 0
-  },
-  "StreamingDataflowPartition_1_MVAU_hls_2": {
-    "LUT": 5158,
-    "SRL": 0,
-    "FF": 4676,
-    "BRAM_36K": 0,
-    "BRAM_18K": 1,
-    "URAM": 0,
-    "DSP": 2
-  },
-  "StreamingDataflowPartition_1_StreamingFIFO_rtl_18": {
-    "LUT": 12,
-    "SRL": 0,
-    "FF": 20,
+    "LUT": 32,
+    "SRL": 8,
+    "FF": 17,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_6": {
-    "LUT": 10,
+  "StreamingDataflowPartition_1_MVAU_hls_2": {
+    "LUT": 5221,
+    "SRL": 0,
+    "FF": 4631,
+    "BRAM_36K": 0,
+    "BRAM_18K": 1,
+    "URAM": 0,
+    "DSP": 1
+  },
+  "StreamingDataflowPartition_1_StreamingFIFO_rtl_18": {
+    "LUT": 34,
+    "SRL": 8,
+    "FF": 17,
+    "BRAM_36K": 0,
+    "BRAM_18K": 0,
+    "URAM": 0,
+    "DSP": 0
+  },
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_7": {
+    "LUT": 9,
     "SRL": 0,
     "FF": 77,
     "BRAM_36K": 0,
@@ -360,16 +360,16 @@
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_19": {
-    "LUT": 67,
-    "SRL": 0,
-    "FF": 132,
+    "LUT": 114,
+    "SRL": 32,
+    "FF": 73,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingMaxPool_hls_2": {
-    "LUT": 412,
+    "LUT": 410,
     "SRL": 0,
     "FF": 504,
     "BRAM_36K": 0,
@@ -378,16 +378,16 @@
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_20": {
-    "LUT": 69,
-    "SRL": 0,
-    "FF": 132,
+    "LUT": 115,
+    "SRL": 32,
+    "FF": 73,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
-  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_7": {
-    "LUT": 38,
+  "StreamingDataflowPartition_1_StreamingDataWidthConverter_rtl_8": {
+    "LUT": 39,
     "SRL": 0,
     "FF": 86,
     "BRAM_36K": 0,
@@ -396,52 +396,52 @@
     "DSP": 0
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_21": {
-    "LUT": 12,
-    "SRL": 0,
-    "FF": 20,
+    "LUT": 34,
+    "SRL": 8,
+    "FF": 17,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_MVAU_hls_3": {
-    "LUT": 4695,
+    "LUT": 4811,
     "SRL": 0,
-    "FF": 3837,
+    "FF": 3701,
     "BRAM_36K": 0,
-    "BRAM_18K": 0,
+    "BRAM_18K": 1,
     "URAM": 0,
     "DSP": 1
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_22": {
-    "LUT": 12,
-    "SRL": 0,
-    "FF": 20,
+    "LUT": 34,
+    "SRL": 8,
+    "FF": 17,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_1_MVAU_rtl_0": {
-    "LUT": 81,
+    "LUT": 45,
     "SRL": 0,
-    "FF": 165,
+    "FF": 138,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 1
   },
   "StreamingDataflowPartition_1_StreamingFIFO_rtl_23": {
-    "LUT": 27,
-    "SRL": 0,
-    "FF": 52,
+    "LUT": 59,
+    "SRL": 16,
+    "FF": 33,
     "BRAM_36K": 0,
     "BRAM_18K": 0,
     "URAM": 0,
     "DSP": 0
   },
   "StreamingDataflowPartition_2_IODMA_hls_0": {
-    "LUT": 1562,
+    "LUT": 1566,
     "SRL": 149,
     "FF": 2299,
     "BRAM_36K": 0,

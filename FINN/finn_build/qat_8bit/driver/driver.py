@@ -40,14 +40,14 @@ io_shape_dict = {
     "idt" : [DataType['INT8']],
     "odt" : [DataType['INT24']],
     # shapes for input and output tensors (NHWC layout)
-    "ishape_normal" : [(1, 20, 64, 2)],
+    "ishape_normal" : [(1, 16, 64, 2)],
     "oshape_normal" : [(1, 10)],
     # folded / packed shapes below depend on idt/odt and input/output
     # PE/SIMD parallelization settings -- these are calculated by the
     # FINN compiler.
-    "ishape_folded" : [(1, 20, 64, 1, 2)],
+    "ishape_folded" : [(1, 16, 64, 1, 2)],
     "oshape_folded" : [(1, 10, 1)],
-    "ishape_packed" : [(1, 20, 64, 1, 2)],
+    "ishape_packed" : [(1, 16, 64, 1, 2)],
     "oshape_packed" : [(1, 10, 3)],
     "input_dma_name" : ['idma0'],
     "output_dma_name" : ['odma0'],

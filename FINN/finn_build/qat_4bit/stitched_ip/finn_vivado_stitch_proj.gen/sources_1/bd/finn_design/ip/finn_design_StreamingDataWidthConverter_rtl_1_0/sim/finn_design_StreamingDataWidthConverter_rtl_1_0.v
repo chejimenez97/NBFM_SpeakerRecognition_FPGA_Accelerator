@@ -82,15 +82,15 @@ input wire [7 : 0] in0_V_TDATA;
 input wire out_V_TREADY;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 out_V TVALID" *)
 output wire out_V_TVALID;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_V, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 200000000, PHASE 0.0, CLK_DOMAIN finn_design_ap_clk_0, LAYERED_METADATA undef, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_V, TDATA_NUM_BYTES 9, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 200000000, PHASE 0.0, CLK_DOMAIN finn_design_ap_clk_0, LAYERED_METADATA undef, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 out_V TDATA" *)
-output wire [63 : 0] out_V_TDATA;
+output wire [71 : 0] out_V_TDATA;
 
   StreamingDataWidthConverter_rtl_1 #(
     .IBITS(8),
-    .OBITS(64),
+    .OBITS(72),
     .AXI_IBITS(8),
-    .AXI_OBITS(64)
+    .AXI_OBITS(72)
   ) inst (
     .ap_clk(ap_clk),
     .ap_rst_n(ap_rst_n),

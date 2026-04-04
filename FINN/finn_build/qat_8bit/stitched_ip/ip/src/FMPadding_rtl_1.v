@@ -84,8 +84,8 @@ fmpadding_axi #(
 .INIT_XOFF(33),
 .INIT_XEND(33),
 .INIT_YON(1),
-.INIT_YOFF(11),
-.INIT_YEND(11)
+.INIT_YOFF(9),
+.INIT_YEND(9)
 )
 impl
 (

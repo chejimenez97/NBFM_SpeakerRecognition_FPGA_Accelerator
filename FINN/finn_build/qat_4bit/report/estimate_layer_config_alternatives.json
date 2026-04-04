@@ -37,17 +37,17 @@
   ],
   "MVAU_hls_0": [
     {
-      "BRAM_18K": 2,
-      "BRAM_efficiency": 0.015625,
-      "LUT": 777,
+      "BRAM_18K": 0,
+      "BRAM_efficiency": 1,
+      "LUT": 575,
       "URAM": 0,
       "URAM_efficiency": 1,
-      "DSP": 18
+      "DSP": 9
     },
     {
-      "BRAM_18K": 2,
-      "BRAM_efficiency": 0.015625,
-      "LUT": 1490,
+      "BRAM_18K": 0,
+      "BRAM_efficiency": 1,
+      "LUT": 932,
       "URAM": 0,
       "URAM_efficiency": 1,
       "DSP": 0
@@ -85,7 +85,7 @@
     {
       "BRAM_18K": 0,
       "BRAM_efficiency": 1,
-      "LUT": 428,
+      "LUT": 420,
       "URAM": 0,
       "URAM_efficiency": 1,
       "DSP": 0
@@ -101,17 +101,17 @@
   ],
   "MVAU_hls_1": [
     {
-      "BRAM_18K": 2,
-      "BRAM_efficiency": 0.0625,
-      "LUT": 621,
+      "BRAM_18K": 0,
+      "BRAM_efficiency": 1,
+      "LUT": 579,
       "URAM": 0,
       "URAM_efficiency": 1,
-      "DSP": 12
+      "DSP": 8
     },
     {
-      "BRAM_18K": 2,
-      "BRAM_efficiency": 0.0625,
-      "LUT": 1096,
+      "BRAM_18K": 0,
+      "BRAM_efficiency": 1,
+      "LUT": 896,
       "URAM": 0,
       "URAM_efficiency": 1,
       "DSP": 0
@@ -167,17 +167,17 @@
     {
       "BRAM_18K": 1,
       "BRAM_efficiency": 0.125,
-      "LUT": 357,
-      "URAM": 0,
-      "URAM_efficiency": 1,
-      "DSP": 2
+      "LUT": 330,
+      "URAM": 1,
+      "URAM_efficiency": 0.0078125,
+      "DSP": 1
     },
     {
       "BRAM_18K": 1,
       "BRAM_efficiency": 0.125,
-      "LUT": 436,
-      "URAM": 0,
-      "URAM_efficiency": 1,
+      "LUT": 370,
+      "URAM": 1,
+      "URAM_efficiency": 0.0078125,
       "DSP": 0
     }
   ],
@@ -194,18 +194,18 @@
   "MVAU_hls_3": [
     {
       "BRAM_18K": 1,
-      "BRAM_efficiency": 0.05555555555555555,
-      "LUT": 328,
-      "URAM": 0,
-      "URAM_efficiency": 1,
+      "BRAM_efficiency": 0.1111111111111111,
+      "LUT": 329,
+      "URAM": 1,
+      "URAM_efficiency": 0.006944444444444444,
       "DSP": 1
     },
     {
       "BRAM_18K": 1,
-      "BRAM_efficiency": 0.05555555555555555,
-      "LUT": 368,
-      "URAM": 0,
-      "URAM_efficiency": 1,
+      "BRAM_efficiency": 0.1111111111111111,
+      "LUT": 369,
+      "URAM": 1,
+      "URAM_efficiency": 0.006944444444444444,
       "DSP": 0
     }
   ],
@@ -214,16 +214,16 @@
       "BRAM_18K": 1,
       "BRAM_efficiency": 0.034722222222222224,
       "LUT": 0,
-      "URAM": 0,
-      "URAM_efficiency": 1,
+      "URAM": 1,
+      "URAM_efficiency": 0.002170138888888889,
       "DSP": 1
     },
     {
       "BRAM_18K": 1,
       "BRAM_efficiency": 0.034722222222222224,
       "LUT": 0,
-      "URAM": 0,
-      "URAM_efficiency": 1,
+      "URAM": 1,
+      "URAM_efficiency": 0.002170138888888889,
       "DSP": 1
     }
   ]

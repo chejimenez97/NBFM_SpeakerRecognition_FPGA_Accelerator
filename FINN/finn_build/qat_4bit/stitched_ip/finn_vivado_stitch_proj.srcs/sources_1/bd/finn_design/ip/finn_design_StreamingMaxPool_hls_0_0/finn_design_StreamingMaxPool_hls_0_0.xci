@@ -4,7 +4,7 @@
     "xci_name": "finn_design_StreamingMaxPool_hls_0_0",
     "cell_name": "StreamingMaxPool_hls_0",
     "component_reference": "xilinx.com:hls:StreamingMaxPool_hls_0:1.0",
-    "ip_revision": "2114549702",
+    "ip_revision": "2114551331",
     "gen_directory": "../../../../../../finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_0_0",
     "parameters": {
       "component_parameters": {
@@ -32,7 +32,7 @@
       },
       "runtime_parameters": {
         "IPCONTEXT": [ { "value": "IP_Integrator" } ],
-        "IPREVISION": [ { "value": "2114549702" } ],
+        "IPREVISION": [ { "value": "2114551331" } ],
         "MANAGED": [ { "value": "TRUE" } ],
         "OUTPUTDIR": [ { "value": "../../../../../../finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingMaxPool_hls_0_0" } ],
         "SELECTEDSIMMODEL": [ { "value": "" } ],

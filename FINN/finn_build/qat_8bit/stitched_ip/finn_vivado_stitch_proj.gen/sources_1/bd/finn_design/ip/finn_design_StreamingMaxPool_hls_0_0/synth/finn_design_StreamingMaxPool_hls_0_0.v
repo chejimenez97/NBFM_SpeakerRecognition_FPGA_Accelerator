@@ -48,11 +48,11 @@
 
 
 // IP VLNV: xilinx.com:hls:StreamingMaxPool_hls_0:1.0
-// IP Revision: 2114549741
+// IP Revision: 2114551362
 
 (* X_CORE_INFO = "StreamingMaxPool_hls_0,Vivado 2022.2" *)
 (* CHECK_LICENSE_TYPE = "finn_design_StreamingMaxPool_hls_0_0,StreamingMaxPool_hls_0,{}" *)
-(* CORE_GENERATION_INFO = "finn_design_StreamingMaxPool_hls_0_0,StreamingMaxPool_hls_0,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=StreamingMaxPool_hls_0,x_ipVersion=1.0,x_ipCoreRevision=2114549741,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
+(* CORE_GENERATION_INFO = "finn_design_StreamingMaxPool_hls_0_0,StreamingMaxPool_hls_0,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=hls,x_ipName=StreamingMaxPool_hls_0,x_ipVersion=1.0,x_ipCoreRevision=2114551362,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED}" *)
 (* IP_DEFINITION_SOURCE = "HLS" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module finn_design_StreamingMaxPool_hls_0_0 (

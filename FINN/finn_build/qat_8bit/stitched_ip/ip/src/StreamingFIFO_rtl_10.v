@@ -43,17 +43,17 @@ output [5:0] maxcount,
 //- AXI Stream - Input --------------
 output   in0_V_TREADY,
 input   in0_V_TVALID,
-input  [31:0] in0_V_TDATA,
+input  [7:0] in0_V_TDATA,
 
 //- AXI Stream - Output --------------
 input   out_V_TREADY,
 output   out_V_TVALID,
-output  [31:0] out_V_TDATA
+output  [7:0] out_V_TDATA
 );
 
 Q_srl #(
 .depth(32),
-.width(32)
+.width(8)
 )
 impl
 (

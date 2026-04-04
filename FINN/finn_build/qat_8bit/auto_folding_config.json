@@ -4,7 +4,7 @@
     "SIMD": 2
   },
   "ConvolutionInputGenerator_rtl_0": {
-    "SIMD": 2,
+    "SIMD": 1,
     "parallel_window": 0,
     "ram_style": "distributed"
   },
@@ -23,12 +23,12 @@
     "SIMD": 8
   },
   "ConvolutionInputGenerator_rtl_1": {
-    "SIMD": 2,
+    "SIMD": 1,
     "parallel_window": 0,
     "ram_style": "distributed"
   },
   "MVAU_hls_1": {
-    "PE": 4,
+    "PE": 2,
     "SIMD": 4,
     "ram_style": "auto",
     "resType": "auto",
@@ -48,7 +48,7 @@
   },
   "MVAU_hls_2": {
     "PE": 1,
-    "SIMD": 2,
+    "SIMD": 1,
     "ram_style": "auto",
     "resType": "auto",
     "mem_mode": "internal_decoupled",

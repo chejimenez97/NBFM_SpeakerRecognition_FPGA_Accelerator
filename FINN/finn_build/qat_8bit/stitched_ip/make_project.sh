@@ -1,4 +1,4 @@
 #!/bin/bash 
-cd /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_ud4z3j0u
+cd /tmp/finn_dev_emanuel-hernandez/vivado_stitch_proj_qtyu16g0
 vivado -mode batch -source make_project.tcl
-cd /home/emanuel-hernandez/finn
+cd /home/emanuel-hernandez/finn/notebooks/SR_PROJECT

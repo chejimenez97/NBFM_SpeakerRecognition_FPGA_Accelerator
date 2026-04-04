@@ -45,11 +45,11 @@ module ConvolutionInputGenerator_rtl_1 (
 
 // top-level parameters (set via code-generation)
 parameter BIT_WIDTH = 8;
-parameter SIMD = 2;
+parameter SIMD = 1;
 parameter MMV_IN = 1;
 parameter MMV_OUT = 1;
-parameter IN_WIDTH_PADDED = 16;
-parameter OUT_WIDTH_PADDED = 16;
+parameter IN_WIDTH_PADDED = 8;
+parameter OUT_WIDTH_PADDED = 8;
 
 // derived constants
 parameter BUF_IN_WIDTH = BIT_WIDTH * SIMD * MMV_IN;

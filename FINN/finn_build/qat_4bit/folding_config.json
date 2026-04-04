@@ -1,0 +1,90 @@
+{
+  "Defaults": {},
+  "MVAU_hls_0": {
+    "mem_mode": "internal_embedded"
+  },
+  "MVAU_hls_1": {
+    "mem_mode": "internal_embedded"
+  },
+  "MVAU_hls_2": {
+    "mem_mode": "internal_embedded"
+  },
+  "MVAU_hls_3": {
+    "mem_mode": "internal_embedded"
+  },
+  "MVAU_rtl_0": {
+    "mem_mode": "internal_embedded"
+  },
+  "StreamingFIFO_rtl_0": {
+    "depth": 2048
+  },
+  "StreamingFIFO_rtl_1": {
+    "depth": 1024
+  },
+  "StreamingFIFO_rtl_2": {
+    "depth": 512
+  },
+  "StreamingFIFO_rtl_3": {
+    "depth": 512
+  },
+  "StreamingFIFO_rtl_4": {
+    "depth": 256
+  },
+  "StreamingFIFO_rtl_5": {
+    "depth": 256
+  },
+  "StreamingFIFO_rtl_6": {
+    "depth": 128
+  },
+  "StreamingFIFO_rtl_7": {
+    "depth": 128
+  },
+  "StreamingFIFO_rtl_8": {
+    "depth": 64
+  },
+  "StreamingFIFO_rtl_9": {
+    "depth": 64
+  },
+  "StreamingFIFO_rtl_10": {
+    "depth": 32
+  },
+  "StreamingFIFO_rtl_11": {
+    "depth": 32
+  },
+  "StreamingFIFO_rtl_12": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_13": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_14": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_15": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_16": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_17": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_18": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_19": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_20": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_21": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_22": {
+    "depth": 16
+  },
+  "StreamingFIFO_rtl_23": {
+    "depth": 16
+  }
+}

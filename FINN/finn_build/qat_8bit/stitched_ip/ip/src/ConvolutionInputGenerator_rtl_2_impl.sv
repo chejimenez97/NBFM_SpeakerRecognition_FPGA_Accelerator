@@ -33,8 +33,8 @@ module ConvolutionInputGenerator_rtl_2_impl #(
     int  SIMD,
     int  MMV_IN,
     int  MMV_OUT,
-    int  LAST_READ_ELEM = 559,
-    int  LAST_WRITE_ELEM = 559,
+    int  LAST_READ_ELEM = 479,
+    int  LAST_WRITE_ELEM = 479,
     int  BUF_ELEM_TOTAL = 184,
     int  ELEM_PER_WINDOW = 72,
     int  INCR_BITWIDTH = 9
@@ -83,7 +83,7 @@ module ConvolutionInputGenerator_rtl_2_impl #(
     uwire signed [INCR_BITWIDTH-1:0]  addr_incr;
     uwire        [INCR_BITWIDTH-1:0]  tail_incr;
     swg_controller #(
-        .LOOP_H_ITERATIONS(3),
+        .LOOP_H_ITERATIONS(2),
         .LOOP_W_ITERATIONS(6),
         .LOOP_KH_ITERATIONS(1),
         .LOOP_KW_ITERATIONS(1),

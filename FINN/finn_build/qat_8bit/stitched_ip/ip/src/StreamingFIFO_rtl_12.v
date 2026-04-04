@@ -37,23 +37,23 @@ input   ap_clk,
 (* X_INTERFACE_PARAMETER = "POLARITY ACTIVE_LOW" *)
 input   ap_rst_n,
 
-output [1:0] count,
-output [1:0] maxcount,
+output [4:0] count,
+output [4:0] maxcount,
 
 //- AXI Stream - Input --------------
 output   in0_V_TREADY,
 input   in0_V_TVALID,
-input  [63:0] in0_V_TDATA,
+input  [15:0] in0_V_TDATA,
 
 //- AXI Stream - Output --------------
 input   out_V_TREADY,
 output   out_V_TVALID,
-output  [63:0] out_V_TDATA
+output  [15:0] out_V_TDATA
 );
 
 Q_srl #(
-.depth(2),
-.width(64)
+.depth(16),
+.width(16)
 )
 impl
 (

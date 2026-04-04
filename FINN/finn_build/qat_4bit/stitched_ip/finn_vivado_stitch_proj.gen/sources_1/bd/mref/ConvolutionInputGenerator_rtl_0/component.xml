@@ -129,7 +129,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f523799</spirit:value>
+            <spirit:value>8754723e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -142,7 +142,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>6f523799</spirit:value>
+            <spirit:value>8754723e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -187,7 +187,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.IN_WIDTH_PADDED&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.IN_WIDTH_PADDED&apos;)) - 1)">7</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -233,7 +233,7 @@
         <spirit:wire>
           <spirit:direction>out</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.OUT_WIDTH_PADDED&apos;)) - 1)">15</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.OUT_WIDTH_PADDED&apos;)) - 1)">7</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -284,7 +284,7 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>SIMD</spirit:name>
         <spirit:displayName>Simd</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SIMD">2</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.SIMD">1</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>MMV_IN</spirit:name>
@@ -299,22 +299,22 @@
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>IN_WIDTH_PADDED</spirit:name>
         <spirit:displayName>In Width Padded</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.IN_WIDTH_PADDED">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.IN_WIDTH_PADDED">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>OUT_WIDTH_PADDED</spirit:name>
         <spirit:displayName>Out Width Padded</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OUT_WIDTH_PADDED">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.OUT_WIDTH_PADDED">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>BUF_IN_WIDTH</spirit:name>
         <spirit:displayName>Buf In Width</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BUF_IN_WIDTH" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.BIT_WIDTH&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.SIMD&apos;))) * spirit:decode(id(&apos;MODELPARAM_VALUE.MMV_IN&apos;)))">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BUF_IN_WIDTH" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.BIT_WIDTH&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.SIMD&apos;))) * spirit:decode(id(&apos;MODELPARAM_VALUE.MMV_IN&apos;)))">8</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>BUF_OUT_WIDTH</spirit:name>
         <spirit:displayName>Buf Out Width</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BUF_OUT_WIDTH" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.BIT_WIDTH&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.SIMD&apos;))) * spirit:decode(id(&apos;MODELPARAM_VALUE.MMV_OUT&apos;)))">16</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.BUF_OUT_WIDTH" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.BIT_WIDTH&apos;)) * spirit:decode(id(&apos;MODELPARAM_VALUE.SIMD&apos;))) * spirit:decode(id(&apos;MODELPARAM_VALUE.MMV_OUT&apos;)))">8</spirit:value>
       </spirit:modelParameter>
     </spirit:modelParameters>
   </spirit:model>
@@ -346,7 +346,7 @@
     <spirit:parameter>
       <spirit:name>SIMD</spirit:name>
       <spirit:displayName>Simd</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SIMD">2</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.SIMD">1</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>MMV_IN</spirit:name>
@@ -361,22 +361,22 @@
     <spirit:parameter>
       <spirit:name>IN_WIDTH_PADDED</spirit:name>
       <spirit:displayName>In Width Padded</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.IN_WIDTH_PADDED">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.IN_WIDTH_PADDED">8</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>OUT_WIDTH_PADDED</spirit:name>
       <spirit:displayName>Out Width Padded</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OUT_WIDTH_PADDED">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.OUT_WIDTH_PADDED">8</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BUF_IN_WIDTH</spirit:name>
       <spirit:displayName>Buf In Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BUF_IN_WIDTH">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BUF_IN_WIDTH">8</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>BUF_OUT_WIDTH</spirit:name>
       <spirit:displayName>Buf Out Width</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BUF_OUT_WIDTH">16</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.BUF_OUT_WIDTH">8</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
@@ -398,7 +398,7 @@
         <xilinx:designToolContext>IPI</xilinx:designToolContext>
       </xilinx:designToolContexts>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-04-03T17:15:41Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2026-04-04T20:12:54Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2022.2</xilinx:xilinxVersion>

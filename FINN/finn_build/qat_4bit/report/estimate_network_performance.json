@@ -1,7 +1,7 @@
 {
-  "critical_path_cycles": 72265,
-  "max_cycles": 15360,
-  "max_cycles_node_name": "MVAU_hls_1",
-  "estimated_throughput_fps": 13020.833333333334,
-  "estimated_latency_ns": 361325.0
+  "critical_path_cycles": 101974,
+  "max_cycles": 19000,
+  "max_cycles_node_name": "ConvolutionInputGenerator_rtl_1",
+  "estimated_throughput_fps": 10526.315789473685,
+  "estimated_latency_ns": 509870.0
 }

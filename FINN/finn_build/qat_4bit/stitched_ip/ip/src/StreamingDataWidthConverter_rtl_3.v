@@ -30,8 +30,8 @@
  *****************************************************************************/
 
 module StreamingDataWidthConverter_rtl_3 #(
-	parameter  IBITS = 16,
-	parameter  OBITS = 96,
+	parameter  IBITS = 64,
+	parameter  OBITS = 8,
 
 	parameter  AXI_IBITS = (IBITS+7)/8 * 8,
 	parameter  AXI_OBITS = (OBITS+7)/8 * 8

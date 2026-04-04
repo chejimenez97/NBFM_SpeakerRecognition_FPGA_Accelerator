@@ -33,11 +33,11 @@ module ConvolutionInputGenerator_rtl_0_impl #(
     int  SIMD,
     int  MMV_IN,
     int  MMV_OUT,
-    int  LAST_READ_ELEM = 1451,
-    int  LAST_WRITE_ELEM = 1451,
-    int  BUF_ELEM_TOTAL = 135,
-    int  ELEM_PER_WINDOW = 9,
-    int  INCR_BITWIDTH = 9
+    int  LAST_READ_ELEM = 2375,
+    int  LAST_WRITE_ELEM = 2375,
+    int  BUF_ELEM_TOTAL = 270,
+    int  ELEM_PER_WINDOW = 18,
+    int  INCR_BITWIDTH = 10
 )(
     input   logic  ap_clk,
     input   logic  ap_rst_n,
@@ -83,22 +83,22 @@ module ConvolutionInputGenerator_rtl_0_impl #(
     uwire signed [INCR_BITWIDTH-1:0]  addr_incr;
     uwire        [INCR_BITWIDTH-1:0]  tail_incr;
     swg_controller #(
-        .LOOP_H_ITERATIONS(18),
+        .LOOP_H_ITERATIONS(14),
         .LOOP_W_ITERATIONS(62),
         .LOOP_KH_ITERATIONS(1),
-        .LOOP_KW_ITERATIONS(0),
+        .LOOP_KW_ITERATIONS(1),
         .LOOP_SIMD_ITERATIONS(-1),
         .HEAD_INCR_SIMD(1),
         .HEAD_INCR_KW(1),
-        .HEAD_INCR_KH(64),
-        .HEAD_INCR_W(-133),
-        .HEAD_INCR_H(-131),
-        .TAIL_INCR_W(1),
-        .TAIL_INCR_H(3),
-        .TAIL_INCR_LAST(134),
-        .INCR_BITWIDTH(9),
+        .HEAD_INCR_KH(127),
+        .HEAD_INCR_W(-267),
+        .HEAD_INCR_H(-263),
+        .TAIL_INCR_W(2),
+        .TAIL_INCR_H(6),
+        .TAIL_INCR_LAST(269),
+        .INCR_BITWIDTH(10),
         .IS_DEPTHWISE(0),
-        .INNERMOST_STATE(swg::STATE_LOOP_KW)
+        .INNERMOST_STATE(swg::STATE_LOOP_SIMD)
     )
     controller_inst (
         .clk(ap_clk),

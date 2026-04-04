@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "StreamingDataWidthConverter_rtl_1,Vivado 2022.2" *)
 (* CHECK_LICENSE_TYPE = "finn_design_StreamingDataWidthConverter_rtl_1_0,StreamingDataWidthConverter_rtl_1,{}" *)
-(* CORE_GENERATION_INFO = "finn_design_StreamingDataWidthConverter_rtl_1_0,StreamingDataWidthConverter_rtl_1,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=StreamingDataWidthConverter_rtl_1,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,IBITS=8,OBITS=64,AXI_IBITS=8,AXI_OBITS=64}" *)
+(* CORE_GENERATION_INFO = "finn_design_StreamingDataWidthConverter_rtl_1_0,StreamingDataWidthConverter_rtl_1,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=module_ref,x_ipName=StreamingDataWidthConverter_rtl_1,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,IBITS=8,OBITS=72,AXI_IBITS=8,AXI_OBITS=72}" *)
 (* IP_DEFINITION_SOURCE = "module_ref" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module finn_design_StreamingDataWidthConverter_rtl_1_0 (
@@ -83,15 +83,15 @@ input wire [7 : 0] in0_V_TDATA;
 input wire out_V_TREADY;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 out_V TVALID" *)
 output wire out_V_TVALID;
-(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_V, TDATA_NUM_BYTES 8, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 200000000, PHASE 0.0, CLK_DOMAIN finn_design_ap_clk_0, LAYERED_METADATA undef, INSERT_VIP 0" *)
+(* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME out_V, TDATA_NUM_BYTES 9, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 200000000, PHASE 0.0, CLK_DOMAIN finn_design_ap_clk_0, LAYERED_METADATA undef, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 out_V TDATA" *)
-output wire [63 : 0] out_V_TDATA;
+output wire [71 : 0] out_V_TDATA;
 
   StreamingDataWidthConverter_rtl_1 #(
     .IBITS(8),
-    .OBITS(64),
+    .OBITS(72),
     .AXI_IBITS(8),
-    .AXI_OBITS(64)
+    .AXI_OBITS(72)
   ) inst (
     .ap_clk(ap_clk),
     .ap_rst_n(ap_rst_n),
