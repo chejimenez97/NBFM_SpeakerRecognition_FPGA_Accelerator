@@ -5,12 +5,12 @@
 
 
 void myproject(
-    hls::stream<input_t> &input_1,
+    hls::stream<input_t> &input_2,
     hls::stream<result_t> &layer23_out
 ) {
 
     // hls-fpga-machine-learning insert IO
-    #pragma HLS INTERFACE axis port=input_1,layer23_out 
+    #pragma HLS INTERFACE axis port=input_2,layer23_out 
     #pragma HLS DATAFLOW
 
     // hls-fpga-machine-learning insert load weights
@@ -96,7 +96,7 @@ void myproject(
     hls::stream<output_result_t> layer21_out("layer21_out");
     #pragma HLS STREAM variable=layer21_out depth=1
 
-    nnet::zeropad2d_cl<input_t, layer24_t, config24>(input_1, layer24_out); // zp2d_conv1
+    nnet::zeropad2d_cl<input_t, layer24_t, config24>(input_2, layer24_out); // zp2d_conv1
 
     nnet::conv_2d_cl<layer24_t, conv1_result_t, config2>(layer24_out, layer2_out, w2, b2); // conv1
 
