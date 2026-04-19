@@ -1,0 +1,18 @@
+{
+  "FMPadding_rtl_0": 1452,
+  "ConvolutionInputGenerator_rtl_0": 11655,
+  "MVAU_hls_0": 368640,
+  "FMPadding_rtl_1": 1452,
+  "ConvolutionInputGenerator_rtl_1": 372960,
+  "MVAU_hls_1": 327680,
+  "StreamingMaxPool_hls_0": 5120,
+  "FMPadding_rtl_2": 408,
+  "ConvolutionInputGenerator_rtl_2": 94432,
+  "MVAU_hls_2": 327680,
+  "FMPadding_rtl_3": 408,
+  "ConvolutionInputGenerator_rtl_3": 188864,
+  "MVAU_hls_3": 327680,
+  "StreamingMaxPool_hls_1": 1280,
+  "MVAU_hls_4": 20480,
+  "MVAU_rtl_0": 320
+}
