@@ -1,0 +1,79 @@
+================= MLP Fully Connected Models =================
+
+---------- FC 4-bits ----------
+* Float training accuracy: 100%
+* Training accuracy: 100%
+* Validation accuracy: 95.33%
+* Test accuracy (Kria): TBD
+* Resource utilization:
+		  LUT              = 10.8%
+		  FF               = 8.9%
+		  BRAM (36K-eq)    = 21.2%
+		  DSP              = 1.0%
+		  URAM             = 0.0%
+
+* Mean Latency (Kria): TBD
+* Througput (Kria): TBD
+* WNS: 0.478ns
+
+
+
+
+---------- FC 8-bits ----------
+* Float accuracy: 100%
+* Training accuracy: 100%
+* Validation accuracy: 95.93%
+* Test accuracy (Kria):
+* Resource utilization:
+		  LUT              = 12.6%
+		  FF               = 10.9%
+		  BRAM (36K-eq)    = 28.5%
+		  DSP              = 1.4%
+		  URAM             = 0.0%
+
+* Mean Latency:
+* Througput: 
+* WNS: 
+
+
+
+
+
+================= Convolutional Neural Network Models =================
+
+---------- CNV 4-bits ----------
+* Float training accuracy: 99.83%
+* Training accuracy: 97.26%
+* Validation accuracy: 94.72%
+* Test accuracy (Kria):
+* Resource utilization:
+		  LUT              = 10.7%
+		  FF               = 7.4%
+		  BRAM (36K-eq)    = 9.0%
+		  DSP              = 0.2%
+		  URAM             = 7.8%
+
+* Mean Latency:
+* Througput: 
+* WNS: 0.661ns
+
+
+
+
+
+---------- CNV 8 bits ----------
+* Float training accuracy: 99.83%
+* Training accuracy: 99.83%
+* Validation accuracy: 94.72%
+* Test accuracy (Kria): 
+* Resource utilization:
+		  LUT              = 21.7%
+		  FF               = 12.8%
+		  BRAM (36K-eq)    = 9.0%
+		  DSP              = 0.2%
+		  URAM             = 7.8%
+
+* Mean Latency:
+* Througput: 
+* WNS: 0.464ns
+

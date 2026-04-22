@@ -1,11 +1,11 @@
 {
   "MFCC_input_shape": [
-    16,
+    20,
     64,
     2
   ],
   "num_classes": 10,
-  "N_MFCC": 16,
+  "N_MFCC": 20,
   "MFCC_FRAMES": 64,
   "HOP_LENGTH": 2250,
   "N_FFT": 2048,
