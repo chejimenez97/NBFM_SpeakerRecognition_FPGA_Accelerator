@@ -1,9 +1,0 @@
-{
-  "Defaults": {},
-  "MVAU_hls_4": {
-    "PE": 1,
-    "SIMD": 8,
-    "ram_style": "auto",
-    "mem_mode": "internal_decoupled"
-  }
-}

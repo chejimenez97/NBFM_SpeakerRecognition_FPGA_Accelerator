@@ -142,8 +142,10 @@ CNN architectures based on BNN-PYNQ CNV design, optimized for MFCC feature extra
 
 
 ---
+For reference and comparisson purposes, this next section presents one of the iterations of the Convolutional Architecture that was able to be implemented in the target HW, presenting the performance metrics to validate the deployability of SR Convolutional models that operate in non-demodulated NBFM signals.
 
-### 2.3 CNV 4-bits (W4A4) — OLD Architecture
+
+### 3. CNV 4-bits (W4A4) — OLD ARCHITECTURE
 
 **Quantization**: 4-bit weights, 4-bit activations  
 **Platform**: Hardware (Kria KV260)  
