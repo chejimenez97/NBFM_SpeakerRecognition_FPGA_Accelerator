@@ -1,0 +1,40 @@
+In file included from firmware/myproject_axi.cpp:1:
+In file included from firmware/myproject_axi.h:8:
+/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_axi_sdata.h:29:45: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+template <typename T> constexpr std::size_t bitwidth = sizeof(T) * 8;
+                                            ^
+/tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_axi_sdata.h:42:23: warning: variable templates are a C++14 extension [-Wc++14-extensions]
+constexpr std::size_t bytewidth = (bitwidth<T> + 8 - 1) / 8;
+                      ^
+In file included from firmware/myproject_axi.cpp:1:
+In file included from firmware/myproject_axi.h:9:
+In file included from firmware/myproject.h:8:
+In file included from firmware/defines.h:6:
+firmware/nnet_utils/nnet_types.h:28:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=unroll_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=operator=_XLX_SEP_ PragmaOptions=_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS UNROLL
+        ^
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/build_prj.tcl:170:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=top_XLX_SEP_ PragmaContext=directive_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=name=myproject_axi_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLSDIRECTIVE TOP name=myproject_axi
+        ^
+firmware/myproject_axi.cpp:17:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=axis port=in_stream_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE axis port=in_stream
+        ^
+firmware/myproject_axi.cpp:18:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=axis port=out_stream_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE axis port=out_stream
+        ^
+firmware/myproject_axi.cpp:19:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=interface_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=ap_ctrl_none port=return_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS INTERFACE ap_ctrl_none port=return
+        ^
+firmware/myproject_axi.cpp:25:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=variable=input_local depth=1280_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=input_local depth=1280
+        ^
+firmware/myproject_axi.cpp:26:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=stream_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=variable=output_local depth=10_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS STREAM variable=output_local depth=10
+        ^
+firmware/myproject_axi.cpp:31:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+firmware/myproject_axi.cpp:59:9: warning: HLS pragma dump _XLX_SEP_ PragmaIsValid=1_XLX_SEP_ PragmaType=pipeline_XLX_SEP_ PragmaContext=_XLX_SEP_ PragmaFunction=myproject_axi_XLX_SEP_ PragmaOptions=II=1_XLX_SEP_ [-Wdump-hls-pragmas]
+#pragma HLS PIPELINE II=1
+        ^
+11 warnings generated.

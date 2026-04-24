@@ -1,0 +1,1261 @@
+---
+MainSourceFile:  /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1207_1:  '
+    FileOffset:      1207
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          797587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1207_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025415
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1025883
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1026352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1247_1:  '
+    FileOffset:      1247
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/etc/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1309896
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1247_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_27_1:  '
+    FileOffset:      27
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684065
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_27_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684303
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_56_1:  '
+    FileOffset:      56
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_types.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          1684798
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_56_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_265_1:  '
+    FileOffset:      265
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365448
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_265_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2365835
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_286_1:  '
+    FileOffset:      286
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366170
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_286_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_293_1:  '
+    FileOffset:      293
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366393
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_293_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_295_2:  '
+    FileOffset:      295
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366488
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_295_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_307_1:  '
+    FileOffset:      307
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366852
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_307_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_309_2:  '
+    FileOffset:      309
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2366934
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_309_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_324_1:  '
+    FileOffset:      324
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367277
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_324_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_344_1:  '
+    FileOffset:      344
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367730
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_344_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_345_2:  '
+    FileOffset:      345
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2367775
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_345_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_360_1:  '
+    FileOffset:      360
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368184
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_360_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_367_1:  '
+    FileOffset:      367
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_helpers.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2368397
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_367_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_1:  '
+    FileOffset:      136
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2377949
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_137_2:  '
+    FileOffset:      137
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378033
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_137_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_158_3:  '
+    FileOffset:      158
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378575
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_158_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_159_4:  '
+    FileOffset:      159
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_conv1d_latency.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2378659
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_159_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_31_1:  '
+    FileOffset:      31
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2382838
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_31_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_43_1:  '
+    FileOffset:      43
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_43_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_57_1:  '
+    FileOffset:      57
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2383452
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_57_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_1:  '
+    FileOffset:      84
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384268
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_114_1:  '
+    FileOffset:      114
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2384929
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_114_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_151_1:  '
+    FileOffset:      151
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386074
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_151_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_167_1:  '
+    FileOffset:      167
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2386538
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_167_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_200_1:  '
+    FileOffset:      200
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2387470
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_200_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_213_2:  '
+    FileOffset:      213
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388005
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_213_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_1:  '
+    FileOffset:      246
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2388868
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_255_2:  '
+    FileOffset:      255
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389138
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_255_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_268_3:  '
+    FileOffset:      268
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389701
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_268_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_275_1:  '
+    FileOffset:      275
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2389938
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_275_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_288_1:  '
+    FileOffset:      288
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2390298
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_288_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391255
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391375
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_331_3:  '
+    FileOffset:      331
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2391432
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_331_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_348_4:  '
+    FileOffset:      348
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392032
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_348_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_361_1:  '
+    FileOffset:      361
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392540
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_361_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_369_2:  '
+    FileOffset:      369
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2392684
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_369_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_405_1:  '
+    FileOffset:      405
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393879
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_405_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_407_2:  '
+    FileOffset:      407
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2393948
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_407_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_409_3:  '
+    FileOffset:      409
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394017
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_409_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_414_4:  '
+    FileOffset:      414
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394273
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_414_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_427_1:  '
+    FileOffset:      427
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2394587
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_427_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_457_1:  '
+    FileOffset:      457
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2395224
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_457_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_484_1:  '
+    FileOffset:      484
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396060
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_484_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_498_1:  '
+    FileOffset:      498
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396402
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_498_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_514_1:  '
+    FileOffset:      514
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2396860
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_514_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_532_1:  '
+    FileOffset:      532
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_532_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_549_1:  '
+    FileOffset:      549
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2397733
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_549_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_566_1:  '
+    FileOffset:      566
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398128
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_566_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_596_1:  '
+    FileOffset:      596
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2398794
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_596_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_615_1:  '
+    FileOffset:      615
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2399368
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_615_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_645_1:  '
+    FileOffset:      645
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2400034
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_645_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_664_1:  '
+    FileOffset:      664
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2400588
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_664_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_694_1:  '
+    FileOffset:      694
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2401237
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_694_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_721_1:  '
+    FileOffset:      721
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2402075
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_721_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_749_1:  '
+    FileOffset:      749
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2402759
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_749_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_779_1:  '
+    FileOffset:      779
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2403444
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_779_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_808_1:  '
+    FileOffset:      808
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404284
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_808_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_828_1:  '
+    FileOffset:      828
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2404703
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_828_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_229_1:  '
+    FileOffset:      229
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410757
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_229_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_236_2:  '
+    FileOffset:      236
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2410897
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_236_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_245_3:  '
+    FileOffset:      245
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411162
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_245_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411356
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_258_5:  '
+    FileOffset:      258
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411449
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_258_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_269_6:  '
+    FileOffset:      269
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411775
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_269_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_273_7:  '
+    FileOffset:      273
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2411885
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_273_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_297_1:  '
+    FileOffset:      297
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412851
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_297_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_301_2:  '
+    FileOffset:      301
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2412937
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_301_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_320_1:  '
+    FileOffset:      320
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2413613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_320_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_211_1:  '
+    FileOffset:      211
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2419915
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_220_2:  '
+    FileOffset:      220
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2420193
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_220_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_325_1:  '
+    FileOffset:      325
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423414
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_325_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_330_2:  '
+    FileOffset:      330
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423556
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_330_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_338_3:  '
+    FileOffset:      338
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_activation_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2423760
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_338_3: '
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      33
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      107
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  clang-diagnostic-error
+    Message:         'Resource with core_name: ROM_nP_BRAM pragma is ignored, because this core doesn''t exist at all '
+    FileOffset:      189
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_dense_resource.h
+    Replacements:    
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_88_1:  '
+    FileOffset:      88
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2452130
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_88_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_batchnorm.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2452787
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_64_1:  '
+    FileOffset:      64
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2467437
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_64_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_71_1:  '
+    FileOffset:      71
+    FilePath:        /tools/Xilinx/Vitis_HLS/2023.2/common/technology/autopilot/ap_shift_reg.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2467641
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_71_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_14_1:  '
+    FileOffset:      14
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2484757
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_14_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_74_1:  '
+    FileOffset:      74
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_dense_compressed.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2486628
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_74_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_20_1:  '
+    FileOffset:      20
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2491436
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_20_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_21_2:  '
+    FileOffset:      21
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2491489
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_21_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_25_3:  '
+    FileOffset:      25
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2491581
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_25_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_29_4:  '
+    FileOffset:      29
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2491690
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_29_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_39_1:  '
+    FileOffset:      39
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2491985
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_39_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_40_2:  '
+    FileOffset:      40
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2492040
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_40_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_45_3:  '
+    FileOffset:      45
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2492132
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_45_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_46_4:  '
+    FileOffset:      46
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2492187
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_46_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_51_5:  '
+    FileOffset:      51
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2492296
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_51_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_52_6:  '
+    FileOffset:      52
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2492352
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_52_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_75_1:  '
+    FileOffset:      75
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493107
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_75_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_77_2:  '
+    FileOffset:      77
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_77_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_78_3:  '
+    FileOffset:      78
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493219
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_78_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_83_4:  '
+    FileOffset:      83
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493330
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_83_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_84_5:  '
+    FileOffset:      84
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493390
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_84_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_87_6:  '
+    FileOffset:      87
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493493
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_87_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_90_7:  '
+    FileOffset:      90
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493613
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_90_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_95_8:  '
+    FileOffset:      95
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493724
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_95_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_96_9:  '
+    FileOffset:      96
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2493785
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_96_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_108_1:  '
+    FileOffset:      108
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494161
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_108_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_109_2:  '
+    FileOffset:      109
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494215
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_109_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_110_3:  '
+    FileOffset:      110
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494275
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_110_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_116_4:  '
+    FileOffset:      116
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494385
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_116_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_117_5:  '
+    FileOffset:      117
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494441
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_117_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_118_6:  '
+    FileOffset:      118
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494500
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_118_6: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_122_7:  '
+    FileOffset:      122
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494607
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_122_7: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_123_8:  '
+    FileOffset:      123
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494666
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_123_8: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_127_9:  '
+    FileOffset:      127
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494790
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_127_9: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_128_10:  '
+    FileOffset:      128
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494850
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_128_10: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_134_11:  '
+    FileOffset:      134
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2494960
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_134_11: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_12:  '
+    FileOffset:      135
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2495017
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_12: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_136_13:  '
+    FileOffset:      136
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2495077
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_136_13: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_11_1:  '
+    FileOffset:      11
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2495596
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_11_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_padding_stream.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2495913
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_13_1:  '
+    FileOffset:      13
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2497682
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_13_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_22_1:  '
+    FileOffset:      22
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2497881
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_22_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_97_1:  '
+    FileOffset:      97
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2499809
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_97_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_99_2:  '
+    FileOffset:      99
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2499866
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_99_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_104_3:  '
+    FileOffset:      104
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2500091
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_104_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_132_1:  '
+    FileOffset:      132
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2501408
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_132_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_135_2:  '
+    FileOffset:      135
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2501551
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_135_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_190_1:  '
+    FileOffset:      190
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2503828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_190_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_192_2:  '
+    FileOffset:      192
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2503885
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_192_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_194_3:  '
+    FileOffset:      194
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2503979
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_194_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_201_4:  '
+    FileOffset:      201
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2504238
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_201_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_203_5:  '
+    FileOffset:      203
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2504312
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_203_5: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_244_1:  '
+    FileOffset:      244
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2506677
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_244_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_246_2:  '
+    FileOffset:      246
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2506734
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_246_2: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_248_3:  '
+    FileOffset:      248
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2506828
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_248_3: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_254_4:  '
+    FileOffset:      254
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2507084
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_254_4: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_256_5:  '
+    FileOffset:      256
+    FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/firmware/nnet_utils/nnet_pooling.h
+    Replacements:    
+      - FilePath:        /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/qat_8bit/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2507160
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_256_5: '
+...

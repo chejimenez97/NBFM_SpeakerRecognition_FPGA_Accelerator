@@ -1,0 +1,50 @@
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:28529:7: warning: Added loop label VITIS_LOOP_1207_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1207_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:28529:7: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29503:5: warning: Added loop label VITIS_LOOP_676_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_676_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29503:5: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29517:5: warning: Added loop label VITIS_LOOP_690_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_690_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29517:5: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29531:5: warning: Added loop label VITIS_LOOP_704_1:   [xilinx-label-all-loops]
+    for (unsigned i = low; i != high; ++i) {
+    ^~~
+    VITIS_LOOP_704_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:29531:5: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:31148:7: warning: Added loop label VITIS_LOOP_1247_1:   [xilinx-label-all-loops]
+      for (i = 0; i < __N - 1; ++i) {
+      ^~~
+      VITIS_LOOP_1247_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:31148:7: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33474:9: warning: Added loop label VITIS_LOOP_27_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_27_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33474:9: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33486:9: warning: Added loop label VITIS_LOOP_39_1:   [xilinx-label-all-loops]
+        for (unsigned i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_39_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33486:9: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33503:9: warning: Added loop label VITIS_LOOP_56_1:   [xilinx-label-all-loops]
+        for (size_t i = 0; i < N; i++) {
+        ^~~
+        VITIS_LOOP_56_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:33503:9: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:35916:5: warning: Added loop label VITIS_LOOP_30_1:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < 2560; i++) {
+    ^~~
+    VITIS_LOOP_30_1: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:35916:5: note: FIX-IT applied suggested code changes
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:35945:5: warning: Added loop label VITIS_LOOP_59_2:   [xilinx-label-all-loops]
+    for (unsigned i = 0; i < 10; i++) {
+    ^~~
+    VITIS_LOOP_59_2: 
+/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/.autopilot/db/myproject_axi.pp.0.cpp:35945:5: note: FIX-IT applied suggested code changes

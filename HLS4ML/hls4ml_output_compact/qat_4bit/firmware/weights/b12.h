@@ -1,0 +1,16 @@
+//Numpy array shape [8]
+//Min 0.000000000000
+//Max 0.000000000000
+//Number of zeros 8
+
+#ifndef B12_H_
+#define B12_H_
+
+#ifndef __SYNTHESIS__
+bias12_t b12[8];
+#else
+bias12_t b12[8] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+
+#endif
+
+#endif
