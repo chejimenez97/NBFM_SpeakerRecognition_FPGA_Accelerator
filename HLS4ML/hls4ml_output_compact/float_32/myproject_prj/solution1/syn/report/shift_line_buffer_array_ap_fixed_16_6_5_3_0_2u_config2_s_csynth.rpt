@@ -1,0 +1,187 @@
+
+
+================================================================
+== Vitis HLS Report for 'shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s'
+================================================================
+* Date:           Sun Mar 29 16:30:10 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  1.434 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       -|       -|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|     256|     128|    -|
+|Multiplexer      |        -|     -|       -|     108|    -|
+|Register         |        -|     -|       1|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|     257|     236|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |                                         Memory                                         |                                      Module                                      | BRAM_18K| FF | LUT| URAM| Words| Bits| Banks| W*Bits*Banks|
+    +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_35_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_33_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_34_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    |p_ZZN4nnet25conv_2d_buffer_latency_clINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL_32_U  |shift_line_buffer_array_ap_fixed_16_6_5_3_0_2u_config2_s_p_ZZN4nnet25conv_2d_bkb  |        0|  64|  32|    0|    66|   16|     1|         1056|
+    +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+    |Total                                                                                   |                                                                                  |        0| 256| 128|    0|   264|   64|     4|         4224|
+    +----------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+---------+----+----+-----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    +-----------------------------------------------------------------------------------------+----+-----------+-----+-----------+
+    |                                           Name                                          | LUT| Input Size| Bits| Total Bits|
+    +-----------------------------------------------------------------------------------------+----+-----------+-----+-----------+
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131_o  |   9|          2|   16|         32|
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132_o  |   9|          2|   16|         32|
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135_o  |   9|          2|   16|         32|
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136_o  |   9|          2|   16|         32|
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137_o  |   9|          2|   16|         32|
+    |p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138_o  |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o           |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o           |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_o           |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o           |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o           |   9|          2|   16|         32|
+    |void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_o           |   9|          2|   16|         32|
+    +-----------------------------------------------------------------------------------------+----+-----------+-----+-----------+
+    |Total                                                                                    | 108|         24|  192|        384|
+    +-----------------------------------------------------------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-----------+---+----+-----+-----------+
+    |    Name   | FF| LUT| Bits| Const Bits|
+    +-----------+---+----+-----+-----------+
+    |ap_CS_fsm  |  1|   0|    1|          0|
+    +-----------+---+----+-----+-----------+
+    |Total      |  1|   0|    1|          0|
+    +-----------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------------------------------------------------------------------------------+-----+-----+------------+---------------------------------------------------------------------------------------+--------------+
+|                                            RTL Ports                                           | Dir | Bits|  Protocol  |                                     Source Object                                     |    C Type    |
++------------------------------------------------------------------------------------------------+-----+-----+------------+---------------------------------------------------------------------------------------+--------------+
+|ap_clk                                                                                          |   in|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_rst                                                                                          |   in|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_start                                                                                        |   in|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_done                                                                                         |  out|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_idle                                                                                         |  out|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_ready                                                                                        |  out|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|ap_ce                                                                                           |   in|    1|  ap_ctrl_hs|                        shift_line_buffer<array<ap_fixed<16, 6, 5, 3, 0>, 2u>, config2>|  return value|
+|in_elem_0_0_0_0_0_val                                                                           |   in|   16|     ap_none|                                                                  in_elem_0_0_0_0_0_val|        scalar|
+|in_elem_0_1_0_0_0_val                                                                           |   in|   16|     ap_none|                                                                  in_elem_0_1_0_0_0_val|        scalar|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29                    |  out|   16|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29_ap_vld             |  out|    1|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28                    |  out|   16|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28_ap_vld             |  out|    1|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_21|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23                    |  out|   16|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23_ap_vld             |  out|    1|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_23|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_20|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22                    |  out|   16|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22_ap_vld             |  out|    1|      ap_vld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_22|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_135|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133           |  out|   16|      ap_vld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133_ap_vld    |  out|    1|      ap_vld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_133|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_136|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134           |  out|   16|      ap_vld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134_ap_vld    |  out|    1|      ap_vld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_134|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_i                  |   in|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_o                  |  out|   16|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24|       pointer|
+|void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24_o_ap_vld           |  out|    1|     ap_ovld|           void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_131|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_132|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_137|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138_i         |   in|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138_o         |  out|   16|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138|       pointer|
+|p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138_o_ap_vld  |  out|    1|     ap_ovld|  p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi16ELi6EL9ap_q_mode5EL9_138|       pointer|
++------------------------------------------------------------------------------------------------+-----+-----+------------+---------------------------------------------------------------------------------------+--------------+
+

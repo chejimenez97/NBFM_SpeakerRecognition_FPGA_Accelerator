@@ -1,0 +1,88 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-3936] Found unconnected internal register 'EXP_OP.i_sp_or_dp.OP/i_shift_to_fixed/ALIGN_Z_D/MUX_LOOP[1].DEL_Z_D/i_pipe/opt_has_pipe.first_q_reg' and it is trimmed from '16' to '4' bits. [/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/qat_16bit/vivado_qat_16bit/vivado_qat_16bit.gen/sources_1/bd/design_1/ipshared/c4f2/hdl/xbip_pipe_v3_0_vh_rfs.vhd:361]
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5587] ROM size for "p_0_out" is below threshold of ROM address width. It will be mapped to LUTs
+WARNING: [Synth 8-3936] Found unconnected internal register 'lshr_ln138_reg_1223_reg' and it is trimmed from '36' to '26' bits. [/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/qat_16bit/vivado_qat_16bit/vivado_qat_16bit.gen/sources_1/bd/design_1/ipshared/2cc9/hdl/verilog/myproject_axi_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.v:629]
+WARNING: [Synth 8-3936] Found unconnected internal register 'shl_ln138_reg_1228_reg' and it is trimmed from '36' to '26' bits. [/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/qat_16bit/vivado_qat_16bit/vivado_qat_16bit.gen/sources_1/bd/design_1/ipshared/2cc9/hdl/verilog/myproject_axi_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s.v:630]
+DSP Report: Generating DSP trunc_ln1_reg_1679_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_reg_1569_reg is absorbed into DSP trunc_ln1_reg_1679_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln1_reg_1679_reg.
+DSP Report: register trunc_ln1_reg_1679_reg is absorbed into DSP trunc_ln1_reg_1679_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1547/tmp_product is absorbed into DSP trunc_ln1_reg_1679_reg.
+DSP Report: Generating DSP trunc_ln241_1_reg_1684_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_1_reg_1575_reg is absorbed into DSP trunc_ln241_1_reg_1684_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_1_reg_1684_reg.
+DSP Report: register trunc_ln241_1_reg_1684_reg is absorbed into DSP trunc_ln241_1_reg_1684_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1554/tmp_product is absorbed into DSP trunc_ln241_1_reg_1684_reg.
+DSP Report: Generating DSP trunc_ln241_2_reg_1689_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_2_reg_1591_reg is absorbed into DSP trunc_ln241_2_reg_1689_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_2_reg_1689_reg.
+DSP Report: register trunc_ln241_2_reg_1689_reg is absorbed into DSP trunc_ln241_2_reg_1689_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1548/tmp_product is absorbed into DSP trunc_ln241_2_reg_1689_reg.
+DSP Report: Generating DSP trunc_ln241_3_reg_1694_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_3_reg_1597_reg is absorbed into DSP trunc_ln241_3_reg_1694_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_3_reg_1694_reg.
+DSP Report: register trunc_ln241_3_reg_1694_reg is absorbed into DSP trunc_ln241_3_reg_1694_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1551/tmp_product is absorbed into DSP trunc_ln241_3_reg_1694_reg.
+DSP Report: Generating DSP trunc_ln241_4_reg_1699_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_4_reg_1613_reg is absorbed into DSP trunc_ln241_4_reg_1699_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_4_reg_1699_reg.
+DSP Report: register trunc_ln241_4_reg_1699_reg is absorbed into DSP trunc_ln241_4_reg_1699_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1549/tmp_product is absorbed into DSP trunc_ln241_4_reg_1699_reg.
+DSP Report: Generating DSP trunc_ln241_5_reg_1704_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_5_reg_1619_reg is absorbed into DSP trunc_ln241_5_reg_1704_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_5_reg_1704_reg.
+DSP Report: register trunc_ln241_5_reg_1704_reg is absorbed into DSP trunc_ln241_5_reg_1704_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1553/tmp_product is absorbed into DSP trunc_ln241_5_reg_1704_reg.
+DSP Report: Generating DSP trunc_ln241_6_reg_1709_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_6_reg_1635_reg is absorbed into DSP trunc_ln241_6_reg_1709_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_6_reg_1709_reg.
+DSP Report: register trunc_ln241_6_reg_1709_reg is absorbed into DSP trunc_ln241_6_reg_1709_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1550/tmp_product is absorbed into DSP trunc_ln241_6_reg_1709_reg.
+DSP Report: Generating DSP trunc_ln241_7_reg_1714_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_7_reg_1641_reg is absorbed into DSP trunc_ln241_7_reg_1714_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_7_reg_1714_reg.
+DSP Report: register trunc_ln241_7_reg_1714_reg is absorbed into DSP trunc_ln241_7_reg_1714_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1552/tmp_product is absorbed into DSP trunc_ln241_7_reg_1714_reg.
+DSP Report: Generating DSP trunc_ln241_8_reg_1719_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_8_reg_1657_reg is absorbed into DSP trunc_ln241_8_reg_1719_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_8_reg_1719_reg.
+DSP Report: register trunc_ln241_8_reg_1719_reg is absorbed into DSP trunc_ln241_8_reg_1719_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1555/tmp_product is absorbed into DSP trunc_ln241_8_reg_1719_reg.
+DSP Report: Generating DSP trunc_ln241_9_reg_1724_reg, operation Mode is: (A2*B2)'.
+DSP Report: register exp_res_9_reg_1663_reg is absorbed into DSP trunc_ln241_9_reg_1724_reg.
+DSP Report: register inv_exp_sum_reg_1674_reg is absorbed into DSP trunc_ln241_9_reg_1724_reg.
+DSP Report: register trunc_ln241_9_reg_1724_reg is absorbed into DSP trunc_ln241_9_reg_1724_reg.
+DSP Report: operator mul_18s_16s_26_1_1_U1556/tmp_product is absorbed into DSP trunc_ln241_9_reg_1724_reg.
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB4 has port if_fifo_cap[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB4 has port if_fifo_cap[0] driven by constant 1
+RAM ("\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18/exp_table_U/ram_reg ") is too shallow (depth = 1024) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 16 for RAM "\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18/exp_table_U/ram_reg "
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\shl_ln138_reg_1228_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\x_10_reg_1233_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\fexp_32ns_32ns_32_13_full_dsp_1_U1543/myproject_axi_fexp_32ns_32ns_32_13_full_dsp_1_ip_u/inst /i_synth/\EXP_OP.i_sp_or_dp.OP/i_recombination/result_delay/i_pipe/opt_has_pipe.first_q_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\fpext_32ns_64_2_no_dsp_1_U1542/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/ap_done_reg_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\fexp_32ns_32ns_32_13_full_dsp_1_U1543/din1_buf1_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\tmp_60_reg_1238_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\tmp_60_reg_1238_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\fpext_32ns_64_2_no_dsp_1_U1542/din0_buf1_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\tmp_237_reg_1244_reg[0] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\select_ln159_reg_1269_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\tmp_237_reg_1244_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\tmp_237_reg_1244_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\bit_select_i_i_i_reg_1213_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\x_10_reg_1233_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\softmax_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_U0/grp_softmax_stable_array_array_ap_fixed_16_6_5_3_0_10u_softmax_config23_s_fu_18 /grp_init_exp_table_ap_ufixed_36_17_5_3_0_softmax_config23_s_fu_616/\fexp_32ns_32ns_32_13_full_dsp_1_U1543/din1_buf1_reg[27] )

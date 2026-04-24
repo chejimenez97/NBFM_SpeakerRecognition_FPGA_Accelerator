@@ -1,0 +1,152 @@
+
+
+================================================================
+== Vitis HLS Report for 'myproject_axi_Pipeline_VITIS_LOOP_58_2'
+================================================================
+* Date:           Mon Mar 30 19:10:58 2026
+
+* Version:        2023.2 (Build 4023990 on Oct 11 2023)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynquplus
+* Target device:  xck26-sfvc784-2LV-c
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  1.677 ns|     1.35 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |       12|       12|  60.000 ns|  60.000 ns|   12|   12|       no|
+    +---------+---------+-----------+-----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_58_2  |       10|       10|         2|          1|          1|    10|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|      42|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      45|    -|
+|Register         |        -|     -|       8|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|       8|      87|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |      288|  1248|  234240|  117120|   64|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name       | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |add_ln58_fu_124_p2         |         +|   0|  0|  12|           4|           1|
+    |ap_block_pp0_stage0_01001  |       and|   0|  0|   2|           1|           1|
+    |ap_block_pp0_stage0_11001  |       and|   0|  0|   2|           1|           1|
+    |axi_out_last_fu_135_p2     |      icmp|   0|  0|  12|           4|           4|
+    |icmp_ln58_fu_118_p2        |      icmp|   0|  0|  12|           4|           4|
+    |ap_enable_pp0              |       xor|   0|  0|   2|           1|           2|
+    +---------------------------+----------+----+---+----+------------+------------+
+    |Total                      |          |   0|  0|  42|          15|          13|
+    +---------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------------+----+-----------+-----+-----------+
+    |           Name          | LUT| Input Size| Bits| Total Bits|
+    +-------------------------+----+-----------+-----+-----------+
+    |ap_done_int              |   9|          2|    1|          2|
+    |ap_enable_reg_pp0_iter1  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i       |   9|          2|    4|          8|
+    |i_8_fu_62                |   9|          2|    4|          8|
+    |out_stream_TDATA_blk_n   |   9|          2|    1|          2|
+    +-------------------------+----+-----------+-----+-----------+
+    |Total                    |  45|         10|   11|         22|
+    +-------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------------------+---+----+-----+-----------+
+    |           Name          | FF| LUT| Bits| Const Bits|
+    +-------------------------+---+----+-----+-----------+
+    |ap_CS_fsm                |  1|   0|    1|          0|
+    |ap_done_reg              |  1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1  |  1|   0|    1|          0|
+    |axi_out_last_reg_161     |  1|   0|    1|          0|
+    |i_8_fu_62                |  4|   0|    4|          0|
+    +-------------------------+---+----+-----+-----------+
+    |Total                    |  8|   0|    8|          0|
+    +-------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------+-----+-----+------------+----------------------------------------+--------------+
+|     RTL Ports     | Dir | Bits|  Protocol  |              Source Object             |    C Type    |
++-------------------+-----+-----+------------+----------------------------------------+--------------+
+|ap_clk             |   in|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|ap_rst             |   in|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|ap_start           |   in|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|ap_done            |  out|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|ap_idle            |  out|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|ap_ready           |  out|    1|  ap_ctrl_hs|  myproject_axi_Pipeline_VITIS_LOOP_58_2|  return value|
+|out_stream_TREADY  |   in|    1|        axis|                     out_stream_V_data_V|       pointer|
+|out_stream_TDATA   |  out|   16|        axis|                     out_stream_V_data_V|       pointer|
+|result_address0    |  out|    4|   ap_memory|                                  result|         array|
+|result_ce0         |  out|    1|   ap_memory|                                  result|         array|
+|result_q0          |   in|   16|   ap_memory|                                  result|         array|
+|out_stream_TVALID  |  out|    1|        axis|                     out_stream_V_dest_V|       pointer|
+|out_stream_TDEST   |  out|    1|        axis|                     out_stream_V_dest_V|       pointer|
+|out_stream_TKEEP   |  out|    2|        axis|                     out_stream_V_keep_V|       pointer|
+|out_stream_TSTRB   |  out|    2|        axis|                     out_stream_V_strb_V|       pointer|
+|out_stream_TUSER   |  out|    2|        axis|                     out_stream_V_user_V|       pointer|
+|out_stream_TLAST   |  out|    1|        axis|                     out_stream_V_last_V|       pointer|
+|out_stream_TID     |  out|    2|        axis|                       out_stream_V_id_V|       pointer|
++-------------------+-----+-----+------------+----------------------------------------+--------------+
+

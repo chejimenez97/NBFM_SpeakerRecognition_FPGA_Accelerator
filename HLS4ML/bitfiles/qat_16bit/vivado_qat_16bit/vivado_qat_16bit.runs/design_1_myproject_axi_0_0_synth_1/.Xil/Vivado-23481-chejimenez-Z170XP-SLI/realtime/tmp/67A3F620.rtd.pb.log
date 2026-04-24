@@ -1,0 +1,140 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-4471] merging register 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth_fu_36/ap_CS_fsm_reg[0:0]' into 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth_fu_22/ap_CS_fsm_reg[0:0]' [/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/qat_16bit/vivado_qat_16bit/vivado_qat_16bit.gen/sources_1/bd/design_1/ipshared/2cc9/hdl/verilog/myproject_axi_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth.v:92]
+INFO: [Synth 8-4471] merging register 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/ap_CS_fsm_reg[0:0]' into 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth_fu_22/ap_CS_fsm_reg[0:0]' [/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/qat_16bit/vivado_qat_16bit/vivado_qat_16bit.gen/sources_1/bd/design_1/ipshared/2cc9/hdl/verilog/myproject_axi_normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_s.v:272]
+INFO: [Synth 8-6904] The RAM "myproject_axi_myproject__GCB5/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg" of size (depth=39 x width=128) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "myproject_axi_myproject__GCB5/layer26_out_U/U_myproject_axi_fifo_w128_d70_A_ram/mem_reg" of size (depth=69 x width=128) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[7] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[6] driven by constant 1
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[5] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[2] driven by constant 1
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[1] driven by constant 1
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port if_fifo_cap[0] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[9] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[8] driven by constant 1
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[7] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[6] driven by constant 1
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[5] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[4] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[3] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[2] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[1] driven by constant 0
+WARNING: [Synth 8-3917] design myproject_axi_myproject__GCB5 has port O160[0] driven by constant 0
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[9] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[8] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[7] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[6] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[5] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[4] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[3] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[2] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[1] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_num_data_valid[0] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[9] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[8] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[7] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[6] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[5] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[4] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[3] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[2] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[1] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer9_out_fifo_cap[0] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[9] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[8] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[7] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[6] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[5] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[4] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[3] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[2] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[1] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[0] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[9] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[8] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[7] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[6] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[5] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[4] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[3] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[2] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[1] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[0] in module myproject_axi_relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[9] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[8] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[7] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[6] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[5] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[4] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[3] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[2] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[1] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_num_data_valid[0] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[9] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[8] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[7] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[6] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[5] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[4] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[3] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[2] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[1] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer10_out_fifo_cap[0] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[6] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[5] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[4] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[3] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[2] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[1] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_num_data_valid[0] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[6] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[5] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[4] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[3] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[2] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[1] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+WARNING: [Synth 8-7129] Port layer11_out_fifo_cap[0] in module myproject_axi_pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_s is either unconnected or has no load
+RAM ("myproject_axi_myproject__GCB5/layer7_out_U/U_myproject_axi_fifo_w320_d320_A_ram/mem_reg") is too shallow (depth = 319) to use URAM. Choosing BRAM instead of URAM 
+RAM ("myproject_axi_myproject__GCB5/layer9_out_U/U_myproject_axi_fifo_w456_d320_A_ram/mem_reg") is too shallow (depth = 319) to use URAM. Choosing BRAM instead of URAM 
+RAM ("myproject_axi_myproject__GCB5/layer10_out_U/U_myproject_axi_fifo_w128_d320_A_ram/mem_reg") is too shallow (depth = 319) to use URAM. Choosing BRAM instead of URAM 
+INFO: [Synth 8-6904] The RAM "myproject_axi_myproject__GCB5/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg" of size (depth=39 x width=128) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-6904] The RAM "myproject_axi_myproject__GCB5/layer26_out_U/U_myproject_axi_fifo_w128_d70_A_ram/mem_reg" of size (depth=69 x width=128) is automatically implemented using LUTRAM. BRAM implementation would be inefficient 
+INFO: [Synth 8-3886] merging instance 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/mul_ln73_reg_84635_reg[0]' (FDE) to 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/mul_ln42_1_reg_84647_reg[0]'
+INFO: [Synth 8-3886] merging instance 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/mul_ln42_1_reg_84647_reg[1]' (FDE) to 'normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/mul_ln42_1_reg_84647_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/mul_ln42_1_reg_84647_reg[0] )
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_9_reg_2126_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_107_reg_2145_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_10_reg_2169_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_112_reg_2188_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_reg_2040_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_97_reg_2059_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_8_reg_2083_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_102_reg_2102_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_13_reg_2298_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_127_reg_2317_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_14_reg_2341_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_132_reg_2360_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_11_reg_2212_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_117_reg_2231_reg[0]'
+INFO: [Synth 8-3886] merging instance 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/add_ln52_12_reg_2255_reg[15]' (FDE) to 'relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/tmp_122_reg_2274_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0/call_ln52_shift_line_buffer_array_ap_ufixed_16_6_4_0_0_8u_config11_s_fu_266/\ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth_fu_22/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (pooling2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config11_U0/ap_done_reg_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/ap_done_reg_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadBottomWidth_fu_36/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (relu_array_ap_fixed_8u_array_ap_ufixed_16_6_4_0_0_8u_relu_config10_U0/\ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\normalize_array_ap_fixed_8u_array_ap_fixed_57_28_5_3_0_8u_config9_U0/ap_done_reg_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_8u_config26_Pipeline_PadTopWidth_fu_22/ap_CS_fsm_reg[0] )
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[15]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[31]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[47]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[63]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[79]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[95]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3886] merging instance 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[111]' (FDRE) to 'i_14_15/layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_14_15/\layer11_out_U/U_myproject_axi_fifo_w128_d40_A_ram/mem_reg_reg[127] )
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[15]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[31]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[31]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[47]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[47]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[63]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[63]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[79]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[79]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[95]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[95]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[111]'
+INFO: [Synth 8-3886] merging instance 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[111]' (FDE) to 'zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[127]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_U0/grp_zeropad2d_cl_array_array_ap_ufixed_16_6_4_0_0_8u_config26_Pipeline_PadMain_fu_28/reg_56_reg[127] )

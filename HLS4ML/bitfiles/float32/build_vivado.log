@@ -1,0 +1,279 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 30 21:55:42 2026
+# Process ID: 19921
+# Current directory: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator
+# Command line: vivado -mode batch -source /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.tcl -notrace -log /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.log -journal /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.jou
+# Log file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.log
+# Journal file: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.jou
+# Running On: chejimenez-Z170XP-SLI, OS: Linux, CPU Frequency: 3900.045 MHz, CPU Physical cores: 4, Host memory: 8273 MB
+#-----------------------------------------------------------
+source /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/build_vivado.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1299.828 ; gain = 0.027 ; free physical = 1187 ; free virtual = 11187
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/hls4ml_output_compact/float_32/myproject_prj/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [BD::TCL 103-2003] Currently there is no design <design_1> in project, so creating one...
+Wrote  : </home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [BD::TCL 103-2004] Making design <design_1> as current_bd_design.
+INFO: [BD::TCL 103-2005] Currently the variable <design_name> is equal to "design_1".
+INFO: [BD::TCL 103-2011] Checking if the following IPs exist in the project's IP catalog:  
+xilinx.com:ip:zynq_ultra_ps_e:3.5 xilinx.com:ip:proc_sys_reset:5.0 xilinx.com:ip:xlconcat:2.1 xilinx.com:ip:axi_dma:7.1 xilinx.com:hls:myproject_axi:1.0  .
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+Slave segment '/float32_accel/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/zynq_ultra_ps_e_0/Data' at <0xA000_0000 [ 64K ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/float32_accel/axi_dma_0/Data_MM2S' at <0x0000_0000 [ 2G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI' is being assigned into address space '/float32_accel/axi_dma_0/Data_MM2S' at <0xC000_0000 [ 512M ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/float32_accel/axi_dma_0/Data_S2MM' at <0x0000_0000 [ 2G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI' is being assigned into address space '/float32_accel/axi_dma_0/Data_S2MM' at <0xC000_0000 [ 512M ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_LOW' is being assigned into address space '/float32_accel/axi_dma_0/Data_SG' at <0x0000_0000 [ 2G ]>.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_QSPI' is being assigned into address space '/float32_accel/axi_dma_0/Data_SG' at <0xC000_0000 [ 512M ]>.
+WARNING: [BD 41-1627] Requested range of <32G> for slave segments </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH> exceeds the range of the largest address space in assignment request </float32_accel/axi_dma_0/Data_MM2S>. Shrinking the initial requested range to <4G>
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/float32_accel/axi_dma_0/Data_MM2S' at <0x8_0000_0000 [ 4G ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/float32_accel/axi_dma_0/Data_MM2S' at <0xFF00_0000 [ 16M ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/float32_accel/axi_dma_0/Data_S2MM' at <0x8_0000_0000 [ 4G ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/float32_accel/axi_dma_0/Data_S2MM' at <0xFF00_0000 [ 16M ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+WARNING: [BD 41-1627] Requested range of <32G> for slave segments </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH> exceeds the range of the largest address space in assignment request </float32_accel/axi_dma_0/Data_SG>. Shrinking the initial requested range to <4G>
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH' is being assigned into address space '/float32_accel/axi_dma_0/Data_SG' at <0x8_0000_0000 [ 4G ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Slave segment '/zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM' is being assigned into address space '/float32_accel/axi_dma_0/Data_SG' at <0xFF00_0000 [ 16M ]>.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM> is excluded from all addressing paths.
+WARNING: [BD 41-1629] Slave segment </zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH> is excluded from all addressing paths.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM'
+WARNING: [BD 5-699] No address segments matched 'get_bd_addr_segs -of_object /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH'
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_DDR_HIGH from address space /float32_accel/axi_dma_0/Data_SG.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_MM2S.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_S2MM.
+Excluding slave segment /zynq_ultra_ps_e_0/SAXIGP2/HP0_LPS_OCM from address space /float32_accel/axi_dma_0/Data_SG.
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /axi_interconnect_0/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /axi_interconnect_0/s00_couplers/auto_ds/S_AXI(0) and /zynq_ultra_ps_e_0/M_AXI_HPM0_FPD(16)
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_interconnect_1/xbar/M00_AXI(0)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /zynq_ultra_ps_e_0/S_AXI_HP0_FPD(1) and /axi_interconnect_1/xbar/M00_AXI(0)
+Wrote  : </home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_rid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_bid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to pin: '/axi_interconnect_1/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to pin: '/axi_interconnect_1/M00_AXI_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_rid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_bid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to pin: '/axi_interconnect_1/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to pin: '/axi_interconnect_1/M00_AXI_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_rid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_bid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to pin: '/axi_interconnect_1/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to pin: '/axi_interconnect_1/M00_AXI_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_rid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_interconnect_1/xbar/m_axi_bid'(2) to pin: '/axi_interconnect_1/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_awid'(6) to pin: '/axi_interconnect_1/M00_AXI_awid'(2) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/zynq_ultra_ps_e_0/saxigp2_arid'(6) to pin: '/axi_interconnect_1/M00_AXI_arid'(2) - Only lower order bits will be connected.
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+INFO: [xilinx.com:ip:zynq_ultra_ps_e:3.5-0] design_1_zynq_ultra_ps_e_0_0: 
+Changes in your design (including the PCW configuration settings) are not automatically exported from Vivado to Xilinx's SDK, Petalinux or Yocto.
+This is by design to avoid disrupting existing embedded development efforts. To have any changes of your design taking effect in the embedded software flow please export your
+design by going through Vivado's main menu, click on File, then Export finally select Export Hardware, please ensure you click on the Include BitStream option.
+The auto-generated HDF file is all you need to import in Xilinx's SDK, Petalinux or Yocto for your changes to be reflected in the Embedded Software Flow.
+For more information, please consult PG201, section: Exporting PCW Settings to Embedded Software Flows
+INFO: [PSU-0] Address Range of DDR (0x7ff00000 to 0x7fffffff) is reserved by PMU for internal purpose.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_HPM0_FPD'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0_FPD'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block zynq_ultra_ps_e_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block float32_accel/axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block float32_accel/myproject_axi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/ip/design_1_auto_us_1/design_1_auto_us_1_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s01_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file '/home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/ip/design_1_auto_us_2/design_1_auto_us_2_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s02_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+Exporting to file /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.gen/sources_1/bd/design_1/synth/design_1.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_ds_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_us_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_us_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_auto_us_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_dma_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_myproject_axi_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_xbar_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_zynq_ultra_ps_e_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_ds_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_pc_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_us_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_us_1
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_auto_us_2
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_dma_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_myproject_axi_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_xbar_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_zynq_ultra_ps_e_0_0
+[Mon Mar 30 21:56:34 2026] Launched design_1_xbar_0_synth_1, design_1_auto_us_2_synth_1, design_1_auto_us_1_synth_1, design_1_auto_us_0_synth_1, design_1_axi_dma_0_0_synth_1, design_1_proc_sys_reset_0_0_synth_1, design_1_myproject_axi_0_0_synth_1, design_1_auto_ds_0_synth_1, design_1_auto_pc_0_synth_1, design_1_zynq_ultra_ps_e_0_0_synth_1, synth_1...
+Run output will be captured here:
+design_1_xbar_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_xbar_0_synth_1/runme.log
+design_1_auto_us_2_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_auto_us_2_synth_1/runme.log
+design_1_auto_us_1_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_auto_us_1_synth_1/runme.log
+design_1_auto_us_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_auto_us_0_synth_1/runme.log
+design_1_axi_dma_0_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_axi_dma_0_0_synth_1/runme.log
+design_1_proc_sys_reset_0_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_proc_sys_reset_0_0_synth_1/runme.log
+design_1_myproject_axi_0_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_myproject_axi_0_0_synth_1/runme.log
+design_1_auto_ds_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_auto_ds_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_auto_pc_0_synth_1/runme.log
+design_1_zynq_ultra_ps_e_0_0_synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/design_1_zynq_ultra_ps_e_0_0_synth_1/runme.log
+synth_1: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/synth_1/runme.log
+[Mon Mar 30 21:56:34 2026] Launched impl_1...
+Run output will be captured here: /home/chejimenez/GitHub/NBFM_SpeakerRecognition_FPGA_Accelerator/bitfiles/float32/vivado_float32/vivado_float32.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 2015.387 ; gain = 263.078 ; free physical = 525 ; free virtual = 10738
+[Mon Mar 30 21:56:34 2026] Waiting for impl_1 to finish...
