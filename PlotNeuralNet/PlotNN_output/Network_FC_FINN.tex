@@ -1,5 +1,5 @@
 
-\documentclass[border=18pt, multi, tikz]{standalone} 
+\documentclass[border=8pt, multi, tikz]{standalone} 
 \usepackage{import}
 \subimport{../layers/}{init}
 \usetikzlibrary{positioning}
@@ -13,10 +13,6 @@
 \def\FcReluColor{rgb:blue,5;red,5;white,4}
 \def\SoftmaxColor{rgb:magenta,5;black,7}   
 \def\SumColor{rgb:blue,5;green,15}
-
-% Add these lines to change font size
-\usepackage{relsize}
-\tikzset{every node/.append style={font=\Large}}  % Options: \large, \Large, \LARGE, \huge, \Huge
 
 \newcommand{\copymidarrow}{\tikz \draw[-Stealth,line width=0.8mm,draw={rgb:blue,4;red,1;green,1;black,3}] (-0.3,0) -- ++(0.3,0);}
 
@@ -44,7 +40,7 @@
         name=linear,
         caption=Linear,
         xlabel={{1280, }},
-        zlabel=,
+        zlabel=1280,
         fill=\ConvColor,
         height=32,
         width=3,
@@ -58,8 +54,8 @@
     {RightBandedBox={
         name=fc1,
         caption=FC1,
-        xlabel={{ "~~~256 256" , }},
-        zlabel=,
+        xlabel={{ 256, 256 }},
+        zlabel=256,
         fill=\ConvColor,
         bandfill=\ConvReluColor,
         height=22,
@@ -87,7 +83,7 @@
         name=fc2,
         caption=FC2,
         xlabel={{ 64, 64 }},
-        zlabel=,
+        zlabel=64,
         fill=\ConvColor,
         bandfill=\ConvReluColor,
         height=10,
@@ -114,8 +110,8 @@
     {Box={
         name=soft1,
         caption= \\~\\Spkr.\\ Recognition,
-        xlabel={{10,"dummy"}},
-        zlabel=,
+        xlabel={{" ","dummy"}},
+        zlabel=10,
         fill=\SoftmaxColor,
         opacity=0.8,
         height=3,
